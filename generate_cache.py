@@ -72,7 +72,7 @@ def main():
     for i, package in enumerate(packages):
         print(f"Deriving database specs for {package}")
         with db.read_transaction():
-            specs[package] = db.query(package, installed=False, in_buildcache=True)
+            db.query(package, installed=False, in_buildcache=True)
     end = time.time()
     import IPython
 
