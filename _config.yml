@@ -1,0 +1,58 @@
+# Site Settings
+lang: en
+
+title: Spack Cache
+
+url: ""
+baseurl: "/cache"
+
+permalink: /:year-:month-:day-:title/
+
+# social media
+twitter: us_rse
+github_org: spack
+github_repo: cache
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+
+exclude: 
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+livereload: true
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      show_sidebar: true
+  - 
+    scope:
+      path: "_cache"
+      type: "cache"
+    values:
+      layout: cache
+
+
+markdown: kramdown
+highlighter: rouge
+
+# Collections
+collections:
+  cache:
+    output: true
+    permalink: /package/:path/

@@ -1,0 +1,442 @@
+---
+title: "perl"
+layout: cache
+category: package
+meta: {"versions": ["5.26.2", "5.30.0", "5.30.1", "5.30.2", "5.30.3", "5.32.0", "5.32.1", "5.34.0"], "compilers": ["apple-clang@12.0.0", "gcc@10.3.0", "gcc@4.8.5", "gcc@6.4.0", "gcc@7.3.0", "gcc@7.3.1", "gcc@7.4.0", "gcc@7.5.0", "gcc@8.1.0", "gcc@8.2.1", "gcc@8.3.1", "gcc@8.4.1", "gcc@9.3.0", "intel@19.1.3.304", "xl@16.1"]}
+spec_files: 
+ - spec-0.json
+ - spec-1.json
+ - spec-2.json
+ - spec-3.json
+ - spec-4.json
+ - spec-5.json
+ - spec-6.json
+ - spec-7.json
+ - spec-8.json
+ - spec-9.json
+ - spec-10.json
+ - spec-11.json
+ - spec-12.json
+ - spec-13.json
+ - spec-14.json
+ - spec-15.json
+ - spec-16.json
+ - spec-17.json
+ - spec-18.json
+ - spec-19.json
+ - spec-20.json
+ - spec-21.json
+ - spec-22.json
+ - spec-23.json
+ - spec-24.json
+ - spec-25.json
+ - spec-26.json
+ - spec-27.json
+ - spec-28.json
+ - spec-29.json
+ - spec-30.json
+ - spec-31.json
+ - spec-32.json
+ - spec-33.json
+ - spec-34.json
+ - spec-35.json
+ - spec-36.json
+ - spec-37.json
+ - spec-38.json
+ - spec-39.json
+ - spec-40.json
+ - spec-41.json
+ - spec-42.json
+ - spec-43.json
+ - spec-44.json
+ - spec-45.json
+ - spec-46.json
+ - spec-47.json
+ - spec-48.json
+ - spec-49.json
+ - spec-50.json
+ - spec-51.json
+ - spec-52.json
+ - spec-53.json
+ - spec-54.json
+ - spec-55.json
+ - spec-56.json
+ - spec-57.json
+ - spec-58.json
+ - spec-59.json
+ - spec-60.json
+ - spec-61.json
+ - spec-62.json
+ - spec-63.json
+ - spec-64.json
+ - spec-65.json
+ - spec-66.json
+ - spec-67.json
+ - spec-68.json
+ - spec-69.json
+ - spec-70.json
+ - spec-71.json
+ - spec-72.json
+ - spec-73.json
+ - spec-74.json
+ - spec-75.json
+ - spec-76.json
+ - spec-77.json
+ - spec-78.json
+ - spec-79.json
+ - spec-80.json
+ - spec-81.json
+ - spec-82.json
+ - spec-83.json
+ - spec-84.json
+ - spec-85.json
+ - spec-86.json
+ - spec-87.json
+ - spec-88.json
+ - spec-89.json
+ - spec-90.json
+ - spec-91.json
+ - spec-92.json
+ - spec-93.json
+ - spec-94.json
+ - spec-95.json
+ - spec-96.json
+ - spec-97.json
+ - spec-98.json
+ - spec-99.json
+ - spec-100.json
+ - spec-101.json
+ - spec-102.json
+ - spec-103.json
+ - spec-104.json
+ - spec-105.json
+ - spec-106.json
+ - spec-107.json
+ - spec-108.json
+ - spec-109.json
+ - spec-110.json
+ - spec-111.json
+ - spec-112.json
+ - spec-113.json
+ - spec-114.json
+ - spec-115.json
+ - spec-116.json
+ - spec-117.json
+ - spec-118.json
+ - spec-119.json
+ - spec-120.json
+ - spec-121.json
+ - spec-122.json
+ - spec-123.json
+ - spec-124.json
+ - spec-125.json
+ - spec-126.json
+ - spec-127.json
+ - spec-128.json
+ - spec-129.json
+ - spec-130.json
+ - spec-131.json
+ - spec-132.json
+ - spec-133.json
+ - spec-134.json
+ - spec-135.json
+ - spec-136.json
+ - spec-137.json
+ - spec-138.json
+ - spec-139.json
+ - spec-140.json
+ - spec-141.json
+ - spec-142.json
+ - spec-143.json
+ - spec-144.json
+ - spec-145.json
+ - spec-146.json
+ - spec-147.json
+ - spec-148.json
+ - spec-149.json
+ - spec-150.json
+ - spec-151.json
+ - spec-152.json
+ - spec-153.json
+ - spec-154.json
+ - spec-155.json
+ - spec-156.json
+ - spec-157.json
+ - spec-158.json
+ - spec-159.json
+ - spec-160.json
+ - spec-161.json
+ - spec-162.json
+ - spec-163.json
+ - spec-164.json
+ - spec-165.json
+ - spec-166.json
+ - spec-167.json
+ - spec-168.json
+ - spec-169.json
+ - spec-170.json
+ - spec-171.json
+ - spec-172.json
+ - spec-173.json
+ - spec-174.json
+ - spec-175.json
+ - spec-176.json
+ - spec-177.json
+ - spec-178.json
+ - spec-179.json
+ - spec-180.json
+ - spec-181.json
+ - spec-182.json
+ - spec-183.json
+ - spec-184.json
+ - spec-185.json
+ - spec-186.json
+ - spec-187.json
+ - spec-188.json
+ - spec-189.json
+ - spec-190.json
+ - spec-191.json
+ - spec-192.json
+ - spec-193.json
+ - spec-194.json
+ - spec-195.json
+ - spec-196.json
+ - spec-197.json
+ - spec-198.json
+ - spec-199.json
+ - spec-200.json
+ - spec-201.json
+ - spec-202.json
+ - spec-203.json
+ - spec-204.json
+ - spec-205.json
+ - spec-206.json
+ - spec-207.json
+ - spec-208.json
+ - spec-209.json
+ - spec-210.json
+ - spec-211.json
+ - spec-212.json
+ - spec-213.json
+ - spec-214.json
+ - spec-215.json
+ - spec-216.json
+spec_names:
+ - 'perl@5.32.1%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-x86_64 ^berkeley-db@18.1.40%gcc@8.3.1+cxx~docs+stl patches=b231fcc arch=linux-rhel8-x86_64 ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-x86_64 ^readline@8.1%gcc@8.3.1 arch=linux-rhel8-x86_64'
+ - 'perl@5.32.1%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu20.04-x86_64 ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64 ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64'
+ - 'perl@5.32.1%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%gcc@9.3.0~docs patches=b231fcc arch=linux-ubuntu20.04-x86_64 ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64 ^readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64'
+ - 'perl@5.32.1%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@18.1.40%gcc@8.1.0~docs patches=b231fcc arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib abi=none arch=linux-rhel7-x86_64 ^readline@8.1%gcc@8.1.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.32.1%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-ppc64le ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu20.04-ppc64le ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-ppc64le ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le'
+ - 'perl@5.30.0%gcc@7.3.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-ubuntu18.04-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.32.0%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-x86_64 ^berkeley-db@18.1.40%gcc@8.3.1 arch=linux-rhel8-x86_64 ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^readline@8.0%gcc@8.3.1 arch=linux-rhel8-x86_64'
+ - 'perl@5.32.1%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^berkeley-db@18.1.40%gcc@7.5.0~docs patches=b231fcc arch=linux-ubuntu18.04-ppc64le ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.30.2%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-ppc64le ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-ppc64le ^readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le'
+ - 'perl@5.34.0%gcc@10.3.0+cpanm+shared+threads arch=linux-ubuntu21.04-ppc64le ^berkeley-db@18.1.40%gcc@10.3.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu21.04-ppc64le ^gdbm@1.19%gcc@10.3.0 arch=linux-ubuntu21.04-ppc64le ^ncurses@6.2%gcc@10.3.0~symlinks+termlib abi=none arch=linux-ubuntu21.04-ppc64le ^readline@8.1%gcc@10.3.0 arch=linux-ubuntu21.04-ppc64le'
+ - 'perl@5.32.1%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^berkeley-db@18.1.40%gcc@7.5.0~docs patches=b231fcc arch=linux-ubuntu18.04-ppc64le ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-ppc64le ^readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.32.1%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^berkeley-db@18.1.40%gcc@7.5.0~docs patches=b231fcc arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64 ^readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.32.0%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^berkeley-db@18.1.40%gcc@7.5.0~docs patches=b231fcc arch=linux-ubuntu18.04-ppc64le ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.32.0%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^berkeley-db@18.1.40%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.32.0%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@18.1.40%gcc@8.1.0 arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^readline@8.0%gcc@8.1.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.30.3%gcc@8.3.1+cpanm+shared+threads arch=linux-centos8-ppc64le ^berkeley-db@18.1.40%gcc@8.3.1 arch=linux-centos8-ppc64le ^gdbm@1.18.1%gcc@8.3.1 arch=linux-centos8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-centos8-ppc64le ^readline@8.0%gcc@8.3.1 arch=linux-centos8-ppc64le'
+ - 'perl@5.32.0%gcc@7.3.1+cpanm+shared+threads arch=linux-amzn2-x86_64 ^berkeley-db@18.1.40%gcc@7.3.1~docs patches=b231fcc arch=linux-amzn2-x86_64 ^gdbm@1.18.1%gcc@7.3.1 arch=linux-amzn2-x86_64 ^ncurses@6.2%gcc@7.3.1~symlinks+termlib arch=linux-amzn2-x86_64 ^readline@8.0%gcc@7.3.1 arch=linux-amzn2-x86_64'
+ - 'perl@5.32.0%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^berkeley-db@18.1.40%gcc@7.5.0~docs patches=b231fcc arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.32.0%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-ppc64le ^berkeley-db@18.1.40%gcc@9.3.0~docs patches=b231fcc arch=linux-ubuntu20.04-ppc64le ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-ppc64le ^readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le'
+ - 'perl@5.32.1%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu18.04-ppc64le ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-ppc64le ^readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.32.1%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-ppc64le ^berkeley-db@18.1.40%gcc@9.3.0~docs patches=b231fcc arch=linux-ubuntu20.04-ppc64le ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-ppc64le ^readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le'
+ - 'perl@5.32.0%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@18.1.40%gcc@8.1.0~docs patches=b231fcc arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^readline@8.0%gcc@8.1.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.32.1%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-ppc64le ^berkeley-db@18.1.40%gcc@8.3.1~docs patches=b231fcc arch=linux-rhel8-ppc64le ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-ppc64le ^readline@8.0%gcc@8.3.1 arch=linux-rhel8-ppc64le'
+ - 'perl@5.32.1%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-ppc64le ^berkeley-db@18.1.40%gcc@8.3.1+cxx~docs+stl patches=b231fcc arch=linux-rhel8-ppc64le ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-ppc64le ^readline@8.1%gcc@8.3.1 arch=linux-rhel8-ppc64le'
+ - 'perl@5.32.1%gcc@9.3.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@9.3.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-rhel7-ppc64le ^readline@8.1%gcc@9.3.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.32.1%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64 ^readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.30.3%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@18.1.40%gcc@8.1.0 arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le ^readline@8.0%gcc@8.1.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.34.0%gcc@9.3.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-rhel7-x86_64 ^gdbm@1.19%gcc@9.3.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-rhel7-x86_64 ^readline@8.1%gcc@9.3.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.32.0%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%gcc@9.3.0~docs patches=b231fcc arch=linux-ubuntu20.04-x86_64 ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64'
+ - 'perl@5.32.0%intel@19.1.3.304+cpanm+shared+threads arch=cray-cnl7-haswell ^berkeley-db@18.1.40%intel@19.1.3.304+cxx~docs+stl patches=b231fcc arch=cray-cnl7-haswell ^gdbm@1.18.1%intel@19.1.3.304 arch=cray-cnl7-haswell ^ncurses@6.2%intel@19.1.3.304~symlinks+termlib abi=none arch=cray-cnl7-haswell ^readline@8.1%intel@19.1.3.304 arch=cray-cnl7-haswell'
+ - 'perl@5.32.1%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@18.1.40%gcc@8.1.0~docs patches=b231fcc arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^readline@8.0%gcc@8.1.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.32.0%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64'
+ - 'perl@5.32.1%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%gcc@9.3.0~docs patches=b231fcc arch=linux-ubuntu20.04-x86_64 ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64 ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64'
+ - 'perl@5.32.0%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-ppc64le ^berkeley-db@18.1.40%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-ppc64le ^readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le'
+ - 'perl@5.32.0%gcc@4.8.5+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@18.1.40%gcc@4.8.5 arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@4.8.5 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-rhel7-x86_64 ^readline@8.0%gcc@4.8.5 arch=linux-rhel7-x86_64'
+ - 'perl@5.32.1%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-ppc64le ^berkeley-db@18.1.40%gcc@8.3.1~docs patches=b231fcc arch=linux-rhel8-ppc64le ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-ppc64le ^readline@8.1%gcc@8.3.1 arch=linux-rhel8-ppc64le'
+ - 'perl@5.32.0%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-ppc64le ^berkeley-db@18.1.40%gcc@8.3.1 arch=linux-rhel8-ppc64le ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-ppc64le ^readline@8.0%gcc@8.3.1 arch=linux-rhel8-ppc64le'
+ - 'perl@5.32.1%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%gcc@9.3.0~docs patches=b231fcc arch=linux-ubuntu20.04-x86_64 ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64'
+ - 'perl@5.34.0%gcc@8.4.1+cpanm+shared+threads arch=linux-rhel8-ppc64le ^berkeley-db@18.1.40%gcc@8.4.1+cxx~docs+stl patches=b231fcc arch=linux-rhel8-ppc64le ^gdbm@1.19%gcc@8.4.1 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.4.1~symlinks+termlib abi=none arch=linux-rhel8-ppc64le ^readline@8.1%gcc@8.4.1 arch=linux-rhel8-ppc64le'
+ - 'perl@5.30.3%gcc@7.3.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^gdbm@1.18.1%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^readline@8.0%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.32.1%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu18.04-x86_64 ^gdbm@1.19%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64 ^readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.32.1%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^berkeley-db@18.1.40%gcc@7.5.0~docs patches=b231fcc arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.30.3%gcc@7.3.0+cpanm+shared+threads arch=linux-rhel8-x86_64 ^berkeley-db@6.2.32%gcc@7.3.0 arch=linux-rhel8-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel8-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-rhel8-x86_64'
+ - 'perl@5.30.1%gcc@7.3.0+cpanm+shared+threads arch=linux-centos8-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-centos8-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos8-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-centos8-x86_64'
+ - 'perl@5.32.1%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu20.04-x86_64 ^gdbm@1.19%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64 ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64'
+ - 'perl@5.30.3%gcc@7.3.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@6.2.32%gcc@7.3.0 arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.32.1%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^berkeley-db@18.1.40%gcc@7.5.0~docs patches=b231fcc arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64 ^readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.30.3%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-ppc64le ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-ppc64le ^readline@8.0%gcc@8.3.1 arch=linux-rhel8-ppc64le'
+ - 'perl@5.32.1%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^berkeley-db@18.1.40%gcc@7.5.0~docs patches=b231fcc arch=linux-ubuntu18.04-ppc64le ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-ppc64le ^readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.32.1%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@18.1.40%gcc@8.1.0+cxx~docs+stl patches=b231fcc arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib abi=none arch=linux-rhel7-ppc64le ^readline@8.1%gcc@8.1.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.32.1%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-x86_64 ^berkeley-db@18.1.40%gcc@8.3.1+cxx~docs+stl patches=b231fcc arch=linux-rhel8-x86_64 ^gdbm@1.19%gcc@8.3.1 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-x86_64 ^readline@8.1%gcc@8.3.1 arch=linux-rhel8-x86_64'
+ - 'perl@5.32.0%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-ppc64le ^berkeley-db@18.1.40%gcc@8.3.1~docs patches=b231fcc arch=linux-rhel8-ppc64le ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-ppc64le ^readline@8.0%gcc@8.3.1 arch=linux-rhel8-ppc64le'
+ - 'perl@5.32.1%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-ppc64le ^berkeley-db@18.1.40%gcc@9.3.0~docs patches=b231fcc arch=linux-ubuntu20.04-ppc64le ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-ppc64le ^readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le'
+ - 'perl@5.32.1%gcc@9.3.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-rhel7-x86_64 ^gdbm@1.19%gcc@9.3.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-rhel7-x86_64 ^readline@8.1%gcc@9.3.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.30.3%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^berkeley-db@6.2.32%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.32.1%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-x86_64 ^berkeley-db@18.1.40%gcc@8.3.1~docs patches=b231fcc arch=linux-rhel8-x86_64 ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^readline@8.0%gcc@8.3.1 arch=linux-rhel8-x86_64'
+ - 'perl@5.30.0%gcc@7.3.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^gdbm@1.18.1%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-ubuntu18.04-ppc64le ^readline@8.0%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.34.0%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu18.04-x86_64 ^gdbm@1.19%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64 ^readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.32.1%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@18.1.40%gcc@8.1.0~docs patches=b231fcc arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib abi=none arch=linux-rhel7-x86_64 ^readline@8.0%gcc@8.1.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.30.1%gcc@4.8.5+cpanm+shared+threads arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@4.8.5 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-rhel7-ppc64le ^readline@8.0%gcc@4.8.5 arch=linux-rhel7-ppc64le'
+ - 'perl@5.32.0%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^berkeley-db@18.1.40%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.32.0%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@18.1.40%gcc@8.1.0~docs patches=b231fcc arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le ^readline@8.0%gcc@8.1.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.32.1%gcc@7.3.1+cpanm+shared+threads arch=linux-amzn2-x86_64 ^berkeley-db@18.1.40%gcc@7.3.1~docs patches=b231fcc arch=linux-amzn2-x86_64 ^gdbm@1.18.1%gcc@7.3.1 arch=linux-amzn2-x86_64 ^ncurses@6.2%gcc@7.3.1~symlinks+termlib arch=linux-amzn2-x86_64 ^readline@8.0%gcc@7.3.1 arch=linux-amzn2-x86_64'
+ - 'perl@5.34.0%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu20.04-x86_64 ^gdbm@1.19%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64 ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64'
+ - 'perl@5.34.0%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu18.04-ppc64le ^gdbm@1.19%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-ppc64le ^readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.30.2%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64 ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64'
+ - 'perl@5.32.0%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-x86_64 ^berkeley-db@18.1.40%gcc@8.3.1~docs patches=b231fcc arch=linux-rhel8-x86_64 ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^readline@8.0%gcc@8.3.1 arch=linux-rhel8-x86_64'
+ - 'perl@5.32.1%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-x86_64 ^berkeley-db@18.1.40%gcc@8.3.1~docs patches=b231fcc arch=linux-rhel8-x86_64 ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-x86_64 ^readline@8.0%gcc@8.3.1 arch=linux-rhel8-x86_64'
+ - 'perl@5.32.1%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu18.04-ppc64le ^gdbm@1.19%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-ppc64le ^readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.32.1%gcc@9.3.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@9.3.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-rhel7-x86_64 ^readline@8.1%gcc@9.3.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.30.0%gcc@7.4.0+cpanm+shared+threads arch=linux-ubuntu18.04-aarch64 ^gdbm@1.18.1%gcc@7.4.0 arch=linux-ubuntu18.04-aarch64 ^ncurses@6.1%gcc@7.4.0~symlinks~termlib arch=linux-ubuntu18.04-aarch64 ^readline@8.0%gcc@7.4.0 arch=linux-ubuntu18.04-aarch64'
+ - 'perl@5.30.3%gcc@4.8.5+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@6.2.32%gcc@4.8.5 arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@4.8.5 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-rhel7-x86_64 ^readline@8.0%gcc@4.8.5 arch=linux-rhel7-x86_64'
+ - 'perl@5.30.3%gcc@7.3.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^berkeley-db@6.2.32%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.32.1%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@18.1.40%gcc@8.1.0+cxx~docs+stl patches=b231fcc arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib abi=none arch=linux-rhel7-x86_64 ^readline@8.1%gcc@8.1.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.32.1%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-x86_64 ^berkeley-db@18.1.40%gcc@8.3.1~docs patches=b231fcc arch=linux-rhel8-x86_64 ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-x86_64 ^readline@8.1%gcc@8.3.1 arch=linux-rhel8-x86_64'
+ - 'perl@5.30.1%gcc@7.3.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.30.1%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-ppc64le ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-ppc64le ^readline@8.0%gcc@8.3.1 arch=linux-rhel8-ppc64le'
+ - 'perl@5.32.0%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@18.1.40%gcc@8.1.0 arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le ^readline@8.0%gcc@8.1.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.30.3%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@6.2.32%gcc@8.1.0 arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^readline@8.0%gcc@8.1.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.30.1%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-x86_64 ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-x86_64 ^ncurses@6.1%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^readline@8.0%gcc@8.3.1 arch=linux-rhel8-x86_64'
+ - 'perl@5.30.3%gcc@4.8.5+cpanm+shared+threads arch=linux-centos7-ppc64le ^berkeley-db@6.2.32%gcc@4.8.5 arch=linux-centos7-ppc64le ^gdbm@1.18.1%gcc@4.8.5 arch=linux-centos7-ppc64le ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-centos7-ppc64le ^readline@8.0%gcc@4.8.5 arch=linux-centos7-ppc64le'
+ - 'perl@5.34.0%gcc@10.3.0+cpanm+shared+threads arch=linux-ubuntu21.04-x86_64 ^berkeley-db@18.1.40%gcc@10.3.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu21.04-x86_64 ^gdbm@1.19%gcc@10.3.0 arch=linux-ubuntu21.04-x86_64 ^ncurses@6.2%gcc@10.3.0~symlinks+termlib abi=none arch=linux-ubuntu21.04-x86_64 ^readline@8.1%gcc@10.3.0 arch=linux-ubuntu21.04-x86_64'
+ - 'perl@5.30.1%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.30.3%gcc@7.3.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.30.2%gcc@7.3.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.30.3%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^berkeley-db@18.1.40%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.30.0%gcc@4.8.5+cpanm+shared+threads arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@4.8.5 arch=linux-rhel7-ppc64le ^ncurses@6.1%gcc@4.8.5~symlinks~termlib arch=linux-rhel7-ppc64le ^readline@8.0%gcc@4.8.5 arch=linux-rhel7-ppc64le'
+ - 'perl@5.32.1%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-ppc64le ^berkeley-db@18.1.40%gcc@8.3.1~docs patches=b231fcc arch=linux-rhel8-ppc64le ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-ppc64le ^readline@8.0%gcc@8.3.1 arch=linux-rhel8-ppc64le'
+ - 'perl@5.30.0%gcc@7.3.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@7.3.0 arch=linux-rhel7-ppc64le ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-rhel7-ppc64le ^readline@8.0%gcc@7.3.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.34.0%gcc@4.8.5+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@18.1.40%gcc@4.8.5+cxx~docs+stl patches=b231fcc arch=linux-rhel7-x86_64 ^gdbm@1.19%gcc@4.8.5 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@4.8.5~symlinks+termlib abi=none arch=linux-rhel7-x86_64 ^readline@8.1%gcc@4.8.5 arch=linux-rhel7-x86_64'
+ - 'perl@5.30.1%gcc@7.3.0+cpanm+shared+threads arch=linux-centos7-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-centos7-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos7-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-centos7-x86_64'
+ - 'perl@5.32.1%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-ppc64le ^berkeley-db@18.1.40%gcc@8.3.1+cxx~docs+stl patches=b231fcc arch=linux-rhel8-ppc64le ^gdbm@1.19%gcc@8.3.1 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-ppc64le ^readline@8.1%gcc@8.3.1 arch=linux-rhel8-ppc64le'
+ - 'perl@5.30.3%gcc@8.3.1+cpanm+shared+threads arch=linux-centos8-ppc64le ^gdbm@1.18.1%gcc@8.3.1 arch=linux-centos8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-centos8-ppc64le ^readline@8.0%gcc@8.3.1 arch=linux-centos8-ppc64le'
+ - 'perl@5.32.1%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@18.1.40%gcc@8.1.0~docs patches=b231fcc arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le ^readline@8.0%gcc@8.1.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.30.1%gcc@7.3.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@7.3.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-ppc64le ^readline@8.0%gcc@7.3.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.30.3%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-aarch64 ^berkeley-db@18.1.40%gcc@8.3.1 arch=linux-rhel8-aarch64 ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-aarch64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-aarch64 ^readline@8.0%gcc@8.3.1 arch=linux-rhel8-aarch64'
+ - 'perl@5.32.1%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-ppc64le ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu20.04-ppc64le ^gdbm@1.19%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-ppc64le ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le'
+ - 'perl@5.30.2%gcc@7.3.0+cpanm+shared+threads arch=linux-centos8-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-centos8-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos8-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-centos8-x86_64'
+ - 'perl@5.30.1%gcc@7.4.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.1%gcc@7.4.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^readline@8.0%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.34.0%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-x86_64 ^berkeley-db@18.1.40%gcc@8.3.1+cxx~docs+stl patches=b231fcc arch=linux-rhel8-x86_64 ^gdbm@1.19%gcc@8.3.1 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-x86_64 ^readline@8.1%gcc@8.3.1 arch=linux-rhel8-x86_64'
+ - 'perl@5.32.1%gcc@7.3.1+cpanm+shared+threads arch=linux-amzn2-x86_64 ^berkeley-db@18.1.40%gcc@7.3.1~docs patches=b231fcc arch=linux-amzn2-x86_64 ^gdbm@1.19%gcc@7.3.1 arch=linux-amzn2-x86_64 ^ncurses@6.2%gcc@7.3.1~symlinks+termlib arch=linux-amzn2-x86_64 ^readline@8.0%gcc@7.3.1 arch=linux-amzn2-x86_64'
+ - 'perl@5.30.3%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@6.2.32%gcc@8.1.0 arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le ^readline@8.0%gcc@8.1.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.26.2%xl@16.1 fflags="-qzerosize" +cpanm+shared+threads patches=0eac10e arch=linux-rhel7-power9le'
+ - 'perl@5.30.3%gcc@8.1.0+cpanm+shared+threads arch=linux-centos7-ppc64le ^berkeley-db@6.2.32%gcc@8.1.0 arch=linux-centos7-ppc64le ^gdbm@1.18.1%gcc@8.1.0 arch=linux-centos7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-centos7-ppc64le ^readline@8.0%gcc@8.1.0 arch=linux-centos7-ppc64le'
+ - 'perl@5.32.1%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-ppc64le ^berkeley-db@18.1.40%gcc@8.3.1+cxx~docs+stl patches=b231fcc arch=linux-rhel8-ppc64le ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks~termlib abi=none arch=linux-rhel8-ppc64le ^readline@8.1%gcc@8.3.1 arch=linux-rhel8-ppc64le'
+ - 'perl@5.30.0%gcc@7.3.0+cpanm+shared+threads arch=linux-centos8-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-centos8-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-centos8-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-centos8-x86_64'
+ - 'perl@5.30.3%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-ppc64le ^berkeley-db@18.1.40%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-ppc64le ^readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le'
+ - 'perl@5.34.0%gcc@8.4.1+cpanm+shared+threads arch=linux-rhel8-x86_64 ^berkeley-db@18.1.40%gcc@8.4.1+cxx~docs+stl patches=b231fcc arch=linux-rhel8-x86_64 ^gdbm@1.19%gcc@8.4.1 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.4.1~symlinks+termlib abi=none arch=linux-rhel8-x86_64 ^readline@8.1%gcc@8.4.1 arch=linux-rhel8-x86_64'
+ - 'perl@5.30.3%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-ppc64le ^berkeley-db@18.1.40%gcc@8.3.1 arch=linux-rhel8-ppc64le ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-ppc64le ^readline@8.0%gcc@8.3.1 arch=linux-rhel8-ppc64le'
+ - 'perl@5.30.3%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-aarch64 ^berkeley-db@18.1.40%gcc@7.5.0 arch=linux-ubuntu18.04-aarch64 ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-aarch64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-aarch64 ^readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-aarch64'
+ - 'perl@5.32.1%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@18.1.40%gcc@8.1.0~docs patches=b231fcc arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib abi=none arch=linux-rhel7-ppc64le ^readline@8.0%gcc@8.1.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.30.0%gcc@4.8.5+cpanm+shared+threads arch=linux-centos7-ppc64le ^gdbm@1.18.1%gcc@4.8.5 arch=linux-centos7-ppc64le ^ncurses@6.1%gcc@4.8.5~symlinks~termlib arch=linux-centos7-ppc64le ^readline@8.0%gcc@4.8.5 arch=linux-centos7-ppc64le'
+ - 'perl@5.30.3%gcc@4.8.5+cpanm+shared+threads arch=linux-centos7-x86_64 ^berkeley-db@18.1.40%gcc@4.8.5 arch=linux-centos7-x86_64 ^gdbm@1.18.1%gcc@4.8.5 arch=linux-centos7-x86_64 ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-centos7-x86_64 ^readline@8.0%gcc@4.8.5 arch=linux-centos7-x86_64'
+ - 'perl@5.30.3%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-x86_64 ^berkeley-db@18.1.40%gcc@8.3.1 arch=linux-rhel8-x86_64 ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^readline@8.0%gcc@8.3.1 arch=linux-rhel8-x86_64'
+ - 'perl@5.32.1%gcc@9.3.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@9.3.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks~termlib abi=none arch=linux-rhel7-ppc64le ^readline@8.1%gcc@9.3.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.30.1%gcc@4.8.5+cpanm+shared+threads arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@4.8.5 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-rhel7-x86_64 ^readline@8.0%gcc@4.8.5 arch=linux-rhel7-x86_64'
+ - 'perl@5.30.3%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64 ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64'
+ - 'perl@5.30.3%gcc@8.1.0+cpanm+shared+threads arch=linux-centos7-x86_64 ^berkeley-db@6.2.32%gcc@8.1.0 arch=linux-centos7-x86_64 ^gdbm@1.18.1%gcc@8.1.0 arch=linux-centos7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-centos7-x86_64 ^readline@8.0%gcc@8.1.0 arch=linux-centos7-x86_64'
+ - 'perl@5.34.0%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-ppc64le ^berkeley-db@18.1.40%gcc@8.3.1+cxx~docs+stl patches=b231fcc arch=linux-rhel8-ppc64le ^gdbm@1.19%gcc@8.3.1 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-ppc64le ^readline@8.1%gcc@8.3.1 arch=linux-rhel8-ppc64le'
+ - 'perl@5.30.3%gcc@8.3.1+cpanm+shared+threads arch=linux-centos8-ppc64le ^berkeley-db@6.2.32%gcc@8.3.1 arch=linux-centos8-ppc64le ^gdbm@1.18.1%gcc@8.3.1 arch=linux-centos8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-centos8-ppc64le ^readline@8.0%gcc@8.3.1 arch=linux-centos8-ppc64le'
+ - 'perl@5.32.0%gcc@4.8.5+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@18.1.40%gcc@4.8.5 arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@4.8.5 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-rhel7-ppc64le ^readline@8.0%gcc@4.8.5 arch=linux-rhel7-ppc64le'
+ - 'perl@5.32.1%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu18.04-ppc64le ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks~termlib abi=none arch=linux-ubuntu18.04-ppc64le ^readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.32.1%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu20.04-x86_64 ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks~termlib abi=none arch=linux-ubuntu20.04-x86_64 ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64'
+ - 'perl@5.30.1%gcc@7.3.0+cpanm+shared+threads arch=linux-centos8-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-centos8-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks+termlib arch=linux-centos8-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-centos8-x86_64'
+ - 'perl@5.30.1%gcc@7.3.0+cpanm+shared+threads arch=linux-rhel8-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel8-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-rhel8-x86_64'
+ - 'perl@5.34.0%gcc@9.3.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-rhel7-ppc64le ^gdbm@1.19%gcc@9.3.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-rhel7-ppc64le ^readline@8.1%gcc@9.3.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.30.3%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-ppc64le ^berkeley-db@6.2.32%gcc@8.3.1 arch=linux-rhel8-ppc64le ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-ppc64le ^readline@8.0%gcc@8.3.1 arch=linux-rhel8-ppc64le'
+ - 'perl@5.30.3%gcc@8.3.1+cpanm+shared+threads arch=linux-centos8-x86_64 ^berkeley-db@6.2.32%gcc@8.3.1 arch=linux-centos8-x86_64 ^gdbm@1.18.1%gcc@8.3.1 arch=linux-centos8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-centos8-x86_64 ^readline@8.0%gcc@8.3.1 arch=linux-centos8-x86_64'
+ - 'perl@5.30.3%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-ppc64le ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-ppc64le ^readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le'
+ - 'perl@5.30.0%gcc@7.3.0+cpanm+shared+threads arch=linux-centos7-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-centos7-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-centos7-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-centos7-x86_64'
+ - 'perl@5.30.1%gcc@7.3.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.30.3%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-ppc64le ^berkeley-db@6.2.32%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-ppc64le ^readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le'
+ - 'perl@5.32.1%gcc@9.3.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-rhel7-ppc64le ^gdbm@1.19%gcc@9.3.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-rhel7-ppc64le ^readline@8.1%gcc@9.3.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.32.1%gcc@4.8.5+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@18.1.40%gcc@4.8.5 arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@4.8.5 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-rhel7-ppc64le ^readline@8.0%gcc@4.8.5 arch=linux-rhel7-ppc64le'
+ - 'perl@5.30.3%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-power8le ^berkeley-db@18.1.40%gcc@7.5.0 arch=linux-ubuntu18.04-power8le ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-power8le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-power8le ^readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-power8le'
+ - 'perl@5.32.1%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@18.1.40%gcc@8.1.0~docs patches=b231fcc arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib abi=none arch=linux-rhel7-ppc64le ^readline@8.1%gcc@8.1.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.30.3%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^berkeley-db@18.1.40%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.30.3%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@18.1.40%gcc@8.1.0 arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^readline@8.0%gcc@8.1.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.30.1%gcc@7.4.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.1%gcc@7.4.0~symlinks~termlib arch=linux-ubuntu18.04-x86_64 ^readline@8.0%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.32.1%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-ppc64le ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu20.04-ppc64le ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks~termlib abi=none arch=linux-ubuntu20.04-ppc64le ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le'
+ - 'perl@5.30.1%gcc@7.3.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^gdbm@1.18.1%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^readline@8.0%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.34.0%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-ppc64le ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu20.04-ppc64le ^gdbm@1.19%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-ppc64le ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le'
+ - 'perl@5.30.0%gcc@7.3.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-rhel7-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-rhel7-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.32.1%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-ppc64le ^berkeley-db@18.1.40%gcc@9.3.0~docs patches=b231fcc arch=linux-ubuntu20.04-ppc64le ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-ppc64le ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le'
+ - 'perl@5.30.3%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^berkeley-db@18.1.40%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.30.3%gcc@4.8.5+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@18.1.40%gcc@4.8.5 arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@4.8.5 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-rhel7-x86_64 ^readline@8.0%gcc@4.8.5 arch=linux-rhel7-x86_64'
+ - 'perl@5.30.3%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64'
+ - 'perl@5.30.3%gcc@4.8.5+cpanm+shared+threads arch=linux-centos7-ppc64le ^berkeley-db@18.1.40%gcc@4.8.5 arch=linux-centos7-ppc64le ^gdbm@1.18.1%gcc@4.8.5 arch=linux-centos7-ppc64le ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-centos7-ppc64le ^readline@8.0%gcc@4.8.5 arch=linux-centos7-ppc64le'
+ - 'perl@5.32.1%gcc@7.4.0+cpanm+shared+threads arch=linux-rhel7-power9le ^berkeley-db@18.1.40%gcc@7.4.0~docs patches=b231fcc arch=linux-rhel7-power9le ^gdbm@1.19%gcc@7.4.0 arch=linux-rhel7-power9le ^ncurses@6.2%gcc@7.4.0~symlinks+termlib arch=linux-rhel7-power9le ^readline@8.0%gcc@7.4.0 arch=linux-rhel7-power9le'
+ - 'perl@5.30.2%gcc@7.3.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@7.3.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-ppc64le ^readline@8.0%gcc@7.3.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.30.3%gcc@7.3.0+cpanm+shared+threads arch=linux-centos8-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-centos8-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos8-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-centos8-x86_64'
+ - 'perl@5.34.0%apple-clang@12.0.0+cpanm+shared+threads arch=darwin-catalina-x86_64 ^berkeley-db@18.1.40%apple-clang@12.0.0+cxx~docs+stl patches=b231fcc arch=darwin-catalina-x86_64 ^gdbm@1.19%apple-clang@12.0.0 arch=darwin-catalina-x86_64 ^ncurses@6.2%apple-clang@12.0.0~symlinks+termlib abi=none arch=darwin-catalina-x86_64 ^readline@8.1%apple-clang@12.0.0 arch=darwin-catalina-x86_64'
+ - 'perl@5.30.1%gcc@7.3.0+cpanm+shared+threads arch=linux-rhel8-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-rhel8-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks+termlib arch=linux-rhel8-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-rhel8-x86_64'
+ - 'perl@5.30.1%gcc@7.3.0+cpanm+shared+threads arch=linux-centos7-ppc64le ^gdbm@1.18.1%gcc@7.3.0 arch=linux-centos7-ppc64le ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos7-ppc64le ^readline@8.0%gcc@7.3.0 arch=linux-centos7-ppc64le'
+ - 'perl@5.30.1%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.30.2%gcc@7.3.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^gdbm@1.18.1%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^readline@8.0%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.30.3%gcc@7.3.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@7.3.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-ppc64le ^readline@8.0%gcc@7.3.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.30.3%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^berkeley-db@6.2.32%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.30.3%gcc@7.3.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@6.2.32%gcc@7.3.0 arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@7.3.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-ppc64le ^readline@8.0%gcc@7.3.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.32.0%gcc@9.3.0+cpanm+shared+threads arch=cray-cnl7-haswell ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=cray-cnl7-haswell ^gdbm@1.18.1%gcc@9.3.0 arch=cray-cnl7-haswell ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=cray-cnl7-haswell ^readline@8.1%gcc@9.3.0 arch=cray-cnl7-haswell'
+ - 'perl@5.30.3%gcc@6.4.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@6.4.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@6.4.0~symlinks+termlib arch=linux-rhel7-ppc64le ^readline@8.0%gcc@6.4.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.30.0%gcc@8.3.1+cpanm+shared+threads arch=linux-centos8-ppc64le ^gdbm@1.18.1%gcc@8.3.1 arch=linux-centos8-ppc64le ^ncurses@6.1%gcc@8.3.1~symlinks~termlib arch=linux-centos8-ppc64le ^readline@8.0%gcc@8.3.1 arch=linux-centos8-ppc64le'
+ - 'perl@5.30.3%gcc@8.3.1+cpanm+shared+threads arch=linux-centos8-x86_64 ^berkeley-db@18.1.40%gcc@8.3.1 arch=linux-centos8-x86_64 ^gdbm@1.18.1%gcc@8.3.1 arch=linux-centos8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-centos8-x86_64 ^readline@8.0%gcc@8.3.1 arch=linux-centos8-x86_64'
+ - 'perl@5.30.1%gcc@7.3.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-rhel7-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.30.3%gcc@8.1.0+cpanm+shared+threads arch=linux-centos7-x86_64 ^berkeley-db@18.1.40%gcc@8.1.0 arch=linux-centos7-x86_64 ^gdbm@1.18.1%gcc@8.1.0 arch=linux-centos7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-centos7-x86_64 ^readline@8.0%gcc@8.1.0 arch=linux-centos7-x86_64'
+ - 'perl@5.30.1%gcc@7.3.0+cpanm+shared+threads arch=linux-centos7-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-centos7-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks+termlib arch=linux-centos7-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-centos7-x86_64'
+ - 'perl@5.30.2%gcc@7.3.0+cpanm+shared+threads arch=linux-rhel8-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel8-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-rhel8-x86_64'
+ - 'perl@5.30.1%gcc@7.3.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.30.3%gcc@4.8.5+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@6.2.32%gcc@4.8.5 arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@4.8.5 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-rhel7-ppc64le ^readline@8.0%gcc@4.8.5 arch=linux-rhel7-ppc64le'
+ - 'perl@5.30.3%gcc@7.3.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^berkeley-db@6.2.32%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le ^gdbm@1.18.1%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^readline@8.0%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.30.3%gcc@7.3.0+cpanm+shared+threads arch=linux-rhel8-x86_64 ^berkeley-db@18.1.40%gcc@7.3.0 arch=linux-rhel8-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel8-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-rhel8-x86_64'
+ - 'perl@5.32.1%gcc@4.8.5+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@18.1.40%gcc@4.8.5 arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@4.8.5 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-rhel7-x86_64 ^readline@8.0%gcc@4.8.5 arch=linux-rhel7-x86_64'
+ - 'perl@5.30.3%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64 ^berkeley-db@6.2.32%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64'
+ - 'perl@5.30.2%gcc@7.3.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.30.0%gcc@7.4.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^gdbm@1.18.1%gcc@7.4.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.1%gcc@7.4.0~symlinks~termlib arch=linux-ubuntu18.04-ppc64le ^readline@8.0%gcc@7.4.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.32.1%gcc@4.8.5+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@18.1.40%gcc@4.8.5+cxx~docs+stl patches=b231fcc arch=linux-rhel7-x86_64 ^gdbm@1.19%gcc@4.8.5 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@4.8.5~symlinks+termlib abi=none arch=linux-rhel7-x86_64 ^readline@8.1%gcc@4.8.5 arch=linux-rhel7-x86_64'
+ - 'perl@5.30.0%gcc@7.3.0+cpanm+shared+threads arch=linux-centos7-ppc64le ^gdbm@1.18.1%gcc@7.3.0 arch=linux-centos7-ppc64le ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-centos7-ppc64le ^readline@8.0%gcc@7.3.0 arch=linux-centos7-ppc64le'
+ - 'perl@5.30.3%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@18.1.40%gcc@8.1.0 arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le ^readline@8.0%gcc@8.1.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.30.0%gcc@4.8.5+cpanm+shared+threads arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@4.8.5 arch=linux-rhel7-x86_64 ^ncurses@6.1%gcc@4.8.5~symlinks~termlib arch=linux-rhel7-x86_64 ^readline@8.0%gcc@4.8.5 arch=linux-rhel7-x86_64'
+ - 'perl@5.30.0%gcc@7.3.0+cpanm+shared+threads arch=linux-rhel8-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-rhel8-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-rhel8-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-rhel8-x86_64'
+ - 'perl@5.26.2%gcc@6.4.0+cpanm+shared+threads patches=0eac10e arch=linux-rhel7-power9le'
+ - 'perl@5.30.3%gcc@4.8.5+cpanm+shared+threads arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@4.8.5 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-rhel7-ppc64le ^readline@8.0%gcc@4.8.5 arch=linux-rhel7-ppc64le'
+ - 'perl@5.30.3%gcc@8.3.1+cpanm+shared+threads arch=linux-centos8-x86_64 ^gdbm@1.18.1%gcc@8.3.1 arch=linux-centos8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-centos8-x86_64 ^readline@8.0%gcc@8.3.1 arch=linux-centos8-x86_64'
+ - 'perl@5.30.1%gcc@7.4.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.4.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^readline@8.0%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.30.1%gcc@7.4.0+cpanm+shared+threads arch=linux-ubuntu18.04-ppc64le ^gdbm@1.18.1%gcc@7.4.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.4.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^readline@8.0%gcc@7.4.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'perl@5.30.3%gcc@7.3.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.32.1%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-x86_64 ^berkeley-db@18.1.40%gcc@8.3.1+cxx~docs+stl patches=b231fcc arch=linux-rhel8-x86_64 ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks~termlib abi=none arch=linux-rhel8-x86_64 ^readline@8.1%gcc@8.3.1 arch=linux-rhel8-x86_64'
+ - 'perl@5.30.1%gcc@4.8.5+cpanm+shared+threads arch=linux-centos7-ppc64le ^gdbm@1.18.1%gcc@4.8.5 arch=linux-centos7-ppc64le ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-centos7-ppc64le ^readline@8.0%gcc@4.8.5 arch=linux-centos7-ppc64le'
+ - 'perl@5.30.3%gcc@8.1.0+cpanm+shared+threads arch=linux-centos7-ppc64le ^berkeley-db@18.1.40%gcc@8.1.0 arch=linux-centos7-ppc64le ^gdbm@1.18.1%gcc@8.1.0 arch=linux-centos7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-centos7-ppc64le ^readline@8.0%gcc@8.1.0 arch=linux-centos7-ppc64le'
+ - 'perl@5.34.0%gcc@4.8.5+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@18.1.40%gcc@4.8.5+cxx~docs+stl patches=b231fcc arch=linux-rhel7-ppc64le ^gdbm@1.19%gcc@4.8.5 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@4.8.5~symlinks+termlib abi=none arch=linux-rhel7-ppc64le ^readline@8.1%gcc@4.8.5 arch=linux-rhel7-ppc64le'
+ - 'perl@5.30.3%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-power8le ^berkeley-db@18.1.40%gcc@8.1.0 arch=linux-rhel7-power8le ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-power8le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-power8le ^readline@8.0%gcc@8.1.0 arch=linux-rhel7-power8le'
+ - 'perl@5.30.1%gcc@8.3.1+cpanm+shared+threads arch=linux-centos8-ppc64le ^gdbm@1.18.1%gcc@8.3.1 arch=linux-centos8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-centos8-ppc64le ^readline@8.0%gcc@8.3.1 arch=linux-centos8-ppc64le'
+ - 'perl@5.30.3%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@18.1.40%gcc@8.1.0 arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^readline@8.0%gcc@8.1.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.32.1%gcc@9.3.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@9.3.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks~termlib abi=none arch=linux-rhel7-x86_64 ^readline@8.1%gcc@9.3.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.30.2%gcc@7.3.0+cpanm+shared+threads arch=linux-centos7-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-centos7-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos7-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-centos7-x86_64'
+ - 'perl@5.30.3%gcc@4.8.5+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@18.1.40%gcc@4.8.5 arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@4.8.5 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-rhel7-ppc64le ^readline@8.0%gcc@4.8.5 arch=linux-rhel7-ppc64le'
+ - 'perl@5.30.3%gcc@4.8.5+cpanm+shared+threads arch=linux-centos7-x86_64 ^berkeley-db@6.2.32%gcc@4.8.5 arch=linux-centos7-x86_64 ^gdbm@1.18.1%gcc@4.8.5 arch=linux-centos7-x86_64 ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-centos7-x86_64 ^readline@8.0%gcc@4.8.5 arch=linux-centos7-x86_64'
+ - 'perl@5.30.3%gcc@6.4.0+cpanm+shared+threads arch=linux-rhel7-power9le ^berkeley-db@18.1.40%gcc@6.4.0 arch=linux-rhel7-power9le ^gdbm@1.18.1%gcc@6.4.0 arch=linux-rhel7-power9le ^ncurses@6.2%gcc@6.4.0~symlinks+termlib arch=linux-rhel7-power9le ^readline@8.0%gcc@6.4.0 arch=linux-rhel7-power9le'
+ - 'perl@5.32.1%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-x86_64 ^berkeley-db@18.1.40%gcc@8.1.0+cxx~docs+stl patches=b231fcc arch=linux-rhel7-x86_64 ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks~termlib abi=none arch=linux-rhel7-x86_64 ^readline@8.1%gcc@8.1.0 arch=linux-rhel7-x86_64'
+ - 'perl@5.30.1%gcc@4.8.5+cpanm+shared+threads arch=linux-centos7-x86_64 ^gdbm@1.18.1%gcc@4.8.5 arch=linux-centos7-x86_64 ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-centos7-x86_64 ^readline@8.0%gcc@4.8.5 arch=linux-centos7-x86_64'
+ - 'perl@5.30.3%gcc@7.3.0+cpanm+shared+threads arch=linux-centos7-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-centos7-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos7-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-centos7-x86_64'
+ - 'perl@5.32.1%gcc@8.1.0+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@18.1.40%gcc@8.1.0+cxx~docs+stl patches=b231fcc arch=linux-rhel7-ppc64le ^gdbm@1.18.1%gcc@8.1.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks~termlib abi=none arch=linux-rhel7-ppc64le ^readline@8.1%gcc@8.1.0 arch=linux-rhel7-ppc64le'
+ - 'perl@5.30.3%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^berkeley-db@18.1.40%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.32.1%gcc@4.8.5+cpanm+shared+threads arch=linux-rhel7-ppc64le ^berkeley-db@18.1.40%gcc@4.8.5+cxx~docs+stl patches=b231fcc arch=linux-rhel7-ppc64le ^gdbm@1.19%gcc@4.8.5 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@4.8.5~symlinks+termlib abi=none arch=linux-rhel7-ppc64le ^readline@8.1%gcc@4.8.5 arch=linux-rhel7-ppc64le'
+ - 'perl@5.30.3%gcc@7.3.0+cpanm+shared+threads arch=linux-rhel8-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel8-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-rhel8-x86_64'
+ - 'perl@5.30.0%gcc@8.2.1+cpanm+shared+threads arch=linux-centos8-x86_64 ^gdbm@1.18.1%gcc@8.2.1 arch=linux-centos8-x86_64 ^ncurses@6.1%gcc@8.2.1~symlinks~termlib arch=linux-centos8-x86_64 ^readline@8.0%gcc@8.2.1 arch=linux-centos8-x86_64'
+ - 'perl@5.30.3%gcc@7.3.0+cpanm+shared+threads arch=linux-centos7-x86_64 ^berkeley-db@6.2.32%gcc@7.3.0 arch=linux-centos7-x86_64 ^gdbm@1.18.1%gcc@7.3.0 arch=linux-centos7-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos7-x86_64 ^readline@8.0%gcc@7.3.0 arch=linux-centos7-x86_64'
+ - 'perl@5.32.1%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks~termlib abi=none arch=linux-ubuntu18.04-x86_64 ^readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.30.2%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.30.1%gcc@8.3.1+cpanm+shared+threads arch=linux-centos8-x86_64 ^gdbm@1.18.1%gcc@8.3.1 arch=linux-centos8-x86_64 ^ncurses@6.1%gcc@8.3.1~symlinks+termlib arch=linux-centos8-x86_64 ^readline@8.0%gcc@8.3.1 arch=linux-centos8-x86_64'
+ - 'perl@5.30.0%gcc@7.4.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^gdbm@1.18.1%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.1%gcc@7.4.0~symlinks~termlib arch=linux-ubuntu18.04-x86_64 ^readline@8.0%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64'
+ - 'perl@5.30.1%gcc@8.3.1+cpanm+shared+threads arch=linux-centos8-x86_64 ^gdbm@1.18.1%gcc@8.3.1 arch=linux-centos8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-centos8-x86_64 ^readline@8.0%gcc@8.3.1 arch=linux-centos8-x86_64'
+ - 'perl@5.30.0%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-x86_64 ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-x86_64 ^ncurses@6.1%gcc@8.3.1~symlinks~termlib arch=linux-rhel8-x86_64 ^readline@8.0%gcc@8.3.1 arch=linux-rhel8-x86_64'
+ - 'perl@5.30.0%gcc@8.3.1+cpanm+shared+threads arch=linux-centos8-x86_64 ^gdbm@1.18.1%gcc@8.3.1 arch=linux-centos8-x86_64 ^ncurses@6.1%gcc@8.3.1~symlinks~termlib arch=linux-centos8-x86_64 ^readline@8.0%gcc@8.3.1 arch=linux-centos8-x86_64'
+ - 'perl@5.30.0%gcc@4.8.5+cpanm+shared+threads arch=linux-centos7-x86_64 ^gdbm@1.18.1%gcc@4.8.5 arch=linux-centos7-x86_64 ^ncurses@6.1%gcc@4.8.5~symlinks~termlib arch=linux-centos7-x86_64 ^readline@8.0%gcc@4.8.5 arch=linux-centos7-x86_64'
+ - 'perl@5.30.1%gcc@8.3.1+cpanm+shared+threads arch=linux-rhel8-x86_64 ^gdbm@1.18.1%gcc@8.3.1 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^readline@8.0%gcc@8.3.1 arch=linux-rhel8-x86_64'
+ - 'perl@5.32.1%apple-clang@12.0.0+cpanm+shared+threads arch=darwin-catalina-x86_64 ^berkeley-db@18.1.40%apple-clang@12.0.0+cxx~docs+stl patches=b231fcc arch=darwin-catalina-x86_64 ^gdbm@1.19%apple-clang@12.0.0 arch=darwin-catalina-x86_64 ^ncurses@6.2%apple-clang@12.0.0~symlinks+termlib abi=none arch=darwin-catalina-x86_64 ^readline@8.1%apple-clang@12.0.0 arch=darwin-catalina-x86_64'
+---

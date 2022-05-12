@@ -1,0 +1,336 @@
+---
+title: "blt"
+layout: cache
+category: package
+meta: {"versions": ["0.3.6", "0.3.6rocm", "0.4.0", "develop"], "compilers": ["gcc@10.3.0", "gcc@7.3.1", "gcc@7.5.0", "gcc@8.1.0", "gcc@8.3.1", "gcc@8.4.1", "gcc@9.3.0", "intel@19.1.3.304"]}
+spec_files: 
+ - spec-0.json
+ - spec-1.json
+ - spec-2.json
+ - spec-3.json
+ - spec-4.json
+ - spec-5.json
+ - spec-6.json
+ - spec-7.json
+ - spec-8.json
+ - spec-9.json
+ - spec-10.json
+ - spec-11.json
+ - spec-12.json
+ - spec-13.json
+ - spec-14.json
+ - spec-15.json
+ - spec-16.json
+ - spec-17.json
+ - spec-18.json
+ - spec-19.json
+ - spec-20.json
+ - spec-21.json
+ - spec-22.json
+ - spec-23.json
+ - spec-24.json
+ - spec-25.json
+ - spec-26.json
+ - spec-27.json
+ - spec-28.json
+ - spec-29.json
+ - spec-30.json
+ - spec-31.json
+ - spec-32.json
+ - spec-33.json
+ - spec-34.json
+ - spec-35.json
+ - spec-36.json
+ - spec-37.json
+ - spec-38.json
+ - spec-39.json
+ - spec-40.json
+ - spec-41.json
+ - spec-42.json
+ - spec-43.json
+ - spec-44.json
+ - spec-45.json
+ - spec-46.json
+ - spec-47.json
+ - spec-48.json
+ - spec-49.json
+ - spec-50.json
+ - spec-51.json
+ - spec-52.json
+ - spec-53.json
+ - spec-54.json
+ - spec-55.json
+ - spec-56.json
+ - spec-57.json
+ - spec-58.json
+ - spec-59.json
+ - spec-60.json
+ - spec-61.json
+ - spec-62.json
+ - spec-63.json
+ - spec-64.json
+ - spec-65.json
+ - spec-66.json
+ - spec-67.json
+ - spec-68.json
+ - spec-69.json
+ - spec-70.json
+ - spec-71.json
+ - spec-72.json
+ - spec-73.json
+ - spec-74.json
+ - spec-75.json
+ - spec-76.json
+ - spec-77.json
+ - spec-78.json
+ - spec-79.json
+ - spec-80.json
+ - spec-81.json
+ - spec-82.json
+ - spec-83.json
+ - spec-84.json
+ - spec-85.json
+ - spec-86.json
+ - spec-87.json
+ - spec-88.json
+ - spec-89.json
+ - spec-90.json
+ - spec-91.json
+ - spec-92.json
+ - spec-93.json
+ - spec-94.json
+ - spec-95.json
+ - spec-96.json
+ - spec-97.json
+ - spec-98.json
+ - spec-99.json
+ - spec-100.json
+ - spec-101.json
+ - spec-102.json
+ - spec-103.json
+ - spec-104.json
+ - spec-105.json
+ - spec-106.json
+ - spec-107.json
+ - spec-108.json
+ - spec-109.json
+ - spec-110.json
+ - spec-111.json
+ - spec-112.json
+ - spec-113.json
+ - spec-114.json
+ - spec-115.json
+ - spec-116.json
+ - spec-117.json
+ - spec-118.json
+ - spec-119.json
+ - spec-120.json
+ - spec-121.json
+ - spec-122.json
+ - spec-123.json
+ - spec-124.json
+ - spec-125.json
+ - spec-126.json
+ - spec-127.json
+ - spec-128.json
+ - spec-129.json
+ - spec-130.json
+ - spec-131.json
+ - spec-132.json
+ - spec-133.json
+ - spec-134.json
+ - spec-135.json
+ - spec-136.json
+ - spec-137.json
+ - spec-138.json
+ - spec-139.json
+ - spec-140.json
+ - spec-141.json
+ - spec-142.json
+ - spec-143.json
+ - spec-144.json
+ - spec-145.json
+ - spec-146.json
+ - spec-147.json
+ - spec-148.json
+ - spec-149.json
+ - spec-150.json
+ - spec-151.json
+ - spec-152.json
+ - spec-153.json
+ - spec-154.json
+ - spec-155.json
+ - spec-156.json
+ - spec-157.json
+ - spec-158.json
+ - spec-159.json
+ - spec-160.json
+ - spec-161.json
+ - spec-162.json
+ - spec-163.json
+spec_names:
+ - 'blt@develop%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.19.5%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^openssl@1.1.1j%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.19.5%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1j%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@0.4.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.20.2%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1k%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@0.3.6%gcc@7.3.1 arch=linux-amzn2-x86_64 ^cmake@3.18.4%gcc@7.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-amzn2-x86_64 ^ncurses@6.2%gcc@7.3.1~symlinks+termlib arch=linux-amzn2-x86_64 ^openssl@1.1.1k%gcc@7.3.1~docs+systemcerts arch=linux-amzn2-x86_64 ^zlib@1.2.11%gcc@7.3.1+optimize+pic+shared arch=linux-amzn2-x86_64'
+ - 'blt@develop%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.18.4%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^openssl@1.1.1j%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.19.5%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^openssl@1.1.1k%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.19.7%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.18.4%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^openssl@1.1.1i%gcc@8.1.0+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^cmake@3.19.7%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^openssl@1.1.1k%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-ppc64le ^cmake@3.19.7%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-ppc64le ^openssl@1.1.1k%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.18.4%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^openssl@1.1.1j%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-ppc64le ^cmake@3.18.4%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-ppc64le ^openssl@1.1.1i%gcc@8.3.1+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.17.3%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3,e51119d arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^openssl@1.1.1g%gcc@8.1.0+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.4.0%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.19.7%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-x86_64 ^openssl@1.1.1k%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.18.4%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^openssl@1.1.1j%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-ppc64le ^cmake@3.18.4%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le ^openssl@1.1.1j%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^cmake@3.18.4%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-ppc64le ^openssl@1.1.1h%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'blt@0.3.6%gcc@7.3.1 arch=linux-amzn2-x86_64 ^cmake@3.18.4%gcc@7.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-amzn2-x86_64 ^ncurses@6.2%gcc@7.3.1~symlinks+termlib arch=linux-amzn2-x86_64 ^openssl@1.1.1j%gcc@7.3.1+systemcerts arch=linux-amzn2-x86_64 ^zlib@1.2.11%gcc@7.3.1+optimize+pic+shared arch=linux-amzn2-x86_64'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-ppc64le ^cmake@3.18.4%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le ^openssl@1.1.1i%gcc@8.1.0+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'blt@0.3.6%gcc@8.4.1 arch=linux-rhel8-ppc64le ^cmake@3.20.3%gcc@8.4.1~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.4.1~symlinks+termlib abi=none arch=linux-rhel8-ppc64le ^openssl@1.1.1k%gcc@8.4.1~docs+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.4.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'blt@develop%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.19.7%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^openssl@1.1.1k%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@develop%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.19.7%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-x86_64 ^openssl@1.1.1k%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.19.5%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^openssl@1.1.1j%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^cmake@3.19.5%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-ppc64le ^openssl@1.1.1j%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.19.7%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib abi=none arch=linux-rhel7-x86_64 ^openssl@1.1.1k%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.18.4%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^openssl@1.1.1j%gcc@8.3.1+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.19.5%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^openssl@1.1.1j%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^cmake@3.19.0%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^openssl@1.1.1h%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.18.4%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^openssl@1.1.1j%gcc@8.1.0+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.4.0%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^cmake@3.20.2%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-ppc64le ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.19.7%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1k%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@0.3.6%intel@19.1.3.304 arch=cray-cnl7-haswell ^cmake@3.20.2%intel@19.1.3.304~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell ^ncurses@6.2%intel@19.1.3.304~symlinks+termlib abi=none arch=cray-cnl7-haswell ^openssl@1.1.1k%intel@19.1.3.304~docs+systemcerts arch=cray-cnl7-haswell ^zlib@1.2.11%intel@19.1.3.304+optimize+pic+shared arch=cray-cnl7-haswell'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-ppc64le ^cmake@3.18.4%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-ppc64le ^openssl@1.1.1h%gcc@8.3.1+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.18.4%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1j%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^cmake@3.19.5%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^openssl@1.1.1j%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'blt@develop%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.19.5%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^openssl@1.1.1j%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@develop%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.18.4%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1j%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^cmake@3.18.4%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^openssl@1.1.1j%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-ppc64le ^cmake@3.19.5%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le ^openssl@1.1.1j%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'blt@0.4.0%gcc@8.3.1 arch=linux-rhel8-ppc64le ^cmake@3.19.7%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-ppc64le ^openssl@1.1.1k%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.18.4%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^openssl@1.1.1i%gcc@8.3.1+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@develop%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.18.4%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1j%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^cmake@3.19.5%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-ppc64le ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^cmake@3.17.3%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3,e51119d arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^openssl@1.1.1g%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-rhel7-x86_64 ^cmake@3.20.3%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-rhel7-x86_64 ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.4.0%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^cmake@3.19.7%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-ppc64le ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^cmake@3.19.7%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-ppc64le ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'blt@develop%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.18.4%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1j%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-ppc64le ^cmake@3.18.4%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-ppc64le ^openssl@1.1.1j%gcc@8.3.1+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'blt@develop%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.19.5%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^openssl@1.1.1k%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-ppc64le ^cmake@3.18.4%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-ppc64le ^openssl@1.1.1j%gcc@8.3.1+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'blt@develop%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.19.7%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@develop%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.19.5%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.19.7%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-x86_64 ^openssl@1.1.1k%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-ppc64le ^cmake@3.19.5%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le ^openssl@1.1.1k%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'blt@develop%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.19.7%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1k%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@develop%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.19.7%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^cmake@3.18.4%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-ppc64le ^openssl@1.1.1j%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'blt@develop%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.18.4%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1h%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@develop%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.18.4%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^openssl@1.1.1h%gcc@8.3.1+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.19.5%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1k%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.19.0%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1h%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^cmake@3.18.4%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-ppc64le ^openssl@1.1.1i%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.19.5%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^cmake@3.18.4%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^openssl@1.1.1i%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.20.2%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib abi=none arch=linux-rhel7-x86_64 ^openssl@1.1.1k%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@develop%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.18.4%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1j%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.18.4%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^openssl@1.1.1h%gcc@8.1.0+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.3.6%gcc@10.3.0 arch=linux-ubuntu21.04-x86_64 ^cmake@3.20.3%gcc@10.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-ubuntu21.04-x86_64 ^ncurses@6.2%gcc@10.3.0~symlinks+termlib abi=none arch=linux-ubuntu21.04-x86_64 ^openssl@1.1.1k%gcc@10.3.0~docs+systemcerts arch=linux-ubuntu21.04-x86_64 ^zlib@1.2.11%gcc@10.3.0+optimize+pic+shared arch=linux-ubuntu21.04-x86_64'
+ - 'blt@0.4.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.19.7%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1k%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@develop%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.18.4%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1j%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.19.7%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1k%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@0.3.6%gcc@9.3.0 arch=cray-cnl7-haswell ^cmake@3.20.2%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=cray-cnl7-haswell ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=cray-cnl7-haswell ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=cray-cnl7-haswell'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^cmake@3.18.4%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-ppc64le ^openssl@1.1.1j%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-ppc64le ^cmake@3.18.4%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-ppc64le ^openssl@1.1.1j%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^cmake@3.18.4%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^openssl@1.1.1j%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'blt@0.3.6%gcc@7.3.1 arch=linux-amzn2-x86_64 ^cmake@3.18.4%gcc@7.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-amzn2-x86_64 ^ncurses@6.2%gcc@7.3.1~symlinks+termlib arch=linux-amzn2-x86_64 ^openssl@1.1.1j%gcc@7.3.1~docs+systemcerts arch=linux-amzn2-x86_64 ^zlib@1.2.11%gcc@7.3.1+optimize+pic+shared arch=linux-amzn2-x86_64'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^cmake@3.19.7%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-ppc64le ^openssl@1.1.1k%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-ppc64le ^cmake@3.18.4%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le ^openssl@1.1.1j%gcc@8.1.0+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^cmake@3.19.7%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-ppc64le ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.18.4%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1j%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-ppc64le ^cmake@3.19.7%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-ppc64le ^openssl@1.1.1k%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'blt@develop%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.19.5%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1j%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@develop%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.18.4%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^openssl@1.1.1j%gcc@8.3.1+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-ppc64le ^cmake@3.20.2%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib abi=none arch=linux-rhel7-ppc64le ^openssl@1.1.1k%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'blt@0.4.0%gcc@8.3.1 arch=linux-rhel8-ppc64le ^cmake@3.20.3%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-ppc64le ^openssl@1.1.1k%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^cmake@3.20.2%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-ppc64le ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-ppc64le ^cmake@3.20.2%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-ppc64le ^openssl@1.1.1k%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'blt@develop%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.19.7%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib abi=none arch=linux-rhel7-x86_64 ^openssl@1.1.1k%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.4.0%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.19.7%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib abi=none arch=linux-rhel7-x86_64 ^openssl@1.1.1k%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.20.2%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-x86_64 ^openssl@1.1.1k%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@0.4.0%gcc@8.1.0 arch=linux-rhel7-ppc64le ^cmake@3.19.7%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib abi=none arch=linux-rhel7-ppc64le ^openssl@1.1.1k%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.20.3%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1k%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^cmake@3.20.3%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-ppc64le ^openssl@1.1.1k%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.17.3%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3,e51119d arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1g%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@0.4.0%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^cmake@3.19.7%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-ppc64le ^openssl@1.1.1k%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.19.0%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^openssl@1.1.1h%gcc@8.3.1+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@develop%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.19.5%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1k%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.19.7%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^openssl@1.1.1k%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-ppc64le ^cmake@3.19.7%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le ^openssl@1.1.1k%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.18.4%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1h%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.19.5%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1j%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.17.3%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3,e51119d arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^openssl@1.1.1h%gcc@8.1.0+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@develop%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.18.4%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^openssl@1.1.1j%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-ppc64le ^cmake@3.19.0%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le ^openssl@1.1.1h%gcc@8.1.0+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^cmake@3.19.5%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^openssl@1.1.1k%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.18.4%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^openssl@1.1.1h%gcc@8.3.1+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-ppc64le ^cmake@3.17.3%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3,e51119d arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le ^openssl@1.1.1g%gcc@8.1.0+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.18.4%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1h%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.19.7%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^openssl@1.1.1k%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^cmake@3.18.4%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-ppc64le ^openssl@1.1.1j%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.19.5%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^openssl@1.1.1k%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^cmake@3.20.2%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-ppc64le ^openssl@1.1.1k%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'blt@0.3.6%gcc@8.4.1 arch=linux-rhel8-x86_64 ^cmake@3.20.3%gcc@8.4.1~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.4.1~symlinks+termlib abi=none arch=linux-rhel8-x86_64 ^openssl@1.1.1k%gcc@8.4.1~docs+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.4.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-ppc64le ^cmake@3.18.4%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le ^openssl@1.1.1j%gcc@8.1.0+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'blt@develop%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.18.4%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1i%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-rhel7-ppc64le ^cmake@3.20.2%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-rhel7-ppc64le ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-ppc64le ^cmake@3.19.5%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-ppc64le ^openssl@1.1.1k%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^cmake@3.18.4%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^openssl@1.1.1j%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'blt@develop%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.19.5%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1j%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@0.4.0%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^cmake@3.20.3%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-ppc64le ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.17.3%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3,e51119d arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1h%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@develop%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.18.4%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^openssl@1.1.1j%gcc@8.3.1+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@develop%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.18.4%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^openssl@1.1.1j%gcc@8.1.0+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.18.4%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1i%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@develop%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.19.7%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1k%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@develop%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.18.4%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^openssl@1.1.1i%gcc@8.1.0+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.18.4%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1j%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@develop%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.19.7%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^openssl@1.1.1k%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@develop%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.18.4%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^openssl@1.1.1i%gcc@8.3.1+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@develop%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.18.4%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1h%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@develop%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.19.5%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^openssl@1.1.1k%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.19.0%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^openssl@1.1.1h%gcc@8.1.0+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^cmake@3.20.3%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-ppc64le ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.19.7%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-ppc64le ^cmake@3.19.7%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib abi=none arch=linux-rhel7-ppc64le ^openssl@1.1.1k%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.18.4%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1i%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-rhel7-ppc64le ^cmake@3.20.3%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-rhel7-ppc64le ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.20.2%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.18.4%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^openssl@1.1.1j%gcc@8.3.1+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@0.4.0%gcc@10.3.0 arch=linux-ubuntu21.04-ppc64le ^cmake@3.20.3%gcc@10.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-ubuntu21.04-ppc64le ^ncurses@6.2%gcc@10.3.0~symlinks+termlib abi=none arch=linux-ubuntu21.04-ppc64le ^openssl@1.1.1k%gcc@10.3.0~docs+systemcerts arch=linux-ubuntu21.04-ppc64le ^zlib@1.2.11%gcc@10.3.0+optimize+pic+shared arch=linux-ubuntu21.04-ppc64le'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^cmake@3.17.3%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3,e51119d arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^openssl@1.1.1h%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.20.3%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-ppc64le ^cmake@3.18.4%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le ^openssl@1.1.1h%gcc@8.1.0+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'blt@develop%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.18.4%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^openssl@1.1.1j%gcc@8.1.0+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.3.6rocm%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^cmake@3.19.7%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-ppc64le ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.20.2%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1k%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@0.3.6%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.18.4%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^openssl@1.1.1j%gcc@8.1.0+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@develop%gcc@8.1.0 arch=linux-rhel7-x86_64 ^cmake@3.18.4%gcc@8.1.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^openssl@1.1.1h%gcc@8.1.0+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.18.4%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1j%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-ppc64le ^cmake@3.19.5%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-ppc64le ^openssl@1.1.1j%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.18.4%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1j%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@0.3.6rocm%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.19.7%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-x86_64 ^cmake@3.20.3%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-x86_64 ^openssl@1.1.1k%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'blt@develop%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.18.4%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1i%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@0.3.6%gcc@8.3.1 arch=linux-rhel8-ppc64le ^cmake@3.20.3%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-ppc64le ^openssl@1.1.1k%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'blt@0.3.6%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^cmake@3.18.4%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^openssl@1.1.1h%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'blt@0.4.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.19.7%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=b48396c arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^cmake@3.18.4%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt patches=bf695e3 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1j%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'blt@0.3.6%gcc@9.3.0 arch=linux-rhel7-x86_64 ^cmake@3.20.2%gcc@9.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-rhel7-x86_64 ^openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'blt@0.3.6%gcc@10.3.0 arch=linux-ubuntu21.04-ppc64le ^cmake@3.20.3%gcc@10.3.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-ubuntu21.04-ppc64le ^ncurses@6.2%gcc@10.3.0~symlinks+termlib abi=none arch=linux-ubuntu21.04-ppc64le ^openssl@1.1.1k%gcc@10.3.0~docs+systemcerts arch=linux-ubuntu21.04-ppc64le ^zlib@1.2.11%gcc@10.3.0+optimize+pic+shared arch=linux-ubuntu21.04-ppc64le'
+ - 'blt@0.4.0%gcc@8.4.1 arch=linux-rhel8-ppc64le ^cmake@3.20.3%gcc@8.4.1~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.4.1~symlinks+termlib abi=none arch=linux-rhel8-ppc64le ^openssl@1.1.1k%gcc@8.4.1~docs+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.4.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'blt@develop%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^cmake@3.18.4%gcc@7.5.0~doc+ncurses+openssl+ownlibs~qt build_type=Release patches=bf695e3 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1j%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'blt@0.4.0%gcc@8.3.1 arch=linux-rhel8-ppc64le ^cmake@3.20.2%gcc@8.3.1~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-ppc64le ^openssl@1.1.1k%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+---

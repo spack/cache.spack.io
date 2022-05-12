@@ -1,0 +1,174 @@
+---
+title: "zsh"
+layout: cache
+category: package
+meta: {"versions": ["5.4.2", "5.8"], "compilers": ["gcc@10.3.0", "gcc@7.3.0", "gcc@7.3.1", "gcc@7.4.0", "gcc@7.5.0", "gcc@8.1.0", "gcc@8.3.1", "gcc@8.4.1", "gcc@9.3.0", "intel@19.1.3.304"]}
+spec_files: 
+ - spec-0.json
+ - spec-1.json
+ - spec-2.json
+ - spec-3.json
+ - spec-4.json
+ - spec-5.json
+ - spec-6.json
+ - spec-7.json
+ - spec-8.json
+ - spec-9.json
+ - spec-10.json
+ - spec-11.json
+ - spec-12.json
+ - spec-13.json
+ - spec-14.json
+ - spec-15.json
+ - spec-16.json
+ - spec-17.json
+ - spec-18.json
+ - spec-19.json
+ - spec-20.json
+ - spec-21.json
+ - spec-22.json
+ - spec-23.json
+ - spec-24.json
+ - spec-25.json
+ - spec-26.json
+ - spec-27.json
+ - spec-28.json
+ - spec-29.json
+ - spec-30.json
+ - spec-31.json
+ - spec-32.json
+ - spec-33.json
+ - spec-34.json
+ - spec-35.json
+ - spec-36.json
+ - spec-37.json
+ - spec-38.json
+ - spec-39.json
+ - spec-40.json
+ - spec-41.json
+ - spec-42.json
+ - spec-43.json
+ - spec-44.json
+ - spec-45.json
+ - spec-46.json
+ - spec-47.json
+ - spec-48.json
+ - spec-49.json
+ - spec-50.json
+ - spec-51.json
+ - spec-52.json
+ - spec-53.json
+ - spec-54.json
+ - spec-55.json
+ - spec-56.json
+ - spec-57.json
+ - spec-58.json
+ - spec-59.json
+ - spec-60.json
+ - spec-61.json
+ - spec-62.json
+ - spec-63.json
+ - spec-64.json
+ - spec-65.json
+ - spec-66.json
+ - spec-67.json
+ - spec-68.json
+ - spec-69.json
+ - spec-70.json
+ - spec-71.json
+ - spec-72.json
+ - spec-73.json
+ - spec-74.json
+ - spec-75.json
+ - spec-76.json
+ - spec-77.json
+ - spec-78.json
+ - spec-79.json
+ - spec-80.json
+ - spec-81.json
+ - spec-82.json
+spec_names:
+ - 'zsh@5.8%gcc@8.3.1+skip-tcsetpgrp-test arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-x86_64 ^pcre@8.44%gcc@8.3.1~jit+multibyte+utf arch=linux-rhel8-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-x86_64 ^pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-rhel7-x86_64'
+ - 'zsh@5.8%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-centos7-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos7-x86_64 ^pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-centos7-x86_64'
+ - 'zsh@5.8%gcc@8.3.1+skip-tcsetpgrp-test arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-ppc64le ^pcre@8.44%gcc@8.3.1~jit+multibyte+utf arch=linux-rhel8-ppc64le'
+ - 'zsh@5.8%gcc@8.4.1+skip-tcsetpgrp-test arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.4.1~symlinks+termlib abi=none arch=linux-rhel8-x86_64 ^pcre@8.44%gcc@8.4.1~jit+multibyte+utf arch=linux-rhel8-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-ubuntu18.04-x86_64'
+ - 'zsh@5.8%gcc@7.5.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^pcre@8.44%gcc@7.5.0~jit+multibyte+utf arch=linux-ubuntu18.04-x86_64'
+ - 'zsh@5.8%gcc@8.3.1+skip-tcsetpgrp-test arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64 ^pcre@8.44%gcc@8.3.1~jit+multibyte+utf arch=linux-rhel8-x86_64'
+ - 'zsh@5.8%gcc@9.3.0+skip-tcsetpgrp-test arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-ppc64le ^pcre@8.44%gcc@9.3.0~jit+multibyte+utf arch=linux-ubuntu20.04-ppc64le'
+ - 'zsh@5.8%gcc@9.3.0+skip-tcsetpgrp-test arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^pcre@8.44%gcc@9.3.0~jit+multibyte+utf arch=linux-ubuntu20.04-x86_64'
+ - 'zsh@5.8%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-centos8-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos8-x86_64 ^pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-centos8-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-centos7-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos7-x86_64 ^pcre@8.43%gcc@7.3.0~jit+multibyte+utf arch=linux-centos7-x86_64'
+ - 'zsh@5.8%gcc@8.1.0+skip-tcsetpgrp-test arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^pcre@8.44%gcc@8.1.0~jit+multibyte+utf arch=linux-rhel7-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-centos7-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos7-x86_64 ^pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-centos7-x86_64'
+ - 'zsh@5.8%gcc@8.3.1+skip-tcsetpgrp-test arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-ppc64le ^pcre@8.44%gcc@8.3.1~jit+multibyte+utf arch=linux-rhel8-ppc64le'
+ - 'zsh@5.8%gcc@8.3.1+skip-tcsetpgrp-test arch=linux-centos8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-centos8-x86_64 ^pcre@8.44%gcc@8.3.1~jit+multibyte+utf arch=linux-centos8-x86_64'
+ - 'zsh@5.8%gcc@8.1.0+skip-tcsetpgrp-test arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib abi=none arch=linux-rhel7-x86_64 ^pcre@8.44%gcc@8.1.0~jit+multibyte+utf arch=linux-rhel7-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-ppc64le ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-ubuntu18.04-ppc64le ^pcre@8.42%gcc@7.3.0+jit+multibyte+utf arch=linux-ubuntu18.04-ppc64le'
+ - 'zsh@5.8%gcc@7.5.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-ppc64le ^pcre@8.44%gcc@7.5.0~jit+multibyte+utf arch=linux-ubuntu18.04-ppc64le'
+ - 'zsh@5.4.2%gcc@9.3.0+skip-tcsetpgrp-test arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64 ^pcre@8.44%gcc@9.3.0~jit+multibyte+utf arch=linux-ubuntu20.04-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-rhel8-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks+termlib arch=linux-rhel8-x86_64 ^pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-rhel8-x86_64'
+ - 'zsh@5.8%gcc@8.1.0+skip-tcsetpgrp-test arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib abi=none arch=linux-rhel7-ppc64le ^pcre@8.44%gcc@8.1.0~jit+multibyte+utf arch=linux-rhel7-ppc64le'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-ubuntu18.04-ppc64le'
+ - 'zsh@5.8%gcc@7.5.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64 ^pcre@8.44%gcc@7.5.0~jit+multibyte+utf arch=linux-ubuntu18.04-x86_64'
+ - 'zsh@5.8%gcc@8.1.0+skip-tcsetpgrp-test arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64 ^pcre@8.44%gcc@8.1.0~jit+multibyte+utf arch=linux-rhel7-x86_64'
+ - 'zsh@5.8%gcc@9.3.0+skip-tcsetpgrp-test arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64 ^pcre@8.44%gcc@9.3.0~jit+multibyte+utf arch=linux-ubuntu20.04-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-centos8-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos8-x86_64 ^pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-centos8-x86_64'
+ - 'zsh@5.8%gcc@10.3.0+skip-tcsetpgrp-test arch=linux-ubuntu21.04-ppc64le ^ncurses@6.2%gcc@10.3.0~symlinks+termlib abi=none arch=linux-ubuntu21.04-ppc64le ^pcre@8.44%gcc@10.3.0~jit+multibyte+utf arch=linux-ubuntu21.04-ppc64le'
+ - 'zsh@5.8%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-x86_64 ^pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-rhel7-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-rhel7-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-x86_64 ^pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-rhel7-x86_64'
+ - 'zsh@5.8%gcc@9.3.0+skip-tcsetpgrp-test arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-rhel7-x86_64 ^pcre@8.44%gcc@9.3.0~jit+multibyte+utf arch=linux-rhel7-x86_64'
+ - 'zsh@5.8%gcc@8.1.0+skip-tcsetpgrp-test arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le ^pcre@8.44%gcc@8.1.0~jit+multibyte+utf arch=linux-rhel7-ppc64le'
+ - 'zsh@5.8%gcc@7.5.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^pcre@8.44%gcc@7.5.0~jit+multibyte+utf arch=linux-ubuntu18.04-ppc64le'
+ - 'zsh@5.8%gcc@9.3.0+skip-tcsetpgrp-test arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-ppc64le ^pcre@8.44%gcc@9.3.0~jit+multibyte+utf arch=linux-ubuntu20.04-ppc64le'
+ - 'zsh@5.8%gcc@8.3.1+skip-tcsetpgrp-test arch=linux-centos8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-centos8-ppc64le ^pcre@8.44%gcc@8.3.1~jit+multibyte+utf arch=linux-centos8-ppc64le'
+ - 'zsh@5.8%gcc@9.3.0+skip-tcsetpgrp-test arch=cray-cnl7-haswell ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=cray-cnl7-haswell ^pcre@8.44%gcc@9.3.0~jit+multibyte+utf arch=cray-cnl7-haswell'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-ubuntu18.04-ppc64le'
+ - 'zsh@5.8%gcc@8.1.0+skip-tcsetpgrp-test arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le ^pcre@8.44%gcc@8.1.0~jit+multibyte+utf arch=linux-rhel7-ppc64le'
+ - 'zsh@5.8%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-ppc64le ^pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-rhel7-ppc64le'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-centos8-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks+termlib arch=linux-centos8-x86_64 ^pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-centos8-x86_64'
+ - 'zsh@5.4.2%gcc@9.3.0+skip-tcsetpgrp-test arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-ppc64le ^pcre@8.44%gcc@9.3.0~jit+multibyte+utf arch=linux-ubuntu20.04-ppc64le'
+ - 'zsh@5.8%gcc@9.3.0+skip-tcsetpgrp-test arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-rhel7-ppc64le ^pcre@8.44%gcc@9.3.0~jit+multibyte+utf arch=linux-rhel7-ppc64le'
+ - 'zsh@5.8%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-ubuntu18.04-ppc64le'
+ - 'zsh@5.8%gcc@8.1.0+skip-tcsetpgrp-test arch=linux-centos7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-centos7-ppc64le ^pcre@8.44%gcc@8.1.0~jit+multibyte+utf arch=linux-centos7-ppc64le'
+ - 'zsh@5.8%gcc@8.1.0+skip-tcsetpgrp-test arch=linux-centos7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-centos7-x86_64 ^pcre@8.44%gcc@8.1.0~jit+multibyte+utf arch=linux-centos7-x86_64'
+ - 'zsh@5.8%gcc@10.3.0+skip-tcsetpgrp-test arch=linux-ubuntu21.04-x86_64 ^ncurses@6.2%gcc@10.3.0~symlinks+termlib abi=none arch=linux-ubuntu21.04-x86_64 ^pcre@8.44%gcc@10.3.0~jit+multibyte+utf arch=linux-ubuntu21.04-x86_64'
+ - 'zsh@5.4.2%gcc@8.3.1+skip-tcsetpgrp-test arch=linux-centos8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-centos8-ppc64le ^pcre@8.43%gcc@8.3.1+jit+multibyte+utf arch=linux-centos8-ppc64le'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-ppc64le ^pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-rhel7-ppc64le'
+ - 'zsh@5.4.2%gcc@7.4.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-x86_64 ^ncurses@6.1%gcc@7.4.0~symlinks~termlib arch=linux-ubuntu18.04-x86_64 ^pcre@8.43%gcc@7.4.0+jit+multibyte+utf arch=linux-ubuntu18.04-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-x86_64 ^pcre@8.43%gcc@7.3.0~jit+multibyte+utf arch=linux-rhel7-x86_64'
+ - 'zsh@5.8%gcc@7.3.1+skip-tcsetpgrp-test arch=linux-amzn2-x86_64 ^ncurses@6.2%gcc@7.3.1~symlinks+termlib arch=linux-amzn2-x86_64 ^pcre@8.44%gcc@7.3.1~jit+multibyte+utf arch=linux-amzn2-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-ubuntu18.04-x86_64 ^pcre@8.42%gcc@7.3.0+jit+multibyte+utf arch=linux-ubuntu18.04-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel8-x86_64 ^pcre@8.43%gcc@7.3.0~jit+multibyte+utf arch=linux-rhel8-x86_64'
+ - 'zsh@5.8%gcc@8.1.0+skip-tcsetpgrp-test arch=linux-rhel7-power8le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-power8le ^pcre@8.44%gcc@8.1.0~jit+multibyte+utf arch=linux-rhel7-power8le'
+ - 'zsh@5.8%gcc@7.5.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le ^pcre@8.44%gcc@7.5.0~jit+multibyte+utf arch=linux-ubuntu18.04-ppc64le'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-centos8-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos8-x86_64 ^pcre@8.43%gcc@7.3.0~jit+multibyte+utf arch=linux-centos8-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^pcre@8.43%gcc@7.3.0~jit+multibyte+utf arch=linux-ubuntu18.04-x86_64'
+ - 'zsh@5.8%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel8-x86_64 ^pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-rhel8-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-centos7-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-centos7-x86_64 ^pcre@8.42%gcc@7.3.0+jit+multibyte+utf arch=linux-centos7-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-x86_64 ^pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-rhel7-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-ubuntu18.04-x86_64'
+ - 'zsh@5.8%gcc@8.3.1+skip-tcsetpgrp-test arch=linux-rhel8-aarch64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-aarch64 ^pcre@8.44%gcc@8.3.1~jit+multibyte+utf arch=linux-rhel8-aarch64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel8-x86_64 ^pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-rhel8-x86_64'
+ - 'zsh@5.4.2%gcc@7.4.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-x86_64 ^ncurses@6.1%gcc@7.4.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^pcre@8.43%gcc@7.4.0+jit+multibyte+utf arch=linux-ubuntu18.04-x86_64'
+ - 'zsh@5.4.2%gcc@7.4.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-x86_64 ^ncurses@6.1%gcc@7.4.0~symlinks~termlib arch=linux-ubuntu18.04-x86_64 ^pcre@8.42%gcc@7.4.0+jit+multibyte+utf arch=linux-ubuntu18.04-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-ubuntu18.04-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-rhel7-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-rhel7-x86_64 ^pcre@8.42%gcc@7.3.0+jit+multibyte+utf arch=linux-rhel7-x86_64'
+ - 'zsh@5.8%gcc@7.5.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^pcre@8.44%gcc@7.5.0~jit+multibyte+utf arch=linux-ubuntu18.04-x86_64'
+ - 'zsh@5.8%intel@19.1.3.304+skip-tcsetpgrp-test arch=cray-cnl7-haswell ^ncurses@6.2%intel@19.1.3.304~symlinks+termlib abi=none arch=cray-cnl7-haswell ^pcre@8.44%intel@19.1.3.304~jit+multibyte+utf arch=cray-cnl7-haswell'
+ - 'zsh@5.8%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64 ^pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-ubuntu18.04-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel8-x86_64 ^pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-rhel8-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-centos7-ppc64le ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos7-ppc64le ^pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-centos7-ppc64le'
+ - 'zsh@5.4.2%gcc@8.3.1+skip-tcsetpgrp-test arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-ppc64le ^pcre@8.43%gcc@8.3.1+jit+multibyte+utf arch=linux-rhel8-ppc64le'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-centos7-ppc64le ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-centos7-ppc64le ^pcre@8.42%gcc@7.3.0+jit+multibyte+utf arch=linux-centos7-ppc64le'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-centos7-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks+termlib arch=linux-centos7-x86_64 ^pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-centos7-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-ppc64le ^pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-rhel7-ppc64le'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-centos8-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos8-x86_64 ^pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-centos8-x86_64'
+ - 'zsh@5.8%gcc@7.5.0+skip-tcsetpgrp-test arch=linux-ubuntu18.04-aarch64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-aarch64 ^pcre@8.44%gcc@7.5.0~jit+multibyte+utf arch=linux-ubuntu18.04-aarch64'
+ - 'zsh@5.8%gcc@8.4.1+skip-tcsetpgrp-test arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.4.1~symlinks+termlib abi=none arch=linux-rhel8-ppc64le ^pcre@8.44%gcc@8.4.1~jit+multibyte+utf arch=linux-rhel8-ppc64le'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-rhel8-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-rhel8-x86_64 ^pcre@8.42%gcc@7.3.0+jit+multibyte+utf arch=linux-rhel8-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-rhel7-ppc64le ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-rhel7-ppc64le ^pcre@8.42%gcc@7.3.0+jit+multibyte+utf arch=linux-rhel7-ppc64le'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-centos8-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-centos8-x86_64 ^pcre@8.42%gcc@7.3.0+jit+multibyte+utf arch=linux-centos8-x86_64'
+ - 'zsh@5.4.2%gcc@7.3.0+skip-tcsetpgrp-test arch=linux-centos7-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos7-x86_64 ^pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-centos7-x86_64'
+---

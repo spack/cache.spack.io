@@ -1,0 +1,294 @@
+---
+title: "cuda"
+layout: cache
+category: package
+meta: {"versions": ["10.1.168", "10.1.243", "10.2.89", "11.0.2", "11.1.0", "11.1.1", "11.2.0", "11.2.1", "11.2.2", "11.3.0", "11.3.1"], "compilers": ["gcc@6.4.0", "gcc@7.3.0", "gcc@7.3.1", "gcc@7.4.0", "gcc@7.5.0", "gcc@8.1.0", "gcc@8.3.1", "gcc@8.4.1", "gcc@9.3.0"]}
+spec_files: 
+ - spec-0.json
+ - spec-1.json
+ - spec-2.json
+ - spec-3.json
+ - spec-4.json
+ - spec-5.json
+ - spec-6.json
+ - spec-7.json
+ - spec-8.json
+ - spec-9.json
+ - spec-10.json
+ - spec-11.json
+ - spec-12.json
+ - spec-13.json
+ - spec-14.json
+ - spec-15.json
+ - spec-16.json
+ - spec-17.json
+ - spec-18.json
+ - spec-19.json
+ - spec-20.json
+ - spec-21.json
+ - spec-22.json
+ - spec-23.json
+ - spec-24.json
+ - spec-25.json
+ - spec-26.json
+ - spec-27.json
+ - spec-28.json
+ - spec-29.json
+ - spec-30.json
+ - spec-31.json
+ - spec-32.json
+ - spec-33.json
+ - spec-34.json
+ - spec-35.json
+ - spec-36.json
+ - spec-37.json
+ - spec-38.json
+ - spec-39.json
+ - spec-40.json
+ - spec-41.json
+ - spec-42.json
+ - spec-43.json
+ - spec-44.json
+ - spec-45.json
+ - spec-46.json
+ - spec-47.json
+ - spec-48.json
+ - spec-49.json
+ - spec-50.json
+ - spec-51.json
+ - spec-52.json
+ - spec-53.json
+ - spec-54.json
+ - spec-55.json
+ - spec-56.json
+ - spec-57.json
+ - spec-58.json
+ - spec-59.json
+ - spec-60.json
+ - spec-61.json
+ - spec-62.json
+ - spec-63.json
+ - spec-64.json
+ - spec-65.json
+ - spec-66.json
+ - spec-67.json
+ - spec-68.json
+ - spec-69.json
+ - spec-70.json
+ - spec-71.json
+ - spec-72.json
+ - spec-73.json
+ - spec-74.json
+ - spec-75.json
+ - spec-76.json
+ - spec-77.json
+ - spec-78.json
+ - spec-79.json
+ - spec-80.json
+ - spec-81.json
+ - spec-82.json
+ - spec-83.json
+ - spec-84.json
+ - spec-85.json
+ - spec-86.json
+ - spec-87.json
+ - spec-88.json
+ - spec-89.json
+ - spec-90.json
+ - spec-91.json
+ - spec-92.json
+ - spec-93.json
+ - spec-94.json
+ - spec-95.json
+ - spec-96.json
+ - spec-97.json
+ - spec-98.json
+ - spec-99.json
+ - spec-100.json
+ - spec-101.json
+ - spec-102.json
+ - spec-103.json
+ - spec-104.json
+ - spec-105.json
+ - spec-106.json
+ - spec-107.json
+ - spec-108.json
+ - spec-109.json
+ - spec-110.json
+ - spec-111.json
+ - spec-112.json
+ - spec-113.json
+ - spec-114.json
+ - spec-115.json
+ - spec-116.json
+ - spec-117.json
+ - spec-118.json
+ - spec-119.json
+ - spec-120.json
+ - spec-121.json
+ - spec-122.json
+ - spec-123.json
+ - spec-124.json
+ - spec-125.json
+ - spec-126.json
+ - spec-127.json
+ - spec-128.json
+ - spec-129.json
+ - spec-130.json
+ - spec-131.json
+ - spec-132.json
+ - spec-133.json
+ - spec-134.json
+ - spec-135.json
+ - spec-136.json
+ - spec-137.json
+ - spec-138.json
+ - spec-139.json
+ - spec-140.json
+ - spec-141.json
+ - spec-142.json
+spec_names:
+ - 'cuda@11.3.1%gcc@9.3.0~dev arch=linux-ubuntu20.04-ppc64le ^libiconv@1.16%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-ubuntu20.04-ppc64le ^xz@5.2.5%gcc@9.3.0+pic libs=shared,static arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'cuda@11.3.1%gcc@7.5.0~dev arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-x86_64 ^xz@5.2.5%gcc@7.5.0+pic libs=shared,static arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@11.3.1%gcc@8.3.1~dev arch=linux-rhel8-ppc64le ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-ppc64le ^xz@5.2.5%gcc@8.3.1+pic libs=shared,static arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'cuda@11.1.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-x86_64 ^xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@11.3.1%gcc@8.3.1~dev arch=linux-rhel8-x86_64 ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-x86_64 ^xz@5.2.5%gcc@8.3.1+pic libs=shared,static arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'cuda@10.2.89%gcc@7.5.0~dev arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-x86_64 ^xz@5.2.5%gcc@7.5.0+pic libs=shared,static arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@10.2.89%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-x86_64 ^xz@5.2.5%gcc@8.3.1~pic arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'cuda@10.2.89%gcc@8.3.1~dev arch=linux-rhel8-x86_64 ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-x86_64 ^xz@5.2.5%gcc@8.3.1+pic arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'cuda@11.0.2%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-x86_64 ^xz@5.2.5%gcc@8.3.1~pic arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'cuda@11.3.0%gcc@7.5.0~dev arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-x86_64 ^xz@5.2.5%gcc@7.5.0+pic libs=shared,static arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@11.0.2%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-x86_64 ^xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'cuda@10.2.89%gcc@8.1.0 arch=linux-centos7-ppc64le ^libiconv@1.16%gcc@8.1.0 arch=linux-centos7-ppc64le ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-centos7-ppc64le ^xz@5.2.5%gcc@8.1.0 arch=linux-centos7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-centos7-ppc64le'
+ - 'cuda@10.2.89%gcc@8.3.1~dev arch=linux-rhel8-x86_64 ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-x86_64 ^xz@5.2.5%gcc@8.3.1~pic arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'cuda@10.2.89%gcc@7.5.0~dev arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-x86_64 ^xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@11.2.2%gcc@9.3.0~dev arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-ubuntu20.04-x86_64 ^xz@5.2.5%gcc@9.3.0+pic arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'cuda@11.3.1%gcc@8.4.1~dev arch=linux-rhel8-x86_64 ^libiconv@1.16%gcc@8.4.1 arch=linux-rhel8-x86_64 ^libxml2@2.9.10%gcc@8.4.1~python arch=linux-rhel8-x86_64 ^xz@5.2.5%gcc@8.4.1+pic libs=shared,static arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.4.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'cuda@11.3.1%gcc@9.3.0~dev arch=linux-rhel7-ppc64le ^libiconv@1.16%gcc@9.3.0 arch=linux-rhel7-ppc64le ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-rhel7-ppc64le ^xz@5.2.5%gcc@9.3.0+pic libs=shared,static arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'cuda@11.3.1%gcc@7.5.0~dev arch=linux-ubuntu18.04-ppc64le ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-ppc64le ^xz@5.2.5%gcc@7.5.0+pic libs=shared,static arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'cuda@10.2.89%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-ppc64le ^xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'cuda@10.2.89%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-x86_64 ^xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'cuda@10.2.89%gcc@7.3.0 arch=linux-rhel8-x86_64 ^libiconv@1.16%gcc@7.3.0 arch=linux-rhel8-x86_64 ^libxml2@2.9.10%gcc@7.3.0~python arch=linux-rhel8-x86_64 ^xz@5.2.5%gcc@7.3.0 arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'cuda@11.3.0%gcc@8.3.1~dev arch=linux-rhel8-x86_64 ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-x86_64 ^xz@5.2.5%gcc@8.3.1+pic libs=shared,static arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'cuda@10.2.89%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-ppc64le ^xz@5.2.5%gcc@8.1.0 arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'cuda@10.2.89%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-x86_64 ^xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@11.3.0%gcc@7.5.0~dev arch=linux-ubuntu18.04-ppc64le ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-ppc64le ^xz@5.2.5%gcc@7.5.0+pic libs=shared,static arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'cuda@11.1.0%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-ppc64le ^xz@5.2.5%gcc@8.3.1~pic arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'cuda@11.3.0%gcc@9.3.0~dev arch=linux-rhel7-x86_64 ^libiconv@1.16%gcc@9.3.0 arch=linux-rhel7-x86_64 ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-rhel7-x86_64 ^xz@5.2.5%gcc@9.3.0+pic libs=shared,static arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'cuda@11.3.1%gcc@9.3.0~dev arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-ubuntu20.04-x86_64 ^xz@5.2.5%gcc@9.3.0+pic libs=shared,static arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'cuda@11.3.0%gcc@9.3.0~dev arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-ubuntu20.04-x86_64 ^xz@5.2.5%gcc@9.3.0+pic libs=shared,static arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'cuda@10.2.89%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-x86_64 ^xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'cuda@11.0.2%gcc@8.3.1 arch=linux-centos8-ppc64le ^libiconv@1.16%gcc@8.3.1 arch=linux-centos8-ppc64le ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-centos8-ppc64le ^xz@5.2.5%gcc@8.3.1 arch=linux-centos8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-centos8-ppc64le'
+ - 'cuda@10.2.89%gcc@8.1.0~dev arch=linux-rhel7-x86_64 ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-x86_64 ^xz@5.2.5%gcc@8.1.0+pic libs=shared,static arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'cuda@10.2.89%gcc@8.1.0~dev arch=linux-rhel7-x86_64 ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-x86_64 ^xz@5.2.5%gcc@8.1.0+pic arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'cuda@10.1.243%gcc@7.3.0 arch=linux-rhel8-x86_64'
+ - 'cuda@11.3.1%gcc@8.4.1~dev arch=linux-rhel8-ppc64le ^libiconv@1.16%gcc@8.4.1 arch=linux-rhel8-ppc64le ^libxml2@2.9.10%gcc@8.4.1~python arch=linux-rhel8-ppc64le ^xz@5.2.5%gcc@8.4.1+pic libs=shared,static arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.4.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'cuda@11.1.0%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-ppc64le ^xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'cuda@11.1.0%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-ppc64le ^xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'cuda@10.2.89%gcc@6.4.0 arch=linux-rhel7-power9le'
+ - 'cuda@11.3.0%gcc@9.3.0~dev arch=linux-ubuntu20.04-ppc64le ^libiconv@1.16%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-ubuntu20.04-ppc64le ^xz@5.2.5%gcc@9.3.0+pic libs=shared,static arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'cuda@10.2.89%gcc@7.3.0 arch=linux-rhel7-x86_64 ^libiconv@1.16%gcc@7.3.0 arch=linux-rhel7-x86_64 ^libxml2@2.9.10%gcc@7.3.0~python arch=linux-rhel7-x86_64 ^xz@5.2.5%gcc@7.3.0 arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'cuda@10.2.89%gcc@7.3.0 arch=linux-centos8-x86_64 ^libiconv@1.16%gcc@7.3.0 arch=linux-centos8-x86_64 ^libxml2@2.9.10%gcc@7.3.0~python arch=linux-centos8-x86_64 ^xz@5.2.5%gcc@7.3.0 arch=linux-centos8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos8-x86_64'
+ - 'cuda@10.2.89%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@11.0.2%gcc@7.3.0 arch=linux-rhel7-ppc64le ^libiconv@1.16%gcc@7.3.0 arch=linux-rhel7-ppc64le ^libxml2@2.9.10%gcc@7.3.0~python arch=linux-rhel7-ppc64le ^xz@5.2.5%gcc@7.3.0 arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'cuda@11.2.0%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-ppc64le ^xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'cuda@11.0.2%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-ppc64le ^xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'cuda@11.3.1%gcc@9.3.0~dev arch=linux-rhel7-x86_64 ^libiconv@1.16%gcc@9.3.0 arch=linux-rhel7-x86_64 ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-rhel7-x86_64 ^xz@5.2.5%gcc@9.3.0+pic libs=shared,static arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'cuda@11.1.0%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-x86_64 ^xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'cuda@11.0.2%gcc@7.5.0 arch=linux-ubuntu18.04-aarch64 ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-aarch64 ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-aarch64 ^xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-aarch64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-aarch64'
+ - 'cuda@10.2.89%gcc@7.5.0~dev arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-x86_64 ^xz@5.2.5%gcc@7.5.0+pic arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@11.0.2%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-x86_64 ^xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@10.2.89%gcc@6.4.0 arch=linux-rhel7-power9le ^libiconv@1.16%gcc@6.4.0 arch=linux-rhel7-power9le ^libxml2@2.9.10%gcc@6.4.0~python arch=linux-rhel7-power9le ^xz@5.2.5%gcc@6.4.0 arch=linux-rhel7-power9le ^zlib@1.2.11%gcc@6.4.0+optimize+pic+shared arch=linux-rhel7-power9le'
+ - 'cuda@10.2.89%gcc@8.1.0 arch=linux-centos7-x86_64 ^libiconv@1.16%gcc@8.1.0 arch=linux-centos7-x86_64 ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-centos7-x86_64 ^xz@5.2.5%gcc@8.1.0~pic arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-centos7-x86_64'
+ - 'cuda@11.2.2%gcc@9.3.0~dev arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-ubuntu20.04-x86_64 ^xz@5.2.5%gcc@9.3.0~pic arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'cuda@11.1.0%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-ppc64le ^xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'cuda@10.2.89%gcc@7.3.1 arch=linux-amzn2-x86_64 ^libiconv@1.16%gcc@7.3.1 arch=linux-amzn2-x86_64 ^libxml2@2.9.10%gcc@7.3.1~python arch=linux-amzn2-x86_64 ^xz@5.2.5%gcc@7.3.1~pic arch=linux-amzn2-x86_64 ^zlib@1.2.11%gcc@7.3.1+optimize+pic+shared arch=linux-amzn2-x86_64'
+ - 'cuda@10.2.89%gcc@7.3.0 arch=linux-rhel8-x86_64 ^libiconv@1.16%gcc@7.3.0 arch=linux-rhel8-x86_64 ^libxml2@2.9.9%gcc@7.3.0~python arch=linux-rhel8-x86_64 ^xz@5.2.4%gcc@7.3.0 arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'cuda@11.2.0%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-ppc64le ^xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'cuda@11.3.0%gcc@8.3.1~dev arch=linux-rhel8-ppc64le ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-ppc64le ^xz@5.2.5%gcc@8.3.1+pic libs=shared,static arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'cuda@10.2.89%gcc@7.3.0 arch=linux-rhel7-x86_64 ^libiconv@1.16%gcc@7.3.0 arch=linux-rhel7-x86_64 ^libxml2@2.9.9%gcc@7.3.0~python arch=linux-rhel7-x86_64 ^xz@5.2.4%gcc@7.3.0 arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'cuda@11.0.2%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le ^libiconv@1.16%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le ^libxml2@2.9.10%gcc@7.3.0~python arch=linux-ubuntu18.04-ppc64le ^xz@5.2.5%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'cuda@11.0.2%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^libiconv@1.16%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-ubuntu20.04-ppc64le ^xz@5.2.5%gcc@9.3.0~pic arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'cuda@11.2.0%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-x86_64 ^xz@5.2.5%gcc@8.3.1~pic arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'cuda@10.2.89%gcc@7.3.0 arch=linux-centos7-x86_64 ^libiconv@1.16%gcc@7.3.0 arch=linux-centos7-x86_64 ^libxml2@2.9.10%gcc@7.3.0~python arch=linux-centos7-x86_64 ^xz@5.2.5%gcc@7.3.0 arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos7-x86_64'
+ - 'cuda@10.2.89%gcc@8.1.0~dev arch=linux-rhel7-ppc64le ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-ppc64le ^xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'cuda@11.0.2%gcc@8.3.1 arch=linux-rhel8-aarch64 ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-aarch64 ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-aarch64 ^xz@5.2.5%gcc@8.3.1~pic arch=linux-rhel8-aarch64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-aarch64'
+ - 'cuda@11.2.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-x86_64 ^xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@10.2.89%gcc@8.1.0~dev arch=linux-rhel7-ppc64le ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-ppc64le ^xz@5.2.5%gcc@8.1.0+pic arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'cuda@10.1.243%gcc@6.4.0 arch=linux-rhel7-power9le'
+ - 'cuda@11.2.2%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-ubuntu20.04-x86_64 ^xz@5.2.5%gcc@9.3.0~pic arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'cuda@11.2.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-ubuntu20.04-x86_64 ^xz@5.2.5%gcc@9.3.0~pic arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'cuda@10.2.89%gcc@8.1.0 arch=linux-centos7-x86_64 ^libiconv@1.16%gcc@8.1.0 arch=linux-centos7-x86_64 ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-centos7-x86_64 ^xz@5.2.5%gcc@8.1.0 arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-centos7-x86_64'
+ - 'cuda@10.2.89%gcc@7.5.0~dev arch=linux-ubuntu18.04-ppc64le ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-ppc64le ^xz@5.2.5%gcc@7.5.0+pic libs=shared,static arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'cuda@11.0.2%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-ppc64le ^xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'cuda@10.2.89%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le ^libiconv@1.16%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le ^libxml2@2.9.10%gcc@7.3.0~python arch=linux-ubuntu18.04-ppc64le ^xz@5.2.5%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'cuda@11.1.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-x86_64 ^xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@10.2.89%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'cuda@10.2.89%gcc@8.1.0~dev arch=linux-rhel7-ppc64le ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-ppc64le ^xz@5.2.5%gcc@8.1.0+pic libs=shared,static arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'cuda@10.1.168%gcc@6.4.0 arch=linux-rhel7-power9le'
+ - 'cuda@10.2.89%gcc@8.1.0~dev arch=linux-rhel7-x86_64 ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-x86_64 ^xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'cuda@11.0.2%gcc@7.5.0 arch=linux-ubuntu18.04-power8le ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-power8le ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-power8le ^xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-power8le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-power8le'
+ - 'cuda@10.2.89%gcc@8.3.1~dev arch=linux-rhel8-x86_64 ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-x86_64 ^xz@5.2.5%gcc@8.3.1+pic libs=shared,static arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'cuda@11.0.2%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-ppc64le ^xz@5.2.5%gcc@8.3.1~pic arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'cuda@11.1.0%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-x86_64 ^xz@5.2.5%gcc@8.3.1~pic arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'cuda@10.2.89%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^libxml2@2.9.10%gcc@7.3.0~python arch=linux-ubuntu18.04-x86_64 ^xz@5.2.5%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@10.2.89%gcc@8.1.0 arch=linux-centos7-ppc64le ^libiconv@1.16%gcc@8.1.0 arch=linux-centos7-ppc64le ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-centos7-ppc64le ^xz@5.2.5%gcc@8.1.0~pic arch=linux-centos7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-centos7-ppc64le'
+ - 'cuda@11.0.2%gcc@8.1.0 arch=linux-centos7-ppc64le ^libiconv@1.16%gcc@8.1.0 arch=linux-centos7-ppc64le ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-centos7-ppc64le ^xz@5.2.5%gcc@8.1.0~pic arch=linux-centos7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-centos7-ppc64le'
+ - 'cuda@10.2.89%gcc@8.3.1 arch=linux-centos8-x86_64 ^libiconv@1.16%gcc@8.3.1 arch=linux-centos8-x86_64 ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-centos8-x86_64 ^xz@5.2.5%gcc@8.3.1 arch=linux-centos8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-centos8-x86_64'
+ - 'cuda@11.1.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-ppc64le ^xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'cuda@10.2.89%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-x86_64 ^xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@11.1.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-ubuntu20.04-x86_64 ^xz@5.2.5%gcc@9.3.0~pic arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'cuda@11.0.2%gcc@8.3.1 arch=linux-centos8-x86_64 ^libiconv@1.16%gcc@8.3.1 arch=linux-centos8-x86_64 ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-centos8-x86_64 ^xz@5.2.5%gcc@8.3.1 arch=linux-centos8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-centos8-x86_64'
+ - 'cuda@11.0.2%gcc@8.1.0 arch=linux-centos7-x86_64 ^libiconv@1.16%gcc@8.1.0 arch=linux-centos7-x86_64 ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-centos7-x86_64 ^xz@5.2.5%gcc@8.1.0~pic arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-centos7-x86_64'
+ - 'cuda@11.3.0%gcc@9.3.0~dev arch=linux-rhel7-ppc64le ^libiconv@1.16%gcc@9.3.0 arch=linux-rhel7-ppc64le ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-rhel7-ppc64le ^xz@5.2.5%gcc@9.3.0+pic libs=shared,static arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'cuda@11.2.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-ubuntu20.04-x86_64 ^xz@5.2.5%gcc@9.3.0~pic arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'cuda@10.1.243%gcc@7.3.0 arch=linux-rhel7-x86_64'
+ - 'cuda@10.1.243%gcc@7.4.0 arch=linux-ubuntu18.04-ppc64le'
+ - 'cuda@10.1.243%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@11.0.2%gcc@7.3.0 arch=linux-centos8-x86_64 ^libiconv@1.16%gcc@7.3.0 arch=linux-centos8-x86_64 ^libxml2@2.9.10%gcc@7.3.0~python arch=linux-centos8-x86_64 ^xz@5.2.5%gcc@7.3.0 arch=linux-centos8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos8-x86_64'
+ - 'cuda@11.0.2%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-ppc64le ^xz@5.2.5%gcc@8.3.1 arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'cuda@10.2.89%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-ppc64le ^xz@5.2.5%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'cuda@11.3.0%gcc@9.3.0~dev arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-ubuntu20.04-x86_64 ^xz@5.2.5%gcc@9.3.0+pic arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'cuda@10.2.89%gcc@7.5.0~dev arch=linux-ubuntu18.04-ppc64le ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-ppc64le ^xz@5.2.5%gcc@7.5.0+pic arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'cuda@10.2.89%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-ppc64le ^xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'cuda@10.2.89%gcc@8.3.1 arch=linux-centos8-ppc64le ^libiconv@1.16%gcc@8.3.1 arch=linux-centos8-ppc64le ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-centos8-ppc64le ^xz@5.2.5%gcc@8.3.1 arch=linux-centos8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-centos8-ppc64le'
+ - 'cuda@11.2.0%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^libiconv@1.16%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-ubuntu20.04-ppc64le ^xz@5.2.5%gcc@9.3.0~pic arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'cuda@10.2.89%gcc@7.3.0 arch=linux-centos7-x86_64 ^libiconv@1.16%gcc@7.3.0 arch=linux-centos7-x86_64 ^libxml2@2.9.9%gcc@7.3.0~python arch=linux-centos7-x86_64 ^xz@5.2.4%gcc@7.3.0 arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos7-x86_64'
+ - 'cuda@10.1.243%gcc@7.3.0 arch=linux-centos8-x86_64'
+ - 'cuda@10.2.89%gcc@7.5.0~dev arch=linux-ubuntu18.04-ppc64le ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-ppc64le ^xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'cuda@10.2.89%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-x86_64 ^xz@5.2.5%gcc@8.3.1 arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'cuda@10.2.89%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@11.0.2%gcc@7.3.0 arch=linux-rhel8-x86_64 ^libiconv@1.16%gcc@7.3.0 arch=linux-rhel8-x86_64 ^libxml2@2.9.10%gcc@7.3.0~python arch=linux-rhel8-x86_64 ^xz@5.2.5%gcc@7.3.0 arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'cuda@11.1.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-ubuntu20.04-x86_64 ^xz@5.2.5%gcc@9.3.0~pic arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'cuda@10.2.89%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-ppc64le ^xz@5.2.5%gcc@8.3.1~pic arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'cuda@11.1.1%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-ppc64le ^xz@5.2.5%gcc@8.3.1~pic arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'cuda@10.2.89%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64 ^libxml2@2.9.9%gcc@7.4.0~python arch=linux-ubuntu18.04-x86_64 ^xz@5.2.4%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.4.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@10.2.89%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-x86_64 ^xz@5.2.5%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@11.1.0%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-ppc64le ^xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'cuda@11.1.1%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-x86_64 ^xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'cuda@10.2.89%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-ppc64le ^xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'cuda@11.0.2%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-ubuntu20.04-x86_64 ^xz@5.2.5%gcc@9.3.0~pic arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'cuda@11.1.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^libiconv@1.16%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-ubuntu20.04-ppc64le ^xz@5.2.5%gcc@9.3.0~pic arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'cuda@11.0.2%gcc@7.3.0 arch=linux-rhel7-x86_64 ^libiconv@1.16%gcc@7.3.0 arch=linux-rhel7-x86_64 ^libxml2@2.9.10%gcc@7.3.0~python arch=linux-rhel7-x86_64 ^xz@5.2.5%gcc@7.3.0 arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'cuda@11.1.1%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-x86_64 ^xz@5.2.5%gcc@8.3.1~pic arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'cuda@11.1.0%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^libiconv@1.16%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-ubuntu20.04-ppc64le ^xz@5.2.5%gcc@9.3.0~pic arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'cuda@10.2.89%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-ppc64le ^xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'cuda@10.2.89%gcc@9.3.0~dev arch=linux-rhel7-ppc64le ^libiconv@1.16%gcc@9.3.0 arch=linux-rhel7-ppc64le ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-rhel7-ppc64le ^xz@5.2.5%gcc@9.3.0+pic libs=shared,static arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'cuda@11.1.1%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-ppc64le ^xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'cuda@10.2.89%gcc@7.3.0 arch=linux-rhel7-ppc64le ^libiconv@1.16%gcc@7.3.0 arch=linux-rhel7-ppc64le ^libxml2@2.9.10%gcc@7.3.0~python arch=linux-rhel7-ppc64le ^xz@5.2.5%gcc@7.3.0 arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'cuda@10.2.89%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-x86_64 ^xz@5.2.5%gcc@8.1.0 arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'cuda@10.1.243%gcc@6.4.0 arch=linux-rhel7-power9le'
+ - 'cuda@10.2.89%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-ppc64le ^xz@5.2.5%gcc@8.3.1 arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'cuda@10.2.89%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^libxml2@2.9.9%gcc@7.3.0~python arch=linux-ubuntu18.04-x86_64 ^xz@5.2.4%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@11.0.2%gcc@8.1.0 arch=linux-rhel7-power8le ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-power8le ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-power8le ^xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-power8le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-power8le'
+ - 'cuda@11.0.2%gcc@7.3.0 arch=linux-centos7-x86_64 ^libiconv@1.16%gcc@7.3.0 arch=linux-centos7-x86_64 ^libxml2@2.9.10%gcc@7.3.0~python arch=linux-centos7-x86_64 ^xz@5.2.5%gcc@7.3.0 arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos7-x86_64'
+ - 'cuda@11.1.0%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-x86_64 ^xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'cuda@10.2.89%gcc@7.3.0 arch=linux-centos8-x86_64 ^libiconv@1.16%gcc@7.3.0 arch=linux-centos8-x86_64 ^libxml2@2.9.9%gcc@7.3.0~python arch=linux-centos8-x86_64 ^xz@5.2.4%gcc@7.3.0 arch=linux-centos8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos8-x86_64'
+ - 'cuda@10.1.243%gcc@7.3.0 arch=linux-centos7-x86_64'
+ - 'cuda@11.2.0%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-x86_64 ^xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'cuda@10.2.89%gcc@8.1.0 arch=linux-rhel7-power8le ^libiconv@1.16%gcc@8.1.0 arch=linux-rhel7-power8le ^libxml2@2.9.10%gcc@8.1.0~python arch=linux-rhel7-power8le ^xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-power8le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-power8le'
+ - 'cuda@10.2.89%gcc@6.4.0 arch=linux-rhel7-power9le'
+ - 'cuda@11.0.2%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^libxml2@2.9.10%gcc@7.3.0~python arch=linux-ubuntu18.04-x86_64 ^xz@5.2.5%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@11.1.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libxml2@2.9.10%gcc@7.5.0~python arch=linux-ubuntu18.04-x86_64 ^xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'cuda@11.2.0%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libiconv@1.16%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libxml2@2.9.10%gcc@8.3.1~python arch=linux-rhel8-ppc64le ^xz@5.2.5%gcc@8.3.1~pic arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+---

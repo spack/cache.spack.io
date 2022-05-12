@@ -36,6 +36,8 @@ category: package
 meta: %s
 spec_files: 
  - %s
+spec_names:
+ - %s
 ---"""
 
 
@@ -112,10 +114,10 @@ def main():
     meta_file = os.path.join(here, "_data", "meta.yaml")
     meta["compilers"] = compilers
     meta["parameters"] = parameters
-    meta["compiler_count"] = len(compilers)
-    meta["count"] = count
+    meta["compiler_count"] = "{:,}".format(len(compilers))
+    meta["count"] = "{:,}".format(count)
     with open(meta_file, "w") as fd:
-        fd.write(yaml.dump(meta_file))
+        fd.write(yaml.dump(meta))
 
     # For each spec, write to the _cache folder
     for package_name, speclist in specs.items():
@@ -127,21 +129,24 @@ def main():
         if not os.path.exists(package_dir):
             os.makedirs(package_dir)
         spec_files = []
+        spec_names = []
         for i, spec in enumerate(speclist):
             metrics["versions"].add(str(spec.version))
             metrics["compilers"].add(str(spec.compiler))
             spec_name = "spec-%s.json" % i
             spec_file = os.path.join(package_dir, spec_name)
             write_json(spec.to_dict(), spec_file)
-            spec_files.append('"%s": %s' % (str(spec), spec_name))
-        metrics["versions"] = list(metrics["versions"])
-        metrics["compilers"] = list(metrics["compilers"])
+            spec_files.append(spec_name)
+            spec_names.append("'" + str(spec) + "'")
+        metrics["versions"] = sorted(list(metrics["versions"]))
+        metrics["compilers"] = sorted(list(metrics["compilers"]))
         render = template % (
             package_name,
             json.dumps(metrics),
-            " - ".join([x + "\n" for x in spec_files]),
+            " - ".join([x + "\n" for x in spec_files]).strip(),
+            " - ".join([x + "\n" for x in spec_names]).strip(),
         )
-        md_file = os.path.join(package_dir, "index.md")
+        md_file = os.path.join(package_dir, "specs.md")
         with open(md_file, "w") as fd:
             fd.write(render)
 

@@ -1,0 +1,64 @@
+---
+title: "freetype"
+layout: cache
+category: package
+meta: {"versions": ["2.10.1", "2.10.4"], "compilers": ["gcc@10.3.0", "gcc@7.3.0", "gcc@7.3.1", "gcc@7.5.0", "gcc@8.1.0", "gcc@8.3.1", "gcc@8.4.0", "gcc@8.4.1", "gcc@9.3.0"]}
+spec_files: 
+ - spec-0.json
+ - spec-1.json
+ - spec-2.json
+ - spec-3.json
+ - spec-4.json
+ - spec-5.json
+ - spec-6.json
+ - spec-7.json
+ - spec-8.json
+ - spec-9.json
+ - spec-10.json
+ - spec-11.json
+ - spec-12.json
+ - spec-13.json
+ - spec-14.json
+ - spec-15.json
+ - spec-16.json
+ - spec-17.json
+ - spec-18.json
+ - spec-19.json
+ - spec-20.json
+ - spec-21.json
+ - spec-22.json
+ - spec-23.json
+ - spec-24.json
+ - spec-25.json
+ - spec-26.json
+ - spec-27.json
+spec_names:
+ - 'freetype@2.10.4%gcc@8.3.1 arch=linux-rhel8-x86_64 ^bzip2@1.0.8%gcc@8.3.1~debug~pic+shared arch=linux-rhel8-x86_64 ^libpng@1.6.37%gcc@8.3.1 arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'freetype@2.10.4%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^bzip2@1.0.8%gcc@9.3.0~debug~pic+shared arch=linux-ubuntu20.04-ppc64le ^libpng@1.6.37%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'freetype@2.10.4%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%gcc@9.3.0~debug~pic+shared arch=linux-ubuntu20.04-x86_64 ^libpng@1.6.37%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'freetype@2.10.1%gcc@7.3.0 arch=linux-rhel7-x86_64 ^bzip2@1.0.8%gcc@7.3.0+shared arch=linux-rhel7-x86_64 ^libpng@1.6.37%gcc@7.3.0 arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'freetype@2.10.4%gcc@8.1.0 arch=linux-rhel7-x86_64 ^bzip2@1.0.8%gcc@8.1.0~debug~pic+shared arch=linux-rhel7-x86_64 ^libpng@1.6.37%gcc@8.1.0 arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'freetype@2.10.4%gcc@9.3.0 arch=linux-rhel7-x86_64 ^bzip2@1.0.8%gcc@9.3.0~debug~pic+shared arch=linux-rhel7-x86_64 ^libpng@1.6.37%gcc@9.3.0 arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-x86_64'
+ - 'freetype@2.10.4%gcc@8.3.1 arch=linux-rhel8-ppc64le ^bzip2@1.0.8%gcc@8.3.1~debug~pic+shared arch=linux-rhel8-ppc64le ^libpng@1.6.37%gcc@8.3.1 arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'freetype@2.10.4%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^bzip2@1.0.8%gcc@7.5.0~debug~pic+shared arch=linux-ubuntu18.04-x86_64 ^libpng@1.6.37%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'freetype@2.10.4%gcc@7.3.1 arch=linux-amzn2-x86_64 ^bzip2@1.0.8%gcc@7.3.1+shared arch=linux-amzn2-x86_64 ^libpng@1.6.37%gcc@7.3.1 arch=linux-amzn2-x86_64 ^zlib@1.2.11%gcc@7.3.1+optimize+pic+shared arch=linux-amzn2-x86_64'
+ - 'freetype@2.10.4%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%gcc@9.3.0~debug~pic+shared arch=linux-ubuntu20.04-x86_64 ^libpng@1.2.57%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64'
+ - 'freetype@2.10.1%gcc@7.3.0 arch=linux-centos7-x86_64 ^bzip2@1.0.8%gcc@7.3.0+shared arch=linux-centos7-x86_64 ^libpng@1.6.37%gcc@7.3.0 arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos7-x86_64'
+ - 'freetype@2.10.4%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^bzip2@1.0.8%gcc@9.3.0~debug~pic+shared arch=linux-ubuntu20.04-ppc64le ^libpng@1.2.57%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le'
+ - 'freetype@2.10.1%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^bzip2@1.0.8%gcc@7.3.0+shared arch=linux-ubuntu18.04-x86_64 ^libpng@1.6.37%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'freetype@2.10.1%gcc@7.3.0 arch=linux-centos7-ppc64le ^bzip2@1.0.8%gcc@7.3.0+shared arch=linux-centos7-ppc64le ^libpng@1.6.37%gcc@7.3.0 arch=linux-centos7-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos7-ppc64le'
+ - 'freetype@2.10.1%gcc@8.4.0 arch=linux-rhel7-sandybridge ^bzip2@1.0.8%gcc@8.4.0+shared arch=linux-rhel7-sandybridge ^libpng@1.6.34%gcc@8.4.0 arch=linux-rhel7-sandybridge'
+ - 'freetype@2.10.1%gcc@7.3.0 arch=linux-centos8-x86_64 ^bzip2@1.0.8%gcc@7.3.0+shared arch=linux-centos8-x86_64 ^libpng@1.6.37%gcc@7.3.0 arch=linux-centos8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos8-x86_64'
+ - 'freetype@2.10.4%gcc@9.3.0 arch=linux-rhel7-ppc64le ^bzip2@1.0.8%gcc@9.3.0~debug~pic+shared arch=linux-rhel7-ppc64le ^libpng@1.6.37%gcc@9.3.0 arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'freetype@2.10.1%gcc@7.3.1 arch=linux-amzn2-x86_64 ^bzip2@1.0.8%gcc@7.3.1+shared arch=linux-amzn2-x86_64 ^libpng@1.6.37%gcc@7.3.1 arch=linux-amzn2-x86_64 ^zlib@1.2.11%gcc@7.3.1+optimize+pic+shared arch=linux-amzn2-x86_64'
+ - 'freetype@2.10.1%gcc@7.3.0 arch=linux-rhel7-ppc64le ^bzip2@1.0.8%gcc@7.3.0+shared arch=linux-rhel7-ppc64le ^libpng@1.6.37%gcc@7.3.0 arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'freetype@2.10.4%gcc@8.4.1 arch=linux-rhel8-x86_64 ^bzip2@1.0.8%gcc@8.4.1~debug~pic+shared arch=linux-rhel8-x86_64 ^libpng@1.6.37%gcc@8.4.1 arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.4.1+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'freetype@2.10.4%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^bzip2@1.0.8%gcc@7.5.0~debug~pic+shared arch=linux-ubuntu18.04-ppc64le ^libpng@1.6.37%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'freetype@2.10.1%gcc@7.3.0 arch=linux-rhel8-x86_64 ^bzip2@1.0.8%gcc@7.3.0+shared arch=linux-rhel8-x86_64 ^libpng@1.6.37%gcc@7.3.0 arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel8-x86_64'
+ - 'freetype@2.10.1%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le ^bzip2@1.0.8%gcc@7.3.0+shared arch=linux-ubuntu18.04-ppc64le ^libpng@1.6.37%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le'
+ - 'freetype@2.10.4%gcc@9.3.0 arch=cray-cnl7-haswell ^bzip2@1.0.8%gcc@9.3.0~debug~pic+shared arch=cray-cnl7-haswell ^libpng@1.6.37%gcc@9.3.0 arch=cray-cnl7-haswell ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=cray-cnl7-haswell'
+ - 'freetype@2.10.4%gcc@8.4.1 arch=linux-rhel8-ppc64le ^bzip2@1.0.8%gcc@8.4.1~debug~pic+shared arch=linux-rhel8-ppc64le ^libpng@1.6.37%gcc@8.4.1 arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.4.1+optimize+pic+shared arch=linux-rhel8-ppc64le'
+ - 'freetype@2.10.4%gcc@8.1.0 arch=linux-rhel7-ppc64le ^bzip2@1.0.8%gcc@8.1.0~debug~pic+shared arch=linux-rhel7-ppc64le ^libpng@1.6.37%gcc@8.1.0 arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le'
+ - 'freetype@2.10.4%gcc@10.3.0 arch=linux-ubuntu21.04-x86_64 ^bzip2@1.0.8%gcc@10.3.0~debug~pic+shared arch=linux-ubuntu21.04-x86_64 ^libpng@1.6.37%gcc@10.3.0 arch=linux-ubuntu21.04-x86_64 ^zlib@1.2.11%gcc@10.3.0+optimize+pic+shared arch=linux-ubuntu21.04-x86_64'
+ - 'freetype@2.10.4%gcc@10.3.0 arch=linux-ubuntu21.04-ppc64le ^bzip2@1.0.8%gcc@10.3.0~debug~pic+shared arch=linux-ubuntu21.04-ppc64le ^libpng@1.6.37%gcc@10.3.0 arch=linux-ubuntu21.04-ppc64le ^zlib@1.2.11%gcc@10.3.0+optimize+pic+shared arch=linux-ubuntu21.04-ppc64le'
+---
