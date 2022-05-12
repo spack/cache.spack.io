@@ -1,0 +1,87 @@
+---
+title: "bolt"
+layout: cache
+category: package
+meta: {"versions": ["1.0rc3", "1.0", "2.0", "1.0rc2"], "compilers": ["gcc@8.3.1", "gcc@9.3.0", "gcc@8.1.0", "gcc@7.5.0", "intel@19.1.3.304", "gcc@7.3.1", "gcc@8.4.1", "gcc@7.3.0", "gcc@10.3.0", "gcc@7.4.0"]}
+spec_files: 
+ - "bolt@2.0%gcc@8.1.0~ipo build_type=RelWithDebInfo arch=linux-rhel7-x86_64 ^argobots@1.0%gcc@8.1.0~debug~valgrind arch=linux-rhel7-x86_64": spec-0.json
+ - "bolt@2.0%gcc@7.5.0~ipo build_type=RelWithDebInfo arch=linux-ubuntu18.04-ppc64le ^argobots@1.0%gcc@7.5.0~debug~valgrind arch=linux-ubuntu18.04-ppc64le": spec-1.json
+ - "bolt@2.0%gcc@8.3.1~ipo build_type=RelWithDebInfo arch=linux-rhel8-ppc64le ^argobots@1.0%gcc@8.3.1~debug~valgrind arch=linux-rhel8-ppc64le": spec-2.json
+ - "bolt@1.0%gcc@7.5.0 build_type=RelWithDebInfo arch=linux-ubuntu18.04-ppc64le ^argobots@1.0%gcc@7.5.0~debug~valgrind arch=linux-ubuntu18.04-ppc64le": spec-3.json
+ - "bolt@1.0rc2%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-rhel8-x86_64 ^argobots@1.0rc1%gcc@7.3.0~valgrind arch=linux-rhel8-x86_64": spec-4.json
+ - "bolt@2.0%gcc@9.3.0~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64 ^argobots@1.1%gcc@9.3.0~debug~valgrind arch=linux-ubuntu20.04-x86_64": spec-5.json
+ - "bolt@1.0rc3%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-rhel8-x86_64 ^argobots@1.0rc2%gcc@7.3.0~debug~valgrind arch=linux-rhel8-x86_64": spec-6.json
+ - "bolt@1.0%gcc@7.5.0~ipo build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64 ^argobots@1.0%gcc@7.5.0~debug~valgrind arch=linux-ubuntu18.04-x86_64": spec-7.json
+ - "bolt@1.0rc3%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-centos8-x86_64 ^argobots@1.0rc2%gcc@7.3.0~debug~valgrind arch=linux-centos8-x86_64": spec-8.json
+ - "bolt@1.0rc3%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64 ^argobots@1.0rc2%gcc@7.3.0~debug~valgrind arch=linux-ubuntu18.04-x86_64": spec-9.json
+ - "bolt@1.0rc3%gcc@7.4.0 build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64 ^argobots@1.0rc2%gcc@7.4.0~debug~valgrind arch=linux-ubuntu18.04-x86_64": spec-10.json
+ - "bolt@2.0%gcc@9.3.0~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64 ^argobots@1.1%gcc@9.3.0~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=linux-ubuntu20.04-x86_64": spec-11.json
+ - "bolt@1.0%gcc@8.1.0 build_type=RelWithDebInfo arch=linux-centos7-ppc64le ^argobots@1.0%gcc@8.1.0~debug~valgrind arch=linux-centos7-ppc64le": spec-12.json
+ - "bolt@1.0%gcc@8.1.0 build_type=RelWithDebInfo arch=linux-centos7-x86_64 ^argobots@1.0%gcc@8.1.0~debug~valgrind arch=linux-centos7-x86_64": spec-13.json
+ - "bolt@1.0%gcc@8.3.1~ipo build_type=RelWithDebInfo arch=linux-rhel8-x86_64 ^argobots@1.0%gcc@8.3.1~debug~valgrind arch=linux-rhel8-x86_64": spec-14.json
+ - "bolt@2.0%gcc@7.5.0~ipo build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64 ^argobots@1.1%gcc@7.5.0~debug~valgrind arch=linux-ubuntu18.04-x86_64": spec-15.json
+ - "bolt@2.0%gcc@8.1.0~ipo build_type=RelWithDebInfo arch=linux-rhel7-ppc64le ^argobots@1.0%gcc@8.1.0~debug~valgrind arch=linux-rhel7-ppc64le": spec-16.json
+ - "bolt@1.0rc2%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-centos7-x86_64 ^argobots@1.0rc1%gcc@7.3.0~valgrind arch=linux-centos7-x86_64": spec-17.json
+ - "bolt@1.0%gcc@8.3.1 build_type=RelWithDebInfo arch=linux-rhel8-x86_64 ^argobots@1.0%gcc@8.3.1~debug~valgrind arch=linux-rhel8-x86_64": spec-18.json
+ - "bolt@2.0%gcc@7.3.1~ipo build_type=RelWithDebInfo arch=linux-amzn2-x86_64 ^argobots@1.0%gcc@7.3.1~debug~valgrind arch=linux-amzn2-x86_64": spec-19.json
+ - "bolt@1.0%gcc@7.5.0 build_type=RelWithDebInfo arch=linux-ubuntu18.04-aarch64 ^argobots@1.0%gcc@7.5.0~debug~valgrind arch=linux-ubuntu18.04-aarch64": spec-20.json
+ - "bolt@1.0%gcc@8.1.0 build_type=RelWithDebInfo arch=linux-rhel7-x86_64 ^argobots@1.0%gcc@8.1.0~debug~valgrind arch=linux-rhel7-x86_64": spec-21.json
+ - "bolt@1.0%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-ubuntu18.04-ppc64le ^argobots@1.0%gcc@7.3.0~debug~valgrind arch=linux-ubuntu18.04-ppc64le": spec-22.json
+ - "bolt@2.0%gcc@9.3.0~ipo build_type=RelWithDebInfo arch=linux-rhel7-ppc64le ^argobots@1.1%gcc@9.3.0~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=linux-rhel7-ppc64le": spec-23.json
+ - "bolt@2.0%gcc@8.4.1~ipo build_type=RelWithDebInfo arch=linux-rhel8-ppc64le ^argobots@1.1%gcc@8.4.1~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=linux-rhel8-ppc64le": spec-24.json
+ - "bolt@1.0%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-rhel7-ppc64le ^argobots@1.0%gcc@7.3.0~debug~valgrind arch=linux-rhel7-ppc64le": spec-25.json
+ - "bolt@1.0%gcc@7.5.0 build_type=RelWithDebInfo arch=linux-ubuntu18.04-power8le ^argobots@1.0%gcc@7.5.0~debug~valgrind arch=linux-ubuntu18.04-power8le": spec-26.json
+ - "bolt@2.0%gcc@9.3.0~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-ppc64le ^argobots@1.1%gcc@9.3.0~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=linux-ubuntu20.04-ppc64le": spec-27.json
+ - "bolt@1.0rc2%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-rhel7-x86_64 ^argobots@1.0rc1%gcc@7.3.0~valgrind arch=linux-rhel7-x86_64": spec-28.json
+ - "bolt@1.0%gcc@7.5.0 build_type=RelWithDebInfo arch=linux-ubuntu18.04-ppc64le ^argobots@1.0%gcc@7.5.0~debug~valgrind arch=linux-ubuntu18.04-ppc64le": spec-29.json
+ - "bolt@1.0%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-centos7-x86_64 ^argobots@1.0%gcc@7.3.0~debug~valgrind arch=linux-centos7-x86_64": spec-30.json
+ - "bolt@1.0%gcc@8.3.1 build_type=RelWithDebInfo arch=linux-centos8-x86_64 ^argobots@1.0%gcc@8.3.1~debug~valgrind arch=linux-centos8-x86_64": spec-31.json
+ - "bolt@1.0rc3%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-centos7-x86_64 ^argobots@1.0rc2%gcc@7.3.0~debug~valgrind arch=linux-centos7-x86_64": spec-32.json
+ - "bolt@2.0%gcc@9.3.0~ipo build_type=RelWithDebInfo arch=linux-rhel7-x86_64 ^argobots@1.1%gcc@9.3.0~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=linux-rhel7-x86_64": spec-33.json
+ - "bolt@2.0%gcc@9.3.0~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-ppc64le ^argobots@1.1%gcc@9.3.0~debug~valgrind arch=linux-ubuntu20.04-ppc64le": spec-34.json
+ - "bolt@2.0%gcc@7.5.0~ipo build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64 ^argobots@1.0%gcc@7.5.0~debug~valgrind arch=linux-ubuntu18.04-x86_64": spec-35.json
+ - "bolt@1.0%gcc@8.1.0~ipo build_type=RelWithDebInfo arch=linux-rhel7-ppc64le ^argobots@1.0%gcc@8.1.0~debug~valgrind arch=linux-rhel7-ppc64le": spec-36.json
+ - "bolt@2.0%gcc@8.3.1~ipo build_type=RelWithDebInfo arch=linux-rhel8-x86_64 ^argobots@1.1%gcc@8.3.1~debug~valgrind arch=linux-rhel8-x86_64": spec-37.json
+ - "bolt@2.0%gcc@8.1.0~ipo build_type=RelWithDebInfo arch=linux-rhel7-x86_64 ^argobots@1.1%gcc@8.1.0~debug~valgrind arch=linux-rhel7-x86_64": spec-38.json
+ - "bolt@2.0%intel@19.1.3.304~ipo build_type=RelWithDebInfo arch=cray-cnl7-haswell ^argobots@1.1%intel@19.1.3.304~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=cray-cnl7-haswell": spec-39.json
+ - "bolt@2.0%gcc@7.5.0~ipo build_type=RelWithDebInfo arch=linux-ubuntu18.04-ppc64le ^argobots@1.1%gcc@7.5.0~debug~valgrind arch=linux-ubuntu18.04-ppc64le": spec-40.json
+ - "bolt@1.0%gcc@9.3.0~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64 ^argobots@1.0%gcc@9.3.0~debug~valgrind arch=linux-ubuntu20.04-x86_64": spec-41.json
+ - "bolt@1.0%gcc@8.1.0 build_type=RelWithDebInfo arch=linux-rhel7-ppc64le ^argobots@1.0%gcc@8.1.0~debug~valgrind arch=linux-rhel7-ppc64le": spec-42.json
+ - "bolt@1.0%gcc@8.1.0 build_type=RelWithDebInfo arch=linux-rhel7-ppc64le ^argobots@1.0%gcc@8.1.0~debug~valgrind arch=linux-rhel7-ppc64le": spec-43.json
+ - "bolt@2.0%gcc@7.5.0~ipo build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64 ^argobots@1.1%gcc@7.5.0~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=linux-ubuntu18.04-x86_64": spec-44.json
+ - "bolt@2.0%gcc@8.3.1~ipo build_type=RelWithDebInfo arch=linux-rhel8-x86_64 ^argobots@1.0%gcc@8.3.1~debug~valgrind arch=linux-rhel8-x86_64": spec-45.json
+ - "bolt@2.0%gcc@7.5.0~ipo build_type=RelWithDebInfo arch=linux-ubuntu18.04-ppc64le ^argobots@1.1%gcc@7.5.0~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=linux-ubuntu18.04-ppc64le": spec-46.json
+ - "bolt@1.0%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-rhel8-x86_64 ^argobots@1.0%gcc@7.3.0~debug~valgrind arch=linux-rhel8-x86_64": spec-47.json
+ - "bolt@2.0%gcc@8.3.1~ipo build_type=RelWithDebInfo arch=linux-rhel8-ppc64le ^argobots@1.1%gcc@8.3.1~debug~valgrind arch=linux-rhel8-ppc64le": spec-48.json
+ - "bolt@1.0%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-rhel7-x86_64 ^argobots@1.0%gcc@7.3.0~debug~valgrind arch=linux-rhel7-x86_64": spec-49.json
+ - "bolt@1.0rc2%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-centos8-x86_64 ^argobots@1.0rc1%gcc@7.3.0~valgrind arch=linux-centos8-x86_64": spec-50.json
+ - "bolt@1.0%gcc@9.3.0 build_type=RelWithDebInfo arch=linux-ubuntu20.04-ppc64le ^argobots@1.0%gcc@9.3.0~debug~valgrind arch=linux-ubuntu20.04-ppc64le": spec-51.json
+ - "bolt@1.0%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-centos8-x86_64 ^argobots@1.0%gcc@7.3.0~debug~valgrind arch=linux-centos8-x86_64": spec-52.json
+ - "bolt@1.0%gcc@8.1.0 build_type=RelWithDebInfo arch=linux-rhel7-power8le ^argobots@1.0%gcc@8.1.0~debug~valgrind arch=linux-rhel7-power8le": spec-53.json
+ - "bolt@1.0%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64 ^argobots@1.0%gcc@7.3.0~debug~valgrind arch=linux-ubuntu18.04-x86_64": spec-54.json
+ - "bolt@1.0%gcc@8.1.0~ipo build_type=RelWithDebInfo arch=linux-rhel7-x86_64 ^argobots@1.0%gcc@8.1.0~debug~valgrind arch=linux-rhel7-x86_64": spec-55.json
+ - "bolt@1.0%gcc@8.3.1 build_type=RelWithDebInfo arch=linux-rhel8-ppc64le ^argobots@1.0%gcc@8.3.1~debug~valgrind arch=linux-rhel8-ppc64le": spec-56.json
+ - "bolt@2.0%gcc@9.3.0~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-ppc64le ^argobots@1.0%gcc@9.3.0~debug~valgrind arch=linux-ubuntu20.04-ppc64le": spec-57.json
+ - "bolt@2.0%gcc@8.1.0~ipo build_type=RelWithDebInfo arch=linux-rhel7-x86_64 ^argobots@1.1%gcc@8.1.0~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=linux-rhel7-x86_64": spec-58.json
+ - "bolt@1.0rc2%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64 ^argobots@1.0rc1%gcc@7.3.0~valgrind arch=linux-ubuntu18.04-x86_64": spec-59.json
+ - "bolt@2.0%gcc@9.3.0~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64 ^argobots@1.0%gcc@9.3.0~debug~valgrind arch=linux-ubuntu20.04-x86_64": spec-60.json
+ - "bolt@1.0%gcc@8.3.1 build_type=RelWithDebInfo arch=linux-rhel8-aarch64 ^argobots@1.0%gcc@8.3.1~debug~valgrind arch=linux-rhel8-aarch64": spec-61.json
+ - "bolt@1.0%gcc@8.3.1 build_type=RelWithDebInfo arch=linux-centos8-ppc64le ^argobots@1.0%gcc@8.3.1~debug~valgrind arch=linux-centos8-ppc64le": spec-62.json
+ - "bolt@2.0%gcc@10.3.0~ipo build_type=RelWithDebInfo arch=linux-ubuntu21.04-ppc64le ^argobots@1.1%gcc@10.3.0~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=linux-ubuntu21.04-ppc64le": spec-63.json
+ - "bolt@1.0%gcc@9.3.0~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-ppc64le ^argobots@1.0%gcc@9.3.0~debug~valgrind arch=linux-ubuntu20.04-ppc64le": spec-64.json
+ - "bolt@1.0%gcc@7.5.0 build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64 ^argobots@1.0%gcc@7.5.0~debug~valgrind arch=linux-ubuntu18.04-x86_64": spec-65.json
+ - "bolt@1.0%gcc@9.3.0 build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64 ^argobots@1.0%gcc@9.3.0~debug~valgrind arch=linux-ubuntu20.04-x86_64": spec-66.json
+ - "bolt@1.0%gcc@7.5.0 build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64 ^argobots@1.0%gcc@7.5.0~debug~valgrind arch=linux-ubuntu18.04-x86_64": spec-67.json
+ - "bolt@2.0%gcc@8.1.0~ipo build_type=RelWithDebInfo arch=linux-rhel7-ppc64le ^argobots@1.1%gcc@8.1.0~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=linux-rhel7-ppc64le": spec-68.json
+ - "bolt@2.0%gcc@8.3.1~ipo build_type=RelWithDebInfo arch=linux-rhel8-x86_64 ^argobots@1.1%gcc@8.3.1~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=linux-rhel8-x86_64": spec-69.json
+ - "bolt@1.0%gcc@8.3.1~ipo build_type=RelWithDebInfo arch=linux-rhel8-ppc64le ^argobots@1.0%gcc@8.3.1~debug~valgrind arch=linux-rhel8-ppc64le": spec-70.json
+ - "bolt@2.0%gcc@8.3.1~ipo build_type=RelWithDebInfo arch=linux-rhel8-ppc64le ^argobots@1.1%gcc@8.3.1~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=linux-rhel8-ppc64le": spec-71.json
+ - "bolt@1.0%gcc@8.1.0 build_type=RelWithDebInfo arch=linux-rhel7-x86_64 ^argobots@1.0%gcc@8.1.0~debug~valgrind arch=linux-rhel7-x86_64": spec-72.json
+ - "bolt@1.0rc3%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-rhel7-x86_64 ^argobots@1.0rc2%gcc@7.3.0~debug~valgrind arch=linux-rhel7-x86_64": spec-73.json
+ - "bolt@2.0%gcc@8.4.1~ipo build_type=RelWithDebInfo arch=linux-rhel8-x86_64 ^argobots@1.1%gcc@8.4.1~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=linux-rhel8-x86_64": spec-74.json
+ - "bolt@2.0%gcc@9.3.0~ipo build_type=RelWithDebInfo arch=cray-cnl7-haswell ^argobots@1.1%gcc@9.3.0~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=cray-cnl7-haswell": spec-75.json
+ - "bolt@2.0%gcc@8.1.0~ipo build_type=RelWithDebInfo arch=linux-rhel7-ppc64le ^argobots@1.1%gcc@8.1.0~debug~valgrind arch=linux-rhel7-ppc64le": spec-76.json
+ - "bolt@2.0%gcc@10.3.0~ipo build_type=RelWithDebInfo arch=linux-ubuntu21.04-x86_64 ^argobots@1.1%gcc@10.3.0~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=linux-ubuntu21.04-x86_64": spec-77.json
+ - "bolt@1.0%gcc@7.5.0~ipo build_type=RelWithDebInfo arch=linux-ubuntu18.04-ppc64le ^argobots@1.0%gcc@7.5.0~debug~valgrind arch=linux-ubuntu18.04-ppc64le": spec-78.json
+
+---

@@ -1,0 +1,110 @@
+---
+title: "gotcha"
+layout: cache
+category: package
+meta: {"versions": ["1.0.3", "1.0.2", "0.0.2"], "compilers": ["gcc@8.3.1", "gcc@9.3.0", "gcc@8.1.0", "gcc@7.5.0", "intel@19.1.3.304", "gcc@7.3.1", "gcc@8.4.1", "gcc@7.3.0", "gcc@10.3.0", "gcc@7.4.0"]}
+spec_files: 
+ - "gotcha@1.0.3%gcc@8.3.1~ipo~test build_type=RelWithDebInfo arch=linux-rhel8-ppc64le": spec-0.json
+ - "gotcha@1.0.3%gcc@7.3.0~test build_type=RelWithDebInfo arch=linux-rhel7-x86_64": spec-1.json
+ - "gotcha@0.0.2%gcc@8.3.1~test build_type=RelWithDebInfo arch=linux-centos8-ppc64le": spec-2.json
+ - "gotcha@1.0.3%gcc@9.3.0~test build_type=RelWithDebInfo arch=linux-ubuntu20.04-ppc64le": spec-3.json
+ - "gotcha@1.0.3%gcc@7.5.0~ipo~test build_type=RelWithDebInfo arch=linux-ubuntu18.04-ppc64le": spec-4.json
+ - "gotcha@1.0.3%gcc@7.5.0~ipo~test build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64": spec-5.json
+ - "gotcha@1.0.3%gcc@9.3.0~test build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64": spec-6.json
+ - "gotcha@0.0.2%gcc@7.3.0~test build_type=RelWithDebInfo arch=linux-rhel7-ppc64le": spec-7.json
+ - "gotcha@0.0.2%gcc@8.3.1~test build_type=RelWithDebInfo patches=9f7814f arch=linux-rhel8-x86_64": spec-8.json
+ - "gotcha@1.0.3%gcc@8.3.1~ipo~test build_type=RelWithDebInfo arch=linux-rhel8-x86_64": spec-9.json
+ - "gotcha@1.0.3%gcc@9.3.0~ipo~test build_type=RelWithDebInfo arch=linux-rhel7-ppc64le": spec-10.json
+ - "gotcha@0.0.2%gcc@7.3.0~test build_type=RelWithDebInfo arch=linux-ubuntu18.04-ppc64le": spec-11.json
+ - "gotcha@1.0.3%gcc@8.3.1~test build_type=RelWithDebInfo arch=linux-rhel8-ppc64le": spec-12.json
+ - "gotcha@0.0.2%gcc@8.1.0~test build_type=RelWithDebInfo patches=9f7814f arch=linux-centos7-ppc64le": spec-13.json
+ - "gotcha@1.0.3%gcc@9.3.0~ipo~test build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64": spec-14.json
+ - "gotcha@1.0.3%gcc@10.3.0~ipo~test build_type=RelWithDebInfo arch=linux-ubuntu21.04-ppc64le": spec-15.json
+ - "gotcha@1.0.3%gcc@8.1.0~test build_type=RelWithDebInfo arch=linux-rhel7-x86_64": spec-16.json
+ - "gotcha@1.0.3%gcc@10.3.0~ipo~test build_type=RelWithDebInfo arch=linux-ubuntu21.04-x86_64": spec-17.json
+ - "gotcha@1.0.3%gcc@7.3.0~test build_type=RelWithDebInfo arch=linux-centos7-x86_64": spec-18.json
+ - "gotcha@0.0.2%gcc@7.5.0~ipo~test build_type=RelWithDebInfo patches=9f7814f arch=linux-ubuntu18.04-x86_64": spec-19.json
+ - "gotcha@1.0.3%gcc@7.5.0~test build_type=RelWithDebInfo arch=linux-ubuntu18.04-aarch64": spec-20.json
+ - "gotcha@0.0.2%gcc@7.5.0~test build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64": spec-21.json
+ - "gotcha@1.0.3%gcc@8.1.0~ipo~test build_type=RelWithDebInfo arch=linux-rhel7-ppc64le": spec-22.json
+ - "gotcha@0.0.2%gcc@7.3.0~test build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64": spec-23.json
+ - "gotcha@0.0.2%gcc@8.3.1~ipo~test build_type=RelWithDebInfo patches=9f7814f arch=linux-rhel8-ppc64le": spec-24.json
+ - "gotcha@0.0.2%gcc@7.3.0~test build_type=RelWithDebInfo arch=linux-rhel7-x86_64": spec-25.json
+ - "gotcha@0.0.2%gcc@9.3.0~test build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64": spec-26.json
+ - "gotcha@1.0.3%gcc@9.3.0~ipo~test build_type=RelWithDebInfo arch=linux-ubuntu20.04-ppc64le": spec-27.json
+ - "gotcha@0.0.2%gcc@7.5.0~ipo~test build_type=RelWithDebInfo patches=9f7814f arch=linux-ubuntu18.04-ppc64le": spec-28.json
+ - "gotcha@1.0.3%gcc@7.3.0~test build_type=RelWithDebInfo arch=linux-rhel8-x86_64": spec-29.json
+ - "gotcha@1.0.3%gcc@8.3.1~test build_type=RelWithDebInfo arch=linux-centos8-ppc64le": spec-30.json
+ - "gotcha@1.0.3%gcc@7.3.0~test build_type=RelWithDebInfo arch=linux-centos8-x86_64": spec-31.json
+ - "gotcha@0.0.2%gcc@9.3.0~test build_type=RelWithDebInfo arch=linux-ubuntu20.04-ppc64le": spec-32.json
+ - "gotcha@1.0.3%gcc@8.1.0~ipo~test build_type=RelWithDebInfo arch=linux-rhel7-x86_64": spec-33.json
+ - "gotcha@1.0.3%gcc@7.5.0~test build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64": spec-34.json
+ - "gotcha@0.0.2%gcc@7.3.0~test build_type=RelWithDebInfo arch=linux-centos7-x86_64": spec-35.json
+ - "gotcha@1.0.3%gcc@7.3.1~ipo~test build_type=RelWithDebInfo arch=linux-amzn2-x86_64": spec-36.json
+ - "gotcha@0.0.2%gcc@7.5.0~test build_type=RelWithDebInfo patches=9f7814f arch=linux-ubuntu18.04-ppc64le": spec-37.json
+ - "gotcha@0.0.2%gcc@8.3.1~ipo~test build_type=RelWithDebInfo patches=9f7814f arch=linux-rhel8-x86_64": spec-38.json
+ - "gotcha@1.0.3%gcc@8.1.0~test build_type=RelWithDebInfo arch=linux-centos7-x86_64": spec-39.json
+ - "gotcha@1.0.3%gcc@7.3.0~test build_type=RelWithDebInfo arch=linux-ubuntu18.04-ppc64le": spec-40.json
+ - "gotcha@0.0.2%gcc@7.3.0~test build_type=RelWithDebInfo arch=linux-centos8-x86_64": spec-41.json
+ - "gotcha@1.0.3%gcc@8.3.1~test build_type=RelWithDebInfo arch=linux-centos8-x86_64": spec-42.json
+ - "gotcha@1.0.3%gcc@8.1.0~test build_type=RelWithDebInfo arch=linux-centos7-ppc64le": spec-43.json
+ - "gotcha@0.0.2%gcc@7.5.0~test build_type=RelWithDebInfo patches=9f7814f arch=linux-ubuntu18.04-ppc64le": spec-44.json
+ - "gotcha@0.0.2%gcc@8.1.0~test build_type=RelWithDebInfo patches=9f7814f arch=linux-rhel7-x86_64": spec-45.json
+ - "gotcha@1.0.3%gcc@7.3.0~test build_type=RelWithDebInfo arch=linux-rhel7-ppc64le": spec-46.json
+ - "gotcha@1.0.3%gcc@7.5.0~test build_type=RelWithDebInfo arch=linux-ubuntu18.04-ppc64le": spec-47.json
+ - "gotcha@0.0.2%gcc@7.3.0~test build_type=RelWithDebInfo arch=linux-rhel8-x86_64": spec-48.json
+ - "gotcha@0.0.2%gcc@8.1.0~test build_type=RelWithDebInfo arch=linux-rhel7-ppc64le": spec-49.json
+ - "gotcha@1.0.2%gcc@7.3.0~test build_type=RelWithDebInfo patches=cb7372a arch=linux-ubuntu18.04-x86_64": spec-50.json
+ - "gotcha@1.0.2%gcc@8.3.1~test build_type=RelWithDebInfo patches=cb7372a arch=linux-centos8-ppc64le": spec-51.json
+ - "gotcha@1.0.3%gcc@9.3.0~ipo~test build_type=RelWithDebInfo arch=linux-rhel7-x86_64": spec-52.json
+ - "gotcha@0.0.2%gcc@8.1.0~test build_type=RelWithDebInfo patches=9f7814f arch=linux-rhel7-ppc64le": spec-53.json
+ - "gotcha@0.0.2%gcc@8.3.1~test build_type=RelWithDebInfo arch=linux-centos8-x86_64": spec-54.json
+ - "gotcha@0.0.2%gcc@8.1.0~test build_type=RelWithDebInfo arch=linux-rhel7-x86_64": spec-55.json
+ - "gotcha@1.0.2%gcc@7.3.0~test build_type=RelWithDebInfo patches=cb7372a arch=linux-centos7-ppc64le": spec-56.json
+ - "gotcha@0.0.2%gcc@8.1.0~test build_type=RelWithDebInfo patches=9f7814f arch=linux-rhel7-ppc64le": spec-57.json
+ - "gotcha@1.0.3%gcc@8.1.0~test build_type=RelWithDebInfo arch=linux-rhel7-ppc64le": spec-58.json
+ - "gotcha@1.0.3%gcc@8.4.1~ipo~test build_type=RelWithDebInfo arch=linux-rhel8-ppc64le": spec-59.json
+ - "gotcha@0.0.2%gcc@8.1.0~ipo~test build_type=RelWithDebInfo patches=9f7814f arch=linux-rhel7-ppc64le": spec-60.json
+ - "gotcha@0.0.2%gcc@8.1.0~test build_type=RelWithDebInfo patches=9f7814f arch=linux-rhel7-x86_64": spec-61.json
+ - "gotcha@0.0.2%gcc@8.3.1~test build_type=RelWithDebInfo patches=9f7814f arch=linux-rhel8-aarch64": spec-62.json
+ - "gotcha@1.0.2%gcc@7.3.0~test build_type=RelWithDebInfo patches=cb7372a arch=linux-ubuntu18.04-ppc64le": spec-63.json
+ - "gotcha@1.0.3%gcc@7.5.0~test build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64": spec-64.json
+ - "gotcha@1.0.3%gcc@8.3.1~test build_type=RelWithDebInfo arch=linux-rhel8-x86_64": spec-65.json
+ - "gotcha@0.0.2%gcc@9.3.0~test build_type=RelWithDebInfo patches=9f7814f arch=linux-ubuntu20.04-ppc64le": spec-66.json
+ - "gotcha@1.0.2%gcc@7.3.0~test build_type=RelWithDebInfo patches=cb7372a arch=linux-centos7-x86_64": spec-67.json
+ - "gotcha@1.0.2%gcc@7.3.0~test build_type=RelWithDebInfo patches=cb7372a arch=linux-rhel8-x86_64": spec-68.json
+ - "gotcha@0.0.2%gcc@8.1.0~ipo~test build_type=RelWithDebInfo patches=9f7814f arch=linux-rhel7-x86_64": spec-69.json
+ - "gotcha@1.0.3%gcc@8.1.0~test build_type=RelWithDebInfo arch=linux-rhel7-power8le": spec-70.json
+ - "gotcha@1.0.2%gcc@7.3.0~test build_type=RelWithDebInfo patches=cb7372a arch=linux-rhel7-x86_64": spec-71.json
+ - "gotcha@1.0.3%gcc@7.3.0~test build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64": spec-72.json
+ - "gotcha@1.0.2%gcc@7.4.0~test build_type=RelWithDebInfo patches=cb7372a arch=linux-ubuntu18.04-x86_64": spec-73.json
+ - "gotcha@0.0.2%gcc@7.5.0~test build_type=RelWithDebInfo patches=9f7814f arch=linux-ubuntu18.04-aarch64": spec-74.json
+ - "gotcha@1.0.3%gcc@8.3.1~test build_type=RelWithDebInfo arch=linux-rhel8-aarch64": spec-75.json
+ - "gotcha@0.0.2%gcc@8.1.0~test build_type=RelWithDebInfo arch=linux-centos7-ppc64le": spec-76.json
+ - "gotcha@0.0.2%gcc@8.3.1~test build_type=RelWithDebInfo arch=linux-rhel8-ppc64le": spec-77.json
+ - "gotcha@0.0.2%gcc@7.3.0~test build_type=RelWithDebInfo arch=linux-centos7-ppc64le": spec-78.json
+ - "gotcha@0.0.2%gcc@8.1.0~test build_type=RelWithDebInfo arch=linux-centos7-x86_64": spec-79.json
+ - "gotcha@1.0.3%gcc@8.4.1~ipo~test build_type=RelWithDebInfo arch=linux-rhel8-x86_64": spec-80.json
+ - "gotcha@1.0.2%gcc@7.3.0~test build_type=RelWithDebInfo patches=cb7372a arch=linux-rhel7-ppc64le": spec-81.json
+ - "gotcha@0.0.2%gcc@8.1.0~test build_type=RelWithDebInfo patches=9f7814f arch=linux-rhel7-power8le": spec-82.json
+ - "gotcha@0.0.2%gcc@9.3.0~ipo~test build_type=RelWithDebInfo patches=9f7814f arch=linux-ubuntu20.04-x86_64": spec-83.json
+ - "gotcha@0.0.2%gcc@8.3.1~test build_type=RelWithDebInfo arch=linux-rhel8-x86_64": spec-84.json
+ - "gotcha@0.0.2%gcc@7.5.0~test build_type=RelWithDebInfo patches=9f7814f arch=linux-ubuntu18.04-x86_64": spec-85.json
+ - "gotcha@0.0.2%gcc@7.5.0~test build_type=RelWithDebInfo arch=linux-ubuntu18.04-ppc64le": spec-86.json
+ - "gotcha@1.0.3%gcc@8.1.0~test build_type=RelWithDebInfo arch=linux-rhel7-x86_64": spec-87.json
+ - "gotcha@0.0.2%gcc@9.3.0~test build_type=RelWithDebInfo patches=9f7814f arch=linux-ubuntu20.04-x86_64": spec-88.json
+ - "gotcha@0.0.2%gcc@7.5.0~test build_type=RelWithDebInfo patches=9f7814f arch=linux-ubuntu18.04-x86_64": spec-89.json
+ - "gotcha@0.0.2%gcc@8.3.1~test build_type=RelWithDebInfo patches=9f7814f arch=linux-rhel8-ppc64le": spec-90.json
+ - "gotcha@1.0.2%gcc@8.3.1~test build_type=RelWithDebInfo patches=cb7372a arch=linux-rhel8-ppc64le": spec-91.json
+ - "gotcha@0.0.2%gcc@8.1.0~test build_type=RelWithDebInfo patches=9f7814f arch=linux-centos7-x86_64": spec-92.json
+ - "gotcha@1.0.2%gcc@7.3.0~test build_type=RelWithDebInfo patches=cb7372a arch=linux-centos8-x86_64": spec-93.json
+ - "gotcha@1.0.3%gcc@7.5.0~test build_type=RelWithDebInfo arch=linux-ubuntu18.04-ppc64le": spec-94.json
+ - "gotcha@0.0.2%gcc@9.3.0~ipo~test build_type=RelWithDebInfo patches=9f7814f arch=linux-ubuntu20.04-ppc64le": spec-95.json
+ - "gotcha@1.0.3%gcc@7.5.0~test build_type=RelWithDebInfo arch=linux-ubuntu18.04-power8le": spec-96.json
+ - "gotcha@1.0.3%gcc@9.3.0~ipo~test build_type=RelWithDebInfo arch=cray-cnl7-haswell": spec-97.json
+ - "gotcha@0.0.2%gcc@7.4.0~test build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64": spec-98.json
+ - "gotcha@1.0.3%gcc@8.1.0~test build_type=RelWithDebInfo arch=linux-rhel7-ppc64le": spec-99.json
+ - "gotcha@1.0.3%intel@19.1.3.304~ipo~test build_type=RelWithDebInfo arch=cray-cnl7-haswell": spec-100.json
+ - "gotcha@0.0.2%gcc@7.5.0~test build_type=RelWithDebInfo patches=9f7814f arch=linux-ubuntu18.04-power8le": spec-101.json
+
+---

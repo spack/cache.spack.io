@@ -1,0 +1,114 @@
+{
+    "spec": {
+        "_meta": {
+            "version": 2
+        },
+        "nodes": [
+            {
+                "name": "magma",
+                "version": "2.5.4",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "build_type": "RelWithDebInfo",
+                    "cuda": true,
+                    "cuda_arch": [
+                        "70"
+                    ],
+                    "fortran": true,
+                    "ipo": false,
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "cuda",
+                        "hash": "ghcj2b4w7jgyefu35bkx47wiga74c2xi",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "openblas",
+                        "hash": "m5gktgohkqi2znlic6cwpz5euhqdle3i",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "eine5f3orvvkt42dbya65m2e7qokhpyc"
+            },
+            {
+                "name": "cuda",
+                "version": "10.2.89",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "external": {
+                    "path": "/usr/local/cuda",
+                    "module": null,
+                    "extra_attributes": {}
+                },
+                "hash": "ghcj2b4w7jgyefu35bkx47wiga74c2xi"
+            },
+            {
+                "name": "openblas",
+                "version": "0.3.10",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "consistent_fpcsr": false,
+                    "ilp64": false,
+                    "pic": true,
+                    "shared": true,
+                    "threads": "none",
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "m5gktgohkqi2znlic6cwpz5euhqdle3i"
+            }
+        ]
+    }
+}

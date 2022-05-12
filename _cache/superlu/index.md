@@ -1,0 +1,123 @@
+---
+title: "superlu"
+layout: cache
+category: package
+meta: {"versions": ["5.2.1", "4.3", "5.2.2"], "compilers": ["gcc@8.3.1", "gcc@9.3.0", "gcc@8.1.0", "gcc@7.5.0", "intel@19.1.3.304", "gcc@7.3.1", "gcc@8.4.1", "gcc@7.3.0", "gcc@10.3.0", "gcc@7.4.0"]}
+spec_files: 
+ - "superlu@5.2.1%gcc@8.3.1+pic arch=linux-rhel8-x86_64 ^openblas@0.3.10%gcc@8.3.1~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-rhel8-x86_64": spec-0.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-centos7-x86_64 ^openblas@0.3.7%gcc@7.3.0+avx2~avx512~ilp64+pic+shared~virtual_machine cpu_target=auto threads=openmp arch=linux-centos7-x86_64": spec-1.json
+ - "superlu@5.2.2%gcc@8.3.1~ipo+pic build_type=RelWithDebInfo arch=linux-rhel8-ppc64le ^openblas@0.3.10%gcc@8.3.1~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=openmp arch=linux-rhel8-ppc64le": spec-2.json
+ - "superlu@5.2.2%gcc@8.3.1~ipo+pic build_type=RelWithDebInfo arch=linux-rhel8-ppc64le ^openblas@0.3.15%gcc@8.3.1~bignuma~consistent_fpcsr~ilp64+locking+pic+shared threads=openmp arch=linux-rhel8-ppc64le": spec-3.json
+ - "superlu@5.2.2%gcc@8.3.1~ipo+pic build_type=RelWithDebInfo arch=linux-rhel8-x86_64 ^openblas@0.3.15%gcc@8.3.1~bignuma~consistent_fpcsr~ilp64+locking+pic+shared threads=openmp arch=linux-rhel8-x86_64": spec-4.json
+ - "superlu@5.2.1%gcc@7.3.1+pic arch=linux-amzn2-x86_64 ^openblas@0.3.10%gcc@7.3.1~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=none arch=linux-amzn2-x86_64": spec-5.json
+ - "superlu@5.2.2%gcc@10.3.0~ipo+pic build_type=RelWithDebInfo arch=linux-ubuntu21.04-ppc64le ^openblas@0.3.15%gcc@10.3.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared threads=openmp arch=linux-ubuntu21.04-ppc64le": spec-6.json
+ - "superlu@4.3%gcc@7.4.0+pic arch=linux-rhel7-power9le ^netlib-lapack@3.8.0%gcc@7.4.0~external-blas~ipo+lapacke+shared~xblas build_type=Release patches=5c79286,ad3d41f arch=linux-rhel7-power9le": spec-7.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-ubuntu18.04-ppc64le ^openblas@0.3.10%gcc@7.3.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-ubuntu18.04-ppc64le": spec-8.json
+ - "superlu@5.2.1%gcc@8.1.0+pic arch=linux-rhel7-x86_64 ^openblas@0.3.10%gcc@8.1.0~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=none arch=linux-rhel7-x86_64": spec-9.json
+ - "superlu@5.2.1%gcc@8.3.1+pic arch=linux-rhel8-x86_64 ^openblas@0.3.10%gcc@8.3.1~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=none arch=linux-rhel8-x86_64": spec-10.json
+ - "superlu@5.2.2%gcc@7.5.0~ipo+pic build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64 ^openblas@0.3.10%gcc@7.5.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=openmp arch=linux-ubuntu18.04-x86_64": spec-11.json
+ - "superlu@5.2.2%gcc@9.3.0~ipo+pic build_type=RelWithDebInfo arch=linux-ubuntu20.04-ppc64le ^openblas@0.3.10%gcc@9.3.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=openmp arch=linux-ubuntu20.04-ppc64le": spec-12.json
+ - "superlu@5.2.2%gcc@9.3.0~ipo+pic build_type=RelWithDebInfo arch=linux-rhel7-ppc64le ^openblas@0.3.10%gcc@9.3.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=openmp arch=linux-rhel7-ppc64le": spec-13.json
+ - "superlu@5.2.1%gcc@7.4.0+pic arch=linux-ubuntu18.04-x86_64 ^openblas@0.3.9%gcc@7.4.0~consistentFPCSR~ilp64+pic+shared threads=openmp arch=linux-ubuntu18.04-x86_64": spec-14.json
+ - "superlu@5.2.1%gcc@9.3.0+pic arch=linux-ubuntu20.04-x86_64 ^openblas@0.3.10%gcc@9.3.0~consistent_fpcsr~ilp64+locking+pic+shared threads=none arch=linux-ubuntu20.04-x86_64": spec-15.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-ubuntu18.04-x86_64 ^openblas@0.3.9%gcc@7.3.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-ubuntu18.04-x86_64": spec-16.json
+ - "superlu@5.2.1%gcc@8.3.1+pic arch=linux-rhel8-ppc64le ^openblas@0.3.10%gcc@8.3.1~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=openmp arch=linux-rhel8-ppc64le": spec-17.json
+ - "superlu@5.2.1%gcc@7.5.0+pic arch=linux-ubuntu18.04-power8le ^openblas@0.3.10%gcc@7.5.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-ubuntu18.04-power8le": spec-18.json
+ - "superlu@5.2.1%gcc@9.3.0+pic arch=linux-ubuntu20.04-ppc64le ^openblas@0.3.9%gcc@9.3.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-ubuntu20.04-ppc64le": spec-19.json
+ - "superlu@5.2.1%gcc@7.5.0+pic arch=linux-ubuntu18.04-aarch64 ^openblas@0.3.10%gcc@7.5.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-ubuntu18.04-aarch64": spec-20.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-rhel8-x86_64 ^openblas@0.3.9%gcc@7.3.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-rhel8-x86_64": spec-21.json
+ - "superlu@4.3%gcc@7.3.1+pic arch=linux-amzn2-x86_64 ^netlib-lapack@3.8.0%gcc@7.3.1~external-blas~ipo+lapacke+shared~xblas build_type=Release patches=5c79286,ad3d41f arch=linux-amzn2-x86_64": spec-22.json
+ - "superlu@5.2.2%gcc@9.3.0~ipo+pic build_type=RelWithDebInfo arch=linux-rhel7-ppc64le ^openblas@0.3.15%gcc@9.3.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared threads=openmp arch=linux-rhel7-ppc64le": spec-23.json
+ - "superlu@5.2.1%gcc@8.3.1+pic arch=linux-rhel8-ppc64le ^openblas@0.3.10%gcc@8.3.1~consistent_fpcsr~ilp64+locking+pic+shared threads=none arch=linux-rhel8-ppc64le": spec-24.json
+ - "superlu@5.2.1%gcc@8.1.0+pic arch=linux-rhel7-ppc64le ^openblas@0.3.10%gcc@8.1.0~consistent_fpcsr~ilp64+locking+pic+shared threads=none arch=linux-rhel7-ppc64le": spec-25.json
+ - "superlu@4.3%gcc@7.5.0+pic arch=linux-ubuntu18.04-x86_64 ^openblas@0.3.10%gcc@7.5.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-ubuntu18.04-x86_64": spec-26.json
+ - "superlu@5.2.1%gcc@7.3.1+pic arch=linux-amzn2-x86_64 ^openblas@0.3.10%gcc@7.3.1~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=none arch=linux-amzn2-x86_64": spec-27.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-ubuntu18.04-ppc64le ^openblas@0.3.7%gcc@7.3.0+avx2~avx512~ilp64+pic+shared~virtual_machine cpu_target=auto threads=openmp arch=linux-ubuntu18.04-ppc64le": spec-28.json
+ - "superlu@5.2.1%gcc@9.3.0+pic arch=linux-rhel7-x86_64 ^openblas@0.3.10%gcc@9.3.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=openmp arch=linux-rhel7-x86_64": spec-29.json
+ - "superlu@5.2.1%gcc@7.5.0+pic arch=linux-ubuntu18.04-ppc64le ^openblas@0.3.10%gcc@7.5.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=none arch=linux-ubuntu18.04-ppc64le": spec-30.json
+ - "superlu@5.2.1%gcc@8.1.0+pic arch=linux-rhel7-ppc64le ^openblas@0.3.10%gcc@8.1.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=none arch=linux-rhel7-ppc64le": spec-31.json
+ - "superlu@5.2.1%gcc@7.5.0+pic arch=linux-ubuntu18.04-x86_64 ^openblas@0.3.10%gcc@7.5.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-ubuntu18.04-x86_64": spec-32.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-ubuntu18.04-ppc64le ^openblas@0.3.9%gcc@7.3.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-ubuntu18.04-ppc64le": spec-33.json
+ - "superlu@5.2.1%gcc@7.5.0+pic arch=linux-ubuntu18.04-x86_64 ^openblas@0.3.10%gcc@7.5.0~consistent_fpcsr~ilp64+locking+pic+shared threads=none arch=linux-ubuntu18.04-x86_64": spec-34.json
+ - "superlu@5.2.1%gcc@8.1.0+pic arch=linux-rhel7-x86_64 ^openblas@0.3.10%gcc@8.1.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=openmp arch=linux-rhel7-x86_64": spec-35.json
+ - "superlu@5.2.1%gcc@9.3.0+pic arch=linux-ubuntu20.04-x86_64 ^openblas@0.3.10%gcc@9.3.0~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=none arch=linux-ubuntu20.04-x86_64": spec-36.json
+ - "superlu@5.2.1%gcc@8.1.0+pic arch=linux-rhel7-ppc64le ^openblas@0.3.10%gcc@8.1.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-rhel7-ppc64le": spec-37.json
+ - "superlu@5.2.1%gcc@8.1.0+pic arch=linux-rhel7-ppc64le ^openblas@0.3.10%gcc@8.1.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=openmp arch=linux-rhel7-ppc64le": spec-38.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-rhel7-ppc64le ^openblas@0.3.7%gcc@7.3.0+avx2~avx512~ilp64+pic+shared~virtual_machine cpu_target=auto threads=openmp arch=linux-rhel7-ppc64le": spec-39.json
+ - "superlu@5.2.1%gcc@9.3.0+pic arch=linux-ubuntu20.04-x86_64 ^openblas@0.3.10%gcc@9.3.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-ubuntu20.04-x86_64": spec-40.json
+ - "superlu@5.2.2%gcc@8.3.1~ipo+pic build_type=RelWithDebInfo arch=linux-rhel8-x86_64 ^openblas@0.3.10%gcc@8.3.1~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=openmp arch=linux-rhel8-x86_64": spec-41.json
+ - "superlu@5.2.2%gcc@8.4.1~ipo+pic build_type=RelWithDebInfo arch=linux-rhel8-x86_64 ^openblas@0.3.15%gcc@8.4.1~bignuma~consistent_fpcsr~ilp64+locking+pic+shared threads=openmp arch=linux-rhel8-x86_64": spec-42.json
+ - "superlu@5.2.1%gcc@7.4.0+pic arch=linux-ubuntu18.04-x86_64 ^openblas@0.3.8%gcc@7.4.0~ilp64+pic+shared threads=openmp arch=linux-ubuntu18.04-x86_64": spec-43.json
+ - "superlu@5.2.1%gcc@7.5.0+pic arch=linux-ubuntu18.04-x86_64 ^openblas@0.3.10%gcc@7.5.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=none arch=linux-ubuntu18.04-x86_64": spec-44.json
+ - "superlu@5.2.1%gcc@8.3.1+pic arch=linux-rhel8-aarch64 ^openblas@0.3.10%gcc@8.3.1~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-rhel8-aarch64": spec-45.json
+ - "superlu@5.2.2%gcc@9.3.0~ipo+pic build_type=RelWithDebInfo arch=linux-rhel7-x86_64 ^openblas@0.3.10%gcc@9.3.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=openmp arch=linux-rhel7-x86_64": spec-46.json
+ - "superlu@5.2.1%gcc@8.1.0+pic arch=linux-rhel7-x86_64 ^openblas@0.3.10%gcc@8.1.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-rhel7-x86_64": spec-47.json
+ - "superlu@5.2.1%gcc@9.3.0+pic arch=linux-ubuntu20.04-x86_64 ^openblas@0.3.10%gcc@9.3.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=none arch=linux-ubuntu20.04-x86_64": spec-48.json
+ - "superlu@5.2.2%gcc@8.4.1~ipo+pic build_type=RelWithDebInfo arch=linux-rhel8-ppc64le ^openblas@0.3.15%gcc@8.4.1~bignuma~consistent_fpcsr~ilp64+locking+pic+shared threads=openmp arch=linux-rhel8-ppc64le": spec-49.json
+ - "superlu@5.2.2%gcc@9.3.0~ipo+pic build_type=RelWithDebInfo arch=linux-ubuntu20.04-ppc64le ^openblas@0.3.15%gcc@9.3.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared threads=openmp arch=linux-ubuntu20.04-ppc64le": spec-50.json
+ - "superlu@5.2.1%gcc@8.1.0+pic arch=linux-rhel7-x86_64 ^openblas@0.3.10%gcc@8.1.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=none arch=linux-rhel7-x86_64": spec-51.json
+ - "superlu@4.3%gcc@9.3.0+pic arch=linux-ubuntu20.04-x86_64 ^netlib-lapack@3.8.0%gcc@9.3.0~external-blas~ipo+lapacke+shared~xblas build_type=Release patches=5c79286,ad3d41f arch=linux-ubuntu20.04-x86_64": spec-52.json
+ - "superlu@5.2.1%gcc@8.1.0+pic arch=linux-rhel7-power8le ^openblas@0.3.10%gcc@8.1.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-rhel7-power8le": spec-53.json
+ - "superlu@5.2.1%gcc@7.5.0+pic arch=linux-ubuntu18.04-ppc64le ^openblas@0.3.10%gcc@7.5.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-ubuntu18.04-ppc64le": spec-54.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-centos7-x86_64 ^openblas@0.3.10%gcc@7.3.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-centos7-x86_64": spec-55.json
+ - "superlu@5.2.1%gcc@8.3.1+pic arch=linux-rhel8-ppc64le ^openblas@0.3.10%gcc@8.3.1~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=none arch=linux-rhel8-ppc64le": spec-56.json
+ - "superlu@5.2.1%gcc@8.3.1+pic arch=linux-rhel8-x86_64 ^openblas@0.3.10%gcc@8.3.1~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=openmp arch=linux-rhel8-x86_64": spec-57.json
+ - "superlu@5.2.1%gcc@8.3.1+pic arch=linux-rhel8-x86_64 ^openblas@0.3.10%gcc@8.3.1~consistent_fpcsr~ilp64+locking+pic+shared threads=none arch=linux-rhel8-x86_64": spec-58.json
+ - "superlu@5.2.1%gcc@7.4.0+pic arch=linux-ubuntu18.04-x86_64 ^openblas@0.3.8%gcc@7.4.0~consistentFPCSR~ilp64+pic+shared threads=openmp arch=linux-ubuntu18.04-x86_64": spec-59.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-rhel7-ppc64le ^openblas@0.3.10%gcc@7.3.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-rhel7-ppc64le": spec-60.json
+ - "superlu@5.2.2%gcc@9.3.0~ipo+pic build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64 ^openblas@0.3.15%gcc@9.3.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared threads=openmp arch=linux-ubuntu20.04-x86_64": spec-61.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-rhel7-x86_64 ^openblas@0.3.7%gcc@7.3.0+avx2~avx512~ilp64+pic+shared~virtual_machine cpu_target=auto threads=openmp arch=linux-rhel7-x86_64": spec-62.json
+ - "superlu@5.2.1%gcc@9.3.0+pic arch=linux-ubuntu20.04-ppc64le ^openblas@0.3.10%gcc@9.3.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=none arch=linux-ubuntu20.04-ppc64le": spec-63.json
+ - "superlu@5.2.1%gcc@9.3.0+pic arch=linux-ubuntu20.04-ppc64le ^openblas@0.3.10%gcc@9.3.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-ubuntu20.04-ppc64le": spec-64.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-centos7-ppc64le ^openblas@0.3.9%gcc@7.3.0~consistent_fpcsr~ilp64+pic+shared threads=openmp arch=linux-centos7-ppc64le": spec-65.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-rhel7-x86_64 ^openblas@0.3.9%gcc@7.3.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-rhel7-x86_64": spec-66.json
+ - "superlu@5.2.1%gcc@8.3.1+pic arch=linux-centos8-x86_64 ^openblas@0.3.10%gcc@8.3.1~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-centos8-x86_64": spec-67.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-centos8-x86_64 ^openblas@0.3.9%gcc@7.3.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-centos8-x86_64": spec-68.json
+ - "superlu@5.2.1%gcc@9.3.0+pic arch=linux-ubuntu20.04-ppc64le ^openblas@0.3.10%gcc@9.3.0~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=none arch=linux-ubuntu20.04-ppc64le": spec-69.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-ubuntu18.04-x86_64 ^openblas@0.3.10%gcc@7.3.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-ubuntu18.04-x86_64": spec-70.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-centos7-x86_64 ^openblas@0.3.9%gcc@7.3.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-centos7-x86_64": spec-71.json
+ - "superlu@5.2.1%gcc@7.5.0+pic arch=linux-ubuntu18.04-x86_64 ^openblas@0.3.10%gcc@7.5.0~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=none arch=linux-ubuntu18.04-x86_64": spec-72.json
+ - "superlu@5.2.1%gcc@7.5.0+pic arch=linux-ubuntu18.04-x86_64 ^openblas@0.3.10%gcc@7.5.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=openmp arch=linux-ubuntu18.04-x86_64": spec-73.json
+ - "superlu@5.2.1%gcc@9.3.0+pic arch=linux-ubuntu20.04-x86_64 ^openblas@0.3.9%gcc@9.3.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-ubuntu20.04-x86_64": spec-74.json
+ - "superlu@5.2.1%gcc@8.1.0+pic arch=linux-rhel7-x86_64 ^openblas@0.3.10%gcc@8.1.0~consistent_fpcsr~ilp64+locking+pic+shared threads=none arch=linux-rhel7-x86_64": spec-75.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-rhel8-x86_64 ^openblas@0.3.7%gcc@7.3.0+avx2~avx512~ilp64+pic+shared~virtual_machine cpu_target=auto threads=openmp arch=linux-rhel8-x86_64": spec-76.json
+ - "superlu@5.2.1%gcc@9.3.0+pic arch=cray-cnl7-haswell ^openblas@0.3.10%gcc@9.3.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=openmp arch=cray-cnl7-haswell": spec-77.json
+ - "superlu@5.2.1%intel@19.1.3.304+pic arch=cray-cnl7-haswell ^openblas@0.3.10%intel@19.1.3.304~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=00230a6,2bc1db3,865703b threads=openmp arch=cray-cnl7-haswell": spec-78.json
+ - "superlu@5.2.1%gcc@8.1.0+pic arch=linux-rhel7-ppc64le ^openblas@0.3.10%gcc@8.1.0~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=none arch=linux-rhel7-ppc64le": spec-79.json
+ - "superlu@5.2.1%gcc@8.3.1+pic arch=linux-centos8-ppc64le ^openblas@0.3.9%gcc@8.3.1~consistent_fpcsr~ilp64+pic+shared threads=openmp arch=linux-centos8-ppc64le": spec-80.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-ubuntu18.04-x86_64 ^openblas@0.3.7%gcc@7.3.0+avx2~avx512~ilp64+pic+shared~virtual_machine cpu_target=auto threads=openmp arch=linux-ubuntu18.04-x86_64": spec-81.json
+ - "superlu@5.2.1%gcc@7.5.0+pic arch=linux-ubuntu18.04-ppc64le ^openblas@0.3.10%gcc@7.5.0~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=none arch=linux-ubuntu18.04-ppc64le": spec-82.json
+ - "superlu@5.2.2%gcc@9.3.0~ipo+pic build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64 ^openblas@0.3.10%gcc@9.3.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=openmp arch=linux-ubuntu20.04-x86_64": spec-83.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-centos7-ppc64le ^openblas@0.3.7%gcc@7.3.0+avx2~avx512~ilp64+pic+shared~virtual_machine cpu_target=auto threads=openmp arch=linux-centos7-ppc64le": spec-84.json
+ - "superlu@5.2.2%gcc@9.3.0~ipo+pic build_type=RelWithDebInfo arch=linux-rhel7-x86_64 ^openblas@0.3.15%gcc@9.3.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared threads=openmp arch=linux-rhel7-x86_64": spec-85.json
+ - "superlu@5.2.1%gcc@8.1.0+pic arch=linux-rhel7-x86_64 ^openblas@0.3.10%gcc@8.1.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-rhel7-x86_64": spec-86.json
+ - "superlu@5.2.1%gcc@8.3.1+pic arch=linux-centos8-ppc64le ^openblas@0.3.10%gcc@8.3.1~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-centos8-ppc64le": spec-87.json
+ - "superlu@5.2.1%gcc@7.5.0+pic arch=linux-ubuntu18.04-ppc64le ^openblas@0.3.10%gcc@7.5.0~consistent_fpcsr~ilp64+locking+pic+shared threads=none arch=linux-ubuntu18.04-ppc64le": spec-88.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-ubuntu18.04-ppc64le ^openblas@0.3.9%gcc@7.3.0~consistent_fpcsr~ilp64+pic+shared threads=openmp arch=linux-ubuntu18.04-ppc64le": spec-89.json
+ - "superlu@5.2.1%gcc@9.3.0+pic arch=linux-rhel7-ppc64le ^openblas@0.3.10%gcc@9.3.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=openmp arch=linux-rhel7-ppc64le": spec-90.json
+ - "superlu@5.2.1%gcc@8.3.1+pic arch=linux-rhel8-ppc64le ^openblas@0.3.10%gcc@8.3.1~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-rhel8-ppc64le": spec-91.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-rhel7-ppc64le ^openblas@0.3.9%gcc@7.3.0~consistent_fpcsr~ilp64+pic+shared threads=openmp arch=linux-rhel7-ppc64le": spec-92.json
+ - "superlu@5.2.1%gcc@9.3.0+pic arch=linux-ubuntu20.04-ppc64le ^openblas@0.3.10%gcc@9.3.0~consistent_fpcsr~ilp64+locking+pic+shared threads=none arch=linux-ubuntu20.04-ppc64le": spec-93.json
+ - "superlu@5.2.1%gcc@8.1.0+pic arch=linux-rhel7-ppc64le ^openblas@0.3.10%gcc@8.1.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-rhel7-ppc64le": spec-94.json
+ - "superlu@5.2.1%gcc@8.3.1+pic arch=linux-rhel8-ppc64le ^openblas@0.3.10%gcc@8.3.1~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=none arch=linux-rhel8-ppc64le": spec-95.json
+ - "superlu@5.2.1%gcc@8.3.1+pic arch=linux-rhel8-x86_64 ^openblas@0.3.10%gcc@8.3.1~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=none arch=linux-rhel8-x86_64": spec-96.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-centos8-x86_64 ^openblas@0.3.10%gcc@7.3.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-centos8-x86_64": spec-97.json
+ - "superlu@5.2.1%gcc@7.5.0+pic arch=linux-ubuntu18.04-x86_64 ^openblas@0.3.10%gcc@7.5.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-ubuntu18.04-x86_64": spec-98.json
+ - "superlu@5.2.1%gcc@8.1.0+pic arch=linux-centos7-ppc64le ^openblas@0.3.10%gcc@8.1.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-centos7-ppc64le": spec-99.json
+ - "superlu@5.2.1%gcc@8.1.0+pic arch=linux-centos7-x86_64 ^openblas@0.3.10%gcc@8.1.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-centos7-x86_64": spec-100.json
+ - "superlu@5.2.1%gcc@9.3.0+pic arch=linux-ubuntu20.04-ppc64le ^openblas@0.3.10%gcc@9.3.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=openmp arch=linux-ubuntu20.04-ppc64le": spec-101.json
+ - "superlu@5.2.1%gcc@7.5.0+pic arch=linux-ubuntu18.04-ppc64le ^openblas@0.3.10%gcc@7.5.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=openmp arch=linux-ubuntu18.04-ppc64le": spec-102.json
+ - "superlu@5.2.2%gcc@7.5.0~ipo+pic build_type=RelWithDebInfo arch=linux-ubuntu18.04-ppc64le ^openblas@0.3.10%gcc@7.5.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=openmp arch=linux-ubuntu18.04-ppc64le": spec-103.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-rhel7-ppc64le ^openblas@0.3.9%gcc@7.3.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-rhel7-ppc64le": spec-104.json
+ - "superlu@5.2.2%gcc@10.3.0~ipo+pic build_type=RelWithDebInfo arch=linux-ubuntu21.04-x86_64 ^openblas@0.3.15%gcc@10.3.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared threads=openmp arch=linux-ubuntu21.04-x86_64": spec-105.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-centos8-x86_64 ^openblas@0.3.7%gcc@7.3.0+avx2~avx512~ilp64+pic+shared~virtual_machine cpu_target=auto threads=openmp arch=linux-centos8-x86_64": spec-106.json
+ - "superlu@5.2.1%gcc@8.3.1+pic arch=linux-rhel8-ppc64le ^openblas@0.3.9%gcc@8.3.1~consistent_fpcsr~ilp64+pic+shared threads=openmp arch=linux-rhel8-ppc64le": spec-107.json
+ - "superlu@5.2.2%gcc@7.5.0~ipo+pic build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64 ^openblas@0.3.15%gcc@7.5.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared threads=openmp arch=linux-ubuntu18.04-x86_64": spec-108.json
+ - "superlu@5.2.1%gcc@8.3.1+pic arch=linux-rhel8-x86_64 ^openblas@0.3.12%gcc@8.3.1~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-rhel8-x86_64": spec-109.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-rhel8-x86_64 ^openblas@0.3.10%gcc@7.3.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-rhel8-x86_64": spec-110.json
+ - "superlu@5.2.1%gcc@7.5.0+pic arch=linux-ubuntu18.04-ppc64le ^openblas@0.3.10%gcc@7.5.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-ubuntu18.04-ppc64le": spec-111.json
+ - "superlu@5.2.1%gcc@9.3.0+pic arch=linux-ubuntu20.04-x86_64 ^openblas@0.3.10%gcc@9.3.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=865703b threads=openmp arch=linux-ubuntu20.04-x86_64": spec-112.json
+ - "superlu@5.2.2%gcc@7.5.0~ipo+pic build_type=RelWithDebInfo arch=linux-ubuntu18.04-ppc64le ^openblas@0.3.15%gcc@7.5.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared threads=openmp arch=linux-ubuntu18.04-ppc64le": spec-113.json
+ - "superlu@5.2.1%gcc@7.3.0+pic arch=linux-rhel7-x86_64 ^openblas@0.3.10%gcc@7.3.0~consistent_fpcsr~ilp64+pic+shared threads=none arch=linux-rhel7-x86_64": spec-114.json
+
+---

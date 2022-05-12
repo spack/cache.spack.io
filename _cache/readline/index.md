@@ -1,0 +1,112 @@
+---
+title: "readline"
+layout: cache
+category: package
+meta: {"versions": ["8.1", "8.0"], "compilers": ["gcc@8.3.1", "apple-clang@12.0.0", "gcc@9.3.0", "gcc@4.8.5", "gcc@8.1.0", "gcc@7.5.0", "intel@19.1.3.304", "gcc@6.4.0", "gcc@7.3.1", "gcc@8.4.1", "gcc@8.2.1", "xl@16.1", "gcc@7.3.0", "gcc@10.3.0", "gcc@7.4.0"]}
+spec_files: 
+ - "readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-x86_64": spec-0.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le": spec-1.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-centos8-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-centos8-x86_64": spec-2.json
+ - "readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64": spec-3.json
+ - "readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-ppc64le": spec-4.json
+ - "readline@8.1%gcc@8.3.1 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-x86_64": spec-5.json
+ - "readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64": spec-6.json
+ - "readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le": spec-7.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-rhel7-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-rhel7-x86_64": spec-8.json
+ - "readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-ppc64le": spec-9.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64": spec-10.json
+ - "readline@8.1%gcc@9.3.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-rhel7-x86_64": spec-11.json
+ - "readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64": spec-12.json
+ - "readline@8.0%gcc@8.1.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64": spec-13.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-centos8-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks+termlib arch=linux-centos8-x86_64": spec-14.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64": spec-15.json
+ - "readline@8.0%gcc@7.4.0 arch=linux-rhel7-power9le ^ncurses@6.2%gcc@7.4.0~symlinks+termlib arch=linux-rhel7-power9le": spec-16.json
+ - "readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-ppc64le": spec-17.json
+ - "readline@8.1%gcc@8.1.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib abi=none arch=linux-rhel7-ppc64le": spec-18.json
+ - "readline@8.1%gcc@8.4.1 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.4.1~symlinks+termlib abi=none arch=linux-rhel8-ppc64le": spec-19.json
+ - "readline@8.0%gcc@7.3.1 arch=linux-amzn2-x86_64 ^ncurses@6.2%gcc@7.3.1~symlinks+termlib arch=linux-amzn2-x86_64": spec-20.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-centos7-ppc64le ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos7-ppc64le": spec-21.json
+ - "readline@8.0%gcc@8.3.1 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-ppc64le": spec-22.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-ubuntu18.04-ppc64le": spec-23.json
+ - "readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-ppc64le": spec-24.json
+ - "readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64": spec-25.json
+ - "readline@8.1%gcc@9.3.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-rhel7-ppc64le": spec-26.json
+ - "readline@8.1%gcc@8.1.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib abi=none arch=linux-rhel7-x86_64": spec-27.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-rhel8-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks+termlib arch=linux-rhel8-x86_64": spec-28.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel8-x86_64": spec-29.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-centos8-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos8-x86_64": spec-30.json
+ - "readline@8.1%gcc@9.3.0 arch=cray-cnl7-haswell ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=cray-cnl7-haswell": spec-31.json
+ - "readline@8.0%gcc@8.3.1 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-x86_64": spec-32.json
+ - "readline@8.1%gcc@8.3.1 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-ppc64le": spec-33.json
+ - "readline@8.0%gcc@8.1.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le": spec-34.json
+ - "readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-aarch64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-aarch64": spec-35.json
+ - "readline@8.0%gcc@8.1.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-ppc64le": spec-36.json
+ - "readline@8.0%gcc@8.2.1 arch=linux-centos8-x86_64 ^ncurses@6.1%gcc@8.2.1~symlinks~termlib arch=linux-centos8-x86_64": spec-37.json
+ - "readline@8.1%gcc@10.3.0 arch=linux-ubuntu21.04-x86_64 ^ncurses@6.2%gcc@10.3.0~symlinks+termlib abi=none arch=linux-ubuntu21.04-x86_64": spec-38.json
+ - "readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le": spec-39.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-centos7-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-centos7-x86_64": spec-40.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-x86_64": spec-41.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-centos7-x86_64 ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-centos7-x86_64": spec-42.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-ubuntu18.04-x86_64": spec-43.json
+ - "readline@8.0%gcc@8.3.1 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64": spec-44.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-rhel7-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-x86_64": spec-45.json
+ - "readline@8.0%gcc@8.3.1 arch=linux-centos8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-centos8-ppc64le": spec-46.json
+ - "readline@8.0%gcc@8.1.0 arch=linux-centos7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-centos7-ppc64le": spec-47.json
+ - "readline@8.1%gcc@10.3.0 arch=linux-ubuntu21.04-ppc64le ^ncurses@6.2%gcc@10.3.0~symlinks+termlib abi=none arch=linux-ubuntu21.04-ppc64le": spec-48.json
+ - "readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-ppc64le": spec-49.json
+ - "readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64": spec-50.json
+ - "readline@8.0%gcc@8.3.1 arch=linux-centos8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-centos8-x86_64": spec-51.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@7.3.0~symlinks+termlib arch=linux-rhel7-ppc64le": spec-52.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-rhel8-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-rhel8-x86_64": spec-53.json
+ - "readline@8.0%gcc@8.3.1 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks+termlib abi=none arch=linux-rhel8-ppc64le": spec-54.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-centos7-ppc64le ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-centos7-ppc64le": spec-55.json
+ - "readline@8.0%gcc@8.1.0 arch=linux-rhel7-power8le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-power8le": spec-56.json
+ - "readline@8.1%gcc@8.4.1 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.4.1~symlinks+termlib abi=none arch=linux-rhel8-x86_64": spec-57.json
+ - "readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64": spec-58.json
+ - "readline@8.0%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.1%gcc@7.4.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64": spec-59.json
+ - "readline@8.1%intel@19.1.3.304 arch=cray-cnl7-haswell ^ncurses@6.2%intel@19.1.3.304~symlinks+termlib abi=none arch=cray-cnl7-haswell": spec-60.json
+ - "readline@8.0%gcc@8.1.0 arch=linux-centos7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-centos7-x86_64": spec-61.json
+ - "readline@8.0%gcc@8.1.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib abi=none arch=linux-rhel7-x86_64": spec-62.json
+ - "readline@8.0%gcc@4.8.5 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-rhel7-x86_64": spec-63.json
+ - "readline@8.0%gcc@8.1.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks+termlib arch=linux-rhel7-x86_64": spec-64.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-centos7-x86_64 ^ncurses@6.1%gcc@7.3.0~symlinks+termlib arch=linux-centos7-x86_64": spec-65.json
+ - "readline@8.0%gcc@8.3.1 arch=linux-rhel8-aarch64 ^ncurses@6.2%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-aarch64": spec-66.json
+ - "readline@8.0%gcc@7.3.0 arch=linux-rhel7-ppc64le ^ncurses@6.1%gcc@7.3.0~symlinks~termlib arch=linux-rhel7-ppc64le": spec-67.json
+ - "readline@8.0%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.1%gcc@7.4.0~symlinks~termlib arch=linux-ubuntu18.04-x86_64": spec-68.json
+ - "readline@8.0%gcc@8.1.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks+termlib abi=none arch=linux-rhel7-ppc64le": spec-69.json
+ - "readline@8.0%gcc@4.8.5 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-rhel7-ppc64le": spec-70.json
+ - "readline@8.1%gcc@8.1.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@8.1.0~symlinks~termlib abi=none arch=linux-rhel7-x86_64": spec-71.json
+ - "readline@8.0%gcc@7.4.0 arch=linux-ubuntu18.04-aarch64 ^ncurses@6.1%gcc@7.4.0~symlinks~termlib arch=linux-ubuntu18.04-aarch64": spec-72.json
+ - "readline@8.0%gcc@7.4.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.4.0~symlinks+termlib arch=linux-ubuntu18.04-ppc64le": spec-73.json
+ - "readline@8.0%gcc@7.5.0 arch=linux-ubuntu18.04-power8le ^ncurses@6.2%gcc@7.5.0~symlinks+termlib arch=linux-ubuntu18.04-power8le": spec-74.json
+ - "readline@8.0%gcc@8.3.1 arch=linux-centos8-ppc64le ^ncurses@6.1%gcc@8.3.1~symlinks~termlib arch=linux-centos8-ppc64le": spec-75.json
+ - "readline@8.0%gcc@8.3.1 arch=linux-rhel8-x86_64 ^ncurses@6.1%gcc@8.3.1~symlinks+termlib arch=linux-rhel8-x86_64": spec-76.json
+ - "readline@8.0%gcc@4.8.5 arch=linux-centos7-ppc64le ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-centos7-ppc64le": spec-77.json
+ - "readline@8.0%gcc@6.4.0 arch=linux-rhel7-power9le ^ncurses@6.2%gcc@6.4.0~symlinks+termlib arch=linux-rhel7-power9le": spec-78.json
+ - "readline@8.0%gcc@4.8.5 arch=linux-rhel7-ppc64le ^ncurses@6.1%gcc@4.8.5~symlinks~termlib arch=linux-rhel7-ppc64le": spec-79.json
+ - "readline@8.1%gcc@8.3.1 arch=linux-rhel8-x86_64 ^ncurses@6.2%gcc@8.3.1~symlinks~termlib abi=none arch=linux-rhel8-x86_64": spec-80.json
+ - "readline@8.1%gcc@4.8.5 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@4.8.5~symlinks+termlib abi=none arch=linux-rhel7-x86_64": spec-81.json
+ - "readline@8.0%gcc@8.3.1 arch=linux-centos8-x86_64 ^ncurses@6.1%gcc@8.3.1~symlinks+termlib arch=linux-centos8-x86_64": spec-82.json
+ - "readline@8.0%gcc@4.8.5 arch=linux-centos7-x86_64 ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-centos7-x86_64": spec-83.json
+ - "readline@8.1%gcc@8.3.1 arch=linux-rhel8-ppc64le ^ncurses@6.2%gcc@8.3.1~symlinks~termlib abi=none arch=linux-rhel8-ppc64le": spec-84.json
+ - "readline@8.0%gcc@4.8.5 arch=linux-centos7-ppc64le ^ncurses@6.1%gcc@4.8.5~symlinks~termlib arch=linux-centos7-ppc64le": spec-85.json
+ - "readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks~termlib abi=none arch=linux-ubuntu20.04-ppc64le": spec-86.json
+ - "readline@8.1%gcc@9.3.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@9.3.0~symlinks~termlib abi=none arch=linux-rhel7-ppc64le": spec-87.json
+ - "readline@8.1%gcc@9.3.0 arch=linux-rhel7-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks~termlib abi=none arch=linux-rhel7-x86_64": spec-88.json
+ - "readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.2%gcc@7.5.0~symlinks~termlib abi=none arch=linux-ubuntu18.04-ppc64le": spec-89.json
+ - "readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks~termlib abi=none arch=linux-ubuntu20.04-x86_64": spec-90.json
+ - "readline@8.0%xl@16.1 fflags="-qzerosize"  arch=linux-rhel7-power9le ^ncurses@6.1%xl@16.1 fflags="-qzerosize" ~symlinks+termlib arch=linux-rhel7-power9le": spec-91.json
+ - "readline@8.1%apple-clang@12.0.0 arch=darwin-catalina-x86_64 ^ncurses@6.2%apple-clang@12.0.0~symlinks+termlib abi=none arch=darwin-catalina-x86_64": spec-92.json
+ - "readline@8.0%gcc@6.4.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@6.4.0~symlinks+termlib arch=linux-rhel7-ppc64le": spec-93.json
+ - "readline@8.0%gcc@7.4.0 arch=linux-ubuntu18.04-ppc64le ^ncurses@6.1%gcc@7.4.0~symlinks~termlib arch=linux-ubuntu18.04-ppc64le": spec-94.json
+ - "readline@8.0%gcc@4.8.5 arch=linux-rhel7-x86_64 ^ncurses@6.1%gcc@4.8.5~symlinks~termlib arch=linux-rhel7-x86_64": spec-95.json
+ - "readline@8.0%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.4.0~symlinks+termlib arch=linux-ubuntu18.04-x86_64": spec-96.json
+ - "readline@8.0%xl@16.1 fflags="-qzerosize"  arch=linux-rhel7-power9le ^ncurses@6.2%gcc@4.8.5~symlinks+termlib arch=linux-rhel7-power8le": spec-97.json
+ - "readline@8.1%gcc@4.8.5 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@4.8.5~symlinks+termlib abi=none arch=linux-rhel7-ppc64le": spec-98.json
+ - "readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks~termlib abi=none arch=linux-ubuntu18.04-x86_64": spec-99.json
+ - "readline@8.1%gcc@8.1.0 arch=linux-rhel7-ppc64le ^ncurses@6.2%gcc@8.1.0~symlinks~termlib abi=none arch=linux-rhel7-ppc64le": spec-100.json
+ - "readline@8.0%gcc@8.3.1 arch=linux-rhel8-x86_64 ^ncurses@6.1%gcc@8.3.1~symlinks~termlib arch=linux-rhel8-x86_64": spec-101.json
+ - "readline@8.0%gcc@8.3.1 arch=linux-centos8-x86_64 ^ncurses@6.1%gcc@8.3.1~symlinks~termlib arch=linux-centos8-x86_64": spec-102.json
+ - "readline@8.0%gcc@4.8.5 arch=linux-centos7-x86_64 ^ncurses@6.1%gcc@4.8.5~symlinks~termlib arch=linux-centos7-x86_64": spec-103.json
+
+---

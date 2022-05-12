@@ -1,0 +1,275 @@
+{
+    "spec": {
+        "_meta": {
+            "version": 2
+        },
+        "nodes": [
+            {
+                "name": "mfem",
+                "version": "4.1.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "xl",
+                    "version": "16.1"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "conduit": false,
+                    "cuda": false,
+                    "cuda_arch": "70",
+                    "debug": false,
+                    "examples": false,
+                    "gnutls": false,
+                    "gslib": false,
+                    "lapack": false,
+                    "libceed": false,
+                    "libunwind": false,
+                    "metis": true,
+                    "miniapps": false,
+                    "mpfr": false,
+                    "mpi": true,
+                    "netcdf": false,
+                    "occa": false,
+                    "openmp": false,
+                    "petsc": false,
+                    "pumi": false,
+                    "raja": false,
+                    "shared": false,
+                    "static": true,
+                    "strumpack": false,
+                    "suite-sparse": false,
+                    "sundials": false,
+                    "superlu-dist": false,
+                    "threadsafe": false,
+                    "timer": "auto",
+                    "umpire": false,
+                    "zlib": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [
+                        "-qzerosize"
+                    ],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "hypre",
+                        "hash": "qthbyprjmwhwkibluace2f3nff4rjdht",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "metis",
+                        "hash": "dkslcotku2hbvbzjpf7wuhb7jrnop2j6",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "spectrum-mpi",
+                        "hash": "ezhgvrofkdq4sg3oo6mfatzkib7gkvl4",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "hash": "quasq73tmp3kiadcuq7f274ahmaybxdw",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "byhinqxdpgbbclt2efu4dz2s5733pegw"
+            },
+            {
+                "name": "hypre",
+                "version": "2.13.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "xl",
+                    "version": "16.1"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "complex": false,
+                    "debug": false,
+                    "int64": false,
+                    "internal-superlu": false,
+                    "mixedint": false,
+                    "mpi": true,
+                    "openmp": false,
+                    "shared": true,
+                    "superlu-dist": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [
+                        "-qzerosize"
+                    ],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "external": {
+                    "path": "/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/xl-16.1.1-5/hypre-2.13.0-7c6xjb23brku5tiqqoomb63dttkfpwex",
+                    "module": [
+                        "hypre/2.13.0"
+                    ],
+                    "extra_attributes": {}
+                },
+                "hash": "qthbyprjmwhwkibluace2f3nff4rjdht"
+            },
+            {
+                "name": "metis",
+                "version": "5.1.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "xl",
+                    "version": "16.1"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "build_type": "Release",
+                    "gdb": false,
+                    "int64": false,
+                    "patches": [
+                        "4991da938c1d3a1d3dea78e49bbebecba00273f98df2a656e38b83d55b281da1"
+                    ],
+                    "real64": false,
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [
+                        "-qzerosize"
+                    ],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "4991da938c1d3a1d3dea78e49bbebecba00273f98df2a656e38b83d55b281da1"
+                ],
+                "hash": "dkslcotku2hbvbzjpf7wuhb7jrnop2j6"
+            },
+            {
+                "name": "spectrum-mpi",
+                "version": "10.3.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "xl",
+                    "version": "16.1"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [
+                        "-qzerosize"
+                    ],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "external": {
+                    "path": "/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/xl-16.1.1-5/spectrum-mpi-10.3.1.2-20200121-p6nrnt6vtvkn356wqg6f74n6jspnpjd2",
+                    "module": [
+                        "spectrum-mpi/10.3.1.2-20200121"
+                    ],
+                    "extra_attributes": {}
+                },
+                "hash": "ezhgvrofkdq4sg3oo6mfatzkib7gkvl4"
+            },
+            {
+                "name": "zlib",
+                "version": "1.2.11",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "xl",
+                    "version": "16.1"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "optimize": true,
+                    "pic": true,
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [
+                        "-qzerosize"
+                    ],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "quasq73tmp3kiadcuq7f274ahmaybxdw"
+            }
+        ]
+    }
+}

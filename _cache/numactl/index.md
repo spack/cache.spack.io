@@ -1,0 +1,66 @@
+---
+title: "numactl"
+layout: cache
+category: package
+meta: {"versions": ["2.0.11", "2.0.12", "2.0.14"], "compilers": ["gcc@8.3.1", "gcc@8.4.0", "gcc@9.3.0", "gcc@8.1.0", "gcc@7.5.0", "intel@19.1.3.304", "gcc@7.3.1", "gcc@8.4.1", "gcc@6.4.0", "xl@16.1", "gcc@7.3.0", "gcc@10.3.0", "gcc@7.4.0"]}
+spec_files: 
+ - "numactl@2.0.14%gcc@9.3.0 patches=4e1d78c,62fc8a8 arch=linux-ubuntu20.04-x86_64": spec-0.json
+ - "numactl@2.0.14%gcc@8.3.1 patches=4e1d78c,62fc8a8 arch=linux-rhel8-ppc64le": spec-1.json
+ - "numactl@2.0.14%gcc@8.1.0 patches=4e1d78c arch=linux-rhel7-x86_64": spec-2.json
+ - "numactl@2.0.14%gcc@9.3.0 patches=4e1d78c,62fc8a8 arch=linux-rhel7-ppc64le": spec-3.json
+ - "numactl@2.0.14%gcc@9.3.0 patches=4e1d78c arch=linux-ubuntu20.04-x86_64": spec-4.json
+ - "numactl@2.0.14%gcc@8.4.1 patches=4e1d78c,62fc8a8 arch=linux-rhel8-ppc64le": spec-5.json
+ - "numactl@2.0.14%gcc@10.3.0 patches=4e1d78c,62fc8a8 arch=linux-ubuntu21.04-x86_64": spec-6.json
+ - "numactl@2.0.14%gcc@8.3.1 patches=4e1d78c,62fc8a8 arch=linux-rhel8-x86_64": spec-7.json
+ - "numactl@2.0.14%gcc@8.3.1 patches=4e1d78c arch=linux-rhel8-ppc64le": spec-8.json
+ - "numactl@2.0.14%gcc@7.5.0 patches=4e1d78c,62fc8a8 arch=linux-ubuntu18.04-ppc64le": spec-9.json
+ - "numactl@2.0.14%gcc@9.3.0 patches=4e1d78c,62fc8a8 arch=linux-rhel7-x86_64": spec-10.json
+ - "numactl@2.0.14%gcc@9.3.0 patches=4e1d78c,62fc8a8 arch=linux-ubuntu20.04-ppc64le": spec-11.json
+ - "numactl@2.0.12%gcc@7.3.0 arch=linux-rhel7-x86_64": spec-12.json
+ - "numactl@2.0.14%gcc@7.5.0 patches=4e1d78c arch=linux-ubuntu18.04-ppc64le": spec-13.json
+ - "numactl@2.0.14%gcc@8.3.1 patches=4e1d78c arch=linux-rhel8-x86_64": spec-14.json
+ - "numactl@2.0.14%gcc@8.1.0 patches=4e1d78c,62fc8a8 arch=linux-rhel7-x86_64": spec-15.json
+ - "numactl@2.0.14%gcc@7.5.0 patches=4e1d78c arch=linux-ubuntu18.04-x86_64": spec-16.json
+ - "numactl@2.0.14%gcc@7.5.0 patches=4e1d78c,62fc8a8 arch=linux-ubuntu18.04-x86_64": spec-17.json
+ - "numactl@2.0.14%gcc@8.1.0 patches=4e1d78c arch=linux-rhel7-ppc64le": spec-18.json
+ - "numactl@2.0.14%gcc@8.1.0 patches=4e1d78c,62fc8a8 arch=linux-rhel7-ppc64le": spec-19.json
+ - "numactl@2.0.12%gcc@7.3.0 arch=linux-centos7-x86_64": spec-20.json
+ - "numactl@2.0.12%gcc@8.1.0 arch=linux-rhel7-ppc64le": spec-21.json
+ - "numactl@2.0.12%gcc@7.3.0 arch=linux-centos8-x86_64": spec-22.json
+ - "numactl@2.0.12%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64": spec-23.json
+ - "numactl@2.0.12%gcc@8.1.0 arch=linux-rhel7-x86_64": spec-24.json
+ - "numactl@2.0.12%gcc@7.3.0 arch=linux-rhel7-ppc64le": spec-25.json
+ - "numactl@2.0.14%gcc@8.4.1 patches=4e1d78c,62fc8a8 arch=linux-rhel8-x86_64": spec-26.json
+ - "numactl@2.0.12%gcc@8.1.0 arch=linux-centos7-x86_64": spec-27.json
+ - "numactl@2.0.14%intel@19.1.3.304 patches=4e1d78c,62fc8a8 arch=cray-cnl7-haswell": spec-28.json
+ - "numactl@2.0.12%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64": spec-29.json
+ - "numactl@2.0.12%gcc@8.3.1 arch=linux-centos8-ppc64le": spec-30.json
+ - "numactl@2.0.12%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le": spec-31.json
+ - "numactl@2.0.12%gcc@8.3.1 arch=linux-rhel8-x86_64": spec-32.json
+ - "numactl@2.0.12%gcc@7.5.0 arch=linux-ubuntu18.04-aarch64": spec-33.json
+ - "numactl@2.0.14%gcc@10.3.0 patches=4e1d78c,62fc8a8 arch=linux-ubuntu21.04-ppc64le": spec-34.json
+ - "numactl@2.0.12%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64": spec-35.json
+ - "numactl@2.0.12%gcc@8.1.0 arch=linux-rhel7-x86_64": spec-36.json
+ - "numactl@2.0.12%gcc@8.3.1 arch=linux-rhel8-aarch64": spec-37.json
+ - "numactl@2.0.12%gcc@7.3.0 arch=linux-centos7-ppc64le": spec-38.json
+ - "numactl@2.0.12%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64": spec-39.json
+ - "numactl@2.0.12%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-40.json
+ - "numactl@2.0.14%gcc@9.3.0 patches=4e1d78c,62fc8a8 arch=cray-cnl7-haswell": spec-41.json
+ - "numactl@2.0.14%gcc@9.3.0 patches=4e1d78c arch=linux-ubuntu20.04-ppc64le": spec-42.json
+ - "numactl@2.0.12%gcc@6.4.0 arch=linux-rhel7-power9le": spec-43.json
+ - "numactl@2.0.12%gcc@7.3.0 arch=linux-rhel8-x86_64": spec-44.json
+ - "numactl@2.0.14%gcc@7.3.1 patches=4e1d78c,62fc8a8 arch=linux-amzn2-x86_64": spec-45.json
+ - "numactl@2.0.12%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64": spec-46.json
+ - "numactl@2.0.12%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le": spec-47.json
+ - "numactl@2.0.12%gcc@8.3.1 arch=linux-rhel8-ppc64le": spec-48.json
+ - "numactl@2.0.12%gcc@8.1.0 arch=linux-centos7-ppc64le": spec-49.json
+ - "numactl@2.0.12%gcc@8.1.0 arch=linux-rhel7-ppc64le": spec-50.json
+ - "numactl@2.0.12%gcc@8.4.0 arch=linux-rhel7-sandybridge": spec-51.json
+ - "numactl@2.0.12%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-52.json
+ - "numactl@2.0.12%gcc@6.4.0 arch=linux-rhel7-ppc64le": spec-53.json
+ - "numactl@2.0.12%gcc@8.1.0 arch=linux-rhel7-power8le": spec-54.json
+ - "numactl@2.0.12%gcc@7.5.0 arch=linux-ubuntu18.04-power8le": spec-55.json
+ - "numactl@2.0.12%gcc@8.3.1 arch=linux-centos8-x86_64": spec-56.json
+ - "numactl@2.0.11%xl@16.1 fflags="-qzerosize"  patches=592f30f arch=linux-rhel7-power9le": spec-57.json
+
+---

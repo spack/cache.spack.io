@@ -1,0 +1,85 @@
+---
+title: "pkgconf"
+layout: cache
+category: package
+meta: {"versions": ["1.7.3", "1.6.3", "1.7.4"], "compilers": ["gcc@8.3.1", "apple-clang@12.0.0", "gcc@9.3.0", "gcc@4.8.5", "gcc@8.1.0", "gcc@7.5.0", "intel@19.1.3.304", "gcc@7.3.1", "gcc@8.2.1", "gcc@8.4.1", "gcc@6.4.0", "xl@16.1", "gcc@7.3.0", "gcc@10.3.0", "gcc@7.4.0"]}
+spec_files: 
+ - "pkgconf@1.7.4%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-0.json
+ - "pkgconf@1.7.4%gcc@9.3.0 arch=linux-rhel7-x86_64": spec-1.json
+ - "pkgconf@1.7.4%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le": spec-2.json
+ - "pkgconf@1.7.4%gcc@9.3.0 arch=linux-rhel7-ppc64le": spec-3.json
+ - "pkgconf@1.7.4%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64": spec-4.json
+ - "pkgconf@1.7.4%gcc@8.4.1 arch=linux-rhel8-x86_64": spec-5.json
+ - "pkgconf@1.7.3%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-6.json
+ - "pkgconf@1.6.3%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64": spec-7.json
+ - "pkgconf@1.7.4%gcc@10.3.0 arch=linux-ubuntu21.04-ppc64le": spec-8.json
+ - "pkgconf@1.7.3%gcc@8.1.0 arch=linux-centos7-ppc64le": spec-9.json
+ - "pkgconf@1.7.4%gcc@10.3.0 arch=linux-ubuntu21.04-x86_64": spec-10.json
+ - "pkgconf@1.7.4%gcc@8.4.1 arch=linux-rhel8-ppc64le": spec-11.json
+ - "pkgconf@1.7.3%gcc@7.3.1 arch=linux-amzn2-skylake_avx512": spec-12.json
+ - "pkgconf@1.7.3%gcc@9.3.0 arch=cray-cnl7-haswell": spec-13.json
+ - "pkgconf@1.6.3%gcc@8.3.1 arch=linux-centos8-ppc64le": spec-14.json
+ - "pkgconf@1.7.4%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64": spec-15.json
+ - "pkgconf@1.7.4%apple-clang@12.0.0 arch=darwin-catalina-haswell": spec-16.json
+ - "pkgconf@1.7.3%gcc@4.8.5 arch=linux-centos7-x86_64": spec-17.json
+ - "pkgconf@1.7.3%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64": spec-18.json
+ - "pkgconf@1.7.3%gcc@9.3.0 arch=linux-rhel7-x86_64": spec-19.json
+ - "pkgconf@1.6.3%gcc@7.3.0 arch=linux-centos8-x86_64": spec-20.json
+ - "pkgconf@1.6.3%gcc@7.4.0 arch=linux-ubuntu18.04-ppc64le": spec-21.json
+ - "pkgconf@1.7.3%gcc@9.3.0 arch=linux-rhel7-ppc64le": spec-22.json
+ - "pkgconf@1.7.3%gcc@7.3.0 arch=linux-rhel8-x86_64": spec-23.json
+ - "pkgconf@1.6.3%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64": spec-24.json
+ - "pkgconf@1.7.3%xl@16.1 fflags="-qzerosize"  arch=linux-rhel7-power9le": spec-25.json
+ - "pkgconf@1.7.3%gcc@6.4.0 arch=linux-rhel7-ppc64le": spec-26.json
+ - "pkgconf@1.6.3%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le": spec-27.json
+ - "pkgconf@1.7.4%gcc@4.8.5 arch=linux-rhel7-ppc64le": spec-28.json
+ - "pkgconf@1.7.3%gcc@7.5.0 arch=linux-ubuntu18.04-aarch64": spec-29.json
+ - "pkgconf@1.7.3%gcc@6.4.0 arch=linux-rhel7-power9le": spec-30.json
+ - "pkgconf@1.7.3%gcc@7.3.0 arch=linux-rhel7-ppc64le": spec-31.json
+ - "pkgconf@1.6.3%gcc@7.4.0 arch=linux-ubuntu18.04-aarch64": spec-32.json
+ - "pkgconf@1.7.3%gcc@8.1.0 arch=linux-rhel7-ppc64le": spec-33.json
+ - "pkgconf@1.7.3%gcc@4.8.5 arch=linux-rhel7-x86_64": spec-34.json
+ - "pkgconf@1.7.3%gcc@8.3.1 arch=linux-centos8-x86_64": spec-35.json
+ - "pkgconf@1.7.3%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le": spec-36.json
+ - "pkgconf@1.7.3%gcc@7.4.0 arch=linux-rhel7-power9le": spec-37.json
+ - "pkgconf@1.7.3%gcc@4.8.5 arch=linux-rhel7-power8le": spec-38.json
+ - "pkgconf@1.7.3%gcc@8.1.0 arch=linux-rhel7-x86_64": spec-39.json
+ - "pkgconf@1.6.3%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-40.json
+ - "pkgconf@1.7.3%gcc@8.3.1 arch=linux-rhel8-aarch64": spec-41.json
+ - "pkgconf@1.7.4%gcc@8.3.1 arch=linux-rhel8-ppc64le": spec-42.json
+ - "pkgconf@1.6.3%gcc@8.3.1 arch=linux-rhel8-ppc64le": spec-43.json
+ - "pkgconf@1.6.3%gcc@7.3.0 arch=linux-rhel8-x86_64": spec-44.json
+ - "pkgconf@1.7.4%apple-clang@12.0.0 arch=darwin-catalina-x86_64": spec-45.json
+ - "pkgconf@1.6.3%gcc@4.8.5 arch=linux-rhel7-ppc64le": spec-46.json
+ - "pkgconf@1.6.3%gcc@7.3.0 arch=linux-centos7-x86_64": spec-47.json
+ - "pkgconf@1.7.3%gcc@7.3.0 arch=linux-rhel7-x86_64": spec-48.json
+ - "pkgconf@1.7.3%gcc@7.3.0 arch=linux-centos7-x86_64": spec-49.json
+ - "pkgconf@1.6.3%gcc@7.3.0 arch=linux-rhel7-ppc64le": spec-50.json
+ - "pkgconf@1.6.3%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le": spec-51.json
+ - "pkgconf@1.7.3%gcc@4.8.5 arch=linux-centos7-ppc64le": spec-52.json
+ - "pkgconf@1.7.3%gcc@7.5.0 arch=linux-ubuntu18.04-power8le": spec-53.json
+ - "pkgconf@1.7.3%gcc@8.1.0 arch=linux-rhel7-power8le": spec-54.json
+ - "pkgconf@1.7.3%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64": spec-55.json
+ - "pkgconf@1.7.3%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64": spec-56.json
+ - "pkgconf@1.6.3%gcc@7.3.0 arch=linux-centos7-ppc64le": spec-57.json
+ - "pkgconf@1.7.3%intel@19.1.3.304 arch=cray-cnl7-haswell": spec-58.json
+ - "pkgconf@1.7.3%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le": spec-59.json
+ - "pkgconf@1.6.3%gcc@7.3.0 arch=linux-rhel7-x86_64": spec-60.json
+ - "pkgconf@1.7.3%gcc@7.3.1 arch=linux-amzn2-x86_64": spec-61.json
+ - "pkgconf@1.7.3%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64": spec-62.json
+ - "pkgconf@1.7.4%gcc@4.8.5 arch=linux-rhel7-x86_64": spec-63.json
+ - "pkgconf@1.7.3%gcc@8.1.0 arch=linux-centos7-x86_64": spec-64.json
+ - "pkgconf@1.6.3%gcc@4.8.5 arch=linux-centos7-ppc64le": spec-65.json
+ - "pkgconf@1.7.3%gcc@8.3.1 arch=linux-rhel8-x86_64": spec-66.json
+ - "pkgconf@1.7.3%gcc@8.3.1 arch=linux-rhel8-ppc64le": spec-67.json
+ - "pkgconf@1.7.3%gcc@8.1.0 arch=linux-rhel7-ppc64le": spec-68.json
+ - "pkgconf@1.7.3%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-69.json
+ - "pkgconf@1.7.3%gcc@8.1.0 arch=linux-rhel7-x86_64": spec-70.json
+ - "pkgconf@1.7.3%gcc@8.3.1 arch=linux-centos8-ppc64le": spec-71.json
+ - "pkgconf@1.7.4%gcc@8.3.1 arch=linux-rhel8-x86_64": spec-72.json
+ - "pkgconf@1.6.3%gcc@8.2.1 arch=linux-centos8-x86_64": spec-73.json
+ - "pkgconf@1.7.3%gcc@4.8.5 arch=linux-rhel7-ppc64le": spec-74.json
+ - "pkgconf@1.7.3%gcc@7.3.0 arch=linux-centos8-x86_64": spec-75.json
+ - "pkgconf@1.6.3%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64": spec-76.json
+
+---

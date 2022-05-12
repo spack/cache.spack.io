@@ -1,0 +1,81 @@
+{
+    "spec": {
+        "_meta": {
+            "version": 2
+        },
+        "nodes": [
+            {
+                "name": "superlu",
+                "version": "5.2.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.1.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "pic": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "openblas",
+                        "hash": "shiks44tu7tnrydqh2f2s2p23dw375p4",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "b2gyxagn3rert3urtugiyeihztooutmx",
+                "full_hash": "i5b55fs26en7wnap7ktwziiln5riiw6q"
+            },
+            {
+                "name": "openblas",
+                "version": "0.3.10",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.1.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "bignuma": false,
+                    "consistent_fpcsr": false,
+                    "ilp64": false,
+                    "locking": true,
+                    "patches": [
+                        "865703b4f405543bbd583413fdeff2226dfda908be33639276c06e5aa7ae2cae"
+                    ],
+                    "pic": true,
+                    "shared": true,
+                    "threads": "openmp",
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "865703b4f405543bbd583413fdeff2226dfda908be33639276c06e5aa7ae2cae"
+                ],
+                "hash": "shiks44tu7tnrydqh2f2s2p23dw375p4",
+                "full_hash": "kv7yih7pwezyt3irtssrvhsabn6nvbe7"
+            }
+        ]
+    }
+}

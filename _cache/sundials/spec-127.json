@@ -1,0 +1,184 @@
+{
+    "spec": {
+        "_meta": {
+            "version": 2
+        },
+        "nodes": [
+            {
+                "name": "sundials",
+                "version": "5.7.0",
+                "arch": {
+                    "platform": "cray",
+                    "platform_os": "cnl7",
+                    "target": {
+                        "name": "haswell",
+                        "vendor": "GenuineIntel",
+                        "features": [
+                            "aes",
+                            "avx",
+                            "avx2",
+                            "bmi1",
+                            "bmi2",
+                            "f16c",
+                            "fma",
+                            "mmx",
+                            "movbe",
+                            "pclmulqdq",
+                            "popcnt",
+                            "rdrand",
+                            "sse",
+                            "sse2",
+                            "sse4_1",
+                            "sse4_2",
+                            "ssse3"
+                        ],
+                        "generation": 0,
+                        "parents": [
+                            "ivybridge",
+                            "x86_64_v3"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "intel",
+                    "version": "19.1.3.304"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "ARKODE": true,
+                    "CVODE": true,
+                    "CVODES": true,
+                    "IDA": true,
+                    "IDAS": true,
+                    "KINSOL": true,
+                    "amdgpu_target": [
+                        "none"
+                    ],
+                    "build_type": "RelWithDebInfo",
+                    "cuda": false,
+                    "cuda_arch": [
+                        "none"
+                    ],
+                    "examples": true,
+                    "examples-install": true,
+                    "f2003": false,
+                    "fcmix": false,
+                    "generic-math": true,
+                    "hypre": false,
+                    "int64": false,
+                    "ipo": false,
+                    "klu": false,
+                    "lapack": false,
+                    "monitoring": false,
+                    "mpi": true,
+                    "openmp": false,
+                    "patches": [
+                        "8b29a47fac55346cdadfa133c51aa9314ae8c53ffdff5a8ecdc3dcea3ac26403"
+                    ],
+                    "petsc": false,
+                    "precision": "double",
+                    "pthread": false,
+                    "raja": false,
+                    "rocm": false,
+                    "shared": true,
+                    "static": true,
+                    "superlu-dist": false,
+                    "superlu-mt": false,
+                    "trilinos": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "8b29a47fac55346cdadfa133c51aa9314ae8c53ffdff5a8ecdc3dcea3ac26403"
+                ],
+                "dependencies": [
+                    {
+                        "name": "mpich",
+                        "hash": "cpwp3jrnpc3ra2czqek2togobqb3hbrj",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "utolp4ndon24kncbvsqnvhja2umksdp7",
+                "full_hash": "yehr3vcog5knyxzea3mq4pkcrvznnfza"
+            },
+            {
+                "name": "mpich",
+                "version": "3.1",
+                "arch": {
+                    "platform": "cray",
+                    "platform_os": "cnl7",
+                    "target": {
+                        "name": "haswell",
+                        "vendor": "GenuineIntel",
+                        "features": [
+                            "aes",
+                            "avx",
+                            "avx2",
+                            "bmi1",
+                            "bmi2",
+                            "f16c",
+                            "fma",
+                            "mmx",
+                            "movbe",
+                            "pclmulqdq",
+                            "popcnt",
+                            "rdrand",
+                            "sse",
+                            "sse2",
+                            "sse4_1",
+                            "sse4_2",
+                            "ssse3"
+                        ],
+                        "generation": 0,
+                        "parents": [
+                            "ivybridge",
+                            "x86_64_v3"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "intel",
+                    "version": "19.1.3.304"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "argobots": false,
+                    "device": "ch4",
+                    "fortran": true,
+                    "hwloc": true,
+                    "hydra": true,
+                    "libxml2": true,
+                    "netmod": "ofi",
+                    "pci": true,
+                    "pmi": "pmi",
+                    "romio": true,
+                    "slurm": false,
+                    "verbs": false,
+                    "wrapperrpath": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "external": {
+                    "path": "/opt/cray/pe/mpt/7.7.10/gni/mpich-intel/16.0",
+                    "module": [
+                        "cray-mpich/7.7.10"
+                    ],
+                    "extra_attributes": {}
+                },
+                "hash": "cpwp3jrnpc3ra2czqek2togobqb3hbrj",
+                "full_hash": "drllw5zqo52k6zb5tuvrjqp32qdbo4nm"
+            }
+        ]
+    }
+}

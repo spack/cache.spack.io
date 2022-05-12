@@ -1,0 +1,259 @@
+{
+    "spec": {
+        "_meta": {
+            "version": 2
+        },
+        "nodes": [
+            {
+                "name": "rust",
+                "version": "1.51.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel8",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.3.1"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "analysis": true,
+                    "clippy": true,
+                    "extra_targets": [
+                        "none"
+                    ],
+                    "rls": false,
+                    "rustfmt": true,
+                    "src": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "libgit2",
+                        "hash": "7ie46iw25nzdayrqw677v2jj6wx2op2m",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "libssh2",
+                        "hash": "mmmkm7dkjibux2jxxbkdniylv6nnfgsu",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "openssl",
+                        "hash": "hey4lyw73kzqdjtpyt5uotiz7rxvziel",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "z5tiljrxsse5pfxzxv4elp2upexxi3em",
+                "full_hash": "qkuiigvmx4bavtc4xixiy5vkhuozirhf"
+            },
+            {
+                "name": "libgit2",
+                "version": "1.1.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel8",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.3.1"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "build_type": "RelWithDebInfo",
+                    "curl": false,
+                    "https": "system",
+                    "ipo": false,
+                    "ssh": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "libssh2",
+                        "hash": "mmmkm7dkjibux2jxxbkdniylv6nnfgsu",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "openssl",
+                        "hash": "hey4lyw73kzqdjtpyt5uotiz7rxvziel",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "7ie46iw25nzdayrqw677v2jj6wx2op2m",
+                "full_hash": "dsm4jgor4hwkwjxjjhke4sryly2g3onm"
+            },
+            {
+                "name": "libssh2",
+                "version": "1.8.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel8",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.3.1"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "build_type": "RelWithDebInfo",
+                    "ipo": false,
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "openssl",
+                        "hash": "hey4lyw73kzqdjtpyt5uotiz7rxvziel",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "xz",
+                        "hash": "ay6ciwfk3bcbnnsfb5djp7xywggmn7qd",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "hash": "xqjeqtupcfqqqlaw5ehjlfjjly7zoe3b",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "mmmkm7dkjibux2jxxbkdniylv6nnfgsu",
+                "full_hash": "7gjfz2hmlgsprrqtl7kzv7qrqht4kcyr"
+            },
+            {
+                "name": "openssl",
+                "version": "1.1.1k",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel8",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.3.1"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "docs": false,
+                    "systemcerts": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "zlib",
+                        "hash": "xqjeqtupcfqqqlaw5ehjlfjjly7zoe3b",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "hey4lyw73kzqdjtpyt5uotiz7rxvziel",
+                "full_hash": "sp2iaf2sqtvvl4cpzuguzozbpoxdzcj3"
+            },
+            {
+                "name": "zlib",
+                "version": "1.2.11",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel8",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.3.1"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "optimize": true,
+                    "pic": true,
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "xqjeqtupcfqqqlaw5ehjlfjjly7zoe3b",
+                "full_hash": "f4esb3s47i7gpuhyz46vkv5mtf5we6eq"
+            },
+            {
+                "name": "xz",
+                "version": "5.2.5",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel8",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.3.1"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "libs": [
+                        "shared",
+                        "static"
+                    ],
+                    "pic": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "ay6ciwfk3bcbnnsfb5djp7xywggmn7qd",
+                "full_hash": "upfyzijmv3djxq7svm45ytdihcux6tw4"
+            }
+        ]
+    }
+}

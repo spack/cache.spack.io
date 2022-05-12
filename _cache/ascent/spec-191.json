@@ -1,0 +1,536 @@
+{
+    "spec": {
+        "_meta": {
+            "version": 2
+        },
+        "nodes": [
+            {
+                "name": "ascent",
+                "version": "develop",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.1.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "adios": false,
+                    "babelflow": false,
+                    "cuda": false,
+                    "cuda_arch": [
+                        "none"
+                    ],
+                    "doc": false,
+                    "dray": false,
+                    "fortran": true,
+                    "mfem": false,
+                    "mpi": true,
+                    "openmp": true,
+                    "python": false,
+                    "serial": true,
+                    "shared": true,
+                    "test": true,
+                    "vtkh": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "conduit",
+                        "hash": "ivi556f6s37ntrvd7n2sywgdnhc5wzjc",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "mpich",
+                        "hash": "277zzywcpezuzj56omhcf7i66mfxwasp",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "vtk-h",
+                        "hash": "m5u4j55r7rf245jgjqtb5jcsk7kfceoh",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "5scrsgs42t6dpu5bxpiowtp43axrgjps",
+                "full_hash": "brajqrbi35qvsy7x7qytihtlxzn5w3p6"
+            },
+            {
+                "name": "conduit",
+                "version": "master",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.1.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "adios": false,
+                    "doc": false,
+                    "doxygen": false,
+                    "fortran": true,
+                    "hdf5": true,
+                    "hdf5_compat": true,
+                    "mpi": true,
+                    "python": false,
+                    "shared": true,
+                    "silo": false,
+                    "test": true,
+                    "zfp": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "hdf5",
+                        "hash": "3uqhci3mfpysybqubixahf3ohkhous67",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "mpich",
+                        "hash": "277zzywcpezuzj56omhcf7i66mfxwasp",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "ivi556f6s37ntrvd7n2sywgdnhc5wzjc",
+                "full_hash": "lkeaayoplkzu3pix54osnbr64vsc3lui"
+            },
+            {
+                "name": "hdf5",
+                "version": "1.8.21",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.1.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "api": "none",
+                    "cxx": false,
+                    "debug": false,
+                    "fortran": true,
+                    "hl": false,
+                    "java": false,
+                    "mpi": true,
+                    "patches": [
+                        "b61e2f058964ad85be6ee5ecea10080bf79e73f83ff88d1fa4b602d00209da9c"
+                    ],
+                    "pic": true,
+                    "shared": true,
+                    "szip": false,
+                    "threadsafe": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "b61e2f058964ad85be6ee5ecea10080bf79e73f83ff88d1fa4b602d00209da9c"
+                ],
+                "dependencies": [
+                    {
+                        "name": "mpich",
+                        "hash": "277zzywcpezuzj56omhcf7i66mfxwasp",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "numactl",
+                        "hash": "mfv45xmhuizrm326vccnm5guihvyqlws",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "hash": "kzcdykxiwmefakdug4fnprjxe4s4g6mj",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "3uqhci3mfpysybqubixahf3ohkhous67",
+                "full_hash": "s5y53enjjmmduobkrpvw2ldieq4zsqfi"
+            },
+            {
+                "name": "mpich",
+                "version": "3.2.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.1.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "argobots": false,
+                    "device": "ch3",
+                    "fortran": true,
+                    "hwloc": true,
+                    "hydra": true,
+                    "libxml2": true,
+                    "netmod": "tcp",
+                    "pci": true,
+                    "pmi": "pmi",
+                    "romio": true,
+                    "slurm": false,
+                    "verbs": false,
+                    "wrapperrpath": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "libpciaccess",
+                        "hash": "kaz4a23jgrn4ydx6juoqzt5e2od6sslc",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "libxml2",
+                        "hash": "bwtllv42bxyc3ayax5u5chwu2sijboxy",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "277zzywcpezuzj56omhcf7i66mfxwasp"
+            },
+            {
+                "name": "libpciaccess",
+                "version": "0.16",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.1.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "kaz4a23jgrn4ydx6juoqzt5e2od6sslc",
+                "full_hash": "fgy42fnhboaartxlzq2l4uql7sbl2ecp"
+            },
+            {
+                "name": "libxml2",
+                "version": "2.9.10",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.1.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "python": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "libiconv",
+                        "hash": "5ljpodi6ztrtlldjj4o7d7getflz2xms",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "xz",
+                        "hash": "r4lmrnxdydo6x3s66j3ley6wtffk2k63",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "hash": "kzcdykxiwmefakdug4fnprjxe4s4g6mj",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "bwtllv42bxyc3ayax5u5chwu2sijboxy",
+                "full_hash": "jtoq6564enstlck4xgdemwimkghaava4"
+            },
+            {
+                "name": "libiconv",
+                "version": "1.16",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.1.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "5ljpodi6ztrtlldjj4o7d7getflz2xms"
+            },
+            {
+                "name": "xz",
+                "version": "5.2.5",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.1.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "pic": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "r4lmrnxdydo6x3s66j3ley6wtffk2k63",
+                "full_hash": "po4y5slu5cxia7dpg5wpqajrxpg5ykn4"
+            },
+            {
+                "name": "zlib",
+                "version": "1.2.11",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.1.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "optimize": true,
+                    "pic": true,
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "kzcdykxiwmefakdug4fnprjxe4s4g6mj"
+            },
+            {
+                "name": "numactl",
+                "version": "2.0.14",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.1.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "patches": [
+                        "4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94"
+                    ],
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94"
+                ],
+                "hash": "mfv45xmhuizrm326vccnm5guihvyqlws",
+                "full_hash": "yryhszaubqn5zunhuejzmm3ix6ai4tct"
+            },
+            {
+                "name": "vtk-h",
+                "version": "0.6.2",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.1.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "contourtree": false,
+                    "cuda": false,
+                    "cuda_arch": [
+                        "none"
+                    ],
+                    "logging": false,
+                    "mpi": true,
+                    "openmp": true,
+                    "serial": true,
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "mpich",
+                        "hash": "277zzywcpezuzj56omhcf7i66mfxwasp",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "vtk-m",
+                        "hash": "rsusqrmpic57hciulluw5modhg7mbh2m",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "m5u4j55r7rf245jgjqtb5jcsk7kfceoh"
+            },
+            {
+                "name": "vtk-m",
+                "version": "ascent_ver",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.1.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "64bitids": false,
+                    "build_type": "Release",
+                    "cuda": false,
+                    "cuda_arch": [
+                        "none"
+                    ],
+                    "doubleprecision": true,
+                    "ipo": false,
+                    "logging": false,
+                    "mpi": true,
+                    "openmp": true,
+                    "patches": [
+                        "d0d40fc18b80683d31174f9f8cb479e860f7a9a191bee4a61bef31f6a415ac6f",
+                        "f903bf98ac66ce26c8383bc7cdb2623651f9d172ebcf296e3b4361188e0e5975"
+                    ],
+                    "rendering": true,
+                    "shared": false,
+                    "tbb": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "f903bf98ac66ce26c8383bc7cdb2623651f9d172ebcf296e3b4361188e0e5975",
+                    "d0d40fc18b80683d31174f9f8cb479e860f7a9a191bee4a61bef31f6a415ac6f"
+                ],
+                "dependencies": [
+                    {
+                        "name": "mpich",
+                        "hash": "277zzywcpezuzj56omhcf7i66mfxwasp",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "rsusqrmpic57hciulluw5modhg7mbh2m"
+            }
+        ]
+    }
+}

@@ -1,0 +1,77 @@
+---
+title: "pcre"
+layout: cache
+category: package
+meta: {"versions": ["8.43", "8.42", "8.44"], "compilers": ["gcc@8.3.1", "gcc@9.3.0", "gcc@8.1.0", "gcc@7.5.0", "intel@19.1.3.304", "gcc@7.3.1", "gcc@8.4.1", "gcc@7.3.0", "gcc@10.3.0", "gcc@7.4.0"]}
+spec_files: 
+ - "pcre@8.44%gcc@7.5.0~jit+multibyte+utf arch=linux-ubuntu18.04-x86_64": spec-0.json
+ - "pcre@8.44%gcc@8.3.1~jit+multibyte+utf arch=linux-rhel8-x86_64": spec-1.json
+ - "pcre@8.44%gcc@9.3.0~jit+multibyte+utf arch=linux-ubuntu20.04-x86_64": spec-2.json
+ - "pcre@8.44%gcc@8.1.0~jit+multibyte+utf arch=linux-rhel7-x86_64": spec-3.json
+ - "pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-rhel7-x86_64": spec-4.json
+ - "pcre@8.44%gcc@9.3.0~jit+multibyte+utf arch=linux-ubuntu20.04-ppc64le": spec-5.json
+ - "pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-centos7-x86_64": spec-6.json
+ - "pcre@8.44%gcc@9.3.0~jit+multibyte+utf arch=cray-cnl7-haswell": spec-7.json
+ - "pcre@8.44%gcc@8.3.1~jit+multibyte+utf arch=linux-rhel8-ppc64le": spec-8.json
+ - "pcre@8.44%gcc@8.4.1~jit+multibyte+utf arch=linux-rhel8-x86_64": spec-9.json
+ - "pcre@8.44%gcc@7.5.0~jit+multibyte+utf arch=linux-ubuntu18.04-ppc64le": spec-10.json
+ - "pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-ubuntu18.04-x86_64": spec-11.json
+ - "pcre@8.44%gcc@8.1.0~jit+multibyte+utf arch=linux-centos7-x86_64": spec-12.json
+ - "pcre@8.44%gcc@9.3.0~jit+multibyte+utf arch=linux-rhel7-ppc64le": spec-13.json
+ - "pcre@8.44%gcc@7.3.1~jit+multibyte+utf arch=linux-amzn2-x86_64": spec-14.json
+ - "pcre@8.44%gcc@9.3.0~jit+multibyte+utf arch=linux-rhel7-x86_64": spec-15.json
+ - "pcre@8.44%gcc@8.1.0~jit+multibyte+utf arch=linux-rhel7-ppc64le": spec-16.json
+ - "pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-centos8-x86_64": spec-17.json
+ - "pcre@8.44%gcc@8.4.1~jit+multibyte+utf arch=linux-rhel8-ppc64le": spec-18.json
+ - "pcre@8.43%gcc@7.3.0~jit+multibyte+utf arch=linux-centos7-x86_64": spec-19.json
+ - "pcre@8.44%gcc@8.3.1~jit+multibyte+utf arch=linux-rhel8-aarch64": spec-20.json
+ - "pcre@8.44%gcc@10.3.0~jit+multibyte+utf arch=linux-ubuntu21.04-ppc64le": spec-21.json
+ - "pcre@8.44%gcc@8.3.1~jit+multibyte+utf arch=linux-centos8-x86_64": spec-22.json
+ - "pcre@8.42%gcc@7.3.0+jit+multibyte+utf arch=linux-ubuntu18.04-ppc64le": spec-23.json
+ - "pcre@8.42%gcc@7.3.0~jit+multibyte+utf arch=linux-centos7-x86_64": spec-24.json
+ - "pcre@8.43%gcc@7.3.0~jit+multibyte+utf arch=linux-ubuntu18.04-x86_64": spec-25.json
+ - "pcre@8.44%gcc@7.5.0~jit+multibyte+utf arch=linux-ubuntu18.04-ppc64le": spec-26.json
+ - "pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-rhel8-x86_64": spec-27.json
+ - "pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-ubuntu18.04-ppc64le": spec-28.json
+ - "pcre@8.44%gcc@8.1.0~jit+multibyte+utf arch=linux-rhel7-x86_64": spec-29.json
+ - "pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-rhel7-x86_64": spec-30.json
+ - "pcre@8.44%gcc@8.3.1~jit+multibyte+utf arch=linux-centos8-ppc64le": spec-31.json
+ - "pcre@8.43%gcc@8.3.1+jit+multibyte+utf arch=linux-rhel8-ppc64le": spec-32.json
+ - "pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-ubuntu18.04-ppc64le": spec-33.json
+ - "pcre@8.44%gcc@8.1.0~jit+multibyte+utf arch=linux-rhel7-ppc64le": spec-34.json
+ - "pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-rhel7-ppc64le": spec-35.json
+ - "pcre@8.42%gcc@7.3.0+jit+multibyte+utf arch=linux-centos8-x86_64": spec-36.json
+ - "pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-centos8-x86_64": spec-37.json
+ - "pcre@8.44%gcc@7.5.0~jit+multibyte+utf arch=linux-ubuntu18.04-aarch64": spec-38.json
+ - "pcre@8.44%gcc@7.3.0~jit+multibyte+utf arch=linux-rhel8-x86_64": spec-39.json
+ - "pcre@8.44%gcc@8.1.0~jit+multibyte+utf arch=linux-centos7-ppc64le": spec-40.json
+ - "pcre@8.42%gcc@7.3.0+jit+multibyte+utf arch=linux-ubuntu18.04-x86_64": spec-41.json
+ - "pcre@8.44%gcc@10.3.0~jit+multibyte+utf arch=linux-ubuntu21.04-x86_64": spec-42.json
+ - "pcre@8.43%gcc@8.3.1+jit+multibyte+utf arch=linux-centos8-ppc64le": spec-43.json
+ - "pcre@8.42%gcc@7.3.0+jit+multibyte+utf arch=linux-rhel8-x86_64": spec-44.json
+ - "pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-rhel7-ppc64le": spec-45.json
+ - "pcre@8.43%gcc@7.4.0+jit+multibyte+utf arch=linux-ubuntu18.04-x86_64": spec-46.json
+ - "pcre@8.43%gcc@7.3.0~jit+multibyte+utf arch=linux-rhel7-x86_64": spec-47.json
+ - "pcre@8.42%gcc@7.3.0~jit+multibyte+utf arch=linux-centos8-x86_64": spec-48.json
+ - "pcre@8.44%gcc@7.5.0~jit+multibyte+utf arch=linux-ubuntu18.04-power8le": spec-49.json
+ - "pcre@8.43%gcc@7.3.0~jit+multibyte+utf arch=linux-centos8-x86_64": spec-50.json
+ - "pcre@8.43%gcc@7.3.0~jit+multibyte+utf arch=linux-rhel8-x86_64": spec-51.json
+ - "pcre@8.44%gcc@8.1.0~jit+multibyte+utf arch=linux-rhel7-power8le": spec-52.json
+ - "pcre@8.42%gcc@7.3.0+jit+multibyte+utf arch=linux-rhel7-ppc64le": spec-53.json
+ - "pcre@8.42%gcc@7.3.0+jit+multibyte+utf arch=linux-centos7-x86_64": spec-54.json
+ - "pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-ubuntu18.04-x86_64": spec-55.json
+ - "pcre@8.42%gcc@7.3.0~jit+multibyte+utf arch=linux-ubuntu18.04-ppc64le": spec-56.json
+ - "pcre@8.44%intel@19.1.3.304~jit+multibyte+utf arch=cray-cnl7-haswell": spec-57.json
+ - "pcre@8.42%gcc@7.3.0~jit+multibyte+utf arch=linux-centos7-ppc64le": spec-58.json
+ - "pcre@8.42%gcc@7.3.0~jit+multibyte+utf arch=linux-rhel8-x86_64": spec-59.json
+ - "pcre@8.42%gcc@7.4.0+jit+multibyte+utf arch=linux-ubuntu18.04-x86_64": spec-60.json
+ - "pcre@8.42%gcc@7.3.0+jit+multibyte+utf arch=linux-rhel7-x86_64": spec-61.json
+ - "pcre@8.44%gcc@7.5.0~jit+multibyte+utf arch=linux-ubuntu18.04-x86_64": spec-62.json
+ - "pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-centos7-ppc64le": spec-63.json
+ - "pcre@8.42%gcc@7.3.0+jit+multibyte+utf arch=linux-centos7-ppc64le": spec-64.json
+ - "pcre@8.42%gcc@7.3.0~jit+multibyte+utf arch=linux-rhel7-ppc64le": spec-65.json
+ - "pcre@8.43%gcc@7.3.0+jit+multibyte+utf arch=linux-centos7-x86_64": spec-66.json
+ - "pcre@8.42%gcc@7.3.0~jit+multibyte+utf arch=linux-rhel7-x86_64": spec-67.json
+ - "pcre@8.42%gcc@7.3.0~jit+multibyte+utf arch=linux-ubuntu18.04-x86_64": spec-68.json
+
+---

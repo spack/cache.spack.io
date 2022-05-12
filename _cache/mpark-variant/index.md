@@ -1,0 +1,76 @@
+---
+title: "mpark-variant"
+layout: cache
+category: package
+meta: {"versions": ["1.4.0"], "compilers": ["gcc@8.3.1", "gcc@9.3.0", "gcc@8.1.0", "gcc@7.5.0", "intel@19.1.3.304", "gcc@8.4.1", "gcc@7.3.0", "gcc@10.3.0"]}
+spec_files: 
+ - "mpark-variant@1.4.0%gcc@7.5.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-ubuntu18.04-ppc64le": spec-0.json
+ - "mpark-variant@1.4.0%gcc@7.5.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe,b3501f7 arch=linux-ubuntu18.04-ppc64le": spec-1.json
+ - "mpark-variant@1.4.0%gcc@8.3.1~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe,b3501f7 arch=linux-rhel8-x86_64": spec-2.json
+ - "mpark-variant@1.4.0%gcc@7.5.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe,b3501f7 arch=linux-ubuntu18.04-x86_64": spec-3.json
+ - "mpark-variant@1.4.0%gcc@7.3.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-centos8-x86_64": spec-4.json
+ - "mpark-variant@1.4.0%gcc@9.3.0~ipo build_type=RelWithDebInfo patches=21a4f8d arch=linux-ubuntu20.04-x86_64": spec-5.json
+ - "mpark-variant@1.4.0%gcc@9.3.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe,b3501f7 arch=linux-ubuntu20.04-x86_64": spec-6.json
+ - "mpark-variant@1.4.0%gcc@7.5.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-ubuntu18.04-x86_64": spec-7.json
+ - "mpark-variant@1.4.0%gcc@7.5.0~ipo build_type=RelWithDebInfo patches=21a4f8d arch=linux-ubuntu18.04-ppc64le": spec-8.json
+ - "mpark-variant@1.4.0%gcc@8.4.1~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe,b3501f7 arch=linux-rhel8-x86_64": spec-9.json
+ - "mpark-variant@1.4.0%gcc@7.3.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-ubuntu18.04-x86_64": spec-10.json
+ - "mpark-variant@1.4.0%gcc@9.3.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe,b3501f7 arch=linux-rhel7-x86_64": spec-11.json
+ - "mpark-variant@1.4.0%gcc@8.3.1~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe,b3501f7 arch=linux-rhel8-ppc64le": spec-12.json
+ - "mpark-variant@1.4.0%gcc@9.3.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe,b3501f7 arch=linux-rhel7-ppc64le": spec-13.json
+ - "mpark-variant@1.4.0%gcc@8.3.1 build_type=RelWithDebInfo patches=21a4f8d arch=linux-rhel8-x86_64": spec-14.json
+ - "mpark-variant@1.4.0%gcc@10.3.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe,b3501f7 arch=linux-ubuntu21.04-x86_64": spec-15.json
+ - "mpark-variant@1.4.0%gcc@9.3.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-ubuntu20.04-x86_64": spec-16.json
+ - "mpark-variant@1.4.0%gcc@7.3.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-centos7-x86_64": spec-17.json
+ - "mpark-variant@1.4.0%gcc@8.1.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-centos7-ppc64le": spec-18.json
+ - "mpark-variant@1.4.0%gcc@9.3.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe,b3501f7 arch=linux-ubuntu20.04-ppc64le": spec-19.json
+ - "mpark-variant@1.4.0%gcc@10.3.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe,b3501f7 arch=linux-ubuntu21.04-ppc64le": spec-20.json
+ - "mpark-variant@1.4.0%gcc@8.1.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-rhel7-x86_64": spec-21.json
+ - "mpark-variant@1.4.0%gcc@8.1.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe,b3501f7 arch=linux-rhel7-x86_64": spec-22.json
+ - "mpark-variant@1.4.0%gcc@8.1.0~ipo build_type=RelWithDebInfo patches=21a4f8d arch=linux-rhel7-x86_64": spec-23.json
+ - "mpark-variant@1.4.0%gcc@8.3.1~ipo build_type=RelWithDebInfo patches=21a4f8d arch=linux-rhel8-ppc64le": spec-24.json
+ - "mpark-variant@1.4.0%gcc@8.1.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-centos7-x86_64": spec-25.json
+ - "mpark-variant@1.4.0%gcc@8.4.1~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe,b3501f7 arch=linux-rhel8-ppc64le": spec-26.json
+ - "mpark-variant@1.4.0%gcc@7.3.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-ubuntu18.04-ppc64le": spec-27.json
+ - "mpark-variant@1.4.0%gcc@8.3.1~ipo build_type=RelWithDebInfo patches=21a4f8d arch=linux-rhel8-x86_64": spec-28.json
+ - "mpark-variant@1.4.0%gcc@8.3.1 build_type=RelWithDebInfo patches=21a4f8d arch=linux-rhel8-ppc64le": spec-29.json
+ - "mpark-variant@1.4.0%gcc@7.3.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-rhel7-ppc64le": spec-30.json
+ - "mpark-variant@1.4.0%gcc@7.5.0~ipo build_type=RelWithDebInfo patches=21a4f8d arch=linux-ubuntu18.04-x86_64": spec-31.json
+ - "mpark-variant@1.4.0%gcc@7.3.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-rhel8-x86_64": spec-32.json
+ - "mpark-variant@1.4.0%gcc@9.3.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-ubuntu20.04-ppc64le": spec-33.json
+ - "mpark-variant@1.4.0%gcc@7.5.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-ubuntu18.04-x86_64": spec-34.json
+ - "mpark-variant@1.4.0%gcc@8.1.0~ipo build_type=RelWithDebInfo patches=21a4f8d arch=linux-rhel7-ppc64le": spec-35.json
+ - "mpark-variant@1.4.0%gcc@7.3.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-centos7-ppc64le": spec-36.json
+ - "mpark-variant@1.4.0%gcc@9.3.0~ipo build_type=RelWithDebInfo patches=21a4f8d arch=linux-ubuntu20.04-ppc64le": spec-37.json
+ - "mpark-variant@1.4.0%gcc@7.5.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-ubuntu18.04-power8le": spec-38.json
+ - "mpark-variant@1.4.0%gcc@8.3.1~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe arch=linux-rhel8-x86_64": spec-39.json
+ - "mpark-variant@1.4.0%gcc@9.3.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe,b3501f7 arch=cray-cnl7-haswell": spec-40.json
+ - "mpark-variant@1.4.0%gcc@8.1.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-rhel7-ppc64le": spec-41.json
+ - "mpark-variant@1.4.0%gcc@7.3.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-rhel7-x86_64": spec-42.json
+ - "mpark-variant@1.4.0%intel@19.1.3.304~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe,b3501f7 arch=cray-cnl7-haswell": spec-43.json
+ - "mpark-variant@1.4.0%gcc@8.3.1 build_type=RelWithDebInfo patches=21a4f8d arch=linux-rhel8-aarch64": spec-44.json
+ - "mpark-variant@1.4.0%gcc@8.3.1 build_type=RelWithDebInfo patches=21a4f8d arch=linux-centos8-x86_64": spec-45.json
+ - "mpark-variant@1.4.0%gcc@8.1.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-rhel7-ppc64le": spec-46.json
+ - "mpark-variant@1.4.0%gcc@8.3.1 build_type=RelWithDebInfo patches=21a4f8d arch=linux-centos8-ppc64le": spec-47.json
+ - "mpark-variant@1.4.0%gcc@9.3.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe arch=linux-ubuntu20.04-ppc64le": spec-48.json
+ - "mpark-variant@1.4.0%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-ubuntu18.04-x86_64": spec-49.json
+ - "mpark-variant@1.4.0%gcc@9.3.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe arch=linux-ubuntu20.04-x86_64": spec-50.json
+ - "mpark-variant@1.4.0%gcc@8.1.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-rhel7-x86_64": spec-51.json
+ - "mpark-variant@1.4.0%gcc@7.5.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-ubuntu18.04-ppc64le": spec-52.json
+ - "mpark-variant@1.4.0%gcc@7.5.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe arch=linux-ubuntu18.04-ppc64le": spec-53.json
+ - "mpark-variant@1.4.0%gcc@8.1.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe,b3501f7 arch=linux-rhel7-ppc64le": spec-54.json
+ - "mpark-variant@1.4.0%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-centos7-ppc64le": spec-55.json
+ - "mpark-variant@1.4.0%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-rhel7-ppc64le": spec-56.json
+ - "mpark-variant@1.4.0%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-centos8-x86_64": spec-57.json
+ - "mpark-variant@1.4.0%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-rhel8-x86_64": spec-58.json
+ - "mpark-variant@1.4.0%gcc@8.1.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe arch=linux-rhel7-x86_64": spec-59.json
+ - "mpark-variant@1.4.0%gcc@7.5.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-ubuntu18.04-aarch64": spec-60.json
+ - "mpark-variant@1.4.0%gcc@8.3.1~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe arch=linux-rhel8-ppc64le": spec-61.json
+ - "mpark-variant@1.4.0%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-rhel7-x86_64": spec-62.json
+ - "mpark-variant@1.4.0%gcc@7.5.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe arch=linux-ubuntu18.04-x86_64": spec-63.json
+ - "mpark-variant@1.4.0%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-ubuntu18.04-ppc64le": spec-64.json
+ - "mpark-variant@1.4.0%gcc@8.1.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe arch=linux-rhel7-ppc64le": spec-65.json
+ - "mpark-variant@1.4.0%gcc@7.3.0 build_type=RelWithDebInfo arch=linux-centos7-x86_64": spec-66.json
+ - "mpark-variant@1.4.0%gcc@8.1.0 build_type=RelWithDebInfo patches=21a4f8d arch=linux-rhel7-power8le": spec-67.json
+
+---

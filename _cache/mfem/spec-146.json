@@ -1,0 +1,469 @@
+{
+    "spec": {
+        "_meta": {
+            "version": 2
+        },
+        "nodes": [
+            {
+                "name": "mfem",
+                "version": "4.2.0",
+                "arch": {
+                    "platform": "cray",
+                    "platform_os": "cnl7",
+                    "target": {
+                        "name": "haswell",
+                        "vendor": "GenuineIntel",
+                        "features": [
+                            "aes",
+                            "avx",
+                            "avx2",
+                            "bmi1",
+                            "bmi2",
+                            "f16c",
+                            "fma",
+                            "mmx",
+                            "movbe",
+                            "pclmulqdq",
+                            "popcnt",
+                            "rdrand",
+                            "sse",
+                            "sse2",
+                            "sse4_1",
+                            "sse4_2",
+                            "ssse3"
+                        ],
+                        "generation": 0,
+                        "parents": [
+                            "ivybridge",
+                            "x86_64_v3"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "intel",
+                    "version": "19.1.3.304"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "amgx": false,
+                    "conduit": false,
+                    "cuda": false,
+                    "cuda_arch": "sm_60",
+                    "debug": false,
+                    "examples": false,
+                    "gnutls": false,
+                    "gslib": false,
+                    "lapack": false,
+                    "libceed": false,
+                    "libunwind": false,
+                    "metis": true,
+                    "miniapps": false,
+                    "mpfr": false,
+                    "mpi": true,
+                    "netcdf": false,
+                    "occa": false,
+                    "openmp": false,
+                    "petsc": false,
+                    "pumi": false,
+                    "raja": false,
+                    "shared": false,
+                    "static": true,
+                    "strumpack": false,
+                    "suite-sparse": false,
+                    "sundials": false,
+                    "superlu-dist": false,
+                    "threadsafe": false,
+                    "timer": "auto",
+                    "umpire": false,
+                    "zlib": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "hypre",
+                        "hash": "j7o7wnpnszxynxw2qrxgm3kms4x5tlgi",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "metis",
+                        "hash": "xt5uqhzgkutkb7fha5dlwocdf5yjxr2n",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "mpich",
+                        "hash": "cpwp3jrnpc3ra2czqek2togobqb3hbrj",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "hash": "pjokgrf356medkbvu7wza3vjibv3loux",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "2iqgyya3tdnr7ofqbn7umdujvec3cenf",
+                "full_hash": "dvyv3xfzgcj76ojp5npilzbsmbzjroiv"
+            },
+            {
+                "name": "hypre",
+                "version": "2.20.0",
+                "arch": {
+                    "platform": "cray",
+                    "platform_os": "cnl7",
+                    "target": {
+                        "name": "haswell",
+                        "vendor": "GenuineIntel",
+                        "features": [
+                            "aes",
+                            "avx",
+                            "avx2",
+                            "bmi1",
+                            "bmi2",
+                            "f16c",
+                            "fma",
+                            "mmx",
+                            "movbe",
+                            "pclmulqdq",
+                            "popcnt",
+                            "rdrand",
+                            "sse",
+                            "sse2",
+                            "sse4_1",
+                            "sse4_2",
+                            "ssse3"
+                        ],
+                        "generation": 0,
+                        "parents": [
+                            "ivybridge",
+                            "x86_64_v3"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "intel",
+                    "version": "19.1.3.304"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "complex": false,
+                    "cuda": false,
+                    "cuda_arch": [
+                        "none"
+                    ],
+                    "debug": false,
+                    "int64": false,
+                    "internal-superlu": false,
+                    "mixedint": false,
+                    "mpi": true,
+                    "openmp": false,
+                    "patches": [
+                        "6e3336b1d62155f6350dfe42b0f9ea25d4fa0af60c7e540959139deb93a26059"
+                    ],
+                    "shared": true,
+                    "superlu-dist": false,
+                    "unified-memory": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "6e3336b1d62155f6350dfe42b0f9ea25d4fa0af60c7e540959139deb93a26059"
+                ],
+                "dependencies": [
+                    {
+                        "name": "mpich",
+                        "hash": "cpwp3jrnpc3ra2czqek2togobqb3hbrj",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "openblas",
+                        "hash": "kg2tqkgdloomhpk73owhbxjntgpnc7go",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "j7o7wnpnszxynxw2qrxgm3kms4x5tlgi",
+                "full_hash": "zycap7hzm7vjsa3tegyewrnj6ifcpuhe"
+            },
+            {
+                "name": "mpich",
+                "version": "3.1",
+                "arch": {
+                    "platform": "cray",
+                    "platform_os": "cnl7",
+                    "target": {
+                        "name": "haswell",
+                        "vendor": "GenuineIntel",
+                        "features": [
+                            "aes",
+                            "avx",
+                            "avx2",
+                            "bmi1",
+                            "bmi2",
+                            "f16c",
+                            "fma",
+                            "mmx",
+                            "movbe",
+                            "pclmulqdq",
+                            "popcnt",
+                            "rdrand",
+                            "sse",
+                            "sse2",
+                            "sse4_1",
+                            "sse4_2",
+                            "ssse3"
+                        ],
+                        "generation": 0,
+                        "parents": [
+                            "ivybridge",
+                            "x86_64_v3"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "intel",
+                    "version": "19.1.3.304"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "argobots": false,
+                    "device": "ch4",
+                    "fortran": true,
+                    "hwloc": true,
+                    "hydra": true,
+                    "libxml2": true,
+                    "netmod": "ofi",
+                    "pci": true,
+                    "pmi": "pmi",
+                    "romio": true,
+                    "slurm": false,
+                    "verbs": false,
+                    "wrapperrpath": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "external": {
+                    "path": "/opt/cray/pe/mpt/7.7.10/gni/mpich-intel/16.0",
+                    "module": [
+                        "cray-mpich/7.7.10"
+                    ],
+                    "extra_attributes": {}
+                },
+                "hash": "cpwp3jrnpc3ra2czqek2togobqb3hbrj",
+                "full_hash": "drllw5zqo52k6zb5tuvrjqp32qdbo4nm"
+            },
+            {
+                "name": "openblas",
+                "version": "0.3.10",
+                "arch": {
+                    "platform": "cray",
+                    "platform_os": "cnl7",
+                    "target": {
+                        "name": "haswell",
+                        "vendor": "GenuineIntel",
+                        "features": [
+                            "aes",
+                            "avx",
+                            "avx2",
+                            "bmi1",
+                            "bmi2",
+                            "f16c",
+                            "fma",
+                            "mmx",
+                            "movbe",
+                            "pclmulqdq",
+                            "popcnt",
+                            "rdrand",
+                            "sse",
+                            "sse2",
+                            "sse4_1",
+                            "sse4_2",
+                            "ssse3"
+                        ],
+                        "generation": 0,
+                        "parents": [
+                            "ivybridge",
+                            "x86_64_v3"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "intel",
+                    "version": "19.1.3.304"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "bignuma": false,
+                    "consistent_fpcsr": false,
+                    "ilp64": false,
+                    "locking": true,
+                    "patches": [
+                        "00230a6b2bc50d7722d4aad49c0c06091176910b942cd51980b345e2935300b0",
+                        "2bc1db38b52435f4bbb211b9532549a8ffd0accaf3bd8f3f0d3dd39cf606151c",
+                        "865703b4f405543bbd583413fdeff2226dfda908be33639276c06e5aa7ae2cae"
+                    ],
+                    "pic": true,
+                    "shared": true,
+                    "threads": "openmp",
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "00230a6b2bc50d7722d4aad49c0c06091176910b942cd51980b345e2935300b0",
+                    "2bc1db38b52435f4bbb211b9532549a8ffd0accaf3bd8f3f0d3dd39cf606151c",
+                    "865703b4f405543bbd583413fdeff2226dfda908be33639276c06e5aa7ae2cae"
+                ],
+                "hash": "kg2tqkgdloomhpk73owhbxjntgpnc7go",
+                "full_hash": "2t2gk3qraoaaqz5ys3hygx7yjgxomwzm"
+            },
+            {
+                "name": "metis",
+                "version": "5.1.0",
+                "arch": {
+                    "platform": "cray",
+                    "platform_os": "cnl7",
+                    "target": {
+                        "name": "haswell",
+                        "vendor": "GenuineIntel",
+                        "features": [
+                            "aes",
+                            "avx",
+                            "avx2",
+                            "bmi1",
+                            "bmi2",
+                            "f16c",
+                            "fma",
+                            "mmx",
+                            "movbe",
+                            "pclmulqdq",
+                            "popcnt",
+                            "rdrand",
+                            "sse",
+                            "sse2",
+                            "sse4_1",
+                            "sse4_2",
+                            "ssse3"
+                        ],
+                        "generation": 0,
+                        "parents": [
+                            "ivybridge",
+                            "x86_64_v3"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "intel",
+                    "version": "19.1.3.304"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "build_type": "Release",
+                    "gdb": false,
+                    "int64": false,
+                    "patches": [
+                        "4991da938c1d3a1d3dea78e49bbebecba00273f98df2a656e38b83d55b281da1"
+                    ],
+                    "real64": false,
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "4991da938c1d3a1d3dea78e49bbebecba00273f98df2a656e38b83d55b281da1"
+                ],
+                "hash": "xt5uqhzgkutkb7fha5dlwocdf5yjxr2n",
+                "full_hash": "s7w3q24xzgygm575d2d4i2znktpxk7al"
+            },
+            {
+                "name": "zlib",
+                "version": "1.2.11",
+                "arch": {
+                    "platform": "cray",
+                    "platform_os": "cnl7",
+                    "target": {
+                        "name": "haswell",
+                        "vendor": "GenuineIntel",
+                        "features": [
+                            "aes",
+                            "avx",
+                            "avx2",
+                            "bmi1",
+                            "bmi2",
+                            "f16c",
+                            "fma",
+                            "mmx",
+                            "movbe",
+                            "pclmulqdq",
+                            "popcnt",
+                            "rdrand",
+                            "sse",
+                            "sse2",
+                            "sse4_1",
+                            "sse4_2",
+                            "ssse3"
+                        ],
+                        "generation": 0,
+                        "parents": [
+                            "ivybridge",
+                            "x86_64_v3"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "intel",
+                    "version": "19.1.3.304"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "optimize": true,
+                    "pic": true,
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "pjokgrf356medkbvu7wza3vjibv3loux",
+                "full_hash": "hpjl5y2ounrimehmtkdoc3ja25v3xyx4"
+            }
+        ]
+    }
+}

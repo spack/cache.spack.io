@@ -1,0 +1,107 @@
+{
+    "spec": {
+        "_meta": {
+            "version": 2
+        },
+        "nodes": [
+            {
+                "name": "magma",
+                "version": "2.5.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "centos7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.3.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "build_type": "RelWithDebInfo",
+                    "fortran": true,
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "cuda",
+                        "hash": "nb643fwxpo6nrqmdsg5tvgxqqeicytru",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "openblas",
+                        "hash": "i52njdxnz7hqn3bnwroiuvtasqsacj6x",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "tohe3mxr55xr43g2jpnpdqx5stzlok5q"
+            },
+            {
+                "name": "cuda",
+                "version": "10.1.243",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "centos7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.3.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "nb643fwxpo6nrqmdsg5tvgxqqeicytru"
+            },
+            {
+                "name": "openblas",
+                "version": "0.3.7",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "centos7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.3.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "avx2": true,
+                    "avx512": false,
+                    "cpu_target": "auto",
+                    "ilp64": false,
+                    "pic": true,
+                    "shared": true,
+                    "threads": "openmp",
+                    "virtual_machine": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "i52njdxnz7hqn3bnwroiuvtasqsacj6x"
+            }
+        ]
+    }
+}

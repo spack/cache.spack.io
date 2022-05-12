@@ -1,0 +1,86 @@
+---
+title: "berkeley-db"
+layout: cache
+category: package
+meta: {"versions": ["18.1.40", "6.2.32"], "compilers": ["gcc@8.3.1", "apple-clang@12.0.0", "gcc@9.3.0", "gcc@4.8.5", "gcc@8.1.0", "gcc@7.5.0", "intel@19.1.3.304", "gcc@7.3.1", "gcc@8.4.1", "gcc@6.4.0", "xl@16.1", "gcc@7.3.0", "gcc@10.3.0", "gcc@7.4.0"]}
+spec_files: 
+ - "berkeley-db@18.1.40%gcc@8.3.1+cxx~docs+stl patches=b231fcc arch=linux-rhel8-x86_64": spec-0.json
+ - "berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu20.04-x86_64": spec-1.json
+ - "berkeley-db@18.1.40%gcc@9.3.0~docs patches=b231fcc arch=linux-ubuntu20.04-x86_64": spec-2.json
+ - "berkeley-db@18.1.40%gcc@8.1.0~docs patches=b231fcc arch=linux-rhel7-x86_64": spec-3.json
+ - "berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu20.04-ppc64le": spec-4.json
+ - "berkeley-db@18.1.40%gcc@8.3.1 arch=linux-rhel8-x86_64": spec-5.json
+ - "berkeley-db@18.1.40%gcc@7.5.0~docs patches=b231fcc arch=linux-ubuntu18.04-ppc64le": spec-6.json
+ - "berkeley-db@18.1.40%apple-clang@12.0.0+cxx~docs+stl patches=b231fcc arch=darwin-catalina-haswell": spec-7.json
+ - "berkeley-db@18.1.40%gcc@10.3.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu21.04-ppc64le": spec-8.json
+ - "berkeley-db@18.1.40%gcc@7.5.0~docs patches=b231fcc arch=linux-ubuntu18.04-x86_64": spec-9.json
+ - "berkeley-db@18.1.40%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64": spec-10.json
+ - "berkeley-db@18.1.40%gcc@8.1.0 arch=linux-rhel7-x86_64": spec-11.json
+ - "berkeley-db@18.1.40%gcc@8.3.1 arch=linux-centos8-ppc64le": spec-12.json
+ - "berkeley-db@18.1.40%gcc@7.3.1~docs patches=b231fcc arch=linux-amzn2-x86_64": spec-13.json
+ - "berkeley-db@18.1.40%gcc@9.3.0~docs patches=b231fcc arch=linux-ubuntu20.04-ppc64le": spec-14.json
+ - "berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu18.04-ppc64le": spec-15.json
+ - "berkeley-db@18.1.40%gcc@8.3.1~docs patches=b231fcc arch=linux-rhel8-ppc64le": spec-16.json
+ - "berkeley-db@18.1.40%gcc@8.3.1+cxx~docs+stl patches=b231fcc arch=linux-rhel8-ppc64le": spec-17.json
+ - "berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-rhel7-ppc64le": spec-18.json
+ - "berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu18.04-x86_64": spec-19.json
+ - "berkeley-db@18.1.40%gcc@8.1.0 arch=linux-rhel7-ppc64le": spec-20.json
+ - "berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=linux-rhel7-x86_64": spec-21.json
+ - "berkeley-db@18.1.40%intel@19.1.3.304+cxx~docs+stl patches=b231fcc arch=cray-cnl7-haswell": spec-22.json
+ - "berkeley-db@18.1.40%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64": spec-23.json
+ - "berkeley-db@18.1.40%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le": spec-24.json
+ - "berkeley-db@18.1.40%gcc@4.8.5 arch=linux-rhel7-x86_64": spec-25.json
+ - "berkeley-db@18.1.40%gcc@8.3.1 arch=linux-rhel8-aarch64": spec-26.json
+ - "berkeley-db@18.1.40%gcc@8.3.1 arch=linux-rhel8-ppc64le": spec-27.json
+ - "berkeley-db@18.1.40%gcc@8.4.1+cxx~docs+stl patches=b231fcc arch=linux-rhel8-ppc64le": spec-28.json
+ - "berkeley-db@6.2.32%gcc@7.3.0 arch=linux-rhel8-x86_64": spec-29.json
+ - "berkeley-db@18.1.40%xl@16.1 fflags="-qzerosize"  arch=linux-rhel7-power9le": spec-30.json
+ - "berkeley-db@6.2.32%gcc@7.3.0 arch=linux-rhel7-x86_64": spec-31.json
+ - "berkeley-db@18.1.40%gcc@8.1.0+cxx~docs+stl patches=b231fcc arch=linux-rhel7-ppc64le": spec-32.json
+ - "berkeley-db@6.2.32%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64": spec-33.json
+ - "berkeley-db@18.1.40%gcc@8.3.1~docs patches=b231fcc arch=linux-rhel8-x86_64": spec-34.json
+ - "berkeley-db@18.1.40%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-35.json
+ - "berkeley-db@18.1.40%gcc@8.1.0~docs patches=b231fcc arch=linux-rhel7-ppc64le": spec-36.json
+ - "berkeley-db@6.2.32%gcc@4.8.5 arch=linux-rhel7-x86_64": spec-37.json
+ - "berkeley-db@6.2.32%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64": spec-38.json
+ - "berkeley-db@18.1.40%gcc@8.1.0+cxx~docs+stl patches=b231fcc arch=linux-rhel7-x86_64": spec-39.json
+ - "berkeley-db@6.2.32%gcc@8.1.0 arch=linux-rhel7-x86_64": spec-40.json
+ - "berkeley-db@6.2.32%gcc@4.8.5 arch=linux-centos7-ppc64le": spec-41.json
+ - "berkeley-db@18.1.40%gcc@10.3.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu21.04-x86_64": spec-42.json
+ - "berkeley-db@6.2.32%gcc@8.1.0 arch=linux-centos7-ppc64le": spec-43.json
+ - "berkeley-db@18.1.40%gcc@4.8.5+cxx~docs+stl patches=b231fcc arch=linux-rhel7-x86_64": spec-44.json
+ - "berkeley-db@6.2.32%gcc@8.1.0 arch=linux-rhel7-ppc64le": spec-45.json
+ - "berkeley-db@18.1.40%gcc@8.4.1+cxx~docs+stl patches=b231fcc arch=linux-rhel8-x86_64": spec-46.json
+ - "berkeley-db@18.1.40%gcc@7.5.0 arch=linux-ubuntu18.04-aarch64": spec-47.json
+ - "berkeley-db@18.1.40%gcc@4.8.5 arch=linux-centos7-x86_64": spec-48.json
+ - "berkeley-db@6.2.32%gcc@8.1.0 arch=linux-centos7-x86_64": spec-49.json
+ - "berkeley-db@6.2.32%gcc@8.3.1 arch=linux-centos8-ppc64le": spec-50.json
+ - "berkeley-db@18.1.40%gcc@4.8.5 arch=linux-rhel7-ppc64le": spec-51.json
+ - "berkeley-db@18.1.40%gcc@7.4.0~docs patches=b231fcc arch=linux-rhel7-power9le": spec-52.json
+ - "berkeley-db@18.1.40%gcc@4.8.5+cxx~docs+stl patches=b231fcc arch=linux-rhel7-ppc64le": spec-53.json
+ - "berkeley-db@6.2.32%gcc@8.3.1 arch=linux-rhel8-ppc64le": spec-54.json
+ - "berkeley-db@6.2.32%gcc@8.3.1 arch=linux-centos8-x86_64": spec-55.json
+ - "berkeley-db@6.2.32%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le": spec-56.json
+ - "berkeley-db@18.1.40%gcc@7.5.0 arch=linux-ubuntu18.04-power8le": spec-57.json
+ - "berkeley-db@18.1.40%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-58.json
+ - "berkeley-db@18.1.40%gcc@7.3.0 arch=linux-rhel8-x86_64": spec-59.json
+ - "berkeley-db@18.1.40%gcc@4.8.5 arch=linux-centos7-ppc64le": spec-60.json
+ - "berkeley-db@18.1.40%apple-clang@12.0.0+cxx~docs+stl patches=b231fcc arch=darwin-catalina-x86_64": spec-61.json
+ - "berkeley-db@18.1.40%gcc@8.1.0 arch=linux-centos7-x86_64": spec-62.json
+ - "berkeley-db@6.2.32%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-63.json
+ - "berkeley-db@6.2.32%gcc@7.3.0 arch=linux-rhel7-ppc64le": spec-64.json
+ - "berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc arch=cray-cnl7-haswell": spec-65.json
+ - "berkeley-db@18.1.40%gcc@8.3.1 arch=linux-centos8-x86_64": spec-66.json
+ - "berkeley-db@18.1.40%gcc@6.4.0 arch=linux-rhel7-power9le": spec-67.json
+ - "berkeley-db@6.2.32%gcc@4.8.5 arch=linux-rhel7-ppc64le": spec-68.json
+ - "berkeley-db@6.2.32%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le": spec-69.json
+ - "berkeley-db@6.2.32%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64": spec-70.json
+ - "berkeley-db@18.1.40%gcc@8.1.0 arch=linux-rhel7-ppc64le": spec-71.json
+ - "berkeley-db@6.2.32%gcc@7.3.0 arch=linux-centos7-x86_64": spec-72.json
+ - "berkeley-db@18.1.40%gcc@8.1.0 arch=linux-centos7-ppc64le": spec-73.json
+ - "berkeley-db@18.1.40%gcc@8.1.0 arch=linux-rhel7-power8le": spec-74.json
+ - "berkeley-db@18.1.40%gcc@8.1.0 arch=linux-rhel7-x86_64": spec-75.json
+ - "berkeley-db@6.2.32%gcc@4.8.5 arch=linux-centos7-x86_64": spec-76.json
+ - "berkeley-db@18.1.40%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64": spec-77.json
+
+---

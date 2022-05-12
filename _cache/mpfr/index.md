@@ -1,0 +1,63 @@
+---
+title: "mpfr"
+layout: cache
+category: package
+meta: {"versions": ["4.0.2", "4.1.0", "3.1.6"], "compilers": ["gcc@8.3.1", "gcc@9.3.0", "gcc@4.8.5", "gcc@8.1.0", "gcc@7.5.0", "gcc@7.3.1", "gcc@8.4.1", "gcc@8.2.1", "gcc@10.3.0", "gcc@7.4.0"]}
+spec_files: 
+ - "mpfr@4.0.2%gcc@9.3.0 patches=3f80b83 arch=linux-ubuntu20.04-x86_64 ^gmp@6.1.2%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64": spec-0.json
+ - "mpfr@4.0.2%gcc@8.3.1 patches=3f80b83 arch=linux-rhel8-ppc64le ^gmp@6.2.1%gcc@8.3.1 arch=linux-rhel8-ppc64le": spec-1.json
+ - "mpfr@4.0.2%gcc@8.3.1 patches=3f80b83 arch=linux-rhel8-ppc64le ^gmp@6.1.2%gcc@8.3.1 arch=linux-rhel8-ppc64le": spec-2.json
+ - "mpfr@4.1.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^gmp@6.2.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64": spec-3.json
+ - "mpfr@4.1.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^gmp@6.2.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64": spec-4.json
+ - "mpfr@4.1.0%gcc@9.3.0 arch=linux-rhel7-ppc64le ^gmp@6.2.1%gcc@9.3.0 arch=linux-rhel7-ppc64le": spec-5.json
+ - "mpfr@3.1.6%gcc@7.4.0 patches=66a5d58 arch=linux-ubuntu18.04-x86_64 ^gmp@6.1.2%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64": spec-6.json
+ - "mpfr@4.0.2%gcc@8.1.0 patches=3f80b83 arch=linux-rhel7-ppc64le ^gmp@6.1.2%gcc@8.1.0 arch=linux-rhel7-ppc64le": spec-7.json
+ - "mpfr@4.1.0%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^gmp@6.2.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le": spec-8.json
+ - "mpfr@4.0.2%gcc@8.1.0 patches=3f80b83 arch=linux-rhel7-x86_64 ^gmp@6.1.2%gcc@8.1.0 arch=linux-rhel7-x86_64": spec-9.json
+ - "mpfr@4.1.0%gcc@8.1.0 arch=linux-rhel7-x86_64 ^gmp@6.2.1%gcc@8.1.0 arch=linux-rhel7-x86_64": spec-10.json
+ - "mpfr@4.1.0%gcc@8.1.0 arch=linux-rhel7-ppc64le ^gmp@6.2.1%gcc@8.1.0 arch=linux-rhel7-ppc64le": spec-11.json
+ - "mpfr@4.1.0%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^gmp@6.2.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-12.json
+ - "mpfr@4.0.2%gcc@7.5.0 patches=3f80b83 arch=linux-ubuntu18.04-x86_64 ^gmp@6.1.2%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64": spec-13.json
+ - "mpfr@4.1.0%gcc@9.3.0 arch=linux-rhel7-x86_64 ^gmp@6.2.1%gcc@9.3.0 arch=linux-rhel7-x86_64": spec-14.json
+ - "mpfr@4.0.2%gcc@9.3.0 patches=3f80b83 arch=linux-ubuntu20.04-ppc64le ^gmp@6.1.2%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le": spec-15.json
+ - "mpfr@3.1.6%gcc@4.8.5 patches=66a5d58 arch=linux-rhel7-x86_64 ^gmp@6.1.2%gcc@4.8.5 arch=linux-rhel7-x86_64": spec-16.json
+ - "mpfr@4.1.0%gcc@8.3.1 arch=linux-rhel8-ppc64le ^gmp@6.2.1%gcc@8.3.1 arch=linux-rhel8-ppc64le": spec-17.json
+ - "mpfr@3.1.6%gcc@4.8.5 patches=66a5d58 arch=linux-centos7-ppc64le ^gmp@6.1.2%gcc@4.8.5 arch=linux-centos7-ppc64le": spec-18.json
+ - "mpfr@3.1.6%gcc@4.8.5 patches=66a5d58 arch=linux-centos7-x86_64 ^gmp@6.1.2%gcc@4.8.5 arch=linux-centos7-x86_64": spec-19.json
+ - "mpfr@4.1.0%gcc@8.3.1 arch=linux-rhel8-x86_64 ^gmp@6.2.1%gcc@8.3.1 arch=linux-rhel8-x86_64": spec-20.json
+ - "mpfr@3.1.6%gcc@7.5.0 patches=66a5d58 arch=linux-ubuntu18.04-ppc64le ^gmp@6.1.2%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-21.json
+ - "mpfr@4.0.2%gcc@9.3.0 patches=3f80b83 arch=linux-ubuntu20.04-x86_64 ^gmp@6.2.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64": spec-22.json
+ - "mpfr@4.1.0%gcc@10.3.0 arch=linux-ubuntu21.04-ppc64le ^gmp@6.2.1%gcc@10.3.0 arch=linux-ubuntu21.04-ppc64le": spec-23.json
+ - "mpfr@4.1.0%gcc@7.3.1 arch=linux-amzn2-x86_64 ^gmp@6.2.1%gcc@7.3.1 arch=linux-amzn2-x86_64": spec-24.json
+ - "mpfr@3.1.6%gcc@8.1.0 patches=7a6dd71 arch=linux-rhel7-x86_64 ^gmp@6.1.2%gcc@8.1.0 arch=linux-rhel7-x86_64": spec-25.json
+ - "mpfr@4.1.0%gcc@10.3.0 arch=linux-ubuntu21.04-x86_64 ^gmp@6.2.1%gcc@10.3.0 arch=linux-ubuntu21.04-x86_64": spec-26.json
+ - "mpfr@3.1.6%gcc@7.4.0 patches=66a5d58 arch=linux-ubuntu18.04-ppc64le ^gmp@6.1.2%gcc@7.4.0 arch=linux-ubuntu18.04-ppc64le": spec-27.json
+ - "mpfr@4.0.2%gcc@9.3.0 patches=3f80b83 arch=linux-ubuntu20.04-ppc64le ^gmp@6.2.1%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le": spec-28.json
+ - "mpfr@3.1.6%gcc@4.8.5 patches=7a6dd71 arch=linux-rhel7-x86_64 ^gmp@6.1.2%gcc@4.8.5 arch=linux-rhel7-x86_64": spec-29.json
+ - "mpfr@4.0.2%gcc@8.3.1 patches=3f80b83 arch=linux-rhel8-x86_64 ^gmp@6.1.2%gcc@8.3.1 arch=linux-rhel8-x86_64": spec-30.json
+ - "mpfr@4.0.2%gcc@7.5.0 patches=3f80b83 arch=linux-ubuntu18.04-ppc64le ^gmp@6.1.2%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-31.json
+ - "mpfr@3.1.6%gcc@7.4.0 patches=66a5d58 arch=linux-ubuntu18.04-aarch64 ^gmp@6.1.2%gcc@7.4.0 arch=linux-ubuntu18.04-aarch64": spec-32.json
+ - "mpfr@3.1.6%gcc@7.4.0 patches=7a6dd71 arch=linux-ubuntu18.04-ppc64le ^gmp@6.1.2%gcc@7.4.0 arch=linux-ubuntu18.04-ppc64le": spec-33.json
+ - "mpfr@3.1.6%gcc@4.8.5 patches=7a6dd71 arch=linux-rhel7-ppc64le ^gmp@6.1.2%gcc@4.8.5 arch=linux-rhel7-ppc64le": spec-34.json
+ - "mpfr@4.1.0%gcc@8.4.1 arch=linux-rhel8-x86_64 ^gmp@6.2.1%gcc@8.4.1 arch=linux-rhel8-x86_64": spec-35.json
+ - "mpfr@3.1.6%gcc@4.8.5 patches=7a6dd71 arch=linux-centos7-ppc64le ^gmp@6.1.2%gcc@4.8.5 arch=linux-centos7-ppc64le": spec-36.json
+ - "mpfr@4.1.0%gcc@7.4.0 arch=linux-rhel7-power9le ^gmp@6.2.1%gcc@7.4.0 arch=linux-rhel7-power9le": spec-37.json
+ - "mpfr@4.0.2%gcc@8.1.0 patches=3f80b83 arch=linux-rhel7-x86_64 ^gmp@6.2.1%gcc@8.1.0 arch=linux-rhel7-x86_64": spec-38.json
+ - "mpfr@3.1.6%gcc@4.8.5 patches=7a6dd71 arch=linux-rhel7-ppc64le ^gmp@6.2.1%gcc@4.8.5 arch=linux-rhel7-ppc64le": spec-39.json
+ - "mpfr@4.0.2%gcc@8.1.0 patches=3f80b83 arch=linux-rhel7-ppc64le ^gmp@6.2.1%gcc@8.1.0 arch=linux-rhel7-ppc64le": spec-40.json
+ - "mpfr@4.0.2%gcc@7.3.1 patches=3f80b83 arch=linux-amzn2-x86_64 ^gmp@6.1.2%gcc@7.3.1 arch=linux-amzn2-x86_64": spec-41.json
+ - "mpfr@4.0.2%gcc@8.3.1 patches=3f80b83 arch=linux-rhel8-x86_64 ^gmp@6.2.1%gcc@8.3.1 arch=linux-rhel8-x86_64": spec-42.json
+ - "mpfr@4.1.0%gcc@9.3.0 arch=cray-cnl7-haswell ^gmp@6.2.1%gcc@9.3.0 arch=cray-cnl7-haswell": spec-43.json
+ - "mpfr@4.1.0%gcc@8.4.1 arch=linux-rhel8-ppc64le ^gmp@6.2.1%gcc@8.4.1 arch=linux-rhel8-ppc64le": spec-44.json
+ - "mpfr@3.1.6%gcc@4.8.5 patches=7a6dd71 arch=linux-centos7-x86_64 ^gmp@6.1.2%gcc@4.8.5 arch=linux-centos7-x86_64": spec-45.json
+ - "mpfr@3.1.6%gcc@8.2.1 patches=66a5d58 arch=linux-centos8-x86_64 ^gmp@6.1.2%gcc@8.2.1 arch=linux-centos8-x86_64": spec-46.json
+ - "mpfr@3.1.6%gcc@8.3.1 patches=66a5d58 arch=linux-centos8-ppc64le ^gmp@6.1.2%gcc@8.3.1 arch=linux-centos8-ppc64le": spec-47.json
+ - "mpfr@3.1.6%gcc@4.8.5 patches=66a5d58 arch=linux-rhel7-ppc64le ^gmp@6.1.2%gcc@4.8.5 arch=linux-rhel7-ppc64le": spec-48.json
+ - "mpfr@3.1.6%gcc@8.3.1 patches=66a5d58 arch=linux-rhel8-x86_64 ^gmp@6.1.2%gcc@8.3.1 arch=linux-rhel8-x86_64": spec-49.json
+ - "mpfr@3.1.6%gcc@8.3.1 patches=66a5d58 arch=linux-centos8-x86_64 ^gmp@6.1.2%gcc@8.3.1 arch=linux-centos8-x86_64": spec-50.json
+ - "mpfr@3.1.6%gcc@4.8.5 patches=7a6dd71 arch=linux-rhel7-x86_64 ^gmp@6.2.1%gcc@4.8.5 arch=linux-rhel7-x86_64": spec-51.json
+ - "mpfr@4.0.2%gcc@7.5.0 patches=3f80b83 arch=linux-ubuntu18.04-ppc64le ^gmp@6.2.1%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-52.json
+ - "mpfr@4.0.2%gcc@7.5.0 patches=3f80b83 arch=linux-ubuntu18.04-x86_64 ^gmp@6.2.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64": spec-53.json
+ - "mpfr@3.1.6%gcc@8.1.0 patches=7a6dd71 arch=linux-centos7-x86_64 ^gmp@6.1.2%gcc@8.1.0 arch=linux-centos7-x86_64": spec-54.json
+
+---

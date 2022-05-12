@@ -1,0 +1,106 @@
+---
+title: "libfabric"
+layout: cache
+category: package
+meta: {"versions": ["1.6.1", "1.12.0", "1.8.1", "1.12.1", "1.11.2", "1.11.0", "1.9.0", "1.9.1"], "compilers": ["gcc@8.3.1", "gcc@8.4.0", "gcc@9.3.0", "gcc@8.1.0", "gcc@7.5.0", "intel@19.1.3.304", "gcc@7.3.1", "gcc@8.4.1", "gcc@7.3.0", "gcc@10.3.0", "gcc@7.4.0"]}
+spec_files: 
+ - "libfabric@1.11.2%gcc@9.3.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu20.04-x86_64": spec-0.json
+ - "libfabric@1.12.0%gcc@8.3.1~kdreg fabrics=sockets,tcp,udp arch=linux-rhel8-ppc64le": spec-1.json
+ - "libfabric@1.12.1%gcc@8.3.1~debug~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-rhel8-ppc64le": spec-2.json
+ - "libfabric@1.12.1%gcc@8.3.1~kdreg fabrics=sockets,tcp,udp arch=linux-rhel8-x86_64": spec-3.json
+ - "libfabric@1.12.1%gcc@9.3.0~debug~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-ubuntu20.04-ppc64le": spec-4.json
+ - "libfabric@1.12.1%gcc@9.3.0~debug~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-rhel7-ppc64le": spec-5.json
+ - "libfabric@1.12.1%gcc@9.3.0~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-ubuntu20.04-x86_64": spec-6.json
+ - "libfabric@1.11.2%gcc@8.1.0~kdreg fabrics=sockets,tcp,udp arch=linux-rhel7-x86_64": spec-7.json
+ - "libfabric@1.11.2%gcc@7.5.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu18.04-x86_64": spec-8.json
+ - "libfabric@1.11.2%gcc@8.3.1~kdreg fabrics=sockets,tcp,udp arch=linux-rhel8-x86_64": spec-9.json
+ - "libfabric@1.12.1%gcc@7.5.0~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-ubuntu18.04-x86_64": spec-10.json
+ - "libfabric@1.12.1%gcc@8.4.1~debug~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-rhel8-ppc64le": spec-11.json
+ - "libfabric@1.12.1%gcc@8.1.0~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-rhel7-x86_64": spec-12.json
+ - "libfabric@1.11.2%gcc@8.3.1~kdreg fabrics=sockets,tcp,udp arch=linux-rhel8-ppc64le": spec-13.json
+ - "libfabric@1.12.1%gcc@8.3.1~kdreg fabrics=sockets,tcp,udp arch=linux-rhel8-ppc64le": spec-14.json
+ - "libfabric@1.12.1%gcc@9.3.0~debug~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-rhel7-x86_64": spec-15.json
+ - "libfabric@1.12.0%gcc@8.1.0~kdreg fabrics=sockets,tcp,udp arch=linux-rhel7-x86_64": spec-16.json
+ - "libfabric@1.9.1%gcc@7.5.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu18.04-ppc64le": spec-17.json
+ - "libfabric@1.12.1%gcc@10.3.0~debug~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-ubuntu21.04-x86_64": spec-18.json
+ - "libfabric@1.12.1%gcc@7.5.0~debug~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-ubuntu18.04-ppc64le": spec-19.json
+ - "libfabric@1.12.1%gcc@8.3.1~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-rhel8-x86_64": spec-20.json
+ - "libfabric@1.12.0%gcc@9.3.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu20.04-ppc64le": spec-21.json
+ - "libfabric@1.12.0%gcc@7.5.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu18.04-x86_64": spec-22.json
+ - "libfabric@1.12.1%gcc@9.3.0~debug~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-ubuntu20.04-x86_64": spec-23.json
+ - "libfabric@1.11.2%gcc@7.3.1~kdreg fabrics=sockets,tcp,udp arch=linux-amzn2-x86_64": spec-24.json
+ - "libfabric@1.11.2%gcc@7.5.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu18.04-ppc64le": spec-25.json
+ - "libfabric@1.11.0%gcc@7.5.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu18.04-ppc64le": spec-26.json
+ - "libfabric@1.11.0%gcc@7.5.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu18.04-x86_64": spec-27.json
+ - "libfabric@1.12.0%gcc@8.3.1~kdreg fabrics=sockets,tcp,udp arch=linux-rhel8-x86_64": spec-28.json
+ - "libfabric@1.11.2%gcc@8.1.0~kdreg fabrics=sockets,tcp,udp arch=linux-rhel7-ppc64le": spec-29.json
+ - "libfabric@1.11.0%gcc@9.3.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu20.04-x86_64": spec-30.json
+ - "libfabric@1.11.0%gcc@8.3.1~kdreg fabrics=sockets,tcp,udp arch=linux-rhel8-x86_64": spec-31.json
+ - "libfabric@1.9.1%gcc@8.3.1~kdreg fabrics=sockets,tcp,udp arch=linux-centos8-ppc64le": spec-32.json
+ - "libfabric@1.12.1%gcc@8.3.1~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-rhel8-ppc64le": spec-33.json
+ - "libfabric@1.12.0%gcc@7.5.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu18.04-ppc64le": spec-34.json
+ - "libfabric@1.12.1%gcc@8.3.1~debug~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-rhel8-x86_64": spec-35.json
+ - "libfabric@1.11.2%gcc@9.3.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu20.04-ppc64le": spec-36.json
+ - "libfabric@1.12.1%gcc@7.5.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu18.04-ppc64le": spec-37.json
+ - "libfabric@1.9.1%gcc@8.1.0~kdreg fabrics=sockets,tcp,udp arch=linux-rhel7-ppc64le": spec-38.json
+ - "libfabric@1.12.1%gcc@9.3.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu20.04-x86_64": spec-39.json
+ - "libfabric@1.12.1%gcc@10.3.0~debug~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-ubuntu21.04-ppc64le": spec-40.json
+ - "libfabric@1.12.1%gcc@9.3.0~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-rhel7-ppc64le": spec-41.json
+ - "libfabric@1.11.0%gcc@8.1.0~kdreg fabrics=sockets,tcp,udp arch=linux-rhel7-ppc64le": spec-42.json
+ - "libfabric@1.12.1%gcc@9.3.0~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-ubuntu20.04-ppc64le": spec-43.json
+ - "libfabric@1.12.1%gcc@9.3.0~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-rhel7-x86_64": spec-44.json
+ - "libfabric@1.12.1%gcc@8.1.0~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-rhel7-ppc64le": spec-45.json
+ - "libfabric@1.12.1%gcc@7.5.0~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-ubuntu18.04-ppc64le": spec-46.json
+ - "libfabric@1.12.1%gcc@7.5.0~debug~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-ubuntu18.04-x86_64": spec-47.json
+ - "libfabric@1.9.1%gcc@7.3.0~kdreg fabrics=sockets,tcp,udp arch=linux-centos8-x86_64": spec-48.json
+ - "libfabric@1.9.1%gcc@7.5.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu18.04-x86_64": spec-49.json
+ - "libfabric@1.11.0%gcc@9.3.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu20.04-ppc64le": spec-50.json
+ - "libfabric@1.12.1%gcc@9.3.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu20.04-ppc64le": spec-51.json
+ - "libfabric@1.11.0%gcc@8.1.0~kdreg fabrics=sockets,tcp,udp arch=linux-rhel7-ppc64le": spec-52.json
+ - "libfabric@1.12.1%gcc@8.1.0~kdreg fabrics=sockets,tcp,udp arch=linux-rhel7-x86_64": spec-53.json
+ - "libfabric@1.11.0%gcc@8.1.0~kdreg fabrics=sockets,tcp,udp arch=linux-rhel7-x86_64": spec-54.json
+ - "libfabric@1.9.1%gcc@7.3.0~kdreg fabrics=sockets,tcp,udp arch=linux-rhel8-x86_64": spec-55.json
+ - "libfabric@1.12.1%gcc@7.5.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu18.04-x86_64": spec-56.json
+ - "libfabric@1.12.0%gcc@8.1.0~kdreg fabrics=sockets,tcp,udp arch=linux-rhel7-ppc64le": spec-57.json
+ - "libfabric@1.9.1%gcc@7.3.0~kdreg fabrics=sockets,tcp,udp arch=linux-rhel7-ppc64le": spec-58.json
+ - "libfabric@1.12.1%gcc@8.4.1~debug~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-rhel8-x86_64": spec-59.json
+ - "libfabric@1.9.1%gcc@7.3.0~kdreg fabrics=sockets,tcp,udp arch=linux-rhel7-x86_64": spec-60.json
+ - "libfabric@1.9.1%gcc@7.3.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu18.04-x86_64": spec-61.json
+ - "libfabric@1.8.1%gcc@7.3.0~kdreg fabrics=sockets arch=linux-centos7-x86_64": spec-62.json
+ - "libfabric@1.12.0%gcc@9.3.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu20.04-x86_64": spec-63.json
+ - "libfabric@1.9.1%gcc@7.3.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu18.04-ppc64le": spec-64.json
+ - "libfabric@1.11.0%gcc@8.1.0~kdreg fabrics=sockets,tcp,udp arch=linux-centos7-ppc64le": spec-65.json
+ - "libfabric@1.9.1%gcc@9.3.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu20.04-x86_64": spec-66.json
+ - "libfabric@1.9.1%gcc@7.3.0~kdreg fabrics=sockets,tcp,udp arch=linux-centos7-x86_64": spec-67.json
+ - "libfabric@1.9.1%gcc@8.1.0~kdreg fabrics=sockets,tcp,udp arch=linux-centos7-ppc64le": spec-68.json
+ - "libfabric@1.12.1%gcc@8.1.0~kdreg fabrics=sockets,tcp,udp arch=linux-rhel7-ppc64le": spec-69.json
+ - "libfabric@1.11.0%gcc@8.3.1~kdreg fabrics=sockets,tcp,udp arch=linux-rhel8-ppc64le": spec-70.json
+ - "libfabric@1.9.1%gcc@8.1.0~kdreg fabrics=sockets,tcp,udp arch=linux-centos7-x86_64": spec-71.json
+ - "libfabric@1.9.1%gcc@8.3.1~kdreg fabrics=sockets,tcp,udp arch=linux-rhel8-ppc64le": spec-72.json
+ - "libfabric@1.11.0%gcc@8.1.0~kdreg fabrics=sockets,tcp,udp arch=linux-rhel7-x86_64": spec-73.json
+ - "libfabric@1.9.1%gcc@8.3.1~kdreg fabrics=sockets,tcp,udp arch=linux-centos8-x86_64": spec-74.json
+ - "libfabric@1.9.0%gcc@7.4.0~kdreg fabrics=sockets,tcp,udp patches=71f06e8 arch=linux-ubuntu18.04-x86_64": spec-75.json
+ - "libfabric@1.8.1%gcc@7.3.0~kdreg fabrics=sockets arch=linux-ubuntu18.04-x86_64": spec-76.json
+ - "libfabric@1.9.1%gcc@8.1.0~kdreg fabrics=sockets,tcp,udp arch=linux-rhel7-x86_64": spec-77.json
+ - "libfabric@1.9.1%gcc@7.3.0~kdreg fabrics=sockets,tcp,udp arch=linux-centos7-ppc64le": spec-78.json
+ - "libfabric@1.6.1%gcc@8.4.0~kdreg fabrics=verbs arch=linux-rhel7-sandybridge ^rdma-core@20%gcc@8.4.0 build_type=RelWithDebInfo arch=linux-rhel7-sandybridge": spec-79.json
+ - "libfabric@1.9.1%gcc@9.3.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu20.04-ppc64le": spec-80.json
+ - "libfabric@1.8.1%gcc@7.3.0~kdreg fabrics=sockets arch=linux-rhel7-ppc64le": spec-81.json
+ - "libfabric@1.9.1%gcc@8.3.1~kdreg fabrics=sockets,tcp,udp arch=linux-rhel8-x86_64": spec-82.json
+ - "libfabric@1.11.0%gcc@7.5.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu18.04-ppc64le": spec-83.json
+ - "libfabric@1.12.1%gcc@9.3.0~kdreg fabrics=rxm,sockets,tcp,udp arch=cray-cnl7-haswell": spec-84.json
+ - "libfabric@1.12.1%intel@19.1.3.304~kdreg fabrics=rxm,sockets,tcp,udp arch=cray-cnl7-haswell": spec-85.json
+ - "libfabric@1.11.0%gcc@8.3.1~kdreg fabrics=sockets,tcp,udp arch=linux-rhel8-aarch64": spec-86.json
+ - "libfabric@1.8.1%gcc@7.3.0~kdreg fabrics=sockets arch=linux-centos8-x86_64": spec-87.json
+ - "libfabric@1.9.0%gcc@7.4.0~kdreg fabrics=sockets patches=71f06e8 arch=linux-ubuntu18.04-x86_64": spec-88.json
+ - "libfabric@1.11.0%gcc@7.5.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu18.04-power8le": spec-89.json
+ - "libfabric@1.8.1%gcc@7.3.0~kdreg fabrics=sockets arch=linux-rhel8-x86_64": spec-90.json
+ - "libfabric@1.8.1%gcc@7.3.0~kdreg fabrics=sockets arch=linux-ubuntu18.04-ppc64le": spec-91.json
+ - "libfabric@1.11.0%gcc@8.1.0~kdreg fabrics=sockets,tcp,udp arch=linux-centos7-x86_64": spec-92.json
+ - "libfabric@1.8.1%gcc@7.3.0~kdreg fabrics=sockets arch=linux-rhel7-x86_64": spec-93.json
+ - "libfabric@1.11.0%gcc@7.5.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu18.04-aarch64": spec-94.json
+ - "libfabric@1.11.0%gcc@8.1.0~kdreg fabrics=sockets,tcp,udp arch=linux-rhel7-power8le": spec-95.json
+ - "libfabric@1.11.0%gcc@7.5.0~kdreg fabrics=sockets,tcp,udp arch=linux-ubuntu18.04-x86_64": spec-96.json
+ - "libfabric@1.8.1%gcc@7.3.0~kdreg fabrics=sockets arch=linux-centos7-ppc64le": spec-97.json
+
+---

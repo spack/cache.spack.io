@@ -1,0 +1,97 @@
+---
+title: "libmonitor"
+layout: cache
+category: package
+meta: {"versions": ["2021.04.27", "2019.05.31", "2020.10.15", "2018.07.18"], "compilers": ["gcc@8.3.1", "gcc@9.3.0", "gcc@8.1.0", "gcc@7.5.0", "gcc@7.3.1", "gcc@8.4.1", "gcc@7.3.0", "gcc@10.3.0", "gcc@7.4.0"]}
+spec_files: 
+ - "libmonitor@2019.05.31%gcc@8.1.0~bgq+hpctoolkit~krellpatch arch=linux-centos7-ppc64le": spec-0.json
+ - "libmonitor@2020.10.15%gcc@8.3.1~dlopen+hpctoolkit~krellpatch arch=linux-rhel8-ppc64le": spec-1.json
+ - "libmonitor@2019.05.31%gcc@9.3.0~bgq+hpctoolkit~krellpatch arch=linux-ubuntu20.04-ppc64le": spec-2.json
+ - "libmonitor@2020.10.15%gcc@7.5.0+dlopen+hpctoolkit~krellpatch arch=linux-ubuntu18.04-ppc64le": spec-3.json
+ - "libmonitor@2019.05.31%gcc@7.5.0+hpctoolkit~krellpatch arch=linux-ubuntu18.04-x86_64": spec-4.json
+ - "libmonitor@2019.05.31%gcc@9.3.0~bgq+hpctoolkit~krellpatch arch=linux-ubuntu20.04-x86_64": spec-5.json
+ - "libmonitor@2019.05.31%gcc@8.3.1+hpctoolkit~krellpatch arch=linux-rhel8-aarch64": spec-6.json
+ - "libmonitor@2021.04.27%gcc@7.5.0~commrank~dlopen+hpctoolkit arch=linux-ubuntu18.04-x86_64": spec-7.json
+ - "libmonitor@2018.07.18%gcc@7.4.0~bgq+hpctoolkit~krellpatch arch=linux-ubuntu18.04-x86_64": spec-8.json
+ - "libmonitor@2020.10.15%gcc@8.3.1~dlopen+hpctoolkit~krellpatch arch=linux-rhel8-x86_64": spec-9.json
+ - "libmonitor@2018.07.18%gcc@7.3.0~bgq+hpctoolkit~krellpatch arch=linux-rhel7-x86_64": spec-10.json
+ - "libmonitor@2019.05.31%gcc@8.3.1~bgq+hpctoolkit~krellpatch arch=linux-rhel8-ppc64le": spec-11.json
+ - "libmonitor@2018.07.18%gcc@7.3.0~bgq+hpctoolkit~krellpatch arch=linux-ubuntu18.04-x86_64": spec-12.json
+ - "libmonitor@2019.05.31%gcc@7.5.0+hpctoolkit~krellpatch arch=linux-ubuntu18.04-ppc64le": spec-13.json
+ - "libmonitor@2019.05.31%gcc@8.1.0+hpctoolkit~krellpatch arch=linux-rhel7-x86_64": spec-14.json
+ - "libmonitor@2021.04.27%gcc@10.3.0~commrank~dlopen+hpctoolkit arch=linux-ubuntu21.04-x86_64": spec-15.json
+ - "libmonitor@2018.07.18%gcc@7.3.0~bgq+hpctoolkit~krellpatch arch=linux-ubuntu18.04-ppc64le": spec-16.json
+ - "libmonitor@2019.05.31%gcc@7.3.0~bgq+hpctoolkit~krellpatch arch=linux-centos7-x86_64": spec-17.json
+ - "libmonitor@2021.04.27%gcc@8.3.1~dlopen+hpctoolkit~krellpatch arch=linux-rhel8-x86_64": spec-18.json
+ - "libmonitor@2021.04.27%gcc@8.3.1~dlopen+hpctoolkit~krellpatch arch=linux-rhel8-ppc64le": spec-19.json
+ - "libmonitor@2018.07.18%gcc@7.3.0~bgq+hpctoolkit~krellpatch arch=linux-rhel8-x86_64": spec-20.json
+ - "libmonitor@2020.10.15%gcc@8.1.0+dlopen+hpctoolkit~krellpatch arch=linux-rhel7-ppc64le": spec-21.json
+ - "libmonitor@2021.04.27%gcc@8.1.0~dlopen+hpctoolkit~krellpatch arch=linux-rhel7-ppc64le": spec-22.json
+ - "libmonitor@2020.10.15%gcc@7.5.0+dlopen+hpctoolkit~krellpatch arch=linux-ubuntu18.04-x86_64": spec-23.json
+ - "libmonitor@2021.04.27%gcc@9.3.0~commrank~dlopen+hpctoolkit arch=linux-ubuntu20.04-x86_64": spec-24.json
+ - "libmonitor@2021.04.27%gcc@9.3.0~commrank~dlopen+hpctoolkit arch=linux-ubuntu20.04-ppc64le": spec-25.json
+ - "libmonitor@2021.04.27%gcc@7.5.0~commrank~dlopen+hpctoolkit arch=linux-ubuntu18.04-ppc64le": spec-26.json
+ - "libmonitor@2018.07.18%gcc@7.3.0~bgq+hpctoolkit~krellpatch arch=linux-centos7-x86_64": spec-27.json
+ - "libmonitor@2019.05.31%gcc@8.3.1+hpctoolkit~krellpatch arch=linux-rhel8-ppc64le": spec-28.json
+ - "libmonitor@2020.10.15%gcc@8.1.0~dlopen+hpctoolkit~krellpatch arch=linux-rhel7-ppc64le": spec-29.json
+ - "libmonitor@2020.10.15%gcc@9.3.0+dlopen+hpctoolkit~krellpatch arch=linux-ubuntu20.04-ppc64le": spec-30.json
+ - "libmonitor@2019.05.31%gcc@7.3.0~bgq+hpctoolkit~krellpatch arch=linux-rhel8-x86_64": spec-31.json
+ - "libmonitor@2019.05.31%gcc@8.3.1~bgq+hpctoolkit~krellpatch arch=linux-centos8-ppc64le": spec-32.json
+ - "libmonitor@2021.04.27%gcc@8.3.1~commrank~dlopen+hpctoolkit arch=linux-rhel8-ppc64le": spec-33.json
+ - "libmonitor@2020.10.15%gcc@8.3.1+dlopen+hpctoolkit~krellpatch arch=linux-rhel8-ppc64le": spec-34.json
+ - "libmonitor@2021.04.27%gcc@9.3.0~dlopen+hpctoolkit~krellpatch arch=linux-rhel7-x86_64": spec-35.json
+ - "libmonitor@2020.10.15%gcc@8.1.0~dlopen+hpctoolkit~krellpatch arch=linux-rhel7-x86_64": spec-36.json
+ - "libmonitor@2020.10.15%gcc@7.3.1+dlopen+hpctoolkit~krellpatch arch=linux-amzn2-x86_64": spec-37.json
+ - "libmonitor@2019.05.31%gcc@8.1.0+hpctoolkit~krellpatch arch=linux-centos7-x86_64": spec-38.json
+ - "libmonitor@2019.05.31%gcc@7.3.0~bgq+hpctoolkit~krellpatch arch=linux-ubuntu18.04-ppc64le": spec-39.json
+ - "libmonitor@2018.07.18%gcc@7.3.0~bgq+hpctoolkit~krellpatch arch=linux-centos7-ppc64le": spec-40.json
+ - "libmonitor@2020.10.15%gcc@9.3.0+dlopen+hpctoolkit~krellpatch arch=linux-ubuntu20.04-x86_64": spec-41.json
+ - "libmonitor@2020.10.15%gcc@9.3.0~dlopen+hpctoolkit~krellpatch arch=linux-ubuntu20.04-ppc64le": spec-42.json
+ - "libmonitor@2019.05.31%gcc@8.3.1~bgq+hpctoolkit~krellpatch arch=linux-centos8-x86_64": spec-43.json
+ - "libmonitor@2019.05.31%gcc@7.5.0+hpctoolkit~krellpatch arch=linux-ubuntu18.04-ppc64le": spec-44.json
+ - "libmonitor@2021.04.27%gcc@8.4.1~commrank~dlopen+hpctoolkit arch=linux-rhel8-ppc64le": spec-45.json
+ - "libmonitor@2019.05.31%gcc@7.3.0~bgq+hpctoolkit~krellpatch arch=linux-rhel7-ppc64le": spec-46.json
+ - "libmonitor@2021.04.27%gcc@9.3.0~dlopen+hpctoolkit~krellpatch arch=linux-ubuntu20.04-x86_64": spec-47.json
+ - "libmonitor@2020.10.15%gcc@9.3.0~dlopen+hpctoolkit~krellpatch arch=linux-ubuntu20.04-x86_64": spec-48.json
+ - "libmonitor@2020.10.15%gcc@7.5.0~dlopen+hpctoolkit~krellpatch arch=linux-ubuntu18.04-x86_64": spec-49.json
+ - "libmonitor@2021.04.27%gcc@9.3.0~commrank~dlopen+hpctoolkit arch=linux-rhel7-ppc64le": spec-50.json
+ - "libmonitor@2020.10.15%gcc@8.3.1+dlopen+hpctoolkit~krellpatch arch=linux-rhel8-x86_64": spec-51.json
+ - "libmonitor@2021.04.27%gcc@7.5.0~dlopen+hpctoolkit~krellpatch arch=linux-ubuntu18.04-x86_64": spec-52.json
+ - "libmonitor@2019.05.31%gcc@8.1.0~bgq+hpctoolkit~krellpatch arch=linux-rhel7-x86_64": spec-53.json
+ - "libmonitor@2019.05.31%gcc@8.1.0~bgq+hpctoolkit~krellpatch arch=linux-rhel7-ppc64le": spec-54.json
+ - "libmonitor@2019.05.31%gcc@8.1.0+hpctoolkit~krellpatch arch=linux-rhel7-ppc64le": spec-55.json
+ - "libmonitor@2021.04.27%gcc@9.3.0~dlopen+hpctoolkit~krellpatch arch=linux-ubuntu20.04-ppc64le": spec-56.json
+ - "libmonitor@2019.05.31%gcc@7.3.0~bgq+hpctoolkit~krellpatch arch=linux-rhel7-x86_64": spec-57.json
+ - "libmonitor@2021.04.27%gcc@8.1.0~dlopen+hpctoolkit~krellpatch arch=linux-rhel7-x86_64": spec-58.json
+ - "libmonitor@2021.04.27%gcc@9.3.0~commrank~dlopen+hpctoolkit arch=linux-rhel7-x86_64": spec-59.json
+ - "libmonitor@2019.05.31%gcc@7.5.0~bgq+hpctoolkit~krellpatch arch=linux-ubuntu18.04-ppc64le": spec-60.json
+ - "libmonitor@2018.07.18%gcc@7.3.0~bgq+hpctoolkit~krellpatch arch=linux-centos8-x86_64": spec-61.json
+ - "libmonitor@2019.05.31%gcc@7.5.0+hpctoolkit~krellpatch arch=linux-ubuntu18.04-x86_64": spec-62.json
+ - "libmonitor@2019.05.31%gcc@8.3.1+hpctoolkit~krellpatch arch=linux-rhel8-x86_64": spec-63.json
+ - "libmonitor@2019.05.31%gcc@8.1.0+hpctoolkit~krellpatch arch=linux-rhel7-ppc64le": spec-64.json
+ - "libmonitor@2019.05.31%gcc@8.1.0~bgq+hpctoolkit~krellpatch arch=linux-centos7-x86_64": spec-65.json
+ - "libmonitor@2019.05.31%gcc@9.3.0+hpctoolkit~krellpatch arch=linux-ubuntu20.04-ppc64le": spec-66.json
+ - "libmonitor@2021.04.27%gcc@8.3.1~commrank~dlopen+hpctoolkit arch=linux-rhel8-x86_64": spec-67.json
+ - "libmonitor@2019.05.31%gcc@9.3.0+hpctoolkit~krellpatch arch=linux-ubuntu20.04-x86_64": spec-68.json
+ - "libmonitor@2019.05.31%gcc@7.3.0~bgq+hpctoolkit~krellpatch arch=linux-ubuntu18.04-x86_64": spec-69.json
+ - "libmonitor@2021.04.27%gcc@7.5.0~dlopen+hpctoolkit~krellpatch arch=linux-ubuntu18.04-ppc64le": spec-70.json
+ - "libmonitor@2021.04.27%gcc@9.3.0~commrank~dlopen+hpctoolkit arch=cray-cnl7-haswell": spec-71.json
+ - "libmonitor@2020.10.15%gcc@7.5.0~dlopen+hpctoolkit~krellpatch arch=linux-ubuntu18.04-ppc64le": spec-72.json
+ - "libmonitor@2019.05.31%gcc@7.5.0~bgq+hpctoolkit~krellpatch arch=linux-ubuntu18.04-x86_64": spec-73.json
+ - "libmonitor@2019.05.31%gcc@7.5.0+hpctoolkit~krellpatch arch=linux-ubuntu18.04-aarch64": spec-74.json
+ - "libmonitor@2018.07.18%gcc@8.3.1~bgq+hpctoolkit~krellpatch arch=linux-rhel8-ppc64le": spec-75.json
+ - "libmonitor@2019.05.31%gcc@8.1.0+hpctoolkit~krellpatch arch=linux-rhel7-power8le": spec-76.json
+ - "libmonitor@2021.04.27%gcc@8.4.1~commrank~dlopen+hpctoolkit arch=linux-rhel8-x86_64": spec-77.json
+ - "libmonitor@2019.05.31%gcc@7.3.0~bgq+hpctoolkit~krellpatch arch=linux-centos8-x86_64": spec-78.json
+ - "libmonitor@2020.10.15%gcc@8.1.0+dlopen+hpctoolkit~krellpatch arch=linux-rhel7-x86_64": spec-79.json
+ - "libmonitor@2021.04.27%gcc@9.3.0~dlopen+hpctoolkit~krellpatch arch=linux-rhel7-ppc64le": spec-80.json
+ - "libmonitor@2019.05.31%gcc@7.5.0+hpctoolkit~krellpatch arch=linux-ubuntu18.04-power8le": spec-81.json
+ - "libmonitor@2019.05.31%gcc@8.1.0+hpctoolkit~krellpatch arch=linux-rhel7-x86_64": spec-82.json
+ - "libmonitor@2021.04.27%gcc@10.3.0~commrank~dlopen+hpctoolkit arch=linux-ubuntu21.04-ppc64le": spec-83.json
+ - "libmonitor@2019.05.31%gcc@8.3.1+hpctoolkit~krellpatch arch=linux-centos8-x86_64": spec-84.json
+ - "libmonitor@2019.05.31%gcc@8.1.0+hpctoolkit~krellpatch arch=linux-centos7-ppc64le": spec-85.json
+ - "libmonitor@2019.05.31%gcc@8.3.1~bgq+hpctoolkit~krellpatch arch=linux-rhel8-x86_64": spec-86.json
+ - "libmonitor@2018.07.18%gcc@8.3.1~bgq+hpctoolkit~krellpatch arch=linux-centos8-ppc64le": spec-87.json
+ - "libmonitor@2018.07.18%gcc@7.3.0~bgq+hpctoolkit~krellpatch arch=linux-rhel7-ppc64le": spec-88.json
+
+---

@@ -1,0 +1,103 @@
+---
+title: "openssl"
+layout: cache
+category: package
+meta: {"versions": ["1.1.1d", "1.1.1i", "1.1.1g", "1.1.1h", "1.1.1k", "1.0.2", "1.1.1j"], "compilers": ["gcc@8.3.1", "apple-clang@12.0.0", "gcc@9.3.0", "gcc@8.1.0", "gcc@7.5.0", "intel@19.1.3.304", "gcc@7.3.1", "gcc@8.4.1", "gcc@6.4.0", "xl@16.1", "gcc@7.3.0", "gcc@10.3.0", "gcc@7.4.0"]}
+spec_files: 
+ - "openssl@1.1.1i%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-0.json
+ - "openssl@1.1.1d%gcc@7.3.0+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-1.json
+ - "openssl@1.1.1j%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-2.json
+ - "openssl@1.1.1d%gcc@7.3.0+systemcerts arch=linux-centos8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos8-x86_64": spec-3.json
+ - "openssl@1.1.1g%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-4.json
+ - "openssl@1.1.1k%gcc@8.4.1~docs+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.4.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-5.json
+ - "openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le": spec-6.json
+ - "openssl@1.1.1k%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-7.json
+ - "openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-8.json
+ - "openssl@1.1.1g%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-9.json
+ - "openssl@1.1.1d%gcc@7.3.0+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-10.json
+ - "openssl@1.1.1g%gcc@7.3.0+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-11.json
+ - "openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-12.json
+ - "openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-13.json
+ - "openssl@1.1.1g%gcc@8.1.0+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-14.json
+ - "openssl@1.1.1d%gcc@7.3.0+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-15.json
+ - "openssl@1.1.1k%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-16.json
+ - "openssl@1.1.1k%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-17.json
+ - "openssl@1.1.1j%gcc@8.1.0+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-18.json
+ - "openssl@1.1.1k%gcc@8.4.1~docs+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.4.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-19.json
+ - "openssl@1.1.1j%gcc@7.3.1+systemcerts arch=linux-amzn2-x86_64 ^zlib@1.2.11%gcc@7.3.1+optimize+pic+shared arch=linux-amzn2-x86_64": spec-20.json
+ - "openssl@1.1.1d%gcc@7.3.0+systemcerts arch=linux-centos7-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos7-ppc64le": spec-21.json
+ - "openssl@1.1.1k%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-22.json
+ - "openssl@1.1.1i%gcc@8.3.1+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-23.json
+ - "openssl@1.1.1g%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-24.json
+ - "openssl@1.1.1g%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le": spec-25.json
+ - "openssl@1.1.1k%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-26.json
+ - "openssl@1.1.1k%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-27.json
+ - "openssl@1.1.1d%gcc@7.3.0+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel8-x86_64": spec-28.json
+ - "openssl@1.1.1g%gcc@7.3.0+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel8-x86_64": spec-29.json
+ - "openssl@1.1.1g%gcc@7.3.0+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-30.json
+ - "openssl@1.1.1i%gcc@8.1.0+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-31.json
+ - "openssl@1.1.1i%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-32.json
+ - "openssl@1.1.1g%gcc@7.3.0+systemcerts arch=linux-centos8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos8-x86_64": spec-33.json
+ - "openssl@1.1.1j%gcc@8.3.1+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-34.json
+ - "openssl@1.1.1i%gcc@8.1.0+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-35.json
+ - "openssl@1.1.1g%gcc@8.1.0+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-36.json
+ - "openssl@1.1.1g%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-aarch64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-aarch64": spec-37.json
+ - "openssl@1.1.1g%gcc@8.1.0+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-38.json
+ - "openssl@1.1.1j%gcc@8.1.0+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-39.json
+ - "openssl@1.1.1k%gcc@10.3.0~docs+systemcerts arch=linux-ubuntu21.04-x86_64 ^zlib@1.2.11%gcc@10.3.0+optimize+pic+shared arch=linux-ubuntu21.04-x86_64": spec-40.json
+ - "openssl@1.1.1g%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-41.json
+ - "openssl@1.1.1i%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-42.json
+ - "openssl@1.1.1d%gcc@7.3.0+systemcerts arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos7-x86_64": spec-43.json
+ - "openssl@1.1.1g%gcc@7.3.0+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-44.json
+ - "openssl@1.1.1i%gcc@8.3.1+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-45.json
+ - "openssl@1.1.1g%gcc@8.3.1+systemcerts arch=linux-centos8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-centos8-ppc64le": spec-46.json
+ - "openssl@1.1.1g%gcc@7.3.0+systemcerts arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos7-x86_64": spec-47.json
+ - "openssl@1.1.1j%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-48.json
+ - "openssl@1.1.1j%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-49.json
+ - "openssl@1.1.1h%gcc@8.3.1+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-50.json
+ - "openssl@1.1.1j%gcc@8.1.0~docs+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-51.json
+ - "openssl@1.1.1h%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-52.json
+ - "openssl@1.1.1g%gcc@8.3.1+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-53.json
+ - "openssl@1.1.1j%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-54.json
+ - "openssl@1.1.1j%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-55.json
+ - "openssl@1.1.1d%gcc@8.3.1+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-56.json
+ - "openssl@1.1.1g%gcc@8.3.1+systemcerts arch=linux-centos8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-centos8-x86_64": spec-57.json
+ - "openssl@1.1.1g%gcc@7.3.0+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-58.json
+ - "openssl@1.1.1j%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le": spec-59.json
+ - "openssl@1.1.1j%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-60.json
+ - "openssl@1.1.1h%gcc@8.1.0+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-61.json
+ - "openssl@1.1.1k%apple-clang@12.0.0~docs+systemcerts arch=darwin-catalina-x86_64 ^zlib@1.2.11%apple-clang@12.0.0+optimize+pic+shared arch=darwin-catalina-x86_64": spec-62.json
+ - "openssl@1.1.1d%gcc@7.3.0+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-63.json
+ - "openssl@1.1.1h%gcc@8.3.1+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-64.json
+ - "openssl@1.1.1j%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-65.json
+ - "openssl@1.1.1g%gcc@8.3.1+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-66.json
+ - "openssl@1.1.1d%gcc@8.3.1+systemcerts arch=linux-centos8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-centos8-ppc64le": spec-67.json
+ - "openssl@1.1.1j%gcc@7.5.0~docs+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-68.json
+ - "openssl@1.1.1k%gcc@10.3.0~docs+systemcerts arch=linux-ubuntu21.04-ppc64le ^zlib@1.2.11%gcc@10.3.0+optimize+pic+shared arch=linux-ubuntu21.04-ppc64le": spec-69.json
+ - "openssl@1.1.1h%gcc@8.1.0+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-70.json
+ - "openssl@1.1.1j%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le": spec-71.json
+ - "openssl@1.1.1k%gcc@9.3.0~docs+systemcerts arch=cray-cnl7-haswell ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=cray-cnl7-haswell": spec-72.json
+ - "openssl@1.1.1j%gcc@8.3.1~docs+systemcerts arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-73.json
+ - "openssl@1.1.1k%gcc@7.3.1~docs+systemcerts arch=linux-amzn2-x86_64 ^zlib@1.2.11%gcc@7.3.1+optimize+pic+shared arch=linux-amzn2-x86_64": spec-74.json
+ - "openssl@1.1.1g%gcc@8.1.0+systemcerts arch=linux-rhel7-power8le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-power8le": spec-75.json
+ - "openssl@1.1.1i%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le": spec-76.json
+ - "openssl@1.1.1h%gcc@9.3.0+systemcerts arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le": spec-77.json
+ - "openssl@1.1.1g%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-78.json
+ - "openssl@1.1.1d%gcc@7.4.0+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.4.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-79.json
+ - "openssl@1.1.1k%intel@19.1.3.304~docs+systemcerts arch=cray-cnl7-haswell ^zlib@1.2.11%intel@19.1.3.304+optimize+pic+shared arch=cray-cnl7-haswell": spec-80.json
+ - "openssl@1.1.1g%gcc@8.1.0+systemcerts arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-centos7-x86_64": spec-81.json
+ - "openssl@1.1.1j%gcc@7.3.1~docs+systemcerts arch=linux-amzn2-x86_64 ^zlib@1.2.11%gcc@7.3.1+optimize+pic+shared arch=linux-amzn2-x86_64": spec-82.json
+ - "openssl@1.1.1h%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-83.json
+ - "openssl@1.1.1g%gcc@8.1.0+systemcerts arch=linux-centos7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-centos7-ppc64le": spec-84.json
+ - "openssl@1.1.1g%gcc@8.1.0+systemcerts arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-85.json
+ - "openssl@1.1.1h%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-86.json
+ - "openssl@1.1.1j%gcc@8.3.1+systemcerts arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-87.json
+ - "openssl@1.1.1g%gcc@8.3.1+systemcerts arch=linux-rhel8-aarch64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-aarch64": spec-88.json
+ - "openssl@1.1.1k%gcc@7.4.0~docs+systemcerts arch=linux-rhel7-power9le ^zlib@1.2.11%gcc@7.4.0+optimize+pic+shared arch=linux-rhel7-power9le": spec-89.json
+ - "openssl@1.1.1g%gcc@7.5.0+systemcerts arch=linux-ubuntu18.04-power8le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-power8le": spec-90.json
+ - "openssl@1.1.1g%gcc@6.4.0+systemcerts arch=linux-rhel7-power9le ^zlib@1.2.11%gcc@6.4.0+optimize+pic+shared arch=linux-rhel7-power9le": spec-91.json
+ - "openssl@1.1.1g%xl@16.1 fflags="-qzerosize" +systemcerts arch=linux-rhel7-power9le ^zlib@1.2.11%xl@16.1 fflags="-qzerosize" +optimize+pic+shared arch=linux-rhel7-power9le": spec-92.json
+ - "openssl@1.0.2%gcc@7.4.0~docs+systemcerts arch=linux-rhel7-power9le": spec-93.json
+ - "openssl@1.1.1g%gcc@6.4.0+systemcerts arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@6.4.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-94.json
+
+---

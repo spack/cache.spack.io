@@ -1,0 +1,301 @@
+{
+    "spec": {
+        "_meta": {
+            "version": 2
+        },
+        "nodes": [
+            {
+                "name": "silo",
+                "version": "4.10.2",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "xl",
+                    "version": "16.1"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "fortran": true,
+                    "mpi": true,
+                    "patches": [
+                        "7b5a1dc2a0e358e667088d77e7caa780967fa8ea60be89c44986605df9990abe"
+                    ],
+                    "pic": true,
+                    "shared": true,
+                    "silex": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [
+                        "-qzerosize"
+                    ],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "7b5a1dc2a0e358e667088d77e7caa780967fa8ea60be89c44986605df9990abe"
+                ],
+                "dependencies": [
+                    {
+                        "name": "hdf5",
+                        "hash": "2bcqcxfqiwdrqkc3ihngrhhsqyynegc6",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "readline",
+                        "hash": "ewt5w5wnmkfi4n2k2u3fgbrz6kxn6uvc",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "spectrum-mpi",
+                        "hash": "ezhgvrofkdq4sg3oo6mfatzkib7gkvl4",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "hash": "quasq73tmp3kiadcuq7f274ahmaybxdw",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "gzbykkle36kujt5daf2lhwumiqumhhwo"
+            },
+            {
+                "name": "hdf5",
+                "version": "1.10.6",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "xl",
+                    "version": "16.1"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "api": "none",
+                    "cxx": false,
+                    "debug": false,
+                    "fortran": false,
+                    "hl": false,
+                    "java": false,
+                    "mpi": true,
+                    "pic": true,
+                    "shared": true,
+                    "szip": false,
+                    "threadsafe": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [
+                        "-qzerosize"
+                    ],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "spectrum-mpi",
+                        "hash": "ezhgvrofkdq4sg3oo6mfatzkib7gkvl4",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "hash": "quasq73tmp3kiadcuq7f274ahmaybxdw",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "2bcqcxfqiwdrqkc3ihngrhhsqyynegc6"
+            },
+            {
+                "name": "spectrum-mpi",
+                "version": "10.3.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "xl",
+                    "version": "16.1"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [
+                        "-qzerosize"
+                    ],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "external": {
+                    "path": "/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/xl-16.1.1-5/spectrum-mpi-10.3.1.2-20200121-p6nrnt6vtvkn356wqg6f74n6jspnpjd2",
+                    "module": [
+                        "spectrum-mpi/10.3.1.2-20200121"
+                    ],
+                    "extra_attributes": {}
+                },
+                "hash": "ezhgvrofkdq4sg3oo6mfatzkib7gkvl4"
+            },
+            {
+                "name": "zlib",
+                "version": "1.2.11",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "xl",
+                    "version": "16.1"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "optimize": true,
+                    "pic": true,
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [
+                        "-qzerosize"
+                    ],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "quasq73tmp3kiadcuq7f274ahmaybxdw"
+            },
+            {
+                "name": "readline",
+                "version": "8.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "xl",
+                    "version": "16.1"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [
+                        "-qzerosize"
+                    ],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "ncurses",
+                        "hash": "uszrlwxzdwe3nyj2hwhb3jkhtc5lgpkv",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "ewt5w5wnmkfi4n2k2u3fgbrz6kxn6uvc"
+            },
+            {
+                "name": "ncurses",
+                "version": "6.2",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power8le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 8,
+                        "parents": [
+                            "ppc64le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "4.8.5"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "symlinks": false,
+                    "termlib": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "uszrlwxzdwe3nyj2hwhb3jkhtc5lgpkv"
+            }
+        ]
+    }
+}

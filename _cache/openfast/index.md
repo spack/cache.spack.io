@@ -1,0 +1,9 @@
+---
+title: "openfast"
+layout: cache
+category: package
+meta: {"versions": ["master"], "compilers": ["apple-clang@12.0.0"]}
+spec_files: 
+ - "openfast@master%apple-clang@12.0.0+cxx+dll-interface+double-precision~ipo+pic+shared build_type=RelWithDebInfo arch=darwin-catalina-x86_64 ^hdf5@1.10.7%apple-clang@12.0.0+cxx~debug~fortran+hl~java+mpi+pic+shared~szip~threadsafe api=none arch=darwin-catalina-x86_64 ^hwloc@2.4.1%apple-clang@12.0.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~pci+shared arch=darwin-catalina-x86_64 ^libedit@3.1-20210216%apple-clang@12.0.0 arch=darwin-catalina-x86_64 ^libevent@2.1.12%apple-clang@12.0.0+openssl arch=darwin-catalina-x86_64 ^libiconv@1.16%apple-clang@12.0.0 arch=darwin-catalina-x86_64 ^libxml2@2.9.10%apple-clang@12.0.0~python arch=darwin-catalina-x86_64 ^ncurses@6.2%apple-clang@12.0.0~symlinks+termlib abi=none arch=darwin-catalina-x86_64 ^netlib-lapack@3.9.1%apple-clang@12.0.0~external-blas~ipo+lapacke+shared~xblas build_type=Release arch=darwin-catalina-x86_64 ^openmpi@4.0.5%apple-clang@12.0.0~atomics~cuda~cxx~cxx_exceptions+gpfs~internal-hwloc~java~legacylaunchers~lustre~memchecker~pmi~singularity~sqlite3+static~thread_multiple+vt+wrapper-rpath fabrics=none patches=60ce20b schedulers=none arch=darwin-catalina-x86_64 ^openssh@8.5p1%apple-clang@12.0.0 arch=darwin-catalina-x86_64 ^openssl@1.1.1k%apple-clang@12.0.0~docs+systemcerts arch=darwin-catalina-x86_64 ^xz@5.2.5%apple-clang@12.0.0~pic libs=shared,static arch=darwin-catalina-x86_64 ^yaml-cpp@0.6.3%apple-clang@12.0.0~ipo+pic+shared~tests build_type=Release arch=darwin-catalina-x86_64 ^zlib@1.2.11%apple-clang@12.0.0+optimize+pic+shared arch=darwin-catalina-x86_64": spec-0.json
+
+---

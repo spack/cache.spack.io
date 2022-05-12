@@ -1,0 +1,339 @@
+{
+    "spec": {
+        "_meta": {
+            "version": 2
+        },
+        "nodes": [
+            {
+                "name": "superlu-dist",
+                "version": "5.1.3",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "sandybridge",
+                        "vendor": "GenuineIntel",
+                        "features": [
+                            "aes",
+                            "avx",
+                            "mmx",
+                            "pclmulqdq",
+                            "popcnt",
+                            "sse",
+                            "sse2",
+                            "sse4_1",
+                            "sse4_2",
+                            "ssse3"
+                        ],
+                        "generation": 0,
+                        "parents": [
+                            "westmere"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.4.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "build_type": "RelWithDebInfo",
+                    "int64": false,
+                    "openmp": false,
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "metis",
+                        "hash": "rikq4dztfx6q6x54x3kyzd5ynwty4kzw",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "netlib-lapack",
+                        "hash": "ng43m4kw6iqfwppqcswrvguulaxejo2k",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "openmpi",
+                        "hash": "i2qj3lw2z7zdjugkbwtgwzk7uiblppod",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "parmetis",
+                        "hash": "afqjwkxvnyb63hkv3xl2hfdslfqme6cz",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "67u6coy7yw7fgijv2wpn2x3twv4fn3fz"
+            },
+            {
+                "name": "metis",
+                "version": "5.1.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "sandybridge",
+                        "vendor": "GenuineIntel",
+                        "features": [
+                            "aes",
+                            "avx",
+                            "mmx",
+                            "pclmulqdq",
+                            "popcnt",
+                            "sse",
+                            "sse2",
+                            "sse4_1",
+                            "sse4_2",
+                            "ssse3"
+                        ],
+                        "generation": 0,
+                        "parents": [
+                            "westmere"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.4.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "build_type": "Release",
+                    "gdb": false,
+                    "int64": false,
+                    "patches": [
+                        "4991da938c1d3a1d3dea78e49bbebecba00273f98df2a656e38b83d55b281da1",
+                        "b1225da886605ea558db7ac08dd8054742ea5afe5ed61ad4d0fe7a495b1270d2"
+                    ],
+                    "real64": true,
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "4991da938c1d3a1d3dea78e49bbebecba00273f98df2a656e38b83d55b281da1",
+                    "b1225da886605ea558db7ac08dd8054742ea5afe5ed61ad4d0fe7a495b1270d2"
+                ],
+                "hash": "rikq4dztfx6q6x54x3kyzd5ynwty4kzw"
+            },
+            {
+                "name": "netlib-lapack",
+                "version": "3.8.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "sandybridge",
+                        "vendor": "GenuineIntel",
+                        "features": [
+                            "aes",
+                            "avx",
+                            "mmx",
+                            "pclmulqdq",
+                            "popcnt",
+                            "sse",
+                            "sse2",
+                            "sse4_1",
+                            "sse4_2",
+                            "ssse3"
+                        ],
+                        "generation": 0,
+                        "parents": [
+                            "westmere"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.4.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "build_type": "RelWithDebInfo",
+                    "external-blas": false,
+                    "lapacke": true,
+                    "patches": [
+                        "5c79286f3d08a0b0f1f3acba2a92ee698647716ba8c6c0ae20c9cc2713e6f139",
+                        "ad3d41fe9ff94b7661e09fceaf2b2e4b8c83510c1465c016e161541b4429b5ee"
+                    ],
+                    "shared": true,
+                    "xblas": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "external": {
+                    "path": "/autofs/nccs-svm1_sw/rhea/.swci/0-core/opt/spack/20191017/linux-rhel7-x86_64/gcc-8.4.0/netlib-lapack-3.8.0-dawhaqkqdpvifacm6ljq7mgzxlab2rdj",
+                    "module": null,
+                    "extra_attributes": {}
+                },
+                "patches": [
+                    "5c79286f3d08a0b0f1f3acba2a92ee698647716ba8c6c0ae20c9cc2713e6f139",
+                    "ad3d41fe9ff94b7661e09fceaf2b2e4b8c83510c1465c016e161541b4429b5ee"
+                ],
+                "hash": "ng43m4kw6iqfwppqcswrvguulaxejo2k"
+            },
+            {
+                "name": "openmpi",
+                "version": "3.1.4",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "sandybridge",
+                        "vendor": "GenuineIntel",
+                        "features": [
+                            "aes",
+                            "avx",
+                            "mmx",
+                            "pclmulqdq",
+                            "popcnt",
+                            "sse",
+                            "sse2",
+                            "sse4_1",
+                            "sse4_2",
+                            "ssse3"
+                        ],
+                        "generation": 0,
+                        "parents": [
+                            "westmere"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.4.0"
+                },
+                "namespace": "olcf",
+                "parameters": {
+                    "cuda": false,
+                    "cxx_exceptions": true,
+                    "fabrics": [
+                        "ucx"
+                    ],
+                    "java": false,
+                    "legacylaunchers": true,
+                    "memchecker": false,
+                    "pmi": true,
+                    "schedulers": [
+                        "slurm"
+                    ],
+                    "sqlite3": false,
+                    "thread_multiple": true,
+                    "vt": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "external": {
+                    "path": "/autofs/nccs-svm1_sw/rhea/.swci/0-core/opt/spack/20191017/linux-rhel7-x86_64/gcc-8.4.0/openmpi-3.1.4-bmn7or3eq2xi2sol4f7yvlpnwniut7yd",
+                    "module": null,
+                    "extra_attributes": {}
+                },
+                "hash": "i2qj3lw2z7zdjugkbwtgwzk7uiblppod"
+            },
+            {
+                "name": "parmetis",
+                "version": "4.0.3",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "sandybridge",
+                        "vendor": "GenuineIntel",
+                        "features": [
+                            "aes",
+                            "avx",
+                            "mmx",
+                            "pclmulqdq",
+                            "popcnt",
+                            "sse",
+                            "sse2",
+                            "sse4_1",
+                            "sse4_2",
+                            "ssse3"
+                        ],
+                        "generation": 0,
+                        "parents": [
+                            "westmere"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "8.4.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "build_type": "RelWithDebInfo",
+                    "gdb": false,
+                    "patches": [
+                        "4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b",
+                        "50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870",
+                        "704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d"
+                    ],
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870",
+                    "4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b",
+                    "704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d"
+                ],
+                "dependencies": [
+                    {
+                        "name": "metis",
+                        "hash": "rikq4dztfx6q6x54x3kyzd5ynwty4kzw",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "openmpi",
+                        "hash": "i2qj3lw2z7zdjugkbwtgwzk7uiblppod",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "afqjwkxvnyb63hkv3xl2hfdslfqme6cz"
+            }
+        ]
+    }
+}

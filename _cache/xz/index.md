@@ -1,0 +1,89 @@
+---
+title: "xz"
+layout: cache
+category: package
+meta: {"versions": ["5.2.4", "5.2.5"], "compilers": ["gcc@8.3.1", "apple-clang@12.0.0", "gcc@8.4.0", "gcc@9.3.0", "gcc@8.1.0", "gcc@7.5.0", "intel@19.1.3.304", "gcc@7.3.1", "gcc@8.4.1", "gcc@6.4.0", "xl@16.1", "gcc@7.3.0", "gcc@10.3.0", "gcc@7.4.0"]}
+spec_files: 
+ - "xz@5.2.5%gcc@9.3.0~pic arch=linux-ubuntu20.04-x86_64": spec-0.json
+ - "xz@5.2.4%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le": spec-1.json
+ - "xz@5.2.5%gcc@7.5.0+pic libs=shared,static arch=linux-ubuntu18.04-x86_64": spec-2.json
+ - "xz@5.2.4%gcc@7.3.0 arch=linux-centos8-x86_64": spec-3.json
+ - "xz@5.2.5%gcc@8.3.1+pic arch=linux-rhel8-ppc64le": spec-4.json
+ - "xz@5.2.5%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64": spec-5.json
+ - "xz@5.2.5%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64": spec-6.json
+ - "xz@5.2.5%gcc@8.3.1+pic libs=shared,static arch=linux-rhel8-ppc64le": spec-7.json
+ - "xz@5.2.5%gcc@8.3.1+pic arch=linux-rhel8-x86_64": spec-8.json
+ - "xz@5.2.5%gcc@9.3.0~pic arch=linux-ubuntu20.04-ppc64le": spec-9.json
+ - "xz@5.2.5%gcc@8.3.1+pic libs=shared,static arch=linux-rhel8-x86_64": spec-10.json
+ - "xz@5.2.5%gcc@9.3.0+pic libs=shared,static arch=linux-ubuntu20.04-ppc64le": spec-11.json
+ - "xz@5.2.5%gcc@9.3.0+pic libs=shared,static arch=linux-rhel7-ppc64le": spec-12.json
+ - "xz@5.2.5%gcc@9.3.0+pic libs=shared,static arch=linux-ubuntu20.04-x86_64": spec-13.json
+ - "xz@5.2.5%gcc@9.3.0+pic arch=linux-ubuntu20.04-x86_64": spec-14.json
+ - "xz@5.2.5%gcc@8.1.0 arch=linux-rhel7-x86_64": spec-15.json
+ - "xz@5.2.5%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-16.json
+ - "xz@5.2.5%gcc@8.3.1~pic arch=linux-rhel8-x86_64": spec-17.json
+ - "xz@5.2.4%gcc@7.3.0 arch=linux-rhel7-x86_64": spec-18.json
+ - "xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-x86_64": spec-19.json
+ - "xz@5.2.5%gcc@9.3.0+pic libs=shared,static arch=linux-rhel7-x86_64": spec-20.json
+ - "xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-x86_64": spec-21.json
+ - "xz@5.2.5%gcc@8.1.0 arch=linux-centos7-x86_64": spec-22.json
+ - "xz@5.2.5%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64": spec-23.json
+ - "xz@5.2.5%gcc@7.3.0 arch=linux-rhel7-x86_64": spec-24.json
+ - "xz@5.2.4%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64": spec-25.json
+ - "xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-ppc64le": spec-26.json
+ - "xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-ppc64le": spec-27.json
+ - "xz@5.2.5%gcc@8.4.1+pic libs=shared,static arch=linux-rhel8-ppc64le": spec-28.json
+ - "xz@5.2.5%gcc@7.3.1~pic arch=linux-amzn2-x86_64": spec-29.json
+ - "xz@5.2.4%gcc@7.3.0 arch=linux-centos7-ppc64le": spec-30.json
+ - "xz@5.2.5%gcc@8.1.0+pic libs=shared,static arch=linux-rhel7-x86_64": spec-31.json
+ - "xz@5.2.5%gcc@8.3.1~pic arch=linux-rhel8-ppc64le": spec-32.json
+ - "xz@5.2.5%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le": spec-33.json
+ - "xz@5.2.5%gcc@8.1.0+pic arch=linux-rhel7-x86_64": spec-34.json
+ - "xz@5.2.5%gcc@7.5.0+pic arch=linux-ubuntu18.04-x86_64": spec-35.json
+ - "xz@5.2.5%gcc@10.3.0+pic libs=shared,static arch=linux-ubuntu21.04-x86_64": spec-36.json
+ - "xz@5.2.4%gcc@7.3.0 arch=linux-rhel8-x86_64": spec-37.json
+ - "xz@5.2.5%gcc@7.3.0 arch=linux-rhel8-x86_64": spec-38.json
+ - "xz@5.2.5%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le": spec-39.json
+ - "xz@5.2.5%gcc@7.5.0+pic libs=shared,static arch=linux-ubuntu18.04-ppc64le": spec-40.json
+ - "xz@5.2.5%gcc@8.3.1 arch=linux-rhel8-ppc64le": spec-41.json
+ - "xz@5.2.5%gcc@7.3.0 arch=linux-centos8-x86_64": spec-42.json
+ - "xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-aarch64": spec-43.json
+ - "xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-ppc64le": spec-44.json
+ - "xz@5.2.5%gcc@7.3.0 arch=linux-centos7-x86_64": spec-45.json
+ - "xz@5.2.5%gcc@8.1.0 arch=linux-rhel7-ppc64le": spec-46.json
+ - "xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-ppc64le": spec-47.json
+ - "xz@5.2.4%gcc@7.3.0 arch=linux-centos7-x86_64": spec-48.json
+ - "xz@5.2.5%gcc@8.3.1 arch=linux-centos8-ppc64le": spec-49.json
+ - "xz@5.2.5%gcc@7.5.0+pic arch=linux-ubuntu18.04-ppc64le": spec-50.json
+ - "xz@5.2.5%gcc@10.3.0+pic libs=shared,static arch=linux-ubuntu21.04-ppc64le": spec-51.json
+ - "xz@5.2.5%gcc@9.3.0+pic arch=linux-ubuntu20.04-ppc64le": spec-52.json
+ - "xz@5.2.4%gcc@8.3.1 arch=linux-rhel8-ppc64le": spec-53.json
+ - "xz@5.2.5%gcc@8.3.1 arch=linux-centos8-x86_64": spec-54.json
+ - "xz@5.2.5%gcc@8.1.0 arch=linux-centos7-ppc64le": spec-55.json
+ - "xz@5.2.5%gcc@7.3.0 arch=linux-rhel7-ppc64le": spec-56.json
+ - "xz@5.2.5%gcc@8.1.0+pic libs=shared,static arch=linux-rhel7-ppc64le": spec-57.json
+ - "xz@5.2.5%gcc@8.1.0~pic arch=linux-centos7-ppc64le": spec-58.json
+ - "xz@5.2.4%gcc@7.3.0 arch=linux-rhel7-ppc64le": spec-59.json
+ - "xz@5.2.4%gcc@8.3.1 arch=linux-centos8-ppc64le": spec-60.json
+ - "xz@5.2.5%intel@19.1.3.304+pic libs=shared,static arch=cray-cnl7-haswell": spec-61.json
+ - "xz@5.2.5%gcc@8.3.1 arch=linux-rhel8-x86_64": spec-62.json
+ - "xz@5.2.5%gcc@8.3.1~pic arch=linux-rhel8-aarch64": spec-63.json
+ - "xz@5.2.5%gcc@9.3.0+pic libs=shared,static arch=cray-cnl7-haswell": spec-64.json
+ - "xz@5.2.5%gcc@7.4.0+pic arch=linux-rhel7-power9le": spec-65.json
+ - "xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-power8le": spec-66.json
+ - "xz@5.2.5%gcc@8.4.1+pic libs=shared,static arch=linux-rhel8-x86_64": spec-67.json
+ - "xz@5.2.5%gcc@8.1.0+pic arch=linux-rhel7-ppc64le": spec-68.json
+ - "xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-x86_64": spec-69.json
+ - "xz@5.2.4%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64": spec-70.json
+ - "xz@5.2.5%gcc@8.1.0~pic arch=linux-centos7-x86_64": spec-71.json
+ - "xz@5.2.5%gcc@8.1.0~pic arch=linux-rhel7-x86_64": spec-72.json
+ - "xz@5.2.5%gcc@7.3.1+pic arch=linux-amzn2-x86_64": spec-73.json
+ - "xz@5.2.5%apple-clang@12.0.0~pic libs=shared,static arch=darwin-catalina-x86_64": spec-74.json
+ - "xz@5.2.5%gcc@6.4.0 arch=linux-rhel7-power9le": spec-75.json
+ - "xz@5.2.4%gcc@8.4.0 arch=linux-rhel7-sandybridge": spec-76.json
+ - "xz@5.2.5%gcc@7.5.0~pic arch=linux-ubuntu18.04-power8le": spec-77.json
+ - "xz@5.2.5%gcc@6.4.0 arch=linux-rhel7-ppc64le": spec-78.json
+ - "xz@5.2.5%xl@16.1 fflags="-qzerosize"  arch=linux-rhel7-power9le": spec-79.json
+ - "xz@5.2.5%apple-clang@12.0.0~pic libs=shared,static arch=darwin-catalina-haswell": spec-80.json
+
+---

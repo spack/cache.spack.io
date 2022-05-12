@@ -1,0 +1,453 @@
+{
+    "spec": {
+        "_meta": {
+            "version": 2
+        },
+        "nodes": [
+            {
+                "name": "ascent",
+                "version": "develop",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "6.4.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "adios": false,
+                    "babelflow": false,
+                    "cuda": true,
+                    "cuda_arch": [
+                        "none"
+                    ],
+                    "doc": false,
+                    "dray": false,
+                    "fortran": true,
+                    "mfem": false,
+                    "mpi": true,
+                    "openmp": false,
+                    "python": false,
+                    "serial": true,
+                    "shared": false,
+                    "test": true,
+                    "vtkh": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "conduit",
+                        "hash": "sfkkmap54hz2dj6cp56slm3r32r75tgx",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "cuda",
+                        "hash": "nsoobq6k4bfhsydgdevvg33gihffdfi7",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "spectrum-mpi",
+                        "hash": "yt6hbkf54i5cisur4kgajfye6ihrxgtx",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "vtk-h",
+                        "hash": "tozamjbelu2f225p6xxzjpxssx6tf3zq",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "73fhmsuoi6zzu5ibfj3m2jbknlk7avfv"
+            },
+            {
+                "name": "conduit",
+                "version": "master",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "6.4.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "adios": false,
+                    "doc": false,
+                    "doxygen": false,
+                    "fortran": true,
+                    "hdf5": true,
+                    "hdf5_compat": true,
+                    "mpi": true,
+                    "python": false,
+                    "shared": false,
+                    "silo": false,
+                    "test": true,
+                    "zfp": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "hdf5",
+                        "hash": "nbpu4zac4xi4qhpoajw4oj4xk7zapcc4",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "spectrum-mpi",
+                        "hash": "yt6hbkf54i5cisur4kgajfye6ihrxgtx",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "sfkkmap54hz2dj6cp56slm3r32r75tgx"
+            },
+            {
+                "name": "hdf5",
+                "version": "1.8.21",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "6.4.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "api": "none",
+                    "cxx": false,
+                    "debug": false,
+                    "fortran": false,
+                    "hl": false,
+                    "java": false,
+                    "mpi": true,
+                    "patches": [
+                        "b61e2f058964ad85be6ee5ecea10080bf79e73f83ff88d1fa4b602d00209da9c"
+                    ],
+                    "pic": true,
+                    "shared": false,
+                    "szip": false,
+                    "threadsafe": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "b61e2f058964ad85be6ee5ecea10080bf79e73f83ff88d1fa4b602d00209da9c"
+                ],
+                "dependencies": [
+                    {
+                        "name": "spectrum-mpi",
+                        "hash": "yt6hbkf54i5cisur4kgajfye6ihrxgtx",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "hash": "nbedgs2trwkh66g4rdjp7u3bw2ctx3bi",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "nbpu4zac4xi4qhpoajw4oj4xk7zapcc4"
+            },
+            {
+                "name": "spectrum-mpi",
+                "version": "10.03.01",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "6.4.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "external": {
+                    "path": "/packages/spectrum_mpi/10.03.01",
+                    "module": "spectrum_mpi/10.03.01",
+                    "extra_attributes": {}
+                },
+                "hash": "yt6hbkf54i5cisur4kgajfye6ihrxgtx"
+            },
+            {
+                "name": "zlib",
+                "version": "1.2.11",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "6.4.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "optimize": true,
+                    "pic": true,
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "nbedgs2trwkh66g4rdjp7u3bw2ctx3bi"
+            },
+            {
+                "name": "cuda",
+                "version": "10.2.89",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "6.4.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "external": {
+                    "path": "/usr/local/cuda",
+                    "module": null,
+                    "extra_attributes": {}
+                },
+                "hash": "nsoobq6k4bfhsydgdevvg33gihffdfi7"
+            },
+            {
+                "name": "vtk-h",
+                "version": "0.6.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "6.4.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "contourtree": false,
+                    "cuda": true,
+                    "cuda_arch": [
+                        "70"
+                    ],
+                    "logging": false,
+                    "mpi": true,
+                    "openmp": false,
+                    "serial": true,
+                    "shared": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "cuda",
+                        "hash": "nsoobq6k4bfhsydgdevvg33gihffdfi7",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "spectrum-mpi",
+                        "hash": "yt6hbkf54i5cisur4kgajfye6ihrxgtx",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "vtk-m",
+                        "hash": "td2qt4sizdjrde3o6vq7fk2fsfpeihcb",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "tozamjbelu2f225p6xxzjpxssx6tf3zq"
+            },
+            {
+                "name": "vtk-m",
+                "version": "ascent_ver",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "6.4.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "64bitids": false,
+                    "build_type": "Release",
+                    "cuda": true,
+                    "cuda_arch": [
+                        "70"
+                    ],
+                    "doubleprecision": true,
+                    "logging": false,
+                    "mpi": false,
+                    "openmp": false,
+                    "patches": [
+                        "d0d40fc18b80683d31174f9f8cb479e860f7a9a191bee4a61bef31f6a415ac6f",
+                        "f903bf98ac66ce26c8383bc7cdb2623651f9d172ebcf296e3b4361188e0e5975"
+                    ],
+                    "rendering": true,
+                    "shared": false,
+                    "tbb": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "f903bf98ac66ce26c8383bc7cdb2623651f9d172ebcf296e3b4361188e0e5975",
+                    "d0d40fc18b80683d31174f9f8cb479e860f7a9a191bee4a61bef31f6a415ac6f"
+                ],
+                "dependencies": [
+                    {
+                        "name": "cuda",
+                        "hash": "nsoobq6k4bfhsydgdevvg33gihffdfi7",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "td2qt4sizdjrde3o6vq7fk2fsfpeihcb"
+            }
+        ]
+    }
+}

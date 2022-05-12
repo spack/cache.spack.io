@@ -1,0 +1,78 @@
+---
+title: "libzmq"
+layout: cache
+category: package
+meta: {"versions": ["4.3.3", "4.3.2"], "compilers": ["gcc@8.3.1", "gcc@8.4.0", "gcc@9.3.0", "gcc@8.1.0", "gcc@7.5.0", "intel@19.1.3.304", "gcc@7.3.1", "gcc@8.4.1", "gcc@7.3.0", "gcc@10.3.0", "gcc@7.4.0"]}
+spec_files: 
+ - "libzmq@4.3.3%gcc@9.3.0~drafts+libsodium arch=linux-rhel7-x86_64 ^libbsd@0.10.0%gcc@9.3.0 arch=linux-rhel7-x86_64 ^libsodium@1.0.18%gcc@9.3.0 arch=linux-rhel7-x86_64": spec-0.json
+ - "libzmq@4.3.3%gcc@9.3.0~drafts+libsodium arch=linux-ubuntu20.04-x86_64 ^libbsd@0.10.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libsodium@1.0.18%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64": spec-1.json
+ - "libzmq@4.3.2%gcc@7.3.0+libsodium arch=linux-centos7-ppc64le ^libsodium@1.0.18%gcc@7.3.0 arch=linux-centos7-ppc64le": spec-2.json
+ - "libzmq@4.3.2%gcc@7.5.0+libsodium arch=linux-ubuntu18.04-ppc64le ^libsodium@1.0.18%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-3.json
+ - "libzmq@4.3.3%gcc@8.1.0~drafts+libsodium arch=linux-rhel7-x86_64 ^libbsd@0.10.0%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libsodium@1.0.18%gcc@8.1.0 arch=linux-rhel7-x86_64": spec-4.json
+ - "libzmq@4.3.2%gcc@8.1.0+libsodium arch=linux-rhel7-ppc64le ^libsodium@1.0.18%gcc@8.1.0 arch=linux-rhel7-ppc64le": spec-5.json
+ - "libzmq@4.3.2%gcc@7.3.0+libsodium arch=linux-centos8-x86_64 ^libsodium@1.0.18%gcc@7.3.0 arch=linux-centos8-x86_64": spec-6.json
+ - "libzmq@4.3.3%gcc@10.3.0~drafts+libsodium arch=linux-ubuntu21.04-x86_64 ^libbsd@0.11.3%gcc@10.3.0 arch=linux-ubuntu21.04-x86_64 ^libmd@1.0.3%gcc@10.3.0 arch=linux-ubuntu21.04-x86_64 ^libsodium@1.0.18%gcc@10.3.0 arch=linux-ubuntu21.04-x86_64": spec-7.json
+ - "libzmq@4.3.2%gcc@7.5.0+libsodium arch=linux-ubuntu18.04-ppc64le ^libsodium@1.0.18%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-8.json
+ - "libzmq@4.3.2%gcc@8.1.0+libsodium arch=linux-rhel7-x86_64 ^libsodium@1.0.18%gcc@8.1.0 arch=linux-rhel7-x86_64": spec-9.json
+ - "libzmq@4.3.3%gcc@8.3.1~drafts+libsodium arch=linux-rhel8-ppc64le ^libbsd@0.11.3%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libmd@1.0.3%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libsodium@1.0.18%gcc@8.3.1 arch=linux-rhel8-ppc64le": spec-10.json
+ - "libzmq@4.3.2%gcc@9.3.0+libsodium arch=linux-ubuntu20.04-ppc64le ^libsodium@1.0.18%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le": spec-11.json
+ - "libzmq@4.3.2%gcc@7.5.0+libsodium arch=linux-ubuntu18.04-x86_64 ^libsodium@1.0.18%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64": spec-12.json
+ - "libzmq@4.3.3%gcc@9.3.0~drafts+libsodium arch=linux-ubuntu20.04-x86_64 ^libbsd@0.11.3%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libmd@1.0.3%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libsodium@1.0.18%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64": spec-13.json
+ - "libzmq@4.3.3%gcc@9.3.0+libsodium arch=linux-ubuntu20.04-ppc64le ^libsodium@1.0.18%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le": spec-14.json
+ - "libzmq@4.3.2%gcc@9.3.0+libsodium arch=linux-ubuntu20.04-x86_64 ^libsodium@1.0.18%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64": spec-15.json
+ - "libzmq@4.3.3%gcc@8.1.0+libsodium arch=linux-rhel7-ppc64le ^libbsd@0.10.0%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libsodium@1.0.18%gcc@8.1.0 arch=linux-rhel7-ppc64le": spec-16.json
+ - "libzmq@4.3.3%gcc@7.5.0~drafts+libsodium arch=linux-ubuntu18.04-x86_64 ^libbsd@0.10.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libsodium@1.0.18%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64": spec-17.json
+ - "libzmq@4.3.2%gcc@7.3.0+libsodium arch=linux-rhel7-ppc64le ^libsodium@1.0.18%gcc@7.3.0 arch=linux-rhel7-ppc64le": spec-18.json
+ - "libzmq@4.3.2%gcc@7.3.0+libsodium arch=linux-centos7-x86_64 ^libsodium@1.0.18%gcc@7.3.0 arch=linux-centos7-x86_64": spec-19.json
+ - "libzmq@4.3.2%gcc@7.3.0+libsodium arch=linux-rhel8-x86_64 ^libsodium@1.0.18%gcc@7.3.0 arch=linux-rhel8-x86_64": spec-20.json
+ - "libzmq@4.3.3%gcc@9.3.0~drafts+libsodium arch=linux-rhel7-ppc64le ^libbsd@0.10.0%gcc@9.3.0 arch=linux-rhel7-ppc64le ^libsodium@1.0.18%gcc@9.3.0 arch=linux-rhel7-ppc64le": spec-21.json
+ - "libzmq@4.3.2%gcc@8.1.0+libsodium arch=linux-rhel7-ppc64le ^libsodium@1.0.18%gcc@8.1.0 arch=linux-rhel7-ppc64le": spec-22.json
+ - "libzmq@4.3.3%gcc@8.3.1+libsodium arch=linux-rhel8-x86_64 ^libbsd@0.10.0%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libsodium@1.0.18%gcc@8.3.1 arch=linux-rhel8-x86_64": spec-23.json
+ - "libzmq@4.3.3%gcc@7.5.0~drafts+libsodium arch=linux-ubuntu18.04-ppc64le ^libbsd@0.11.3%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libmd@1.0.3%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libsodium@1.0.18%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-24.json
+ - "libzmq@4.3.3%gcc@8.3.1~drafts+libsodium arch=linux-rhel8-ppc64le ^libbsd@0.10.0%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libsodium@1.0.18%gcc@8.3.1 arch=linux-rhel8-ppc64le": spec-25.json
+ - "libzmq@4.3.3%gcc@7.3.1~drafts+libsodium arch=linux-amzn2-x86_64 ^libbsd@0.10.0%gcc@7.3.1 arch=linux-amzn2-x86_64 ^libsodium@1.0.18%gcc@7.3.1 arch=linux-amzn2-x86_64": spec-26.json
+ - "libzmq@4.3.2%gcc@7.5.0+libsodium arch=linux-ubuntu18.04-x86_64 ^libsodium@1.0.18%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64": spec-27.json
+ - "libzmq@4.3.2%gcc@7.3.0+libsodium arch=linux-ubuntu18.04-x86_64 ^libsodium@1.0.18%gcc@7.3.0 arch=linux-ubuntu18.04-x86_64": spec-28.json
+ - "libzmq@4.3.3%gcc@9.3.0+libsodium arch=linux-ubuntu20.04-x86_64 ^libsodium@1.0.18%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64": spec-29.json
+ - "libzmq@4.3.3%gcc@10.3.0~drafts+libsodium arch=linux-ubuntu21.04-ppc64le ^libbsd@0.11.3%gcc@10.3.0 arch=linux-ubuntu21.04-ppc64le ^libmd@1.0.3%gcc@10.3.0 arch=linux-ubuntu21.04-ppc64le ^libsodium@1.0.18%gcc@10.3.0 arch=linux-ubuntu21.04-ppc64le": spec-30.json
+ - "libzmq@4.3.3%gcc@8.3.1+libsodium arch=linux-rhel8-x86_64 ^libsodium@1.0.18%gcc@8.3.1 arch=linux-rhel8-x86_64": spec-31.json
+ - "libzmq@4.3.2%gcc@8.3.1+libsodium arch=linux-centos8-ppc64le ^libsodium@1.0.18%gcc@8.3.1 arch=linux-centos8-ppc64le": spec-32.json
+ - "libzmq@4.3.2%gcc@7.3.0+libsodium arch=linux-ubuntu18.04-ppc64le ^libsodium@1.0.18%gcc@7.3.0 arch=linux-ubuntu18.04-ppc64le": spec-33.json
+ - "libzmq@4.3.3%gcc@8.1.0~drafts+libsodium arch=linux-rhel7-ppc64le ^libbsd@0.10.0%gcc@8.1.0 arch=linux-rhel7-ppc64le ^libsodium@1.0.18%gcc@8.1.0 arch=linux-rhel7-ppc64le": spec-34.json
+ - "libzmq@4.3.3%gcc@8.3.1~drafts+libsodium arch=linux-rhel8-x86_64 ^libbsd@0.10.0%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libsodium@1.0.18%gcc@8.3.1 arch=linux-rhel8-x86_64": spec-35.json
+ - "libzmq@4.3.2%gcc@8.1.0+libsodium arch=linux-rhel7-x86_64 ^libsodium@1.0.18%gcc@8.1.0 arch=linux-rhel7-x86_64": spec-36.json
+ - "libzmq@4.3.3%gcc@9.3.0~drafts+libsodium arch=linux-ubuntu20.04-ppc64le ^libbsd@0.10.0%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^libsodium@1.0.18%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le": spec-37.json
+ - "libzmq@4.3.2%gcc@7.5.0+libsodium arch=linux-ubuntu18.04-aarch64 ^libsodium@1.0.18%gcc@7.5.0 arch=linux-ubuntu18.04-aarch64": spec-38.json
+ - "libzmq@4.3.2%gcc@8.3.1+libsodium arch=linux-rhel8-x86_64 ^libsodium@1.0.18%gcc@8.3.1 arch=linux-rhel8-x86_64": spec-39.json
+ - "libzmq@4.3.3%gcc@9.3.0~drafts+libsodium arch=linux-ubuntu20.04-ppc64le ^libbsd@0.11.3%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^libmd@1.0.3%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^libsodium@1.0.18%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le": spec-40.json
+ - "libzmq@4.3.3%gcc@8.4.1~drafts+libsodium arch=linux-rhel8-ppc64le ^libbsd@0.11.3%gcc@8.4.1 arch=linux-rhel8-ppc64le ^libmd@1.0.3%gcc@8.4.1 arch=linux-rhel8-ppc64le ^libsodium@1.0.18%gcc@8.4.1 arch=linux-rhel8-ppc64le": spec-41.json
+ - "libzmq@4.3.3%gcc@7.5.0~drafts+libsodium arch=linux-ubuntu18.04-ppc64le ^libbsd@0.10.0%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libsodium@1.0.18%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-42.json
+ - "libzmq@4.3.2%gcc@7.3.0+libsodium arch=linux-rhel7-x86_64 ^libsodium@1.0.18%gcc@7.3.0 arch=linux-rhel7-x86_64": spec-43.json
+ - "libzmq@4.3.2%gcc@8.1.0+libsodium arch=linux-centos7-ppc64le ^libsodium@1.0.18%gcc@8.1.0 arch=linux-centos7-ppc64le": spec-44.json
+ - "libzmq@4.3.2%gcc@7.4.0+libsodium arch=linux-ubuntu18.04-x86_64 ^libsodium@1.0.18%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64": spec-45.json
+ - "libzmq@4.3.3%gcc@7.5.0+libsodium arch=linux-ubuntu18.04-ppc64le ^libsodium@1.0.18%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-46.json
+ - "libzmq@4.3.2%gcc@8.3.1+libsodium arch=linux-rhel8-ppc64le ^libsodium@1.0.18%gcc@8.3.1 arch=linux-rhel8-ppc64le": spec-47.json
+ - "libzmq@4.3.2%gcc@8.1.0+libsodium arch=linux-centos7-x86_64 ^libsodium@1.0.18%gcc@8.1.0 arch=linux-centos7-x86_64": spec-48.json
+ - "libzmq@4.3.2%gcc@8.3.1+libsodium arch=linux-rhel8-aarch64 ^libsodium@1.0.18%gcc@8.3.1 arch=linux-rhel8-aarch64": spec-49.json
+ - "libzmq@4.3.3%gcc@9.3.0~drafts+libsodium arch=linux-rhel7-ppc64le ^libbsd@0.11.3%gcc@9.3.0 arch=linux-rhel7-ppc64le ^libmd@1.0.3%gcc@9.3.0 arch=linux-rhel7-ppc64le ^libsodium@1.0.18%gcc@9.3.0 arch=linux-rhel7-ppc64le": spec-50.json
+ - "libzmq@4.3.3%gcc@8.1.0+libsodium arch=linux-rhel7-x86_64 ^libbsd@0.10.0%gcc@8.1.0 arch=linux-rhel7-x86_64 ^libsodium@1.0.18%gcc@8.1.0 arch=linux-rhel7-x86_64": spec-51.json
+ - "libzmq@4.3.3%gcc@7.5.0~drafts+libsodium arch=linux-ubuntu18.04-x86_64 ^libbsd@0.11.3%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libmd@1.0.3%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libsodium@1.0.18%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64": spec-52.json
+ - "libzmq@4.3.2%gcc@8.4.0+libsodium arch=linux-rhel7-sandybridge ^libsodium@1.0.18%gcc@8.4.0 arch=linux-rhel7-sandybridge": spec-53.json
+ - "libzmq@4.3.2%gcc@8.3.1+libsodium arch=linux-centos8-x86_64 ^libsodium@1.0.18%gcc@8.3.1 arch=linux-centos8-x86_64": spec-54.json
+ - "libzmq@4.3.3%gcc@9.3.0~drafts+libsodium arch=cray-cnl7-haswell ^libbsd@0.10.0%gcc@9.3.0 arch=cray-cnl7-haswell ^libsodium@1.0.18%gcc@9.3.0 arch=cray-cnl7-haswell": spec-55.json
+ - "libzmq@4.3.3%gcc@8.3.1+libsodium arch=linux-rhel8-ppc64le ^libsodium@1.0.18%gcc@8.3.1 arch=linux-rhel8-ppc64le": spec-56.json
+ - "libzmq@4.3.3%gcc@8.3.1~drafts+libsodium arch=linux-rhel8-x86_64 ^libbsd@0.11.3%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libmd@1.0.3%gcc@8.3.1 arch=linux-rhel8-x86_64 ^libsodium@1.0.18%gcc@8.3.1 arch=linux-rhel8-x86_64": spec-57.json
+ - "libzmq@4.3.2%gcc@7.4.0+libsodium arch=linux-ubuntu18.04-x86_64 ^libsodium@1.0.17%gcc@7.4.0 arch=linux-ubuntu18.04-x86_64": spec-58.json
+ - "libzmq@4.3.3%gcc@9.3.0+libsodium arch=linux-ubuntu20.04-ppc64le ^libbsd@0.10.0%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le ^libsodium@1.0.18%gcc@9.3.0 arch=linux-ubuntu20.04-ppc64le": spec-59.json
+ - "libzmq@4.3.3%gcc@7.5.0+libsodium arch=linux-ubuntu18.04-x86_64 ^libsodium@1.0.18%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64": spec-60.json
+ - "libzmq@4.3.3%gcc@9.3.0~drafts+libsodium arch=linux-rhel7-x86_64 ^libbsd@0.11.3%gcc@9.3.0 arch=linux-rhel7-x86_64 ^libmd@1.0.3%gcc@9.3.0 arch=linux-rhel7-x86_64 ^libsodium@1.0.18%gcc@9.3.0 arch=linux-rhel7-x86_64": spec-61.json
+ - "libzmq@4.3.3%gcc@8.3.1+libsodium arch=linux-rhel8-ppc64le ^libbsd@0.10.0%gcc@8.3.1 arch=linux-rhel8-ppc64le ^libsodium@1.0.18%gcc@8.3.1 arch=linux-rhel8-ppc64le": spec-62.json
+ - "libzmq@4.3.3%gcc@7.5.0+libsodium arch=linux-ubuntu18.04-x86_64 ^libbsd@0.10.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libsodium@1.0.18%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64": spec-63.json
+ - "libzmq@4.3.3%gcc@8.4.1~drafts+libsodium arch=linux-rhel8-x86_64 ^libbsd@0.11.3%gcc@8.4.1 arch=linux-rhel8-x86_64 ^libmd@1.0.3%gcc@8.4.1 arch=linux-rhel8-x86_64 ^libsodium@1.0.18%gcc@8.4.1 arch=linux-rhel8-x86_64": spec-64.json
+ - "libzmq@4.3.3%gcc@7.5.0+libsodium arch=linux-ubuntu18.04-ppc64le ^libbsd@0.10.0%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le ^libsodium@1.0.18%gcc@7.5.0 arch=linux-ubuntu18.04-ppc64le": spec-65.json
+ - "libzmq@4.3.3%gcc@9.3.0+libsodium arch=linux-ubuntu20.04-x86_64 ^libbsd@0.10.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libsodium@1.0.18%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64": spec-66.json
+ - "libzmq@4.3.2%gcc@8.1.0+libsodium arch=linux-rhel7-power8le ^libsodium@1.0.18%gcc@8.1.0 arch=linux-rhel7-power8le": spec-67.json
+ - "libzmq@4.3.2%gcc@7.5.0+libsodium arch=linux-ubuntu18.04-power8le ^libsodium@1.0.18%gcc@7.5.0 arch=linux-ubuntu18.04-power8le": spec-68.json
+ - "libzmq@4.3.3%intel@19.1.3.304~drafts+libsodium arch=cray-cnl7-haswell ^libbsd@0.10.0%intel@19.1.3.304 patches=71b49f5 arch=cray-cnl7-haswell ^libsodium@1.0.18%intel@19.1.3.304 arch=cray-cnl7-haswell": spec-69.json
+
+---

@@ -1,0 +1,318 @@
+{
+    "spec": {
+        "_meta": {
+            "version": 2
+        },
+        "nodes": [
+            {
+                "name": "umpire",
+                "version": "4.1.2",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "9.3.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "amdgpu_target": [
+                        "none"
+                    ],
+                    "build_type": "RelWithDebInfo",
+                    "c": true,
+                    "cuda": true,
+                    "cuda_arch": [
+                        "70"
+                    ],
+                    "deviceconst": false,
+                    "examples": true,
+                    "fortran": false,
+                    "ipo": false,
+                    "numa": false,
+                    "openmp": true,
+                    "patches": [
+                        "7d912d31cd293df005ba74cb96c6f3e32dc3d84afff49b14509714283693db08"
+                    ],
+                    "rocm": false,
+                    "shared": false,
+                    "tests": "none",
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "7d912d31cd293df005ba74cb96c6f3e32dc3d84afff49b14509714283693db08"
+                ],
+                "dependencies": [
+                    {
+                        "name": "camp",
+                        "hash": "dckrgeepcbvqnvh7utpuckz57eivsp7y",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "cuda",
+                        "hash": "ilb4xu6duervjxp2x5w5cbyvdcxib3bl",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "3ev6hu32leg6mazcq7bqof7rsigvycpl",
+                "full_hash": "quwde4rhxbodpkiedpcum23wqohpde22"
+            },
+            {
+                "name": "camp",
+                "version": "0.1.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "9.3.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "amdgpu_target": [
+                        "none"
+                    ],
+                    "build_type": "RelWithDebInfo",
+                    "cuda": true,
+                    "cuda_arch": [
+                        "none"
+                    ],
+                    "ipo": false,
+                    "rocm": false,
+                    "tests": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "cub",
+                        "hash": "jd6bhbojomevtnfkvz46fqyvbwhcltcf",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "cuda",
+                        "hash": "ilb4xu6duervjxp2x5w5cbyvdcxib3bl",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "dckrgeepcbvqnvh7utpuckz57eivsp7y",
+                "full_hash": "ks2bmp2loopg7oxjclaf2m66mudkulpv"
+            },
+            {
+                "name": "cub",
+                "version": "1.12.0-rc0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "9.3.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "jd6bhbojomevtnfkvz46fqyvbwhcltcf",
+                "full_hash": "6sahxcalf2ghfbilrjuozorqd7voy36i"
+            },
+            {
+                "name": "cuda",
+                "version": "11.3.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "9.3.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "dev": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "libxml2",
+                        "hash": "ltdsyhdt6l7jyfy57a5kllquacxdauci",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "ilb4xu6duervjxp2x5w5cbyvdcxib3bl",
+                "full_hash": "npmqvjtktbmkcb46myp2hktvlmoh4kvq"
+            },
+            {
+                "name": "libxml2",
+                "version": "2.9.10",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "9.3.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "python": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "libiconv",
+                        "hash": "zqp7gscw3ojfabhhzbeco7t26fuwypol",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "xz",
+                        "hash": "jzxbuzezmbvmxffg77b32dxosdbiq6fo",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "hash": "uubmvorewcdyv5urdqiky4wcoehj4xug",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "ltdsyhdt6l7jyfy57a5kllquacxdauci",
+                "full_hash": "2mz4aih7br7lm2mfrz6vvv4mm7jrnryj"
+            },
+            {
+                "name": "libiconv",
+                "version": "1.16",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "9.3.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "zqp7gscw3ojfabhhzbeco7t26fuwypol",
+                "full_hash": "egc5rcgu6jlz5i452vjcduda5bgnre63"
+            },
+            {
+                "name": "xz",
+                "version": "5.2.5",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "9.3.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "libs": [
+                        "shared",
+                        "static"
+                    ],
+                    "pic": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "jzxbuzezmbvmxffg77b32dxosdbiq6fo",
+                "full_hash": "adxsplfgdphji6hgo2bpj4pec63dhdz3"
+            },
+            {
+                "name": "zlib",
+                "version": "1.2.11",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "9.3.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "optimize": true,
+                    "pic": true,
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "uubmvorewcdyv5urdqiky4wcoehj4xug",
+                "full_hash": "gr4rzdbj6lihk5alskr7c3us52thhp2p"
+            }
+        ]
+    }
+}

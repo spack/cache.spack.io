@@ -1,0 +1,93 @@
+---
+title: "darshan-util"
+layout: cache
+category: package
+meta: {"versions": ["3.1.7", "3.2.1", "3.3.0", "3.3.1", "3.1.8"], "compilers": ["gcc@8.3.1", "gcc@9.3.0", "gcc@8.1.0", "gcc@7.5.0", "intel@19.1.3.304", "gcc@7.3.1", "gcc@8.4.1", "gcc@7.3.0", "gcc@10.3.0", "gcc@7.4.0"]}
+spec_files: 
+ - "darshan-util@3.1.8%gcc@9.3.0~bzip2 arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le": spec-0.json
+ - "darshan-util@3.2.1%gcc@8.1.0~bzip2 arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-1.json
+ - "darshan-util@3.2.1%gcc@9.3.0~bzip2+shared patches=d1a0e58 arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le": spec-2.json
+ - "darshan-util@3.1.8%gcc@7.3.0~bzip2 arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-3.json
+ - "darshan-util@3.3.0%gcc@9.3.0~apmpi~apxc~bzip2+shared arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le": spec-4.json
+ - "darshan-util@3.2.1%gcc@7.5.0~bzip2 arch=linux-ubuntu18.04-power8le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-power8le": spec-5.json
+ - "darshan-util@3.1.8%gcc@7.3.0~bzip2 arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos7-x86_64": spec-6.json
+ - "darshan-util@3.1.7%gcc@8.3.1~bzip2 arch=linux-centos8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-centos8-ppc64le": spec-7.json
+ - "darshan-util@3.3.1%gcc@10.3.0~apmpi~apxc~bzip2+shared arch=linux-ubuntu21.04-ppc64le ^zlib@1.2.11%gcc@10.3.0+optimize+pic+shared arch=linux-ubuntu21.04-ppc64le": spec-8.json
+ - "darshan-util@3.2.1%gcc@8.1.0~bzip2 arch=linux-rhel7-power8le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-power8le": spec-9.json
+ - "darshan-util@3.2.1%gcc@7.5.0~bzip2+shared patches=d1a0e58 arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-10.json
+ - "darshan-util@3.2.1%gcc@8.3.1~bzip2 arch=linux-rhel8-aarch64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-aarch64": spec-11.json
+ - "darshan-util@3.2.1%gcc@9.3.0~bzip2 arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le": spec-12.json
+ - "darshan-util@3.3.0%gcc@7.5.0~apmpi~apxc~bzip2+shared arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-13.json
+ - "darshan-util@3.2.1%gcc@7.3.0~bzip2 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-14.json
+ - "darshan-util@3.2.1%gcc@7.3.1~bzip2+shared patches=d1a0e58 arch=linux-amzn2-x86_64 ^zlib@1.2.11%gcc@7.3.1+optimize+pic+shared arch=linux-amzn2-x86_64": spec-15.json
+ - "darshan-util@3.3.0%gcc@10.3.0~apmpi~apxc~bzip2+shared arch=linux-ubuntu21.04-x86_64 ^zlib@1.2.11%gcc@10.3.0+optimize+pic+shared arch=linux-ubuntu21.04-x86_64": spec-16.json
+ - "darshan-util@3.3.0%gcc@8.1.0~apmpi~apxc~bzip2+shared arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-17.json
+ - "darshan-util@3.2.1%gcc@9.3.0~bzip2 patches=d1a0e58 arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-18.json
+ - "darshan-util@3.3.1%gcc@8.4.1~apmpi~apxc~bzip2+shared arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.4.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-19.json
+ - "darshan-util@3.2.1%gcc@7.5.0~bzip2 arch=linux-ubuntu18.04-aarch64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-aarch64": spec-20.json
+ - "darshan-util@3.2.1%gcc@8.1.0~bzip2 patches=d1a0e58 arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-21.json
+ - "darshan-util@3.2.1%gcc@8.1.0~bzip2 patches=d1a0e58 arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-22.json
+ - "darshan-util@3.2.1%gcc@8.1.0~bzip2 patches=d1a0e58 arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-23.json
+ - "darshan-util@3.3.1%gcc@7.5.0~apmpi~apxc~bzip2+shared arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-24.json
+ - "darshan-util@3.1.8%gcc@7.3.0~bzip2 arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-25.json
+ - "darshan-util@3.1.8%gcc@9.3.0~bzip2 arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-26.json
+ - "darshan-util@3.3.0%gcc@9.3.0~apmpi~apxc~bzip2+shared arch=cray-cnl7-haswell ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=cray-cnl7-haswell": spec-27.json
+ - "darshan-util@3.1.7%gcc@7.3.0~bzip2 arch=linux-centos7-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos7-ppc64le": spec-28.json
+ - "darshan-util@3.3.1%gcc@8.4.1~apmpi~apxc~bzip2+shared arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.4.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-29.json
+ - "darshan-util@3.3.1%gcc@9.3.0~apmpi~apxc~bzip2+shared arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le": spec-30.json
+ - "darshan-util@3.2.1%gcc@8.3.1~bzip2 arch=linux-centos8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-centos8-ppc64le": spec-31.json
+ - "darshan-util@3.2.1%gcc@8.1.0~bzip2 arch=linux-centos7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-centos7-ppc64le": spec-32.json
+ - "darshan-util@3.2.1%gcc@7.3.0~bzip2 arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos7-x86_64": spec-33.json
+ - "darshan-util@3.2.1%gcc@7.5.0~bzip2 arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-34.json
+ - "darshan-util@3.3.0%gcc@7.5.0~apmpi~apxc~bzip2+shared arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-35.json
+ - "darshan-util@3.2.1%gcc@9.3.0~bzip2 patches=d1a0e58 arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le": spec-36.json
+ - "darshan-util@3.3.0%gcc@8.1.0~apmpi~apxc~bzip2+shared arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-37.json
+ - "darshan-util@3.2.1%gcc@7.5.0~bzip2 patches=d1a0e58 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-38.json
+ - "darshan-util@3.2.1%gcc@7.5.0~bzip2 patches=d1a0e58 arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-39.json
+ - "darshan-util@3.2.1%gcc@7.5.0~bzip2 patches=d1a0e58 arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-40.json
+ - "darshan-util@3.3.0%gcc@8.4.1~apmpi~apxc~bzip2+shared arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.4.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-41.json
+ - "darshan-util@3.2.1%gcc@7.3.0~bzip2 arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel8-x86_64": spec-42.json
+ - "darshan-util@3.2.1%gcc@8.1.0~bzip2 arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-43.json
+ - "darshan-util@3.2.1%gcc@7.3.0~bzip2 arch=linux-centos8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos8-x86_64": spec-44.json
+ - "darshan-util@3.2.1%gcc@7.5.0~bzip2+shared patches=d1a0e58 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-45.json
+ - "darshan-util@3.2.1%gcc@8.3.1~bzip2 patches=d1a0e58 arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-46.json
+ - "darshan-util@3.3.1%gcc@9.3.0~apmpi~apxc~bzip2+shared arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-47.json
+ - "darshan-util@3.2.1%gcc@8.3.1~bzip2 patches=d1a0e58 arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-48.json
+ - "darshan-util@3.1.8%gcc@7.3.0~bzip2 arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel8-x86_64": spec-49.json
+ - "darshan-util@3.2.1%gcc@7.5.0~bzip2 patches=d1a0e58 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-50.json
+ - "darshan-util@3.2.1%gcc@8.3.1~bzip2 arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-51.json
+ - "darshan-util@3.3.0%gcc@9.3.0~apmpi~apxc~bzip2+shared arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-52.json
+ - "darshan-util@3.1.7%gcc@7.4.0~bzip2 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.4.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-53.json
+ - "darshan-util@3.1.8%gcc@7.3.0~bzip2 arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-54.json
+ - "darshan-util@3.3.0%gcc@9.3.0~apmpi~apxc~bzip2+shared arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-55.json
+ - "darshan-util@3.3.0%gcc@8.4.1~apmpi~apxc~bzip2+shared arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.4.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-56.json
+ - "darshan-util@3.2.1%gcc@7.5.0~bzip2 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-57.json
+ - "darshan-util@3.2.1%gcc@9.3.0~bzip2 arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-58.json
+ - "darshan-util@3.1.7%gcc@7.3.0~bzip2 arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-59.json
+ - "darshan-util@3.3.0%intel@19.1.3.304~apmpi~apxc~bzip2+shared arch=cray-cnl7-haswell ^zlib@1.2.11%intel@19.1.3.304+optimize+pic+shared arch=cray-cnl7-haswell": spec-60.json
+ - "darshan-util@3.2.1%gcc@8.3.1~bzip2+shared patches=d1a0e58 arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-61.json
+ - "darshan-util@3.2.1%gcc@8.1.0~bzip2+shared patches=d1a0e58 arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-62.json
+ - "darshan-util@3.1.7%gcc@8.3.1~bzip2 arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-63.json
+ - "darshan-util@3.2.1%gcc@7.3.0~bzip2 arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-64.json
+ - "darshan-util@3.2.1%gcc@8.1.0~bzip2 arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-centos7-x86_64": spec-65.json
+ - "darshan-util@3.3.0%gcc@10.3.0~apmpi~apxc~bzip2+shared arch=linux-ubuntu21.04-ppc64le ^zlib@1.2.11%gcc@10.3.0+optimize+pic+shared arch=linux-ubuntu21.04-ppc64le": spec-66.json
+ - "darshan-util@3.3.1%gcc@7.5.0~apmpi~apxc~bzip2+shared arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-67.json
+ - "darshan-util@3.1.8%gcc@7.3.0~bzip2 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-68.json
+ - "darshan-util@3.2.1%gcc@9.3.0~bzip2+shared patches=d1a0e58 arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-69.json
+ - "darshan-util@3.1.8%gcc@7.3.0~bzip2 arch=linux-centos8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos8-x86_64": spec-70.json
+ - "darshan-util@3.2.1%gcc@8.1.0~bzip2 patches=d1a0e58 arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-71.json
+ - "darshan-util@3.3.0%gcc@8.3.1~apmpi~apxc~bzip2+shared arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-72.json
+ - "darshan-util@3.2.1%gcc@8.3.1~bzip2 arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-73.json
+ - "darshan-util@3.2.1%gcc@7.3.0~bzip2 arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-74.json
+ - "darshan-util@3.3.0%gcc@9.3.0~apmpi~apxc~bzip2+shared arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-75.json
+ - "darshan-util@3.1.7%gcc@7.3.0~bzip2 arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-76.json
+ - "darshan-util@3.3.1%gcc@10.3.0~apmpi~apxc~bzip2+shared arch=linux-ubuntu21.04-x86_64 ^zlib@1.2.11%gcc@10.3.0+optimize+pic+shared arch=linux-ubuntu21.04-x86_64": spec-77.json
+ - "darshan-util@3.3.1%gcc@9.3.0~apmpi~apxc~bzip2+shared arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-78.json
+ - "darshan-util@3.2.1%gcc@8.3.1~bzip2 arch=linux-centos8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-centos8-x86_64": spec-79.json
+ - "darshan-util@3.3.1%gcc@9.3.0~apmpi~apxc~bzip2+shared arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-80.json
+ - "darshan-util@3.3.0%gcc@8.3.1~apmpi~apxc~bzip2+shared arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-81.json
+ - "darshan-util@3.2.1%gcc@7.3.0~bzip2 arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-82.json
+ - "darshan-util@3.2.1%gcc@8.1.0~bzip2+shared patches=d1a0e58 arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-83.json
+ - "darshan-util@3.2.1%gcc@8.3.1~bzip2+shared patches=d1a0e58 arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-84.json
+
+---

@@ -1,0 +1,94 @@
+{
+    "spec": {
+        "_meta": {
+            "version": 2
+        },
+        "nodes": [
+            {
+                "name": "m4",
+                "version": "1.4.18",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "xl",
+                    "version": "16.1"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "patches": [
+                        "3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00",
+                        "fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8"
+                    ],
+                    "sigsegv": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [
+                        "-qzerosize"
+                    ],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00",
+                    "fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8"
+                ],
+                "dependencies": [
+                    {
+                        "name": "libsigsegv",
+                        "hash": "4odtgh7nqqz7ez7txk2ulnumxgopvvzr",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "2hbyhpb2xjspposkltbms57xrxmbxeuq"
+            },
+            {
+                "name": "libsigsegv",
+                "version": "2.12",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "rhel7",
+                    "target": {
+                        "name": "power9le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 9,
+                        "parents": [
+                            "power8le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "xl",
+                    "version": "16.1"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [
+                        "-qzerosize"
+                    ],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "4odtgh7nqqz7ez7txk2ulnumxgopvvzr"
+            }
+        ]
+    }
+}

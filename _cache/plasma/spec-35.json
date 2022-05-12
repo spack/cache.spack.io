@@ -1,0 +1,81 @@
+{
+    "spec": {
+        "_meta": {
+            "version": 2
+        },
+        "nodes": [
+            {
+                "name": "plasma",
+                "version": "19.8.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "build_type": "RelWithDebInfo",
+                    "lua": false,
+                    "patches": [
+                        "6ce78aaea37672a3cd63cbf3cc5f9f12da974a099b8312c6b0678b4b55020287",
+                        "97606686359b620b7eae22a769793f269dafd52d838bb519ef57d7cb60bea3de"
+                    ],
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "6ce78aaea37672a3cd63cbf3cc5f9f12da974a099b8312c6b0678b4b55020287",
+                    "97606686359b620b7eae22a769793f269dafd52d838bb519ef57d7cb60bea3de"
+                ],
+                "dependencies": [
+                    {
+                        "name": "openblas",
+                        "hash": "m5gktgohkqi2znlic6cwpz5euhqdle3i",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "tji7bojb5ne5hqj2mwn5bqq2tfkm23ke"
+            },
+            {
+                "name": "openblas",
+                "version": "0.3.10",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "consistent_fpcsr": false,
+                    "ilp64": false,
+                    "pic": true,
+                    "shared": true,
+                    "threads": "none",
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "m5gktgohkqi2znlic6cwpz5euhqdle3i"
+            }
+        ]
+    }
+}

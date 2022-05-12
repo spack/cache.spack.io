@@ -1,0 +1,116 @@
+---
+title: "binutils"
+layout: cache
+category: package
+meta: {"versions": ["2.33.1", "2.32", "2.34", "2.36.1", "2.27", "2.31.1"], "compilers": ["gcc@8.3.1", "gcc@8.4.0", "gcc@9.3.0", "gcc@8.1.0", "gcc@7.5.0", "intel@19.1.3.304", "gcc@7.3.1", "gcc@8.4.1", "gcc@7.3.0", "gcc@10.3.0", "gcc@7.4.0"]}
+spec_files: 
+ - "binutils@2.33.1%gcc@7.5.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-0.json
+ - "binutils@2.33.1%gcc@7.3.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-centos8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos8-x86_64": spec-1.json
+ - "binutils@2.33.1%gcc@8.1.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-2.json
+ - "binutils@2.33.1%gcc@8.3.1~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-3.json
+ - "binutils@2.33.1%gcc@7.4.0+gold+headers+libiberty~nls~plugins arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.4.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-4.json
+ - "binutils@2.33.1%gcc@9.3.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-5.json
+ - "binutils@2.33.1%gcc@9.3.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le": spec-6.json
+ - "binutils@2.33.1%gcc@8.1.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-centos7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-centos7-ppc64le": spec-7.json
+ - "binutils@2.33.1%gcc@7.5.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-8.json
+ - "binutils@2.33.1%gcc@7.5.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-9.json
+ - "binutils@2.33.1%gcc@8.3.1+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-10.json
+ - "binutils@2.36.1%gcc@8.4.1~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.4.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-11.json
+ - "binutils@2.36.1%gcc@7.5.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-12.json
+ - "binutils@2.33.1%gcc@9.3.0~gas+gold+headers~interwork~ld+libiberty~lto~nls+plugins arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le": spec-13.json
+ - "binutils@2.33.1%gcc@8.1.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-14.json
+ - "binutils@2.33.1%gcc@8.3.1~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-15.json
+ - "binutils@2.32%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-16.json
+ - "binutils@2.33.1%gcc@8.3.1+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-17.json
+ - "binutils@2.33.1%gcc@7.3.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-18.json
+ - "binutils@2.33.1%gcc@7.3.1+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-amzn2-x86_64 ^zlib@1.2.11%gcc@7.3.1+optimize+pic+shared arch=linux-amzn2-x86_64": spec-19.json
+ - "binutils@2.33.1%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-centos7-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos7-ppc64le": spec-20.json
+ - "binutils@2.33.1%gcc@7.3.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-21.json
+ - "binutils@2.33.1%gcc@9.3.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le": spec-22.json
+ - "binutils@2.36.1%gcc@10.3.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-ubuntu21.04-x86_64 ^zlib@1.2.11%gcc@10.3.0+optimize+pic+shared arch=linux-ubuntu21.04-x86_64": spec-23.json
+ - "binutils@2.32%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-24.json
+ - "binutils@2.33.1%gcc@7.3.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos7-x86_64": spec-25.json
+ - "binutils@2.33.1%gcc@8.1.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-26.json
+ - "binutils@2.33.1%gcc@7.3.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel8-x86_64": spec-27.json
+ - "binutils@2.31.1%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel8-x86_64": spec-28.json
+ - "binutils@2.33.1%gcc@8.1.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-29.json
+ - "binutils@2.32%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-30.json
+ - "binutils@2.33.1%gcc@9.3.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-31.json
+ - "binutils@2.33.1%gcc@7.5.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-32.json
+ - "binutils@2.33.1%gcc@7.5.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-33.json
+ - "binutils@2.36.1%gcc@7.5.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-34.json
+ - "binutils@2.33.1%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-35.json
+ - "binutils@2.32%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos7-x86_64": spec-36.json
+ - "binutils@2.36.1%gcc@8.3.1~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-37.json
+ - "binutils@2.33.1%gcc@9.3.0~gas+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le": spec-38.json
+ - "binutils@2.33.1%gcc@8.3.1~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-39.json
+ - "binutils@2.36.1%gcc@8.3.1~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-40.json
+ - "binutils@2.27%gcc@8.4.0+gold+headers+libiberty+nls~plugins patches=0a0ca84 arch=linux-rhel7-sandybridge": spec-41.json
+ - "binutils@2.33.1%gcc@8.3.1+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-centos8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-centos8-ppc64le": spec-42.json
+ - "binutils@2.33.1%gcc@8.3.1~gas+gold+headers~interwork~ld+libiberty~lto~nls+plugins arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-43.json
+ - "binutils@2.32%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel8-x86_64": spec-44.json
+ - "binutils@2.33.1%gcc@8.1.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-centos7-x86_64": spec-45.json
+ - "binutils@2.33.1%gcc@8.1.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-46.json
+ - "binutils@2.33.1%gcc@7.3.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-47.json
+ - "binutils@2.33.1%gcc@8.3.1+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-centos8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-centos8-x86_64": spec-48.json
+ - "binutils@2.31.1%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-49.json
+ - "binutils@2.33.1%gcc@9.3.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-50.json
+ - "binutils@2.33.1%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-51.json
+ - "binutils@2.33.1%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-52.json
+ - "binutils@2.33.1%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-53.json
+ - "binutils@2.33.1%gcc@9.3.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-54.json
+ - "binutils@2.33.1%gcc@7.3.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-55.json
+ - "binutils@2.33.1%gcc@8.1.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-56.json
+ - "binutils@2.36.1%gcc@9.3.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-57.json
+ - "binutils@2.33.1%gcc@9.3.0~gas+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-58.json
+ - "binutils@2.33.1%gcc@10.3.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-ubuntu21.04-x86_64 ^zlib@1.2.11%gcc@10.3.0+optimize+pic+shared arch=linux-ubuntu21.04-x86_64": spec-59.json
+ - "binutils@2.33.1%gcc@9.3.0~gas+gold+headers~interwork~ld+libiberty~lto~nls+plugins arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-60.json
+ - "binutils@2.33.1%gcc@9.3.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-61.json
+ - "binutils@2.31.1%gcc@7.4.0+gold+headers+libiberty~nls~plugins arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.4.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-62.json
+ - "binutils@2.33.1%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos7-x86_64": spec-63.json
+ - "binutils@2.36.1%gcc@8.4.1~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.4.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-64.json
+ - "binutils@2.33.1%gcc@8.3.1~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-65.json
+ - "binutils@2.33.1%gcc@8.3.1+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-rhel8-aarch64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-aarch64": spec-66.json
+ - "binutils@2.33.1%gcc@7.5.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-ubuntu18.04-aarch64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-aarch64": spec-67.json
+ - "binutils@2.33.1%gcc@8.1.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-68.json
+ - "binutils@2.33.1%gcc@9.3.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le": spec-69.json
+ - "binutils@2.33.1%gcc@8.1.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-70.json
+ - "binutils@2.36.1%gcc@9.3.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le": spec-71.json
+ - "binutils@2.33.1%gcc@7.5.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-72.json
+ - "binutils@2.33.1%gcc@7.5.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-ubuntu18.04-ppc64le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-ppc64le": spec-73.json
+ - "binutils@2.33.1%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-centos8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos8-x86_64": spec-74.json
+ - "binutils@2.33.1%gcc@10.3.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-ubuntu21.04-ppc64le ^zlib@1.2.11%gcc@10.3.0+optimize+pic+shared arch=linux-ubuntu21.04-ppc64le": spec-75.json
+ - "binutils@2.33.1%gcc@9.3.0~gas~gold+headers~interwork~ld+libiberty~lto~nls+plugins arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-76.json
+ - "binutils@2.32%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-centos8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos8-x86_64": spec-77.json
+ - "binutils@2.33.1%gcc@9.3.0~gas+gold+headers~interwork~ld+libiberty~lto+nls+plugins arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.6%gcc@9.3.0+shared arch=linux-ubuntu20.04-x86_64 ^gettext@0.21%gcc@9.3.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^libxml2@2.9.8%gcc@9.3.0~python arch=linux-ubuntu20.04-x86_64 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64 ^tar@1.34%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64 ^xz@5.2.5%gcc@9.3.0+pic arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-78.json
+ - "binutils@2.32%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-79.json
+ - "binutils@2.31.1%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-centos7-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos7-ppc64le": spec-80.json
+ - "binutils@2.33.1%gcc@8.1.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-rhel7-power8le ^zlib@1.2.11%gcc@8.1.0+optimize+pic+shared arch=linux-rhel7-power8le": spec-81.json
+ - "binutils@2.33.1%gcc@7.5.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-82.json
+ - "binutils@2.33.1%gcc@9.3.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=cray-cnl7-haswell ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=cray-cnl7-haswell": spec-83.json
+ - "binutils@2.36.1%gcc@9.3.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64": spec-84.json
+ - "binutils@2.33.1%gcc@8.3.1~gas+gold+headers~interwork~ld+libiberty~lto~nls+plugins arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-85.json
+ - "binutils@2.33.1%gcc@8.4.1~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@8.4.1+optimize+pic+shared arch=linux-rhel8-x86_64": spec-86.json
+ - "binutils@2.33.1%gcc@8.3.1+gold+headers+libiberty~nls~plugins arch=linux-centos8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-centos8-ppc64le": spec-87.json
+ - "binutils@2.33.1%gcc@8.3.1+gold+headers+libiberty~nls~plugins arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.3.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-88.json
+ - "binutils@2.31.1%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-89.json
+ - "binutils@2.33.1%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel8-x86_64": spec-90.json
+ - "binutils@2.33.1%gcc@9.3.0~gas~gold+headers~interwork~ld+libiberty~lto~nls+plugins arch=linux-ubuntu20.04-ppc64le ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-ppc64le": spec-91.json
+ - "binutils@2.34%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-rhel8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel8-x86_64": spec-92.json
+ - "binutils@2.36.1%gcc@9.3.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-93.json
+ - "binutils@2.33.1%gcc@8.4.1~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-rhel8-ppc64le ^zlib@1.2.11%gcc@8.4.1+optimize+pic+shared arch=linux-rhel8-ppc64le": spec-94.json
+ - "binutils@2.36.1%gcc@10.3.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=linux-ubuntu21.04-ppc64le ^zlib@1.2.11%gcc@10.3.0+optimize+pic+shared arch=linux-ubuntu21.04-ppc64le": spec-95.json
+ - "binutils@2.32%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-centos7-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos7-ppc64le": spec-96.json
+ - "binutils@2.33.1%intel@19.1.3.304~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=cray-cnl7-haswell ^zlib@1.2.11%intel@19.1.3.304+optimize+pic+shared arch=cray-cnl7-haswell": spec-97.json
+ - "binutils@2.31.1%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-centos8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos8-x86_64": spec-98.json
+ - "binutils@2.34%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos7-x86_64": spec-99.json
+ - "binutils@2.31.1%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-rhel7-ppc64le ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-ppc64le": spec-100.json
+ - "binutils@2.33.1%gcc@7.5.0+gold+headers~interwork~ld+libiberty~lto~nls~plugins arch=linux-ubuntu18.04-power8le ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-power8le": spec-101.json
+ - "binutils@2.31.1%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-centos7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos7-x86_64": spec-102.json
+ - "binutils@2.34%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-rhel7-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-rhel7-x86_64": spec-103.json
+ - "binutils@2.31.1%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-104.json
+ - "binutils@2.34%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-105.json
+ - "binutils@2.34%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-centos8-x86_64 ^zlib@1.2.11%gcc@7.3.0+optimize+pic+shared arch=linux-centos8-x86_64": spec-106.json
+ - "binutils@2.33.1%gcc@7.3.0+gold+headers+libiberty~nls~plugins arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.11%gcc@7.4.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64": spec-107.json
+
+---

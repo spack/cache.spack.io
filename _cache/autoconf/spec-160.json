@@ -1,0 +1,337 @@
+{
+    "spec": {
+        "_meta": {
+            "version": 2
+        },
+        "nodes": [
+            {
+                "name": "autoconf",
+                "version": "2.69",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": {
+                        "name": "power8le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 8,
+                        "parents": [
+                            "ppc64le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "m4",
+                        "hash": "zuyqvhrfyfq7dgbnb4vqrbvl45gesk57",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "perl",
+                        "hash": "jwa22ie4hewqyuqh2xuu6svqetc4zhza",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "4mahwjmj2bkdlxrd7qluf6etyz4vtycg"
+            },
+            {
+                "name": "m4",
+                "version": "1.4.18",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": {
+                        "name": "power8le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 8,
+                        "parents": [
+                            "ppc64le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "patches": [
+                        "3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00",
+                        "fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8"
+                    ],
+                    "sigsegv": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00",
+                    "fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8"
+                ],
+                "dependencies": [
+                    {
+                        "name": "libsigsegv",
+                        "hash": "w47dcedhllyn6fbibeern54jxbo5szba",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "zuyqvhrfyfq7dgbnb4vqrbvl45gesk57"
+            },
+            {
+                "name": "libsigsegv",
+                "version": "2.12",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": {
+                        "name": "power8le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 8,
+                        "parents": [
+                            "ppc64le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "w47dcedhllyn6fbibeern54jxbo5szba"
+            },
+            {
+                "name": "perl",
+                "version": "5.30.3",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": {
+                        "name": "power8le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 8,
+                        "parents": [
+                            "ppc64le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cpanm": true,
+                    "shared": true,
+                    "threads": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "berkeley-db",
+                        "hash": "pgj3yyey7qdrpn2sv5vpjd3oyuwi2cnx",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "gdbm",
+                        "hash": "fa2axmgbc5rmiyreruoq6dfz5ojbndyx",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "jwa22ie4hewqyuqh2xuu6svqetc4zhza"
+            },
+            {
+                "name": "berkeley-db",
+                "version": "18.1.40",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": {
+                        "name": "power8le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 8,
+                        "parents": [
+                            "ppc64le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "pgj3yyey7qdrpn2sv5vpjd3oyuwi2cnx"
+            },
+            {
+                "name": "gdbm",
+                "version": "1.18.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": {
+                        "name": "power8le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 8,
+                        "parents": [
+                            "ppc64le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "readline",
+                        "hash": "5kcp3rjoiok2gtxpsk42ddy5lhisnejd",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "fa2axmgbc5rmiyreruoq6dfz5ojbndyx"
+            },
+            {
+                "name": "readline",
+                "version": "8.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": {
+                        "name": "power8le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 8,
+                        "parents": [
+                            "ppc64le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "ncurses",
+                        "hash": "ibfc43xd5evouulemlrsxbktxl2rvvsq",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "5kcp3rjoiok2gtxpsk42ddy5lhisnejd"
+            },
+            {
+                "name": "ncurses",
+                "version": "6.2",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": {
+                        "name": "power8le",
+                        "vendor": "IBM",
+                        "features": [],
+                        "generation": 8,
+                        "parents": [
+                            "ppc64le"
+                        ]
+                    }
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "symlinks": false,
+                    "termlib": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "ibfc43xd5evouulemlrsxbktxl2rvvsq"
+            }
+        ]
+    }
+}

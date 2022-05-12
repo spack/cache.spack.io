@@ -1,0 +1,66 @@
+---
+title: "snappy"
+layout: cache
+category: package
+meta: {"versions": ["1.1.8", "1.1.7"], "compilers": ["gcc@8.3.1", "gcc@8.4.0", "gcc@9.3.0", "gcc@8.1.0", "gcc@7.5.0", "intel@19.1.3.304", "gcc@7.3.1", "gcc@8.4.1", "gcc@7.3.0", "gcc@10.3.0", "gcc@7.4.0"]}
+spec_files: 
+ - "snappy@1.1.8%gcc@7.5.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu18.04-ppc64le": spec-0.json
+ - "snappy@1.1.8%gcc@7.5.0~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu18.04-ppc64le": spec-1.json
+ - "snappy@1.1.7%gcc@7.3.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-centos7-x86_64": spec-2.json
+ - "snappy@1.1.8%gcc@9.3.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu20.04-ppc64le": spec-3.json
+ - "snappy@1.1.8%gcc@8.3.1+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-centos8-ppc64le": spec-4.json
+ - "snappy@1.1.8%gcc@8.3.1~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel8-x86_64": spec-5.json
+ - "snappy@1.1.8%gcc@8.1.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel7-ppc64le": spec-6.json
+ - "snappy@1.1.8%gcc@8.1.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-centos7-x86_64": spec-7.json
+ - "snappy@1.1.8%gcc@9.3.0~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel7-x86_64": spec-8.json
+ - "snappy@1.1.7%gcc@7.3.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu18.04-ppc64le": spec-9.json
+ - "snappy@1.1.8%gcc@9.3.0~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu20.04-x86_64": spec-10.json
+ - "snappy@1.1.8%gcc@7.5.0~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu18.04-x86_64": spec-11.json
+ - "snappy@1.1.8%gcc@8.1.0~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel7-x86_64": spec-12.json
+ - "snappy@1.1.7%gcc@7.3.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-centos8-x86_64": spec-13.json
+ - "snappy@1.1.8%gcc@8.4.1~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel8-ppc64le": spec-14.json
+ - "snappy@1.1.8%gcc@9.3.0~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu20.04-ppc64le": spec-15.json
+ - "snappy@1.1.8%gcc@8.3.1~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel8-ppc64le": spec-16.json
+ - "snappy@1.1.8%gcc@7.3.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel7-ppc64le": spec-17.json
+ - "snappy@1.1.8%gcc@8.4.1~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel8-x86_64": spec-18.json
+ - "snappy@1.1.8%gcc@7.3.1~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-amzn2-x86_64": spec-19.json
+ - "snappy@1.1.7%gcc@7.3.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu18.04-x86_64": spec-20.json
+ - "snappy@1.1.8%gcc@7.5.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu18.04-aarch64": spec-21.json
+ - "snappy@1.1.8%gcc@8.3.1+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel8-x86_64": spec-22.json
+ - "snappy@1.1.8%gcc@8.1.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-centos7-ppc64le": spec-23.json
+ - "snappy@1.1.8%gcc@9.3.0~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel7-ppc64le": spec-24.json
+ - "snappy@1.1.8%gcc@10.3.0~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu21.04-x86_64": spec-25.json
+ - "snappy@1.1.7%gcc@7.3.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel8-x86_64": spec-26.json
+ - "snappy@1.1.7%gcc@9.3.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu20.04-x86_64": spec-27.json
+ - "snappy@1.1.8%gcc@10.3.0~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu21.04-ppc64le": spec-28.json
+ - "snappy@1.1.8%gcc@8.1.0~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel7-ppc64le": spec-29.json
+ - "snappy@1.1.8%gcc@8.1.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel7-x86_64": spec-30.json
+ - "snappy@1.1.8%gcc@7.5.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu18.04-x86_64": spec-31.json
+ - "snappy@1.1.7%gcc@9.3.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu20.04-ppc64le": spec-32.json
+ - "snappy@1.1.8%gcc@7.5.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu18.04-x86_64": spec-33.json
+ - "snappy@1.1.7%gcc@7.3.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel7-ppc64le": spec-34.json
+ - "snappy@1.1.8%gcc@8.1.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel7-x86_64": spec-35.json
+ - "snappy@1.1.8%gcc@7.3.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel7-x86_64": spec-36.json
+ - "snappy@1.1.7%gcc@7.4.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu18.04-x86_64": spec-37.json
+ - "snappy@1.1.8%gcc@8.3.1+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel8-ppc64le": spec-38.json
+ - "snappy@1.1.8%gcc@9.3.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu20.04-x86_64": spec-39.json
+ - "snappy@1.1.8%gcc@7.3.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel8-x86_64": spec-40.json
+ - "snappy@1.1.7%gcc@8.3.1+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel8-ppc64le": spec-41.json
+ - "snappy@1.1.7%gcc@8.4.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel7-sandybridge": spec-42.json
+ - "snappy@1.1.8%gcc@7.5.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu18.04-ppc64le": spec-43.json
+ - "snappy@1.1.8%gcc@7.3.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-centos8-x86_64": spec-44.json
+ - "snappy@1.1.7%gcc@7.3.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel7-x86_64": spec-45.json
+ - "snappy@1.1.7%gcc@7.3.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-centos7-ppc64le": spec-46.json
+ - "snappy@1.1.8%gcc@7.3.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-centos7-x86_64": spec-47.json
+ - "snappy@1.1.8%gcc@8.3.1+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel8-aarch64": spec-48.json
+ - "snappy@1.1.8%gcc@7.3.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu18.04-ppc64le": spec-49.json
+ - "snappy@1.1.8%gcc@7.3.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu18.04-x86_64": spec-50.json
+ - "snappy@1.1.8%gcc@9.3.0~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=cray-cnl7-haswell": spec-51.json
+ - "snappy@1.1.8%gcc@8.1.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel7-ppc64le": spec-52.json
+ - "snappy@1.1.8%intel@19.1.3.304~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=cray-cnl7-haswell": spec-53.json
+ - "snappy@1.1.7%gcc@8.3.1+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-centos8-ppc64le": spec-54.json
+ - "snappy@1.1.8%gcc@8.3.1+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-centos8-x86_64": spec-55.json
+ - "snappy@1.1.8%gcc@8.1.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-rhel7-power8le": spec-56.json
+ - "snappy@1.1.8%gcc@7.5.0+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=linux-ubuntu18.04-power8le": spec-57.json
+
+---
