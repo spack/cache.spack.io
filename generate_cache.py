@@ -18,8 +18,6 @@ import spack.repo
 import spack.spec
 
 here = os.getcwd()
-
-CACHE = "https://cache.e4s.io/build_cache/index.json"
 db_root = os.path.join(here, "spack-db")
 
 
@@ -28,11 +26,17 @@ def write_json(content, filename):
         outfile.write(json.dumps(content, indent=4))
 
 
+def read_yaml(filename):
+    with open(filename, "r") as stream:
+        content = yaml.safe_load(stream)
+    return content
+
+
 # Template for cache data
 template = """---
 title: "%s"
 layout: cache
-category: package
+categories: [package, %s]
 meta: %s
 spec_files: 
  - %s
@@ -41,39 +45,80 @@ spec_names:
 ---"""
 
 
-def main():
+def write_cache_entries(name, specs):
+    """
+    Given a named list of specs, write markdown and json to cache output directory.
+    """
+    # For each spec, write to the _cache folder
+    for package_name, speclist in specs.items():
 
-    response = requests.get(CACHE)
+        # Keep a set of summary metrics for a spec
+        metrics = {"versions": set(), "compilers": set()}
+
+        package_dir = os.path.join(here, "_cache", name, package_name)
+        if not os.path.exists(package_dir):
+            os.makedirs(package_dir)
+        spec_files = []
+        spec_names = []
+        for i, spec in enumerate(speclist):
+            metrics["versions"].add(str(spec.version))
+            metrics["compilers"].add(str(spec.compiler))
+            spec_name = "spec-%s.json" % i
+            spec_file = os.path.join(package_dir, spec_name)
+            write_json(spec.to_dict(), spec_file)
+            spec_files.append(spec_name)
+            spec_names.append("'" + str(spec) + "'")
+        metrics["versions"] = sorted(list(metrics["versions"]))
+        metrics["compilers"] = sorted(list(metrics["compilers"]))
+        render = template % (
+            package_name,
+            name,
+            json.dumps(metrics),
+            " - ".join([x + "\n" for x in spec_files]).strip(),
+            " - ".join([x + "\n" for x in spec_names]).strip(),
+        )
+        md_file = os.path.join(package_dir, "specs.md")
+        with open(md_file, "w") as fd:
+            fd.write(render)
+
+
+def load_spack_db(name, url):
+    """
+    Given a named entry and a URL, load a spack database
+    """
+    response = requests.get(url)
+
     if response.status_code != 200:
-        sys.exit("Issue with request to get package index: %s" % response.reason)
+        sys.exit(
+            "Issue with request to get package index: %s %s" % (url, response.reason)
+        )
     index = response.json()
 
     # Write index.json to file
-    if not os.path.exists(db_root):
-        os.makedirs(db_root)
-    write_json(index, os.path.join(db_root, "index.json"))
+    entry_db = os.path.join(db_root, name)
+    if not os.path.exists(entry_db):
+        os.makedirs(entry_db)
+    write_json(index, os.path.join(entry_db, "index.json"))
 
     # yeah this is awkward <--- from @tgamblin :D
-    db = spack.database.Database(None, db_root)
+    db = spack.database.Database(None, entry_db)
 
     # Organize specs by package
     specs = {}
 
     # keep lookup of specs
     with db.read_transaction():
-        packages = sorted(set(rec.spec.name for rec in db._data.values()))
         for record in db._data.values():
             specs.setdefault(record.spec.name, []).append(record.spec)
+    return index, specs
 
-    # We will save a metadata file
-    count = 0
-    meta = {
-        "version": index["database"]["version"],
-        "count": len(index["database"]["installs"]),
-    }
-    del index
 
+def get_specs_metadata(specs):
+    """
+    Given loaded specs, parse metadata and return dict lookup.
+    """
     # For funsies store top level metrics
+    updates = {}
     parameters = {}
     compilers = {}
     arches = {"platform": {}, "platform_os": {}, "compiler": {}, "target": {}}
@@ -110,45 +155,75 @@ def main():
                     compilers[compiler] = 0
                 compilers[compiler] += 1
 
-    # For each meta, write to data file
+        # For each meta, write to data file
+        updates["compilers"] = compilers
+        updates["parameters"] = parameters
+        updates["arches"] = arches
+        updates["parameter_count"] = "{:,}".format(len(parameters))
+        updates["compiler_count"] = "{:,}".format(len(compilers))
+        updates["count"] = count
+    return updates
+
+
+def main():
+
+    tags_file = os.path.join(here, "_data", "tags.yaml")
+    if not os.path.exists(tags_file):
+        sys.exit(f"{tags_file} does not exist.")
+
+    # Metadata file will store all versions
+    meta = {}
+    tags = read_yaml(tags_file)
+    for entry in tags.get("tags", []):
+        if "name" not in entry or "url" not in entry:
+            sys.exit(f"Malformed entry {entry} missing url or name key.")
+        name = entry["name"]
+        url = entry["url"]
+        print(f"Parsing cache for {name}")
+
+        # Create spack database and load specs
+        index, specs = load_spack_db(name, url)
+
+        # Update metadata file
+        meta[name] = {
+            "version": index["database"]["version"],
+            "count": len(index["database"]["installs"]),
+        }
+        del index
+
+        # Get metadata for specs
+        updates = get_specs_metadata(specs)
+        meta[name].update(updates)
+
+        # Write jekyll files
+        write_cache_entries(name, specs)
+
+    # Create the "all" group
+    meta["all"] = {"version": "all", "count": 0}
+    compilers = {}
+    parameters = {}
+
+    # Count total compilers, params, specs
+    for k, entry in meta.items():
+        if k == "all":
+            continue
+        meta["all"]["count"] += entry["count"]
+        for compiler, ccount in entry["compilers"].items():
+            if compiler not in compilers:
+                compilers[compiler] = 0
+            compilers[compiler] += ccount
+        for param, pcount in entry["parameters"].items():
+            if param not in parameters:
+                parameters[param] = 0
+            parameters[param] += pcount
+
+    meta["all"]["compiler_count"] = "{:,}".format(len(compilers))
+    meta["all"]["parameter_count"] = "{:,}".format(len(parameters))
+
+    # Save all metadata
     meta_file = os.path.join(here, "_data", "meta.yaml")
-    meta["compilers"] = compilers
-    meta["parameters"] = parameters
-    meta["compiler_count"] = "{:,}".format(len(compilers))
-    meta["count"] = "{:,}".format(count)
     with open(meta_file, "w") as fd:
         fd.write(yaml.dump(meta))
-
-    # For each spec, write to the _cache folder
-    for package_name, speclist in specs.items():
-
-        # Keep a set of summary metrics for a spec
-        metrics = {"versions": set(), "compilers": set()}
-
-        package_dir = os.path.join(here, "_cache", package_name)
-        if not os.path.exists(package_dir):
-            os.makedirs(package_dir)
-        spec_files = []
-        spec_names = []
-        for i, spec in enumerate(speclist):
-            metrics["versions"].add(str(spec.version))
-            metrics["compilers"].add(str(spec.compiler))
-            spec_name = "spec-%s.json" % i
-            spec_file = os.path.join(package_dir, spec_name)
-            write_json(spec.to_dict(), spec_file)
-            spec_files.append(spec_name)
-            spec_names.append("'" + str(spec) + "'")
-        metrics["versions"] = sorted(list(metrics["versions"]))
-        metrics["compilers"] = sorted(list(metrics["compilers"]))
-        render = template % (
-            package_name,
-            json.dumps(metrics),
-            " - ".join([x + "\n" for x in spec_files]).strip(),
-            " - ".join([x + "\n" for x in spec_names]).strip(),
-        )
-        md_file = os.path.join(package_dir, "specs.md")
-        with open(md_file, "w") as fd:
-            fd.write(render)
 
 
 if __name__ == "__main__":

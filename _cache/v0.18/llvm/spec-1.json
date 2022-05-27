@@ -1,0 +1,518 @@
+{
+    "spec": {
+        "_meta": {
+            "version": 2
+        },
+        "nodes": [
+            {
+                "name": "llvm",
+                "version": "8.0.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "build_type": "Release",
+                    "clang": true,
+                    "code_signing": false,
+                    "compiler-rt": true,
+                    "cuda": false,
+                    "flang": false,
+                    "gold": true,
+                    "internal_unwind": true,
+                    "ipo": false,
+                    "libcxx": true,
+                    "link_llvm_dylib": false,
+                    "lld": true,
+                    "lldb": true,
+                    "llvm_dylib": false,
+                    "mlir": false,
+                    "omp_debug": false,
+                    "omp_tsan": false,
+                    "patches": [
+                        "3fa900e31763cc7ff604430b86faa4eb650048c1796ebd39db2dcf84f6168a8b",
+                        "92781f9e26306bdc50ca91fc66c81e49ff8ff695ee80fdb6d74c6a96ffd8cdc9",
+                        "af41889be3db22ba7270c4418ab31089f449d85214de2b836fc9d0e36dbfa8a7",
+                        "f920173d0258c934f246fcee65864bcbe9dcb1be32d4298f9b6323c364919b99"
+                    ],
+                    "polly": true,
+                    "python": false,
+                    "shared_libs": false,
+                    "split_dwarf": false,
+                    "targets": [
+                        "none"
+                    ],
+                    "version_suffix": "none",
+                    "z3": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "af41889be3db22ba7270c4418ab31089f449d85214de2b836fc9d0e36dbfa8a7",
+                    "3fa900e31763cc7ff604430b86faa4eb650048c1796ebd39db2dcf84f6168a8b",
+                    "92781f9e26306bdc50ca91fc66c81e49ff8ff695ee80fdb6d74c6a96ffd8cdc9",
+                    "f920173d0258c934f246fcee65864bcbe9dcb1be32d4298f9b6323c364919b99"
+                ],
+                "dependencies": [
+                    {
+                        "name": "binutils",
+                        "hash": "qb6yv7xzksbj2q6crz7px2fbfrjy6sly",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "hwloc",
+                        "hash": "e7fvahempj2gwm4634tge54gsloga36m",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "libedit",
+                        "hash": "zc56lv6gyjpfvi4tpdtmx5yb7ljfnlrb",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "libxml2",
+                        "hash": "57p7uupjf6q77cio2yhqvgxdk3mh4fl7",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "ncurses",
+                        "hash": "frwzsc4jrou7efe7huyzeownqfjvsrfd",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "swig",
+                        "hash": "oict53bxvuhepm3lzbfo2rliz7fpqfor",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "hash": "fntvsj6xevbz5gyq7kfa4xg7oxnaolxs",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "lga2toen363mpjhc2oiyvqz57pgrwlwj"
+            },
+            {
+                "name": "binutils",
+                "version": "2.36.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "gas": false,
+                    "gold": true,
+                    "headers": true,
+                    "interwork": false,
+                    "ld": true,
+                    "libiberty": true,
+                    "libs": [
+                        "shared",
+                        "static"
+                    ],
+                    "lto": false,
+                    "nls": false,
+                    "patches": [
+                        "a51b7bf4607645235be01683a3e2deb3a87d767cc124ea4ef6febf9f32abf4a7"
+                    ],
+                    "plugins": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "a51b7bf4607645235be01683a3e2deb3a87d767cc124ea4ef6febf9f32abf4a7"
+                ],
+                "dependencies": [
+                    {
+                        "name": "zlib",
+                        "hash": "fntvsj6xevbz5gyq7kfa4xg7oxnaolxs",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "qb6yv7xzksbj2q6crz7px2fbfrjy6sly"
+            },
+            {
+                "name": "zlib",
+                "version": "1.2.12",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "optimize": true,
+                    "patches": [
+                        "0d38234384870bfd34dfcb738a9083952656f0c766a0f5990b1893076b084b76"
+                    ],
+                    "pic": true,
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "0d38234384870bfd34dfcb738a9083952656f0c766a0f5990b1893076b084b76"
+                ],
+                "hash": "fntvsj6xevbz5gyq7kfa4xg7oxnaolxs"
+            },
+            {
+                "name": "hwloc",
+                "version": "2.7.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cairo": false,
+                    "cuda": false,
+                    "gl": false,
+                    "libudev": false,
+                    "libxml2": true,
+                    "netloc": false,
+                    "nvml": false,
+                    "opencl": false,
+                    "pci": true,
+                    "rocm": false,
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "libpciaccess",
+                        "hash": "csp5gvqmwcmqsd4al5iafotfk5fqh3uf",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "libxml2",
+                        "hash": "57p7uupjf6q77cio2yhqvgxdk3mh4fl7",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "ncurses",
+                        "hash": "frwzsc4jrou7efe7huyzeownqfjvsrfd",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "e7fvahempj2gwm4634tge54gsloga36m"
+            },
+            {
+                "name": "libpciaccess",
+                "version": "0.16",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "csp5gvqmwcmqsd4al5iafotfk5fqh3uf"
+            },
+            {
+                "name": "libxml2",
+                "version": "2.9.13",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "python": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "libiconv",
+                        "hash": "dr56jt456uiebij2mkueldmejdxftigc",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "xz",
+                        "hash": "6ewaukgypb5k6tjcgjelxrmvkk4ll77k",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "hash": "fntvsj6xevbz5gyq7kfa4xg7oxnaolxs",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "57p7uupjf6q77cio2yhqvgxdk3mh4fl7"
+            },
+            {
+                "name": "libiconv",
+                "version": "1.16",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "libs": [
+                        "shared",
+                        "static"
+                    ],
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "dr56jt456uiebij2mkueldmejdxftigc"
+            },
+            {
+                "name": "xz",
+                "version": "5.2.5",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "libs": [
+                        "shared",
+                        "static"
+                    ],
+                    "pic": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "6ewaukgypb5k6tjcgjelxrmvkk4ll77k"
+            },
+            {
+                "name": "ncurses",
+                "version": "6.2",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "abi": "none",
+                    "symlinks": false,
+                    "termlib": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "frwzsc4jrou7efe7huyzeownqfjvsrfd"
+            },
+            {
+                "name": "libedit",
+                "version": "3.1-20210216",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "ncurses",
+                        "hash": "frwzsc4jrou7efe7huyzeownqfjvsrfd",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "zc56lv6gyjpfvi4tpdtmx5yb7ljfnlrb"
+            },
+            {
+                "name": "swig",
+                "version": "4.0.2",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "pcre",
+                        "hash": "fjffevr4vbopxg4x747odfgmh3py4awh",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "oict53bxvuhepm3lzbfo2rliz7fpqfor"
+            },
+            {
+                "name": "pcre",
+                "version": "8.45",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "jit": false,
+                    "multibyte": true,
+                    "utf": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "fjffevr4vbopxg4x747odfgmh3py4awh"
+            }
+        ]
+    }
+}
