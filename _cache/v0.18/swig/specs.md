@@ -1,0 +1,12 @@
+---
+title: "swig"
+layout: cache
+categories: [package, v0.18]
+meta: {"versions": ["4.0.2", "4.0.2-fortran"], "compilers": ["gcc@7.5.0"]}
+spec_files: 
+ - spec-0.json
+ - spec-1.json
+spec_names:
+ - 'swig@4.0.2%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^pcre@8.45%gcc@7.5.0~jit+multibyte+utf arch=linux-ubuntu18.04-x86_64 ^pkgconf@1.8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64'
+ - 'swig@4.0.2-fortran%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^autoconf@2.69%gcc@7.5.0 patches=35c4492,7793209,a49dd5b arch=linux-ubuntu18.04-x86_64 ^automake@1.16.5%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu18.04-x86_64 ^bison@3.8.2%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^bzip2@1.0.8%gcc@7.5.0~debug~pic+shared arch=linux-ubuntu18.04-x86_64 ^diffutils@3.8%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^gdbm@1.19%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.5.0 libs=shared,static arch=linux-ubuntu18.04-x86_64 ^libsigsegv@2.13%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libtool@2.4.7%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^m4@1.4.19%gcc@7.5.0+sigsegv patches=9dc5fbd,bfdffa7 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64 ^pcre@8.45%gcc@7.5.0~jit+multibyte+utf arch=linux-ubuntu18.04-x86_64 ^perl@5.34.1%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^pkgconf@1.8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.12%gcc@7.5.0+optimize+pic+shared patches=0d38234 arch=linux-ubuntu18.04-x86_64'
+---

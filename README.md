@@ -23,8 +23,10 @@ You'll need a few dependencies:
 $ pip install -r requirements.txt
 ```
 
-You should then run the generate script with spack, which means that it needs to be
-on your path.
+If you need to update remotes, meaning named urls for different versions, see [_data/tags.yaml](_data/tags.yaml).
+For each new name you add, since we need to filter a page to it, you should also add the same named
+page under [pages/tags/](pages/tags) to render just that specific version. The page [pages/cache.md](cache.md)
+will show all of them. You should then run the generate script with spack, which means that it needs to be on your path.
 
 ```bash
 $ spack python generate_cache.py
