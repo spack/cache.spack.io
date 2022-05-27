@@ -1,5 +1,5 @@
 ---
 layout: table
-permalink: /tag
+permalink: /tag/
 tag: all
 ---
