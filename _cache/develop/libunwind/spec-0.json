@@ -1,7 +1,7 @@
 {
     "spec": {
         "_meta": {
-            "version": 2
+            "version": 3
         },
         "nodes": [
             {
@@ -31,10 +31,10 @@
                         "shared",
                         "static"
                     ],
-                    "pic": false,
+                    "pic": true,
                     "tests": true,
                     "weak_backtrace": true,
-                    "xz": false,
+                    "xz": true,
                     "zlib": false,
                     "cflags": [],
                     "cppflags": [],
@@ -43,7 +43,44 @@
                     "ldflags": [],
                     "ldlibs": []
                 },
-                "hash": "clhpxkmwfrboo3uqmhx3xmtqsrnj6zoe"
+                "dependencies": [
+                    {
+                        "name": "xz",
+                        "hash": "6ewaukgypb5k6tjcgjelxrmvkk4ll77k",
+                        "type": [
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "jvqj5rzs62x5gujfukdxoqcujye5u3nf"
+            },
+            {
+                "name": "xz",
+                "version": "5.2.5",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "libs": [
+                        "shared",
+                        "static"
+                    ],
+                    "pic": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "6ewaukgypb5k6tjcgjelxrmvkk4ll77k"
             }
         ]
     }
