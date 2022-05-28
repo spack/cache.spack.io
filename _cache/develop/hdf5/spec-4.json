@@ -1,12 +1,12 @@
 {
     "spec": {
         "_meta": {
-            "version": 2
+            "version": 3
         },
         "nodes": [
             {
                 "name": "hdf5",
-                "version": "1.8.22",
+                "version": "1.12.2",
                 "arch": {
                     "platform": "linux",
                     "platform_os": "ubuntu18.04",
@@ -25,7 +25,7 @@
                     "hl": false,
                     "ipo": false,
                     "java": false,
-                    "mpi": true,
+                    "mpi": false,
                     "shared": true,
                     "szip": false,
                     "threadsafe": false,
@@ -39,11 +39,10 @@
                 },
                 "dependencies": [
                     {
-                        "name": "mvapich2",
-                        "hash": "ool56tqfo2gskgkcux7xkhahce7ekpk2",
+                        "name": "cmake",
+                        "hash": "tulqz4nxor764kgeij23tfap4ddgpgvh",
                         "type": [
-                            "build",
-                            "link"
+                            "build"
                         ]
                     },
                     {
@@ -62,11 +61,11 @@
                         ]
                     }
                 ],
-                "hash": "w3kjhsxdiuc4xtw7lkwqwqqm4k46gguq"
+                "hash": "4fertwtoydeiwythyrla63mm55ynphd5"
             },
             {
-                "name": "mvapich2",
-                "version": "2.3.7",
+                "name": "cmake",
+                "version": "3.23.1",
                 "arch": {
                     "platform": "linux",
                     "platform_os": "ubuntu18.04",
@@ -78,20 +77,11 @@
                 },
                 "namespace": "builtin",
                 "parameters": {
-                    "alloca": false,
-                    "ch3_rank_bits": "32",
-                    "cuda": false,
-                    "debug": false,
-                    "fabrics": "mrail",
-                    "file_systems": [
-                        "auto"
-                    ],
-                    "process_managers": [
-                        "auto"
-                    ],
-                    "regcache": true,
-                    "threads": "multiple",
-                    "wrapperrpath": true,
+                    "build_type": "Release",
+                    "doc": false,
+                    "ncurses": true,
+                    "ownlibs": true,
+                    "qt": false,
                     "cflags": [],
                     "cppflags": [],
                     "cxxflags": [],
@@ -101,24 +91,169 @@
                 },
                 "dependencies": [
                     {
-                        "name": "libpciaccess",
-                        "hash": "csp5gvqmwcmqsd4al5iafotfk5fqh3uf",
+                        "name": "ncurses",
+                        "hash": "frwzsc4jrou7efe7huyzeownqfjvsrfd",
                         "type": [
                             "build",
                             "link"
                         ]
                     },
                     {
-                        "name": "libxml2",
-                        "hash": "4run532u4c6iy5th5gkpgm26tr4vajc4",
+                        "name": "openssl",
+                        "hash": "hqlqpsnqoifap6mlkbr5fyxoaq3gynbk",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "tulqz4nxor764kgeij23tfap4ddgpgvh"
+            },
+            {
+                "name": "ncurses",
+                "version": "6.2",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "abi": "none",
+                    "symlinks": false,
+                    "termlib": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "pkgconf",
+                        "hash": "i5po27g2n6zrzxnhxdy2fnpaai7xsdaw",
+                        "type": [
+                            "build"
+                        ]
+                    }
+                ],
+                "hash": "frwzsc4jrou7efe7huyzeownqfjvsrfd"
+            },
+            {
+                "name": "pkgconf",
+                "version": "1.8.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "i5po27g2n6zrzxnhxdy2fnpaai7xsdaw"
+            },
+            {
+                "name": "openssl",
+                "version": "1.1.1o",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "certs": "system",
+                    "docs": false,
+                    "shared": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "perl",
+                        "hash": "pn5mteswujdkuong6mbqaush54rdas7c",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "hash": "fntvsj6xevbz5gyq7kfa4xg7oxnaolxs",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "hqlqpsnqoifap6mlkbr5fyxoaq3gynbk"
+            },
+            {
+                "name": "perl",
+                "version": "5.34.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cpanm": true,
+                    "shared": true,
+                    "threads": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "berkeley-db",
+                        "hash": "q6tqmmmitkatscuadcwn6ea32iscs55k",
                         "type": [
                             "build",
                             "link"
                         ]
                     },
                     {
-                        "name": "rdma-core",
-                        "hash": "rwvusos3ralqcq67oxsq44viobqs6el7",
+                        "name": "bzip2",
+                        "hash": "cyn2yamiu26ofxwgxzxbioreuwigzl6f",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "gdbm",
+                        "hash": "xub4jsy5pz5qjf6vooropf2shkigy5pm",
                         "type": [
                             "build",
                             "link"
@@ -133,11 +268,11 @@
                         ]
                     }
                 ],
-                "hash": "ool56tqfo2gskgkcux7xkhahce7ekpk2"
+                "hash": "pn5mteswujdkuong6mbqaush54rdas7c"
             },
             {
-                "name": "libpciaccess",
-                "version": "0.16",
+                "name": "berkeley-db",
+                "version": "18.1.40",
                 "arch": {
                     "platform": "linux",
                     "platform_os": "ubuntu18.04",
@@ -149,6 +284,12 @@
                 },
                 "namespace": "builtin",
                 "parameters": {
+                    "cxx": true,
+                    "docs": false,
+                    "patches": [
+                        "b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522"
+                    ],
+                    "stl": true,
                     "cflags": [],
                     "cppflags": [],
                     "cxxflags": [],
@@ -156,11 +297,14 @@
                     "ldflags": [],
                     "ldlibs": []
                 },
-                "hash": "csp5gvqmwcmqsd4al5iafotfk5fqh3uf"
+                "patches": [
+                    "b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522"
+                ],
+                "hash": "q6tqmmmitkatscuadcwn6ea32iscs55k"
             },
             {
-                "name": "libxml2",
-                "version": "2.9.13",
+                "name": "bzip2",
+                "version": "1.0.8",
                 "arch": {
                     "platform": "linux",
                     "platform_os": "ubuntu18.04",
@@ -172,7 +316,41 @@
                 },
                 "namespace": "builtin",
                 "parameters": {
-                    "python": false,
+                    "debug": false,
+                    "pic": false,
+                    "shared": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "diffutils",
+                        "hash": "k22pe4rhr7yllf5pojl75veh5gkjdglq",
+                        "type": [
+                            "build"
+                        ]
+                    }
+                ],
+                "hash": "cyn2yamiu26ofxwgxzxbioreuwigzl6f"
+            },
+            {
+                "name": "diffutils",
+                "version": "3.8",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
                     "cflags": [],
                     "cppflags": [],
                     "cxxflags": [],
@@ -188,25 +366,9 @@
                             "build",
                             "link"
                         ]
-                    },
-                    {
-                        "name": "xz",
-                        "hash": "olptpbsse74hpreilbfo4qmlqexihzye",
-                        "type": [
-                            "build",
-                            "link"
-                        ]
-                    },
-                    {
-                        "name": "zlib",
-                        "hash": "fntvsj6xevbz5gyq7kfa4xg7oxnaolxs",
-                        "type": [
-                            "build",
-                            "link"
-                        ]
                     }
                 ],
-                "hash": "4run532u4c6iy5th5gkpgm26tr4vajc4"
+                "hash": "k22pe4rhr7yllf5pojl75veh5gkjdglq"
             },
             {
                 "name": "libiconv",
@@ -236,8 +398,8 @@
                 "hash": "dr56jt456uiebij2mkueldmejdxftigc"
             },
             {
-                "name": "xz",
-                "version": "5.2.5",
+                "name": "gdbm",
+                "version": "1.19",
                 "arch": {
                     "platform": "linux",
                     "platform_os": "ubuntu18.04",
@@ -249,11 +411,6 @@
                 },
                 "namespace": "builtin",
                 "parameters": {
-                    "libs": [
-                        "shared",
-                        "static"
-                    ],
-                    "pic": false,
                     "cflags": [],
                     "cppflags": [],
                     "cxxflags": [],
@@ -261,7 +418,50 @@
                     "ldflags": [],
                     "ldlibs": []
                 },
-                "hash": "olptpbsse74hpreilbfo4qmlqexihzye"
+                "dependencies": [
+                    {
+                        "name": "readline",
+                        "hash": "ls6erxwsj2ubsfzt4x5mblj6nrab5jkp",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "xub4jsy5pz5qjf6vooropf2shkigy5pm"
+            },
+            {
+                "name": "readline",
+                "version": "8.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "ncurses",
+                        "hash": "frwzsc4jrou7efe7huyzeownqfjvsrfd",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "ls6erxwsj2ubsfzt4x5mblj6nrab5jkp"
             },
             {
                 "name": "zlib",
@@ -294,87 +494,6 @@
                     "0d38234384870bfd34dfcb738a9083952656f0c766a0f5990b1893076b084b76"
                 ],
                 "hash": "fntvsj6xevbz5gyq7kfa4xg7oxnaolxs"
-            },
-            {
-                "name": "rdma-core",
-                "version": "39.1",
-                "arch": {
-                    "platform": "linux",
-                    "platform_os": "ubuntu18.04",
-                    "target": "x86_64"
-                },
-                "compiler": {
-                    "name": "gcc",
-                    "version": "7.5.0"
-                },
-                "namespace": "builtin",
-                "parameters": {
-                    "build_type": "RelWithDebInfo",
-                    "ipo": false,
-                    "cflags": [],
-                    "cppflags": [],
-                    "cxxflags": [],
-                    "fflags": [],
-                    "ldflags": [],
-                    "ldlibs": []
-                },
-                "dependencies": [
-                    {
-                        "name": "libnl",
-                        "hash": "2v4xgfwasnuf4lip4ukg335mexy7jcau",
-                        "type": [
-                            "build",
-                            "link"
-                        ]
-                    }
-                ],
-                "hash": "rwvusos3ralqcq67oxsq44viobqs6el7"
-            },
-            {
-                "name": "libnl",
-                "version": "3.3.0",
-                "arch": {
-                    "platform": "linux",
-                    "platform_os": "ubuntu18.04",
-                    "target": "x86_64"
-                },
-                "compiler": {
-                    "name": "gcc",
-                    "version": "7.5.0"
-                },
-                "namespace": "builtin",
-                "parameters": {
-                    "cflags": [],
-                    "cppflags": [],
-                    "cxxflags": [],
-                    "fflags": [],
-                    "ldflags": [],
-                    "ldlibs": []
-                },
-                "hash": "2v4xgfwasnuf4lip4ukg335mexy7jcau"
-            },
-            {
-                "name": "pkgconf",
-                "version": "1.8.0",
-                "arch": {
-                    "platform": "linux",
-                    "platform_os": "ubuntu18.04",
-                    "target": "x86_64"
-                },
-                "compiler": {
-                    "name": "gcc",
-                    "version": "7.5.0"
-                },
-                "namespace": "builtin",
-                "parameters": {
-                    "cflags": [],
-                    "cppflags": [],
-                    "cxxflags": [],
-                    "fflags": [],
-                    "ldflags": [],
-                    "ldlibs": []
-                },
-                "hash": "i5po27g2n6zrzxnhxdy2fnpaai7xsdaw"
             }
         ]
     }

@@ -1,7 +1,7 @@
 {
     "spec": {
         "_meta": {
-            "version": 2
+            "version": 3
         },
         "nodes": [
             {
@@ -67,6 +67,27 @@
                         ]
                     },
                     {
+                        "name": "py-jupyterlab",
+                        "hash": "bnkrusbu4cfqbe47mz5s3dirmzqcdrr3",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-packaging",
+                        "hash": "ongwnrrwdc4vaatipsw63n7mfvtttt45",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-psutil",
                         "hash": "jnrfq5q6klj5i5axglc6tm63dhcqrqbb",
                         "type": [
@@ -91,6 +112,13 @@
                         ]
                     },
                     {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-tornado",
                         "hash": "kaz2bzkoxgui3tqnsjf42zb6o3f7ckp2",
                         "type": [
@@ -112,6 +140,13 @@
                         "type": [
                             "build",
                             "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
                         ]
                     },
                     {
@@ -148,6 +183,27 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
                         "type": [
@@ -157,6 +213,39 @@
                     }
                 ],
                 "hash": "4rhk7q2o5u67g75bjbjkzfmccwdgpq4u"
+            },
+            {
+                "name": "py-pip",
+                "version": "21.3.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "shoguqapzotfe3ertyv5655tfygzhzzx"
             },
             {
                 "name": "python",
@@ -268,6 +357,13 @@
                         ]
                     },
                     {
+                        "name": "pkgconf",
+                        "hash": "i5po27g2n6zrzxnhxdy2fnpaai7xsdaw",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "readline",
                         "hash": "ls6erxwsj2ubsfzt4x5mblj6nrab5jkp",
                         "type": [
@@ -334,7 +430,76 @@
                     "ldflags": [],
                     "ldlibs": []
                 },
+                "dependencies": [
+                    {
+                        "name": "diffutils",
+                        "hash": "k22pe4rhr7yllf5pojl75veh5gkjdglq",
+                        "type": [
+                            "build"
+                        ]
+                    }
+                ],
                 "hash": "cyn2yamiu26ofxwgxzxbioreuwigzl6f"
+            },
+            {
+                "name": "diffutils",
+                "version": "3.8",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "libiconv",
+                        "hash": "dr56jt456uiebij2mkueldmejdxftigc",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "k22pe4rhr7yllf5pojl75veh5gkjdglq"
+            },
+            {
+                "name": "libiconv",
+                "version": "1.16",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "libs": [
+                        "shared",
+                        "static"
+                    ],
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "dr56jt456uiebij2mkueldmejdxftigc"
             },
             {
                 "name": "expat",
@@ -516,7 +681,39 @@
                     "ldflags": [],
                     "ldlibs": []
                 },
+                "dependencies": [
+                    {
+                        "name": "pkgconf",
+                        "hash": "i5po27g2n6zrzxnhxdy2fnpaai7xsdaw",
+                        "type": [
+                            "build"
+                        ]
+                    }
+                ],
                 "hash": "frwzsc4jrou7efe7huyzeownqfjvsrfd"
+            },
+            {
+                "name": "pkgconf",
+                "version": "1.8.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "hash": "i5po27g2n6zrzxnhxdy2fnpaai7xsdaw"
             },
             {
                 "name": "gettext",
@@ -600,33 +797,6 @@
                 "hash": "7g6rytllpv267r53rkju7hlxjll7cjsv"
             },
             {
-                "name": "libiconv",
-                "version": "1.16",
-                "arch": {
-                    "platform": "linux",
-                    "platform_os": "ubuntu18.04",
-                    "target": "x86_64"
-                },
-                "compiler": {
-                    "name": "gcc",
-                    "version": "7.5.0"
-                },
-                "namespace": "builtin",
-                "parameters": {
-                    "libs": [
-                        "shared",
-                        "static"
-                    ],
-                    "cflags": [],
-                    "cppflags": [],
-                    "cxxflags": [],
-                    "fflags": [],
-                    "ldflags": [],
-                    "ldlibs": []
-                },
-                "hash": "dr56jt456uiebij2mkueldmejdxftigc"
-            },
-            {
                 "name": "libxml2",
                 "version": "2.9.13",
                 "arch": {
@@ -655,6 +825,13 @@
                         "type": [
                             "build",
                             "link"
+                        ]
+                    },
+                    {
+                        "name": "pkgconf",
+                        "hash": "i5po27g2n6zrzxnhxdy2fnpaai7xsdaw",
+                        "type": [
+                            "build"
                         ]
                     },
                     {
@@ -911,6 +1088,13 @@
                 },
                 "dependencies": [
                     {
+                        "name": "perl",
+                        "hash": "pn5mteswujdkuong6mbqaush54rdas7c",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "zlib",
                         "hash": "fntvsj6xevbz5gyq7kfa4xg7oxnaolxs",
                         "type": [
@@ -920,6 +1104,98 @@
                     }
                 ],
                 "hash": "hqlqpsnqoifap6mlkbr5fyxoaq3gynbk"
+            },
+            {
+                "name": "perl",
+                "version": "5.34.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cpanm": true,
+                    "shared": true,
+                    "threads": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "berkeley-db",
+                        "hash": "q6tqmmmitkatscuadcwn6ea32iscs55k",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "bzip2",
+                        "hash": "cyn2yamiu26ofxwgxzxbioreuwigzl6f",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "gdbm",
+                        "hash": "xub4jsy5pz5qjf6vooropf2shkigy5pm",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "zlib",
+                        "hash": "fntvsj6xevbz5gyq7kfa4xg7oxnaolxs",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    }
+                ],
+                "hash": "pn5mteswujdkuong6mbqaush54rdas7c"
+            },
+            {
+                "name": "berkeley-db",
+                "version": "18.1.40",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cxx": true,
+                    "docs": false,
+                    "patches": [
+                        "b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522"
+                    ],
+                    "stl": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "patches": [
+                    "b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522"
+                ],
+                "hash": "q6tqmmmitkatscuadcwn6ea32iscs55k"
             },
             {
                 "name": "sqlite",
@@ -988,7 +1264,103 @@
                     "ldflags": [],
                     "ldlibs": []
                 },
+                "dependencies": [
+                    {
+                        "name": "pkgconf",
+                        "hash": "i5po27g2n6zrzxnhxdy2fnpaai7xsdaw",
+                        "type": [
+                            "build"
+                        ]
+                    }
+                ],
                 "hash": "7fulw7ltpkq3t6edfpx3yhqsikyuevi6"
+            },
+            {
+                "name": "py-setuptools",
+                "version": "59.4.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny"
+            },
+            {
+                "name": "py-wheel",
+                "version": "0.37.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "hdviksan5bogft7azbnv7clpbmteoxb6"
             },
             {
                 "name": "py-entrypoints",
@@ -1013,6 +1385,27 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-flit-core",
+                        "hash": "pvxii6gym3gbbc75vlohi5lnx633zhfk",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
                         "type": [
@@ -1022,6 +1415,53 @@
                     }
                 ],
                 "hash": "h4qt4kkro6amqrfcdq2ittwudy36gwxn"
+            },
+            {
+                "name": "py-flit-core",
+                "version": "3.6.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "pvxii6gym3gbbc75vlohi5lnx633zhfk"
             },
             {
                 "name": "py-ipykernel",
@@ -1070,6 +1510,13 @@
                         ]
                     },
                     {
+                        "name": "py-jupyter-core",
+                        "hash": "uyl6cl7wujei3futtoruiqvlevtmf2ek",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-matplotlib-inline",
                         "hash": "5aihweigdjr6ufylw2fxly6e77oe2dgk",
                         "type": [
@@ -1086,6 +1533,20 @@
                         ]
                     },
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-tornado",
                         "hash": "kaz2bzkoxgui3tqnsjf42zb6o3f7ckp2",
                         "type": [
@@ -1099,6 +1560,13 @@
                         "type": [
                             "build",
                             "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
                         ]
                     },
                     {
@@ -1134,6 +1602,27 @@
                     "ldlibs": []
                 },
                 "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
                     {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
@@ -1225,6 +1714,13 @@
                         ]
                     },
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-prompt-toolkit",
                         "hash": "kdch3vnisbigaxbnaxr4w2rdwjoxvfbw",
                         "type": [
@@ -1265,6 +1761,13 @@
                         ]
                     },
                     {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
                         "type": [
@@ -1297,6 +1800,27 @@
                     "ldlibs": []
                 },
                 "dependencies": [
+                    {
+                        "name": "py-flit-core",
+                        "hash": "pvxii6gym3gbbc75vlohi5lnx633zhfk",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
                     {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
@@ -1357,6 +1881,13 @@
                         ]
                     },
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-platformdirs",
                         "hash": "k6tni2iggs64pop4xmq4hsgrtpnsrm2r",
                         "type": [
@@ -1373,6 +1904,13 @@
                         ]
                     },
                     {
+                        "name": "py-setuptools-scm",
+                        "hash": "ncrjzhc57hwi7fijkq6jy3ht2rfc2veo",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-tomli",
                         "hash": "vapki2pl2zpejgcarf3vn5leoylmoklp",
                         "type": [
@@ -1386,6 +1924,13 @@
                         "type": [
                             "build",
                             "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
                         ]
                     },
                     {
@@ -1422,6 +1967,27 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
                         "type": [
@@ -1454,6 +2020,27 @@
                     "ldlibs": []
                 },
                 "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
                     {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
@@ -1488,6 +2075,27 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
                         "type": [
@@ -1521,6 +2129,34 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools-scm",
+                        "hash": "ncrjzhc57hwi7fijkq6jy3ht2rfc2veo",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
                         "type": [
@@ -1532,8 +2168,80 @@
                 "hash": "k6tni2iggs64pop4xmq4hsgrtpnsrm2r"
             },
             {
-                "name": "py-setuptools",
-                "version": "59.4.0",
+                "name": "py-setuptools-scm",
+                "version": "6.3.2",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "toml": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-packaging",
+                        "hash": "ongwnrrwdc4vaatipsw63n7mfvtttt45",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-tomli",
+                        "hash": "vapki2pl2zpejgcarf3vn5leoylmoklp",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "ncrjzhc57hwi7fijkq6jy3ht2rfc2veo"
+            },
+            {
+                "name": "py-packaging",
+                "version": "21.3",
                 "arch": {
                     "platform": "linux",
                     "platform_os": "ubuntu18.04",
@@ -1554,6 +2262,35 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-pyparsing",
+                        "hash": "lizpvgwbsmtl2zhcxue7rrp6gdoqlr7u",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
                         "type": [
@@ -1562,7 +2299,61 @@
                         ]
                     }
                 ],
-                "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny"
+                "hash": "ongwnrrwdc4vaatipsw63n7mfvtttt45"
+            },
+            {
+                "name": "py-pyparsing",
+                "version": "3.0.6",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "lizpvgwbsmtl2zhcxue7rrp6gdoqlr7u"
             },
             {
                 "name": "py-tomli",
@@ -1586,6 +2377,20 @@
                     "ldlibs": []
                 },
                 "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
                     {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
@@ -1619,6 +2424,27 @@
                     "ldlibs": []
                 },
                 "dependencies": [
+                    {
+                        "name": "py-flit-core",
+                        "hash": "pvxii6gym3gbbc75vlohi5lnx633zhfk",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
                     {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
@@ -1661,11 +2487,25 @@
                         ]
                     },
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-setuptools",
                         "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
                         "type": [
                             "build",
                             "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
                         ]
                     },
                     {
@@ -1702,6 +2542,27 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
                         "type": [
@@ -1735,11 +2596,32 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-traitlets",
                         "hash": "nq2b2i2chrj3ibnnxg7vidcverwpmqil",
                         "type": [
                             "build",
                             "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
                         ]
                     },
                     {
@@ -1776,6 +2658,27 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
                         "type": [
@@ -1809,11 +2712,32 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-ptyprocess",
                         "hash": "gdnzgi47jx3zqcipf36x3pmpi2e2e6zo",
                         "type": [
                             "build",
                             "run"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
                         ]
                     },
                     {
@@ -1850,6 +2774,27 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-flit-core",
+                        "hash": "pvxii6gym3gbbc75vlohi5lnx633zhfk",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
                         "type": [
@@ -1882,6 +2827,27 @@
                     "ldlibs": []
                 },
                 "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
                     {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
@@ -1916,11 +2882,32 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-wcwidth",
                         "hash": "r4lsu3x7asm2kt7lybz6mqxhjx3gl5fw",
                         "type": [
                             "build",
                             "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
                         ]
                     },
                     {
@@ -1957,6 +2944,27 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
                         "type": [
@@ -1990,11 +2998,25 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-setuptools",
                         "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
                         "type": [
                             "build",
                             "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
                         ]
                     },
                     {
@@ -2047,11 +3069,39 @@
                         ]
                     },
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-pure-eval",
                         "hash": "yay4hb5nzmjskv3q7mfvlz46j3np3dvg",
                         "type": [
                             "build",
                             "run"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools-scm",
+                        "hash": "ncrjzhc57hwi7fijkq6jy3ht2rfc2veo",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
                         ]
                     },
                     {
@@ -2088,11 +3138,39 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools-scm",
+                        "hash": "ncrjzhc57hwi7fijkq6jy3ht2rfc2veo",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-six",
                         "hash": "ai6zw263u6ae6bk2kie4dzrccspxrlzp",
                         "type": [
                             "build",
                             "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
                         ]
                     },
                     {
@@ -2129,6 +3207,27 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
                         "type": [
@@ -2162,6 +3261,34 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools-scm",
+                        "hash": "ncrjzhc57hwi7fijkq6jy3ht2rfc2veo",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
                         "type": [
@@ -2194,6 +3321,34 @@
                     "ldlibs": []
                 },
                 "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools-scm",
+                        "hash": "ncrjzhc57hwi7fijkq6jy3ht2rfc2veo",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
                     {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
@@ -2252,6 +3407,13 @@
                         ]
                     },
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-python-dateutil",
                         "hash": "jvh6hwjlzunctouzpwy2h62d2burmtyk",
                         "type": [
@@ -2292,6 +3454,13 @@
                         ]
                     },
                     {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
                         "type": [
@@ -2325,6 +3494,13 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-setuptools",
                         "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
                         "type": [
@@ -2338,6 +3514,13 @@
                         "type": [
                             "build",
                             "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
                         ]
                     },
                     {
@@ -2374,6 +3557,34 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools-scm",
+                        "hash": "ncrjzhc57hwi7fijkq6jy3ht2rfc2veo",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
                         "type": [
@@ -2407,11 +3618,39 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools-scm",
+                        "hash": "ncrjzhc57hwi7fijkq6jy3ht2rfc2veo",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-six",
                         "hash": "ai6zw263u6ae6bk2kie4dzrccspxrlzp",
                         "type": [
                             "build",
                             "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
                         ]
                     },
                     {
@@ -2464,6 +3703,13 @@
                         ]
                     },
                     {
+                        "name": "py-cython",
+                        "hash": "rntkoeegrqezczcr2k7d6vme2d4oel3g",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-gevent",
                         "hash": "gl33svobc4ip5ki3rgpxdxz6e6sb7f6m",
                         "type": [
@@ -2472,11 +3718,32 @@
                         ]
                     },
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-py",
                         "hash": "qqxrj4xk6txicjdtcb7cpbdp6vkas56f",
                         "type": [
                             "build",
                             "run"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
                         ]
                     },
                     {
@@ -2530,6 +3797,13 @@
                         "type": [
                             "build",
                             "link"
+                        ]
+                    },
+                    {
+                        "name": "pkgconf",
+                        "hash": "i5po27g2n6zrzxnhxdy2fnpaai7xsdaw",
+                        "type": [
+                            "build"
                         ]
                     }
                 ],
@@ -2589,11 +3863,39 @@
                         ]
                     },
                     {
+                        "name": "pkgconf",
+                        "hash": "i5po27g2n6zrzxnhxdy2fnpaai7xsdaw",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-pycparser",
                         "hash": "f4t4v5knfqrvpna4k7ds37xoyqxvalm5",
                         "type": [
                             "build",
                             "run"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
                         ]
                     },
                     {
@@ -2630,6 +3932,27 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
                         "type": [
@@ -2639,6 +3962,62 @@
                     }
                 ],
                 "hash": "f4t4v5knfqrvpna4k7ds37xoyqxvalm5"
+            },
+            {
+                "name": "py-cython",
+                "version": "0.29.30",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "link",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "rntkoeegrqezczcr2k7d6vme2d4oel3g"
             },
             {
                 "name": "py-gevent",
@@ -2671,11 +4050,39 @@
                         ]
                     },
                     {
+                        "name": "py-cython",
+                        "hash": "rntkoeegrqezczcr2k7d6vme2d4oel3g",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-greenlet",
                         "hash": "oe64erdfer4erk5bf4b27bghukt73hsp",
                         "type": [
                             "build",
                             "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
                         ]
                     },
                     {
@@ -2712,6 +4119,27 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
                         "type": [
@@ -2746,6 +4174,34 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools-scm",
+                        "hash": "ncrjzhc57hwi7fijkq6jy3ht2rfc2veo",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
                         "type": [
@@ -2779,6 +4235,27 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
                         "type": [
@@ -2788,6 +4265,3153 @@
                     }
                 ],
                 "hash": "kaz2bzkoxgui3tqnsjf42zb6o3f7ckp2"
+            },
+            {
+                "name": "py-jupyterlab",
+                "version": "3.2.9",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-ipython",
+                        "hash": "pe3tixmtrbswqfp6h2ccgb4b6cve4ci5",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-jinja2",
+                        "hash": "kh5vdgojqwvv6aazjv3zabisj2ijlll2",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-jupyter-core",
+                        "hash": "uyl6cl7wujei3futtoruiqvlevtmf2ek",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-jupyter-packaging11",
+                        "hash": "2bp3lcst6l4brsmnyklzttnxes3ikbwg",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-jupyter-server",
+                        "hash": "6iehhmypp5mnnenvh5ltj5bhexmyw2jz",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-jupyterlab-server",
+                        "hash": "miscuofn56qvoar2xvp3hqvaha4vhvdt",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-nbclassic",
+                        "hash": "fak2laheb35bbbhhcileswmr66i4jajk",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-packaging",
+                        "hash": "ongwnrrwdc4vaatipsw63n7mfvtttt45",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-tornado",
+                        "hash": "kaz2bzkoxgui3tqnsjf42zb6o3f7ckp2",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "bnkrusbu4cfqbe47mz5s3dirmzqcdrr3"
+            },
+            {
+                "name": "py-jinja2",
+                "version": "3.0.3",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "i18n": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-markupsafe",
+                        "hash": "xtd2axzveyb7epvtquic2vuq56ophauq",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "kh5vdgojqwvv6aazjv3zabisj2ijlll2"
+            },
+            {
+                "name": "py-markupsafe",
+                "version": "2.0.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "xtd2axzveyb7epvtquic2vuq56ophauq"
+            },
+            {
+                "name": "py-jupyter-packaging11",
+                "version": "0.11.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-deprecation",
+                        "hash": "yczfaag7tw5qf44dsa77bktwvilchoij",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-packaging",
+                        "hash": "ongwnrrwdc4vaatipsw63n7mfvtttt45",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-tomlkit",
+                        "hash": "tdtuuizn5kvi2qyvijisckkt76njs623",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "2bp3lcst6l4brsmnyklzttnxes3ikbwg"
+            },
+            {
+                "name": "py-deprecation",
+                "version": "2.1.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-packaging",
+                        "hash": "ongwnrrwdc4vaatipsw63n7mfvtttt45",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "yczfaag7tw5qf44dsa77bktwvilchoij"
+            },
+            {
+                "name": "py-tomlkit",
+                "version": "0.7.2",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-poetry-core",
+                        "hash": "6dwwfcls5pr4s6dyybbcu55rfwud6ui2",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "tdtuuizn5kvi2qyvijisckkt76njs623"
+            },
+            {
+                "name": "py-poetry-core",
+                "version": "1.0.8",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "6dwwfcls5pr4s6dyybbcu55rfwud6ui2"
+            },
+            {
+                "name": "py-jupyter-server",
+                "version": "1.13.5",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-anyio",
+                        "hash": "qot7zu7iihthy3a7tuqauj3y2xyrb5ef",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-argon2-cffi",
+                        "hash": "vfabaddx5m7qapwftnz5fpfpazf25xfz",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-ipython-genutils",
+                        "hash": "4a65ho2o5arzjnqyemt3pdpwme7sdjag",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-jinja2",
+                        "hash": "kh5vdgojqwvv6aazjv3zabisj2ijlll2",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-jupyter-client",
+                        "hash": "tziexczrcf6lfcac6pv3dtilnlavkej5",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-jupyter-core",
+                        "hash": "uyl6cl7wujei3futtoruiqvlevtmf2ek",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-jupyter-packaging11",
+                        "hash": "2bp3lcst6l4brsmnyklzttnxes3ikbwg",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-nbconvert",
+                        "hash": "yzcbbperkvmdwpc2rsht3bdgidkgp5f7",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-nbformat",
+                        "hash": "rl6y3rvoyxrlhdydyckikpdlrjgqxhpx",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-packaging",
+                        "hash": "ongwnrrwdc4vaatipsw63n7mfvtttt45",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-prometheus-client",
+                        "hash": "x5mc2g77vmbp5yynsy7jgjqcz52vksbs",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pyzmq",
+                        "hash": "7ssyprt7rgink3npqyjqtlevnkh5sgi4",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-send2trash",
+                        "hash": "s5gyw7ahkaeskxtcvp56yxtjshxymapg",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-terminado",
+                        "hash": "m3t6cdq67yo4nuammsb2q6d32yuj5jyw",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-tornado",
+                        "hash": "kaz2bzkoxgui3tqnsjf42zb6o3f7ckp2",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-traitlets",
+                        "hash": "nq2b2i2chrj3ibnnxg7vidcverwpmqil",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-websocket-client",
+                        "hash": "uucljojwofkrojkyw3jwuquc2krqwnny",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "6iehhmypp5mnnenvh5ltj5bhexmyw2jz"
+            },
+            {
+                "name": "py-anyio",
+                "version": "3.5.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-idna",
+                        "hash": "ypduacqlgo73z7mwk3ownrw3krj4i2xh",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools-scm",
+                        "hash": "ncrjzhc57hwi7fijkq6jy3ht2rfc2veo",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-sniffio",
+                        "hash": "7vnbhegjya4ep67vl566rjslxfwelrqx",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "qot7zu7iihthy3a7tuqauj3y2xyrb5ef"
+            },
+            {
+                "name": "py-idna",
+                "version": "3.3",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build",
+                            "link"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "ypduacqlgo73z7mwk3ownrw3krj4i2xh"
+            },
+            {
+                "name": "py-sniffio",
+                "version": "1.2.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "7vnbhegjya4ep67vl566rjslxfwelrqx"
+            },
+            {
+                "name": "py-argon2-cffi",
+                "version": "21.3.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-argon2-cffi-bindings",
+                        "hash": "wqtmcp2i6kuhkitrpxqa5pocx7cgvhfz",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-flit-core",
+                        "hash": "pvxii6gym3gbbc75vlohi5lnx633zhfk",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "vfabaddx5m7qapwftnz5fpfpazf25xfz"
+            },
+            {
+                "name": "py-argon2-cffi-bindings",
+                "version": "21.2.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-cffi",
+                        "hash": "lrpsm7cipq6ksn7h7plfmgsjav37wkbl",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools-scm",
+                        "hash": "ncrjzhc57hwi7fijkq6jy3ht2rfc2veo",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "wqtmcp2i6kuhkitrpxqa5pocx7cgvhfz"
+            },
+            {
+                "name": "py-ipython-genutils",
+                "version": "0.2.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "4a65ho2o5arzjnqyemt3pdpwme7sdjag"
+            },
+            {
+                "name": "py-nbconvert",
+                "version": "6.4.2",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "serve": true,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-bleach",
+                        "hash": "a42h5lo3d345aztx2k7gg65hefqr2a6t",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-defusedxml",
+                        "hash": "6gcbqibynvqzw6xzcrd2st4e4nnzglwq",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-entrypoints",
+                        "hash": "h4qt4kkro6amqrfcdq2ittwudy36gwxn",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-jinja2",
+                        "hash": "kh5vdgojqwvv6aazjv3zabisj2ijlll2",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-jupyter-core",
+                        "hash": "uyl6cl7wujei3futtoruiqvlevtmf2ek",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-jupyterlab-pygments",
+                        "hash": "lcwumawbsbv3aiois4rmxyfbqdsrgk7c",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-mistune",
+                        "hash": "dbt6w256wfhxzspj3p7e7hrxo2s3dhwe",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-nbclient",
+                        "hash": "r3pjcee5wtgdsuv7ebrfb5hf62xfmtqv",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-nbformat",
+                        "hash": "rl6y3rvoyxrlhdydyckikpdlrjgqxhpx",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pandocfilters",
+                        "hash": "hlsdt46mxxc5hhhrbfoqhupzqb7khif7",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-pygments",
+                        "hash": "6tbsbbbkb4mfxbkhkeknwm3hfiroji6v",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-testpath",
+                        "hash": "lqhrgmfxaedn5apixoufbyssvfzkrscp",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-tornado",
+                        "hash": "kaz2bzkoxgui3tqnsjf42zb6o3f7ckp2",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-traitlets",
+                        "hash": "nq2b2i2chrj3ibnnxg7vidcverwpmqil",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "yzcbbperkvmdwpc2rsht3bdgidkgp5f7"
+            },
+            {
+                "name": "py-bleach",
+                "version": "4.1.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-packaging",
+                        "hash": "ongwnrrwdc4vaatipsw63n7mfvtttt45",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-six",
+                        "hash": "ai6zw263u6ae6bk2kie4dzrccspxrlzp",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-webencodings",
+                        "hash": "eeeolbtmucv3nfn7p5unf5id4i75x5gi",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "a42h5lo3d345aztx2k7gg65hefqr2a6t"
+            },
+            {
+                "name": "py-webencodings",
+                "version": "0.5.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "eeeolbtmucv3nfn7p5unf5id4i75x5gi"
+            },
+            {
+                "name": "py-defusedxml",
+                "version": "0.7.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "6gcbqibynvqzw6xzcrd2st4e4nnzglwq"
+            },
+            {
+                "name": "py-jupyterlab-pygments",
+                "version": "0.1.2",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-pygments",
+                        "hash": "6tbsbbbkb4mfxbkhkeknwm3hfiroji6v",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "lcwumawbsbv3aiois4rmxyfbqdsrgk7c"
+            },
+            {
+                "name": "py-mistune",
+                "version": "0.8.4",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "dbt6w256wfhxzspj3p7e7hrxo2s3dhwe"
+            },
+            {
+                "name": "py-nbclient",
+                "version": "0.5.5",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-jupyter-client",
+                        "hash": "tziexczrcf6lfcac6pv3dtilnlavkej5",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-nbformat",
+                        "hash": "rl6y3rvoyxrlhdydyckikpdlrjgqxhpx",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-nest-asyncio",
+                        "hash": "gt227zuyl35bgyqf45ebeqxwaarqzht3",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-traitlets",
+                        "hash": "nq2b2i2chrj3ibnnxg7vidcverwpmqil",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "r3pjcee5wtgdsuv7ebrfb5hf62xfmtqv"
+            },
+            {
+                "name": "py-nbformat",
+                "version": "5.1.3",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-ipython-genutils",
+                        "hash": "4a65ho2o5arzjnqyemt3pdpwme7sdjag",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-jsonschema",
+                        "hash": "zlgxrcdlizn5w65odaclgpcuvh3phfuf",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-jupyter-core",
+                        "hash": "uyl6cl7wujei3futtoruiqvlevtmf2ek",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-traitlets",
+                        "hash": "nq2b2i2chrj3ibnnxg7vidcverwpmqil",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "rl6y3rvoyxrlhdydyckikpdlrjgqxhpx"
+            },
+            {
+                "name": "py-jsonschema",
+                "version": "4.4.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-attrs",
+                        "hash": "cf4psilvmsywxdatlq24sijoznvblfec",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-importlib-resources",
+                        "hash": "m34ozz3f6g5i7dbjvmgiqxzhf2e2rwd2",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-pyrsistent",
+                        "hash": "wc2ysampydp34ihua55ry2w5gyc47uji",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools-scm",
+                        "hash": "ncrjzhc57hwi7fijkq6jy3ht2rfc2veo",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "zlgxrcdlizn5w65odaclgpcuvh3phfuf"
+            },
+            {
+                "name": "py-attrs",
+                "version": "21.4.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "cf4psilvmsywxdatlq24sijoznvblfec"
+            },
+            {
+                "name": "py-importlib-resources",
+                "version": "5.3.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools-scm",
+                        "hash": "ncrjzhc57hwi7fijkq6jy3ht2rfc2veo",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-zipp",
+                        "hash": "5vkwpzdy6jamxj4nxoavpukfue3ld6ch",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "m34ozz3f6g5i7dbjvmgiqxzhf2e2rwd2"
+            },
+            {
+                "name": "py-zipp",
+                "version": "3.6.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools-scm",
+                        "hash": "ncrjzhc57hwi7fijkq6jy3ht2rfc2veo",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "5vkwpzdy6jamxj4nxoavpukfue3ld6ch"
+            },
+            {
+                "name": "py-pyrsistent",
+                "version": "0.18.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "link",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "wc2ysampydp34ihua55ry2w5gyc47uji"
+            },
+            {
+                "name": "py-pandocfilters",
+                "version": "1.5.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "hlsdt46mxxc5hhhrbfoqhupzqb7khif7"
+            },
+            {
+                "name": "py-testpath",
+                "version": "0.6.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-flit-core",
+                        "hash": "pvxii6gym3gbbc75vlohi5lnx633zhfk",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "lqhrgmfxaedn5apixoufbyssvfzkrscp"
+            },
+            {
+                "name": "py-prometheus-client",
+                "version": "0.12.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "twisted": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "x5mc2g77vmbp5yynsy7jgjqcz52vksbs"
+            },
+            {
+                "name": "py-send2trash",
+                "version": "1.8.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "s5gyw7ahkaeskxtcvp56yxtjshxymapg"
+            },
+            {
+                "name": "py-terminado",
+                "version": "0.12.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-ptyprocess",
+                        "hash": "gdnzgi47jx3zqcipf36x3pmpi2e2e6zo",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-tornado",
+                        "hash": "kaz2bzkoxgui3tqnsjf42zb6o3f7ckp2",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "m3t6cdq67yo4nuammsb2q6d32yuj5jyw"
+            },
+            {
+                "name": "py-websocket-client",
+                "version": "1.2.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "uucljojwofkrojkyw3jwuquc2krqwnny"
+            },
+            {
+                "name": "py-jupyterlab-server",
+                "version": "2.10.3",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-babel",
+                        "hash": "utqtnfvrkhacy3hbyso7a5w7oieulqcu",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-entrypoints",
+                        "hash": "h4qt4kkro6amqrfcdq2ittwudy36gwxn",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-jinja2",
+                        "hash": "kh5vdgojqwvv6aazjv3zabisj2ijlll2",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-json5",
+                        "hash": "rmefbxhye7nlqzx4eqefxzfsi7u5stpj",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-jsonschema",
+                        "hash": "zlgxrcdlizn5w65odaclgpcuvh3phfuf",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-jupyter-packaging11",
+                        "hash": "2bp3lcst6l4brsmnyklzttnxes3ikbwg",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-jupyter-server",
+                        "hash": "6iehhmypp5mnnenvh5ltj5bhexmyw2jz",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-packaging",
+                        "hash": "ongwnrrwdc4vaatipsw63n7mfvtttt45",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-requests",
+                        "hash": "fprxt3h2bk2fk5ms564dtaquyya25nqy",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "miscuofn56qvoar2xvp3hqvaha4vhvdt"
+            },
+            {
+                "name": "py-babel",
+                "version": "2.9.1",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-pytz",
+                        "hash": "y5jhsxbicrmhbqyue6h6x5ufks7quhoy",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "utqtnfvrkhacy3hbyso7a5w7oieulqcu"
+            },
+            {
+                "name": "py-pytz",
+                "version": "2021.3",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "y5jhsxbicrmhbqyue6h6x5ufks7quhoy"
+            },
+            {
+                "name": "py-json5",
+                "version": "0.9.6",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "rmefbxhye7nlqzx4eqefxzfsi7u5stpj"
+            },
+            {
+                "name": "py-requests",
+                "version": "2.26.0",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "socks": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-certifi",
+                        "hash": "hcubhzgee6xrircaz2fznotehlxbytyx",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-charset-normalizer",
+                        "hash": "mcrjem2hrwsdhqw4s27lnu4pmgenxmd4",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-idna",
+                        "hash": "ypduacqlgo73z7mwk3ownrw3krj4i2xh",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-urllib3",
+                        "hash": "eqdwucdg2gcskl5b6pfovgtaoz3ivq3m",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "fprxt3h2bk2fk5ms564dtaquyya25nqy"
+            },
+            {
+                "name": "py-certifi",
+                "version": "2021.10.8",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "hcubhzgee6xrircaz2fznotehlxbytyx"
+            },
+            {
+                "name": "py-charset-normalizer",
+                "version": "2.0.12",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "mcrjem2hrwsdhqw4s27lnu4pmgenxmd4"
+            },
+            {
+                "name": "py-urllib3",
+                "version": "1.26.6",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "brotli": false,
+                    "secure": false,
+                    "socks": false,
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "eqdwucdg2gcskl5b6pfovgtaoz3ivq3m"
+            },
+            {
+                "name": "py-nbclassic",
+                "version": "0.3.5",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-jupyter-packaging11",
+                        "hash": "2bp3lcst6l4brsmnyklzttnxes3ikbwg",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-jupyter-server",
+                        "hash": "6iehhmypp5mnnenvh5ltj5bhexmyw2jz",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-notebook",
+                        "hash": "mhlxpm34embf2kgzevr2bfxsi6fm6uvy",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "fak2laheb35bbbhhcileswmr66i4jajk"
+            },
+            {
+                "name": "py-notebook",
+                "version": "6.4.5",
+                "arch": {
+                    "platform": "linux",
+                    "platform_os": "ubuntu18.04",
+                    "target": "x86_64"
+                },
+                "compiler": {
+                    "name": "gcc",
+                    "version": "7.5.0"
+                },
+                "namespace": "builtin",
+                "parameters": {
+                    "cflags": [],
+                    "cppflags": [],
+                    "cxxflags": [],
+                    "fflags": [],
+                    "ldflags": [],
+                    "ldlibs": []
+                },
+                "dependencies": [
+                    {
+                        "name": "py-argon2-cffi",
+                        "hash": "vfabaddx5m7qapwftnz5fpfpazf25xfz",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-ipykernel",
+                        "hash": "2j5zujtezauzvte4xuhvdkldmsf55oqs",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-ipython-genutils",
+                        "hash": "4a65ho2o5arzjnqyemt3pdpwme7sdjag",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-jinja2",
+                        "hash": "kh5vdgojqwvv6aazjv3zabisj2ijlll2",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-jupyter-client",
+                        "hash": "tziexczrcf6lfcac6pv3dtilnlavkej5",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-jupyter-core",
+                        "hash": "uyl6cl7wujei3futtoruiqvlevtmf2ek",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-nbconvert",
+                        "hash": "yzcbbperkvmdwpc2rsht3bdgidkgp5f7",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-nbformat",
+                        "hash": "rl6y3rvoyxrlhdydyckikpdlrjgqxhpx",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-prometheus-client",
+                        "hash": "x5mc2g77vmbp5yynsy7jgjqcz52vksbs",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-pyzmq",
+                        "hash": "7ssyprt7rgink3npqyjqtlevnkh5sgi4",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-send2trash",
+                        "hash": "s5gyw7ahkaeskxtcvp56yxtjshxymapg",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-terminado",
+                        "hash": "m3t6cdq67yo4nuammsb2q6d32yuj5jyw",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-tornado",
+                        "hash": "kaz2bzkoxgui3tqnsjf42zb6o3f7ckp2",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-traitlets",
+                        "hash": "nq2b2i2chrj3ibnnxg7vidcverwpmqil",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "python",
+                        "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
+                        "type": [
+                            "build",
+                            "run"
+                        ]
+                    }
+                ],
+                "hash": "mhlxpm34embf2kgzevr2bfxsi6fm6uvy"
             },
             {
                 "name": "py-psutil",
@@ -2811,6 +7435,27 @@
                     "ldlibs": []
                 },
                 "dependencies": [
+                    {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools",
+                        "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
+                        ]
+                    },
                     {
                         "name": "python",
                         "hash": "bhufwetodjbbyn4a7ik5426gguqyd6go",
@@ -2847,11 +7492,32 @@
                 },
                 "dependencies": [
                     {
+                        "name": "py-pip",
+                        "hash": "shoguqapzotfe3ertyv5655tfygzhzzx",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
                         "name": "py-setuptools",
                         "hash": "kbt2n5jgzr6lf4g7f572hs36gcqts3ny",
                         "type": [
                             "build",
                             "run"
+                        ]
+                    },
+                    {
+                        "name": "py-setuptools-scm",
+                        "hash": "ncrjzhc57hwi7fijkq6jy3ht2rfc2veo",
+                        "type": [
+                            "build"
+                        ]
+                    },
+                    {
+                        "name": "py-wheel",
+                        "hash": "hdviksan5bogft7azbnv7clpbmteoxb6",
+                        "type": [
+                            "build"
                         ]
                     },
                     {

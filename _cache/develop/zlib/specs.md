@@ -14,9 +14,9 @@ spec_files:
 spec_names:
  - 'zlib@1.2.12%gcc@7.5.0+optimize+pic+shared patches=0d38234 arch=linux-ubuntu18.04-x86_64'
  - 'zlib@1.2.12%gcc@8.4.0+optimize+pic+shared patches=0d38234 arch=linux-ubuntu18.04-x86_64'
- - 'zlib@1.2.8%gcc@7.5.0 cppflags="-O3" +optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
- - 'zlib@1.2.8%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
- - 'zlib@1.2.12%clang@7.0.0+optimize+pic+shared patches=0d38234 arch=linux-ubuntu18.04-x86_64'
  - 'zlib@1.2.8%clang@7.0.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
  - 'zlib@1.2.12%gcc@6.5.0+optimize+pic+shared patches=0d38234 arch=linux-ubuntu18.04-x86_64'
+ - 'zlib@1.2.8%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'zlib@1.2.8%gcc@7.5.0 cppflags="-O3" +optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+ - 'zlib@1.2.12%clang@7.0.0+optimize+pic+shared patches=0d38234 arch=linux-ubuntu18.04-x86_64'
 ---
