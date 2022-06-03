@@ -5,7 +5,7 @@ permalink: /api/data.json
 [{% for entry in site.cache %}{ {% assign versions = entry.meta.versions  %}{% assign compilers = entry.meta.compilers %}
         "uid": "{{ entry.title }}",
         "tag": "{{ entry.categories[1] }}",
-        "url": "https://spack.github.io/packages/package.html?name={{ entry.title }}",
+        "url": "https://packages.spack.io/package.html?name={{ entry.title }}",
         "rel": "{{ site.baseurl }}{{ entry.url }}",
         "versions": [{% for v in versions %}"{{ v }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}],
         "compilers": [{% for c in compilers %}"{{ c }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}],

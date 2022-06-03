@@ -13,7 +13,7 @@ be presented with another view to inspect specs in detail, or search.
 ![assets/img/entry.png](assets/img/entry.png)
 
 
-⭐️ [See the Build Cache!](https://spack.github.io/cache/) ⭐️
+⭐️ [See the Build Cache!](https://cache.spack.io/) ⭐️
 
 ## Usage
 
@@ -62,9 +62,9 @@ To view the interface locally, use jekyll:
 $ bundle exec jekyll serve
 ```
 
-The above would open to [http://localhost:4000/cache/](http://localhost:4000/cache/).
+The above would open to [http://localhost:4000/cache/](http://localhost:4000/).
 You can then browse the cache.
 
 ## Find an Issue?
 
-If you find a bug or want to contribute to the interface please [let us know!](https://github.com/spack/cache/issues).
+If you find a bug or want to contribute to the interface please [let us know!](https://github.com/spack/cache.spack.io/issues).
