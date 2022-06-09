@@ -72,17 +72,17 @@ layout: default
 <div class="row"><div class="col-md-12">
 <div class="accordion" id="accordionSpecs">
 {% for spec_name in page.spec_names %}<div class="accordion-item">
-    <h2 class="accordion-header" id="heading-{{ forloop.index }}">
+    <h2 class="accordion-header" id="heading-{{ forloop.index0 }}">
       <div class="row"><div class="col-md-12">
-      <button data-fulltext="{{ spec_name }}" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ forloop.index }}" aria-expanded="true" aria-controls="collapse-{{ forloop.index }}">
+      <button data-fulltext="{{ spec_name }}" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ forloop.index0 }}" aria-expanded="true" aria-controls="collapse-{{ forloop.index0 }}">
         <strong>{{ spec_name | truncate: 140}}</strong>
       </button></div> 
       </div>
     </h2>
-    <div id="collapse-{{ forloop.index }}" class="accordion-collapse collapse" aria-labelledby="heading" data-bs-parent="#accordionSpecs" data-spec="{{ page.spec_files[forloop.index]}}" data-id="{{ forloop.index }}">
+    <div id="collapse-{{ forloop.index0 }}" class="accordion-collapse collapse" aria-labelledby="heading" data-bs-parent="#accordionSpecs" data-spec="{{ page.spec_files[forloop.index0]}}" data-id="{{ forloop.index0 }}">
       <div class="accordion-body">
-       <pre><code class="language-javascript" id="code-{{ forloop.index }}">
-        {{ page.spec_files[forloop.index] }}
+       <pre><code class="language-javascript" id="code-{{ forloop.index0 }}">
+        {{ page.spec_files[forloop.index0] }}
        </code></pre>
       </div>
     </div>
