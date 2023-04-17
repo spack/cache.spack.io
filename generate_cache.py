@@ -53,7 +53,7 @@ def write_cache_entries(name, specs):
     for package_name, speclist in specs.items():
 
         # Keep a set of summary metrics for a spec
-        metrics = {"versions": set(), "compilers": set()}
+        metrics = {"versions": set(), "compilers": set(), "arches": set()}
 
         package_dir = os.path.join(here, "_cache", name, package_name)
         if not os.path.exists(package_dir):
@@ -61,6 +61,7 @@ def write_cache_entries(name, specs):
         spec_files = []
         spec_names = []
         for i, spec in enumerate(speclist):
+            metrics["arches"].add(str(spec.architecture))
             metrics["versions"].add(str(spec.version))
             metrics["compilers"].add(str(spec.compiler))
             spec_name = "spec-%s.json" % i
@@ -68,6 +69,7 @@ def write_cache_entries(name, specs):
             write_json(spec.to_dict(), spec_file)
             spec_files.append(spec_name)
             spec_names.append("'" + str(spec) + "'")
+        metrics["arches"] = sorted(list(metrics["arches"]))
         metrics["versions"] = sorted(list(metrics["versions"]))
         metrics["compilers"] = sorted(list(metrics["compilers"]))
         render = template % (

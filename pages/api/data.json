@@ -2,12 +2,13 @@
 layout: null
 permalink: /api/data.json
 ---
-[{% for entry in site.cache %}{ {% assign versions = entry.meta.versions  %}{% assign compilers = entry.meta.compilers %}
+[{% for entry in site.cache %}{ {% assign versions = entry.meta.versions  %}{% assign compilers = entry.meta.compilers %}{% assign arches = entry.meta.arches %}
         "uid": "{{ entry.title }}",
         "tag": "{{ entry.categories[1] }}",
         "url": "https://packages.spack.io/package.html?name={{ entry.title }}",
         "rel": "{{ site.baseurl }}{{ entry.url }}",
         "versions": [{% for v in versions %}"{{ v }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}],
         "compilers": [{% for c in compilers %}"{{ c }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}],
+        "arches": [{% for a in arches %}"{{ a }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}],
         "specs": {{ entry.spec_files | size }}
     }{% if forloop.last %}{% else %},{% endif %}{% endfor %}]

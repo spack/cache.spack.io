@@ -50,6 +50,7 @@ layout: default
 <main id="app" class="grid flex-grid" style="justify-content:center; padding-bottom:40px">
 <div class="card"><span style="font-size:20px;font-weight:600">{{ page.meta.versions | size }}</span> Versions</div>
 <div class="card"><span style="font-size:20px;font-weight:600">{{ page.meta.compilers | size }}</span> Compilers</div>
+<div class="card"><span style="font-size:20px;font-weight:600">{{ page.meta.arches | size }}</span> Arches</div>
 </main>
 
 
@@ -62,6 +63,7 @@ layout: default
     </span>
     {% for v in page.meta.versions %}<button class="tag button btn btn-primary btn-sm">{{ v }}</button>{% endfor %}
     {% for c in page.meta.compilers %}<button class="tag button btn btn-primary btn-sm">{{ c }}</button>{% endfor %}
+    {% for a in page.meta.arches %}<button class="tag button btn btn-primary btn-sm">{{ a }}</button>{% endfor %}
   </div>
    </div>
 </div>

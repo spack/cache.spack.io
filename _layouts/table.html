@@ -47,6 +47,7 @@ layout: default
             <th>Package</th>
             <th>Versions</th>
             <th>Compilers</th>
+            <th>Arches</th>
         </tr>
   </thead>      
 </table>
@@ -109,7 +110,19 @@ $('#software').DataTable( {
          return compilers
       },
       targets: 0,
-    }
+    },
+    {data: "arches",
+      render: function ( data, type, row ) {
+         var arches = ""
+         if(data.length > 0) {
+           $.each(data, function(i, e){
+              arches += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag button btn btn-primary btn-xs'>" + e + "</button> ";
+           })
+         }
+         return arches
+      },
+      targets: 0,
+     }
   ]
 });
 });
