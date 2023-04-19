@@ -31,10 +31,6 @@ layout: default
 #software_filter, #software_length, #software_info {
  color: white;
 }
-.card {
-  width:120px !important;
-  min-height: 100px !important;
-  cursor: default !important;
 
 .callout pre {
     text-align: left;
@@ -45,11 +41,6 @@ layout: default
 </header>
 
 <div class="container">
-<main id="app" class="grid flex-grid" style="justify-content:center;">
-<div class="card"><span style="font-size:20px;font-weight:600">{{ site.data.meta[page.tag].count }}</span> Entries</div>
-<div class="card"><span style="font-size:20px;font-weight:600">{{ site.data.meta[page.tag].compiler_count }}</span> Compilers</div>
-<div class="card"><span style="font-size:20px;font-weight:600">{{ site.data.meta[page.tag].parameter_count }}</span> Variants</div>
-</main>
 
 <a class="button reset filter-reset" onclick="$('#software').DataTable().search('').draw()" style='float:right;padding-bottom:5px' href="#">reset</a></li>
 
@@ -88,6 +79,9 @@ data = data.filter(filterTag){% endif %}
 console.log(data)
 
 $('#software').DataTable( {
+  language: {
+      lengthMenu: "Show _MENU_ entries of " + data.length,
+  },
   data: data,
   pageLength: 50,
   columns: [
@@ -144,7 +138,7 @@ $('#software').DataTable( {
 
 })
 </script>
-<script src='https://cdn.datatables.net/1.10.5/js/jquery.dataTables.min.js'></script>
+<script src='https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js'></script>
 <script src='https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.js'></script>
 <script src='https://cdn.datatables.net/responsive/1.0.4/js/dataTables.responsive.js'></script>
 </body>
