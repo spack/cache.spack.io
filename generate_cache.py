@@ -40,9 +40,14 @@ categories: [package, %s]
 meta: %s
 spec_files: 
  - %s
+spec_details: %s
 spec_names:
  - %s
 ---"""
+
+def binary_size(spec):
+    # TODO: fetch at build time
+    return 1024 * 1024
 
 
 def write_cache_entries(name, specs):
@@ -60,6 +65,7 @@ def write_cache_entries(name, specs):
             os.makedirs(package_dir)
         spec_files = []
         spec_names = []
+        spec_details = []
         for i, spec in enumerate(speclist):
             metrics["arches"].add(str(spec.architecture))
             metrics["versions"].add(str(spec.version))
@@ -68,6 +74,16 @@ def write_cache_entries(name, specs):
             spec_file = os.path.join(package_dir, spec_name)
             write_json(spec.to_dict(), spec_file)
             spec_files.append(spec_name)
+            spec_details.append(
+                {
+                    "hash": spec._hash,
+                    "compiler": str(spec.compiler),
+                    "versions": [str(v) for v in spec.versions],
+                    "arches": str(spec.architecture),
+                    "variants": list(spec.variants.keys()),
+                    "size": binary_size(spec),
+                }
+            )
             spec_names.append("'" + str(spec) + "'")
         metrics["arches"] = sorted(list(metrics["arches"]))
         metrics["versions"] = sorted(list(metrics["versions"]))
@@ -77,6 +93,7 @@ def write_cache_entries(name, specs):
             name,
             json.dumps(metrics),
             " - ".join([x + "\n" for x in spec_files]).strip(),
+            json.dumps(spec_details),
             " - ".join([x + "\n" for x in spec_names]).strip(),
         )
         md_file = os.path.join(package_dir, "specs.md")
