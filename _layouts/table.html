@@ -5,6 +5,17 @@ layout: default
 <header>
 
 <h1 id="title" style="color:white"><img style="width:100px;padding-right:10px" src="{{ site.baseurl }}/assets/img/spack-logo.svg" />Spack Build Cache <small>{{ page.tag }}</small></h1>
+
+<div class="callout" style="color:white">
+  <p>To add the cache, run the following command:</p>
+  <pre>
+    spack mirror add spack-build-cache-{{ page.tag }} https://binaries.spack.io/releases/{{ page.tag }}
+    spack buildcache keys --install --trust
+  </pre>
+  <p>This command will add the build cache to your Spack configuration, allowing you to access pre-built packages for faster installation.</p>
+  <p>For more information, please visit the <a href="https://spack-tutorial.readthedocs.io/en/latest/tutorial_binary_cache.html">Spack documentation on mirrors</a>.</p>
+</div>
+
 <link rel='stylesheet' href='https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.css'>
 <link rel='stylesheet' href='https://cdn.datatables.net/responsive/1.0.4/css/dataTables.responsive.css'>
 </header>
@@ -24,6 +35,10 @@ layout: default
   width:120px !important;
   min-height: 100px !important;
   cursor: default !important;
+
+.callout pre {
+    text-align: left;
+    white-space: pre-line;
 }
 }
 </style>
