@@ -92,12 +92,14 @@ $('#software').DataTable( {
       render: function ( data, type, row ) { return "<a href='" + row['rel'] + "'>" + data +"</a>";},
       targets: 1,
     },
-    {data: 'specs'},
+    {data: 'specs', orderable: false},
     { data: "tag",
       render: function ( data, type, row ) { return row['tag']},
+      orderable: false,
     },
     { data: null,
-      render: function ( data, type, row ) { return "<a href='" + row['url']  + "' target='_blank'> View Package </a>"},   
+      render: function ( data, type, row ) { return "<a href='" + row['url']  + "' target='_blank'> View Package </a>"},
+      orderable: false,
     },
     {data: 'versions',
       render: function ( data, type, row ) { 
@@ -110,6 +112,7 @@ $('#software').DataTable( {
          return versions
       },
       targets: 0,    
+      orderable: false,
     },
     {data: "compilers", 
       render: function ( data, type, row ) { 
@@ -122,6 +125,7 @@ $('#software').DataTable( {
          return compilers
       },
       targets: 0,
+      orderable: false,
     },
     {data: "arches",
       render: function ( data, type, row ) {
@@ -134,6 +138,7 @@ $('#software').DataTable( {
          return arches
       },
       targets: 0,
+      orderable: false,
      }
   ]
 });
