@@ -6,12 +6,20 @@
 # Usage:
 # python generate_cache.py
 
-
+from collections import defaultdict
+from contextlib import contextmanager
+from functools import lru_cache
+from pathlib import Path
+from typing import Set
+import git
 import json
-import yaml
-import sys
+import os
 import os
 import requests
+import shutil
+import sys
+import tempfile
+import yaml
 
 import spack.database
 import spack.repo
@@ -50,15 +58,67 @@ def binary_size(spec):
     return 1024 * 1024
 
 
-def write_cache_entries(name, specs):
+@contextmanager
+def git_repo_context(repo_url):
+    """
+    A context manager that clones a Git repository into a temporary directory, and
+    provides a reference to the repository object for use within the context.
+
+    :param repo_url: The URL of the repository to clone.
+    """
+    temp_dir = tempfile.mkdtemp()
+
+    try:
+        repo = git.Repo.clone_from(repo_url, temp_dir)
+        yield repo
+    finally:
+        shutil.rmtree(temp_dir)
+
+
+@lru_cache
+def get_version_stacks(repo: git.Repo, tag: str) -> Set[str]:
+    repo.git.checkout(tag)
+    stacks_dir = (
+        Path(repo.working_dir)
+        / "share"
+        / "spack"
+        / "gitlab"
+        / "cloud_pipelines"
+        / "stacks"
+    )
+    return set(os.listdir(stacks_dir))
+
+def get_hash_stacks(repo: git.Repo, tag: str) -> dict[str, set[str]]:
+    hash_stacks = defaultdict(set)
+
+    for stack in get_version_stacks(repo, tag):
+        url = f'https://binaries.spack.io/{tag}/{stack}/build_cache/index.json'
+        r = requests.get(url)
+        if r.status_code == 404:
+            print(f'No build cache for {tag} {stack} ({url})')
+            continue
+        else:
+            r.raise_for_status()
+
+        for hash in r.json()['database']['installs'].keys():
+            hash_stacks[hash].add(stack)
+
+    return hash_stacks
+
+
+def write_cache_entries(name, specs, hash_stacks):
     """
     Given a named list of specs, write markdown and json to cache output directory.
     """
     # For each spec, write to the _cache folder
     for package_name, speclist in specs.items():
-
         # Keep a set of summary metrics for a spec
-        metrics = {"versions": set(), "compilers": set(), "arches": set()}
+        metrics = {
+            "versions": set(),
+            "compilers": set(),
+            "arches": set(),
+            "stacks": set(),
+        }
 
         package_dir = os.path.join(here, "_cache", name, package_name)
         if not os.path.exists(package_dir):
@@ -70,6 +130,7 @@ def write_cache_entries(name, specs):
             metrics["arches"].add(str(spec.architecture))
             metrics["versions"].add(str(spec.version))
             metrics["compilers"].add(str(spec.compiler))
+            metrics["stacks"] |= hash_stacks[spec._hash]
             spec_name = "spec-%s.json" % i
             spec_file = os.path.join(package_dir, spec_name)
             write_json(spec.to_dict(), spec_file)
@@ -81,6 +142,7 @@ def write_cache_entries(name, specs):
                     "versions": [str(v) for v in spec.versions],
                     "arches": str(spec.architecture),
                     "variants": list(spec.variants.keys()),
+                    "stacks": list(hash_stacks[spec._hash]),
                     "size": binary_size(spec),
                 }
             )
@@ -88,6 +150,7 @@ def write_cache_entries(name, specs):
         metrics["arches"] = sorted(list(metrics["arches"]))
         metrics["versions"] = sorted(list(metrics["versions"]))
         metrics["compilers"] = sorted(list(metrics["compilers"]))
+        metrics["stacks"] = sorted(list(metrics["stacks"]))
         render = template % (
             package_name,
             name,
@@ -193,29 +256,37 @@ def main():
     # Metadata file will store all versions
     meta = {}
     tags = read_yaml(tags_file)
-    for entry in tags.get("tags", []):
-        if "name" not in entry or "url" not in entry:
-            sys.exit(f"Malformed entry {entry} missing url or name key.")
-        name = entry["name"]
-        url = entry["url"]
-        print(f"Parsing cache for {name}")
+    with git_repo_context("https://github.com/spack/spack") as repo:
+        for entry in tags.get("tags", []):
+            if "name" not in entry or "url" not in entry or "tag" not in entry:
+                sys.exit(f"Malformed entry {entry} missing url or tag or name.")
+            name = entry["name"]
+            tag = entry["tag"]
+            url = entry["url"]
+            print(f"Parsing cache for {name}")
 
-        # Create spack database and load specs
-        index, specs = load_spack_db(name, url)
+            # Create spack database and load specs
+            print('Loading spack db')
+            index, specs = load_spack_db(name, url)
 
-        # Update metadata file
-        meta[name] = {
-            "version": index["database"]["version"],
-            "count": len(index["database"]["installs"]),
-        }
-        del index
+            print('Getting hash stacks')
+            hash_stacks = get_hash_stacks(repo, tag)
 
-        # Get metadata for specs
-        updates = get_specs_metadata(specs)
-        meta[name].update(updates)
+            # Update metadata file
+            meta[name] = {
+                "version": index["database"]["version"],
+                "count": len(index["database"]["installs"]),
+            }
+            del index
 
-        # Write jekyll files
-        write_cache_entries(name, specs)
+            # Get metadata for specs
+            print('Getting specs metadata')
+            updates = get_specs_metadata(specs)
+            meta[name].update(updates)
+
+            # Write jekyll files
+            print('Writing jekyll files')
+            write_cache_entries(name, specs, hash_stacks)
 
     # Create the "all" group
     meta["all"] = {"version": "all", "count": 0}
