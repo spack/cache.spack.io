@@ -140,7 +140,7 @@ def write_cache_entries(name, specs, hash_stacks):
                     "hash": spec._hash,
                     "compiler": str(spec.compiler),
                     "versions": [str(v) for v in spec.versions],
-                    "arches": str(spec.architecture),
+                    "architecture": str(spec.architecture),
                     "variants": list(spec.variants.keys()),
                     "stacks": list(hash_stacks[spec._hash]),
                     "size": binary_size(spec),
