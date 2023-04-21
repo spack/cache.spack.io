@@ -54,6 +54,19 @@ button.tag {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism-coy.min.css" rel="stylesheet" type="text/css">
 
+<script type="text/javascript">
+function formatBytes(bytes,decimals) {
+   if (bytes == 0) {
+       return '0 Bytes';
+   }
+   var k = 1024,
+       dm = decimals || 2,
+       sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'],
+       i = Math.floor(Math.log(bytes) / Math.log(k));
+   return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+}
+</script>
+
 <div class="container">
 
 <main id="app" class="grid flex-grid" style="justify-content:center; padding-bottom:40px">
@@ -102,7 +115,7 @@ button.tag {
                     class="tag button btn btn-primary btn-xs">{{ s }}</button>{% endfor %}
             </td>
             <td>
-                {{ page.spec_details[forloop.index0].size }}
+                <span class="filesize">{{ page.spec_details[forloop.index0].size }}</span>
             </td>
             <td>
                 <div class="flex">
@@ -128,6 +141,11 @@ $(document).ready(function() {
     $('#cache button.tag').click(function() {
        var filter = $(this).text();
        $('#cache').DataTable().search(filter).draw();
+    });
+
+    $('span.filesize').each(function() {
+       var size = $(this).text();
+       $(this).text(formatBytes(size));
     });
 });    
 </script>
