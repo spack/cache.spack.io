@@ -24,6 +24,7 @@ import yaml
 import spack.database
 import spack.repo
 import spack.spec
+import spack.binary_distribution
 
 here = os.getcwd()
 db_root = os.path.join(here, "spack-db")
@@ -144,6 +145,7 @@ def write_cache_entries(name, specs, hash_stacks):
                     "variants": list(spec.variants.keys()),
                     "stacks": list(hash_stacks[spec._hash]),
                     "size": binary_size(spec),
+                    "tarball": spack.binary_distribution.tarball_name(spec, '.spack'),
                 }
             )
             spec_names.append("'" + str(spec) + "'")
