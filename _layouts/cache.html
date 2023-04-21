@@ -13,10 +13,15 @@ layout: default
 <p style="color:white"><a href="https://packages.spack.io/package.html?name={{ page.title }}">{{ page.title }} on packages.spack.io</a></p>
 </header>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">   
+
+<link rel='stylesheet' href='https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.css'>
+<link rel='stylesheet' href='https://cdn.datatables.net/responsive/1.0.4/css/dataTables.responsive.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.css'>
+<link rel='stylesheet' href='https://cdn.datatables.net/responsive/1.0.4/css/dataTables.responsive.css'>
 
 <style>
-#software_filter, #software_length, #software_info {
+#cache_filter, #cache_length, #cache_info {
  color: white;
 }
 .card {
@@ -33,6 +38,9 @@ layout: default
 .btn-primary:hover {
   background-color: gold;
   color: black
+}
+button.tag {
+    margin: 0 4px 4px 0;
 }
 </style>
 </header>
@@ -51,109 +59,79 @@ layout: default
 <main id="app" class="grid flex-grid" style="justify-content:center; padding-bottom:40px">
 <div class="card"><span style="font-size:20px;font-weight:600">{{ page.meta.versions | size }}</span> Versions</div>
 <div class="card"><span style="font-size:20px;font-weight:600">{{ page.meta.compilers | size }}</span> Compilers</div>
-<div class="card"><span style="font-size:20px;font-weight:600">{{ page.meta.arches | size }}</span> Arches</div>
+<div class="card"><span style="font-size:20px;font-weight:600">{{ page.meta.arches | size }}</span> Architectures</div>
 </main>
 
+<a class="button reset filter-reset" onclick="$('#cache').DataTable().search('').draw()" style='float:right;padding-bottom:5px' href="#">reset</a></li>
 
-<div class="row" style="padding-bottom:10px">
-   <div class="col-md-12">
-   <div class="row-fluid text-left">
-    <span class="clearable">
-        <input title="Search is over the full spec name and not the full content, which is loaded on demand." type="text" id="filter" placeholder="Type to Search" />
-        <span class="icon_clear" style="color:white; padding:5px; cursor:pointer"><i class="fas fa-undo"></i></span>
-    </span>
-    {% for v in page.meta.versions %}<button class="tag button btn btn-primary btn-sm">{{ v }}</button>{% endfor %}
-    {% for c in page.meta.compilers %}<button class="tag button btn btn-primary btn-sm">{{ c }}</button>{% endfor %}
-    {% for a in page.meta.arches %}<button class="tag button btn btn-primary btn-sm">{{ a }}</button>{% endfor %}
-  </div>
-   </div>
-</div>
+<table id="cache" class="table table-bordered" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th>Hash</th>
+            <th>Versions</th>
+            <th>Compilers</th>
+            <th>Arches</th>
+            <th>Variants</th>
+            <th>Stacks</th>
+            <th>Size</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for spec_name in page.spec_names %}
+        <tr>
+            <td>
+                {{ page.spec_details[forloop.index0].hash }}
+            </td>
+            <td>
+                {% for v in page.spec_details[forloop.index0].versions %}<button
+                    class="tag button btn btn-primary btn-xs">{{ v }}</button>{% endfor %}
+            </td>
+            <td>
+                <button class="tag button btn btn-primary btn-xs">{{ page.spec_details[forloop.index0].compiler }}</button>
+            </td>
+            <td>
+                <button class="tag button btn btn-primary btn-xs">{{ page.spec_details[forloop.index0].architecture }}</button>
+            </td>
+            <td>
+                {% for v in page.spec_details[forloop.index0].variants %}<button
+                    class="tag button btn btn-primary btn-xs">{{ v }}</button>{% endfor %}
+            </td>
+            <td>
+                {% for s in page.spec_details[forloop.index0].stacks %}<button
+                    class="tag button btn btn-primary btn-xs">{{ s }}</button>{% endfor %}
+            </td>
+            <td>
+                {{ page.spec_details[forloop.index0].size }}
+            </td>
+            <td>
+                <div class="flex">
+                    <a href="">View Raw Spec</a>
+                    <a href="">Download Tarball</a>
+                </div>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
 
-<div class="row">
-</div>
 
-<div class="row"><div class="col-md-12">
-<div class="accordion" id="accordionSpecs">
-{% for spec_name in page.spec_names %}<div class="accordion-item">
-    <h2 class="accordion-header" id="heading-{{ forloop.index0 }}">
-      <div class="row"><div class="col-md-12">
-      <button data-fulltext="{{ spec_name }}" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ forloop.index0 }}" aria-expanded="true" aria-controls="collapse-{{ forloop.index0 }}">
-        <strong>{{ spec_name | truncate: 140}}</strong>
-      </button></div> 
-      </div>
-    </h2>
-    <div id="collapse-{{ forloop.index0 }}" class="accordion-collapse collapse" aria-labelledby="heading" data-bs-parent="#accordionSpecs" data-spec="{{ page.spec_files[forloop.index0]}}" data-id="{{ forloop.index0 }}">
-      <div class="accordion-body">
-       <pre><code class="language-javascript" id="code-{{ forloop.index0 }}">
-        {{ page.spec_files[forloop.index0] }}
-       </code></pre>
-      </div>
-    </div>
-  </div>
-{% endfor %}
-</div>
-</div></div>
 </div>
 
 {% include footer.html %}
 
 <script>
-// Load and show the spec on demand
-$('#accordionSpecs').on('show.bs.collapse', function (e) {
-
-    // Only load if we haven't loaded yet!
-    if (!$(e.target).attr('data-loaded')) {
-        spec_file = "../" + $(e.target).attr("data-spec");
-        code_id = "#code-" + $(e.target).attr("data-id");
-        $.getJSON(spec_file, function(data) {
-            $(code_id).html(JSON.stringify(data, null, 2))
-        
-            // Mark that we've loaded it
-            $(e.target).attr('data-loaded', true)
-        });
-    }
-})
-
-function search(term) {
-    $('.accordion-button').each(function() {
-        var cellText = $(this).attr("data-fulltext").toLowerCase();
-        var accordion = $('#accordianSpecs');
-        accordion.find('.collapse.in').hide();
-        if (cellText.indexOf(term) >= 0) {
-            $(this).parent().show();
-        } else {
-            $(this).parent().hide();
-        }
-    });
-}
-
-function reset() {
-    $('.accordion-button').each(function() {
-        var accordion = $('#accordianSpecs');
-        accordion.find('.collapse.in').show();
-        $(this).parent().show();
-    });
-}
-
-// Clicking a tag does the search
-$(".tag").click(function(){
-  var term = $(this).text()
-  search(term)
-})
-
 // Allow searching titles of entries
 $(document).ready(function() {
+    $('#cache').DataTable({pageLength: 50});
 
-    // Reset the list
-    $('.icon_clear').click(function() {        
-        reset()
-    });
-    
-    $('#filter').keyup(function(event) {
-        var unicode = event.charCode ? event.charCode : event.keyCode;
-        if (unicode == 27) { $(this).val(""); }
-        var searchKey = $(this).val().toLowerCase();
-        search(searchKey)
+    $('#cache button.tag').click(function() {
+       var filter = $(this).text();
+       $('#cache').DataTable().search(filter).draw();
     });
 });    
 </script>
+
+<script src='https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js'></script>
+<script src='https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.js'></script>
+<script src='https://cdn.datatables.net/responsive/1.0.4/js/dataTables.responsive.js'></script>
