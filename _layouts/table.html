@@ -59,6 +59,11 @@ function filterTag(value) {
 data = data.filter(filterTag){% endif %}
 
 $('#software').DataTable( {
+  "fnInitComplete": function (oSettings, json) {
+    $('.pagination').addClass('btn-group');
+    $('.paginate_button').addClass('btn btn-sm');
+    $('.paginate_button a').addClass('page');
+  },
   language: {
       lengthMenu: "Show _MENU_ entries of " + data.length,
   },

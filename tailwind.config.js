@@ -1,7 +1,7 @@
 module.exports = {
   content: [
-    './_layouts/*.html',
-    './_includes/*.html',
+    './_layouts/*.{html,js}',
+    './_includes/*.{html,js}',
   ],
   theme: {
     fontFamily: {

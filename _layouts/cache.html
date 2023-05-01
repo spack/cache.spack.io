@@ -2,16 +2,24 @@
 layout: default
 ---
 
-<header style="margin-bottom:15px">
+<h1 class="pb-2">
+    <a href="{{ site.baseurl }}" class="btn btn-ghost btn-square btn-sm">
+        <i class="ri-arrow-left-line text-xl"></i>
+    </a>
+    {{ page.title }}
+</h1>
 
-<h1>{{ page.title }}</h1>
+<div class="alert bg-primary text-white">
+    {% assign emojis = "⭐️,🎉️,🤓️,😄️,✨️,💛️" | split: ',' %}
+    {% assign emoji = emojis | sample: 2 %}
 
-{% assign emojis = "⭐️,🎉️,🤓️,😄️,✨️,💛️" | split: ',' %}
-{% assign emoji = emojis | sample: 2 %}
-
-<p><strong><a href="{{ site.baseurl }}"><<</a> This package has {{ page.spec_names | size }}</strong> specs in the build cache! {{ emoji[0] }}</p>
-<p>View <a href="https://packages.spack.io/package.html?name={{ page.title }}">{{ page.title }} on packages.spack.io</a></p>
-</header>
+    <div>
+        This package has <strong>{{ page.spec_names | size }}</strong> in the build cache! {{ emoji[0] }}
+    </div>
+    <div class="flex-none">
+        <a href="https://packages.spack.io/package.html?name={{ page.title }}" class="btn btn-secondary btn-sm gap-1">{{ page.title }} <small class="font-light">on packages.spack.io</small></a>
+    </div>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
@@ -35,17 +43,11 @@ function formatBytes(bytes,decimals) {
 }
 </script>
 
-<div class="container">
-
-<main id="app" class="grid flex-grid" style="justify-content:center; padding-bottom:40px">
-<div class="card"><span style="font-size:20px;font-weight:600">{{ page.meta.versions | size }}</span> Versions</div>
-<div class="card"><span style="font-size:20px;font-weight:600">{{ page.meta.compilers | size }}</span> Compilers</div>
-<div class="card"><span style="font-size:20px;font-weight:600">{{ page.meta.arches | size }}</span> Architectures</div>
-</main>
+<div class="container py-8">
 
 <a class="button reset filter-reset" onclick="$('#cache').DataTable().search('').draw()" style='float:right;padding-bottom:5px' href="#">reset</a></li>
 
-<table id="cache" class="table table-bordered" cellspacing="0" width="100%">
+<table id="cache" class="table max-w-full">
     <thead>
         <tr>
             <th>Hash</th>
@@ -61,7 +63,7 @@ function formatBytes(bytes,decimals) {
     <tbody>
         {% for spec_name in page.spec_names %}
         <tr>
-            <td>
+            <td class="font-mono">
                 {{ page.spec_details[forloop.index0].hash }}
             </td>
             <td>
@@ -104,7 +106,14 @@ function formatBytes(bytes,decimals) {
 <script>
 // Allow searching titles of entries
 $(document).ready(function() {
-    $('#cache').DataTable({pageLength: 50});
+    $('#cache').DataTable({
+        pageLength: 50,
+        "fnInitComplete": function (oSettings, json) {
+            $('.pagination').addClass('btn-group');
+            $('.paginate_button').addClass('btn btn-sm');
+            $('.paginate_button a').addClass('page');
+        },
+    });
 
     $('#cache button.tag').click(function() {
        var filter = $(this).text();

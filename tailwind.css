@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-    a {
+    a:not(.btn):not(.page) {
         @apply link link-hover link-secondary;
     }
 
@@ -27,5 +27,9 @@
 
     h3 {
         @apply mb-2;
+    }
+
+    .paginate_button.active {
+        @apply bg-neutral-focus text-white;
     }
 }
