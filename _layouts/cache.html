@@ -4,45 +4,13 @@ layout: default
 
 <header style="margin-bottom:15px">
 
-<h1 style="color:white">{{ page.title }}</h1>
+<h1>{{ page.title }}</h1>
 
 {% assign emojis = "⭐️,🎉️,🤓️,😄️,✨️,💛️" | split: ',' %}
 {% assign emoji = emojis | sample: 2 %}
 
-<p style="color:white"><strong><a href="{{ site.baseurl }}/"><<</a> This package has {{ page.spec_names | size }}</strong> specs in the build cache! {{ emoji[0] }}</p>
-<p style="color:white">View <a style="color:white;font-weight:bold" href="https://packages.spack.io/package.html?name={{ page.title }}">{{ page.title }} on packages.spack.io</a></p>
-</header>
-
-
-<link rel='stylesheet' href='https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.css'>
-<link rel='stylesheet' href='https://cdn.datatables.net/responsive/1.0.4/css/dataTables.responsive.css'>
-<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.css'>
-<link rel='stylesheet' href='https://cdn.datatables.net/responsive/1.0.4/css/dataTables.responsive.css'>
-
-<style>
-#cache_filter, #cache_length, #cache_info {
- color: white;
-}
-.card {
-  width:120px !important;
-  min-height: 100px !important;
-  cursor: default !important;
-}
-
-.btn-primary {
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
-}
-.btn-primary:hover {
-  background-color: gold;
-  color: black
-}
-button.tag {
-    margin: 0 4px 4px 0;
-}
-</style>
+<p><strong><a href="{{ site.baseurl }}"><<</a> This package has {{ page.spec_names | size }}</strong> specs in the build cache! {{ emoji[0] }}</p>
+<p>View <a href="https://packages.spack.io/package.html?name={{ page.title }}">{{ page.title }} on packages.spack.io</a></p>
 </header>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
