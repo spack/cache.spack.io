@@ -4,50 +4,28 @@ layout: default
 
 <header>
 
-<h1 id="title" style="color:white"><img style="width:100px;padding-right:10px" src="{{ site.baseurl }}/assets/img/spack-logo.svg" />Spack Build Cache <small>{{ page.tag }}</small></h1>
-
-<div class="callout" style="color:white">
-  <p>To add the cache, run the following command:</p>
-  <pre>
-    spack mirror add spack-build-cache-{{ page.tag }} https://binaries.spack.io/releases/{{ page.tag }}
-    spack buildcache keys --install --trust
-  </pre>
-  <p>This command will add the build cache to your Spack configuration, allowing you to access pre-built packages for faster installation.</p>
-  <p>For more information, please visit the <a href="https://spack-tutorial.readthedocs.io/en/latest/tutorial_binary_cache.html">Spack documentation on mirrors</a>.</p>
+<div class="alert bg-primary text-white items-start">
+  <div>
+    <div class="text-sm">
+      <p class="mt-0">This command will add the build cache to your Spack configuration, allowing you to access pre-built packages for faster installation.</p>
+      <p>For more information, please visit the <a href="https://spack-tutorial.readthedocs.io/en/latest/tutorial_binary_cache.html">Spack documentation on mirrors</a>.</p>
+    </div>
+  </div>
+  <div class="flex-none">
+    <pre class="bg-gray-800 border border-primary-content font-mono text-sm text-white pb-4 pt-3 px-6 rounded whitespace-pre-line">
+      spack mirror add spack-build-cache-{{ page.tag }} https://binaries.spack.io/releases/{{ page.tag }}
+      spack buildcache keys --install --trust
+    </pre>
+  </div>
 </div>
-
-<link rel='stylesheet' href='https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.css'>
-<link rel='stylesheet' href='https://cdn.datatables.net/responsive/1.0.4/css/dataTables.responsive.css'>
 </header>
 
-<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.css'>
-<link rel='stylesheet' href='https://cdn.datatables.net/responsive/1.0.4/css/dataTables.responsive.css'>
 
-<style>
-#title {
-  cursor:pointer;
-}
-#software_filter, #software_length, #software_info {
- color: white;
-}
-
-.callout pre {
-    text-align: left;
-    white-space: pre-line;
-}
-
-button.tag {
-    margin-bottom: 4px;
-}
-</style>
-</header>
-
-<div class="container">
+<div class="container py-8">
 
 <a class="button reset filter-reset" onclick="$('#software').DataTable().search('').draw()" style='float:right;padding-bottom:5px' href="#">reset</a></li>
 
-<table id="software"  class="table table-bordered" cellspacing="0" width="100%">
+<table id="software" class="table w-full">
     <thead>
         <tr>
             <th>UID</th>
@@ -69,9 +47,9 @@ button.tag {
 $(document).ready(function(){
 
 $("#title").click(function(){
-    document.location = "{{ site.baseurl }}/"
+    document.location = "{{ site.baseurl }}"
 })
-$.getJSON( "{{ site.baseurl }}/api/data.json", function( data ) {
+$.getJSON( "{{ site.baseurl }}api/data.json", function( data ) {
 
 
 {% if page.tag != "all" %}
@@ -150,4 +128,3 @@ $('#software').DataTable( {
 <script src='https://cdn.datatables.net/responsive/1.0.4/js/dataTables.responsive.js'></script>
 </body>
 </html>
-
