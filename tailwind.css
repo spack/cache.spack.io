@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 @layer base {
-    a:not(.btn):not(.page) {
+
+    /* style all links with these styles except for buttons and pagination items */
+    a:not(.btn, .page, .paginate_button, .paginate_button a) {
         @apply link link-hover link-secondary;
     }
 
@@ -29,7 +31,18 @@
         @apply mb-2;
     }
 
-    .paginate_button.active {
-        @apply bg-neutral-focus text-white;
+    .row {
+        @apply grid grid-cols-12 text-sm;
+    }
+
+    .row .col-sm-6 {
+        @apply col-span-12 md:col-span-6 p-2;
+    }
+    .row .col-sm-12 {
+        @apply col-span-12 py-2;
+    }
+
+    .dataTables_filter {
+        @apply flex justify-end;
     }
 }
