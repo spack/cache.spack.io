@@ -4,18 +4,30 @@ layout: default
 
 <header>
 
-<div class="alert bg-primary text-white items-start">
+<div class="alert bg-primary border-l-4 border-secondary pl-12 text-white">
   <div>
-    <div class="text-sm">
-      <p class="mt-0">This command will add the build cache to your Spack configuration, allowing you to access pre-built packages for faster installation.</p>
-      <p>For more information, please visit the <a href="https://spack-tutorial.readthedocs.io/en/latest/tutorial_binary_cache.html">Spack documentation on mirrors</a>.</p>
+    <div class="pr-12">
+      <h3>Get Started</h3>
+      <p class="mt-0 text-sm">This command will add the build cache to your Spack configuration, allowing you to access pre-built packages for faster installation.</p>
+      <p class="text-sm">For more information, please visit the <a href="https://spack-tutorial.readthedocs.io/en/latest/tutorial_binary_cache.html">Spack documentation on mirrors</a>.</p>
     </div>
   </div>
-  <div class="flex-none">
-    <pre class="bg-gray-800 border border-primary-content font-mono text-sm text-white pb-4 pt-3 px-6 rounded whitespace-pre-line">
-      spack mirror add spack-build-cache-{{ page.tag }} https://binaries.spack.io/releases/{{ page.tag }}
-      spack buildcache keys --install --trust
-    </pre>
+  <div class="flex-none relative">
+    <div class="mockup-code bg-neutral-focus">
+      <label class="absolute top-2 right-2">
+        <a class="btn btn-sm btn-ghost gap-2 opacity-75 hover:opacity-100 transition transition-all z-10">
+          <div class="swap swap-rotate">
+            <!-- this hidden checkbox controls the state -->
+            <input type="checkbox" />
+            <i class="ri-file-copy-line swap-off fill-current"></i>
+            <i class="ri-check-line text-success swap-on fill-current"></i>
+          </div>
+          copy code
+        </a>
+      </label>
+      <pre data-prefix="$"><code>spack mirror add spack-build-cache-{{ page.tag }} https://binaries.spack.io/releases/{{ page.tag }}</code></pre>
+      <pre data-prefix="$"><code>spack buildcache keys --install --trust</code></pre>
+    </div>
   </div>
 </div>
 </header>
