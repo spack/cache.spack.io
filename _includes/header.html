@@ -1,4 +1,4 @@
-<header class="drop-shadow-xl mb-8">
+<header class="drop-shadow-xl">
     <div class="navbar bg-base-100 rounded">
         <div class="flex-1">
             <a href="{{ site.baseurl }}" class="btn btn-ghost !px-2 !py-1 !flex gap-2">
@@ -6,29 +6,31 @@
                 Spack Build Cache <small class="text-gray-600">{{ page.tag }}</small>
             </a>
         </div>
-        <div class="flex gap-4 px-3">
-            <div class="form-control py-2">
-                <label class="label p-0">
-                    <span class="label-text-alt text-gray-400 text-[10px]">Build Cache Version</span>
-                </label>
-                <select class="select select-bordered select-xs">
-                    <option>All</option>
-                    <option>develop</option>
-                    <option disabled selected>v0.18</option>
-                    <option>v0.19</option>
-                </select>
+        {% if page.layout != 'home' %}
+            <div class="flex gap-4 px-3">
+                <div class="form-control py-2">
+                    <label class="label p-0">
+                        <span class="label-text-alt text-gray-400 text-[10px]">Build Cache Version</span>
+                    </label>
+                    <select class="select select-bordered select-xs">
+                        <option>All</option>
+                        <option>develop</option>
+                        <option disabled selected>v0.18</option>
+                        <option>v0.19</option>
+                    </select>
+                </div>
+                <div class="form-control py-2">
+                    <label class="label p-0">
+                        <span class="label-text-alt text-gray-400 text-[10px]">Stack</span>
+                    </label>
+                    <select class="select select-bordered select-xs">
+                        <option>option1</option>
+                        <option>option2</option>
+                        <option disabled selected>option3</option>
+                        <option>option4</option>
+                    </select>
+                </div>
             </div>
-            <div class="form-control py-2">
-                <label class="label p-0">
-                    <span class="label-text-alt text-gray-400 text-[10px]">Stack</span>
-                </label>
-                <select class="select select-bordered select-xs">
-                    <option>option1</option>
-                    <option>option2</option>
-                    <option disabled selected>option3</option>
-                    <option>option4</option>
-                </select>
-            </div>
-        </div>
+        {% endif %}
     </div>
 </header>

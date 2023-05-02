@@ -3,13 +3,106 @@ layout: default
 hide_footer: true
 ---
 
+<main id="app" class="space-y-8">
+    <div class="hero rounded bg-primary bg-gradient-to-tr from-primary to-primary-focus py-8">
+        <div class="hero-content flex-col gap-24 lg:flex-row-reverse">
 
-<div class="container">
-<main id="app" class="grid flex-grid" style="justify-content:center;">
-<a href="{{ site.baseurl }}tag/"><div class="card"><span class="card-content">view all</span></div></a>
-{% for entry in site.data.tags.tags %}
-<a href="{{ site.baseurl }}tag/{{ entry.name }}/"><div class="card"><span class="card-content">{{ entry.name }}</span></div></a>
-{% endfor %}
+            <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                <div class="card-body">
+                    <h2 class="card-title">Get Started</h2>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Choose Build Cache Version</span>
+                        </label>
+                        <select class="select select-bordered">
+                            <option selected>All</option>
+                            <option>develop</option>
+                            <option>v0.18</option>
+                            <option>v0.19</option>
+                        </select>
+                    </div>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Choose Stack</span>
+                        </label>
+                        <select class="select select-bordered">
+                            <option selected>Option1</option>
+                            <option>Option2</option>
+                            <option>Option3</option>
+                            <option>Option4</option>
+                        </select>
+                    </div>
+                    <div class="form-control mt-6">
+                        <button class="btn btn-secondary">Browse the Build Cache</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center text-white lg:text-left">
+                <h1 class="text-3xl font-bold">Welcome to the Spack Build Cache</h1>
+                <p class="py-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque sagittis luctus odio. Donec sit amet justo auctor, ullamcorper odio
+                    sed, convallis tortor. In sit amet elit feugiat, tincidunt leo eu, gravida sem.
+                    Donec lobortis sollicitudin tortor eget bibendum. Fusce at ullamcorper orci.</p>
+            </div>
+        </div>
+    </div> <!-- END hero -->
+
+    <div class="grid grid-cols-12 gap-12 px-8 md:px-24">
+        <h1 class="text-3xl col-span-12 py-6 text-center">How to use the build cache</h1>
+        <div class="card card-side col-span-10 bg-base-100 shadow-xl">
+            <figure><img src="https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">You should do this thing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis luctus odio. Donec sit amet justo auctor, ullamcorper odio sed, convallis tortor. In sit amet elit feugiat, tincidunt leo eu, gravida sem. Donec lobortis sollicitudin tortor eget bibendum. Fusce at ullamcorper orci.</p>
+            </div>
+        </div>
+        <div class="card card-side col-span-10 col-start-4 bg-base-100 shadow-xl">
+            <figure><img src="https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">Then you can do this thing!</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis luctus odio. Donec sit amet justo auctor, ullamcorper odio sed, convallis tortor. In sit amet elit feugiat, tincidunt leo eu, gravida sem. Donec lobortis sollicitudin tortor eget bibendum. Fusce at ullamcorper orci.</p>
+            </div>
+        </div>
+        <div class="card card-side col-span-10 bg-base-100 shadow-xl">
+            <figure><img src="https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">Finally, you definitely gotta do this thing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis luctus odio. Donec sit amet justo auctor, ullamcorper odio sed, convallis tortor. In sit amet elit feugiat, tincidunt leo eu, gravida sem. Donec lobortis sollicitudin tortor eget bibendum. Fusce at ullamcorper orci.</p>
+            </div>
+        </div>
+        <div class="card card-side bg-primary col-span-10 col-start-4 bg-base-100 shadow-xl text-white">
+            <div class="card-body">
+                <h2 class="card-title">Get started using the cache</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis luctus odio. Donec sit amet justo auctor, ullamcorper odio sed, convallis tortor. In sit amet elit feugiat, tincidunt leo eu, gravida sem. Donec lobortis sollicitudin tortor eget bibendum. Fusce at ullamcorper orci.</p>
+            </div>
+            <div class="flex-col min-w-max p-6 bg-white">
+                <div class="form-control">
+                    <label class="label">
+                        <span class="label-text">Choose Build Cache Version</span>
+                    </label>
+                    <select class="select select-bordered">
+                        <option selected>All</option>
+                        <option>develop</option>
+                        <option>v0.18</option>
+                        <option>v0.19</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <label class="label">
+                        <span class="label-text">Choose Stack</span>
+                    </label>
+                    <select class="select select-bordered">
+                        <option selected>Option1</option>
+                        <option>Option2</option>
+                        <option>Option3</option>
+                        <option>Option4</option>
+                    </select>
+                </div>
+                <div class="form-control mt-6">
+                    <button class="btn btn-secondary">Browse the Build Cache</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
-</body>
-</html>
