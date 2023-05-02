@@ -23,7 +23,7 @@ layout: default
 
 <div class="container py-8">
 
-<a class="button reset filter-reset" onclick="$('#software').DataTable().search('').draw()" style='float:right;padding-bottom:5px' href="#">reset</a></li>
+<a class="button reset filter-reset btn btn-secondary btn-sm mt-2 float-right" onclick="$('#software').DataTable().search('').draw()" href="#">reset</a></li>
 
 <table id="software" class="table w-full">
     <thead>
@@ -59,10 +59,18 @@ function filterTag(value) {
 data = data.filter(filterTag){% endif %}
 
 $('#software').DataTable( {
-  "fnInitComplete": function (oSettings, json) {
-    $('.pagination').addClass('btn-group');
-    $('.paginate_button').addClass('btn btn-sm');
-    $('.paginate_button a').addClass('page');
+  "drawCallback": function () {
+      $('.dataTables_filter').addClass('flex justify-end');
+      $('.dataTables_filter label').addClass('flex items-center gap-2 pr-2');
+      $('.dataTables_filter .form-control').addClass('input input-sm');
+      $('.dataTables_length label').addClass('flex items-center gap-2');
+      $('.dataTables_length select').addClass('select select-sm');
+      $('.dataTables_paginate').addClass('flex justify-end');
+      $('.pagination').addClass('btn-group');
+      $('.paginate_button').addClass('btn btn-xs btn-ghost rounded-none');
+      $('.paginate_button.previous').addClass('btn btn-xs rounded-r-none rounded-l');
+      $('.paginate_button.next').addClass('btn btn-xs rounded-l-none rounded-r');
+      $('.paginate_button.disabled').addClass('btn btn-xs btn-disabled');
   },
   language: {
       lengthMenu: "Show _MENU_ entries of " + data.length,
@@ -80,7 +88,7 @@ $('#software').DataTable( {
       orderable: false,
     },
     { data: null,
-      render: function ( data, type, row ) { return "<a href='" + row['url']  + "' target='_blank'> View Package </a>"},
+      render: function ( data, type, row ) { return "<a href='" + row['url']  + "' target='_blank' class='btn btn-xs btn-primary btn-outline'> View Package </a>"},
       orderable: false,
     },
     {data: 'versions',
@@ -101,7 +109,7 @@ $('#software').DataTable( {
          var compilers = ""
          if(data.length > 0) {
            $.each(data, function(i, e){
-              compilers += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag button btn btn-primary btn-xs'>" + e + "</button> ";
+              compilers += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag button badge badge-neutral'>" + e + "</button> ";
            })
          }
          return compilers
@@ -114,7 +122,7 @@ $('#software').DataTable( {
          var arches = ""
          if(data.length > 0) {
            $.each(data, function(i, e){
-              arches += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag button btn btn-primary btn-xs'>" + e + "</button> ";
+              arches += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag button badge badge-neutral'>" + e + "</button> ";
            })
          }
          return arches
