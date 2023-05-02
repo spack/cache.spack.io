@@ -1,24 +1,34 @@
-<header class="drop-shadow-xl">
-    <div class="navbar bg-base-100 rounded-t">
+<header class="drop-shadow-xl mb-8">
+    <div class="navbar bg-base-100 rounded">
         <div class="flex-1">
             <a href="{{ site.baseurl }}" class="btn btn-ghost !px-2 !py-1 !flex gap-2">
                 <img src="{{ site.baseurl }}assets/img/spack-logo.svg" class="max-h-full w-auto">
                 Spack Build Cache <small class="text-gray-600">{{ page.tag }}</small>
             </a>
         </div>
-    </div>
-    <div class="bg-base-100 border-t border-base-200 text-sm breadcrumbs mb-6 px-4 rounded-b">
-        <ul>
-            <li><a class="link-accent">Home</a></li>
-            <li><a class="link-accent">Another Page</a></li>
-            <li>
-                <select class="bg-transparent select select-xs">
+        <div class="flex gap-4 px-3">
+            <div class="form-control py-2">
+                <label class="label p-0">
+                    <span class="label-text-alt text-gray-400 text-[10px]">Build Cache Version</span>
+                </label>
+                <select class="select select-bordered select-xs">
                     <option>All</option>
                     <option>develop</option>
                     <option disabled selected>v0.18</option>
                     <option>v0.19</option>
                 </select>
-            </li>
-        </ul>
+            </div>
+            <div class="form-control py-2">
+                <label class="label p-0">
+                    <span class="label-text-alt text-gray-400 text-[10px]">Stack</span>
+                </label>
+                <select class="select select-bordered select-xs">
+                    <option>option1</option>
+                    <option>option2</option>
+                    <option disabled selected>option3</option>
+                    <option>option4</option>
+                </select>
+            </div>
+        </div>
     </div>
 </header>
