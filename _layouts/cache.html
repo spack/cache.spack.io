@@ -51,11 +51,12 @@ function formatBytes(bytes,decimals) {
     <thead>
         <tr>
             <th>Hash</th>
-            <th>Versions</th>
-            <th>Compilers</th>
-            <th>Arches</th>
+            <th>Version</th>
             <th>Variants</th>
-            <th>Stacks</th>
+            <th>Platform</th>
+            <th>OS</th>
+            <th>Target</th>
+            <th>Compiler</th>
             <th>Size</th>
             <th></th>
         </tr>
@@ -67,8 +68,7 @@ function formatBytes(bytes,decimals) {
                 {{ page.spec_details[forloop.index0].hash }}
             </td>
             <td>
-                {% for v in page.spec_details[forloop.index0].versions %}<button
-                    class="tag searchable-badge">{{ v }}</button>{% endfor %}
+                <button class="tag searchable-badge">{{ page.spec_details[forloop.index0].versions }}</button>
             </td>
             <td>
                 <button class="tag searchable-badge">{{ page.spec_details[forloop.index0].compiler }}</button>
@@ -89,9 +89,17 @@ function formatBytes(bytes,decimals) {
                     <button id="show-variants" class="btn btn-xs btn-ghost normal-case">show {{ variant_count | minus:4 }} more</button>
                 {% endif %}
             </td>
-            <td class="whitespace-normal">
-                {% for s in page.spec_details[forloop.index0].stacks %}<button
-                    class="tag searchable-badge">{{ s }}</button>{% endfor %}
+            <td>
+                <button class="tag searchable-badge">{{ page.spec_details[forloop.index0].platform }}</button>
+            </td>
+            <td>
+                <button class="tag searchable-badge">{{ page.spec_details[forloop.index0].os }}</button>
+            </td>
+            <td>
+                <button class="tag searchable-badge">{{ page.spec_details[forloop.index0].target }}</button>
+            </td>
+            <td class="whitespace-normal leading-7">
+                <button class="tag searchable-badge">{{ page.spec_details[forloop.index0].compiler }}</button>
             </td>
             <td>
                 <span class="filesize">{{ page.spec_details[forloop.index0].size }}</span>

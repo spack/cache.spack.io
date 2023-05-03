@@ -117,7 +117,9 @@ def write_cache_entries(name, specs, hash_stacks):
         metrics = {
             "versions": set(),
             "compilers": set(),
-            "arches": set(),
+            "oss": set(),
+            "platforms": set(),
+            "targets": set(),
             "stacks": set(),
         }
 
@@ -128,7 +130,9 @@ def write_cache_entries(name, specs, hash_stacks):
         spec_names = []
         spec_details = []
         for i, spec in enumerate(speclist):
-            metrics["arches"].add(str(spec.architecture))
+            metrics["oss"].add( spec.architecture.os)
+            metrics["platforms"].add( spec.architecture.platform)
+            metrics["targets"].add( spec.architecture.target.name)
             metrics["versions"].add(str(spec.version))
             metrics["compilers"].add(str(spec.compiler))
             metrics["stacks"] |= hash_stacks[spec._hash]
@@ -141,15 +145,19 @@ def write_cache_entries(name, specs, hash_stacks):
                     "hash": spec._hash,
                     "compiler": str(spec.compiler),
                     "versions": [str(v) for v in spec.versions],
-                    "architecture": str(spec.architecture),
-                    "variants": list(spec.variants.keys()),
+                    "os": spec.architecture.os,
+                    "platform": spec.architecture.platform,
+                    "target": spec.architecture.target.name,
+                    "variants": str(spec.variants).split(),
                     "stacks": list(hash_stacks[spec._hash]),
                     "size": binary_size(spec),
                     "tarball": spack.binary_distribution.tarball_name(spec, '.spack'),
                 }
             )
             spec_names.append("'" + str(spec) + "'")
-        metrics["arches"] = sorted(list(metrics["arches"]))
+        metrics["oss"] = sorted(list(metrics["oss"]))
+        metrics["platforms"] = sorted(list(metrics["platforms"]))
+        metrics["targets"] = sorted(list(metrics["targets"]))
         metrics["versions"] = sorted(list(metrics["versions"]))
         metrics["compilers"] = sorted(list(metrics["compilers"]))
         metrics["stacks"] = sorted(list(metrics["stacks"]))
@@ -205,7 +213,6 @@ def get_specs_metadata(specs):
     updates = {}
     parameters = {}
     compilers = {}
-    arches = {"platform": {}, "platform_os": {}, "compiler": {}, "target": {}}
     count = 0
 
     # For each package, generate a data page, including the spec.json
@@ -227,9 +234,6 @@ def get_specs_metadata(specs):
                     # Target can have another level of nesting
                     if key == "target" and isinstance(value, dict):
                         value = "%s %s" % (value["vendor"], value["name"])
-                    if value not in arches[key]:
-                        arches[key][value] = 0
-                    arches[key][value] += 1
 
                 compiler = "%s@%s" % (
                     spec["compiler"]["name"],
@@ -242,7 +246,6 @@ def get_specs_metadata(specs):
         # For each meta, write to data file
         updates["compilers"] = compilers
         updates["parameters"] = parameters
-        updates["arches"] = arches
         updates["parameter_count"] = "{:,}".format(len(parameters))
         updates["compiler_count"] = "{:,}".format(len(compilers))
         updates["count"] = count

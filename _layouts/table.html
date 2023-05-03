@@ -45,8 +45,10 @@ layout: default
             <th>Tag</th>
             <th>Package</th>
             <th>Versions</th>
-            <th>Compilers</th>
-            <th>Arches</th>
+            <th>Platform</th>
+            <th>OS</th>
+            <th>Target</th>
+            <th>Compiler</th>
         </tr>
   </thead>      
 </table>
@@ -138,8 +140,47 @@ $('#software').DataTable( {
       targets: 0,    
       orderable: false,
     },
-    {data: "compilers", 
-      render: function ( data, type, row ) { 
+    {data: "platforms",
+      render: function ( data, type, row ) {
+         var platforms = ""
+         if(data.length > 0) {
+           $.each(data, function(i, e){
+              platforms += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag button badge badge-neutral'>" + e + "</button> ";
+           })
+         }
+         return platforms
+      },
+      targets: 0,
+      orderable: false,
+     },
+    {data: "oss",
+      render: function ( data, type, row ) {
+         var oss = ""
+         if(data.length > 0) {
+           $.each(data, function(i, e){
+              oss += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag button badge badge-neutral'>" + e + "</button> ";
+           })
+         }
+         return oss
+      },
+      targets: 0,
+      orderable: false,
+     },
+    {data: "targets",
+      render: function ( data, type, row ) {
+         var targets = ""
+         if(data.length > 0) {
+           $.each(data, function(i, e){
+              targets += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag button badge badge-neutral'>" + e + "</button> ";
+           })
+         }
+         return targets
+      },
+      targets: 0,
+      orderable: false,
+     },
+    {data: "compilers",
+      render: function ( data, type, row ) {
          var compilers = ""
          if(data.length > 0) {
            $.each(data, function(i, e){
@@ -151,19 +192,6 @@ $('#software').DataTable( {
       targets: 0,
       orderable: false,
     },
-    {data: "arches",
-      render: function ( data, type, row ) {
-         var arches = ""
-         if(data.length > 0) {
-           $.each(data, function(i, e){
-              arches += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag searchable-badge'>" + e + "</button> ";
-           })
-         }
-         return arches
-      },
-      targets: 0,
-      orderable: false,
-     }
   ]
 });
 });
