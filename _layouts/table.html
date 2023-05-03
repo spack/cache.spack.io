@@ -4,6 +4,7 @@ layout: default
 
 <header>
 
+{% if page.tag != "all" %}
 <div class="alert bg-primary border-l-4 border-secondary pl-12 text-white">
   <div>
     <div class="pr-12">
@@ -30,6 +31,7 @@ layout: default
     </div>
   </div>
 </div>
+{% endif %}
 </header>
 
 
@@ -41,7 +43,6 @@ layout: default
     <thead>
         <tr>
             <th>UID</th>
-            <th># Specs</th>
             <th>Tag</th>
             <th>Package</th>
             <th>Versions</th>
@@ -115,10 +116,9 @@ $('#software').DataTable( {
   pageLength: 50,
   columns: [
     { data: "uid",
-      render: function ( data, type, row ) { return "<a href='" + row['rel'] + "'>" + data +"</a>";},
+      render: function ( data, type, row ) { return "<a href='" + row['rel'] + "'>" + data +"</a> (" + row['specs'] + ")";},
       targets: 1,
     },
-    {data: 'specs', orderable: false},
     { data: "tag",
       render: function ( data, type, row ) { return row['tag']},
       orderable: false,
@@ -145,7 +145,7 @@ $('#software').DataTable( {
          var platforms = ""
          if(data.length > 0) {
            $.each(data, function(i, e){
-              platforms += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag button badge badge-neutral'>" + e + "</button> ";
+              platforms += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag searchable-badge'>" + e + "</button> ";
            })
          }
          return platforms
@@ -158,7 +158,7 @@ $('#software').DataTable( {
          var oss = ""
          if(data.length > 0) {
            $.each(data, function(i, e){
-              oss += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag button badge badge-neutral'>" + e + "</button> ";
+              oss += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag searchable-badge'>" + e + "</button> ";
            })
          }
          return oss
@@ -171,7 +171,7 @@ $('#software').DataTable( {
          var targets = ""
          if(data.length > 0) {
            $.each(data, function(i, e){
-              targets += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag button badge badge-neutral'>" + e + "</button> ";
+              targets += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag searchable-badge'>" + e + "</button> ";
            })
          }
          return targets

@@ -70,12 +70,6 @@ function formatBytes(bytes,decimals) {
             <td>
                 <button class="tag searchable-badge">{{ page.spec_details[forloop.index0].versions }}</button>
             </td>
-            <td>
-                <button class="tag searchable-badge">{{ page.spec_details[forloop.index0].compiler }}</button>
-            </td>
-            <td>
-                <button class="tag searchable-badge">{{ page.spec_details[forloop.index0].architecture }}</button>
-            </td>
             <td class="whitespace-normal">
                 {% for v in page.spec_details[forloop.index0].variants limit:4 %}
                     <button class="tag searchable-badge">{{ v }}</button>
