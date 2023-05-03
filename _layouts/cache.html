@@ -77,8 +77,17 @@ function formatBytes(bytes,decimals) {
                 <button class="tag searchable-badge">{{ page.spec_details[forloop.index0].architecture }}</button>
             </td>
             <td class="whitespace-normal">
-                {% for v in page.spec_details[forloop.index0].variants %}<button
-                    class="tag searchable-badge">{{ v }}</button>{% endfor %}
+                {% for v in page.spec_details[forloop.index0].variants limit:4 %}
+                    <button class="tag searchable-badge">{{ v }}</button>
+                {% endfor %}
+                {% assign variant_count = page.spec_details[forloop.index0].variants | size %}
+                {% if variant_count > 4 %}
+                    {% for v in page.spec_details[forloop.index0].variants offset:4 %}
+                        <button class="tag variant searchable-badge hidden">{{ v }}</button>
+                    {% endfor %}
+                    <span class="pl-2">...</span>
+                    <button id="show-variants" class="btn btn-xs btn-ghost normal-case">show {{ variant_count | minus:4 }} more</button>
+                {% endif %}
             </td>
             <td class="whitespace-normal">
                 {% for s in page.spec_details[forloop.index0].stacks %}<button
@@ -138,6 +147,14 @@ $(document).ready(function() {
     $('span.filesize').each(function() {
        var size = $(this).text();
        $(this).text(formatBytes(size));
+    });
+
+    //show more variants
+    $('#show-variants').click(function() {
+        $('.variant.hidden').toggle();
+        $(this).text(function(i, text){
+            return text === "show {{ variant_count | minus:4 }} more" ? "show less" : "show {{ variant_count | minus:4 }} more";
+        })
     });
 });    
 </script>
