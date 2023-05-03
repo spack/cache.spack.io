@@ -9,7 +9,7 @@ layout: default
     <div class="pr-12">
       <h3>Get Started</h3>
       <p class="mt-0 text-sm">This command will add the build cache to your Spack configuration, allowing you to access pre-built packages for faster installation.</p>
-      <p class="text-sm">For more information, please visit the <a href="https://spack-tutorial.readthedocs.io/en/latest/tutorial_binary_cache.html">Spack documentation on mirrors</a>.</p>
+      <p class="text-sm">For more information, please visit the <a href="https://spack-tutorial.readthedocs.io/en/latest/tutorial_binary_cache.html" class="!link-secondary">Spack documentation on mirrors</a>.</p>
     </div>
   </div>
   <div class="flex-none relative">
@@ -51,8 +51,6 @@ layout: default
   </thead>      
 </table>
 </div>
-
-{% include footer.html %}
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 <script>
@@ -144,7 +142,7 @@ $('#software').DataTable( {
          var compilers = ""
          if(data.length > 0) {
            $.each(data, function(i, e){
-              compilers += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag button badge badge-neutral'>" + e + "</button> ";
+              compilers += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag button btn btn-neutral btn-xs'>" + e + "</button> ";
            })
          }
          return compilers
@@ -157,7 +155,7 @@ $('#software').DataTable( {
          var arches = ""
          if(data.length > 0) {
            $.each(data, function(i, e){
-              arches += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag button badge badge-neutral'>" + e + "</button> ";
+              arches += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag button btn btn-neutral btn-xs'>" + e + "</button> ";
            })
          }
          return arches

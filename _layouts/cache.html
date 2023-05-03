@@ -17,7 +17,7 @@ layout: default
         This package has <strong>{{ page.spec_names | size }}</strong> specs in the build cache! {{ emoji[0] }}
     </div>
     <div class="flex-none">
-        <a href="https://packages.spack.io/package.html?name={{ page.title }}" class="btn btn-secondary btn-sm gap-1">{{ page.title }} <small class="font-light">on packages.spack.io</small></a>
+        <a href="https://packages.spack.io/package.html?name={{ page.title }}" class="btn btn-secondary btn-sm gap-1">{{ page.title }} <small class="font-normal">on packages.spack.io</small></a>
     </div>
 </div>
 
@@ -68,21 +68,21 @@ function formatBytes(bytes,decimals) {
             </td>
             <td>
                 {% for v in page.spec_details[forloop.index0].versions %}<button
-                    class="tag button badge badge-neutral mr-[2px]">{{ v }}</button>{% endfor %}
+                    class="tag button btn btn-neutral btn-xs mr-[3px]">{{ v }}</button>{% endfor %}
             </td>
             <td>
-                <button class="tag button badge badge-neutral mr-[2px]">{{ page.spec_details[forloop.index0].compiler }}</button>
+                <button class="tag button btn btn-neutral btn-xs mr-[3px]">{{ page.spec_details[forloop.index0].compiler }}</button>
             </td>
             <td>
-                <button class="tag button badge badge-neutral mr-[2px]">{{ page.spec_details[forloop.index0].architecture }}</button>
+                <button class="tag button btn btn-neutral btn-xs mr-[3px]">{{ page.spec_details[forloop.index0].architecture }}</button>
             </td>
-            <td class="whitespace-normal leading-6">
+            <td class="whitespace-normal leading-7">
                 {% for v in page.spec_details[forloop.index0].variants %}<button
-                    class="tag button badge badge-neutral mr-[2px]">{{ v }}</button>{% endfor %}
+                    class="tag button btn btn-neutral btn-xs mr-[3px]">{{ v }}</button>{% endfor %}
             </td>
-            <td class="whitespace-normal leading-6">
+            <td class="whitespace-normal leading-7">
                 {% for s in page.spec_details[forloop.index0].stacks %}<button
-                    class="tag button badge badge-neutral mr-[2px]">{{ s }}</button>{% endfor %}
+                    class="tag button btn btn-neutral btn-xs mr-[3px]">{{ s }}</button>{% endfor %}
             </td>
             <td>
                 <span class="filesize">{{ page.spec_details[forloop.index0].size }}</span>
@@ -108,8 +108,6 @@ function formatBytes(bytes,decimals) {
 
 
 </div>
-
-{% include footer.html %}
 
 <script>
 // Allow searching titles of entries
