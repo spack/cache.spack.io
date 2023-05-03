@@ -14,11 +14,11 @@
                     <label class="label p-0">
                         <span class="label-text-alt text-gray-400 text-[10px]">Build Cache Version</span>
                     </label>
-                    <select class="select select-bordered">
-                        <option>All</option>
-                        <option>develop</option>
-                        <option disabled selected>v0.18</option>
-                        <option>v0.19</option>
+                    <select id="build-cache-version-filter" class="select select-bordered">
+                        <option value="">all</option>
+                        {% for entry in site.data.tags.tags %}
+                            <option value="{{ entry.name }}">{{ entry.name }}</option>
+                        {% endfor %}
                     </select>
                 </div>
                 <div class="form-control py-2">
@@ -63,3 +63,15 @@
         </div>
     </div>
 </header>
+
+<script type="text/javascript">
+    let activeBuildCacheVersion = window.location.pathname.match(/\/tag\/([^\/]*)/) || window.location.pathname.match(/\/package\/([^\/]*)/);
+    if (activeBuildCacheVersion) {
+        activeBuildCacheVersion = activeBuildCacheVersion[1];
+        document.getElementById('build-cache-version-filter').value = activeBuildCacheVersion;
+    }
+
+    document.getElementById('build-cache-version-filter').addEventListener('change', function() {
+        window.location.href = '/tag/' + this.value;
+    });
+</script>
