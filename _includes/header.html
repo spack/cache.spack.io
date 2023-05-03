@@ -1,4 +1,4 @@
-<header class="drop-shadow-xl">
+<header class="drop-shadow-xl relative z-[100]">
     <div class="navbar bg-base-100 rounded">
         <div class="flex-1">
             <a href="{{ site.baseurl }}" class="btn btn-ghost !px-2 !py-1 !flex gap-2">
@@ -6,8 +6,10 @@
                 Spack Build Cache <small class="text-gray-600">{{ page.tag }}</small>
             </a>
         </div>
-        {% if page.layout != 'home' %}
-            <div class="flex gap-4 px-3">
+
+        <div class="flex justify-end flex-1 px-2">
+            {% if page.layout != 'home' %}
+            <div class="flex gap-4 pr-5 border-r border-base-200">
                 <div class="form-control py-2">
                     <label class="label p-0">
                         <span class="label-text-alt text-gray-400 text-[10px]">Build Cache Version</span>
@@ -31,6 +33,33 @@
                     </select>
                 </div>
             </div>
-        {% endif %}
+            {% endif %}
+            <div class="flex items-stretch pl-3 space-x-1">
+                <div class="tooltip tooltip-bottom" data-tip="Spack Packages">
+                    <a href="https://packages.spack.io/" class="btn btn-ghost btn-square btn-sm rounded-btn" target="_blank" alt="Spack Packages">
+                        <i class="ri-box-3-line text-xl"></i>
+                    </a>
+                </div>
+                <div class="dropdown dropdown-end">
+                    <label tabindex="0" class="btn btn-ghost btn-square btn-sm rounded-btn">
+                        <i class="ri-github-fill text-xl"></i>
+                    </label>
+                    <ul tabindex="0" class="menu dropdown-content p-2 shadow bg-base-100 rounded-box mt-4">
+                        <li>
+                            <a href="https://github.com/spack/packages.spack.io" class="nolink" target="_blank">
+                                <i class="ri-git-repository-fill text-xl"></i>
+                                packages.spack.io
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/spack/cache.spack.io" class="nolink" target="_blank">
+                                <i class="ri-git-repository-fill text-xl"></i>
+                                cache.spack.io
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </header>
