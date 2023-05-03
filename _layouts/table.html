@@ -59,10 +59,20 @@ layout: default
 
 /* copy button */
 function copyCode() {
-  const code = document.querySelector(".mockup-code code").innerText;
+  const codeBlocks = document.querySelectorAll(".mockup-code code");
+  let codeText = "";
+
+  // Concatenate the text of each code block
+  codeBlocks.forEach((codeBlock, index) => {
+    if (index > 0) {
+      codeText += "\n"; // Add newline character before 2nd code block
+    }
+    codeText += codeBlock.innerText;
+  });
+
   const checkbox = document.querySelector(".swap input[type='checkbox']");
   checkbox.checked = true;
-  navigator.clipboard.writeText(code).then(() => {
+  navigator.clipboard.writeText(codeText).then(() => {
     setTimeout(() => {
       checkbox.checked = false;
     }, 1000);
