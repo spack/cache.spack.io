@@ -1383,6 +1383,11 @@ html {
   --tw-text-opacity: 1;
   color: hsl(var(--ac) / var(--tw-text-opacity));
 }
+.btm-nav>*:where(.active) {
+  border-top-width: 2px;
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--b1) / var(--tw-bg-opacity));
+}
 .btm-nav>*.disabled,
     .btm-nav>*.disabled:hover,
     .btm-nav>*[disabled],
@@ -1450,6 +1455,41 @@ html {
 .btn-secondary:focus-visible {
   outline: 2px solid hsl(var(--s));
 }
+.btn-accent:hover,
+    .btn-accent.btn-active {
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--af, var(--a)) / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--af, var(--a)) / var(--tw-bg-opacity));
+}
+.btn-info:hover,
+    .btn-info.btn-active {
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--in) / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--in) / var(--tw-bg-opacity));
+}
+.btn-success:hover,
+    .btn-success.btn-active {
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--su) / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--su) / var(--tw-bg-opacity));
+}
+.btn-warning:hover,
+    .btn-warning.btn-active {
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--wa) / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--wa) / var(--tw-bg-opacity));
+}
+.btn-error:hover,
+    .btn-error.btn-active {
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--er) / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--er) / var(--tw-bg-opacity));
+}
 .btn.glass:hover,
     .btn.glass.btn-active {
   --glass-opacity: 25%;
@@ -1472,6 +1512,12 @@ html {
 }
 .btn-ghost:focus-visible {
   outline: 2px solid currentColor;
+}
+.btn-link:hover,
+    .btn-link.btn-active {
+  border-color: transparent;
+  background-color: transparent;
+  text-decoration-line: underline;
 }
 .btn-outline {
   border-color: currentColor;
@@ -2206,6 +2252,40 @@ html {
 }
 .rounded-btn {
   border-radius: var(--rounded-btn, 0.5rem);
+}
+.glass,
+  .glass:hover,
+  .glass.btn-active {
+  border: none;
+  -webkit-backdrop-filter: blur(var(--glass-blur, 40px));
+          backdrop-filter: blur(var(--glass-blur, 40px));
+  background-color: transparent;
+  background-image: linear-gradient(
+        135deg,
+        rgb(255 255 255 / var(--glass-opacity, 30%)) 0%,
+        rgb(0 0 0 / 0%) 100%
+      ),
+      linear-gradient(
+        var(--glass-reflex-degree, 100deg),
+        rgb(255 255 255 / var(--glass-reflex-opacity, 10%)) 25%,
+        rgb(0 0 0 / 0%) 25%
+      );
+  box-shadow: 0 0 0 1px rgb(255 255 255 / var(--glass-border-opacity, 10%))
+        inset,
+      0 0 0 2px rgb(0 0 0 / 5%);
+  text-shadow: 0 1px rgb(0 0 0 / var(--glass-text-shadow-opacity, 5%));
+}
+.btm-nav-xs>*:where(.active) {
+  border-top-width: 1px;
+}
+.btm-nav-sm>*:where(.active) {
+  border-top-width: 2px;
+}
+.btm-nav-md>*:where(.active) {
+  border-top-width: 2px;
+}
+.btm-nav-lg>*:where(.active) {
+  border-top-width: 4px;
 }
 .btn-xs {
   height: 1.5rem;
