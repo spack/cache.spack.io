@@ -15,7 +15,7 @@ layout: default
   <div class="flex-none relative">
     <div class="mockup-code bg-neutral-focus">
       <label class="absolute top-2 right-2">
-        <a class="btn btn-sm btn-ghost gap-2 opacity-75 hover:opacity-100 transition transition-all z-10">
+        <button class="btn btn-sm btn-ghost gap-2 opacity-75 hover:opacity-100 transition transition-all z-10" onclick="copyCode()">
           <div class="swap swap-rotate">
             <!-- this hidden checkbox controls the state -->
             <input type="checkbox" />
@@ -23,7 +23,7 @@ layout: default
             <i class="ri-check-line text-success swap-on fill-current"></i>
           </div>
           copy code
-        </a>
+        </button>
       </label>
       <pre data-prefix="$"><code>spack mirror add spack-build-cache-{{ page.tag }} https://binaries.spack.io/releases/{{ page.tag }}</code></pre>
       <pre data-prefix="$"><code>spack buildcache keys --install --trust</code></pre>
@@ -56,6 +56,19 @@ layout: default
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 <script>
+
+/* copy button */
+function copyCode() {
+  const code = document.querySelector(".mockup-code code").innerText;
+  const checkbox = document.querySelector(".swap input[type='checkbox']");
+  checkbox.checked = true;
+  navigator.clipboard.writeText(code).then(() => {
+    setTimeout(() => {
+      checkbox.checked = false;
+    }, 1000);
+  });
+} // end copy button
+
 $(document).ready(function(){
 
 $("#title").click(function(){
