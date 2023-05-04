@@ -148,7 +148,7 @@ def write_cache_entries(name, specs, hash_stacks):
                     "os": spec.architecture.os,
                     "platform": spec.architecture.platform,
                     "target": spec.architecture.target.name,
-                    "variants": str(spec.variants).split(),
+                    "variants": [str(v) for v in spec.variants.values()],
                     "stacks": list(hash_stacks[spec._hash]),
                     "size": binary_size(spec),
                     "tarball": spack.binary_distribution.tarball_name(spec, '.spack'),

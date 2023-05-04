@@ -80,7 +80,7 @@ function formatBytes(bytes,decimals) {
                         <button class="tag variant searchable-badge hidden">{{ v }}</button>
                     {% endfor %}
                     <span class="pl-2">...</span>
-                    <button id="show-variants" class="btn btn-xs btn-ghost normal-case">show {{ variant_count | minus:4 }} more</button>
+                    <button class="show-variants btn btn-xs btn-ghost normal-case">show {{ variant_count | minus:4 }} more</button>
                 {% endif %}
             </td>
             <td>
@@ -152,8 +152,8 @@ $(document).ready(function() {
     });
 
     //show more variants
-    $('#show-variants').click(function() {
-        $('.variant.hidden').toggle();
+    $('.show-variants').click(function(el) {
+        $(el.target).parent('td').find('.variant.hidden').toggle();
         $(this).text(function(i, text){
             return text === "show {{ variant_count | minus:4 }} more" ? "show less" : "show {{ variant_count | minus:4 }} more";
         })
