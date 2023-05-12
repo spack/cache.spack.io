@@ -3,18 +3,12 @@ layout: default
 ---
 
 <h1 class="pb-2">
-    <a href="{{ site.baseurl }}" class="btn btn-ghost btn-square btn-sm">
-        <i class="ri-arrow-left-line text-xl"></i>
-    </a>
     {{ page.title }}
 </h1>
 
 <div class="alert bg-primary text-white">
-    {% assign emojis = "⭐️,🎉️,🤓️,😄️,✨️,💛️" | split: ',' %}
-    {% assign emoji = emojis | sample: 2 %}
-
     <div>
-        This package has <strong>{{ page.spec_names | size }}</strong> specs in the build cache! {{ emoji[0] }}
+        This package has <strong><span id="spec-count"></span></strong><span id="spec-string">spec</span> in the build cache.
     </div>
     <div class="flex-none">
         <a href="https://packages.spack.io/package.html?name={{ page.title }}" class="btn btn-secondary btn-sm gap-1">{{ page.title }} <small class="font-normal">on packages.spack.io</small></a>
@@ -34,6 +28,8 @@ layout: default
 function formatBytes(bytes,decimals) {
    if (bytes == 0) {
        return '0 Bytes';
+   } else if (bytes == '-') {
+       return '-';
    }
    var k = 1024,
        dm = decimals || 2,
@@ -41,11 +37,24 @@ function formatBytes(bytes,decimals) {
        i = Math.floor(Math.log(bytes) / Math.log(k));
    return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
 }
+
+
+let specs = {{ page.spec_details|jsonify }};
+
+const searchParams = new URLSearchParams(window.location.search);
+const stack = searchParams.get('stack');
+if (stack) {
+    specs = specs.filter(spec => spec.stacks.includes(stack));
+}
+$('#spec-count').text(specs.length);
+if (specs.length != 1) {
+    $('#spec-string').text('specs');
+}
 </script>
 
 <div class="container py-8">
 
-    <a class="button reset filter-reset btn btn-secondary btn-sm mt-2 float-right" onclick="$('#cache').DataTable().search('').draw()" href="#">reset</a></li>
+<a class="button reset filter-reset btn btn-secondary btn-sm mt-2 float-right" onclick="$('#cache').DataTable().search('').draw()" href="#">reset</a></li>
 
 <table id="cache" class="table w-full">
     <thead>
@@ -61,69 +70,81 @@ function formatBytes(bytes,decimals) {
             <th></th>
         </tr>
     </thead>
-    <tbody>
-        {% for spec_name in page.spec_names %}
-        <tr>
-            <td class="font-mono">
-                {{ page.spec_details[forloop.index0].hash }}
-            </td>
-            <td>
-                <button class="tag searchable-badge">{{ page.spec_details[forloop.index0].versions }}</button>
-            </td>
-            <td class="whitespace-normal">
-                {% for v in page.spec_details[forloop.index0].variants limit:4 %}
-                    <button class="tag searchable-badge">{{ v }}</button>
-                {% endfor %}
-                {% assign variant_count = page.spec_details[forloop.index0].variants | size %}
-                {% if variant_count > 4 %}
-                    {% for v in page.spec_details[forloop.index0].variants offset:4 %}
-                        <button class="tag variant searchable-badge hidden">{{ v }}</button>
-                    {% endfor %}
-                    <span class="pl-2">...</span>
-                    <button class="show-variants btn btn-xs btn-ghost normal-case">show {{ variant_count | minus:4 }} more</button>
-                {% endif %}
-            </td>
-            <td>
-                <button class="tag searchable-badge">{{ page.spec_details[forloop.index0].platform }}</button>
-            </td>
-            <td>
-                <button class="tag searchable-badge">{{ page.spec_details[forloop.index0].os }}</button>
-            </td>
-            <td>
-                <button class="tag searchable-badge">{{ page.spec_details[forloop.index0].target }}</button>
-            </td>
-            <td class="whitespace-normal leading-7">
-                <button class="tag searchable-badge">{{ page.spec_details[forloop.index0].compiler }}</button>
-            </td>
-            <td>
-                <span class="filesize">{{ page.spec_details[forloop.index0].size }}</span>
-            </td>
-            <td>
-                <div class="flex">
-                    <div class="tooltip" data-tip="View Raw Spec">
-                        <a href="" class="btn btn-circle btn-sm btn-ghost">
-                            <i class="ri-eye-fill text-xl text-neutral"></i>
-                        </a>
-                    </div>
-                    <div class="tooltip" data-tip="Download Tarball">
-                        <a href="{{ page.spec_details[forloop.index0].tarball }}" class="btn btn-circle btn-sm btn-ghost">
-                            <i class="ri-file-zip-fill text-xl text-neutral"></i>
-                        </a>
-                    </div>
-                </div>
-            </td>
-        </tr>
-        {% endfor %}
-    </tbody>
 </table>
-
-
 </div>
 
 <script>
 // Allow searching titles of entries
 $(document).ready(function() {
     $('#cache').DataTable({
+        data: specs,
+        columns: [
+            {
+                data: 'hash',
+                render: function(data, type, row) {
+                    return '<span class="font-mono">' + data + '</span>';
+                }
+            },
+            {
+                data: 'versions',
+                render: function(data, type, row) {
+                    return '<button class="tag searchable-badge">' + data + '</button>';
+                }
+            },
+            {
+                data: 'variants',
+                render: function(data, type, row) {
+                    const content = data.map(function(variant, i) {
+                        hidden = i > 3 ? 'variant hidden' : '';
+                        return '<button class="tag searchable-badge ' + hidden + '">' + variant + '</button>';
+                    }).join('');
+
+                    // if there are more than 4 variants, display a button to toggle show more or less
+                    if (data.length > 4) {
+                        return content + '<span class="pl-2">...</span><button data-count="' + data.length + '" class="show-variants btn btn-xs btn-ghost normal-case">show ' + (data.length - 4) + ' more</button>';
+                    } else {
+                        return content;
+                    }
+                }
+            },
+            {
+                data: 'platform',
+                render: function(data, type, row) {
+                    return '<button class="tag searchable-badge">' + data + '</button>';
+                }
+            },
+            {
+                data: 'os',
+                render: function(data, type, row) {
+                    return '<button class="tag searchable-badge">' + data + '</button>';
+                }
+            },
+            {
+                data: 'target',
+                render: function(data, type, row) {
+                    return '<button class="tag searchable-badge">' + data + '</button>';
+                }
+            },
+            {
+                data: 'compiler',
+                render: function(data, type, row) {
+                    return '<button class="tag searchable-badge">' + data + '</button>';
+                }
+            },
+            {
+                data: 'size',
+                render: function(data, type, row) {
+                    return '<span class="filesize">' + data + '</span>';
+                }
+            },
+            {
+                data: 'tarball',
+                render: function(data, type, row) {
+                    return '<div class="tooltip" data-tip="Download Tarball"><a href="' + data + '" class="btn btn-sm btn-circle btn-ghost"><i class="ri-file-zip-fill text-xl text-neutral"></i></a></div>';
+
+                }
+            }
+        ],
         pageLength: 50,
         "drawCallback": function () {
             $('.dataTables_filter').addClass('flex md:justify-end');
@@ -155,7 +176,8 @@ $(document).ready(function() {
     $('.show-variants').click(function(el) {
         $(el.target).parent('td').find('.variant.hidden').toggle();
         $(this).text(function(i, text){
-            return text === "show {{ variant_count | minus:4 }} more" ? "show less" : "show {{ variant_count | minus:4 }} more";
+            const countDisplayed = $(this).data('count') - 4;
+            return text === "show " + countDisplayed + " more" ? "show less" : "show " + countDisplayed + " more";
         })
     });
 });    

@@ -92,7 +92,26 @@ $.getJSON( "{{ site.baseurl }}api/data.json", function( data ) {
 function filterTag(value) {
   return value['tag'] == "{{ page.tag }}"
 }
-data = data.filter(filterTag){% endif %}
+data = data.filter(filterTag)
+
+// add stack query string to url in every row of data
+const searchParams = new URLSearchParams(window.location.search);
+const stack = searchParams.get('stack') !== null && searchParams.get('stack') !== '' ? searchParams.get('stack') : false;
+data = data.map(function(el){
+     if (stack) {
+        el['rel'] = el['rel'] + "?stack=" + searchParams.get('stack')
+     }
+    return el;
+});
+
+// filter by stack
+if (stack) {
+  function filterStack(value) {
+    return value['stacks'].includes(stack);
+  }
+  data = data.filter(filterStack)
+}
+{% endif %}
 
 $('#software').DataTable( {
   "drawCallback": function () {

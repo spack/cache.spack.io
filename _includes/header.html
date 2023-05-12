@@ -15,7 +15,7 @@
                         <span class="label-text-alt text-gray-400 text-[10px]">Build Cache Version</span>
                     </label>
                     <select id="build-cache-version-filter" class="select select-bordered">
-                        <option value="">all</option>
+                        <option selected></option>
                         {% for entry in site.data.tags.tags %}
                             <option value="{{ entry.name }}">{{ entry.name }}</option>
                         {% endfor %}
@@ -25,11 +25,11 @@
                     <label class="label p-0">
                         <span class="label-text-alt text-gray-400 text-[10px]">Stack</span>
                     </label>
-                    <select class="select select-bordered">
-                        <option>option1</option>
-                        <option>option2</option>
-                        <option disabled selected>option3</option>
-                        <option>option4</option>
+                    <select id="build-cache-stack-filter" class="select select-bordered">
+                        <option selected></option>
+                        {% for entry in site.data.stacks.stacks %}
+                            <option value="{{ entry }}">{{ entry }}</option>
+                        {% endfor %}
                     </select>
                 </div>
             </div>
@@ -65,6 +65,12 @@
 </header>
 
 <script type="text/javascript">
+    if (!window.location.pathname.match(/\/tag\/([^\/]*)/)) {
+        // disable dropdowns
+        document.getElementById('build-cache-version-filter').disabled = true;
+        document.getElementById('build-cache-stack-filter').disabled = true;
+    }
+
     let activeBuildCacheVersion = window.location.pathname.match(/\/tag\/([^\/]*)/) || window.location.pathname.match(/\/package\/([^\/]*)/);
     if (activeBuildCacheVersion) {
         activeBuildCacheVersion = activeBuildCacheVersion[1];
@@ -72,6 +78,19 @@
     }
 
     document.getElementById('build-cache-version-filter').addEventListener('change', function() {
-        window.location.href = '/tag/' + this.value;
+        // redirect, preserving query strings
+        window.location.pathname = '/tag/' + this.value;
+    });
+
+    let activeBuildCacheStack = window.location.search.match(/stack=([^&]*)/);
+    if (activeBuildCacheStack) {
+        activeBuildCacheStack = activeBuildCacheStack[1];
+        document.getElementById('build-cache-stack-filter').value = activeBuildCacheStack;
+    }
+
+    document.getElementById('build-cache-stack-filter').addEventListener('change', function() {
+        const searchParams = new URLSearchParams(window.location.search);
+        searchParams.set('stack', this.value);
+        window.location.search = searchParams.toString();
     });
 </script>

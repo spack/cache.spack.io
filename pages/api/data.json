@@ -8,6 +8,7 @@ permalink: /api/data.json
     {% assign oss = entry.meta.oss %}
     {% assign platforms = entry.meta.platforms %}
     {% assign targets = entry.meta.targets %}
+    {% assign stacks = entry.meta.stacks %}
         "uid": "{{ entry.title }}",
         "tag": "{{ entry.categories[1] }}",
         "url": "https://packages.spack.io/package.html?name={{ entry.title }}",
@@ -17,5 +18,6 @@ permalink: /api/data.json
         "oss": [{% for os in oss %}"{{ os }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}],
         "platforms": [{% for p in platforms %}"{{ p }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}],
         "targets": [{% for t in targets %}"{{ t }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}],
+        "stacks": [{% for s in stacks %}"{{ s }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}],
         "specs": {{ entry.spec_files | size }}
     }{% if forloop.last %}{% else %},{% endif %}{% endfor %}]
