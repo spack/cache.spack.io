@@ -12,7 +12,7 @@ permalink: /api/data.json
         "uid": "{{ entry.title }}",
         "tag": "{{ entry.categories[1] }}",
         "url": "https://packages.spack.io/package.html?name={{ entry.title }}",
-        "rel": "{{ entry.url }}",
+        "rel": "{{ entry.url | replace_first: "/", "" }}",
         "versions": [{% for v in versions %}"{{ v }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}],
         "compilers": [{% for c in compilers %}"{{ c }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}],
         "oss": [{% for os in oss %}"{{ os }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}],
