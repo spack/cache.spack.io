@@ -19,5 +19,6 @@ permalink: /api/data.json
         "platforms": [{% for p in platforms %}"{{ p }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}],
         "targets": [{% for t in targets %}"{{ t }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}],
         "stacks": [{% for s in stacks %}"{{ s }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}],
-        "specs": {{ entry.spec_files | size }}
+        "num_specs": {{ entry.meta.num_specs }},
+        "num_specs_by_stack": {{ entry.meta.num_specs_by_stack | jsonify }}
     }{% if forloop.last %}{% else %},{% endif %}{% endfor %}]

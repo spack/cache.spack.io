@@ -14,7 +14,6 @@ from typing import Set
 import git
 import json
 import os
-import os
 import requests
 import shutil
 import sys
@@ -47,16 +46,13 @@ title: "%s"
 layout: cache
 categories: [package, %s]
 meta: %s
-spec_files: 
- - %s
 spec_details: %s
-spec_names:
- - %s
 ---"""
 
+
 def binary_size(spec):
-    # TODO: fetch at build time
-    return 1024 * 1024
+    # TODO: blocked on this value being baked into the build cache index.json
+    return "-"
 
 
 @contextmanager
@@ -77,8 +73,9 @@ def git_repo_context(repo_url):
 
 
 @lru_cache
-def get_version_stacks(repo: git.Repo, tag: str) -> Set[str]:
-    repo.git.checkout(tag)
+def get_version_stacks(repo: git.Repo, name: str) -> Set[str]:
+    repo.git.checkout(name)
+
     stacks_dir = (
         Path(repo.working_dir)
         / "share"
@@ -89,19 +86,23 @@ def get_version_stacks(repo: git.Repo, tag: str) -> Set[str]:
     )
     return set(os.listdir(stacks_dir))
 
-def get_hash_stacks(repo: git.Repo, tag: str) -> dict[str, set[str]]:
+
+def get_hash_stacks(repo: git.Repo, name: str) -> dict[str, set[str]]:
     hash_stacks = defaultdict(set)
 
-    for stack in get_version_stacks(repo, tag):
-        url = f'https://binaries.spack.io/{tag}/{stack}/build_cache/index.json'
+    if name != "develop":
+        name = f"releases/{name}"
+
+    for stack in get_version_stacks(repo, name):
+        url = f"https://binaries.spack.io/{name}/{stack}/build_cache/index.json"
         r = requests.get(url)
         if r.status_code == 404:
-            print(f'No build cache for {tag} {stack} ({url})')
+            print(f"No build cache for {name} {stack} ({url})")
             continue
         else:
             r.raise_for_status()
 
-        for hash in r.json()['database']['installs'].keys():
+        for hash in r.json()["database"]["installs"].keys():
             hash_stacks[hash].add(stack)
 
     return hash_stacks
@@ -113,7 +114,7 @@ def write_cache_entries(name, specs, hash_stacks):
     """
     # For each spec, write to the _cache folder
     for package_name, speclist in specs.items():
-        # Keep a set of summary metrics for a spec
+        # Keep a set of summary metrics for a package
         metrics = {
             "versions": set(),
             "compilers": set(),
@@ -121,25 +122,33 @@ def write_cache_entries(name, specs, hash_stacks):
             "platforms": set(),
             "targets": set(),
             "stacks": set(),
+            "num_specs": 0,
+            "num_specs_by_stack": defaultdict(int),
         }
 
         package_dir = os.path.join(here, "_cache", name, package_name)
         if not os.path.exists(package_dir):
             os.makedirs(package_dir)
-        spec_files = []
-        spec_names = []
         spec_details = []
         for i, spec in enumerate(speclist):
-            metrics["oss"].add( spec.architecture.os)
-            metrics["platforms"].add( spec.architecture.platform)
-            metrics["targets"].add( spec.architecture.target.name)
+            metrics["oss"].add(spec.architecture.os)
+            metrics["platforms"].add(spec.architecture.platform)
+            metrics["targets"].add(spec.architecture.target.name)
             metrics["versions"].add(str(spec.version))
             metrics["compilers"].add(str(spec.compiler))
             metrics["stacks"] |= hash_stacks[spec._hash]
+            metrics["num_specs"] += 1
+
+            for stack in hash_stacks[spec._hash]:
+                metrics["num_specs_by_stack"][stack] += 1
+
             spec_name = "spec-%s.json" % i
-            spec_file = os.path.join(package_dir, spec_name)
-            write_json(spec.to_dict(), spec_file)
-            spec_files.append(spec_name)
+            assert len(spec.versions) == 1, spec.versions
+            tarball_dir = spack.binary_distribution.tarball_directory_name(spec)
+            tarball_name = spack.binary_distribution.tarball_name(spec, ".spack")
+            release_prefix = "releases/" if name != "develop" else ""
+            tarball = f"{release_prefix}{name}/build_cache/{tarball_dir}/{tarball_name}"
+            tarball_url = f"https://binaries.spack.io/{tarball}"
             spec_details.append(
                 {
                     "hash": spec._hash,
@@ -151,10 +160,9 @@ def write_cache_entries(name, specs, hash_stacks):
                     "variants": [str(v) for v in spec.variants.values()],
                     "stacks": list(hash_stacks[spec._hash]),
                     "size": binary_size(spec),
-                    "tarball": spack.binary_distribution.tarball_name(spec, '.spack'),
+                    "tarball": tarball_url,
                 }
             )
-            spec_names.append("'" + str(spec) + "'")
         metrics["oss"] = sorted(list(metrics["oss"]))
         metrics["platforms"] = sorted(list(metrics["platforms"]))
         metrics["targets"] = sorted(list(metrics["targets"]))
@@ -165,9 +173,7 @@ def write_cache_entries(name, specs, hash_stacks):
             package_name,
             name,
             json.dumps(metrics),
-            " - ".join([x + "\n" for x in spec_files]).strip(),
             json.dumps(spec_details),
-            " - ".join([x + "\n" for x in spec_names]).strip(),
         )
         md_file = os.path.join(package_dir, "specs.md")
         with open(md_file, "w") as fd:
@@ -222,7 +228,6 @@ def get_specs_metadata(specs):
             nodes = s.to_dict()["spec"]["nodes"]
             for spec in nodes:
                 for paramname, setting in spec["parameters"].items():
-
                     # Is true or not empty list
                     if setting:
                         if paramname not in parameters:
@@ -230,7 +235,6 @@ def get_specs_metadata(specs):
                         parameters[paramname] += 1
 
                 for key, value in spec["arch"].items():
-
                     # Target can have another level of nesting
                     if key == "target" and isinstance(value, dict):
                         value = "%s %s" % (value["vendor"], value["name"])
@@ -253,7 +257,6 @@ def get_specs_metadata(specs):
 
 
 def main():
-
     tags_file = os.path.join(here, "_data", "tags.yaml")
     if not os.path.exists(tags_file):
         sys.exit(f"{tags_file} does not exist.")
@@ -263,19 +266,18 @@ def main():
     tags = read_yaml(tags_file)
     with git_repo_context("https://github.com/spack/spack") as repo:
         for entry in tags.get("tags", []):
-            if "name" not in entry or "url" not in entry or "tag" not in entry:
-                sys.exit(f"Malformed entry {entry} missing url or tag or name.")
+            if "name" not in entry or "url" not in entry:
+                sys.exit(f"Malformed entry {entry} missing url or name.")
             name = entry["name"]
-            tag = entry["tag"]
             url = entry["url"]
             print(f"Parsing cache for {name}")
 
             # Create spack database and load specs
-            print('Loading spack db')
+            print("Loading spack db")
             index, specs = load_spack_db(name, url)
 
-            print('Getting hash stacks')
-            hash_stacks = get_hash_stacks(repo, tag)
+            print("Getting hash stacks")
+            hash_stacks = get_hash_stacks(repo, name)
 
             # Update metadata file
             meta[name] = {
@@ -285,12 +287,12 @@ def main():
             del index
 
             # Get metadata for specs
-            print('Getting specs metadata')
+            print("Getting specs metadata")
             updates = get_specs_metadata(specs)
             meta[name].update(updates)
 
             # Write jekyll files
-            print('Writing jekyll files')
+            print("Writing jekyll files")
             write_cache_entries(name, specs, hash_stacks)
 
     # Create the "all" group

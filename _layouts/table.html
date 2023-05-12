@@ -93,6 +93,7 @@ function filterTag(value) {
   return value['tag'] == "{{ page.tag }}"
 }
 data = data.filter(filterTag)
+{% endif %}
 
 // add stack query string to url in every row of data
 const searchParams = new URLSearchParams(window.location.search);
@@ -111,7 +112,6 @@ if (stack) {
   }
   data = data.filter(filterStack)
 }
-{% endif %}
 
 $('#software').DataTable( {
   "drawCallback": function () {
@@ -135,7 +135,10 @@ $('#software').DataTable( {
   pageLength: 50,
   columns: [
     { data: "uid",
-      render: function ( data, type, row ) { return "<a href='" + row['rel'] + "'>" + data +"</a> (" + row['specs'] + ")";},
+      render: function ( data, type, row ) {
+          const numSpecs = stack ? row['num_specs_by_stack'][searchParams.get('stack')] : row['num_specs'];
+          return "<a href='" + row['rel'] + "'>" + data +"</a> (" + numSpecs + ")";
+      },
       targets: 1,
     },
     { data: "tag",
