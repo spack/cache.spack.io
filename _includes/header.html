@@ -1,8 +1,8 @@
 <header class="drop-shadow-xl relative z-[100]">
     <div class="navbar bg-base-100 rounded">
         <div class="flex-1">
-            <a href="{{ site.baseurl }}" class="btn btn-ghost !px-2 !py-1 !flex gap-2">
-                <img src="{{ site.baseurl }}assets/img/spack-logo.svg" class="max-h-full w-auto">
+            <a href="{{ site.baseurl }}/" class="btn btn-ghost !px-2 !py-1 !flex gap-2">
+                <img src="{{ site.baseurl }}/assets/img/spack-logo.svg" class="max-h-full w-auto">
                 Spack Build Cache <small class="text-gray-600">{{ page.tag }}</small>
             </a>
         </div>
@@ -65,13 +65,14 @@
 </header>
 
 <script type="text/javascript">
-    if (!window.location.pathname.match(/\/tag\/([^\/]*)/)) {
+    if (!window.location.pathname.match(/{{ site.baseurl | replace: "/", "\\/" }}\/tag\/([^\/]*)/)) {
         // disable dropdowns
         document.getElementById('build-cache-version-filter').disabled = true;
         document.getElementById('build-cache-stack-filter').disabled = true;
     }
 
-    let activeBuildCacheVersion = window.location.pathname.match(/\/tag\/([^\/]*)/) || window.location.pathname.match(/\/package\/([^\/]*)/);
+    let activeBuildCacheVersion = window.location.pathname.match(/{{ site.baseurl | replace: "/", "\\/" }}\/tag\/([^\/]*)/) ||
+                                  window.location.pathname.match(/{{ site.baseurl | replace: "/", "\\/" }}\/package\/([^\/]*)/);
     if (activeBuildCacheVersion) {
         activeBuildCacheVersion = activeBuildCacheVersion[1];
         document.getElementById('build-cache-version-filter').value = activeBuildCacheVersion;
@@ -79,7 +80,7 @@
 
     document.getElementById('build-cache-version-filter').addEventListener('change', function() {
         // redirect, preserving query strings
-        window.location.pathname = '/tag/' + this.value;
+        window.location.pathname = '{{ site.baseurl }}/tag/' + this.value;
     });
 
     let activeBuildCacheStack = window.location.search.match(/stack=([^&]*)/);
