@@ -16,7 +16,7 @@ jobs:
       run: |
          export PATH=/opt/spackywoo/bin:$PATH
          pip install -r requirements.txt
-         spack python generate_cache.py
+         find _cache -mindepth 1 -delete && spack python generate_cache.py
 
     - name: Push Results
       run: |
