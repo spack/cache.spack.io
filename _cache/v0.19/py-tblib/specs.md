@@ -1,0 +1,7 @@
+---
+title: "py-tblib"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["1.6.0"], "compilers": ["gcc@=11.1.0", "oneapi@=2022.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1}}
+spec_details: [{"hash": "jega2ae7yhlg4t5mnke3d7yfbodf6seh", "compiler": "gcc@=11.1.0", "versions": ["1.6.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=python_pip"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/py-tblib-1.6.0/linux-ubuntu20.04-x86_64-gcc-11.1.0-py-tblib-1.6.0-jega2ae7yhlg4t5mnke3d7yfbodf6seh.spack"}, {"hash": "ezlqa6naftxbklneararrthu5asm7gpd", "compiler": "oneapi@=2022.1.0", "versions": ["1.6.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=python_pip"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-tblib-1.6.0/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-py-tblib-1.6.0-ezlqa6naftxbklneararrthu5asm7gpd.spack"}]
+---

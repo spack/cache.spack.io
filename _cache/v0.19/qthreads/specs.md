@@ -1,0 +1,7 @@
+---
+title: "qthreads"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["1.16"], "compilers": ["gcc@=11.1.0", "oneapi@=2022.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1}}
+spec_details: [{"hash": "xjrlin56oafltc3ehvxdy74pz5zvcpkn", "compiler": "gcc@=11.1.0", "versions": ["1.16"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=autotools", "+hwloc", "scheduler=distrib", "~spawn_cache", "stack_size=4096", "+static"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/qthreads-1.16/linux-ubuntu20.04-x86_64-gcc-11.1.0-qthreads-1.16-xjrlin56oafltc3ehvxdy74pz5zvcpkn.spack"}, {"hash": "llagciseuncb4vdypb3jvyqfh4csfsd7", "compiler": "oneapi@=2022.1.0", "versions": ["1.16"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=autotools", "+hwloc", "scheduler=distrib", "~spawn_cache", "stack_size=4096", "+static"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/qthreads-1.16/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-qthreads-1.16-llagciseuncb4vdypb3jvyqfh4csfsd7.spack"}]
+---

@@ -1,0 +1,7 @@
+---
+title: "py-portpicker"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["1.5.2"], "compilers": ["gcc@=11.3.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-rocm": 2, "ml-linux-x86_64-cuda": 2, "ml-linux-x86_64-cpu": 2}}
+spec_details: [{"hash": "2a477zjybkcmaqqgjqfjtl763mixj4us", "compiler": "gcc@=11.3.0", "versions": ["1.5.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-rocm", "ml-linux-x86_64-cuda", "ml-linux-x86_64-cpu"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-portpicker-1.5.2/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-portpicker-1.5.2-2a477zjybkcmaqqgjqfjtl763mixj4us.spack"}, {"hash": "ktd2z55ziwn6xme2q6dijgf65pyewnic", "compiler": "gcc@=11.3.0", "versions": ["1.5.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-rocm", "ml-linux-x86_64-cuda", "ml-linux-x86_64-cpu"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-portpicker-1.5.2/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-portpicker-1.5.2-ktd2z55ziwn6xme2q6dijgf65pyewnic.spack"}]
+---

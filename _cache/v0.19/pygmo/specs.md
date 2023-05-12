@@ -1,0 +1,7 @@
+---
+title: "pygmo"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["2.18.0"], "compilers": ["gcc@=11.1.0", "oneapi@=2022.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1}}
+spec_details: [{"hash": "4gwevszhs35mdadsghrxlte6yda5cgj4", "compiler": "gcc@=11.1.0", "versions": ["2.18.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=cmake", "build_type=RelWithDebInfo", "~ipo", "+shared"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/pygmo-2.18.0/linux-ubuntu20.04-x86_64-gcc-11.1.0-pygmo-2.18.0-4gwevszhs35mdadsghrxlte6yda5cgj4.spack"}, {"hash": "kopsxzz3ni4bdenliq7ru2ypj5qtdlqx", "compiler": "oneapi@=2022.1.0", "versions": ["2.18.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=cmake", "build_type=RelWithDebInfo", "~ipo", "+shared"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/pygmo-2.18.0/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-pygmo-2.18.0-kopsxzz3ni4bdenliq7ru2ypj5qtdlqx.spack"}]
+---

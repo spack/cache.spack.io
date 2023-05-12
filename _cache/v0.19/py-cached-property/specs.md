@@ -1,0 +1,7 @@
+---
+title: "py-cached-property"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["1.5.2"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "radiuss"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "radiuss": 1}}
+spec_details: [{"hash": "ammpf4qxorauzaphs7njwotfntswez4e", "compiler": "gcc@=7.5.0", "versions": ["1.5.2"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=python_pip"], "stacks": ["data-vis-sdk"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-cached-property-1.5.2/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-cached-property-1.5.2-ammpf4qxorauzaphs7njwotfntswez4e.spack"}, {"hash": "jwyuptxhhhp7tp2yiszunthxma3kvonk", "compiler": "gcc@=7.5.0", "versions": ["1.5.2"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=python_pip"], "stacks": ["radiuss"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-cached-property-1.5.2/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-cached-property-1.5.2-jwyuptxhhhp7tp2yiszunthxma3kvonk.spack"}]
+---

@@ -1,0 +1,7 @@
+---
+title: "py-tensorflow-estimator"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["2.10"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-cpu", "ml-cuda", "ml-rocm"], "num_specs": 2, "num_specs_by_stack": {"ml-cuda": 1, "ml-rocm": 1, "ml-cpu": 1}}
+spec_details: [{"hash": "kmbxqss73qx635otl2kku6f6snze5dsk", "compiler": "gcc@=7.3.1", "versions": ["2.10"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["ml-cuda"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/py-tensorflow-estimator-2.10/linux-amzn2-x86_64_v3-gcc-7.3.1-py-tensorflow-estimator-2.10-kmbxqss73qx635otl2kku6f6snze5dsk.spack"}, {"hash": "khj7r6ura54oiy3cyqdbfs6jbv3tz6te", "compiler": "gcc@=7.3.1", "versions": ["2.10"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["ml-rocm", "ml-cpu"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/py-tensorflow-estimator-2.10/linux-amzn2-x86_64_v3-gcc-7.3.1-py-tensorflow-estimator-2.10-khj7r6ura54oiy3cyqdbfs6jbv3tz6te.spack"}]
+---

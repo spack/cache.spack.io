@@ -1,0 +1,7 @@
+---
+title: "plasma"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["22.9.29"], "compilers": ["gcc@=11.1.0", "oneapi@=2022.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1}}
+spec_details: [{"hash": "mbwinhb3ka7b5f4vpkns2cowj2wk6qqi", "compiler": "gcc@=11.1.0", "versions": ["22.9.29"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=cmake", "build_type=RelWithDebInfo", "~ipo", "~lua", "+shared"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/plasma-22.9.29/linux-ubuntu20.04-x86_64-gcc-11.1.0-plasma-22.9.29-mbwinhb3ka7b5f4vpkns2cowj2wk6qqi.spack"}, {"hash": "s3u57b5r4p3mtmdzkg4vifprcm7gde2d", "compiler": "oneapi@=2022.1.0", "versions": ["22.9.29"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=cmake", "build_type=RelWithDebInfo", "~ipo", "~lua", "+shared"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/plasma-22.9.29/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-plasma-22.9.29-s3u57b5r4p3mtmdzkg4vifprcm7gde2d.spack"}]
+---
