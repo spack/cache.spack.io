@@ -1,7 +1,0 @@
----
-title: "datatransferkit"
-layout: cache
-categories: [package, v0.18]
-meta: {"versions": ["3.1-rc3"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s"], "num_specs": 2, "num_specs_by_stack": {"e4s": 2}}
-spec_details: [{"hash": "rrng37eenxq4mh54myivoqtqhnxsld5x", "compiler": "gcc@=7.5.0", "versions": ["3.1-rc3"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_type=RelWithDebInfo", "~external-arborx", "~ipo", "~openmp", "+serial", "+shared"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/datatransferkit-3.1-rc3/linux-ubuntu18.04-x86_64-gcc-7.5.0-datatransferkit-3.1-rc3-rrng37eenxq4mh54myivoqtqhnxsld5x.spack"}, {"hash": "ggalmdnktfgkzznrfv7lh75en5avvomw", "compiler": "gcc@=7.5.0", "versions": ["3.1-rc3"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_type=RelWithDebInfo", "~external-arborx", "~ipo", "~openmp", "+serial", "+shared"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/datatransferkit-3.1-rc3/linux-ubuntu18.04-x86_64-gcc-7.5.0-datatransferkit-3.1-rc3-ggalmdnktfgkzznrfv7lh75en5avvomw.spack"}]
----

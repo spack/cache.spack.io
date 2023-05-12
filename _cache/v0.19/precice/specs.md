@@ -1,7 +1,0 @@
----
-title: "precice"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["2.5.0"], "compilers": ["gcc@=11.1.0", "oneapi@=2022.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "olpj6u2il4s4qw47kh6jztrivzvhwcxw", "compiler": "gcc@=11.1.0", "versions": ["2.5.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=cmake", "build_type=RelWithDebInfo", "~ipo", "+mpi", "+petsc", "~python", "+shared"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/precice-2.5.0/linux-ubuntu20.04-x86_64-gcc-11.1.0-precice-2.5.0-olpj6u2il4s4qw47kh6jztrivzvhwcxw.spack"}, {"hash": "il4ii6wolvic7srdcyuh7cvhu5ro566n", "compiler": "oneapi@=2022.1.0", "versions": ["2.5.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=cmake", "build_type=RelWithDebInfo", "~ipo", "+mpi", "+petsc", "~python", "+shared"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/precice-2.5.0/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-precice-2.5.0-il4ii6wolvic7srdcyuh7cvhu5ro566n.spack"}]
----

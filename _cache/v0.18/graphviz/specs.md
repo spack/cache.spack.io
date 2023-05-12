@@ -1,7 +1,0 @@
----
-title: "graphviz"
-layout: cache
-categories: [package, v0.18]
-meta: {"versions": ["2.49.0"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["radiuss"], "num_specs": 2, "num_specs_by_stack": {"radiuss": 2}}
-spec_details: [{"hash": "x5bvc5pfam6gl7prpjmqqyecjynvhiwl", "compiler": "gcc@=7.5.0", "versions": ["2.49.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~doc", "~expat", "~ghostscript", "~gtkplus", "~gts", "~java", "~libgd", "~pangocairo", "~poppler", "~qt", "~quartz", "~x"], "stacks": ["radiuss"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/graphviz-2.49.0/linux-ubuntu18.04-x86_64-gcc-7.5.0-graphviz-2.49.0-x5bvc5pfam6gl7prpjmqqyecjynvhiwl.spack"}, {"hash": "54gvach4pahn57zduwopjy4hhq4v4mhq", "compiler": "gcc@=7.5.0", "versions": ["2.49.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~doc", "~expat", "~ghostscript", "~gtkplus", "~gts", "~java", "~libgd", "~pangocairo", "~poppler", "~qt", "~quartz", "~x"], "stacks": ["radiuss"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/graphviz-2.49.0/linux-ubuntu18.04-x86_64-gcc-7.5.0-graphviz-2.49.0-54gvach4pahn57zduwopjy4hhq4v4mhq.spack"}]
----

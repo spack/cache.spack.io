@@ -1,7 +1,0 @@
----
-title: "py-torch-cluster"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["1.5.8"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-cpu", "ml-cuda"], "num_specs": 2, "num_specs_by_stack": {"ml-cuda": 1, "ml-cpu": 1}}
-spec_details: [{"hash": "wy6gxb5yp3egdnorhrnsmiywrh7dsqmq", "compiler": "gcc@=7.3.1", "versions": ["1.5.8"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "+cuda"], "stacks": ["ml-cuda"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/py-torch-cluster-1.5.8/linux-amzn2-x86_64_v3-gcc-7.3.1-py-torch-cluster-1.5.8-wy6gxb5yp3egdnorhrnsmiywrh7dsqmq.spack"}, {"hash": "eho2mk7vtj5utwmuunps2bflko5ov4cw", "compiler": "gcc@=7.3.1", "versions": ["1.5.8"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~cuda"], "stacks": ["ml-cpu"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/py-torch-cluster-1.5.8/linux-amzn2-x86_64_v3-gcc-7.3.1-py-torch-cluster-1.5.8-eho2mk7vtj5utwmuunps2bflko5ov4cw.spack"}]
----

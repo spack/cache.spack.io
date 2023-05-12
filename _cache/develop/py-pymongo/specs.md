@@ -1,7 +1,0 @@
----
-title: "py-pymongo"
-layout: cache
-categories: [package, develop]
-meta: {"versions": ["3.12.1"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "e4s": 1}}
-spec_details: [{"hash": "smzohm7wehskwqofotqj2m2bzwvknmyh", "compiler": "gcc@=11.1.0", "versions": ["3.12.1"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=python_pip"], "stacks": ["e4s-power"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/py-pymongo-3.12.1/linux-ubuntu20.04-ppc64le-gcc-11.1.0-py-pymongo-3.12.1-smzohm7wehskwqofotqj2m2bzwvknmyh.spack"}, {"hash": "45el4udyrnn4tcly5osgodd6j4wjkmpr", "compiler": "gcc@=11.1.0", "versions": ["3.12.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-pymongo-3.12.1/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-pymongo-3.12.1-45el4udyrnn4tcly5osgodd6j4wjkmpr.spack"}]
----

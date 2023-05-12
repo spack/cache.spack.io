@@ -1,7 +1,0 @@
----
-title: "pumi"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["2.2.7"], "compilers": ["gcc@=11.1.0", "oneapi@=2022.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "ip6hzdwno4j5rck2vxxbd4tgrchi2k4c", "compiler": "gcc@=11.1.0", "versions": ["2.2.7"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=cmake", "build_type=RelWithDebInfo", "~fortran", "~int64", "~ipo", "~shared", "simmodsuite=none", "+simmodsuite_version_check", "~testing", "~zoltan"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/pumi-2.2.7/linux-ubuntu20.04-x86_64-gcc-11.1.0-pumi-2.2.7-ip6hzdwno4j5rck2vxxbd4tgrchi2k4c.spack"}, {"hash": "fjqrh4qsrn5pm757xwkwxox2sajy4rxc", "compiler": "oneapi@=2022.1.0", "versions": ["2.2.7"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=cmake", "build_type=RelWithDebInfo", "~fortran", "~int64", "~ipo", "~shared", "simmodsuite=none", "+simmodsuite_version_check", "~testing", "~zoltan"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/pumi-2.2.7/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-pumi-2.2.7-fjqrh4qsrn5pm757xwkwxox2sajy4rxc.spack"}]
----

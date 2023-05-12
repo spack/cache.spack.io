@@ -1,7 +1,0 @@
----
-title: "otf2"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["2.3"], "compilers": ["gcc@=11.1.0", "oneapi@=2022.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "e3gh2oahgvwk55ti6kfa2n4tilyitjoy", "compiler": "gcc@=11.1.0", "versions": ["2.3"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=autotools", "patches=7e56d93"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/otf2-2.3/linux-ubuntu20.04-x86_64-gcc-11.1.0-otf2-2.3-e3gh2oahgvwk55ti6kfa2n4tilyitjoy.spack"}, {"hash": "w5ctx26ydlwtekkff5q4cao2nce6gpw2", "compiler": "oneapi@=2022.1.0", "versions": ["2.3"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=autotools", "patches=7e56d93"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/otf2-2.3/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-otf2-2.3-w5ctx26ydlwtekkff5q4cao2nce6gpw2.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "cub"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["1.16.0"], "compilers": ["gcc@=11.1.0", "gcc@=7.3.1"], "oss": ["amzn2", "ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64", "x86_64_v3"], "stacks": ["aws-isc", "e4s", "radiuss-aws"], "num_specs": 2, "num_specs_by_stack": {"radiuss-aws": 1, "aws-isc": 1, "e4s": 1}}
-spec_details: [{"hash": "g2pqqtddrcv3dchvegtvofsalrincykt", "compiler": "gcc@=7.3.1", "versions": ["1.16.0"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["radiuss-aws", "aws-isc"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/cub-1.16.0/linux-amzn2-x86_64_v3-gcc-7.3.1-cub-1.16.0-g2pqqtddrcv3dchvegtvofsalrincykt.spack"}, {"hash": "mvcn2opy7dxa4cgqj2j4cvtsnc72awtk", "compiler": "gcc@=11.1.0", "versions": ["1.16.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=generic"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/cub-1.16.0/linux-ubuntu20.04-x86_64-gcc-11.1.0-cub-1.16.0-mvcn2opy7dxa4cgqj2j4cvtsnc72awtk.spack"}]
----

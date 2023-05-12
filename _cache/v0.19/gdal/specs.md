@@ -1,7 +1,0 @@
----
-title: "gdal"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["3.5.3"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-cpu", "ml-cuda"], "num_specs": 1, "num_specs_by_stack": {"ml-cpu": 1, "ml-cuda": 1}}
-spec_details: [{"hash": "qfojrqj3rxeybvzagthvgu3dpjz7mjoo", "compiler": "gcc@=7.3.1", "versions": ["3.5.3"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["~armadillo", "~arrow", "~blosc", "+brunsli", "build_system=cmake", "build_type=RelWithDebInfo", "~cfitsio", "~crnlib", "~cryptopp", "~csharp", "~curl", "~deflate", "~ecw", "+expat", "~filegdb", "~freexl", "~fyba", "+geos", "~gif", "~gta", "~hdf4", "~hdf5", "~hdfs", "~heif", "~iconv", "~idb", "~ipo", "~java", "+jpeg", "~jxl", "~kdu", "~kea", "+lerc", "~libcsf", "~libkml", "~liblzma", "~libxml2", "~luratech", "~lz4", "~mongocxx", "~mrsid", "~mssql_ncli", "~mssql_odbc", "~mysql", "~netcdf", "~odbc", "~odbccpp", "~ogdi", "~opencad", "~opencl", "~openexr", "~openjpeg", "~openssl", "~oracle", "~parquet", "~pcidsk", "~pcre", "~pdfium", "+png", "~podofo", "~poppler", "~postgresql", "~python", "+qhull", "~rasdaman", "~rasterlite2", "~rdb", "~sfcgal", "~spatialite", "+sqlite3", "~teigha", "~tiledb", "~webp", "~xercesc", "~zstd"], "stacks": ["ml-cpu", "ml-cuda"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/gdal-3.5.3/linux-amzn2-x86_64_v3-gcc-7.3.1-gdal-3.5.3-qfojrqj3rxeybvzagthvgu3dpjz7mjoo.spack"}]
----

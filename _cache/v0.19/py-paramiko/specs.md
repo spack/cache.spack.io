@@ -1,7 +1,0 @@
----
-title: "py-paramiko"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["2.7.1"], "compilers": ["gcc@=11.1.0", "oneapi@=2022.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "6irnajpifeu3zxq5t4nbk26oklsvdbcn", "compiler": "gcc@=11.1.0", "versions": ["2.7.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=python_pip", "~invoke"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/py-paramiko-2.7.1/linux-ubuntu20.04-x86_64-gcc-11.1.0-py-paramiko-2.7.1-6irnajpifeu3zxq5t4nbk26oklsvdbcn.spack"}, {"hash": "x4s25ci7s6tj43b6zwclbauii2yngotz", "compiler": "oneapi@=2022.1.0", "versions": ["2.7.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=python_pip", "~invoke"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-paramiko-2.7.1/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-py-paramiko-2.7.1-x4s25ci7s6tj43b6zwclbauii2yngotz.spack"}]
----

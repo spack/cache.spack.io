@@ -1,7 +1,0 @@
----
-title: "py-httptools"
-layout: cache
-categories: [package, develop]
-meta: {"versions": ["0.5.0"], "compilers": ["gcc@=11.3.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cpu": 2, "ml-linux-x86_64-cuda": 2}}
-spec_details: [{"hash": "f4dab57go43fv2v7w3gfsxs76qu3zg7n", "compiler": "gcc@=11.3.0", "versions": ["0.5.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-httptools-0.5.0/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-httptools-0.5.0-f4dab57go43fv2v7w3gfsxs76qu3zg7n.spack"}, {"hash": "v6vojwu5fcmfzxr525xdon6jtg2hpt66", "compiler": "gcc@=11.3.0", "versions": ["0.5.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-httptools-0.5.0/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-httptools-0.5.0-v6vojwu5fcmfzxr525xdon6jtg2hpt66.spack"}]
----

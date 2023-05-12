@@ -1,7 +1,0 @@
----
-title: "uncrustify"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["0.63", "0.74"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["build_systems"], "num_specs": 2, "num_specs_by_stack": {"build_systems": 2}}
-spec_details: [{"hash": "2rwwfnqbgmhr3inbjcwligblzekjvf2j", "compiler": "gcc@=7.5.0", "versions": ["0.63"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=autotools"], "stacks": ["build_systems"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/uncrustify-0.63/linux-ubuntu18.04-x86_64-gcc-7.5.0-uncrustify-0.63-2rwwfnqbgmhr3inbjcwligblzekjvf2j.spack"}, {"hash": "ovhndoccesoaxull2s5t5zaqbzhpziqb", "compiler": "gcc@=7.5.0", "versions": ["0.74"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=cmake", "build_type=RelWithDebInfo", "~ipo"], "stacks": ["build_systems"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/uncrustify-0.74/linux-ubuntu18.04-x86_64-gcc-7.5.0-uncrustify-0.74-ovhndoccesoaxull2s5t5zaqbzhpziqb.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "oniguruma"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["6.9.4"], "compilers": ["gcc@=11.1.0", "oneapi@=2022.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "uur2sg7dsfaazt33vrfuhwv5oyaynor6", "compiler": "gcc@=11.1.0", "versions": ["6.9.4"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=autotools"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/oniguruma-6.9.4/linux-ubuntu20.04-x86_64-gcc-11.1.0-oniguruma-6.9.4-uur2sg7dsfaazt33vrfuhwv5oyaynor6.spack"}, {"hash": "yv6w44m2epazl6mefkobhcz5bgdxpmln", "compiler": "oneapi@=2022.1.0", "versions": ["6.9.4"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=autotools"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/oniguruma-6.9.4/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-oniguruma-6.9.4-yv6w44m2epazl6mefkobhcz5bgdxpmln.spack"}]
----

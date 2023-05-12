@@ -1,7 +1,0 @@
----
-title: "py-h11"
-layout: cache
-categories: [package, develop]
-meta: {"versions": ["0.13.0"], "compilers": ["gcc@=11.3.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cpu": 2, "ml-linux-x86_64-cuda": 2}}
-spec_details: [{"hash": "u6oiumpb5gwx7ye2xyp2namewypztqf7", "compiler": "gcc@=11.3.0", "versions": ["0.13.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-h11-0.13.0/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-h11-0.13.0-u6oiumpb5gwx7ye2xyp2namewypztqf7.spack"}, {"hash": "6vq37wademng5i6zly276qsvb3f6c5d5", "compiler": "gcc@=11.3.0", "versions": ["0.13.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-h11-0.13.0/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-h11-0.13.0-6vq37wademng5i6zly276qsvb3f6c5d5.spack"}]
----

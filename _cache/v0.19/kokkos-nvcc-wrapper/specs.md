@@ -1,7 +1,0 @@
----
-title: "kokkos-nvcc-wrapper"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["3.2.00"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s"], "num_specs": 2, "num_specs_by_stack": {"e4s": 2}}
-spec_details: [{"hash": "kqvkjvk5uzlr5rywobwl77hayzjwveur", "compiler": "gcc@=11.1.0", "versions": ["3.2.00"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=generic", "+mpi"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/kokkos-nvcc-wrapper-3.2.00/linux-ubuntu20.04-x86_64-gcc-11.1.0-kokkos-nvcc-wrapper-3.2.00-kqvkjvk5uzlr5rywobwl77hayzjwveur.spack"}, {"hash": "e2f3k7fx2qqdswh3ji6kta22rdicadix", "compiler": "gcc@=11.1.0", "versions": ["3.2.00"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=generic", "+mpi"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/kokkos-nvcc-wrapper-3.2.00/linux-ubuntu20.04-x86_64-gcc-11.1.0-kokkos-nvcc-wrapper-3.2.00-e2f3k7fx2qqdswh3ji6kta22rdicadix.spack"}]
----

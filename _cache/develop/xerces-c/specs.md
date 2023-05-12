@@ -1,7 +1,0 @@
----
-title: "xerces-c"
-layout: cache
-categories: [package, develop]
-meta: {"versions": ["3.2.3"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "e4s": 1}}
-spec_details: [{"hash": "plpdil2ohfmhav6kjpcspdcjytrvzch3", "compiler": "gcc@=11.1.0", "versions": ["3.2.3"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=autotools", "cxxstd=default", "netaccessor=curl", "transcoder=iconv"], "stacks": ["e4s-power"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/xerces-c-3.2.3/linux-ubuntu20.04-ppc64le-gcc-11.1.0-xerces-c-3.2.3-plpdil2ohfmhav6kjpcspdcjytrvzch3.spack"}, {"hash": "crzl75rxicd522kl34md65nxoaqsdfhp", "compiler": "gcc@=11.1.0", "versions": ["3.2.3"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "cxxstd=default", "netaccessor=curl", "transcoder=iconv"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/xerces-c-3.2.3/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-xerces-c-3.2.3-crzl75rxicd522kl34md65nxoaqsdfhp.spack"}]
----

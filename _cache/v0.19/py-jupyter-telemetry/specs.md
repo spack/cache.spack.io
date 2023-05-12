@@ -1,7 +1,0 @@
----
-title: "py-jupyter-telemetry"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["0.1.0"], "compilers": ["gcc@=11.1.0", "oneapi@=2022.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "kfn5sz4fw4par6poobmx6g7dt5gy2khv", "compiler": "gcc@=11.1.0", "versions": ["0.1.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=python_pip"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/py-jupyter-telemetry-0.1.0/linux-ubuntu20.04-x86_64-gcc-11.1.0-py-jupyter-telemetry-0.1.0-kfn5sz4fw4par6poobmx6g7dt5gy2khv.spack"}, {"hash": "2l6um5lpmm2ncj7e6zylww6qvro2kwhz", "compiler": "oneapi@=2022.1.0", "versions": ["0.1.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=python_pip"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-jupyter-telemetry-0.1.0/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-py-jupyter-telemetry-0.1.0-2l6um5lpmm2ncj7e6zylww6qvro2kwhz.spack"}]
----

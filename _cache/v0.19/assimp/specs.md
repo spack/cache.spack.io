@@ -1,7 +1,0 @@
----
-title: "assimp"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["5.2.4"], "compilers": ["gcc@=11.1.0", "gcc@=7.5.0"], "oss": ["ubuntu18.04", "ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "e4s"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1}}
-spec_details: [{"hash": "yjydnqvsgz5gt2z75jz4ysq33gtocluh", "compiler": "gcc@=7.5.0", "versions": ["5.2.4"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=cmake", "build_type=RelWithDebInfo", "~ipo", "+shared"], "stacks": ["data-vis-sdk"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/assimp-5.2.4/linux-ubuntu18.04-x86_64-gcc-7.5.0-assimp-5.2.4-yjydnqvsgz5gt2z75jz4ysq33gtocluh.spack"}, {"hash": "catlnqphjrmlcsopswohzw5i262peish", "compiler": "gcc@=11.1.0", "versions": ["5.2.4"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=cmake", "build_type=RelWithDebInfo", "~ipo", "+shared"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/assimp-5.2.4/linux-ubuntu20.04-x86_64-gcc-11.1.0-assimp-5.2.4-catlnqphjrmlcsopswohzw5i262peish.spack"}]
----
