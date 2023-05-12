@@ -202,12 +202,12 @@ def load_spack_db(name, url):
     db = spack.database.Database(None, entry_db)
 
     # Organize specs by package
-    specs = {}
+    specs = defaultdict(list)
 
     # keep lookup of specs
     with db.read_transaction():
-        for record in db._data.values():
-            specs.setdefault(record.spec.name, []).append(record.spec)
+        for spec in db.query_local(installed=False, in_buildcache=True):
+            specs[spec.name].append(spec)
     return index, specs
 
 
