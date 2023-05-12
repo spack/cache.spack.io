@@ -2,9 +2,6 @@
 title: "xerces-c"
 layout: cache
 categories: [package, v0.18]
-meta: {"versions": ["3.2.3"], "compilers": ["gcc@7.5.0"]}
-spec_files: 
- - spec-0.json
-spec_names:
- - 'xerces-c@3.2.3%gcc@7.5.0 cxxstd=default netaccessor=curl transcoder=iconv arch=linux-ubuntu18.04-x86_64 ^berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu18.04-x86_64 ^bzip2@1.0.8%gcc@7.5.0~debug~pic+shared arch=linux-ubuntu18.04-x86_64 ^curl@7.83.0%gcc@7.5.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu18.04-x86_64 ^diffutils@3.8%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^gdbm@1.19%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.5.0 libs=shared,static arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64 ^openssl@1.1.1o%gcc@7.5.0~docs~shared certs=system arch=linux-ubuntu18.04-x86_64 ^perl@5.34.1%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^pkgconf@1.8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.12%gcc@7.5.0+optimize+pic+shared patches=0d38234 arch=linux-ubuntu18.04-x86_64'
+meta: {"versions": ["3.2.3"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s"], "num_specs": 1, "num_specs_by_stack": {"e4s": 1}}
+spec_details: [{"hash": "qngf46k6iueywdzcrynhnnu33h3rtzpn", "compiler": "gcc@=7.5.0", "versions": ["3.2.3"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["cxxstd=default", "netaccessor=curl", "transcoder=iconv"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/xerces-c-3.2.3/linux-ubuntu18.04-x86_64-gcc-7.5.0-xerces-c-3.2.3-qngf46k6iueywdzcrynhnnu33h3rtzpn.spack"}]
 ---

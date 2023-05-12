@@ -2,9 +2,6 @@
 title: "libfontenc"
 layout: cache
 categories: [package, v0.18]
-meta: {"versions": ["1.1.3"], "compilers": ["gcc@7.5.0"]}
-spec_files: 
- - spec-0.json
-spec_names:
- - 'libfontenc@1.1.3%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^pkgconf@1.8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^util-macros@1.19.3%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^xproto@7.0.31%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.12%gcc@7.5.0+optimize+pic+shared patches=0d38234 arch=linux-ubuntu18.04-x86_64'
+meta: {"versions": ["1.1.3"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk"], "num_specs": 1, "num_specs_by_stack": {"data-vis-sdk": 1}}
+spec_details: [{"hash": "xeqzwdeuhvkivjxd4fx37bgzakrtk7cq", "compiler": "gcc@=7.5.0", "versions": ["1.1.3"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["data-vis-sdk"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/libfontenc-1.1.3/linux-ubuntu18.04-x86_64-gcc-7.5.0-libfontenc-1.1.3-xeqzwdeuhvkivjxd4fx37bgzakrtk7cq.spack"}]
 ---

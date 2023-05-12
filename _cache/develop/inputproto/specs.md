@@ -2,9 +2,6 @@
 title: "inputproto"
 layout: cache
 categories: [package, develop]
-meta: {"versions": ["2.3.2"], "compilers": ["gcc@7.5.0"]}
-spec_files: 
- - spec-0.json
-spec_names:
- - 'inputproto@2.3.2%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^pkgconf@1.8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^util-macros@1.19.3%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64'
+meta: {"versions": ["2.3.2"], "compilers": ["gcc@=11.1.0", "gcc@=11.3.0", "gcc@=7.3.1"], "oss": ["amzn2", "ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["aws-isc", "data-vis-sdk", "e4s", "gpu-tests", "ml-linux-x86_64-rocm"], "num_specs": 3, "num_specs_by_stack": {"aws-isc": 1, "ml-linux-x86_64-rocm": 2, "e4s": 1, "gpu-tests": 1, "data-vis-sdk": 1}}
+spec_details: [{"hash": "edqlgj44id3w2umpgnuqmfdevubikfr6", "compiler": "gcc@=7.3.1", "versions": ["2.3.2"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["aws-isc", "ml-linux-x86_64-rocm"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/inputproto-2.3.2/linux-amzn2-x86_64_v3-gcc-7.3.1-inputproto-2.3.2-edqlgj44id3w2umpgnuqmfdevubikfr6.spack"}, {"hash": "iysmooha5tai3zgtygyeqdugmylv4aht", "compiler": "gcc@=11.1.0", "versions": ["2.3.2"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["e4s", "gpu-tests", "data-vis-sdk"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/inputproto-2.3.2/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-inputproto-2.3.2-iysmooha5tai3zgtygyeqdugmylv4aht.spack"}, {"hash": "7xay64ebvuwjhm43ev2fgukuryycd7ky", "compiler": "gcc@=11.3.0", "versions": ["2.3.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["ml-linux-x86_64-rocm"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/inputproto-2.3.2/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-inputproto-2.3.2-7xay64ebvuwjhm43ev2fgukuryycd7ky.spack"}]
 ---

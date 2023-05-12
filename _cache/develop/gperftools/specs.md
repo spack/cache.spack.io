@@ -2,9 +2,6 @@
 title: "gperftools"
 layout: cache
 categories: [package, develop]
-meta: {"versions": ["2.9.1"], "compilers": ["gcc@7.5.0"]}
-spec_files: 
- - spec-0.json
-spec_names:
- - 'gperftools@2.9.1%gcc@7.5.0+debugalloc~dynamic_sized_delete_support+libunwind~sized_delete arch=linux-ubuntu18.04-x86_64 ^libunwind@1.6.2%gcc@7.5.0~block_signals~conservative_checks~cxx_exceptions~debug~debug_frame+docs+pic+tests+weak_backtrace+xz~zlib components=none libs=shared,static arch=linux-ubuntu18.04-x86_64 ^xz@5.2.5%gcc@7.5.0+pic libs=shared,static arch=linux-ubuntu18.04-x86_64'
+meta: {"versions": ["2.10"], "compilers": ["gcc@=11.1.0", "gcc@=7.3.1"], "oss": ["amzn2", "ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power"], "num_specs": 3, "num_specs_by_stack": {"e4s-power": 1, "e4s": 1}}
+spec_details: [{"hash": "46vg3ochuq7gas6hqpdzmec5vkxnfezl", "compiler": "gcc@=7.3.1", "versions": ["2.10"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["+debugalloc", "~dynamic_sized_delete_support", "+libunwind", "~sized_delete"], "stacks": [], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/gperftools-2.10/linux-amzn2-x86_64_v3-gcc-7.3.1-gperftools-2.10-46vg3ochuq7gas6hqpdzmec5vkxnfezl.spack"}, {"hash": "iyzfxwhrsd2fru2cuynr4lgwi24a7lzc", "compiler": "gcc@=11.1.0", "versions": ["2.10"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=autotools", "+debugalloc", "~dynamic_sized_delete_support", "+libunwind", "~sized_delete"], "stacks": ["e4s-power"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/gperftools-2.10/linux-ubuntu20.04-ppc64le-gcc-11.1.0-gperftools-2.10-iyzfxwhrsd2fru2cuynr4lgwi24a7lzc.spack"}, {"hash": "jaqjzvwftkxlcujg3yfz2tecta4cawhz", "compiler": "gcc@=11.1.0", "versions": ["2.10"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "+debugalloc", "~dynamic_sized_delete_support", "+libunwind", "~sized_delete"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/gperftools-2.10/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-gperftools-2.10-jaqjzvwftkxlcujg3yfz2tecta4cawhz.spack"}]
 ---

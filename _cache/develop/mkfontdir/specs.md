@@ -2,9 +2,6 @@
 title: "mkfontdir"
 layout: cache
 categories: [package, develop]
-meta: {"versions": ["1.0.7"], "compilers": ["gcc@7.5.0"]}
-spec_files: 
- - spec-0.json
-spec_names:
- - 'mkfontdir@1.0.7%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^bzip2@1.0.8%gcc@7.5.0~debug~pic+shared arch=linux-ubuntu18.04-x86_64 ^diffutils@3.8%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^freetype@2.10.2%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libfontenc@1.1.3%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.5.0 libs=shared,static arch=linux-ubuntu18.04-x86_64 ^libpng@1.6.37%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^mkfontscale@1.1.2%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^pkgconf@1.8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^util-macros@1.19.3%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^xproto@7.0.31%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.12%gcc@7.5.0+optimize+pic+shared patches=0d38234 arch=linux-ubuntu18.04-x86_64'
+meta: {"versions": ["1.0.7"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 2}}
+spec_details: [{"hash": "a35kva6iolnptnutnzwi6emvz2b77kdh", "compiler": "gcc@=11.1.0", "versions": ["1.0.7"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["data-vis-sdk"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/mkfontdir-1.0.7/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-mkfontdir-1.0.7-a35kva6iolnptnutnzwi6emvz2b77kdh.spack"}, {"hash": "pd3dtyaf73cl26ucgsguurcocutafalj", "compiler": "gcc@=11.1.0", "versions": ["1.0.7"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["data-vis-sdk"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/mkfontdir-1.0.7/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-mkfontdir-1.0.7-pd3dtyaf73cl26ucgsguurcocutafalj.spack"}]
 ---

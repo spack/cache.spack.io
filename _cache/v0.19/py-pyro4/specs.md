@@ -1,0 +1,7 @@
+---
+title: "py-pyro4"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["4.81"], "compilers": ["gcc@=11.1.0", "oneapi@=2022.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1}}
+spec_details: [{"hash": "fugbt27rd77yugk4xfksxtiu6jq4mdba", "compiler": "gcc@=11.1.0", "versions": ["4.81"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=python_pip"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/py-pyro4-4.81/linux-ubuntu20.04-x86_64-gcc-11.1.0-py-pyro4-4.81-fugbt27rd77yugk4xfksxtiu6jq4mdba.spack"}, {"hash": "d5wvlzr5ykptwer2vcs5r2iiouoijdlh", "compiler": "oneapi@=2022.1.0", "versions": ["4.81"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=python_pip"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pyro4-4.81/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-py-pyro4-4.81-d5wvlzr5ykptwer2vcs5r2iiouoijdlh.spack"}]
+---

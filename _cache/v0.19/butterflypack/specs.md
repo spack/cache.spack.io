@@ -1,0 +1,7 @@
+---
+title: "butterflypack"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["2.2.2"], "compilers": ["gcc@=11.1.0", "oneapi@=2022.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1}}
+spec_details: [{"hash": "ox3p2g4wwhat5tdht42uklusawdcodbo", "compiler": "gcc@=11.1.0", "versions": ["2.2.2"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=cmake", "build_type=RelWithDebInfo", "~ipo", "+openmp", "+shared"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/butterflypack-2.2.2/linux-ubuntu20.04-x86_64-gcc-11.1.0-butterflypack-2.2.2-ox3p2g4wwhat5tdht42uklusawdcodbo.spack"}, {"hash": "pd35v5tc5uvruwfzrjqkpu4zq6pttlt3", "compiler": "oneapi@=2022.1.0", "versions": ["2.2.2"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=cmake", "build_type=RelWithDebInfo", "~ipo", "+openmp", "+shared"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/butterflypack-2.2.2/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-butterflypack-2.2.2-pd35v5tc5uvruwfzrjqkpu4zq6pttlt3.spack"}]
+---

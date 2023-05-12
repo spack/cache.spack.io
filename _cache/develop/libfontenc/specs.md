@@ -2,9 +2,6 @@
 title: "libfontenc"
 layout: cache
 categories: [package, develop]
-meta: {"versions": ["1.1.3"], "compilers": ["gcc@7.5.0"]}
-spec_files: 
- - spec-0.json
-spec_names:
- - 'libfontenc@1.1.3%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^pkgconf@1.8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^util-macros@1.19.3%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^xproto@7.0.31%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.12%gcc@7.5.0+optimize+pic+shared patches=0d38234 arch=linux-ubuntu18.04-x86_64'
+meta: {"versions": ["1.1.7"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk"], "num_specs": 1, "num_specs_by_stack": {"data-vis-sdk": 1}}
+spec_details: [{"hash": "afuo3ftraepn32oea2f2opl4bhyliyax", "compiler": "gcc@=11.1.0", "versions": ["1.1.7"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["data-vis-sdk"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/libfontenc-1.1.7/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-libfontenc-1.1.7-afuo3ftraepn32oea2f2opl4bhyliyax.spack"}]
 ---

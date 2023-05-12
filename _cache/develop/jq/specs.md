@@ -2,9 +2,6 @@
 title: "jq"
 layout: cache
 categories: [package, develop]
-meta: {"versions": ["1.6"], "compilers": ["gcc@7.5.0"]}
-spec_files: 
- - spec-0.json
-spec_names:
- - 'jq@1.6%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu18.04-x86_64 ^bison@3.8.2%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^bzip2@1.0.8%gcc@7.5.0~debug~pic+shared arch=linux-ubuntu18.04-x86_64 ^diffutils@3.8%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^gdbm@1.19%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.5.0 libs=shared,static arch=linux-ubuntu18.04-x86_64 ^libsigsegv@2.13%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^m4@1.4.19%gcc@7.5.0+sigsegv patches=9dc5fbd,bfdffa7 arch=linux-ubuntu18.04-x86_64 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64 ^oniguruma@6.9.4%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^perl@5.34.1%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64 ^pkgconf@1.8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.12%gcc@7.5.0+optimize+pic+shared patches=0d38234 arch=linux-ubuntu18.04-x86_64'
+meta: {"versions": ["1.6"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "e4s": 1}}
+spec_details: [{"hash": "ipbepnzzjfyyuqtxv4trwv2jskgfyhuj", "compiler": "gcc@=11.1.0", "versions": ["1.6"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=autotools"], "stacks": ["e4s-power"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/jq-1.6/linux-ubuntu20.04-ppc64le-gcc-11.1.0-jq-1.6-ipbepnzzjfyyuqtxv4trwv2jskgfyhuj.spack"}, {"hash": "f5mtxujjhtzyawjcrap4fjitpt5x63og", "compiler": "gcc@=11.1.0", "versions": ["1.6"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/jq-1.6/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-jq-1.6-f5mtxujjhtzyawjcrap4fjitpt5x63og.spack"}]
 ---

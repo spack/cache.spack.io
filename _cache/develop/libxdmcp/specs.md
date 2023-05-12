@@ -2,9 +2,6 @@
 title: "libxdmcp"
 layout: cache
 categories: [package, develop]
-meta: {"versions": ["1.1.2"], "compilers": ["gcc@7.5.0"]}
-spec_files: 
- - spec-0.json
-spec_names:
- - 'libxdmcp@1.1.2%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libbsd@0.11.5%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libmd@1.0.4%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^pkgconf@1.8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^util-macros@1.19.3%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^xproto@7.0.31%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64'
+meta: {"versions": ["1.1.4"], "compilers": ["gcc@=11.1.0", "gcc@=11.3.0", "gcc@=7.3.1"], "oss": ["amzn2", "ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["aws-isc", "data-vis-sdk", "e4s", "gpu-tests", "ml-linux-x86_64-rocm"], "num_specs": 3, "num_specs_by_stack": {"aws-isc": 1, "ml-linux-x86_64-rocm": 2, "e4s": 1, "gpu-tests": 1, "data-vis-sdk": 1}}
+spec_details: [{"hash": "e4ttv4zc5bv4pwdbyfo7l656ovqsnso5", "compiler": "gcc@=7.3.1", "versions": ["1.1.4"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["aws-isc", "ml-linux-x86_64-rocm"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/libxdmcp-1.1.4/linux-amzn2-x86_64_v3-gcc-7.3.1-libxdmcp-1.1.4-e4ttv4zc5bv4pwdbyfo7l656ovqsnso5.spack"}, {"hash": "35qz7u4ysbxcx5ymtmczd2ub6xkfmdbu", "compiler": "gcc@=11.1.0", "versions": ["1.1.4"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["e4s", "gpu-tests", "data-vis-sdk"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/libxdmcp-1.1.4/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-libxdmcp-1.1.4-35qz7u4ysbxcx5ymtmczd2ub6xkfmdbu.spack"}, {"hash": "2bznyhvjvcdgzyu76ckhpe5mt5a2sjtd", "compiler": "gcc@=11.3.0", "versions": ["1.1.4"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["ml-linux-x86_64-rocm"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/libxdmcp-1.1.4/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-libxdmcp-1.1.4-2bznyhvjvcdgzyu76ckhpe5mt5a2sjtd.spack"}]
 ---

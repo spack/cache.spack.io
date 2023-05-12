@@ -2,9 +2,6 @@
 title: "libidn2"
 layout: cache
 categories: [package, develop]
-meta: {"versions": ["2.3.0"], "compilers": ["gcc@7.5.0"]}
-spec_files: 
- - spec-0.json
-spec_names:
- - 'libidn2@2.3.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libiconv@1.16%gcc@7.5.0 libs=shared,static arch=linux-ubuntu18.04-x86_64 ^libunistring@0.9.10%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64'
+meta: {"versions": ["2.3.4"], "compilers": ["gcc@=11.1.0", "gcc@=7.5.0"], "oss": ["ubuntu18.04", "ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["build_systems", "e4s"], "num_specs": 2, "num_specs_by_stack": {"build_systems": 1, "e4s": 1}}
+spec_details: [{"hash": "rkt7i36kxhr5wekl7nrhp2bcovjputci", "compiler": "gcc@=7.5.0", "versions": ["2.3.4"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["build_systems"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/libidn2-2.3.4/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-libidn2-2.3.4-rkt7i36kxhr5wekl7nrhp2bcovjputci.spack"}, {"hash": "uj6rhzfuri2vqfzc62ck6oxwm43wrstr", "compiler": "gcc@=11.1.0", "versions": ["2.3.4"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/libidn2-2.3.4/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-libidn2-2.3.4-uj6rhzfuri2vqfzc62ck6oxwm43wrstr.spack"}]
 ---

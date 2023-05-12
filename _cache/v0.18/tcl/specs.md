@@ -2,13 +2,6 @@
 title: "tcl"
 layout: cache
 categories: [package, v0.18]
-meta: {"versions": ["8.6.12"], "compilers": ["clang@7.0.0", "gcc@7.5.0"]}
-spec_files: 
- - spec-0.json
- - spec-1.json
- - spec-2.json
-spec_names:
- - 'tcl@8.6.12%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.12%gcc@7.5.0+optimize+pic+shared patches=0d38234 arch=linux-ubuntu18.04-x86_64'
- - 'tcl@8.6.12%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.8%gcc@7.5.0 cppflags="-O3" +optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
- - 'tcl@8.6.12%clang@7.0.0 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.8%clang@7.0.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64'
+meta: {"versions": ["8.6.12"], "compilers": ["clang@=7.0.0", "gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "tutorial"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "tutorial": 3}}
+spec_details: [{"hash": "6m3sqvrf3udchwj2hgutj2ftnmyp544m", "compiler": "gcc@=7.5.0", "versions": ["8.6.12"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["e4s", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/tcl-8.6.12/linux-ubuntu18.04-x86_64-gcc-7.5.0-tcl-8.6.12-6m3sqvrf3udchwj2hgutj2ftnmyp544m.spack"}, {"hash": "zeszs45honfyebjf35oturm437m6a2qj", "compiler": "clang@=7.0.0", "versions": ["8.6.12"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["tutorial"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18/build_cache/linux-ubuntu18.04-x86_64/clang-7.0.0/tcl-8.6.12/linux-ubuntu18.04-x86_64-clang-7.0.0-tcl-8.6.12-zeszs45honfyebjf35oturm437m6a2qj.spack"}, {"hash": "rwnzcphwbxhbp4csrkr7huv6edmjehwm", "compiler": "gcc@=7.5.0", "versions": ["8.6.12"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["tutorial"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/tcl-8.6.12/linux-ubuntu18.04-x86_64-gcc-7.5.0-tcl-8.6.12-rwnzcphwbxhbp4csrkr7huv6edmjehwm.spack"}]
 ---

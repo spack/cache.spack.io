@@ -2,9 +2,6 @@
 title: "pixman"
 layout: cache
 categories: [package, develop]
-meta: {"versions": ["0.40.0"], "compilers": ["gcc@7.5.0"]}
-spec_files: 
- - spec-0.json
-spec_names:
- - 'pixman@0.40.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^libpng@1.6.37%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^pkgconf@1.8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64 ^zlib@1.2.12%gcc@7.5.0+optimize+pic+shared patches=0d38234 arch=linux-ubuntu18.04-x86_64'
+meta: {"versions": ["0.42.2"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 2}}
+spec_details: [{"hash": "gjrql4amvzbbmrurbkxmiyyclimtiq4y", "compiler": "gcc@=11.1.0", "versions": ["0.42.2"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["data-vis-sdk"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/pixman-0.42.2/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-pixman-0.42.2-gjrql4amvzbbmrurbkxmiyyclimtiq4y.spack"}, {"hash": "7olaqropr3eo5xxzbtylym7oeikqx3us", "compiler": "gcc@=11.1.0", "versions": ["0.42.2"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["data-vis-sdk"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/pixman-0.42.2/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-pixman-0.42.2-7olaqropr3eo5xxzbtylym7oeikqx3us.spack"}]
 ---

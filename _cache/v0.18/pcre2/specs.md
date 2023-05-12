@@ -2,9 +2,6 @@
 title: "pcre2"
 layout: cache
 categories: [package, v0.18]
-meta: {"versions": ["10.39"], "compilers": ["gcc@7.5.0"]}
-spec_files: 
- - spec-0.json
-spec_names:
- - 'pcre2@10.39%gcc@7.5.0~jit+multibyte arch=linux-ubuntu18.04-x86_64'
+meta: {"versions": ["10.39"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["build_systems", "data-vis-sdk", "e4s"], "num_specs": 1, "num_specs_by_stack": {"e4s": 1, "build_systems": 1, "data-vis-sdk": 1}}
+spec_details: [{"hash": "kc4m6sohvrzjewdi27te354j3lfow3td", "compiler": "gcc@=7.5.0", "versions": ["10.39"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~jit", "+multibyte"], "stacks": ["e4s", "build_systems", "data-vis-sdk"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/pcre2-10.39/linux-ubuntu18.04-x86_64-gcc-7.5.0-pcre2-10.39-kc4m6sohvrzjewdi27te354j3lfow3td.spack"}]
 ---
