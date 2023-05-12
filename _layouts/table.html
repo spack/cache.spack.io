@@ -80,39 +80,7 @@ function copyCode() {
   });
 } // end copy button
 
-$(document).ready(function(){
-
-$("#title").click(function(){
-    document.location = "{{ site.baseurl }}/"
-})
-$.getJSON( "{{ site.baseurl }}/api/data.json", function( data ) {
-
-
-{% if page.tag != "all" %}
-function filterTag(value) {
-  return value['tag'] == "{{ page.tag }}"
-}
-data = data.filter(filterTag)
-{% endif %}
-
-// add stack query string to url in every row of data
-const searchParams = new URLSearchParams(window.location.search);
-const stack = searchParams.get('stack') !== null && searchParams.get('stack') !== '' ? searchParams.get('stack') : false;
-data = data.map(function(el){
-     if (stack) {
-        el['rel'] = el['rel'] + "?stack=" + searchParams.get('stack')
-     }
-    return el;
-});
-
-// filter by stack
-if (stack) {
-  function filterStack(value) {
-    return value['stacks'].includes(stack);
-  }
-  data = data.filter(filterStack)
-}
-
+function setupDataTable(data, stack) {
 $('#software').DataTable( {
   "drawCallback": function () {
       $('.dataTables_filter').addClass('flex md:justify-end');
@@ -136,8 +104,8 @@ $('#software').DataTable( {
   columns: [
     { data: "uid",
       render: function ( data, type, row ) {
-          const numSpecs = stack ? row['num_specs_by_stack'][searchParams.get('stack')] : row['num_specs'];
-          return "<a href='" + row['rel'] + "'>" + data +"</a> (" + numSpecs + ")";
+          const numSpecs = stack ? row['num_specs_by_stack'][stack] : row['num_specs'];
+          return "<a href='{{ site.baseurl }}/" + row['rel'] + "'>" + data +"</a> (" + numSpecs + ")";
       },
       targets: 1,
     },
@@ -150,7 +118,7 @@ $('#software').DataTable( {
       orderable: false,
     },
     {data: 'versions',
-      render: function ( data, type, row ) { 
+      render: function ( data, type, row ) {
          var versions = ""
          if(data.length > 0) {
            $.each(data, function(i, e){
@@ -159,7 +127,7 @@ $('#software').DataTable( {
          }
          return versions
       },
-      targets: 0,    
+      targets: 0,
       orderable: false,
     },
     {data: "platforms",
@@ -216,9 +184,45 @@ $('#software').DataTable( {
     },
   ]
 });
+ }
+
+$(document).ready(function(){
+    $("#title").click(function(){
+        document.location = "{{ site.baseurl }}/"
+    });
+
+    fetch( "{{ site.baseurl }}/api/data.json").then(function( response ) {
+        response.json().then(function(data) {
+            {% if page.tag != "all" %}
+            function filterTag(value) {
+                return value['tag'] == "{{ page.tag }}"
+            }
+            data = data.filter(filterTag)
+            {% endif %}
+
+            // add stack query string to url in every row of data
+            const searchParams = new URLSearchParams(window.location.search);
+            const stack = searchParams.get('stack') !== null && searchParams.get('stack') !== '' ? searchParams.get('stack') : false;
+            data = data.map(function(el){
+                if (stack) {
+                    el['rel'] = el['rel'] + "?stack=" + searchParams.get('stack')
+                }
+                return el;
+            });
+
+            // filter by stack
+            if (stack) {
+                function filterStack(value) {
+                    return value['stacks'].includes(stack);
+                }
+                data = data.filter(filterStack)
+            }
+
+            setupDataTable(data, stack ? searchParams.get('stack') : null);
+        });
+    }).catch(console.error);
 });
 
-})
 </script>
 <script src='https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js'></script>
 <script src='https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.js'></script>
