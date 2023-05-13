@@ -2,6 +2,6 @@
 title: "geos"
 layout: cache
 categories: [package, v0.19]
-meta: {"versions": ["3.9.1"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-cpu", "ml-cuda"], "num_specs": 1, "num_specs_by_stack": {"ml-cuda": 1, "ml-cpu": 1}}
-spec_details: [{"hash": "kswc3aazsh3pjs2izm3ymb3ndqkksqsy", "compiler": "gcc@=7.3.1", "versions": ["3.9.1"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=RelWithDebInfo", "~ipo", "patches=ab78db7"], "stacks": ["ml-cuda", "ml-cpu"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/geos-3.9.1/linux-amzn2-x86_64_v3-gcc-7.3.1-geos-3.9.1-kswc3aazsh3pjs2izm3ymb3ndqkksqsy.spack"}]
+meta: {"versions": ["3.9.1"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-cpu", "ml-cuda"], "num_specs": 1, "num_specs_by_stack": {"ml-cpu": 1, "ml-cuda": 1}}
+spec_details: [{"hash": "kswc3aazsh3pjs2izm3ymb3ndqkksqsy", "compiler": "gcc@=7.3.1", "versions": ["3.9.1"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=RelWithDebInfo", "~ipo", "patches=ab78db7"], "stacks": ["ml-cpu", "ml-cuda"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/geos-3.9.1/linux-amzn2-x86_64_v3-gcc-7.3.1-geos-3.9.1-kswc3aazsh3pjs2izm3ymb3ndqkksqsy.spack"}]
 ---
