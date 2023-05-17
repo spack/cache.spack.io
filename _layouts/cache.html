@@ -83,7 +83,8 @@ $(document).ready(function() {
                 data: 'hash',
                 render: function(data, type, row) {
                     return '<span class="font-mono">' + data + '</span>';
-                }
+                },
+                className: 'hash',
             },
             {
                 data: 'versions',
@@ -105,44 +106,51 @@ $(document).ready(function() {
                     } else {
                         return content;
                     }
-                }
+                },
+                className: 'variants',
             },
             {
                 data: 'platform',
                 render: function(data, type, row) {
                     return '<button class="tag searchable-badge">' + data + '</button>';
-                }
+                },
+                className: 'platforms',
             },
             {
                 data: 'os',
                 render: function(data, type, row) {
                     return '<button class="tag searchable-badge">' + data + '</button>';
-                }
+                },
+                className: 'oss',
             },
             {
                 data: 'target',
                 render: function(data, type, row) {
                     return '<button class="tag searchable-badge">' + data + '</button>';
-                }
+                },
+                className: 'targets',
             },
             {
                 data: 'compiler',
                 render: function(data, type, row) {
                     return '<button class="tag searchable-badge">' + data + '</button>';
-                }
+                },
+                className: 'compilers',
             },
             {
                 data: 'size',
                 render: function(data, type, row) {
                     return '<span class="filesize">' + data + '</span>';
-                }
+                },
+                className: 'sizes',
             },
             {
                 data: 'tarball',
                 render: function(data, type, row) {
                     return '<div class="tooltip" data-tip="Download Tarball"><a href="' + data + '" class="btn btn-sm btn-circle btn-ghost"><i class="ri-file-zip-fill text-xl text-neutral"></i></a></div>';
 
-                }
+                },
+                className: 'tarball',
             }
         ],
         pageLength: 50,

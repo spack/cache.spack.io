@@ -10,8 +10,8 @@
     }
 
     /* style all links with these styles except for buttons and pagination items */
-    a:not(.btn, .nolink, .paginate_button, .paginate_button a) {
-        @apply link link-hover link-accent;
+    a:not(.btn, .nolink, .paginate_button, .paginate_button a, .custom-select-options a) {
+        @apply link link-hover link-primary;
     }
 
     p {
@@ -52,30 +52,64 @@
     }
 
     .searchable-badge {
-        @apply btn btn-xs normal-case mx-[1px] my-[3px];
+        @apply border-0 btn btn-xs bg-blue-50 text-primary normal-case mx-[2px] my-[2px];
+    }
+
+    .searchable-badge:hover {
+        @apply !bg-primary !text-primary-content;
     }
 
     .table.dataTable td {
+        @apply align-text-top;
+    }
+
+    .table.dataTable td.versions,
+    .table.dataTable td.variants,
+    .table.dataTable td.platforms,
+    .table.dataTable td.oss,
+    .table.dataTable td.targets,
+    .table.dataTable td.compilers {
         @apply whitespace-normal;
     }
 
+    .form-control {
+        @apply relative;
+    }
+
     .custom-select {
-        @apply select select-bordered items-center relative;
+        @apply select select-bordered items-center;
     }
 
-    .custom-select .options {
-        @apply absolute left-[-1px] pt-2 right-[-1px] top-full;
+    .custom-select-options {
+        @apply absolute hidden left-[-1px] pt-1 right-[-1px] shadow-lg text-sm top-full z-10;
     }
 
-    .custom-select .options ul {
-        @apply bg-base-100 border border-base-300 rounded;
+    .custom-select:focus + .custom-select-options {
+        @apply block;
     }
 
-    .custom-select .options ul li {
-        @apply border-b border-base-300 px-4 py-2;
+    .custom-select-options ul {
+        @apply bg-base-100 border border-base-300 max-h-[300px] overflow-y-auto rounded;
     }
 
-    .custom-select .options ul li:last-of-type {
+    .custom-select-options ul li {
+        @apply border-b border-base-300 font-normal;
+    }
+
+    .custom-select-options ul li.selected {
+        @apply px-4 py-3 text-gray-400;
+    }
+
+    .custom-select-options ul li a {
+        @apply bg-transparent block cursor-pointer duration-150 px-4 py-3 transition;
+    }
+
+    .custom-select-options ul li a:hover {
+        @apply bg-secondary font-semibold text-secondary-content;
+    }
+
+    .custom-select-options ul li:last-of-type,
+    .custom-select-options ul li:last-of-type a {
         @apply border-b-0;
     }
 }
