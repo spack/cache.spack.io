@@ -11,27 +11,28 @@ hide_footer: true
             <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                 <div class="card-body">
                     <h2 class="card-title">Get Started</h2>
-                    <div class="form-control">
-                        <label class="label">
-                            <span class="label-text">Choose Build Cache Version</span>
-                        </label>
-                        <button class="custom-select">
-                            <span class="selected">-- choose version --</span>
-                        </button>
 
-                        <div class="custom-select-options !pt-3">
-                            <ul>
-                                <li class="selected">-- choose version --</li>
-                                <li>
-                                    <a>develop</a>
-                                </li>
-                                <li>
-                                    <a>1.8</a>
-                                </li>
-                                <li>
-                                    <a>1.9</a>
-                                </li>
-                            </ul>
+                    <div class="form-control py-2" x-data="{ selectedOption: '-- choose version --', isOpen: false }">
+                        <label class="label floating">
+                            <span class="label-text-alt text-gray-400 text-[10px]">Build Cache Version</span>
+                        </label>
+                        <button class="custom-select w-full" @click="isOpen = !isOpen">
+                            <span class="selected" x-text="selectedOption"></span>
+                        </button>
+                    
+                        <div class="custom-select-options" x-show="isOpen === true" @click.away="isOpen = false">
+                            <div class="menu-wrap">
+                                <ul>
+                                    <li class="selected">
+                                        <a @click="selectedOption = '-- choose version --'">-- choose version --</a>
+                                    </li>
+                                    {% for entry in site.data.tags.tags %}
+                                    <li>
+                                        <a @click="selectedOption = '{{ entry.name }}'; isOpen = false">{{ entry.name }}</a>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="form-control mt-6">

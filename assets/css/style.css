@@ -873,7 +873,6 @@ html {
   right: -1px;
   top: 100%;
   z-index: 10;
-  display: none;
   padding-top: 0.25rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -882,63 +881,302 @@ html {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-    .custom-select:focus + .custom-select-options {
-  display: block;
-}
-
-    .custom-select-options ul {
-  max-height: 300px;
+    .custom-select-options .menu-wrap {
+  max-height: 280px;
   overflow-y: auto;
   border-radius: 0.25rem;
   border-width: 1px;
   --tw-border-opacity: 1;
-  border-color: hsl(var(--b3, var(--b2)) / var(--tw-border-opacity));
+  border-color: hsl(var(--b2, var(--b1)) / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: hsl(var(--b1) / var(--tw-bg-opacity));
 }
 
+    .custom-select-options ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+    .custom-select-options ul.horizontal {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+    .custom-select-options ul.horizontal :where(li) {
+  flex-direction: row;
+}
+
+    :where(.custom-select-options ul li) {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+    .custom-select-options ul :where(li:not(.menu-title)) > :where(*:not(ul)) {
+  display: flex;
+}
+
+    .custom-select-options ul :where(li:not(.disabled):not(.menu-title)) > :where(*:not(ul)) {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  align-items: center;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+    .custom-select-options ul > :where(li > *:not(ul):focus) {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+    .custom-select-options ul > :where(li.disabled > *:not(ul):focus) {
+  cursor: auto;
+}
+
+    .custom-select-options ul > :where(li) :where(ul) {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+    .custom-select-options ul > :where(li) > :where(ul) {
+  position: absolute;
+  display: none;
+  top: initial;
+  left: 100%;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+    .custom-select-options ul > :where(li:hover) > :where(ul) {
+  display: flex;
+}
+
+    .custom-select-options ul > :where(li:focus) > :where(ul) {
+  display: flex;
+}
+
+    .custom-select-options ul.horizontal > li.bordered > a,.custom-select-options ul.horizontal > li.bordered > button,.custom-select-options ul.horizontal > li.bordered > span {
+  border-left-width: 0px;
+  border-bottom-width: 4px;
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--p) / var(--tw-border-opacity));
+}
+
+    .custom-select-options ul[class*=" px-"]:not(.menu[class*=" px-0"]) li > *,.custom-select-options ul[class^="px-"]:not(.menu[class^="px-0"]) li > *,.custom-select-options ul[class*=" p-"]:not(.menu[class*=" p-0"]) li > *,.custom-select-options ul[class^="p-"]:not(.menu[class^="p-0"]) li > * {
+  border-radius: var(--rounded-btn, 0.5rem);
+}
+
+    .custom-select-options ul :where(li.bordered > *) {
+  border-left-width: 4px;
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--p) / var(--tw-border-opacity));
+}
+
+    .custom-select-options ul :where(li) > :where(*:not(ul)) {
+  gap: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: currentColor;
+}
+
+    .custom-select-options ul :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):focus),.custom-select-options ul :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):hover) {
+  background-color: hsl(var(--bc) / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.1;
+}
+
+    .custom-select-options ul :where(li:not(.menu-title):not(:empty)) > :where(:not(ul).active),.custom-select-options ul :where(li:not(.menu-title):not(:empty)) > :where(*:not(ul):active) {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--p) / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: hsl(var(--pc) / var(--tw-text-opacity));
+}
+
+    .custom-select-options ul :where(li:empty) {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  height: 1px;
+  background-color: hsl(var(--bc) / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.1;
+}
+
+    .custom-select-options ul li.disabled > * {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  color: hsl(var(--bc) / var(--tw-text-opacity));
+  --tw-text-opacity: 0.2;
+}
+
+    .custom-select-options ul li.disabled > *:hover {
+  background-color: transparent;
+}
+
+    .custom-select-options ul li.hover-bordered a {
+  border-left-width: 4px;
+  border-color: transparent;
+}
+
+    .custom-select-options ul li.hover-bordered a:hover {
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--p) / var(--tw-border-opacity));
+}
+
+    .custom-select-options ul.compact li > a,.custom-select-options ul.compact li > span {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+    .custom-select-options ul .menu-title {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+  opacity: 0.4;
+}
+
+    .custom-select-options ul .menu-title > * {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+    .custom-select-options ul :where(li:not(.disabled)) > :where(*:not(ul)) {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+    .custom-select-options ul > :where(li:first-child) {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: unset;
+  border-bottom-left-radius: unset;
+}
+
+    .custom-select-options ul > :where(li:first-child) > :where(:not(ul)) {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: unset;
+  border-bottom-left-radius: unset;
+}
+
+    .custom-select-options ul > :where(li:last-child) {
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+    .custom-select-options ul > :where(li:last-child) > :where(:not(ul)) {
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+    .custom-select-options ul > :where(li:first-child:last-child) {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+    .custom-select-options ul > :where(li:first-child:last-child) > :where(:not(ul)) {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+    .custom-select-options ul > :where(li) > :where(ul) :where(li) {
+  width: 100%;
+  white-space: nowrap;
+}
+
+    .custom-select-options ul > :where(li) > :where(ul) :where(li) :where(ul) {
+  padding-left: 1rem;
+}
+
+    .custom-select-options ul > :where(li) > :where(ul) :where(li) > :where(:not(ul)) {
+  width: 100%;
+  white-space: nowrap;
+}
+
+    .custom-select-options ul > :where(li) > :where(ul) > :where(li:first-child) {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: unset;
+  border-bottom-left-radius: unset;
+}
+
+    .custom-select-options ul > :where(li) > :where(ul) > :where(li:first-child) > :where(:not(ul)) {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: unset;
+  border-bottom-left-radius: unset;
+}
+
+    .custom-select-options ul > :where(li) > :where(ul) > :where(li:last-child) {
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+    .custom-select-options ul > :where(li) > :where(ul) > :where(li:last-child) > :where(:not(ul)) {
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+    .custom-select-options ul > :where(li) > :where(ul) > :where(li:first-child:last-child) {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+    .custom-select-options ul > :where(li) > :where(ul) > :where(li:first-child:last-child) > :where(:not(ul)) {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+    .custom-select-options ul {
+  width: 100%;
+}
+
     .custom-select-options ul li {
+  width: 100%;
   border-bottom-width: 1px;
   --tw-border-opacity: 1;
   border-color: hsl(var(--b3, var(--b2)) / var(--tw-border-opacity));
   font-weight: 400;
 }
 
-    .custom-select-options ul li.selected {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+    .custom-select-options ul li.selected a {
+  pointer-events: none;
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
-}
-
-    .custom-select-options ul li a {
-  display: block;
-  cursor: pointer;
-  background-color: transparent;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-    .custom-select-options ul li a:hover {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--pc) / var(--tw-bg-opacity));
-  font-weight: 600;
-  --tw-text-opacity: 1;
-  color: hsl(var(--p) / var(--tw-text-opacity));
-}
-
-    .custom-select-options ul li:last-of-type,
-    .custom-select-options ul li:last-of-type a {
-  border-bottom-width: 0px;
 }
 
 *, ::before, ::after {
@@ -2408,9 +2646,6 @@ html {
     transform: translateY(0);
   }
 }
-.select-bordered {
-  --tw-border-opacity: 0.2;
-}
 .select:focus {
   outline: 2px solid hsla(var(--bc) / 0.2);
   outline-offset: 2px;
@@ -2724,19 +2959,6 @@ html {
   font-size: 0.875rem;
   line-height: 2rem;
 }
-.\!select-md {
-  height: 3rem !important;
-  padding-left: 1rem !important;
-  padding-right: 2.5rem !important;
-  font-size: 0.875rem !important;
-  line-height: 1.25rem !important;
-  line-height: 2 !important;
-  min-height: 3rem !important;
-}
-[dir="rtl"] .\!select-md {
-  padding-right: 1rem !important;
-  padding-left: 2.5rem !important;
-}
 .\!select-sm {
   height: 2rem !important;
   padding-left: 0.75rem !important;
@@ -2885,6 +3107,9 @@ html {
 }
 .max-h-full {
   max-height: 100%;
+}
+.w-48 {
+  width: 12rem;
 }
 .w-auto {
   width: auto;

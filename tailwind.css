@@ -85,35 +85,22 @@
     }
 
     .custom-select-options {
-        @apply absolute hidden left-[-1px] pt-1 right-[-1px] shadow-lg text-sm top-full z-10;
+        @apply absolute left-[-1px] pt-1 right-[-1px] shadow-lg text-sm top-full z-10;
     }
 
-    .custom-select:focus + .custom-select-options {
-        @apply block;
+    .custom-select-options .menu-wrap {
+        @apply bg-base-100 border border-base-200 max-h-[280px] overflow-y-auto rounded;
     }
 
     .custom-select-options ul {
-        @apply bg-base-100 border border-base-300 max-h-[300px] overflow-y-auto rounded;
+        @apply menu w-full;
     }
 
     .custom-select-options ul li {
-        @apply border-b border-base-300 font-normal;
+        @apply border-b border-base-300 font-normal w-full;
     }
 
-    .custom-select-options ul li.selected {
-        @apply px-4 py-3 text-gray-400;
-    }
-
-    .custom-select-options ul li a {
-        @apply bg-transparent block cursor-pointer duration-150 px-4 py-3 transition;
-    }
-
-    .custom-select-options ul li a:hover {
-        @apply bg-primary-content font-semibold text-primary;
-    }
-
-    .custom-select-options ul li:last-of-type,
-    .custom-select-options ul li:last-of-type a {
-        @apply border-b-0;
+    .custom-select-options ul li.selected a {
+        @apply pointer-events-none text-gray-400;
     }
 }

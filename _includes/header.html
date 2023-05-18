@@ -10,54 +10,51 @@
         <div class="flex justify-end flex-1 px-2">
             {% if page.layout != 'home' %}
             <div class="flex gap-4 pr-5 border-r border-base-200">
-                <div class="form-control py-2">
+                <div class="form-control py-2" x-data="{ selectedOption: '-- choose version --', isOpen: false }">
                     <label class="label floating">
                         <span class="label-text-alt text-gray-400 text-[10px]">Build Cache Version</span>
                     </label>
-                    <!-- <select id="build-cache-version-filter" class="select select-bordered">
-                        <option selected></option>
-                        {% for entry in site.data.tags.tags %}
-                            <option value="{{ entry.name }}">{{ entry.name }}</option>
-                        {% endfor %}
-                    </select> -->
-                    <button class="custom-select !select-sm">
-                        <span class="selected">-- choose version --</span>
+                    <button class="custom-select !select-sm w-48" @click="isOpen = !isOpen">
+                        <span class="selected" x-text="selectedOption"></span>
                     </button>
-
-                    <div class="custom-select-options">
-                        <ul>
-                            <li class="selected">-- choose version --</li>
-                            {% for entry in site.data.tags.tags %}
-                                <li>
-                                    <a>{{ entry.name }}</a>
+                
+                    <div class="custom-select-options" x-show="isOpen === true" @click.away="isOpen = false">
+                        <div class="menu-wrap">
+                            <ul>
+                                <li class="selected">
+                                    <a @click="selectedOption = '-- choose version --'">-- choose version --</a>
                                 </li>
-                            {% endfor %}
-                        </ul>
+                                {% for entry in site.data.tags.tags %}
+                                <li>
+                                    <a @click="selectedOption = '{{ entry.name }}'; isOpen = false">{{ entry.name }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="form-control py-2">
-                    <label class="label floating">
-                        <span class="label-text-alt text-gray-400 text-[10px]">Stack</span>
-                    </label>
-                    <!-- <select id="build-cache-stack-filter" class="select select-bordered">
-                        <option selected></option>
-                        {% for entry in site.data.stacks.stacks %}
-                            <option value="{{ entry }}">{{ entry }}</option>
-                        {% endfor %}
-                    </select> -->
-                    <button class="custom-select !select-sm">
-                        <span class="selected">-- choose stack --</span>
-                    </button>
 
-                    <div class="custom-select-options">
-                        <ul>
-                            <li class="selected">-- choose stack --</li>
-                            {% for entry in site.data.stacks.stacks %}
-                                <li>
-                                    <a>{{ entry }}</a>
+                <div class="form-control py-2" x-data="{ selectedOption: '-- choose stack --', isOpen: false }">
+                    <label class="label floating">
+                        <span class="label-text-alt text-gray-400 text-[10px]">Build Cache Version</span>
+                    </label>
+                    <button class="custom-select !select-sm w-48" @click="isOpen = !isOpen">
+                        <span class="selected" x-text="selectedOption"></span>
+                    </button>
+                
+                    <div class="custom-select-options" x-show="isOpen === true" @click.away="isOpen = false">
+                        <div class="menu-wrap">
+                            <ul>
+                                <li class="selected">
+                                    <a @click="selectedOption = '-- choose stack --'">-- choose stack --</a>
                                 </li>
-                            {% endfor %}
-                        </ul>
+                                {% for entry in site.data.stacks.stacks %}
+                                <li>
+                                    <a @click="selectedOption = '{{ entry }}'; isOpen = false">{{ entry }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
