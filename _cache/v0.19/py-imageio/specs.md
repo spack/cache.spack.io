@@ -1,0 +1,7 @@
+---
+title: "py-imageio"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["2.22.0"], "compilers": ["gcc@=11.1.0", "oneapi@=2022.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1}}
+spec_details: [{"hash": "kxws4s6aidlnszykx37gyf6dkgai5pks", "compiler": "gcc@=11.1.0", "versions": ["2.22.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=python_pip"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/py-imageio-2.22.0/linux-ubuntu20.04-x86_64-gcc-11.1.0-py-imageio-2.22.0-kxws4s6aidlnszykx37gyf6dkgai5pks.spack"}, {"hash": "ko7uzwthhucvhb7i3jedm2upjs273pqs", "compiler": "oneapi@=2022.1.0", "versions": ["2.22.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=python_pip"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-imageio-2.22.0/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-py-imageio-2.22.0-ko7uzwthhucvhb7i3jedm2upjs273pqs.spack"}]
+---

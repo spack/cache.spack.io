@@ -10,7 +10,7 @@ layout: default
     <div class="pr-12">
       <h3>Get Started</h3>
       <p class="mt-0 text-sm">This command will add the build cache to your Spack configuration, allowing you to access pre-built packages for faster installation.</p>
-      <p class="text-sm">For more information, please visit the <a href="https://spack-tutorial.readthedocs.io/en/latest/tutorial_binary_cache.html" class="!link-secondary">Spack documentation on mirrors</a>.</p>
+      <p class="text-sm">For more information, please visit the <a href="https://spack-tutorial.readthedocs.io/en/latest/tutorial_binary_cache.html" class="!link-secondary font-bold">Spack documentation on mirrors</a>.</p>
     </div>
   </div>
   <div class="flex-none relative">
@@ -103,84 +103,86 @@ $('#software').DataTable( {
   pageLength: 50,
   columns: [
     { data: "uid",
+      className: "uid",
       render: function ( data, type, row ) {
           const numSpecs = stack ? row['num_specs_by_stack'][stack] : row['num_specs'];
-          return "<a href='{{ site.baseurl }}/" + row['rel'] + "'>" + data +"</a> (" + numSpecs + ")";
+          return "<a href='{{ site.baseurl }}/" + row['rel'] + "' class='font-semibold'>" + data +"</a> (" + numSpecs + ")";
       },
       targets: 1,
     },
     { data: "tag",
       render: function ( data, type, row ) { return row['tag']},
       orderable: false,
+      className: "tag",
     },
     { data: null,
-      render: function ( data, type, row ) { return "<a href='" + row['url']  + "' target='_blank' class='btn btn-xs btn-primary btn-outline'> View Package </a>"},
+      render: function ( data, type, row ) { return "<a href='" + row['url']  + "' target='_blank' class='btn btn-xs btn-primary'> View Package </a>"},
       orderable: false,
+      className: "packages",
     },
-    {data: 'versions',
+    { data: 'versions',
       render: function ( data, type, row ) {
-         var versions = ""
-         if(data.length > 0) {
-           $.each(data, function(i, e){
-              versions += " " + e;
-           })
-         }
-         return versions
+        return data.join(", ");
       },
       targets: 0,
       orderable: false,
+      className: "versions",
     },
     {data: "platforms",
       render: function ( data, type, row ) {
          var platforms = ""
          if(data.length > 0) {
            $.each(data, function(i, e){
-              platforms += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag searchable-badge'>" + e + "</button> ";
+              platforms += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag searchable-badge'>" + e + "</button>";
            })
          }
          return platforms
       },
       targets: 0,
       orderable: false,
+      className: "platforms",
      },
-    {data: "oss",
+    { data: "oss",
       render: function ( data, type, row ) {
          var oss = ""
          if(data.length > 0) {
            $.each(data, function(i, e){
-              oss += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag searchable-badge'>" + e + "</button> ";
+              oss += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag searchable-badge'>" + e + "</button>";
            })
          }
          return oss
       },
       targets: 0,
       orderable: false,
+      className: "oss",
      },
-    {data: "targets",
+    { data: "targets",
       render: function ( data, type, row ) {
          var targets = ""
          if(data.length > 0) {
            $.each(data, function(i, e){
-              targets += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag searchable-badge'>" + e + "</button> ";
+              targets += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag searchable-badge'>" + e + "</button>";
            })
          }
          return targets
       },
       targets: 0,
       orderable: false,
+      className: "targets",
      },
-    {data: "compilers",
+    { data: "compilers",
       render: function ( data, type, row ) {
          var compilers = ""
          if(data.length > 0) {
            $.each(data, function(i, e){
-              compilers += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag searchable-badge'>" + e + "</button> ";
+              compilers += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag searchable-badge'>" + e + "</button>";
            })
          }
          return compilers
       },
       targets: 0,
       orderable: false,
+      className: "compilers",
     },
   ]
 });

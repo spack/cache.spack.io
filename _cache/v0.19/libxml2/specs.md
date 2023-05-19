@@ -1,0 +1,7 @@
+---
+title: "libxml2"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["2.10.1"], "compilers": ["gcc@7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64"], "stacks": ["aws-ahug-aarch64", "aws-isc-aarch64", "radiuss-aws-aarch64"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 1, "aws-ahug-aarch64": 1, "radiuss-aws-aarch64": 1}}
+spec_details: [{"hash": "kpa27xav7r2cjzktaylqekwdehfzn6j7", "compiler": "gcc@7.3.1", "versions": ["2.10.1"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools", "~python"], "stacks": ["aws-isc-aarch64", "aws-ahug-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/libxml2-2.10.1/linux-amzn2-aarch64-gcc-7.3.1-libxml2-2.10.1-kpa27xav7r2cjzktaylqekwdehfzn6j7.spack"}, {"hash": "bmnyvpwrp2gclbdvnfmmywwg7jnofrkv", "compiler": "gcc@7.3.1", "versions": ["2.10.1"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools", "~python"], "stacks": ["radiuss-aws-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/libxml2-2.10.1/linux-amzn2-aarch64-gcc-7.3.1-libxml2-2.10.1-bmnyvpwrp2gclbdvnfmmywwg7jnofrkv.spack"}]
+---

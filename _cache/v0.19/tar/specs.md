@@ -1,0 +1,7 @@
+---
+title: "tar"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["1.34"], "compilers": ["gcc@7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64"], "stacks": ["aws-ahug-aarch64", "aws-isc-aarch64", "radiuss-aws-aarch64"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 1, "aws-ahug-aarch64": 1, "radiuss-aws-aarch64": 1}}
+spec_details: [{"hash": "vij43pgmykkuokvjdmauj26xvzs6dg66", "compiler": "gcc@7.3.1", "versions": ["1.34"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools", "zip=pigz"], "stacks": ["aws-isc-aarch64", "aws-ahug-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/tar-1.34/linux-amzn2-aarch64-gcc-7.3.1-tar-1.34-vij43pgmykkuokvjdmauj26xvzs6dg66.spack"}, {"hash": "kkjzybsnsadlehmxxzzxwjirfg6mstcv", "compiler": "gcc@7.3.1", "versions": ["1.34"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools", "zip=pigz"], "stacks": ["radiuss-aws-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/tar-1.34/linux-amzn2-aarch64-gcc-7.3.1-tar-1.34-kkjzybsnsadlehmxxzzxwjirfg6mstcv.spack"}]
+---

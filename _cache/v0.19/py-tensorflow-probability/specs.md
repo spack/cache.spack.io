@@ -1,0 +1,7 @@
+---
+title: "py-tensorflow-probability"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["0.18.0"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-cpu", "ml-cuda", "ml-rocm"], "num_specs": 2, "num_specs_by_stack": {"ml-cuda": 1, "ml-cpu": 1, "ml-rocm": 1}}
+spec_details: [{"hash": "b6vp43q2rwqu5mhlyhmqymhen2gmel6z", "compiler": "gcc@=7.3.1", "versions": ["0.18.0"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["ml-cuda"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/py-tensorflow-probability-0.18.0/linux-amzn2-x86_64_v3-gcc-7.3.1-py-tensorflow-probability-0.18.0-b6vp43q2rwqu5mhlyhmqymhen2gmel6z.spack"}, {"hash": "s7iwz5si76gpwc3lnsqw5fx7f7ryzjsi", "compiler": "gcc@=7.3.1", "versions": ["0.18.0"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["ml-cpu", "ml-rocm"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/py-tensorflow-probability-0.18.0/linux-amzn2-x86_64_v3-gcc-7.3.1-py-tensorflow-probability-0.18.0-s7iwz5si76gpwc3lnsqw5fx7f7ryzjsi.spack"}]
+---

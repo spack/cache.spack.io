@@ -1,0 +1,7 @@
+---
+title: "pmix"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["4.1.2"], "compilers": ["gcc@7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64"], "stacks": ["aws-ahug-aarch64", "aws-isc-aarch64", "radiuss-aws-aarch64"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 1, "aws-ahug-aarch64": 1, "radiuss-aws-aarch64": 1}}
+spec_details: [{"hash": "6rhwqvbdrlm377tdqp55jzvhcv3zldlg", "compiler": "gcc@7.3.1", "versions": ["4.1.2"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools", "~docs", "+pmi_backwards_compatibility", "~restful"], "stacks": ["aws-isc-aarch64", "aws-ahug-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/pmix-4.1.2/linux-amzn2-aarch64-gcc-7.3.1-pmix-4.1.2-6rhwqvbdrlm377tdqp55jzvhcv3zldlg.spack"}, {"hash": "rwt3mnfacfxf477444gn65woioc2lhqa", "compiler": "gcc@7.3.1", "versions": ["4.1.2"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools", "~docs", "+pmi_backwards_compatibility", "~restful"], "stacks": ["radiuss-aws-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/pmix-4.1.2/linux-amzn2-aarch64-gcc-7.3.1-pmix-4.1.2-rwt3mnfacfxf477444gn65woioc2lhqa.spack"}]
+---

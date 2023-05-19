@@ -4,44 +4,65 @@ hide_footer: true
 ---
 
 <main id="app" class="space-y-8">
-    <div class="hero rounded bg-primary bg-gradient-to-tr from-primary to-primary-focus py-8">
+    <div class="border-l-4 border-secondary hero rounded bg-primary bg-gradient-to-tr from-primary
+        to-primary-focus py-36">
         <div class="hero-content flex-col gap-24 lg:flex-row-reverse">
 
             <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                 <div class="card-body">
                     <h2 class="card-title">Get Started</h2>
-                    <div class="form-control">
-                        <label class="label">
-                            <span class="label-text">Choose Build Cache Version</span>
+
+                    <div class="form-control py-2" x-data="customSelect('version')">
+                        <label class="label floating">
+                            <span class="label-text-alt text-gray-400 text-[10px]">Build Cache Version</span>
                         </label>
-                        <select id="hero-build-cache-version-filter" class="select select-bordered">
-                            <option selected>develop</option>
-                            <option>v0.18</option>
-                            <option>v0.19</option>
-                        </select>
+                        <button class="custom-select w-full" @click="isOpen = !isOpen">
+                            <span class="selected" x-text="selectedOption"></span>
+                        </button>
+                    
+                        <div class="custom-select-options" x-show="isOpen === true" @click.away="isOpen = false" x-cloak>
+                            <div class="menu-wrap">
+                                <ul>
+                                    <li class="selected">
+                                        <a @click="selectedOption = '-- choose version --'">-- choose version --</a>
+                                    </li>
+                                    {% for entry in site.data.tags.tags %}
+                                    <li>
+                                        <a @click="selectOption('{{ entry.name }}')">{{ entry.name }}</a>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                     <div class="form-control mt-6">
-                        <button id="hero-browse-build-cache" class="btn btn-secondary">Browse the Build Cache</button>
+                        <button id="hero-browse-build-cache" class="btn btn-secondary">Browse the
+                            Build Cache</button>
                     </div>
                 </div>
             </div>
 
             <div class="text-center text-white lg:text-left">
-                <h1 class="text-3xl font-bold">Welcome to the Spack Build Cache</h1>
+                <div class="heading">
+                    <h1 class="text-2xl font-light uppercase tracking-widest text-primary-content">Welcome
+                        to the</h1>
+                    <h1 class="text-5xl font-semibold">Spack Build Cache</h1>
+                </div>
                 <p class="py-4">Build caches are repositories of pre-built packages that can
                     be used to speed up the software building process. They work by allowing
                     users to reuse previously compiled code instead of compiling the same
                     code again from source.</p>
-                <p class="py-4">By using build caches, users can reduce the time it takes to build and install software, and also
-                    reduce the amount of network bandwidth and CPU resources required for the build process.</p>
-                <p class="py-4">Choose a version of the build cache to get started and view instructions to use it with your system.</p>
+                <p class="py-4">By using build caches, users can reduce the time it takes to build
+                    and install software, and also
+                    reduce the amount of network bandwidth and CPU resources required for the build
+                    process.</p>
+                <p class="py-4 font-semibold">
+                    <i class="ri-arrow-right-line"></i>
+                    Choose a version of the build cache to get started and view instructions to use
+                    it with your system.
+                </p>
             </div>
         </div>
     </div> <!-- END hero -->
 </main>
 
-<script type="text/javascript">
-    document.getElementById('hero-browse-build-cache').addEventListener('click', function() {
-        window.location.pathname = '{{ site.baseurl }}/tag/' + document.getElementById('hero-build-cache-version-filter').value;
-    });
-</script>

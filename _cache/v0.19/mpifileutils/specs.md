@@ -1,0 +1,7 @@
+---
+title: "mpifileutils"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["0.11.1"], "compilers": ["gcc@=11.1.0", "oneapi@=2022.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1}}
+spec_details: [{"hash": "fpxcdkxf6cnobmxa7tthxmycx6n5wlwl", "compiler": "gcc@=11.1.0", "versions": ["0.11.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=generic", "~experimental", "~gpfs", "~lustre", "~xattr"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/mpifileutils-0.11.1/linux-ubuntu20.04-x86_64-gcc-11.1.0-mpifileutils-0.11.1-fpxcdkxf6cnobmxa7tthxmycx6n5wlwl.spack"}, {"hash": "mlixi62bp54l6bpcojbyjeepaa2h6r2p", "compiler": "oneapi@=2022.1.0", "versions": ["0.11.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=generic", "~experimental", "~gpfs", "~lustre", "~xattr"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpifileutils-0.11.1/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-mpifileutils-0.11.1-mlixi62bp54l6bpcojbyjeepaa2h6r2p.spack"}]
+---

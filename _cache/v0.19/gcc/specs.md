@@ -1,0 +1,7 @@
+---
+title: "gcc"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["11.2.0", "12.2.0"], "compilers": ["gcc@7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64"], "stacks": ["aws-ahug-aarch64", "aws-isc-aarch64"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 1, "aws-ahug-aarch64": 1}}
+spec_details: [{"hash": "l345olraw634ccmrftpmbusonhnkqpyv", "compiler": "gcc@7.3.1", "versions": ["11.2.0"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["~binutils", "+bootstrap", "build_system=autotools", "build_type=RelWithDebInfo", "~graphite", "languages=c,c++,fortran", "~nvptx", "~piclibs", "~profiled", "~strip"], "stacks": ["aws-isc-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/gcc-11.2.0/linux-amzn2-aarch64-gcc-7.3.1-gcc-11.2.0-l345olraw634ccmrftpmbusonhnkqpyv.spack"}, {"hash": "lp2dao3eqm6tegjuaz6gg323hjhgkzr2", "compiler": "gcc@7.3.1", "versions": ["12.2.0"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["~binutils", "+bootstrap", "build_system=autotools", "build_type=RelWithDebInfo", "~graphite", "languages=c,c++,fortran", "~nvptx", "~piclibs", "~profiled", "~strip"], "stacks": ["aws-ahug-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/gcc-12.2.0/linux-amzn2-aarch64-gcc-7.3.1-gcc-12.2.0-lp2dao3eqm6tegjuaz6gg323hjhgkzr2.spack"}]
+---

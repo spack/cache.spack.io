@@ -1,0 +1,7 @@
+---
+title: "flex"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["2.6.3", "2.6.4"], "compilers": ["gcc@7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64"], "stacks": ["aws-ahug-aarch64", "aws-isc-aarch64"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "aws-ahug-aarch64": 1}}
+spec_details: [{"hash": "xuctmy6kxf5gygwqsxaituzy2pkz66b7", "compiler": "gcc@7.3.1", "versions": ["2.6.3"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools", "+lex", "~nls"], "stacks": ["aws-isc-aarch64", "aws-ahug-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/flex-2.6.3/linux-amzn2-aarch64-gcc-7.3.1-flex-2.6.3-xuctmy6kxf5gygwqsxaituzy2pkz66b7.spack"}, {"hash": "phrnlddtrd45hdbnslhx4vj6xgtgnun6", "compiler": "gcc@7.3.1", "versions": ["2.6.4"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools", "+lex", "~nls", "patches=f8b85a0"], "stacks": ["aws-isc-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/flex-2.6.4/linux-amzn2-aarch64-gcc-7.3.1-flex-2.6.4-phrnlddtrd45hdbnslhx4vj6xgtgnun6.spack"}]
+---

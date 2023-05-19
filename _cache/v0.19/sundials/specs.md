@@ -1,0 +1,7 @@
+---
+title: "sundials"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["6.4.1"], "compilers": ["gcc@7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64"], "stacks": ["radiuss-aws-aarch64"], "num_specs": 1, "num_specs_by_stack": {"radiuss-aws-aarch64": 1}}
+spec_details: [{"hash": "g5r72wxqt3yqxbehaors2d6r54bjexox", "compiler": "gcc@7.3.1", "versions": ["6.4.1"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["+ARKODE", "+CVODE", "+CVODES", "+IDA", "+IDAS", "+KINSOL", "build_system=cmake", "build_type=RelWithDebInfo", "cstd=99", "~cuda", "cxxstd=14", "+examples", "+examples-install", "~f2003", "~fcmix", "+generic-math", "~ginkgo", "+hypre", "~int64", "~ipo", "~klu", "~kokkos", "~kokkos-kernels", "~lapack", "logging-level=0", "logging-mpi=OFF", "~magma", "~monitoring", "+mpi", "~openmp", "~petsc", "precision=double", "~profiling", "~pthread", "~raja", "~rocm", "+shared", "+static", "~superlu-dist", "~superlu-mt", "~sycl", "~trilinos"], "stacks": ["radiuss-aws-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/sundials-6.4.1/linux-amzn2-aarch64-gcc-7.3.1-sundials-6.4.1-g5r72wxqt3yqxbehaors2d6r54bjexox.spack"}]
+---

@@ -10,27 +10,52 @@
         <div class="flex justify-end flex-1 px-2">
             {% if page.layout != 'home' %}
             <div class="flex gap-4 pr-5 border-r border-base-200">
-                <div class="form-control py-2">
-                    <label class="label p-0">
+                <div class="form-control py-2" x-data="customSelect('version')">
+                    <label class="label floating">
                         <span class="label-text-alt text-gray-400 text-[10px]">Build Cache Version</span>
                     </label>
-                    <select id="build-cache-version-filter" class="select select-bordered">
-                        <option selected></option>
-                        {% for entry in site.data.tags.tags %}
-                            <option value="{{ entry.name }}">{{ entry.name }}</option>
-                        {% endfor %}
-                    </select>
+                    <button class="custom-select !select-sm w-48" @click="isOpen = !isOpen">
+                        <span class="selected" x-text="selectedOption"></span>
+                    </button>
+                
+                    <div class="custom-select-options" x-show="isOpen === true" @click.away="isOpen = false" x-cloak>
+                        <div class="menu-wrap">
+                            <ul>
+                                <li class="selected">
+                                    <a @click="selectedOption = '-- choose version --'">-- choose version --</a>
+                                </li>
+                                {% for entry in site.data.tags.tags %}
+                                <li>
+                                    <a @click="selectOption('{{ entry.name }}')">{{ entry.name }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-control py-2">
-                    <label class="label p-0">
+
+                <div class="form-control py-2" x-data="customSelect('stack')">
+                    <label class="label floating">
                         <span class="label-text-alt text-gray-400 text-[10px]">Stack</span>
                     </label>
-                    <select id="build-cache-stack-filter" class="select select-bordered">
-                        <option selected></option>
-                        {% for entry in site.data.stacks.stacks %}
-                            <option value="{{ entry }}">{{ entry }}</option>
-                        {% endfor %}
-                    </select>
+                    <button class="custom-select !select-sm w-48" @click="isOpen = !isOpen">
+                        <span class="selected" x-text="selectedOption"></span>
+                    </button>
+                
+                    <div class="custom-select-options" x-show="isOpen === true" @click.away="isOpen = false" x-cloak>
+                        <div class="menu-wrap">
+                            <ul>
+                                <li class="selected">
+                                    <a @click="selectedOption = '-- choose stack --'">-- choose stack --</a>
+                                </li>
+                                {% for entry in site.data.stacks.stacks %}
+                                <li>
+                                    <a @click="selectOption('{{ entry }}')">{{ entry }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             {% endif %}
@@ -65,33 +90,41 @@
 </header>
 
 <script type="text/javascript">
-    if (!window.location.pathname.match(/{{ site.baseurl | replace: "/", "\\/" }}\/tag\/([^\/]*)/)) {
-        // disable dropdowns
-        document.getElementById('build-cache-version-filter').disabled = true;
-        document.getElementById('build-cache-stack-filter').disabled = true;
-    }
+ function customSelect(type) {
+     return {
+         selectedOption: `-- choose ${type} --`,
+         isOpen: false,
+         type: type,
+         init() {
+             // set up current options based on url
+             if (type == 'version') {
+                let activeBuildCacheVersion = window.location.pathname.match(/{{ site.baseurl | replace: "/", "\\/" }}\/tag\/([^\/]*)/) ||
+                                            window.location.pathname.match(/{{ site.baseurl | replace: "/", "\\/" }}\/package\/([^\/]*)/);
+                if (activeBuildCacheVersion) {
+                    activeBuildCacheVersion = activeBuildCacheVersion[1];
+                    this.selectedOption = activeBuildCacheVersion;
+                }
+             } else if (type == 'stack') {
+                let activeBuildCacheStack = window.location.search.match(/stack=([^&]*)/);
+                if (activeBuildCacheStack) {
+                    activeBuildCacheStack = activeBuildCacheStack[1];
+                    this.selectedOption = activeBuildCacheStack;
+                }
+             }
+         },
+         toggle() {
+             this.isOpen = !this.isOpen;
+         },
+         selectOption(option) {
+             this.selectedOption = option;
+             this.isOpen = false;
 
-    let activeBuildCacheVersion = window.location.pathname.match(/{{ site.baseurl | replace: "/", "\\/" }}\/tag\/([^\/]*)/) ||
-                                  window.location.pathname.match(/{{ site.baseurl | replace: "/", "\\/" }}\/package\/([^\/]*)/);
-    if (activeBuildCacheVersion) {
-        activeBuildCacheVersion = activeBuildCacheVersion[1];
-        document.getElementById('build-cache-version-filter').value = activeBuildCacheVersion;
-    }
-
-    document.getElementById('build-cache-version-filter').addEventListener('change', function() {
-        // redirect, preserving query strings
-        window.location.pathname = '{{ site.baseurl }}/tag/' + this.value;
-    });
-
-    let activeBuildCacheStack = window.location.search.match(/stack=([^&]*)/);
-    if (activeBuildCacheStack) {
-        activeBuildCacheStack = activeBuildCacheStack[1];
-        document.getElementById('build-cache-stack-filter').value = activeBuildCacheStack;
-    }
-
-    document.getElementById('build-cache-stack-filter').addEventListener('change', function() {
-        const searchParams = new URLSearchParams(window.location.search);
-        searchParams.set('stack', this.value);
-        window.location.search = searchParams.toString();
-    });
+             if (type == 'version') {
+                 window.location.pathname = '{{ site.baseurl }}/tag/' + option;
+             } else if (type == 'stack') {
+                 window.location.search = '?stack=' + option;
+             }
+         }
+     }
+ }
 </script>
