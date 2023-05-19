@@ -12,7 +12,7 @@ hide_footer: true
                 <div class="card-body">
                     <h2 class="card-title">Get Started</h2>
 
-                    <div class="form-control py-2" x-data="{ selectedOption: '-- choose version --', isOpen: false }">
+                    <div class="form-control py-2" x-data="customSelect('version')">
                         <label class="label floating">
                             <span class="label-text-alt text-gray-400 text-[10px]">Build Cache Version</span>
                         </label>
@@ -20,7 +20,7 @@ hide_footer: true
                             <span class="selected" x-text="selectedOption"></span>
                         </button>
                     
-                        <div class="custom-select-options" x-show="isOpen === true" @click.away="isOpen = false">
+                        <div class="custom-select-options" x-show="isOpen === true" @click.away="isOpen = false" x-cloak>
                             <div class="menu-wrap">
                                 <ul>
                                     <li class="selected">
@@ -28,7 +28,7 @@ hide_footer: true
                                     </li>
                                     {% for entry in site.data.tags.tags %}
                                     <li>
-                                        <a @click="selectedOption = '{{ entry.name }}'; isOpen = false">{{ entry.name }}</a>
+                                        <a @click="selectOption('{{ entry.name }}')">{{ entry.name }}</a>
                                     </li>
                                     {% endfor %}
                                 </ul>
@@ -66,8 +66,3 @@ hide_footer: true
     </div> <!-- END hero -->
 </main>
 
-<script type="text/javascript">
-    document.getElementById('hero-browse-build-cache').addEventListener('click', function() {
-        window.location.pathname = '{{ site.baseurl }}/tag/' + document.getElementById('hero-build-cache-version-filter').value;
-    });
-</script>
