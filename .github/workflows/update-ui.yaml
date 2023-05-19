@@ -16,7 +16,7 @@ jobs:
       run: |
          export PATH=/opt/spackywoo/bin:$PATH
          pip install -r requirements.txt
-         spack python generate_cache.py
+         find _cache -mindepth 1 -delete && spack python generate_cache.py
 
     - name: Push Results
       run: |
@@ -24,4 +24,4 @@ jobs:
         git config --global user.email "github-actions@users.noreply.github.com"
         git add _cache
         git commit -m "Automated push with new spack cache data $(date '+%Y-%m-%d')" || exit 0
-        git push origin main || exit 0
+        git push origin main

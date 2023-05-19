@@ -3,42 +3,66 @@ layout: default
 hide_footer: true
 ---
 
-<header>
+<main id="app" class="space-y-8">
+    <div class="border-l-4 border-secondary hero rounded bg-primary bg-gradient-to-tr from-primary
+        to-primary-focus py-36">
+        <div class="hero-content flex-col gap-24 lg:flex-row-reverse">
 
-<h1 style="color:white"><img style="width:100px;padding-right:10px" src="{{ site.baseurl }}/assets/img/spack-logo.svg" />Spack Build Cache</h1>
-<link rel='stylesheet' href='https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.css'>
-<link rel='stylesheet' href='https://cdn.datatables.net/responsive/1.0.4/css/dataTables.responsive.css'>
-</header>
+            <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                <div class="card-body">
+                    <h2 class="card-title">Get Started</h2>
 
-<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.css'>
-<link rel='stylesheet' href='https://cdn.datatables.net/responsive/1.0.4/css/dataTables.responsive.css'>
+                    <div class="form-control py-2" x-data="customSelect('version')">
+                        <label class="label floating">
+                            <span class="label-text-alt text-gray-400 text-[10px]">Build Cache Version</span>
+                        </label>
+                        <button class="custom-select w-full" @click="isOpen = !isOpen">
+                            <span class="selected" x-text="selectedOption"></span>
+                        </button>
+                    
+                        <div class="custom-select-options" x-show="isOpen === true" @click.away="isOpen = false" x-cloak>
+                            <div class="menu-wrap">
+                                <ul>
+                                    <li class="selected">
+                                        <a @click="selectedOption = '-- choose version --'">-- choose version --</a>
+                                    </li>
+                                    {% for entry in site.data.tags.tags %}
+                                    <li>
+                                        <a @click="selectOption('{{ entry.name }}')">{{ entry.name }}</a>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-control mt-6">
+                        <button id="hero-browse-build-cache" class="btn btn-secondary">Browse the
+                            Build Cache</button>
+                    </div>
+                </div>
+            </div>
 
-<style>
-#software_filter, #software_length, #software_info {
- color: white;
-}
-.card {
-  width:200px !important;
-  min-height: 200px !important;
-}
-.card-content {
-  margin-top: 50px;
-  margin-left: 30px;
-  font-size:20px;
-  font-weight:600;
-  display: grid;
-}
-}
-</style>
-</header>
-
-<div class="container">
-<main id="app" class="grid flex-grid" style="justify-content:center;">
-<a href="{{ site.baseurl }}/tag/"><div class="card"><span class="card-content">view all</span></div></a>
-{% for entry in site.data.tags.tags %}
-<a href="{{ site.baseurl }}/tag/{{ entry.name }}/"><div class="card"><span class="card-content">{{ entry.name }}</span></div></a>
-{% endfor %}
+            <div class="text-center text-white lg:text-left">
+                <div class="heading">
+                    <h1 class="text-2xl font-light uppercase tracking-widest text-primary-content">Welcome
+                        to the</h1>
+                    <h1 class="text-5xl font-semibold">Spack Build Cache</h1>
+                </div>
+                <p class="py-4">Build caches are repositories of pre-built packages that can
+                    be used to speed up the software building process. They work by allowing
+                    users to reuse previously compiled code instead of compiling the same
+                    code again from source.</p>
+                <p class="py-4">By using build caches, users can reduce the time it takes to build
+                    and install software, and also
+                    reduce the amount of network bandwidth and CPU resources required for the build
+                    process.</p>
+                <p class="py-4 font-semibold">
+                    <i class="ri-arrow-right-line"></i>
+                    Choose a version of the build cache to get started and view instructions to use
+                    it with your system.
+                </p>
+            </div>
+        </div>
+    </div> <!-- END hero -->
 </main>
-</body>
-</html>
+

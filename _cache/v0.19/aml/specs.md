@@ -1,0 +1,7 @@
+---
+title: "aml"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["0.2.0"], "compilers": ["gcc@=11.1.0", "oneapi@=2022.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1}}
+spec_details: [{"hash": "kj2y4vne6ffor425wpgqmtvfgyubkvtk", "compiler": "gcc@=11.1.0", "versions": ["0.2.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=autotools", "~cuda", "~hip", "hip-platform=none", "~hwloc", "~opencl", "~ze"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/aml-0.2.0/linux-ubuntu20.04-x86_64-gcc-11.1.0-aml-0.2.0-kj2y4vne6ffor425wpgqmtvfgyubkvtk.spack"}, {"hash": "lnpy3ozk4l4tvp6sgsqpcuoecccd75ur", "compiler": "oneapi@=2022.1.0", "versions": ["0.2.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=autotools", "~cuda", "~hip", "hip-platform=none", "~hwloc", "~opencl", "+ze"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/aml-0.2.0/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-aml-0.2.0-lnpy3ozk4l4tvp6sgsqpcuoecccd75ur.spack"}]
+---

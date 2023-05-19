@@ -1,0 +1,7 @@
+---
+title: "py-keras-preprocessing"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["1.1.2"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-cpu", "ml-cuda", "ml-rocm"], "num_specs": 2, "num_specs_by_stack": {"ml-cuda": 2, "ml-rocm": 2, "ml-cpu": 2}}
+spec_details: [{"hash": "3jskxvinf4vwko33igeoypclttpdwieg", "compiler": "gcc@=7.3.1", "versions": ["1.1.2"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-cuda", "ml-rocm", "ml-cpu"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/py-keras-preprocessing-1.1.2/linux-amzn2-x86_64_v3-gcc-7.3.1-py-keras-preprocessing-1.1.2-3jskxvinf4vwko33igeoypclttpdwieg.spack"}, {"hash": "psabptda7re6oustp6g7jsldvipzm2l3", "compiler": "gcc@=7.3.1", "versions": ["1.1.2"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-cuda", "ml-rocm", "ml-cpu"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/py-keras-preprocessing-1.1.2/linux-amzn2-x86_64_v3-gcc-7.3.1-py-keras-preprocessing-1.1.2-psabptda7re6oustp6g7jsldvipzm2l3.spack"}]
+---

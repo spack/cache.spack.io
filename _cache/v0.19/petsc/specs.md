@@ -1,0 +1,7 @@
+---
+title: "petsc"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["3.18.1"], "compilers": ["gcc@7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64"], "stacks": ["radiuss-aws-aarch64"], "num_specs": 1, "num_specs_by_stack": {"radiuss-aws-aarch64": 1}}
+spec_details: [{"hash": "qmilj55avvshpmrd6twhnyh26ddagnbj", "compiler": "gcc@7.3.1", "versions": ["3.18.1"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["~X", "~batch", "build_system=generic", "~cgns", "clanguage=C", "~complex", "~cuda", "~debug", "+double", "~exodusii", "~fftw", "+fortran", "~giflib", "+hdf5", "~hpddm", "~hwloc", "+hypre", "~int64", "~jpeg", "~knl", "~kokkos", "~libpng", "~libyaml", "~memkind", "+metis", "~mkl-pardiso", "~mmg", "~moab", "~mpfr", "+mpi", "~mumps", "~openmp", "~p4est", "~parmmg", "~ptscotch", "~random123", "~rocm", "~saws", "~scalapack", "+shared", "~strumpack", "~suite-sparse", "+superlu-dist", "~tetgen", "~trilinos", "~valgrind"], "stacks": ["radiuss-aws-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/petsc-3.18.1/linux-amzn2-aarch64-gcc-7.3.1-petsc-3.18.1-qmilj55avvshpmrd6twhnyh26ddagnbj.spack"}]
+---

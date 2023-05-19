@@ -1,0 +1,7 @@
+---
+title: "zstd"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["1.5.2"], "compilers": ["gcc@7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64"], "stacks": ["aws-ahug-aarch64", "aws-isc-aarch64", "radiuss-aws-aarch64"], "num_specs": 2, "num_specs_by_stack": {"radiuss-aws-aarch64": 1, "aws-isc-aarch64": 2, "aws-ahug-aarch64": 2}}
+spec_details: [{"hash": "5vdxrzwvj6ifth4bomooz2tbqexhqfmu", "compiler": "gcc@7.3.1", "versions": ["1.5.2"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=makefile", "compression=none", "libs=shared,static", "+programs"], "stacks": ["radiuss-aws-aarch64", "aws-isc-aarch64", "aws-ahug-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/zstd-1.5.2/linux-amzn2-aarch64-gcc-7.3.1-zstd-1.5.2-5vdxrzwvj6ifth4bomooz2tbqexhqfmu.spack"}, {"hash": "c55u6dinebvvc5ct3nogzetw56zyw42k", "compiler": "gcc@7.3.1", "versions": ["1.5.2"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=makefile", "libs=shared,static", "~programs"], "stacks": ["aws-isc-aarch64", "aws-ahug-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/zstd-1.5.2/linux-amzn2-aarch64-gcc-7.3.1-zstd-1.5.2-c55u6dinebvvc5ct3nogzetw56zyw42k.spack"}]
+---

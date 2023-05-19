@@ -1,0 +1,7 @@
+---
+title: "py-tensorboard-data-server"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["0.6.1"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-cpu", "ml-cuda", "ml-rocm"], "num_specs": 2, "num_specs_by_stack": {"ml-cuda": 2, "ml-rocm": 2, "ml-cpu": 2}}
+spec_details: [{"hash": "ficgwl3coi25ytg6jsbdqopfktmb3qn7", "compiler": "gcc@=7.3.1", "versions": ["0.6.1"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "patches=878bbd6"], "stacks": ["ml-cuda", "ml-rocm", "ml-cpu"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/py-tensorboard-data-server-0.6.1/linux-amzn2-x86_64_v3-gcc-7.3.1-py-tensorboard-data-server-0.6.1-ficgwl3coi25ytg6jsbdqopfktmb3qn7.spack"}, {"hash": "r7bgoafhhr5kvnuptgf32atkn5oyvv2m", "compiler": "gcc@=7.3.1", "versions": ["0.6.1"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "patches=878bbd6"], "stacks": ["ml-cuda", "ml-rocm", "ml-cpu"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/py-tensorboard-data-server-0.6.1/linux-amzn2-x86_64_v3-gcc-7.3.1-py-tensorboard-data-server-0.6.1-r7bgoafhhr5kvnuptgf32atkn5oyvv2m.spack"}]
+---

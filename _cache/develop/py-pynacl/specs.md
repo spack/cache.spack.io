@@ -1,0 +1,7 @@
+---
+title: "py-pynacl"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["1.5.0"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "e4s": 1}}
+spec_details: [{"hash": "zl7ff74yhgeoncienizh764l7rnsvmty", "compiler": "gcc@=11.1.0", "versions": ["1.5.0"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=python_pip"], "stacks": ["e4s-power"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/py-pynacl-1.5.0/linux-ubuntu20.04-ppc64le-gcc-11.1.0-py-pynacl-1.5.0-zl7ff74yhgeoncienizh764l7rnsvmty.spack"}, {"hash": "va7pd5x6urzjvozh3syzorlmj7tlkdfd", "compiler": "gcc@=11.1.0", "versions": ["1.5.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-pynacl-1.5.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-pynacl-1.5.0-va7pd5x6urzjvozh3syzorlmj7tlkdfd.spack"}]
+---

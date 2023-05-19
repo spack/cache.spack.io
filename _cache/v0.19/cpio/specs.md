@@ -1,0 +1,7 @@
+---
+title: "cpio"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["2.13"], "compilers": ["gcc@=11.1.0", "gcc@=7.3.1"], "oss": ["amzn2", "ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64", "x86_64_v3"], "stacks": ["e4s", "ml-cpu", "ml-cuda", "ml-rocm"], "num_specs": 2, "num_specs_by_stack": {"ml-cuda": 1, "ml-rocm": 1, "ml-cpu": 1, "e4s": 1}}
+spec_details: [{"hash": "a7y6toa2ciyt6ddex5jkkn7ul4qo2cr3", "compiler": "gcc@=7.3.1", "versions": ["2.13"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["ml-cuda", "ml-rocm", "ml-cpu"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/cpio-2.13/linux-amzn2-x86_64_v3-gcc-7.3.1-cpio-2.13-a7y6toa2ciyt6ddex5jkkn7ul4qo2cr3.spack"}, {"hash": "z7a4op46s34znuyetscu6u6mooypfavw", "compiler": "gcc@=11.1.0", "versions": ["2.13"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=autotools"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/cpio-2.13/linux-ubuntu20.04-x86_64-gcc-11.1.0-cpio-2.13-z7a4op46s34znuyetscu6u6mooypfavw.spack"}]
+---

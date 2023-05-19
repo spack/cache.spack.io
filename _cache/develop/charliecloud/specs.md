@@ -1,0 +1,7 @@
+---
+title: "charliecloud"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["0.32"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "e4s": 1}}
+spec_details: [{"hash": "ulzl4gwy2ycg7rcy5mi6a5mt6ygftc36", "compiler": "gcc@=11.1.0", "versions": ["0.32"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=autotools", "~docs", "~squashfuse"], "stacks": ["e4s-power"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/charliecloud-0.32/linux-ubuntu20.04-ppc64le-gcc-11.1.0-charliecloud-0.32-ulzl4gwy2ycg7rcy5mi6a5mt6ygftc36.spack"}, {"hash": "acpe5k34sdsvi2ax77fuu6vn7p46x2tf", "compiler": "gcc@=11.1.0", "versions": ["0.32"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "~docs", "~squashfuse"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/charliecloud-0.32/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-charliecloud-0.32-acpe5k34sdsvi2ax77fuu6vn7p46x2tf.spack"}]
+---

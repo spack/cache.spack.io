@@ -1,0 +1,7 @@
+---
+title: "py-pyelftools"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["0.26"], "compilers": ["gcc@=11.1.0", "oneapi@=2022.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1}}
+spec_details: [{"hash": "tkkrbb6tsiy6ad6yvegnk244km45lag5", "compiler": "gcc@=11.1.0", "versions": ["0.26"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=python_pip"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/py-pyelftools-0.26/linux-ubuntu20.04-x86_64-gcc-11.1.0-py-pyelftools-0.26-tkkrbb6tsiy6ad6yvegnk244km45lag5.spack"}, {"hash": "svmbcuyr5loj73azmxw3wsfquwxhtvs2", "compiler": "oneapi@=2022.1.0", "versions": ["0.26"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=python_pip"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pyelftools-0.26/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-py-pyelftools-0.26-svmbcuyr5loj73azmxw3wsfquwxhtvs2.spack"}]
+---

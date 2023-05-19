@@ -1,0 +1,7 @@
+---
+title: "py-colorama"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["0.4.5"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "e4s": 1}}
+spec_details: [{"hash": "cbkejoxzy35tiebu7nnwsra5wcpx25fi", "compiler": "gcc@=11.1.0", "versions": ["0.4.5"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=python_pip"], "stacks": ["e4s-power"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/py-colorama-0.4.5/linux-ubuntu20.04-ppc64le-gcc-11.1.0-py-colorama-0.4.5-cbkejoxzy35tiebu7nnwsra5wcpx25fi.spack"}, {"hash": "syk2nzob57r5l67xetk7bsxuw3w53z6p", "compiler": "gcc@=11.1.0", "versions": ["0.4.5"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-colorama-0.4.5/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-colorama-0.4.5-syk2nzob57r5l67xetk7bsxuw3w53z6p.spack"}]
+---

@@ -1,0 +1,7 @@
+---
+title: "py-setuptools"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["59.4.0", "65.5.0"], "compilers": ["gcc@7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64"], "stacks": ["aws-ahug-aarch64", "aws-isc-aarch64"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 1, "aws-ahug-aarch64": 2}}
+spec_details: [{"hash": "uruxmt4ak425mg27cq52aa3xqlz3hcqr", "compiler": "gcc@7.3.1", "versions": ["65.5.0"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=generic"], "stacks": ["aws-isc-aarch64", "aws-ahug-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/py-setuptools-65.5.0/linux-amzn2-aarch64-gcc-7.3.1-py-setuptools-65.5.0-uruxmt4ak425mg27cq52aa3xqlz3hcqr.spack"}, {"hash": "u7eiqdr6wf6yumkoy4x734vq6yslbx3g", "compiler": "gcc@7.3.1", "versions": ["59.4.0"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=generic"], "stacks": ["aws-ahug-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/py-setuptools-59.4.0/linux-amzn2-aarch64-gcc-7.3.1-py-setuptools-59.4.0-u7eiqdr6wf6yumkoy4x734vq6yslbx3g.spack"}]
+---

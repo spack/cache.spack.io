@@ -1,0 +1,7 @@
+---
+title: "py-torch-nvidia-apex"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["2020-10-19"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-cpu", "ml-cuda"], "num_specs": 2, "num_specs_by_stack": {"ml-cpu": 1, "ml-cuda": 1}}
+spec_details: [{"hash": "eaq6guc5b4onlqci5jlh677qiu4hynyw", "compiler": "gcc@=7.3.1", "versions": ["2020-10-19"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~cuda", "patches=da5e883"], "stacks": ["ml-cpu"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/py-torch-nvidia-apex-2020-10-19/linux-amzn2-x86_64_v3-gcc-7.3.1-py-torch-nvidia-apex-2020-10-19-eaq6guc5b4onlqci5jlh677qiu4hynyw.spack"}, {"hash": "xnmy2mk6bub57thsbkjuwardsrkdt33u", "compiler": "gcc@=7.3.1", "versions": ["2020-10-19"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "+cuda", "cuda_arch=80", "patches=da5e883"], "stacks": ["ml-cuda"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/py-torch-nvidia-apex-2020-10-19/linux-amzn2-x86_64_v3-gcc-7.3.1-py-torch-nvidia-apex-2020-10-19-xnmy2mk6bub57thsbkjuwardsrkdt33u.spack"}]
+---

@@ -1,0 +1,7 @@
+---
+title: "py-docutils"
+layout: cache
+categories: [package, v0.19]
+meta: {"versions": ["0.19"], "compilers": ["gcc@7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64"], "stacks": ["aws-ahug-aarch64", "aws-isc-aarch64"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 1, "aws-ahug-aarch64": 2}}
+spec_details: [{"hash": "gihhkkxdmanvvhtn4h6toa2jauhcsaib", "compiler": "gcc@7.3.1", "versions": ["0.19"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["aws-isc-aarch64", "aws-ahug-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/py-docutils-0.19/linux-amzn2-aarch64-gcc-7.3.1-py-docutils-0.19-gihhkkxdmanvvhtn4h6toa2jauhcsaib.spack"}, {"hash": "64vzbvwga4s7x6c7wgxmnekxaq4bcm6n", "compiler": "gcc@7.3.1", "versions": ["0.19"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["aws-ahug-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/py-docutils-0.19/linux-amzn2-aarch64-gcc-7.3.1-py-docutils-0.19-64vzbvwga4s7x6c7wgxmnekxaq4bcm6n.spack"}]
+---
