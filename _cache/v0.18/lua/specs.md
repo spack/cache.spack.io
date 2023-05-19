@@ -1,7 +1,0 @@
----
-title: "lua"
-layout: cache
-categories: [package, v0.18]
-meta: {"versions": ["5.3.5"], "compilers": ["gcc@7.3.1", "gcc@7.5.0"], "oss": ["amzn2", "ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64", "x86_64_v4"], "stacks": ["aws-isc", "e4s", "radiuss", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"aws-isc": 1, "radiuss": 1, "tutorial": 1, "e4s": 1}}
-spec_details: [{"hash": "4qde7o5cvt7j6nfqfnbb7krfhz2kx5q4", "compiler": "gcc@7.3.1", "versions": ["5.3.5"], "os": "amzn2", "platform": "linux", "target": "x86_64_v4", "variants": ["fetcher=curl", "~pcfile", "+shared"], "stacks": ["aws-isc"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18/build_cache/linux-amzn2-x86_64_v4/gcc-7.3.1/lua-5.3.5/linux-amzn2-x86_64_v4-gcc-7.3.1-lua-5.3.5-4qde7o5cvt7j6nfqfnbb7krfhz2kx5q4.spack"}, {"hash": "w26r5kvplnwfrua2rks7kb7dt3trk6yf", "compiler": "gcc@7.5.0", "versions": ["5.3.5"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["fetcher=curl", "~pcfile", "+shared"], "stacks": ["radiuss", "tutorial", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/lua-5.3.5/linux-ubuntu18.04-x86_64-gcc-7.5.0-lua-5.3.5-w26r5kvplnwfrua2rks7kb7dt3trk6yf.spack"}]
----

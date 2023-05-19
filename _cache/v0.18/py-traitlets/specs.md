@@ -1,7 +1,0 @@
----
-title: "py-traitlets"
-layout: cache
-categories: [package, v0.18]
-meta: {"versions": ["5.1.1"], "compilers": ["gcc@7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s"], "num_specs": 1, "num_specs_by_stack": {"e4s": 1}}
-spec_details: [{"hash": "5q6otjg3ow4xlm6bakqodnn2bdfbqc6s", "compiler": "gcc@7.5.0", "versions": ["5.1.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-traitlets-5.1.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-traitlets-5.1.1-5q6otjg3ow4xlm6bakqodnn2bdfbqc6s.spack"}]
----

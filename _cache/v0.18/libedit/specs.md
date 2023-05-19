@@ -1,7 +1,0 @@
----
-title: "libedit"
-layout: cache
-categories: [package, v0.18]
-meta: {"versions": ["3.1-20210216"], "compilers": ["gcc@7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3", "x86_64_v4"], "stacks": ["aws-ahug", "aws-isc"], "num_specs": 2, "num_specs_by_stack": {"aws-isc": 2, "aws-ahug": 2}}
-spec_details: [{"hash": "jeh4b77olqnmypgcyzfw3hzntyv54yw2", "compiler": "gcc@7.3.1", "versions": ["3.1-20210216"], "os": "amzn2", "platform": "linux", "target": "x86_64_v4", "variants": [], "stacks": ["aws-isc", "aws-ahug"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18/build_cache/linux-amzn2-x86_64_v4/gcc-7.3.1/libedit-3.1-20210216/linux-amzn2-x86_64_v4-gcc-7.3.1-libedit-3.1-20210216-jeh4b77olqnmypgcyzfw3hzntyv54yw2.spack"}, {"hash": "gw6i2fka4jge5f56mhwwvf2enaurzoeu", "compiler": "gcc@7.3.1", "versions": ["3.1-20210216"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": [], "stacks": ["aws-isc", "aws-ahug"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/libedit-3.1-20210216/linux-amzn2-x86_64_v3-gcc-7.3.1-libedit-3.1-20210216-gw6i2fka4jge5f56mhwwvf2enaurzoeu.spack"}]
----

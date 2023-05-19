@@ -1,7 +1,0 @@
----
-title: "libpciaccess"
-layout: cache
-categories: [package, develop]
-meta: {"versions": ["0.17"], "compilers": ["gcc@7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64"], "stacks": ["aws-ahug-aarch64", "aws-isc-aarch64", "radiuss-aws-aarch64"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "aws-ahug-aarch64": 2, "radiuss-aws-aarch64": 2}}
-spec_details: [{"hash": "bdjsnqyfh53evs626imgjhbbp5toioda", "compiler": "gcc@7.3.1", "versions": ["0.17"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools"], "stacks": ["aws-isc-aarch64", "aws-ahug-aarch64", "radiuss-aws-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-amzn2-aarch64/gcc-7.3.1/libpciaccess-0.17/linux-amzn2-aarch64-gcc-7.3.1-libpciaccess-0.17-bdjsnqyfh53evs626imgjhbbp5toioda.spack"}, {"hash": "k3yanqfp4yuxd5ypm3qwm32p264pzhyk", "compiler": "gcc@7.3.1", "versions": ["0.17"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools"], "stacks": ["aws-isc-aarch64", "aws-ahug-aarch64", "radiuss-aws-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-amzn2-aarch64/gcc-7.3.1/libpciaccess-0.17/linux-amzn2-aarch64-gcc-7.3.1-libpciaccess-0.17-k3yanqfp4yuxd5ypm3qwm32p264pzhyk.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "m4"
-layout: cache
-categories: [package, develop]
-meta: {"versions": ["1.4.19"], "compilers": ["gcc@7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64"], "stacks": ["aws-ahug-aarch64", "aws-isc-aarch64", "radiuss-aws-aarch64"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "aws-ahug-aarch64": 2, "radiuss-aws-aarch64": 2}}
-spec_details: [{"hash": "yhmbclw7wraask6ffqkxxnr2ls4fa4j4", "compiler": "gcc@7.3.1", "versions": ["1.4.19"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools", "patches=9dc5fbd,bfdffa7", "+sigsegv"], "stacks": ["aws-isc-aarch64", "aws-ahug-aarch64", "radiuss-aws-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-amzn2-aarch64/gcc-7.3.1/m4-1.4.19/linux-amzn2-aarch64-gcc-7.3.1-m4-1.4.19-yhmbclw7wraask6ffqkxxnr2ls4fa4j4.spack"}, {"hash": "ze5jr2bzzezhhxwxqogr3m4beb6qj7dm", "compiler": "gcc@7.3.1", "versions": ["1.4.19"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools", "patches=9dc5fbd,bfdffa7", "+sigsegv"], "stacks": ["aws-isc-aarch64", "aws-ahug-aarch64", "radiuss-aws-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-amzn2-aarch64/gcc-7.3.1/m4-1.4.19/linux-amzn2-aarch64-gcc-7.3.1-m4-1.4.19-ze5jr2bzzezhhxwxqogr3m4beb6qj7dm.spack"}]
----
