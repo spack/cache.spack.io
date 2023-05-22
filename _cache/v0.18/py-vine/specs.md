@@ -1,0 +1,7 @@
+---
+title: "py-vine"
+layout: cache
+categories: [package, v0.18]
+meta: {"versions": ["5.0.0"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["radiuss"], "num_specs": 2, "num_specs_by_stack": {"radiuss": 2}}
+spec_details: [{"hash": "mp7ap7azj42cxv322shdzgwals43nedc", "compiler": "gcc@=7.5.0", "versions": ["5.0.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["radiuss"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-vine-5.0.0/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-vine-5.0.0-mp7ap7azj42cxv322shdzgwals43nedc.spack"}, {"hash": "bwsh5hgdbrvs6whqtwcwx5mg3bclz5oo", "compiler": "gcc@=7.5.0", "versions": ["5.0.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["radiuss"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-vine-5.0.0/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-vine-5.0.0-bwsh5hgdbrvs6whqtwcwx5mg3bclz5oo.spack"}]
+---
