@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env spack-python
 
 # This script will generate package metadata files for
 # each package in the latest version of spack
