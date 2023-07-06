@@ -6,18 +6,14 @@
 # Usage:
 # python generate_cache.py
 
+from dataclasses import dataclass
 from collections import defaultdict
-from contextlib import contextmanager
 from functools import lru_cache
-from pathlib import Path
-from typing import Set
-import git
+from typing import Iterable, Literal
 import json
 import os
 import requests
-import shutil
-import sys
-import tempfile
+import re
 import yaml
 
 import spack.database
@@ -28,17 +24,7 @@ import spack.binary_distribution
 here = os.getcwd()
 db_root = os.path.join(here, "spack-db")
 
-
-def write_json(content, filename):
-    with open(filename, "w") as outfile:
-        outfile.write(json.dumps(content, indent=4))
-
-
-def read_yaml(filename):
-    with open(filename, "r") as stream:
-        content = yaml.safe_load(stream)
-    return content
-
+INDEX_URL = "https://binaries.spack.io/cache_spack_io_index.json"
 
 # Template for cache data
 template = """---
@@ -49,61 +35,46 @@ meta: %s
 spec_details: %s
 ---"""
 
+tag_page_template = """---
+layout: table
+permalink: /tag/%s/
+tag: %s
+---"""
 
-def binary_size(spec):
+
+def binary_size(spec: spack.spec.Spec) -> int | Literal["-"]:
     # TODO: blocked on this value being baked into the build cache index.json
     return "-"
 
 
-@contextmanager
-def git_repo_context(repo_url):
-    """
-    A context manager that clones a Git repository into a temporary directory, and
-    provides a reference to the repository object for use within the context.
-
-    :param repo_url: The URL of the repository to clone.
-    """
-    temp_dir = tempfile.mkdtemp()
-
-    try:
-        repo = git.Repo.clone_from(repo_url, temp_dir)
-        yield repo
-    finally:
-        shutil.rmtree(temp_dir)
+@dataclass(frozen=True)
+class Stack:
+    label: str
+    url: str
 
 
 @lru_cache
-def get_version_stacks(repo: git.Repo, name: str) -> Set[str]:
-    repo.git.checkout(name)
-
-    stacks_dir = (
-        Path(repo.working_dir)
-        / "share"
-        / "spack"
-        / "gitlab"
-        / "cloud_pipelines"
-        / "stacks"
-    )
-    return set(os.listdir(stacks_dir))
+def get_build_cache_index() -> dict[str, list[Stack]]:
+    r = requests.get(INDEX_URL)
+    r.raise_for_status()
+    return {k: [Stack(**x) for x in v] for k, v in r.json().items()}
 
 
-def get_hash_stacks(repo: git.Repo, name: str) -> dict[str, set[str]]:
+def get_hash_stacks(entry: str, stacks: Iterable[Stack]) -> dict[str, set[str]]:
     hash_stacks = defaultdict(set)
 
-    if name != "develop":
-        name = f"releases/{name}"
-
-    for stack in get_version_stacks(repo, name):
-        url = f"https://binaries.spack.io/{name}/{stack}/build_cache/index.json"
-        r = requests.get(url)
+    for stack in stacks:
+        r = requests.get(
+            stack.url.replace("s3://spack-binaries/", "https://binaries.spack.io/")
+        )
         if r.status_code == 404:
-            print(f"No build cache for {name} {stack} ({url})")
+            print(f"No build cache for {entry} {stack} ({stack.url})")
             continue
         else:
             r.raise_for_status()
 
         for hash in r.json()["database"]["installs"].keys():
-            hash_stacks[hash].add(stack)
+            hash_stacks[hash].add(stack.label)
 
     return hash_stacks
 
@@ -180,38 +151,37 @@ def write_cache_entries(name, specs, hash_stacks):
             fd.write(render)
 
 
-def load_spack_db(name, url):
+def specs_by_package(name: str, url: str) -> dict[str, list[spack.spec.Spec]]:
     """
     Given a named entry and a URL, load a spack database
     """
     response = requests.get(url)
-
-    if response.status_code != 200:
-        sys.exit(
-            "Issue with request to get package index: %s %s" % (url, response.reason)
-        )
+    response.raise_for_status()
     index = response.json()
 
     # Write index.json to file
     entry_db = os.path.join(db_root, name)
     if not os.path.exists(entry_db):
         os.makedirs(entry_db)
-    write_json(index, os.path.join(entry_db, "index.json"))
+
+    with open(os.path.join(entry_db, "index.json"), "w") as outfile:
+        outfile.write(json.dumps(index, indent=4))
 
     # yeah this is awkward <--- from @tgamblin :D
     db = spack.database.Database(None, entry_db)
 
     # Organize specs by package
-    specs = defaultdict(list)
+    specs: dict[str, list[spack.spec.Spec]] = defaultdict(list)
 
     # keep lookup of specs
     with db.read_transaction():
         for spec in db.query_local(installed=False, in_buildcache=True):
             specs[spec.name].append(spec)
-    return index, specs
+
+    return specs
 
 
-def get_specs_metadata(specs):
+def get_specs_metadata(specs: dict[str, list[spack.spec.Spec]]) -> dict:
     """
     Given loaded specs, parse metadata and return dict lookup.
     """
@@ -250,50 +220,59 @@ def get_specs_metadata(specs):
         # For each meta, write to data file
         updates["compilers"] = compilers
         updates["parameters"] = parameters
-        updates["parameter_count"] = "{:,}".format(len(parameters))
-        updates["compiler_count"] = "{:,}".format(len(compilers))
         updates["count"] = count
     return updates
 
 
 def main():
-    tags_file = os.path.join(here, "_data", "tags.yaml")
-    if not os.path.exists(tags_file):
-        sys.exit(f"{tags_file} does not exist.")
-
     # Metadata file will store all versions
-    meta = {}
-    tags = read_yaml(tags_file)
-    with git_repo_context("https://github.com/spack/spack") as repo:
-        for entry in tags.get("tags", []):
-            if "name" not in entry or "url" not in entry:
-                sys.exit(f"Malformed entry {entry} missing url or name.")
-            name = entry["name"]
-            url = entry["url"]
-            print(f"Parsing cache for {name}")
+    meta: dict[str, dict] = {}
+    tags = []
 
-            # Create spack database and load specs
-            print("Loading spack db")
-            index, specs = load_spack_db(name, url)
+    for f in os.listdir(os.path.join(here, "pages", "tags")):
+        os.remove(os.path.join(here, "pages", "tags", f))
 
-            print("Getting hash stacks")
-            hash_stacks = get_hash_stacks(repo, name)
+    for name, stacks in get_build_cache_index().items():
+        if not any(s.label == "root" for s in stacks):
+            print(f"Skipping {name} because it doesn't have a root stack")
+            continue
 
-            # Update metadata file
-            meta[name] = {
-                "version": index["database"]["version"],
-                "count": len(index["database"]["installs"]),
-            }
-            del index
+        url = f"https://binaries.spack.io/{name}/build_cache/index.json"
+        print(f"Parsing cache for {name}")
 
-            # Get metadata for specs
-            print("Getting specs metadata")
-            updates = get_specs_metadata(specs)
-            meta[name].update(updates)
+        # Create spack database and load specs
+        print("Loading spack db")
+        specs = specs_by_package(name, url)
 
-            # Write jekyll files
-            print("Writing jekyll files")
-            write_cache_entries(name, specs, hash_stacks)
+        print("Getting hash stacks")
+        hash_stacks = get_hash_stacks(name, stacks)
+
+        # Get metadata for specs
+        print("Getting specs metadata")
+        meta[name] = get_specs_metadata(specs)
+
+        # Write jekyll files
+        print("Writing jekyll files")
+        write_cache_entries(name, specs, hash_stacks)
+
+        tags.append({"name": name, "stacks": sorted([s.label for s in stacks])})
+        with open(f"pages/tags/{name}.md", "w") as f:
+            f.write(tag_page_template % (name, name))
+
+    with open("_data/tags.yaml", "w") as f:
+        # sort tags such that develop is first, named tags are next,
+        # and develop-* are last (but in reverse order)
+        def tag_sorter(item):
+            if item["name"] == "develop":
+                return 0, 0
+            elif match := re.match(r"^develop-(\d{4}-\d{2}-\d{2})$", item["name"]):
+                return 2, -int(match.group(1).replace("-", ""))
+            else:
+                return 1, item["name"]
+
+        tags = sorted(tags, key=tag_sorter)
+
+        yaml.dump(tags, f)
 
     # Create the "all" group
     meta["all"] = {"version": "all", "count": 0}
@@ -321,6 +300,8 @@ def main():
     meta_file = os.path.join(here, "_data", "meta.yaml")
     with open(meta_file, "w") as fd:
         fd.write(yaml.dump(meta))
+
+    print("Done!\n\n")
 
 
 if __name__ == "__main__":
