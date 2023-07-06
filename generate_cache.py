@@ -9,6 +9,7 @@
 from dataclasses import dataclass
 from collections import defaultdict
 from functools import lru_cache
+from pathlib import Path
 from typing import Iterable, Literal
 import json
 import os
@@ -21,8 +22,8 @@ import spack.repo
 import spack.spec
 import spack.binary_distribution
 
-here = os.getcwd()
-db_root = os.path.join(here, "spack-db")
+here = Path(os.getcwd())
+db_root = here / "spack-db"
 
 INDEX_URL = "https://binaries.spack.io/cache_spack_io_index.json"
 
@@ -97,7 +98,7 @@ def write_cache_entries(name, specs, hash_stacks):
             "num_specs_by_stack": defaultdict(int),
         }
 
-        package_dir = os.path.join(here, "_cache", name, package_name)
+        package_dir = here / "_cache" / name / package_name
         if not os.path.exists(package_dir):
             os.makedirs(package_dir)
         spec_details = []
@@ -229,8 +230,10 @@ def main():
     meta: dict[str, dict] = {}
     tags = []
 
-    for f in os.listdir(os.path.join(here, "pages", "tags")):
-        os.remove(os.path.join(here, "pages", "tags", f))
+    tags_dir = here / "pages" / "tags"
+    tags_dir.mkdir(parents=True, exist_ok=True)
+    for f in tags_dir.iterdir():
+        f.unlink()
 
     for name, stacks in get_build_cache_index().items():
         if not any(s.label == "root" for s in stacks):
@@ -297,7 +300,7 @@ def main():
     meta["all"]["parameter_count"] = "{:,}".format(len(parameters))
 
     # Save all metadata
-    meta_file = os.path.join(here, "_data", "meta.yaml")
+    meta_file = here / "_data" / "meta.yaml"
     with open(meta_file, "w") as fd:
         fd.write(yaml.dump(meta))
 
