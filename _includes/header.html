@@ -7,52 +7,52 @@
             </a>
         </div>
 
-        <div class="flex justify-end flex-1 px-2">
+        <div class="flex justify-end flex-1 px-2" x-data="tagStackChooser()">
             {% if page.layout != 'home' %}
-            <div class="flex gap-4 pr-5 border-r border-base-200">
-                <div class="form-control py-2" x-data="customSelect('version')">
+            <div class="flex gap-4 pr-5 border-r border-base-200" x-data="{}">
+                <div class="form-control py-2">
                     <label class="label floating">
                         <span class="label-text-alt text-gray-400 text-[10px]">Build Cache Version</span>
                     </label>
-                    <button class="custom-select !select-sm w-48" @click="isOpen = !isOpen">
-                        <span class="selected" x-text="selectedOption"></span>
+                    <button class="custom-select !select-sm w-48" @click="tagIsOpen = !tagIsOpen">
+                        <span class="selected" x-text="tagSelectedOption"></span>
                     </button>
                 
-                    <div class="custom-select-options" x-show="isOpen === true" @click.away="isOpen = false" x-cloak>
+                    <div class="custom-select-options" x-show="tagIsOpen === true" @click.away="tagIsOpen = false" x-cloak>
                         <div class="menu-wrap">
                             <ul>
                                 <li class="selected">
-                                    <a @click="selectedOption = '-- choose version --'">-- choose version --</a>
+                                    <a @click="tagSelectedOption = '-- choose version --'">-- choose version --</a>
                                 </li>
-                                {% for entry in site.data.tags.tags %}
-                                <li>
-                                    <a @click="selectOption('{{ entry.name }}')">{{ entry.name }}</a>
-                                </li>
-                                {% endfor %}
+                                <template x-for="entry in tagChoices">
+                                    <li>
+                                        <a @click="selectTag(entry)" x-text="entry"></a>
+                                    </li>
+                                </template>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <div class="form-control py-2" x-data="customSelect('stack')">
+                <div class="form-control py-2">
                     <label class="label floating">
                         <span class="label-text-alt text-gray-400 text-[10px]">Stack</span>
                     </label>
-                    <button class="custom-select !select-sm w-48" @click="isOpen = !isOpen">
-                        <span class="selected" x-text="selectedOption"></span>
+                    <button class="custom-select !select-sm w-48" @click="stackIsOpen = !stackIsOpen">
+                        <span class="selected" x-text="stackSelectedOption"></span>
                     </button>
                 
-                    <div class="custom-select-options" x-show="isOpen === true" @click.away="isOpen = false" x-cloak>
+                    <div class="custom-select-options" x-show="stackIsOpen === true" @click.away="stackIsOpen = false" x-cloak>
                         <div class="menu-wrap">
                             <ul>
                                 <li class="selected">
-                                    <a @click="selectedOption = '-- choose stack --'">-- choose stack --</a>
+                                    <a @click="stackSelectedOption = '-- choose stack --'">-- choose stack --</a>
                                 </li>
-                                {% for entry in site.data.stacks.stacks %}
-                                <li>
-                                    <a @click="selectOption('{{ entry }}')">{{ entry }}</a>
-                                </li>
-                                {% endfor %}
+                                <template x-for="stack in stackChoices">
+                                    <li>
+                                        <a @click="selectStack(stack)" x-text="stack"></a>
+                                    </li>
+                                </template>
                             </ul>
                         </div>
                     </div>
@@ -90,41 +90,57 @@
 </header>
 
 <script type="text/javascript">
- function customSelect(type) {
+  function tagStackChooser() {
      return {
-         selectedOption: `-- choose ${type} --`,
-         isOpen: false,
-         type: type,
+         tagSelectedOption: `-- choose tag --`,
+         stackSelectedOption: `-- choose stack --`,
+         tagIsOpen: false,
+         stackIsOpen: false,
+         tagChoices: Object.values(tagStackMap).map(function(key) {
+                 return key['name'];
+            }),
+         // stackChoices are dependent on the tag selected
+         stackChoices: [],
          init() {
-             // set up current options based on url
-             if (type == 'version') {
-                let activeBuildCacheVersion = window.location.pathname.match(/{{ site.baseurl | replace: "/", "\\/" }}\/tag\/([^\/]*)/) ||
-                                            window.location.pathname.match(/{{ site.baseurl | replace: "/", "\\/" }}\/package\/([^\/]*)/);
-                if (activeBuildCacheVersion) {
-                    activeBuildCacheVersion = activeBuildCacheVersion[1];
-                    this.selectedOption = activeBuildCacheVersion;
-                }
-             } else if (type == 'stack') {
-                let activeBuildCacheStack = window.location.search.match(/stack=([^&]*)/);
-                if (activeBuildCacheStack) {
-                    activeBuildCacheStack = activeBuildCacheStack[1];
-                    this.selectedOption = activeBuildCacheStack;
-                }
-             }
-         },
-         toggle() {
-             this.isOpen = !this.isOpen;
-         },
-         selectOption(option) {
-             this.selectedOption = option;
-             this.isOpen = false;
+            // set up current options based on url
+            let activeBuildCacheVersion = window.location.pathname.match(/{{ site.baseurl | replace: "/", "\\/" }}\/tag\/([^\/]*)/) ||
+                                        window.location.pathname.match(/{{ site.baseurl | replace: "/", "\\/" }}\/package\/([^\/]*)/);
+            if (activeBuildCacheVersion) {
+                activeBuildCacheVersion = activeBuildCacheVersion[1];
+                this.tagSelectedOption = activeBuildCacheVersion;
+                this._populateStackChoices();
+            }
 
-             if (type == 'version') {
-                 window.location.pathname = '{{ site.baseurl }}/tag/' + option;
-             } else if (type == 'stack') {
-                 window.location.search = '?stack=' + option;
-             }
-         }
+            let activeBuildCacheStack = window.location.search.match(/stack=([^&]*)/);
+            if (activeBuildCacheStack) {
+                activeBuildCacheStack = activeBuildCacheStack[1];
+                this.stackSelectedOption = activeBuildCacheStack;
+            }
+         },
+        _populateStackChoices() {
+            this.stackChoices = tagStackMap.find((element) => {
+                    return element['name'] === this.tagSelectedOption;
+            })['stacks'];
+        },
+         toggleTag() {
+             this.tagIsOpen = !this.tagIsOpen;
+         },
+         toggleStack() {
+             this.stackIsOpen = !this.stackIsOpen;
+         },
+         selectTag(option) {
+             this.tagSelectedOption = option;
+             this.tagIsOpen = false;
+             this._populateStackChoices();
+
+             window.location.pathname = '{{ site.baseurl }}/tag/' + option;
+         },
+     selectStack(option) {
+         this.stackSelectedOption = option;
+         this.stackIsOpen = false;
+  
+         window.location.search = '?stack=' + option;
      }
+ }
  }
 </script>
