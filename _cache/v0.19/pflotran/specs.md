@@ -1,7 +1,0 @@
----
-title: "pflotran"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["4.0.1"], "compilers": ["gcc@=11.1.0", "oneapi@=2022.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "kshqmo5yd5r5kbo3g7aay46erhayryd6", "compiler": "gcc@=11.1.0", "versions": ["4.0.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=autotools"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/pflotran-4.0.1/linux-ubuntu20.04-x86_64-gcc-11.1.0-pflotran-4.0.1-kshqmo5yd5r5kbo3g7aay46erhayryd6.spack"}, {"hash": "43rnfshinmlwpkrfkgyxgckbs2kopizz", "compiler": "oneapi@=2022.1.0", "versions": ["4.0.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=autotools"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/pflotran-4.0.1/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-pflotran-4.0.1-43rnfshinmlwpkrfkgyxgckbs2kopizz.spack"}]
----

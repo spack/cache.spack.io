@@ -1,7 +1,0 @@
----
-title: "bazel"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["5.1.1", "5.2.0"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-cpu", "ml-cuda", "ml-rocm"], "num_specs": 2, "num_specs_by_stack": {"ml-cuda": 2, "ml-cpu": 2, "ml-rocm": 2}}
-spec_details: [{"hash": "lnsrci6zs6patsvucorzcmqcyclsbozq", "compiler": "gcc@=7.3.1", "versions": ["5.2.0"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic", "+nodepfail", "patches=0f6940d,3e6448a,604423c,dbbf38b"], "stacks": ["ml-cuda", "ml-cpu", "ml-rocm"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/bazel-5.2.0/linux-amzn2-x86_64_v3-gcc-7.3.1-bazel-5.2.0-lnsrci6zs6patsvucorzcmqcyclsbozq.spack"}, {"hash": "b5s547l7tmtgiskgdmiipuldxzlnkcj6", "compiler": "gcc@=7.3.1", "versions": ["5.1.1"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic", "+nodepfail", "patches=0f6940d,3e6448a,604423c,dbbf38b"], "stacks": ["ml-cuda", "ml-cpu", "ml-rocm"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/bazel-5.1.1/linux-amzn2-x86_64_v3-gcc-7.3.1-bazel-5.1.1-b5s547l7tmtgiskgdmiipuldxzlnkcj6.spack"}]
----

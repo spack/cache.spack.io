@@ -1,7 +1,0 @@
----
-title: "mvapich2"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["2.3.7"], "compilers": ["gcc@=7.3.1", "gcc@=7.5.0"], "oss": ["amzn2", "ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64", "x86_64_v3"], "stacks": ["ml-rocm", "radiuss"], "num_specs": 2, "num_specs_by_stack": {"ml-rocm": 1, "radiuss": 1}}
-spec_details: [{"hash": "dwiol5smxsbbpqvth22wkxdxyyorasdl", "compiler": "gcc@=7.3.1", "versions": ["2.3.7"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["~alloca", "build_system=autotools", "ch3_rank_bits=32", "~cuda", "~debug", "fabrics=mrail", "file_systems=auto", "process_managers=auto", "+regcache", "threads=multiple", "+wrapperrpath"], "stacks": ["ml-rocm"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/mvapich2-2.3.7/linux-amzn2-x86_64_v3-gcc-7.3.1-mvapich2-2.3.7-dwiol5smxsbbpqvth22wkxdxyyorasdl.spack"}, {"hash": "bu6ryxuj4yos27vklvj65nz2yx775p3f", "compiler": "gcc@=7.5.0", "versions": ["2.3.7"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~alloca", "build_system=autotools", "ch3_rank_bits=32", "~cuda", "~debug", "fabrics=mrail", "file_systems=auto", "process_managers=auto", "+regcache", "threads=multiple", "+wrapperrpath"], "stacks": ["radiuss"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/mvapich2-2.3.7/linux-ubuntu18.04-x86_64-gcc-7.5.0-mvapich2-2.3.7-bu6ryxuj4yos27vklvj65nz2yx775p3f.spack"}]
----

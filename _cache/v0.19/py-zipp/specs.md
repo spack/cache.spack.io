@@ -1,7 +1,0 @@
----
-title: "py-zipp"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["3.8.1"], "compilers": ["gcc@=7.5.0", "oneapi@=2022.1.0"], "oss": ["ubuntu18.04", "ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "ovwab5ioe66vhmepnxybytljjedu6qiz", "compiler": "gcc@=7.5.0", "versions": ["3.8.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=python_pip"], "stacks": ["data-vis-sdk"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-zipp-3.8.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-zipp-3.8.1-ovwab5ioe66vhmepnxybytljjedu6qiz.spack"}, {"hash": "qj6cd6r6aoxdeyxpnig7jj3sbxwesv2a", "compiler": "oneapi@=2022.1.0", "versions": ["3.8.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=python_pip"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-zipp-3.8.1/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-py-zipp-3.8.1-qj6cd6r6aoxdeyxpnig7jj3sbxwesv2a.spack"}]
----

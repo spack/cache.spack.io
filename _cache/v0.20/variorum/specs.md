@@ -1,7 +1,0 @@
----
-title: "variorum"
-layout: cache
-categories: [package, v0.20]
-meta: {"versions": ["0.6.0"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s"], "num_specs": 2, "num_specs_by_stack": {"e4s": 2}}
-spec_details: [{"hash": "wx7ngwaprzfr2ash7qitx452in7e4sz5", "compiler": "gcc@=11.1.0", "versions": ["0.6.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~docs", "generator=make", "~ipo", "+shared"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.20/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/variorum-0.6.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-variorum-0.6.0-wx7ngwaprzfr2ash7qitx452in7e4sz5.spack"}, {"hash": "vbpkw7lx3f5j4mfutvt4bdmoij7katk6", "compiler": "gcc@=11.1.0", "versions": ["0.6.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~docs", "generator=make", "~ipo", "+shared"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.20/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/variorum-0.6.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-variorum-0.6.0-vbpkw7lx3f5j4mfutvt4bdmoij7katk6.spack"}]
----

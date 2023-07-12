@@ -1,7 +1,0 @@
----
-title: "py-torchgeo"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["0.3.1"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-cpu", "ml-cuda"], "num_specs": 2, "num_specs_by_stack": {"ml-cuda": 1, "ml-cpu": 1}}
-spec_details: [{"hash": "llw4hbcwt4y7gupu3hlx4hnqe5jndexw", "compiler": "gcc@=7.3.1", "versions": ["0.3.1"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~datasets", "~docs", "~style", "~tests"], "stacks": ["ml-cuda"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/py-torchgeo-0.3.1/linux-amzn2-x86_64_v3-gcc-7.3.1-py-torchgeo-0.3.1-llw4hbcwt4y7gupu3hlx4hnqe5jndexw.spack"}, {"hash": "w5ocrnnuhumdgppaidno3pkmz3pezlj2", "compiler": "gcc@=7.3.1", "versions": ["0.3.1"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~datasets", "~docs", "~style", "~tests"], "stacks": ["ml-cpu"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/py-torchgeo-0.3.1/linux-amzn2-x86_64_v3-gcc-7.3.1-py-torchgeo-0.3.1-w5ocrnnuhumdgppaidno3pkmz3pezlj2.spack"}]
----

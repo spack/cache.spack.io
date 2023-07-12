@@ -1,7 +1,0 @@
----
-title: "py-pyjwt"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["2.4.0"], "compilers": ["gcc@=11.1.0", "oneapi@=2022.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "nqbpovygftzxarokka2nen5hc2x5mcds", "compiler": "gcc@=11.1.0", "versions": ["2.4.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=python_pip", "+crypto"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/py-pyjwt-2.4.0/linux-ubuntu20.04-x86_64-gcc-11.1.0-py-pyjwt-2.4.0-nqbpovygftzxarokka2nen5hc2x5mcds.spack"}, {"hash": "cwstijh5kbkfx4nyijdbk565ptlbtjtn", "compiler": "oneapi@=2022.1.0", "versions": ["2.4.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=python_pip", "+crypto"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pyjwt-2.4.0/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-py-pyjwt-2.4.0-cwstijh5kbkfx4nyijdbk565ptlbtjtn.spack"}]
----

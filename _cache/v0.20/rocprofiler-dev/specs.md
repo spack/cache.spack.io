@@ -1,7 +1,0 @@
----
-title: "rocprofiler-dev"
-layout: cache
-categories: [package, v0.20]
-meta: {"versions": ["5.4.3"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s"], "num_specs": 2, "num_specs_by_stack": {"e4s": 2}}
-spec_details: [{"hash": "b7dqtz3fofqnrakhypvijvxwceissi6h", "compiler": "gcc@=11.1.0", "versions": ["5.4.3"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "patches=16754a1,c482eee"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.20/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/rocprofiler-dev-5.4.3/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-rocprofiler-dev-5.4.3-b7dqtz3fofqnrakhypvijvxwceissi6h.spack"}, {"hash": "cmamlghfcvxqwyxlc62nmssw75q4jos3", "compiler": "gcc@=11.1.0", "versions": ["5.4.3"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "patches=16754a1,c482eee"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.20/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/rocprofiler-dev-5.4.3/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-rocprofiler-dev-5.4.3-cmamlghfcvxqwyxlc62nmssw75q4jos3.spack"}]
----

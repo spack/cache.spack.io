@@ -1,7 +1,0 @@
----
-title: "pdt"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["3.25.1"], "compilers": ["gcc@=11.1.0", "oneapi@=2022.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "lx67nrs24pkbnmnj7am3t75swtowtfc5", "compiler": "gcc@=11.1.0", "versions": ["3.25.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=autotools", "~pic"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/pdt-3.25.1/linux-ubuntu20.04-x86_64-gcc-11.1.0-pdt-3.25.1-lx67nrs24pkbnmnj7am3t75swtowtfc5.spack"}, {"hash": "56j5kgtcd5iz4rpa3f4rqfidl4igrp2x", "compiler": "oneapi@=2022.1.0", "versions": ["3.25.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=autotools", "~pic"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/pdt-3.25.1/linux-ubuntu20.04-x86_64-oneapi-2022.1.0-pdt-3.25.1-56j5kgtcd5iz4rpa3f4rqfidl4igrp2x.spack"}]
----

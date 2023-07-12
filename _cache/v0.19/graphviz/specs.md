@@ -1,7 +1,0 @@
----
-title: "graphviz"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["2.49.0"], "compilers": ["gcc@=7.3.1", "gcc@=7.5.0"], "oss": ["amzn2", "ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64", "x86_64_v3"], "stacks": ["ml-cpu", "ml-cuda", "ml-rocm", "radiuss"], "num_specs": 2, "num_specs_by_stack": {"ml-cuda": 1, "ml-cpu": 1, "ml-rocm": 1, "radiuss": 1}}
-spec_details: [{"hash": "t4wgx7pwqtqgxrzvzs7567ptqjzxjbky", "compiler": "gcc@=7.3.1", "versions": ["2.49.0"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "~doc", "~expat", "~ghostscript", "~gtkplus", "~gts", "~java", "~libgd", "~pangocairo", "~poppler", "~qt", "~quartz", "~x"], "stacks": ["ml-cuda", "ml-cpu", "ml-rocm"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/graphviz-2.49.0/linux-amzn2-x86_64_v3-gcc-7.3.1-graphviz-2.49.0-t4wgx7pwqtqgxrzvzs7567ptqjzxjbky.spack"}, {"hash": "76xn4epm4blgtczokv43hen6g3njxbik", "compiler": "gcc@=7.5.0", "versions": ["2.49.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=autotools", "~doc", "~expat", "~ghostscript", "~gtkplus", "~gts", "~java", "~libgd", "~pangocairo", "~poppler", "~qt", "~quartz", "~x"], "stacks": ["radiuss"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/graphviz-2.49.0/linux-ubuntu18.04-x86_64-gcc-7.5.0-graphviz-2.49.0-76xn4epm4blgtczokv43hen6g3njxbik.spack"}]
----

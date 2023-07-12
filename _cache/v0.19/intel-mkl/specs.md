@@ -1,7 +1,0 @@
----
-title: "intel-mkl"
-layout: cache
-categories: [package, v0.19]
-meta: {"versions": ["2020.4.304"], "compilers": ["gcc@=11.1.0", "gcc@=7.3.1"], "oss": ["amzn2", "ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64", "x86_64_v3"], "stacks": ["e4s", "ml-cpu", "ml-cuda", "ml-rocm"], "num_specs": 2, "num_specs_by_stack": {"ml-cuda": 1, "ml-cpu": 1, "ml-rocm": 1, "e4s": 1}}
-spec_details: [{"hash": "5z4nxynzgtad2lzpo7bkszaohunybh3n", "compiler": "gcc@=7.3.1", "versions": ["2020.4.304"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic", "~ilp64", "+shared", "threads=none"], "stacks": ["ml-cuda", "ml-cpu", "ml-rocm"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/intel-mkl-2020.4.304/linux-amzn2-x86_64_v3-gcc-7.3.1-intel-mkl-2020.4.304-5z4nxynzgtad2lzpo7bkszaohunybh3n.spack"}, {"hash": "yvpjk5cn4sbaypknnxfnluiwql5kzxqp", "compiler": "gcc@=11.1.0", "versions": ["2020.4.304"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=generic", "~ilp64", "+shared", "threads=none"], "stacks": ["e4s"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.19/build_cache/linux-ubuntu20.04-x86_64/gcc-11.1.0/intel-mkl-2020.4.304/linux-ubuntu20.04-x86_64-gcc-11.1.0-intel-mkl-2020.4.304-yvpjk5cn4sbaypknnxfnluiwql5kzxqp.spack"}]
----

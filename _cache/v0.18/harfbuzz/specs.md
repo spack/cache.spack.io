@@ -1,7 +1,0 @@
----
-title: "harfbuzz"
-layout: cache
-categories: [package, v0.18]
-meta: {"versions": ["4.2.1"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 2}}
-spec_details: [{"hash": "u2fdknyw22ook7vodx32nv2utamq2xe4", "compiler": "gcc@=7.5.0", "versions": ["4.2.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["buildtype=debugoptimized", "default_library=shared", "~graphite2", "~strip"], "stacks": ["data-vis-sdk"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/harfbuzz-4.2.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-harfbuzz-4.2.1-u2fdknyw22ook7vodx32nv2utamq2xe4.spack"}, {"hash": "6wnkgcbipifkgyyxts36cs5sffdh3b4r", "compiler": "gcc@=7.5.0", "versions": ["4.2.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["buildtype=debugoptimized", "default_library=shared", "~graphite2", "~strip"], "stacks": ["data-vis-sdk"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/harfbuzz-4.2.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-harfbuzz-4.2.1-6wnkgcbipifkgyyxts36cs5sffdh3b4r.spack"}]
----
