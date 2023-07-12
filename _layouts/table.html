@@ -5,6 +5,11 @@ layout: default
 <header>
 
 {% if page.tag != "all" %}
+<script type="text/javascript">
+const searchParams = new URLSearchParams(window.location.search);
+const stack = searchParams.get('stack');
+</script>
+
 <div class="alert bg-primary border-l-4 border-secondary pl-12 text-white">
   <div>
     <div class="pr-12">
@@ -13,8 +18,8 @@ layout: default
       <p class="text-sm">For more information, please visit the <a href="https://spack-tutorial.readthedocs.io/en/latest/tutorial_binary_cache.html" class="!link-secondary font-bold">Spack documentation on mirrors</a>.</p>
     </div>
   </div>
-  <div class="flex-none relative">
-    <div class="mockup-code bg-neutral-focus">
+  <div class="flex-none relative" x-data="{tag: '{{ page.tag }}', stack: stack}">
+    <div class="mockup-code bg-neutral-focus sm:max-w-[300px] max-w-[700px] xl:max-w-[900px]">
       <label class="absolute top-2 right-2">
         <button class="btn btn-sm btn-ghost gap-2 opacity-75 hover:opacity-100 transition transition-all z-10" onclick="copyCode()">
           <div class="swap swap-rotate">
@@ -26,7 +31,7 @@ layout: default
           copy code
         </button>
       </label>
-      <pre data-prefix="$"><code>spack mirror add spack-build-cache-{{ page.tag }} https://binaries.spack.io/{% if page.tag != "develop" %}releases/{% endif %}{{ page.tag }}</code></pre>
+      <pre data-prefix="$"><code x-text="`spack mirror add ${tag}${stack ? '-' + stack : ''} https://binaries.spack.io/${tag}${stack ? '/' + stack : ''}`"></code></pre>
       <pre data-prefix="$"><code>spack buildcache keys --install --trust</code></pre>
     </div>
   </div>
