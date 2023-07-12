@@ -18,6 +18,8 @@ jobs:
       run: |
          export PATH=/opt/spack/bin:$PATH
          pip install -r requirements.txt
+         # make directories first to ensure they exist to prevent find from failing
+         mkdir -p _cache pages/tags _data
          find _cache pages/tags _data -mindepth 1 -delete && spack python generate_cache.py
 
     - name: Push Results
