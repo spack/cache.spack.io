@@ -22,6 +22,8 @@ import spack.repo
 import spack.spec
 import spack.binary_distribution
 
+from spack.database import _DB_DIRNAME
+
 here = Path(os.getcwd())
 db_root = here / "spack-db"
 
@@ -161,7 +163,7 @@ def specs_by_package(name: str, url: str) -> dict[str, list[spack.spec.Spec]]:
     index = response.json()
 
     # Write index.json to file
-    entry_db = os.path.join(db_root, name)
+    entry_db = os.path.join(db_root, name, _DB_DIRNAME)
     if not os.path.exists(entry_db):
         os.makedirs(entry_db)
 
@@ -169,7 +171,7 @@ def specs_by_package(name: str, url: str) -> dict[str, list[spack.spec.Spec]]:
         outfile.write(json.dumps(index, indent=4))
 
     # yeah this is awkward <--- from @tgamblin :D
-    db = spack.database.Database(None, entry_db)
+    db = spack.database.Database(os.path.join(db_root, name))
 
     # Organize specs by package
     specs: dict[str, list[spack.spec.Spec]] = defaultdict(list)
