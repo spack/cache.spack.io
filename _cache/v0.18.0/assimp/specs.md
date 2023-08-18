@@ -2,6 +2,6 @@
 title: "assimp"
 layout: cache
 categories: [package, v0.18.0]
-meta: {"versions": ["5.2.3"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "root"], "num_specs": 1, "num_specs_by_stack": {"root": 1, "data-vis-sdk": 1}}
-spec_details: [{"hash": "ikrd4achnjjkiprhnj7rpdpyypyxdcgb", "compiler": "gcc@=7.5.0", "versions": ["5.2.3"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_type=RelWithDebInfo", "~ipo", "+shared"], "stacks": ["root", "data-vis-sdk"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/assimp-5.2.3/linux-ubuntu18.04-x86_64-gcc-7.5.0-assimp-5.2.3-ikrd4achnjjkiprhnj7rpdpyypyxdcgb.spack"}]
+meta: {"versions": ["5.2.3"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "root"], "num_specs": 1, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 1}}
+spec_details: [{"hash": "ikrd4achnjjkiprhnj7rpdpyypyxdcgb", "compiler": "gcc@=7.5.0", "versions": ["5.2.3"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_type=RelWithDebInfo", "~ipo", "+shared"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/releases/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/assimp-5.2.3/linux-ubuntu18.04-x86_64-gcc-7.5.0-assimp-5.2.3-ikrd4achnjjkiprhnj7rpdpyypyxdcgb.spack"}]
 ---
