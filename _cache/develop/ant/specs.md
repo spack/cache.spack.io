@@ -1,7 +1,0 @@
----
-title: "ant"
-layout: cache
-categories: [package, develop]
-meta: {"versions": ["1.10.13"], "compilers": ["gcc@=11.1.0", "oneapi@=2023.2.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64", "x86_64_v3"], "stacks": ["e4s-oneapi"], "num_specs": 2, "num_specs_by_stack": {"e4s-oneapi": 1}}
-spec_details: [{"hash": "pdxdkrrcghjwc2qcferimrfnrqwnjdbi", "compiler": "oneapi@=2023.2.0", "versions": ["1.10.13"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=generic"], "stacks": ["e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-x86_64/oneapi-2023.2.0/ant-1.10.13/linux-ubuntu20.04-x86_64-oneapi-2023.2.0-ant-1.10.13-pdxdkrrcghjwc2qcferimrfnrqwnjdbi.spack"}, {"hash": "wkbfgts3yf6awkzejhpfsmc3vdasmeyr", "compiler": "gcc@=11.1.0", "versions": ["1.10.13"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": [], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/ant-1.10.13/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-ant-1.10.13-wkbfgts3yf6awkzejhpfsmc3vdasmeyr.spack"}]
----
