@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
 *//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -167,6 +167,8 @@ optgroup,
 select,
 textarea {
   font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
   font-size: 100%; /* 1 */
   font-weight: inherit; /* 1 */
   line-height: inherit; /* 1 */
@@ -301,6 +303,13 @@ ul,
 menu {
   list-style: none;
   margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+dialog {
   padding: 0;
 }
 
@@ -774,7 +783,8 @@ html {
     .table.dataTable td.platforms,
     .table.dataTable td.oss,
     .table.dataTable td.targets,
-    .table.dataTable td.compilers {
+    .table.dataTable td.compilers,
+    .table.dataTable td.stacks {
   white-space: normal;
 }
 
@@ -1800,10 +1810,23 @@ html {
 .select[multiple] {
   height: auto;
 }
+.\!stack {
+  display: inline-grid !important;
+  place-items: center !important;
+  align-items: flex-end !important;
+}
 .stack {
   display: inline-grid;
   place-items: center;
   align-items: flex-end;
+}
+.\!stack > * {
+  grid-column-start: 1 !important;
+  grid-row-start: 1 !important;
+  transform: translateY(10%) scale(0.9) !important;
+  z-index: 1 !important;
+  width: 100% !important;
+  opacity: 0.6 !important;
 }
 .stack > * {
   grid-column-start: 1;
@@ -1813,10 +1836,20 @@ html {
   width: 100%;
   opacity: 0.6;
 }
+.\!stack > *:nth-child(2) {
+  transform: translateY(5%) scale(0.95) !important;
+  z-index: 2 !important;
+  opacity: 0.8 !important;
+}
 .stack > *:nth-child(2) {
   transform: translateY(5%) scale(0.95);
   z-index: 2;
   opacity: 0.8;
+}
+.\!stack > *:nth-child(1) {
+  transform: translateY(0) scale(1) !important;
+  z-index: 3 !important;
+  opacity: 1 !important;
 }
 .stack > *:nth-child(1) {
   transform: translateY(0) scale(1);
@@ -3057,6 +3090,9 @@ html {
 .card-normal .card-title {
   margin-bottom: 0.75rem;
 }
+.visible {
+  visibility: visible;
+}
 .absolute {
   position: absolute;
 }
@@ -3411,10 +3447,6 @@ html {
 
   .sm\:max-w-\[300px\] {
     max-width: 300px;
-  }
-
-  .sm\:max-w-\[400px\] {
-    max-width: 400px;
   }
 }
 

@@ -55,6 +55,7 @@ const stack = searchParams.get('stack');
             <th>OS</th>
             <th>Target</th>
             <th>Compiler</th>
+            <th>Stacks</th>
         </tr>
   </thead>      
 </table>
@@ -188,7 +189,24 @@ $('#software').DataTable( {
       targets: 0,
       orderable: false,
       className: "compilers",
-    },
+  },
+    { data: "stacks",
+      render: function ( data, type, row ) {
+         var stacks = ""
+         if(data.length > 0) {
+           $.each(data, function(i, e){
+            if (e !== "root")  {
+              stacks += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag searchable-badge'>" + e + "</button>";
+            }
+           })
+         }
+         return stacks
+      },
+      targets: 0,
+      orderable: false,
+      className: "stacks",
+      visible: !stack,
+  },
   ]
 });
  }
