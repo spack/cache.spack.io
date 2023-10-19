@@ -116,7 +116,6 @@ def write_cache_entries(name, specs, hash_stacks):
             for stack in hash_stacks[spec._hash]:
                 metrics["num_specs_by_stack"][stack] += 1
 
-            spec_name = "spec-%s.json" % i
             assert len(spec.versions) == 1, spec.versions
             tarball_dir = spack.binary_distribution.tarball_directory_name(spec)
             tarball_name = spack.binary_distribution.tarball_name(spec, ".spack")
@@ -178,8 +177,11 @@ def specs_by_package(name: str, url: str) -> dict[str, list[spack.spec.Spec]]:
 
     # keep lookup of specs
     with db.read_transaction():
-        for spec in db.query_local(installed=False, in_buildcache=True):
-            specs[spec.name].append(spec)
+        db_specs = db.query_local(installed=False, in_buildcache=True)
+        if db_specs:
+            for spec in db_specs:
+                assert isinstance(spec.name, str)  # appease type checker
+                specs[spec.name].append(spec)
 
     return specs
 
