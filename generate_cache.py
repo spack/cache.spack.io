@@ -119,8 +119,7 @@ def write_cache_entries(name, specs, hash_stacks):
             assert len(spec.versions) == 1, spec.versions
             tarball_dir = spack.binary_distribution.tarball_directory_name(spec)
             tarball_name = spack.binary_distribution.tarball_name(spec, ".spack")
-            release_prefix = "releases/" if name != "develop" else ""
-            tarball = f"{release_prefix}{name}/build_cache/{tarball_dir}/{tarball_name}"
+            tarball = f"{name}/build_cache/{tarball_dir}/{tarball_name}"
             tarball_url = f"https://binaries.spack.io/{tarball}"
             spec_details.append(
                 {
