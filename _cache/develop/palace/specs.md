@@ -1,0 +1,7 @@
+---
+title: "palace"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["0.12.0"], "compilers": ["oneapi@=2023.2.0"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3", "x86_64_v4"], "stacks": ["root"], "num_specs": 2, "num_specs_by_stack": {"root": 2}}
+spec_details: [{"hash": "rs4sxdiv6l7tll6nenzkkk4mjxaib3tl", "compiler": "oneapi@=2023.2.0", "versions": ["0.12.0"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["~arpack", "build_system=cmake", "build_type=Release", "generator=make", "+gslib", "~int64", "~ipo", "+libxsmm", "~magma", "~mumps", "~openmp", "+shared", "+slepc", "~strumpack", "+superlu-dist"], "stacks": ["root"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-amzn2-x86_64_v3/oneapi-2023.2.0/palace-0.12.0/linux-amzn2-x86_64_v3-oneapi-2023.2.0-palace-0.12.0-rs4sxdiv6l7tll6nenzkkk4mjxaib3tl.spack"}, {"hash": "y7vyfzvefpqvxrp7x7potzywe4tsndat", "compiler": "oneapi@=2023.2.0", "versions": ["0.12.0"], "os": "amzn2", "platform": "linux", "target": "x86_64_v4", "variants": ["~arpack", "build_system=cmake", "build_type=Release", "generator=make", "+gslib", "~int64", "~ipo", "+libxsmm", "~magma", "~mumps", "~openmp", "+shared", "+slepc", "~strumpack", "+superlu-dist"], "stacks": ["root"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-amzn2-x86_64_v4/oneapi-2023.2.0/palace-0.12.0/linux-amzn2-x86_64_v4-oneapi-2023.2.0-palace-0.12.0-y7vyfzvefpqvxrp7x7potzywe4tsndat.spack"}]
+---
