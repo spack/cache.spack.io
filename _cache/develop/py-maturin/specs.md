@@ -1,0 +1,7 @@
+---
+title: "py-maturin"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["1.5.1"], "compilers": ["apple-clang@=15.0.0"], "oss": ["ventura"], "platforms": ["darwin"], "targets": ["aarch64"], "stacks": ["ml-darwin-aarch64-mps", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 2, "root": 2}}
+spec_details: [{"hash": "6lthqha6dpmhdfid5gdbvohgln4qxeth", "compiler": "apple-clang@=15.0.0", "versions": ["1.5.1"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-maturin-1.5.1/darwin-ventura-aarch64-apple-clang-15.0.0-py-maturin-1.5.1-6lthqha6dpmhdfid5gdbvohgln4qxeth.spack"}, {"hash": "qn7iizzj6r3a2jf4t4x4zaoozrbhyguz", "compiler": "apple-clang@=15.0.0", "versions": ["1.5.1"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-maturin-1.5.1/darwin-ventura-aarch64-apple-clang-15.0.0-py-maturin-1.5.1-qn7iizzj6r3a2jf4t4x4zaoozrbhyguz.spack"}]
+---

@@ -1,7 +1,0 @@
----
-title: "py-json5"
-layout: cache
-categories: [package, develop]
-meta: {"versions": ["0.9.14"], "compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "data-vis-sdk": 1}}
-spec_details: [{"hash": "hl7sowvzf37qnn33vygwyvohkw7oz5vy", "compiler": "gcc@=11.4.0", "versions": ["0.9.14"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-json5-0.9.14/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-json5-0.9.14-hl7sowvzf37qnn33vygwyvohkw7oz5vy.spack"}, {"hash": "ek3xqpn3vdm5cdyn25hpwwcd2wxwqiwi", "compiler": "gcc@=11.1.0", "versions": ["0.9.14"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "data-vis-sdk"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-json5-0.9.14/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-json5-0.9.14-ek3xqpn3vdm5cdyn25hpwwcd2wxwqiwi.spack"}]
----

@@ -1,0 +1,7 @@
+---
+title: "py-yarl"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["1.9.2"], "compilers": ["apple-clang@=15.0.0"], "oss": ["ventura"], "platforms": ["darwin"], "targets": ["aarch64"], "stacks": ["ml-darwin-aarch64-mps", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 2, "root": 2}}
+spec_details: [{"hash": "uszlpdhx3db2d5i4p3ulyd6yc4dzuphr", "compiler": "apple-clang@=15.0.0", "versions": ["1.9.2"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-yarl-1.9.2/darwin-ventura-aarch64-apple-clang-15.0.0-py-yarl-1.9.2-uszlpdhx3db2d5i4p3ulyd6yc4dzuphr.spack"}, {"hash": "3x3thn2c7zfzzefitrmckrgbewyeskkk", "compiler": "apple-clang@=15.0.0", "versions": ["1.9.2"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-yarl-1.9.2/darwin-ventura-aarch64-apple-clang-15.0.0-py-yarl-1.9.2-3x3thn2c7zfzzefitrmckrgbewyeskkk.spack"}]
+---

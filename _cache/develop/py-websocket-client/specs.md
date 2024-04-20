@@ -1,7 +1,0 @@
----
-title: "py-websocket-client"
-layout: cache
-categories: [package, develop]
-meta: {"versions": ["1.6.3"], "compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "data-vis-sdk": 1}}
-spec_details: [{"hash": "wlkwilgs6gn7uw4rkdav23uphgcr4gtd", "compiler": "gcc@=11.4.0", "versions": ["1.6.3"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-websocket-client-1.6.3/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-websocket-client-1.6.3-wlkwilgs6gn7uw4rkdav23uphgcr4gtd.spack"}, {"hash": "2jk44nvbr5uzjcohqppzsm7p4t2bymsz", "compiler": "gcc@=11.1.0", "versions": ["1.6.3"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "data-vis-sdk"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-websocket-client-1.6.3/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-websocket-client-1.6.3-2jk44nvbr5uzjcohqppzsm7p4t2bymsz.spack"}]
----
