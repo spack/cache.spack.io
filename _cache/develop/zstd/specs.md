@@ -2,6 +2,6 @@
 title: "zstd"
 layout: cache
 categories: [package, develop]
-meta: {"versions": ["1.5.5"], "compilers": ["gcc@=10.2.1"], "oss": ["centos7"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["developer-tools-manylinux2014", "root"], "num_specs": 1, "num_specs_by_stack": {"developer-tools-manylinux2014": 1, "root": 1}}
-spec_details: [{"hash": "go3bzq63s2zxiytahla6dqo4hr6jh4bt", "compiler": "gcc@=10.2.1", "versions": ["1.5.5"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=makefile", "compression=none", "libs=shared,static", "+programs"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/zstd-1.5.5/linux-centos7-x86_64_v3-gcc-10.2.1-zstd-1.5.5-go3bzq63s2zxiytahla6dqo4hr6jh4bt.spack"}]
+meta: {"versions": ["1.5.5"], "compilers": ["gcc@=10.2.1"], "oss": ["centos7"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["developer-tools-manylinux2014", "root"], "num_specs": 1, "num_specs_by_stack": {"root": 1, "developer-tools-manylinux2014": 1}}
+spec_details: [{"hash": "go3bzq63s2zxiytahla6dqo4hr6jh4bt", "compiler": "gcc@=10.2.1", "versions": ["1.5.5"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=makefile", "compression=none", "libs=shared,static", "+programs"], "stacks": ["root", "developer-tools-manylinux2014"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/zstd-1.5.5/linux-centos7-x86_64_v3-gcc-10.2.1-zstd-1.5.5-go3bzq63s2zxiytahla6dqo4hr6jh4bt.spack"}]
 ---
