@@ -1,0 +1,7 @@
+---
+title: "py-terminado"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["0.17.1"], "compilers": ["oneapi@=2024.0.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s-oneapi": 2}}
+spec_details: [{"hash": "4qlwzof2axeyf6yrqv6i23uobsmsjjrf", "compiler": "oneapi@=2024.0.0", "versions": ["0.17.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.0.0/py-terminado-0.17.1/linux-ubuntu22.04-x86_64_v3-oneapi-2024.0.0-py-terminado-0.17.1-4qlwzof2axeyf6yrqv6i23uobsmsjjrf.spack"}, {"hash": "gmp62ym64nuju6ywemhsol45tcmhmgdp", "compiler": "oneapi@=2024.0.0", "versions": ["0.17.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.0.0/py-terminado-0.17.1/linux-ubuntu22.04-x86_64_v3-oneapi-2024.0.0-py-terminado-0.17.1-gmp62ym64nuju6ywemhsol45tcmhmgdp.spack"}]
+---

@@ -1,0 +1,7 @@
+---
+title: "openblas"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["0.3.26"], "compilers": ["oneapi@=2024.0.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s-oneapi": 2}}
+spec_details: [{"hash": "ri2ywrein5buhisn3w4t3pn4z33hx4yw", "compiler": "oneapi@=2024.0.0", "versions": ["0.3.26"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~bignuma", "build_system=makefile", "~consistent_fpcsr", "+dynamic_dispatch", "+fortran", "~ilp64", "+locking", "+pic", "+shared", "symbol_suffix=none", "threads=openmp"], "stacks": ["root", "e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.0.0/openblas-0.3.26/linux-ubuntu22.04-x86_64_v3-oneapi-2024.0.0-openblas-0.3.26-ri2ywrein5buhisn3w4t3pn4z33hx4yw.spack"}, {"hash": "p67ag3xuapkvpw6cg536lphj67bushlh", "compiler": "oneapi@=2024.0.0", "versions": ["0.3.26"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~bignuma", "build_system=makefile", "~consistent_fpcsr", "+dynamic_dispatch", "+fortran", "~ilp64", "+locking", "+pic", "~shared", "symbol_suffix=none", "threads=openmp"], "stacks": ["root", "e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.0.0/openblas-0.3.26/linux-ubuntu22.04-x86_64_v3-oneapi-2024.0.0-openblas-0.3.26-p67ag3xuapkvpw6cg536lphj67bushlh.spack"}]
+---

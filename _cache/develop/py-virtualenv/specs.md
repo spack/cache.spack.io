@@ -1,0 +1,7 @@
+---
+title: "py-virtualenv"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["20.24.5"], "compilers": ["oneapi@=2024.0.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s-oneapi": 2}}
+spec_details: [{"hash": "qayvbdqjqpsnif3kd4hyushe4cy3s53x", "compiler": "oneapi@=2024.0.0", "versions": ["20.24.5"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.0.0/py-virtualenv-20.24.5/linux-ubuntu22.04-x86_64_v3-oneapi-2024.0.0-py-virtualenv-20.24.5-qayvbdqjqpsnif3kd4hyushe4cy3s53x.spack"}, {"hash": "6pxf6tcf4pl5dliblecqihzpparyb7zm", "compiler": "oneapi@=2024.0.0", "versions": ["20.24.5"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.0.0/py-virtualenv-20.24.5/linux-ubuntu22.04-x86_64_v3-oneapi-2024.0.0-py-virtualenv-20.24.5-6pxf6tcf4pl5dliblecqihzpparyb7zm.spack"}]
+---

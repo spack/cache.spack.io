@@ -1,0 +1,7 @@
+---
+title: "yaml-cpp"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["0.6.3", "0.7.0"], "compilers": ["oneapi@=2024.0.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s-oneapi": 2}}
+spec_details: [{"hash": "nvl4nraijw5vlt6sgz6hvxt5wkylzkzv", "compiler": "oneapi@=2024.0.0", "versions": ["0.7.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+pic", "+shared", "~tests"], "stacks": ["root", "e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.0.0/yaml-cpp-0.7.0/linux-ubuntu22.04-x86_64_v3-oneapi-2024.0.0-yaml-cpp-0.7.0-nvl4nraijw5vlt6sgz6hvxt5wkylzkzv.spack"}, {"hash": "kdeg3qpvvn7r23jdoiiazrgcis77qa24", "compiler": "oneapi@=2024.0.0", "versions": ["0.6.3"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+pic", "+shared", "~tests"], "stacks": ["root", "e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.0.0/yaml-cpp-0.6.3/linux-ubuntu22.04-x86_64_v3-oneapi-2024.0.0-yaml-cpp-0.6.3-kdeg3qpvvn7r23jdoiiazrgcis77qa24.spack"}]
+---

@@ -1,0 +1,7 @@
+---
+title: "py-zope-event"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["4.6"], "compilers": ["oneapi@=2024.0.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s-oneapi": 2}}
+spec_details: [{"hash": "irtpf7mfjxyjrecsswobwlserizph2zr", "compiler": "oneapi@=2024.0.0", "versions": ["4.6"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.0.0/py-zope-event-4.6/linux-ubuntu22.04-x86_64_v3-oneapi-2024.0.0-py-zope-event-4.6-irtpf7mfjxyjrecsswobwlserizph2zr.spack"}, {"hash": "5hjyhczf3pvry3dmo4c7zxj6ixbk2vke", "compiler": "oneapi@=2024.0.0", "versions": ["4.6"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.0.0/py-zope-event-4.6/linux-ubuntu22.04-x86_64_v3-oneapi-2024.0.0-py-zope-event-4.6-5hjyhczf3pvry3dmo4c7zxj6ixbk2vke.spack"}]
+---

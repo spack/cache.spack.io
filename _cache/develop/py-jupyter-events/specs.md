@@ -1,0 +1,7 @@
+---
+title: "py-jupyter-events"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["0.6.3"], "compilers": ["oneapi@=2024.0.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s-oneapi": 2}}
+spec_details: [{"hash": "qktyan4g25jbkhyncswkbalbwirpe4bx", "compiler": "oneapi@=2024.0.0", "versions": ["0.6.3"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.0.0/py-jupyter-events-0.6.3/linux-ubuntu22.04-x86_64_v3-oneapi-2024.0.0-py-jupyter-events-0.6.3-qktyan4g25jbkhyncswkbalbwirpe4bx.spack"}, {"hash": "7q6y6yg3cpyw7jfwhawiipn6h6ibcc4d", "compiler": "oneapi@=2024.0.0", "versions": ["0.6.3"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.0.0/py-jupyter-events-0.6.3/linux-ubuntu22.04-x86_64_v3-oneapi-2024.0.0-py-jupyter-events-0.6.3-7q6y6yg3cpyw7jfwhawiipn6h6ibcc4d.spack"}]
+---

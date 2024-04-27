@@ -1,0 +1,7 @@
+---
+title: "metis"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["5.1.0"], "compilers": ["gcc@=11.4.0", "oneapi@=2024.0.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-oneapi": 1}}
+spec_details: [{"hash": "6xbydt5evbfu5hur2dzauilnuq2qq6tc", "compiler": "gcc@=11.4.0", "versions": ["5.1.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~gdb", "generator=make", "~int64", "~ipo", "patches=4991da9,93a7903,b1225da", "~real64", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/metis-5.1.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-metis-5.1.0-6xbydt5evbfu5hur2dzauilnuq2qq6tc.spack"}, {"hash": "7gwwcmyp5ix4xadej3hyh4dctplwi5wc", "compiler": "oneapi@=2024.0.0", "versions": ["5.1.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~gdb", "generator=make", "~int64", "~ipo", "patches=4991da9,93a7903", "~real64", "+shared"], "stacks": ["root", "e4s-oneapi"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.0.0/metis-5.1.0/linux-ubuntu22.04-x86_64_v3-oneapi-2024.0.0-metis-5.1.0-7gwwcmyp5ix4xadej3hyh4dctplwi5wc.spack"}]
+---
