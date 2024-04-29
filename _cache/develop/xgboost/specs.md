@@ -1,0 +1,7 @@
+---
+title: "xgboost"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["1.6.2"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cpu": 1, "root": 2, "ml-linux-x86_64-cuda": 1}}
+spec_details: [{"hash": "oyvpxgtohsmamtyf7w7562fryoc4thmt", "compiler": "gcc@=11.4.0", "versions": ["1.6.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~cuda", "generator=ninja", "~ipo", "~nccl", "+openmp"], "stacks": ["ml-linux-x86_64-cpu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/xgboost-1.6.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-xgboost-1.6.2-oyvpxgtohsmamtyf7w7562fryoc4thmt.spack"}, {"hash": "vocqxnjqtml6i4lkjqhhgkdhfhzdtfxl", "compiler": "gcc@=11.4.0", "versions": ["1.6.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "+cuda", "cuda_arch=80", "generator=ninja", "~ipo", "~nccl", "+openmp"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/xgboost-1.6.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-xgboost-1.6.2-vocqxnjqtml6i4lkjqhhgkdhfhzdtfxl.spack"}]
+---
