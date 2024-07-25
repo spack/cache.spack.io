@@ -274,7 +274,7 @@ def main():
             elif match := re.match(r"^develop-(\d{4}-\d{2}-\d{2})$", item["name"]):
                 return 2, -int(match.group(1).replace("-", ""))
             else:
-                return 1, item["name"]
+                return 1, -int(item["name"].replace("v", "").replace(".", ""))
 
         tags = sorted(tags, key=tag_sorter)
 
