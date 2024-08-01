@@ -1,0 +1,7 @@
+---
+title: "lmod"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["8.7.18"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "tutorial": 2}}
+spec_details: [{"hash": "uiyk44e6ww6y4fblz7m6dhziraqpwllm", "compiler": "gcc@=11.4.0", "versions": ["8.7.18"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["+auto_swap", "build_system=autotools", "~redirect"], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/lmod-8.7.18/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-lmod-8.7.18-uiyk44e6ww6y4fblz7m6dhziraqpwllm.spack"}, {"hash": "rmvvjw6nwra72uyy5sp5yh6xciwookrx", "compiler": "gcc@=11.4.0", "versions": ["8.7.18"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["+auto_swap", "build_system=autotools", "~redirect"], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/lmod-8.7.18/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-lmod-8.7.18-rmvvjw6nwra72uyy5sp5yh6xciwookrx.spack"}]
+---

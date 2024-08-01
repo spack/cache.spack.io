@@ -1,0 +1,7 @@
+---
+title: "lua-luafilesystem"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["1.8.0"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "tutorial": 2}}
+spec_details: [{"hash": "ipsiavi36qyqjgjvpepsxn423ur7dywr", "compiler": "gcc@=11.4.0", "versions": ["1.8.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=lua"], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/lua-luafilesystem-1.8.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-lua-luafilesystem-1.8.0-ipsiavi36qyqjgjvpepsxn423ur7dywr.spack"}, {"hash": "w3uesy5bxpbli4yqpi3gh77ova2q2m3q", "compiler": "gcc@=11.4.0", "versions": ["1.8.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=lua"], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/lua-luafilesystem-1.8.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-lua-luafilesystem-1.8.0-w3uesy5bxpbli4yqpi3gh77ova2q2m3q.spack"}]
+---
