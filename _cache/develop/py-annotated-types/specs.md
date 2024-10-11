@@ -1,0 +1,7 @@
+---
+title: "py-annotated-types"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["0.7.0"], "compilers": ["apple-clang@=15.0.0", "gcc@=13.2.0"], "oss": ["ubuntu24.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "root": 2, "ml-linux-x86_64-cuda": 1, "ml-linux-x86_64-cpu": 1}}
+spec_details: [{"hash": "lcl2dhv6hkz57g7s7vtosclintmgkevs", "compiler": "apple-clang@=15.0.0", "versions": ["0.7.0"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-annotated-types-0.7.0/darwin-ventura-aarch64-apple-clang-15.0.0-py-annotated-types-0.7.0-lcl2dhv6hkz57g7s7vtosclintmgkevs.spack"}, {"hash": "mjboh7vojrj2yikxloeubqhfvhe23kur", "compiler": "gcc@=13.2.0", "versions": ["0.7.0"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cuda", "ml-linux-x86_64-cpu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-annotated-types-0.7.0/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-annotated-types-0.7.0-mjboh7vojrj2yikxloeubqhfvhe23kur.spack"}]
+---
