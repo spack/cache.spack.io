@@ -1,0 +1,7 @@
+---
+title: "py-python-lsp-jsonrpc"
+layout: cache
+categories: [package, develop-2024-12-29]
+meta: {"versions": ["1.1.2"], "compilers": ["gcc@=10.5.0", "gcc@=13.3.0"], "oss": ["centos7", "rhel8"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "developer-tools-x86_64_v3-linux-gnu": 1, "developer-tools-aarch64-linux-gnu": 1}}
+spec_details: [{"hash": "a7bkldglrrq2ua6dgpyfp2knrme7xqwn", "compiler": "gcc@=10.5.0", "versions": ["1.1.2"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "developer-tools-x86_64_v3-linux-gnu"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-12-29/build_cache/linux-centos7-x86_64_v3/gcc-10.5.0/py-python-lsp-jsonrpc-1.1.2/linux-centos7-x86_64_v3-gcc-10.5.0-py-python-lsp-jsonrpc-1.1.2-a7bkldglrrq2ua6dgpyfp2knrme7xqwn.spack"}, {"hash": "cuutfkrrx2qhpkwodyj7rrzapuybywig", "compiler": "gcc@=13.3.0", "versions": ["1.1.2"], "os": "rhel8", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["root", "developer-tools-aarch64-linux-gnu"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-12-29/build_cache/linux-rhel8-aarch64/gcc-13.3.0/py-python-lsp-jsonrpc-1.1.2/linux-rhel8-aarch64-gcc-13.3.0-py-python-lsp-jsonrpc-1.1.2-cuutfkrrx2qhpkwodyj7rrzapuybywig.spack"}]
+---
