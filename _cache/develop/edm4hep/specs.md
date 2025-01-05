@@ -1,0 +1,7 @@
+---
+title: "edm4hep"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["0.99.1"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["hep", "root"], "num_specs": 2, "num_specs_by_stack": {"hep": 2, "root": 2}}
+spec_details: [{"hash": "6kxdie2c7ri37cbykkeowfbor5u5oxkl", "compiler": "gcc@=11.4.0", "versions": ["0.99.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "cxxstd=20", "generator=make", "~ipo"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/edm4hep-0.99.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-edm4hep-0.99.1-6kxdie2c7ri37cbykkeowfbor5u5oxkl.spack"}, {"hash": "r4h4mzi434wwtgii4e6zwmnc3etbae5p", "compiler": "gcc@=11.4.0", "versions": ["0.99.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "cxxstd=20", "generator=make", "~ipo"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/edm4hep-0.99.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-edm4hep-0.99.1-r4h4mzi434wwtgii4e6zwmnc3etbae5p.spack"}]
+---

@@ -1,0 +1,7 @@
+---
+title: "py-graphviz"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["0.13.2"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["hep", "root"], "num_specs": 2, "num_specs_by_stack": {"hep": 2, "root": 2}}
+spec_details: [{"hash": "ijh3kxvkgqp7jsron7n7wb2546lfvzkc", "compiler": "gcc@=11.4.0", "versions": ["0.13.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~dev", "~docs"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-graphviz-0.13.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-graphviz-0.13.2-ijh3kxvkgqp7jsron7n7wb2546lfvzkc.spack"}, {"hash": "xmgcnxohmkucwygb6kgfbfx757cldves", "compiler": "gcc@=11.4.0", "versions": ["0.13.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~dev", "~docs"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-graphviz-0.13.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-graphviz-0.13.2-xmgcnxohmkucwygb6kgfbfx757cldves.spack"}]
+---

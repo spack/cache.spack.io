@@ -1,0 +1,7 @@
+---
+title: "vdt"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["0.4.4"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["hep", "root"], "num_specs": 2, "num_specs_by_stack": {"hep": 2, "root": 2}}
+spec_details: [{"hash": "34gkwlcoqnfh7ijlk6rkawascf6s6ym3", "compiler": "gcc@=11.4.0", "versions": ["0.4.4"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~preload"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/vdt-0.4.4/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-vdt-0.4.4-34gkwlcoqnfh7ijlk6rkawascf6s6ym3.spack"}, {"hash": "j7bj5y3lsjkw4lo2qoa2wsfpq2abs5ix", "compiler": "gcc@=11.4.0", "versions": ["0.4.4"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~preload"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/vdt-0.4.4/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-vdt-0.4.4-j7bj5y3lsjkw4lo2qoa2wsfpq2abs5ix.spack"}]
+---

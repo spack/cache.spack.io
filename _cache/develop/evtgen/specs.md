@@ -1,0 +1,7 @@
+---
+title: "evtgen"
+layout: cache
+categories: [package, develop]
+meta: {"versions": ["02.02.01"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["hep", "root"], "num_specs": 2, "num_specs_by_stack": {"hep": 2, "root": 2}}
+spec_details: [{"hash": "2uiuhp3biiorj7bndaytcszfibulj262", "compiler": "gcc@=11.4.0", "versions": ["02.02.01"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~hepmc3", "~ipo", "~photos", "~pythia8", "~tauola"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/evtgen-02.02.01/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-evtgen-02.02.01-2uiuhp3biiorj7bndaytcszfibulj262.spack"}, {"hash": "6vs4ogrsuvvo2smdqcrxb2ii6svwd5ja", "compiler": "gcc@=11.4.0", "versions": ["02.02.01"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~hepmc3", "~ipo", "~photos", "~pythia8", "~tauola"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/evtgen-02.02.01/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-evtgen-02.02.01-6vs4ogrsuvvo2smdqcrxb2ii6svwd5ja.spack"}]
+---
