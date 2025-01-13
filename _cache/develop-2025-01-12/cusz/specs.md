@@ -1,0 +1,7 @@
+---
+title: "cusz"
+layout: cache
+categories: [package, develop-2025-01-12]
+meta: {"versions": ["0.6.0"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s": 2, "root": 2}}
+spec_details: [{"hash": "52c3nuycqezmgshuhtxqirinxk35ymwl", "compiler": "gcc@=11.4.0", "versions": ["0.6.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "+cuda", "cuda_arch=90", "generator=make", "~ipo"], "stacks": ["e4s", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/cusz-0.6.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-cusz-0.6.0-52c3nuycqezmgshuhtxqirinxk35ymwl.spack"}, {"hash": "lqn7lc5ptjluk4zr72b3cwwsaaeia5e6", "compiler": "gcc@=11.4.0", "versions": ["0.6.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "+cuda", "cuda_arch=80", "generator=make", "~ipo"], "stacks": ["e4s", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/cusz-0.6.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-cusz-0.6.0-lqn7lc5ptjluk4zr72b3cwwsaaeia5e6.spack"}]
+---
