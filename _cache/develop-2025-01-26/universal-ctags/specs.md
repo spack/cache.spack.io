@@ -1,0 +1,7 @@
+---
+title: "universal-ctags"
+layout: cache
+categories: [package, develop-2025-01-26]
+meta: {"versions": ["6.1.20240505.0"], "compilers": ["gcc@=10.5.0", "gcc@=13.3.0"], "oss": ["centos7", "rhel8"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "developer-tools-x86_64_v3-linux-gnu": 1, "developer-tools-aarch64-linux-gnu": 1}}
+spec_details: [{"hash": "r2ymoe56plggucoyd3dkzovbvn7etfdw", "compiler": "gcc@=10.5.0", "versions": ["6.1.20240505.0"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["root", "developer-tools-x86_64_v3-linux-gnu"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-centos7-x86_64_v3/gcc-10.5.0/universal-ctags-6.1.20240505.0/linux-centos7-x86_64_v3-gcc-10.5.0-universal-ctags-6.1.20240505.0-r2ymoe56plggucoyd3dkzovbvn7etfdw.spack"}, {"hash": "limyeli3ogsihboswhgt5tgoip4tcdkq", "compiler": "gcc@=13.3.0", "versions": ["6.1.20240505.0"], "os": "rhel8", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools"], "stacks": ["root", "developer-tools-aarch64-linux-gnu"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-rhel8-aarch64/gcc-13.3.0/universal-ctags-6.1.20240505.0/linux-rhel8-aarch64-gcc-13.3.0-universal-ctags-6.1.20240505.0-limyeli3ogsihboswhgt5tgoip4tcdkq.spack"}]
+---
