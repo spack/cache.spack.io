@@ -1,0 +1,7 @@
+---
+title: "perl-lwp-mediatypes"
+layout: cache
+categories: [package, develop-2025-02-02]
+meta: {"versions": ["6.04"], "compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "e4s", "hep", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "data-vis-sdk": 1, "e4s": 1, "hep": 1}}
+spec_details: [{"hash": "qq47khcy4jdrx36pvzj3kortdo7vf5t4", "compiler": "gcc@=11.1.0", "versions": ["6.04"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=perl"], "stacks": ["root", "data-vis-sdk"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/perl-lwp-mediatypes-6.04/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-perl-lwp-mediatypes-6.04-qq47khcy4jdrx36pvzj3kortdo7vf5t4.spack"}, {"hash": "36cqvgsxnj7fkaysnegdqj65xwqqcsn6", "compiler": "gcc@=11.4.0", "versions": ["6.04"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=perl"], "stacks": ["e4s", "root", "hep"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/perl-lwp-mediatypes-6.04/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-perl-lwp-mediatypes-6.04-36cqvgsxnj7fkaysnegdqj65xwqqcsn6.spack"}]
+---
