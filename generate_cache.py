@@ -28,6 +28,7 @@ here = Path(os.getcwd())
 db_root = here / "spack-db"
 
 INDEX_URL = "https://binaries.spack.io/cache_spack_io_index.json"
+MUTABLE_REFS = ["develop"]
 
 # Template for cache data
 template = """---
@@ -235,8 +236,6 @@ def main():
 
     tags_dir = here / "pages" / "tags"
     tags_dir.mkdir(parents=True, exist_ok=True)
-    for f in tags_dir.iterdir():
-        f.unlink()
 
     for name, stacks in get_build_cache_index().items():
         if not any(s.label == "root" for s in stacks):
@@ -244,6 +243,12 @@ def main():
             continue
 
         url = f"https://binaries.spack.io/{name}/build_cache/index.json"
+
+        cache_path = here / "_cache" / name
+        if os.path.exists(cache_path) and name not in MUTABLE_REFS:
+            print(f"Skip parsing cache for {name}. We already have it, and it is immutable.")
+            continue
+
         print(f"Parsing cache for {name}")
 
         # Create spack database and load specs
