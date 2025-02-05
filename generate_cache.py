@@ -229,9 +229,19 @@ def get_specs_metadata(specs: dict[str, list[spack.spec.Spec]]) -> dict:
     return updates
 
 
+def load_existing_metadata() -> dict[str, dict]:
+    meta_path = here / "_data" / "meta.yaml"
+    try:
+        with open(meta_path) as fd:
+            return yaml.safe_load(fd.read())
+    except Exception:
+        print("No pre-existing metadata could be read")
+        return {}
+
+
 def main():
     # Metadata file will store all versions
-    meta: dict[str, dict] = {}
+    meta: dict[str, dict] = load_existing_metadata()
     tags = []
 
     tags_dir = here / "pages" / "tags"
