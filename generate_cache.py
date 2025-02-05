@@ -131,7 +131,7 @@ def write_cache_entries(name, specs, hash_stacks):
                     "platform": spec.architecture.platform,
                     "target": spec.architecture.target.name,
                     "variants": [str(v) for v in spec.variants.values()],
-                    "stacks": list(hash_stacks[spec._hash]),
+                    "stacks": sorted(list(hash_stacks[spec._hash])),
                     "size": binary_size(spec),
                     "tarball": tarball_url,
                 }
@@ -145,8 +145,8 @@ def write_cache_entries(name, specs, hash_stacks):
         render = template % (
             package_name,
             name,
-            json.dumps(metrics),
-            json.dumps(spec_details),
+            json.dumps(metrics, sort_keys=True),
+            json.dumps(spec_details, sort_keys=True),
         )
         md_file = os.path.join(package_dir, "specs.md")
         with open(md_file, "w") as fd:
