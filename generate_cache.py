@@ -239,10 +239,20 @@ def load_existing_metadata() -> dict[str, dict]:
         return {}
 
 
+def load_existing_tags() -> list[dict]:
+    tag_path = here / "_data" / "tags.yaml"
+    try:
+        with open(tag_path) as fd:
+            return yaml.safe_load(fd.read())
+    except Exception:
+        print("No pre-existing tags could be read")
+        return []
+
+
 def main():
     # Metadata file will store all versions
     meta: dict[str, dict] = load_existing_metadata()
-    tags = []
+    tags = load_existing_tags()
 
     tags_dir = here / "pages" / "tags"
     tags_dir.mkdir(parents=True, exist_ok=True)
@@ -276,7 +286,15 @@ def main():
         print("Writing jekyll files")
         write_cache_entries(name, specs, hash_stacks)
 
-        tags.append({"name": name, "stacks": sorted([s.label for s in stacks])})
+        tag_entry = {"name": name, "stacks": sorted([s.label for s in stacks])}
+
+        for idx, tag_stacks in enumerate(tags):
+            if tag_stacks["name"] == name:
+                tags[idx] = tag_entry
+                break
+        else:
+            tags.append(tag_entry)
+
         with open(f"pages/tags/{name}.md", "w") as f:
             f.write(tag_page_template % (name, name))
 
