@@ -28,6 +28,7 @@ here = Path(os.getcwd())
 db_root = here / "spack-db"
 
 INDEX_URL = "https://binaries.spack.io/cache_spack_io_index.json"
+MUTABLE_REFS = ["develop"]
 
 # Template for cache data
 template = """---
@@ -130,7 +131,7 @@ def write_cache_entries(name, specs, hash_stacks):
                     "platform": spec.architecture.platform,
                     "target": spec.architecture.target.name,
                     "variants": [str(v) for v in spec.variants.values()],
-                    "stacks": list(hash_stacks[spec._hash]),
+                    "stacks": sorted(list(hash_stacks[spec._hash])),
                     "size": binary_size(spec),
                     "tarball": tarball_url,
                 }
@@ -144,8 +145,8 @@ def write_cache_entries(name, specs, hash_stacks):
         render = template % (
             package_name,
             name,
-            json.dumps(metrics),
-            json.dumps(spec_details),
+            json.dumps(metrics, sort_keys=True),
+            json.dumps(spec_details, sort_keys=True),
         )
         md_file = os.path.join(package_dir, "specs.md")
         with open(md_file, "w") as fd:
@@ -228,15 +229,33 @@ def get_specs_metadata(specs: dict[str, list[spack.spec.Spec]]) -> dict:
     return updates
 
 
+def load_existing_metadata() -> dict[str, dict]:
+    meta_path = here / "_data" / "meta.yaml"
+    try:
+        with open(meta_path) as fd:
+            return yaml.safe_load(fd.read())
+    except Exception:
+        print("No pre-existing metadata could be read")
+        return {}
+
+
+def load_existing_tags() -> list[dict]:
+    tag_path = here / "_data" / "tags.yaml"
+    try:
+        with open(tag_path) as fd:
+            return yaml.safe_load(fd.read())
+    except Exception:
+        print("No pre-existing tags could be read")
+        return []
+
+
 def main():
     # Metadata file will store all versions
-    meta: dict[str, dict] = {}
-    tags = []
+    meta: dict[str, dict] = load_existing_metadata()
+    tags = load_existing_tags()
 
     tags_dir = here / "pages" / "tags"
     tags_dir.mkdir(parents=True, exist_ok=True)
-    for f in tags_dir.iterdir():
-        f.unlink()
 
     for name, stacks in get_build_cache_index().items():
         if not any(s.label == "root" for s in stacks):
@@ -244,6 +263,12 @@ def main():
             continue
 
         url = f"https://binaries.spack.io/{name}/build_cache/index.json"
+
+        cache_path = here / "_cache" / name
+        if os.path.exists(cache_path) and name not in MUTABLE_REFS:
+            print(f"Skip parsing cache for {name}. We already have it, and it is immutable.")
+            continue
+
         print(f"Parsing cache for {name}")
 
         # Create spack database and load specs
@@ -261,7 +286,15 @@ def main():
         print("Writing jekyll files")
         write_cache_entries(name, specs, hash_stacks)
 
-        tags.append({"name": name, "stacks": sorted([s.label for s in stacks])})
+        tag_entry = {"name": name, "stacks": sorted([s.label for s in stacks])}
+
+        for idx, tag_stacks in enumerate(tags):
+            if tag_stacks["name"] == name:
+                tags[idx] = tag_entry
+                break
+        else:
+            tags.append(tag_entry)
+
         with open(f"pages/tags/{name}.md", "w") as f:
             f.write(tag_page_template % (name, name))
 
