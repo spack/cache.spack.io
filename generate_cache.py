@@ -142,6 +142,7 @@ def write_cache_entries(name, specs, hash_stacks):
         metrics["versions"] = sorted(list(metrics["versions"]))
         metrics["compilers"] = sorted(list(metrics["compilers"]))
         metrics["stacks"] = sorted(list(metrics["stacks"]))
+        spec_details = sorted(spec_details, key=lambda obj: obj["hash"])
         render = template % (
             package_name,
             name,
