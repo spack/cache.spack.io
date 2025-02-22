@@ -18,9 +18,7 @@ import re
 import yaml
 
 import spack.database
-import spack.repo
 import spack.spec
-import spack.binary_distribution
 
 from spack.database import _DB_DIRNAME
 
@@ -29,6 +27,10 @@ db_root = here / "spack-db"
 
 INDEX_URL = "https://binaries.spack.io/cache_spack_io_index.json"
 MUTABLE_REFS = ["develop"]
+INDEX_BUCKET_MATCHER = re.compile(r"^s3://([^\/]+)/(.+)$")
+BUCKET_URLS = {
+    "spack-binaries": "https://binaries.spack.io",
+}
 
 # Template for cache data
 template = """---
@@ -118,10 +120,6 @@ def write_cache_entries(name, specs, hash_stacks):
                 metrics["num_specs_by_stack"][stack] += 1
 
             assert len(spec.versions) == 1, spec.versions
-            tarball_dir = spack.binary_distribution.tarball_directory_name(spec)
-            tarball_name = spack.binary_distribution.tarball_name(spec, ".spack")
-            tarball = f"{name}/build_cache/{tarball_dir}/{tarball_name}"
-            tarball_url = f"https://binaries.spack.io/{tarball}"
             spec_details.append(
                 {
                     "hash": spec._hash,
@@ -133,7 +131,6 @@ def write_cache_entries(name, specs, hash_stacks):
                     "variants": [str(v) for v in spec.variants.values()],
                     "stacks": sorted(list(hash_stacks[spec._hash])),
                     "size": binary_size(spec),
-                    "tarball": tarball_url,
                 }
             )
         metrics["oss"] = sorted(list(metrics["oss"]))
@@ -250,6 +247,16 @@ def load_existing_tags() -> list[dict]:
         return []
 
 
+def s3_to_cloudfront(url):
+    m = INDEX_BUCKET_MATCHER.match(url)
+    if m:
+        bucket = m.group(1)
+        prefix = m.group(2)
+        if bucket in BUCKET_URLS:
+            return f"{BUCKET_URLS[bucket]}/{prefix}"
+    return url
+
+
 def main():
     # Metadata file will store all versions
     meta: dict[str, dict] = load_existing_metadata()
@@ -259,11 +266,13 @@ def main():
     tags_dir.mkdir(parents=True, exist_ok=True)
 
     for name, stacks in get_build_cache_index().items():
-        if not any(s.label == "root" for s in stacks):
+        for s in stacks:
+            if s.label == "root":
+                url = s3_to_cloudfront(s.url)
+                break
+        else:
             print(f"Skipping {name} because it doesn't have a root stack")
             continue
-
-        url = f"https://binaries.spack.io/{name}/build_cache/index.json"
 
         cache_path = here / "_cache" / name
         if os.path.exists(cache_path) and name not in MUTABLE_REFS:
