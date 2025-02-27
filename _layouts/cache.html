@@ -67,7 +67,6 @@ if (specs.length != 1) {
             <th>Target</th>
             <th>Compiler</th>
             <th>Size</th>
-            <th></th>
         </tr>
     </thead>
 </table>
@@ -143,14 +142,6 @@ $(document).ready(function() {
                     return '<span class="filesize">' + data + '</span>';
                 },
                 className: 'sizes',
-            },
-            {
-                data: 'tarball',
-                render: function(data, type, row) {
-                    return '<div class="tooltip" data-tip="Download Tarball"><a href="' + data + '" class="btn btn-sm btn-circle btn-ghost"><i class="ri-file-zip-fill text-xl text-neutral"></i></a></div>';
-
-                },
-                className: 'tarball',
             }
         ],
         pageLength: 50,
@@ -188,7 +179,7 @@ $(document).ready(function() {
             return text === "show " + countDisplayed + " more" ? "show less" : "show " + countDisplayed + " more";
         })
     });
-});    
+});
 </script>
 
 <script src='https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js'></script>
