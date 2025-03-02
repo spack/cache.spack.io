@@ -2,6 +2,6 @@
 title: "form"
 layout: cache
 categories: [package, develop]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"hep": 2, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["hep", "root"], "targets": ["x86_64_v3"], "versions": ["4.3.1"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "r2bdsdq73mdmzy46kuph4adji4ctynwe", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "+gmp", "~parform", "+scalar", "+threaded", "+zlib"], "versions": ["4.3.1"]}, {"compiler": "gcc@=11.4.0", "hash": "x6bqdsds2zddaehjazy2jurlhby2akxn", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "+gmp", "~parform", "+scalar", "+threaded", "+zlib"], "versions": ["4.3.1"]}]
+meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 1, "num_specs_by_stack": {"hep": 1, "root": 1}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["hep", "root"], "targets": ["x86_64_v3"], "versions": ["4.3.1"]}
+spec_details: [{"compiler": "gcc@=11.4.0", "hash": "x6bqdsds2zddaehjazy2jurlhby2akxn", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "+gmp", "~parform", "+scalar", "+threaded", "+zlib"], "versions": ["4.3.1"]}]
 ---
