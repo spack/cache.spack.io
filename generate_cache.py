@@ -108,11 +108,17 @@ def write_cache_entries(name, specs, hash_stacks):
             os.makedirs(package_dir)
         spec_details = []
         for i, spec in enumerate(speclist):
+            try:
+                _ = spec.compiler
+                compiler_str = spec.format("{compiler.name}@{compiler.version}")
+            except AttributeError:
+                compiler_str = "no-compiler"
+
             metrics["oss"].add(spec.architecture.os)
             metrics["platforms"].add(spec.architecture.platform)
             metrics["targets"].add(spec.architecture.target.name)
             metrics["versions"].add(str(spec.version))
-            metrics["compilers"].add(str(spec.compiler))
+            metrics["compilers"].add(compiler_str)
             metrics["stacks"] |= hash_stacks[spec._hash]
             metrics["num_specs"] += 1
 
@@ -123,7 +129,7 @@ def write_cache_entries(name, specs, hash_stacks):
             spec_details.append(
                 {
                     "hash": spec._hash,
-                    "compiler": str(spec.compiler),
+                    "compiler": compiler_str,
                     "versions": [str(v) for v in spec.versions],
                     "os": spec.architecture.os,
                     "platform": spec.architecture.platform,
@@ -193,13 +199,12 @@ def get_specs_metadata(specs: dict[str, list[spack.spec.Spec]]) -> dict:
     parameters = {}
     compilers = {}
     count = 0
-
     # For each package, generate a data page, including the spec.json
     for package_name, speclist in specs.items():
         for s in speclist:
             count += 1
-            nodes = s.to_dict()["spec"]["nodes"]
-            for spec in nodes:
+            for node_spec in s.traverse():
+                spec = node_spec.to_node_dict()
                 for paramname, setting in spec["parameters"].items():
                     # Is true or not empty list
                     if setting:
@@ -212,10 +217,12 @@ def get_specs_metadata(specs: dict[str, list[spack.spec.Spec]]) -> dict:
                     if key == "target" and isinstance(value, dict):
                         value = "%s %s" % (value["vendor"], value["name"])
 
-                compiler = "%s@%s" % (
-                    spec["compiler"]["name"],
-                    spec["compiler"]["version"],
-                )
+                try:
+                    _ = node_spec.compiler
+                    compiler = node_spec.format("{compiler.name}@{compiler.version}")
+                except AttributeError:
+                    compiler = "no-compiler"
+
                 if compiler not in compilers:
                     compilers[compiler] = 0
                 compilers[compiler] += 1
