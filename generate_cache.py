@@ -108,11 +108,7 @@ def write_cache_entries(name, specs, hash_stacks):
             os.makedirs(package_dir)
         spec_details = []
         for i, spec in enumerate(speclist):
-            try:
-                _ = spec.compiler
-                compiler_str = spec.format("{compiler.name}@{compiler.version}")
-            except AttributeError:
-                compiler_str = "no-compiler"
+            compiler_str = compiler_str_from_spec(spec)
 
             metrics["oss"].add(spec.architecture.os)
             metrics["platforms"].add(spec.architecture.platform)
@@ -155,6 +151,14 @@ def write_cache_entries(name, specs, hash_stacks):
         md_file = os.path.join(package_dir, "specs.md")
         with open(md_file, "w") as fd:
             fd.write(render)
+
+def compiler_str_from_spec(spec: spack.spec.Spec) -> str:    
+    try:
+        _ = spec.compiler
+        compiler_str = spec.format("{compiler.name}@{compiler.version}")
+    except AttributeError:
+        compiler_str = "none"
+    return compiler_str
 
 
 def specs_by_package(name: str, url: str) -> dict[str, list[spack.spec.Spec]]:
@@ -217,12 +221,7 @@ def get_specs_metadata(specs: dict[str, list[spack.spec.Spec]]) -> dict:
                     if key == "target" and isinstance(value, dict):
                         value = "%s %s" % (value["vendor"], value["name"])
 
-                try:
-                    _ = node_spec.compiler
-                    compiler = node_spec.format("{compiler.name}@{compiler.version}")
-                except AttributeError:
-                    compiler = "no-compiler"
-
+                compiler = compiler_str_from_spec(node_spec)
                 if compiler not in compilers:
                     compilers[compiler] = 0
                 compilers[compiler] += 1
