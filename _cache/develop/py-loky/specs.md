@@ -2,6 +2,6 @@
 title: "py-loky"
 layout: cache
 categories: [package, develop]
-meta: {"compilers": ["none"], "num_specs": 2, "num_specs_by_stack": {"e4s": 2, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "root"], "targets": ["x86_64_v3"], "versions": ["3.5.1"]}
-spec_details: [{"compiler": "none", "hash": "3oi4j42ysejivjb7wpyt4k2gxuqxhq4s", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["3.5.1"]}, {"compiler": "none", "hash": "akzwd7v6jyagdapaedodjigrrj5rqlte", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["3.5.1"]}]
+meta: {"compilers": ["none"], "num_specs": 3, "num_specs_by_stack": {"e4s": 3, "root": 3}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "root"], "targets": ["x86_64_v3"], "versions": ["3.5.1"]}
+spec_details: [{"compiler": "none", "hash": "2545lpswrq6tadptf47554rgoitadk42", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["3.5.1"]}, {"compiler": "none", "hash": "3oi4j42ysejivjb7wpyt4k2gxuqxhq4s", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["3.5.1"]}, {"compiler": "none", "hash": "akzwd7v6jyagdapaedodjigrrj5rqlte", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["3.5.1"]}]
 ---
