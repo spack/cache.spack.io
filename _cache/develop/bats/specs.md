@@ -2,6 +2,6 @@
 title: "bats"
 layout: cache
 categories: [package, develop]
-meta: {"compilers": ["none"], "num_specs": 1, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1, "root": 1}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["1.10.0"]}
-spec_details: [{"compiler": "none", "hash": "jle3cgcd5palquz6kcjlwpuqj4vcjo5w", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=generic"], "versions": ["1.10.0"]}]
+meta: {"compilers": ["gcc@11.4.0", "gcc@9.4.0", "none"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "e4s-neoverse_v1": 1, "e4s-oneapi": 1, "e4s-power": 1, "root": 3}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-neoverse_v1", "e4s-oneapi", "e4s-power", "root"], "targets": ["neoverse_v1", "ppc64le", "x86_64_v3"], "versions": ["1.10.0"]}
+spec_details: [{"compiler": "gcc@11.4.0", "hash": "2whiaf2ttp2wuvvn567tzglauyu476rp", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-neoverse_v1", "root"], "target": "neoverse_v1", "variants": ["build_system=generic"], "versions": ["1.10.0"]}, {"compiler": "gcc@9.4.0", "hash": "5jylgzre77kwa24blru27vbtzwfy7va7", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["e4s-power", "root"], "target": "ppc64le", "variants": ["build_system=generic"], "versions": ["1.10.0"]}, {"compiler": "none", "hash": "jle3cgcd5palquz6kcjlwpuqj4vcjo5w", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=generic"], "versions": ["1.10.0"]}]
 ---
