@@ -2,6 +2,6 @@
 title: "xxhash"
 layout: cache
 categories: [package, develop]
-meta: {"compilers": ["gcc@11.4.0"], "num_specs": 2, "num_specs_by_stack": {"hep": 2, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["hep", "root"], "targets": ["x86_64_v3"], "versions": ["0.8.3"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "he4h7smlpiifs5bjkvpsizefzrn7pccf", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=makefile"], "versions": ["0.8.3"]}, {"compiler": "gcc@11.4.0", "hash": "iopylnspjhsih3jb6czehrg355egryoy", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=makefile"], "versions": ["0.8.3"]}]
+meta: {"compilers": ["gcc@11.4.0"], "num_specs": 3, "num_specs_by_stack": {"hep": 3, "root": 3}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["hep", "root"], "targets": ["x86_64_v3"], "versions": ["0.8.3"]}
+spec_details: [{"compiler": "gcc@11.4.0", "hash": "he4h7smlpiifs5bjkvpsizefzrn7pccf", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=makefile"], "versions": ["0.8.3"]}, {"compiler": "gcc@11.4.0", "hash": "iopylnspjhsih3jb6czehrg355egryoy", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=makefile"], "versions": ["0.8.3"]}, {"compiler": "gcc@11.4.0", "hash": "x2wbyz526xe7w2pxoya6kyadbgw2yynh", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=makefile"], "versions": ["0.8.3"]}]
 ---
