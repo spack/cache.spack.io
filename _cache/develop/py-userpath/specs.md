@@ -1,0 +1,7 @@
+---
+title: "py-userpath"
+layout: cache
+categories: [package, develop]
+meta: {"compilers": ["none"], "num_specs": 5, "num_specs_by_stack": {"e4s": 4, "root": 5}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "root"], "targets": ["x86_64_v3"], "versions": ["1.9.0"]}
+spec_details: [{"compiler": "none", "hash": "dznrsopapqmjdd2ois73kojulf75yuzi", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.9.0"]}, {"compiler": "none", "hash": "ff5axhmarg2ihhq34lvcv7rfohlpvlvm", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.9.0"]}, {"compiler": "none", "hash": "hhhgil4hqpdlnrh6hhrh4zumcgiyjsxc", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.9.0"]}, {"compiler": "none", "hash": "ipyql3tzbf4kc4lregfvo4phnimv2taq", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.9.0"]}, {"compiler": "none", "hash": "kl3coc3bfwacuj4j763xgo7sr4wl3kgd", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.9.0"]}]
+---

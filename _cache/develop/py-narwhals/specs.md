@@ -1,0 +1,7 @@
+---
+title: "py-narwhals"
+layout: cache
+categories: [package, develop]
+meta: {"compilers": ["none"], "num_specs": 5, "num_specs_by_stack": {"e4s": 4, "root": 5}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "root"], "targets": ["x86_64_v3"], "versions": ["2.3.0"]}
+spec_details: [{"compiler": "none", "hash": "5syajtlqiu2mm3xdxk4waymoh2d5qpvn", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.3.0"]}, {"compiler": "none", "hash": "j4jnfq7vrmfknqkzym7uoanmvmr57ygj", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.3.0"]}, {"compiler": "none", "hash": "kpdltccwwuv6ephacslmdwd3gsrkmajv", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.3.0"]}, {"compiler": "none", "hash": "mmt3gxv4vdxmlwoagsazbdwiqz6yn2u2", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.3.0"]}, {"compiler": "none", "hash": "ozztwbwijunawdp5gxd76725psunplcu", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.3.0"]}]
+---
