@@ -1,7 +1,0 @@
----
-title: "py-pydeprecate"
-layout: cache
-categories: [package, develop-2025-05-25]
-meta: {"compilers": ["none"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 3}, "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["e4s", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["0.3.1"]}
-spec_details: [{"compiler": "none", "hash": "dc5xhy4hucqepo6lspuvoosr64det6cb", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.3.1"]}, {"compiler": "none", "hash": "hy2wp3nt2tkiv7vwn2ira6d2wqv7kzav", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["0.3.1"]}, {"compiler": "none", "hash": "smpvyslsi7b6bfkpqbss6aubrqrjxcgb", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.3.1"]}]
----

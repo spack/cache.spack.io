@@ -1,7 +1,0 @@
----
-title: "numactl"
-layout: cache
-categories: [package, develop-2024-04-14]
-meta: {"versions": ["2.0.14"], "compilers": ["gcc@=12.3.0"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["neoverse_n1", "neoverse_v1"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-pcluster-neoverse_v1": 2, "root": 2}}
-spec_details: [{"hash": "y5jr6k23my47fslotqfperona7an3yab", "compiler": "gcc@=12.3.0", "versions": ["2.0.14"], "os": "amzn2", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=autotools", "patches=4e1d78c,62fc8a8,ff37630"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-neoverse_v1/gcc-12.3.0/numactl-2.0.14/linux-amzn2-neoverse_v1-gcc-12.3.0-numactl-2.0.14-y5jr6k23my47fslotqfperona7an3yab.spack"}, {"hash": "gduxxcq4wbzcchyrg5yqwjreuhc3haw3", "compiler": "gcc@=12.3.0", "versions": ["2.0.14"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=autotools", "patches=4e1d78c,62fc8a8,ff37630"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-neoverse_n1/gcc-12.3.0/numactl-2.0.14/linux-amzn2-neoverse_n1-gcc-12.3.0-numactl-2.0.14-gduxxcq4wbzcchyrg5yqwjreuhc3haw3.spack"}]
----

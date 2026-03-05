@@ -1,7 +1,0 @@
----
-title: "py-cppheaderparser"
-layout: cache
-categories: [package, develop-2023-09-17]
-meta: {"versions": ["2.7.4"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "gpu-tests", "root"], "num_specs": 2, "num_specs_by_stack": {"gpu-tests": 1, "root": 2, "e4s": 2}}
-spec_details: [{"hash": "lmjunsk73dytatnyqbcpx366z5huftpc", "compiler": "gcc@=11.1.0", "versions": ["2.7.4"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["gpu-tests", "root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-17/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-cppheaderparser-2.7.4/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-cppheaderparser-2.7.4-lmjunsk73dytatnyqbcpx366z5huftpc.spack"}, {"hash": "eswduuuffnepaa7iwj3jemxtgo6utvfz", "compiler": "gcc@=11.1.0", "versions": ["2.7.4"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-17/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-cppheaderparser-2.7.4/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-cppheaderparser-2.7.4-eswduuuffnepaa7iwj3jemxtgo6utvfz.spack"}]
----

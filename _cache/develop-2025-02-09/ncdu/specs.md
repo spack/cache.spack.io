@@ -1,7 +1,0 @@
----
-title: "ncdu"
-layout: cache
-categories: [package, develop-2025-02-09]
-meta: {"versions": ["1.19"], "compilers": ["gcc@=10.5.0", "gcc@=13.3.0"], "oss": ["centos7", "rhel8"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-x86_64_v3-linux-gnu": 1, "root": 2, "developer-tools-aarch64-linux-gnu": 1}}
-spec_details: [{"hash": "pu4dddcr5jzxmkqwko3d3pzghbqsapbf", "compiler": "gcc@=10.5.0", "versions": ["1.19"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-centos7-x86_64_v3/gcc-10.5.0/ncdu-1.19/linux-centos7-x86_64_v3-gcc-10.5.0-ncdu-1.19-pu4dddcr5jzxmkqwko3d3pzghbqsapbf.spack"}, {"hash": "irj76264vmauym2a7etk5o7wa7ndlodo", "compiler": "gcc@=13.3.0", "versions": ["1.19"], "os": "rhel8", "platform": "linux", "target": "aarch64", "variants": ["build_system=generic"], "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-rhel8-aarch64/gcc-13.3.0/ncdu-1.19/linux-rhel8-aarch64-gcc-13.3.0-ncdu-1.19-irj76264vmauym2a7etk5o7wa7ndlodo.spack"}]
----

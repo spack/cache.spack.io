@@ -1,7 +1,0 @@
----
-title: "libxc"
-layout: cache
-categories: [package, develop-2025-02-02]
-meta: {"versions": ["7.0.0"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["neoverse_v2", "x86_64_v3"], "stacks": ["e4s", "e4s-neoverse-v2", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s-neoverse-v2": 1, "e4s": 1}}
-spec_details: [{"hash": "jxpltb2tqufq7vjmjfidi3yzg3iambcc", "compiler": "gcc@=11.4.0", "versions": ["7.0.0"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v2", "variants": ["build_system=cmake", "build_type=Release", "~cuda", "+fortran", "generator=ninja", "~ipo", "~kxc", "~lxc", "+shared"], "stacks": ["root", "e4s-neoverse-v2"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu22.04-neoverse_v2/gcc-11.4.0/libxc-7.0.0/linux-ubuntu22.04-neoverse_v2-gcc-11.4.0-libxc-7.0.0-jxpltb2tqufq7vjmjfidi3yzg3iambcc.spack"}, {"hash": "epx4vydrd4tohcvn5mzqwsqizj64ujgv", "compiler": "gcc@=11.4.0", "versions": ["7.0.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~cuda", "+fortran", "generator=ninja", "~ipo", "~kxc", "~lxc", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/libxc-7.0.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-libxc-7.0.0-epx4vydrd4tohcvn5mzqwsqizj64ujgv.spack"}]
----

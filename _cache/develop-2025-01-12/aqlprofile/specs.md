@@ -1,7 +1,0 @@
----
-title: "aqlprofile"
-layout: cache
-categories: [package, develop-2025-01-12]
-meta: {"versions": ["6.3.0"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 2}}
-spec_details: [{"hash": "4rrtayidcrubyctuuge5y3eemwaz5zmv", "compiler": "gcc@=11.4.0", "versions": ["6.3.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/aqlprofile-6.3.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-aqlprofile-6.3.0-4rrtayidcrubyctuuge5y3eemwaz5zmv.spack"}, {"hash": "czdno5kadln5or6oxb3cw625kk3zr4ft", "compiler": "gcc@=11.4.0", "versions": ["6.3.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/aqlprofile-6.3.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-aqlprofile-6.3.0-czdno5kadln5or6oxb3cw625kk3zr4ft.spack"}]
----

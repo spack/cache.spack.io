@@ -1,7 +1,0 @@
----
-title: "py-pyrsistent"
-layout: cache
-categories: [package, develop-2024-04-28]
-meta: {"versions": ["0.19.3"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["radiuss", "root"], "num_specs": 2, "num_specs_by_stack": {"radiuss": 2, "root": 2}}
-spec_details: [{"hash": "kpurakomodglvi47jwm7vdsjacdaj6qv", "compiler": "gcc@=7.5.0", "versions": ["0.19.3"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["radiuss", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-pyrsistent-0.19.3/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-pyrsistent-0.19.3-kpurakomodglvi47jwm7vdsjacdaj6qv.spack"}, {"hash": "3g2egyvvrnlv63pvjm5pjrcidtbzpv7c", "compiler": "gcc@=7.5.0", "versions": ["0.19.3"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["radiuss", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-pyrsistent-0.19.3/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-pyrsistent-0.19.3-3g2egyvvrnlv63pvjm5pjrcidtbzpv7c.spack"}]
----

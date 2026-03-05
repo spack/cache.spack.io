@@ -1,7 +1,0 @@
----
-title: "bwa"
-layout: cache
-categories: [package, develop-2025-01-05]
-meta: {"versions": ["0.7.17"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["aws-isc", "aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 1, "root": 2, "aws-isc": 1}}
-spec_details: [{"hash": "kssvygv6rtmmfagpxsk7fgn7woyev3bd", "compiler": "gcc@=7.3.1", "versions": ["0.7.17"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=generic", "patches=66803e9"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-05/build_cache/linux-amzn2-aarch64/gcc-7.3.1/bwa-0.7.17/linux-amzn2-aarch64-gcc-7.3.1-bwa-0.7.17-kssvygv6rtmmfagpxsk7fgn7woyev3bd.spack"}, {"hash": "kocriygws4kr5lyc6u4pwlretnydn3e5", "compiler": "gcc@=7.3.1", "versions": ["0.7.17"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["aws-isc", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-05/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/bwa-0.7.17/linux-amzn2-x86_64_v3-gcc-7.3.1-bwa-0.7.17-kocriygws4kr5lyc6u4pwlretnydn3e5.spack"}]
----

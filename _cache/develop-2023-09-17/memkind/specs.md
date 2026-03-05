@@ -1,7 +1,0 @@
----
-title: "memkind"
-layout: cache
-categories: [package, develop-2023-09-17]
-meta: {"versions": ["1.13.0"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "e77gwfmvmem5bpwr2o5qnvoucmuen7nm", "compiler": "gcc@=11.1.0", "versions": ["1.13.0"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=autotools"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-17/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/memkind-1.13.0/linux-ubuntu20.04-ppc64le-gcc-11.1.0-memkind-1.13.0-e77gwfmvmem5bpwr2o5qnvoucmuen7nm.spack"}, {"hash": "xlilj6maimggnh3kqpr5s6wybkbx6vuk", "compiler": "gcc@=11.1.0", "versions": ["1.13.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-17/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/memkind-1.13.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-memkind-1.13.0-xlilj6maimggnh3kqpr5s6wybkbx6vuk.spack"}]
----

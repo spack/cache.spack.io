@@ -1,7 +1,0 @@
----
-title: "tasmanian"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["7.7"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 2}}
-spec_details: [{"hash": "nmonderwxiqqvrdb2rvgux55istpidht", "compiler": "gcc@=7.5.0", "versions": ["7.7"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~blas", "build_type=Release", "+cuda", "cuda_arch=70", "~fortran", "~ipo", "~magma", "+mpi", "+openmp", "~python", "~rocm", "~xsdkflags"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/tasmanian-7.7/linux-ubuntu18.04-x86_64-gcc-7.5.0-tasmanian-7.7-nmonderwxiqqvrdb2rvgux55istpidht.spack"}, {"hash": "geazlfx3dc2pstkga2hhqdml7jjfjxwv", "compiler": "gcc@=7.5.0", "versions": ["7.7"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~blas", "build_type=Release", "~cuda", "~fortran", "~ipo", "~magma", "+mpi", "+openmp", "~python", "~rocm", "~xsdkflags"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/tasmanian-7.7/linux-ubuntu18.04-x86_64-gcc-7.5.0-tasmanian-7.7-geazlfx3dc2pstkga2hhqdml7jjfjxwv.spack"}]
----

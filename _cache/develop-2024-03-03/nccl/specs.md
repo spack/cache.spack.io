@@ -1,7 +1,0 @@
----
-title: "nccl"
-layout: cache
-categories: [package, develop-2024-03-03]
-meta: {"versions": ["2.20.3-1"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cuda": 2, "root": 2}}
-spec_details: [{"hash": "p2cvnalp5lx4v4jmazzb63xoazm3owof", "compiler": "gcc@=11.4.0", "versions": ["2.20.3-1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=makefile", "+cuda", "cuda_arch=80"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-03-03/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/nccl-2.20.3-1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-nccl-2.20.3-1-p2cvnalp5lx4v4jmazzb63xoazm3owof.spack"}, {"hash": "ky7ryqti77iykkfyoidaod4c2ec6atu6", "compiler": "gcc@=11.4.0", "versions": ["2.20.3-1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=makefile", "+cuda", "cuda_arch=80"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-03-03/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/nccl-2.20.3-1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-nccl-2.20.3-1-ky7ryqti77iykkfyoidaod4c2ec6atu6.spack"}]
----

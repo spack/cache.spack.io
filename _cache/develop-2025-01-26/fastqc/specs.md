@@ -1,7 +1,0 @@
----
-title: "fastqc"
-layout: cache
-categories: [package, develop-2025-01-26]
-meta: {"versions": ["0.12.1"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["aws-isc", "aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 1, "root": 2, "aws-isc": 1}}
-spec_details: [{"hash": "bms2y7sndml3rwzetatkcbckgxmm53jq", "compiler": "gcc@=7.3.1", "versions": ["0.12.1"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=generic", "patches=886aba9"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-amzn2-aarch64/gcc-7.3.1/fastqc-0.12.1/linux-amzn2-aarch64-gcc-7.3.1-fastqc-0.12.1-bms2y7sndml3rwzetatkcbckgxmm53jq.spack"}, {"hash": "ym3kh3a63ofhbrcmudom5wovi2mvhr5m", "compiler": "gcc@=7.3.1", "versions": ["0.12.1"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic", "patches=886aba9"], "stacks": ["aws-isc", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/fastqc-0.12.1/linux-amzn2-x86_64_v3-gcc-7.3.1-fastqc-0.12.1-ym3kh3a63ofhbrcmudom5wovi2mvhr5m.spack"}]
----

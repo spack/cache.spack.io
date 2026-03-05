@@ -1,7 +1,0 @@
----
-title: "netcdf-cxx"
-layout: cache
-categories: [package, v0.20.0]
-meta: {"versions": ["4.2"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "data-vis-sdk": 1}}
-spec_details: [{"hash": "iookbvltatkr3daimp3mpv3tyi4y7vuw", "compiler": "gcc@=11.1.0", "versions": ["4.2"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "+netcdf4", "patches=8892291"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.0/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/netcdf-cxx-4.2/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-netcdf-cxx-4.2-iookbvltatkr3daimp3mpv3tyi4y7vuw.spack"}, {"hash": "eautk5icd5zsvftbty7os4xsmwgpcjsg", "compiler": "gcc@=11.1.0", "versions": ["4.2"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "+netcdf4", "patches=8892291"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.0/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/netcdf-cxx-4.2/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-netcdf-cxx-4.2-eautk5icd5zsvftbty7os4xsmwgpcjsg.spack"}]
----

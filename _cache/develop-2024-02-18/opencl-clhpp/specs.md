@@ -1,7 +1,0 @@
----
-title: "opencl-clhpp"
-layout: cache
-categories: [package, develop-2024-02-18]
-meta: {"versions": ["2.0.16"], "compilers": ["gcc@=11.4.0", "gcc@=9.4.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "oi7xarm4twzapnazoe4ibfo7ta6gvyxs", "compiler": "gcc@=9.4.0", "versions": ["2.0.16"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-02-18/build_cache/linux-ubuntu20.04-ppc64le/gcc-9.4.0/opencl-clhpp-2.0.16/linux-ubuntu20.04-ppc64le-gcc-9.4.0-opencl-clhpp-2.0.16-oi7xarm4twzapnazoe4ibfo7ta6gvyxs.spack"}, {"hash": "homwdahd4b4kumpjvzel3qhbl5lwddsg", "compiler": "gcc@=11.4.0", "versions": ["2.0.16"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-02-18/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/opencl-clhpp-2.0.16/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-opencl-clhpp-2.0.16-homwdahd4b4kumpjvzel3qhbl5lwddsg.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "udunits"
-layout: cache
-categories: [package, develop-2025-03-02]
-meta: {"compilers": ["cce@=18.0.0", "gcc@=11.4.0", "oneapi@=2024.2.1"], "num_specs": 4, "num_specs_by_stack": {"e4s": 1, "e4s-cray-rhel": 1, "e4s-neoverse-v2": 1, "e4s-oneapi": 1, "root": 4}, "oss": ["rhel8", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-cray-rhel", "e4s-neoverse-v2", "e4s-oneapi", "root"], "targets": ["neoverse_v2", "x86_64_v3"], "versions": ["2.2.28"]}
-spec_details: [{"compiler": "oneapi@=2024.2.1", "hash": "3c5obbjxxnp7jchae4upccs57oynqosd", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "+shared"], "versions": ["2.2.28"]}, {"compiler": "gcc@=11.4.0", "hash": "clvidwyny6ktiyotap7g574rdpkiwmmw", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "+shared"], "versions": ["2.2.28"]}, {"compiler": "gcc@=11.4.0", "hash": "gaolah43nfho72t45iqiacahaawv6kqv", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-neoverse-v2", "root"], "target": "neoverse_v2", "variants": ["build_system=autotools", "+shared"], "versions": ["2.2.28"]}, {"compiler": "cce@=18.0.0", "hash": "vsylfmtayhvn3et5nfprmhgj5cv5cl2v", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["e4s-cray-rhel", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "+shared"], "versions": ["2.2.28"]}]
----

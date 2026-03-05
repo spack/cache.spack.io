@@ -1,7 +1,0 @@
----
-title: "py-jupyterhub"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["1.4.1"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["neoverse_v1", "x86_64_v3"], "stacks": ["e4s", "e4s-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-neoverse_v1": 1}}
-spec_details: [{"hash": "36yzh3alt2kjurqxqy3jlodvvlb63blx", "compiler": "gcc@=11.4.0", "versions": ["1.4.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-jupyterhub-1.4.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-jupyterhub-1.4.1-36yzh3alt2kjurqxqy3jlodvvlb63blx.spack"}, {"hash": "atqgkbp33vgleijiflxmplikgko6ka4r", "compiler": "gcc@=11.4.0", "versions": ["1.4.1"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=python_pip"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-neoverse_v1/gcc-11.4.0/py-jupyterhub-1.4.1/linux-ubuntu22.04-neoverse_v1-gcc-11.4.0-py-jupyterhub-1.4.1-atqgkbp33vgleijiflxmplikgko6ka4r.spack"}]
----

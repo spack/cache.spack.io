@@ -1,7 +1,0 @@
----
-title: "py-keras-preprocessing"
-layout: cache
-categories: [package, v0.22.1]
-meta: {"versions": ["1.1.2"], "compilers": ["apple-clang@=15.0.0", "gcc@=11.4.0"], "oss": ["ubuntu22.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "root": 2, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "vwzt3scfnbk3b5g4x24clr4siy5rj4f3", "compiler": "apple-clang@=15.0.0", "versions": ["1.1.2"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.1/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-keras-preprocessing-1.1.2/darwin-ventura-aarch64-apple-clang-15.0.0-py-keras-preprocessing-1.1.2-vwzt3scfnbk3b5g4x24clr4siy5rj4f3.spack"}, {"hash": "bxpo4jotuk6vica42izlno5dkbcavdzp", "compiler": "gcc@=11.4.0", "versions": ["1.1.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.1/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-keras-preprocessing-1.1.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-keras-preprocessing-1.1.2-bxpo4jotuk6vica42izlno5dkbcavdzp.spack"}]
----

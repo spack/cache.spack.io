@@ -1,7 +1,0 @@
----
-title: "py-omegaconf"
-layout: cache
-categories: [package, v2025.07.0]
-meta: {"compilers": ["none"], "num_specs": 3, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 3}, "oss": ["sequoia", "ubuntu24.04"], "platforms": ["darwin", "linux"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["2.3.0"]}
-spec_details: [{"compiler": "none", "hash": "3st5ck6mdnpq5axlngcuo4kir24udhl3", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["2.3.0"]}, {"compiler": "none", "hash": "vhm5qao72c3ttfxt4qig5mrzvxewb3rr", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["ml-darwin-aarch64-mps", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["2.3.0"]}, {"compiler": "none", "hash": "xt6zfkz5atbq2h4gy3axafzvjhi37c3g", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.3.0"]}]
----

@@ -1,7 +1,0 @@
----
-title: "icu4c"
-layout: cache
-categories: [package, v0.18.1]
-meta: {"versions": ["67.1"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["build_systems", "data-vis-sdk", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "build_systems": 1}}
-spec_details: [{"hash": "7d3x32dsw3n5szh2nu5ffoiaxm67sn3x", "compiler": "gcc@=7.5.0", "versions": ["67.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["cxxstd=11"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.1/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/icu4c-67.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-icu4c-67.1-7d3x32dsw3n5szh2nu5ffoiaxm67sn3x.spack"}, {"hash": "ol5ci7hooofa3yume3l4w3stxlbddyo6", "compiler": "gcc@=7.5.0", "versions": ["67.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["cxxstd=11"], "stacks": ["build_systems", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.1/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/icu4c-67.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-icu4c-67.1-ol5ci7hooofa3yume3l4w3stxlbddyo6.spack"}]
----

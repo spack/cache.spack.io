@@ -1,7 +1,0 @@
----
-title: "procps"
-layout: cache
-categories: [package, develop-2025-01-26]
-meta: {"versions": ["4.0.4"], "compilers": ["gcc@=11.4.0", "gcc@=13.2.0"], "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "ml-linux-x86_64-rocm", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "ml-linux-x86_64-rocm": 1}}
-spec_details: [{"hash": "bh42bro5kox3wquyjnb4vtnflh43xwtc", "compiler": "gcc@=11.4.0", "versions": ["4.0.4"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "+nls"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/procps-4.0.4/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-procps-4.0.4-bh42bro5kox3wquyjnb4vtnflh43xwtc.spack"}, {"hash": "fggdt3a44xsta7nzjcmug5mkfrgtmdmb", "compiler": "gcc@=13.2.0", "versions": ["4.0.4"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "+nls"], "stacks": ["ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/procps-4.0.4/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-procps-4.0.4-fggdt3a44xsta7nzjcmug5mkfrgtmdmb.spack"}]
----

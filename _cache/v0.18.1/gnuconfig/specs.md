@@ -1,7 +1,0 @@
----
-title: "gnuconfig"
-layout: cache
-categories: [package, v0.18.1]
-meta: {"versions": ["2021-08-14"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "graviton2"], "stacks": ["aws-ahug-aarch64", "aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-ahug-aarch64": 2, "root": 2, "aws-isc-aarch64": 2}}
-spec_details: [{"hash": "oeuhjqsw7fchhkodvltv74jdvilw5zh7", "compiler": "gcc@=7.3.1", "versions": ["2021-08-14"], "os": "amzn2", "platform": "linux", "target": "graviton2", "variants": [], "stacks": ["aws-ahug-aarch64", "root", "aws-isc-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.1/build_cache/linux-amzn2-graviton2/gcc-7.3.1/gnuconfig-2021-08-14/linux-amzn2-graviton2-gcc-7.3.1-gnuconfig-2021-08-14-oeuhjqsw7fchhkodvltv74jdvilw5zh7.spack"}, {"hash": "mj37cfwdgaaz3dguhrsx5wp7fwufhyz4", "compiler": "gcc@=7.3.1", "versions": ["2021-08-14"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": [], "stacks": ["aws-ahug-aarch64", "root", "aws-isc-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.1/build_cache/linux-amzn2-aarch64/gcc-7.3.1/gnuconfig-2021-08-14/linux-amzn2-aarch64-gcc-7.3.1-gnuconfig-2021-08-14-mj37cfwdgaaz3dguhrsx5wp7fwufhyz4.spack"}]
----

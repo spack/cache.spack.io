@@ -1,7 +1,0 @@
----
-title: "lua-mpack"
-layout: cache
-categories: [package, develop-2024-05-12]
-meta: {"versions": ["1.0.9"], "compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-manylinux2014": 1, "root": 2, "developer-tools": 1}}
-spec_details: [{"hash": "izxuxczi7qerhev4ltef5lis2hh3t2me", "compiler": "gcc@=10.2.1", "versions": ["1.0.9"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=lua"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-12/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/lua-mpack-1.0.9/linux-centos7-x86_64_v3-gcc-10.2.1-lua-mpack-1.0.9-izxuxczi7qerhev4ltef5lis2hh3t2me.spack"}, {"hash": "7vxrodea66gceyoznc6danq4p6uv3yzx", "compiler": "gcc@=7.5.0", "versions": ["1.0.9"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=lua"], "stacks": ["developer-tools", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-12/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/lua-mpack-1.0.9/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-lua-mpack-1.0.9-7vxrodea66gceyoznc6danq4p6uv3yzx.spack"}]
----

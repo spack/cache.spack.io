@@ -1,7 +1,0 @@
----
-title: "tmux"
-layout: cache
-categories: [package, develop-2024-11-17]
-meta: {"versions": ["3.4"], "compilers": ["apple-clang@=15.0.0", "gcc@=10.2.1"], "oss": ["centos7", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-darwin", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "developer-tools-darwin": 1, "developer-tools-manylinux2014": 1}}
-spec_details: [{"hash": "lylydm6i4uopidvzanrkv2zswhv34kg6", "compiler": "apple-clang@=15.0.0", "versions": ["3.4"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=autotools", "patches=c1b61a1", "~static", "~utf8proc"], "stacks": ["root", "developer-tools-darwin"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-17/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/tmux-3.4/darwin-ventura-aarch64-apple-clang-15.0.0-tmux-3.4-lylydm6i4uopidvzanrkv2zswhv34kg6.spack"}, {"hash": "iwloxr6pkqdd74sbx4gbscadhrd5aa4q", "compiler": "gcc@=10.2.1", "versions": ["3.4"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "patches=c1b61a1", "~static", "~utf8proc"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-17/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/tmux-3.4/linux-centos7-x86_64_v3-gcc-10.2.1-tmux-3.4-iwloxr6pkqdd74sbx4gbscadhrd5aa4q.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "py-affine"
-layout: cache
-categories: [package, develop-2025-01-26]
-meta: {"versions": ["2.1.0"], "compilers": ["gcc@=13.2.0"], "oss": ["ubuntu24.04"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "root": 2, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "qvvqo3o23axa6y5pbjakf24acttkxizg", "compiler": "gcc@=13.2.0", "versions": ["2.1.0"], "os": "ubuntu24.04", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-aarch64-cpu", "root", "ml-linux-aarch64-cuda"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/py-affine-2.1.0/linux-ubuntu24.04-aarch64-gcc-13.2.0-py-affine-2.1.0-qvvqo3o23axa6y5pbjakf24acttkxizg.spack"}, {"hash": "mjhvfwng7gyclfyxo34behd7ap5hoeab", "compiler": "gcc@=13.2.0", "versions": ["2.1.0"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-affine-2.1.0/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-affine-2.1.0-mjhvfwng7gyclfyxo34behd7ap5hoeab.spack"}]
----

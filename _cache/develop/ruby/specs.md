@@ -1,7 +1,0 @@
----
-title: "ruby"
-layout: cache
-categories: [package, develop]
-meta: {"compilers": ["gcc@7.5.0"], "num_specs": 4, "num_specs_by_stack": {"build_systems": 4, "root": 4}, "oss": ["ubuntu18.04"], "platforms": ["linux"], "stacks": ["build_systems", "root"], "targets": ["x86_64_v3"], "versions": ["3.3.5"]}
-spec_details: [{"compiler": "gcc@7.5.0", "hash": "ff6db3fh6aspnnws7vpzyqahksn5xp75", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["build_systems", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "~readline", "~yjit"], "versions": ["3.3.5"]}, {"compiler": "gcc@7.5.0", "hash": "jcfx2wabhaq7uvrrao5arowvyxli346t", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["build_systems", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "~readline", "~yjit"], "versions": ["3.3.5"]}, {"compiler": "gcc@7.5.0", "hash": "olgeuiep26hf7zg6gvomudmridmlsgnx", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["build_systems", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "~openssl", "~readline", "~yjit"], "versions": ["3.3.5"]}, {"compiler": "gcc@7.5.0", "hash": "yymk7gpqknrs3gmbwhc5wtqbdgam6hvt", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["build_systems", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "~readline", "~yjit"], "versions": ["3.3.5"]}]
----

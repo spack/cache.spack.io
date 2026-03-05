@@ -1,7 +1,0 @@
----
-title: "aqlprofile"
-layout: cache
-categories: [package, develop-2025-02-23]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 2, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "root"], "targets": ["x86_64_v3"], "versions": ["6.3.2"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "i2qxujfaikksrzfcdoi7mnfrsxtkowyx", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-23/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/aqlprofile-6.3.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-aqlprofile-6.3.2-i2qxujfaikksrzfcdoi7mnfrsxtkowyx.spack", "target": "x86_64_v3", "variants": ["build_system=generic"], "versions": ["6.3.2"]}, {"compiler": "gcc@=11.4.0", "hash": "kiofjfesg7ai5trgdw5q364ie6nheqiz", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-23/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/aqlprofile-6.3.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-aqlprofile-6.3.2-kiofjfesg7ai5trgdw5q364ie6nheqiz.spack", "target": "x86_64_v3", "variants": ["build_system=generic"], "versions": ["6.3.2"]}]
----

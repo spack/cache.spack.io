@@ -1,7 +1,0 @@
----
-title: "rocm-cmake"
-layout: cache
-categories: [package, develop-2023-06-25]
-meta: {"versions": ["5.4.3"], "compilers": ["gcc@=11.1.0", "gcc@=11.3.0"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "gpu-tests", "ml-linux-x86_64-rocm", "root"], "num_specs": 2, "num_specs_by_stack": {"gpu-tests": 1, "root": 2, "e4s": 1, "ml-linux-x86_64-rocm": 1}}
-spec_details: [{"hash": "vbvd4nvzhopbl7njd7ejmnswiq75s6ja", "compiler": "gcc@=11.1.0", "versions": ["5.4.3"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["gpu-tests", "root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-25/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/rocm-cmake-5.4.3/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-rocm-cmake-5.4.3-vbvd4nvzhopbl7njd7ejmnswiq75s6ja.spack"}, {"hash": "5bzinkm4xybe3kfg6x33qncgm2itqzwh", "compiler": "gcc@=11.3.0", "versions": ["5.4.3"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-25/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/rocm-cmake-5.4.3/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-rocm-cmake-5.4.3-5bzinkm4xybe3kfg6x33qncgm2itqzwh.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "libxkbcommon"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "root": 2}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "root"], "targets": ["x86_64_v3"], "versions": ["1.7.0"]}
-spec_details: [{"compiler": "gcc@=11.1.0", "hash": "pgszodixuhy4hpgx2pxbs6sww4z3tiwq", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/libxkbcommon-1.7.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-libxkbcommon-1.7.0-pgszodixuhy4hpgx2pxbs6sww4z3tiwq.spack", "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library=shared", "~strip", "~wayland"], "versions": ["1.7.0"]}, {"compiler": "gcc@=11.4.0", "hash": "f4bgqjymyu3e6sddd2gugytqdcmvlupd", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/libxkbcommon-1.7.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-libxkbcommon-1.7.0-f4bgqjymyu3e6sddd2gugytqdcmvlupd.spack", "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library=shared", "~strip", "~wayland"], "versions": ["1.7.0"]}]
----

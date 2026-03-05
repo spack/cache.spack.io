@@ -1,7 +1,0 @@
----
-title: "pdt"
-layout: cache
-categories: [package, develop-2024-04-28]
-meta: {"versions": ["3.25.2"], "compilers": ["cce@=15.0.1", "gcc@=10.3.0"], "oss": ["rhel8", "sle_hpc15"], "platforms": ["linux"], "targets": ["x86_64_v4", "zen4"], "stacks": ["e4s-cray-rhel", "e4s-cray-sles", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-cray-rhel": 1, "root": 2, "e4s-cray-sles": 1}}
-spec_details: [{"hash": "tqm3gmtjy4ekn5cz4wflxuokrj5rneo7", "compiler": "cce@=15.0.1", "versions": ["3.25.2"], "os": "rhel8", "platform": "linux", "target": "zen4", "variants": ["build_system=autotools", "patches=113fca0", "~pic"], "stacks": ["e4s-cray-rhel", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-rhel8-zen4/cce-15.0.1/pdt-3.25.2/linux-rhel8-zen4-cce-15.0.1-pdt-3.25.2-tqm3gmtjy4ekn5cz4wflxuokrj5rneo7.spack"}, {"hash": "ejsd36cp3rlgpki4pesgpxsw2gv4cdjv", "compiler": "gcc@=10.3.0", "versions": ["3.25.2"], "os": "sle_hpc15", "platform": "linux", "target": "x86_64_v4", "variants": ["build_system=autotools", "~pic"], "stacks": ["e4s-cray-sles", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-sle_hpc15-x86_64_v4/gcc-10.3.0/pdt-3.25.2/linux-sle_hpc15-x86_64_v4-gcc-10.3.0-pdt-3.25.2-ejsd36cp3rlgpki4pesgpxsw2gv4cdjv.spack"}]
----

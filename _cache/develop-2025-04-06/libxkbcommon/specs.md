@@ -1,7 +1,0 @@
----
-title: "libxkbcommon"
-layout: cache
-categories: [package, develop-2025-04-06]
-meta: {"compilers": ["gcc@11.1.0", "gcc@11.4.0"], "num_specs": 3, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "hep": 1, "root": 3}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "hep", "root"], "targets": ["x86_64_v3"], "versions": ["1.7.0"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "5dtrxdnujcd26k3lbvvokkx52wfg2kmg", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library:=shared", "~strip", "~wayland"], "versions": ["1.7.0"]}, {"compiler": "gcc@11.1.0", "hash": "nilh3cpg55hfbuobyyvw6pavougusdqb", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library:=shared", "~strip", "~wayland"], "versions": ["1.7.0"]}, {"compiler": "gcc@11.4.0", "hash": "qkmf2p6swhkenmaa562a7viroodregwi", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library:=shared", "~strip", "~wayland"], "versions": ["1.7.0"]}]
----

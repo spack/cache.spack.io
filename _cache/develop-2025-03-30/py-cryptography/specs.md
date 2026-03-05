@@ -1,7 +1,0 @@
----
-title: "py-cryptography"
-layout: cache
-categories: [package, develop-2025-03-30]
-meta: {"compilers": ["none"], "num_specs": 4, "num_specs_by_stack": {"e4s": 1, "e4s-neoverse-v2": 1, "e4s-oneapi": 1, "radiuss": 1, "root": 4}, "oss": ["ubuntu18.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-neoverse-v2", "e4s-oneapi", "radiuss", "root"], "targets": ["neoverse_v2", "x86_64_v3"], "versions": ["43.0.3"]}
-spec_details: [{"compiler": "none", "hash": "4cinlbej5j44nlubls65wxqme4dnwdzt", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["43.0.3"]}, {"compiler": "none", "hash": "kes4bwotjbyq6mva7d7z7q7lwfqphqdu", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["radiuss", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["43.0.3"]}, {"compiler": "none", "hash": "t4muipvfq27hpwsod67blz64ojk2jyrq", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-neoverse-v2", "root"], "target": "neoverse_v2", "variants": ["build_system=python_pip"], "versions": ["43.0.3"]}, {"compiler": "none", "hash": "wzwlftg7pfxzrwbk6vogmp7haqkue4iq", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["43.0.3"]}]
----

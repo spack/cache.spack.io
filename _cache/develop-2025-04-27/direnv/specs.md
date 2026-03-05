@@ -1,7 +1,0 @@
----
-title: "direnv"
-layout: cache
-categories: [package, develop-2025-04-27]
-meta: {"compilers": ["none"], "num_specs": 3, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-darwin": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "root": 3}, "oss": ["centos7", "rhel8", "sequoia"], "platforms": ["darwin", "linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-darwin", "developer-tools-x86_64_v3-linux-gnu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["2.35.0"]}
-spec_details: [{"compiler": "none", "hash": "2e74tpo2zov44oaw56o2kd7h6tbppa32", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "target": "aarch64", "variants": ["build_system=go"], "versions": ["2.35.0"]}, {"compiler": "none", "hash": "n66kwcdz4mte3lexn77gd73hlvrvu3kc", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["developer-tools-darwin", "root"], "target": "aarch64", "variants": ["build_system=go"], "versions": ["2.35.0"]}, {"compiler": "none", "hash": "txyo3rh3you2h4sz4wtoilwdrfiaft6q", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "target": "x86_64_v3", "variants": ["build_system=go"], "versions": ["2.35.0"]}]
----

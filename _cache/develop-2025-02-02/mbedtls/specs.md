@@ -1,7 +1,0 @@
----
-title: "mbedtls"
-layout: cache
-categories: [package, develop-2025-02-02]
-meta: {"versions": ["2.28.9", "3.6.2"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "hep", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "tutorial": 1, "hep": 1}}
-spec_details: [{"hash": "a522nnogibjhxyytn74xbzkyyidbohcz", "compiler": "gcc@=11.4.0", "versions": ["2.28.9"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=makefile", "build_type=Release", "libs=shared,static", "+pic"], "stacks": ["root", "e4s", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/mbedtls-2.28.9/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-mbedtls-2.28.9-a522nnogibjhxyytn74xbzkyyidbohcz.spack"}, {"hash": "5zp7qcaj2r2oesl5xhdfxthc2fu5dvfh", "compiler": "gcc@=11.4.0", "versions": ["3.6.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=makefile", "build_type=Release", "libs=static", "~pic"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/mbedtls-3.6.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-mbedtls-3.6.2-5zp7qcaj2r2oesl5xhdfxthc2fu5dvfh.spack"}]
----

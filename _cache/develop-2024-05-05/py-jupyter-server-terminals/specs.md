@@ -1,7 +1,0 @@
----
-title: "py-jupyter-server-terminals"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["0.4.4"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["neoverse_v1", "x86_64_v3"], "stacks": ["e4s", "e4s-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-neoverse_v1": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "3ebwncprepbhiyu5dr2rpsslsvn54bya", "compiler": "gcc@=11.4.0", "versions": ["0.4.4"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=python_pip"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-neoverse_v1/gcc-11.4.0/py-jupyter-server-terminals-0.4.4/linux-ubuntu22.04-neoverse_v1-gcc-11.4.0-py-jupyter-server-terminals-0.4.4-3ebwncprepbhiyu5dr2rpsslsvn54bya.spack"}, {"hash": "m5boambm5mussmswm3xu7wmmeqquigym", "compiler": "gcc@=11.4.0", "versions": ["0.4.4"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-jupyter-server-terminals-0.4.4/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-jupyter-server-terminals-0.4.4-m5boambm5mussmswm3xu7wmmeqquigym.spack"}]
----

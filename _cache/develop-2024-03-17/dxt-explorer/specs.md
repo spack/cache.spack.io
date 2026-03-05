@@ -1,7 +1,0 @@
----
-title: "dxt-explorer"
-layout: cache
-categories: [package, develop-2024-03-17]
-meta: {"versions": ["0.3"], "compilers": ["gcc@=11.4.0", "gcc@=9.4.0"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "yec3vxbcwzmnpsdsdqc4ftgv4xejwpud", "compiler": "gcc@=9.4.0", "versions": ["0.3"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=python_pip"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-03-17/build_cache/linux-ubuntu20.04-ppc64le/gcc-9.4.0/dxt-explorer-0.3/linux-ubuntu20.04-ppc64le-gcc-9.4.0-dxt-explorer-0.3-yec3vxbcwzmnpsdsdqc4ftgv4xejwpud.spack"}, {"hash": "wfgud43lnbixw5ui5vig6a3p2bokljs2", "compiler": "gcc@=11.4.0", "versions": ["0.3"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-03-17/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/dxt-explorer-0.3/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-dxt-explorer-0.3-wfgud43lnbixw5ui5vig6a3p2bokljs2.spack"}]
----

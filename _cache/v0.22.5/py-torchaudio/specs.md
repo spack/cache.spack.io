@@ -1,7 +1,0 @@
----
-title: "py-torchaudio"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["x86_64_v3"], "versions": ["2.3.0"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "fo5iwkjazidnvjtlyzpat6kz2mbbbz4l", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-torchaudio-2.3.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-torchaudio-2.3.0-fo5iwkjazidnvjtlyzpat6kz2mbbbz4l.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.3.0"]}, {"compiler": "gcc@=11.4.0", "hash": "yqanj4b5xwal3ukb7wpvdtcw2goqvklu", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cuda", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-torchaudio-2.3.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-torchaudio-2.3.0-yqanj4b5xwal3ukb7wpvdtcw2goqvklu.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.3.0"]}]
----

@@ -1,7 +1,0 @@
----
-title: "sqlite"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["3.38.5"], "compilers": ["gcc@=7.5.0", "gcc@=8.4.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["build_systems", "data-vis-sdk", "e4s", "radiuss", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"build_systems": 1, "root": 2, "tutorial": 2, "data-vis-sdk": 1, "e4s": 1, "radiuss": 1}}
-spec_details: [{"hash": "zbjzhlerhmb2liwt2zh4krac2i5hfftt", "compiler": "gcc@=7.5.0", "versions": ["3.38.5"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["+column_metadata", "+dynamic_extensions", "+fts", "~functions", "+rtree"], "stacks": ["build_systems", "root", "tutorial", "data-vis-sdk", "e4s", "radiuss"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/sqlite-3.38.5/linux-ubuntu18.04-x86_64-gcc-7.5.0-sqlite-3.38.5-zbjzhlerhmb2liwt2zh4krac2i5hfftt.spack"}, {"hash": "fs4yqymm2w6ooyd3xqvrqkvxnnfgasy7", "compiler": "gcc@=8.4.0", "versions": ["3.38.5"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["+column_metadata", "+dynamic_extensions", "+fts", "~functions", "+rtree"], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-8.4.0/sqlite-3.38.5/linux-ubuntu18.04-x86_64-gcc-8.4.0-sqlite-3.38.5-fs4yqymm2w6ooyd3xqvrqkvxnnfgasy7.spack"}]
----

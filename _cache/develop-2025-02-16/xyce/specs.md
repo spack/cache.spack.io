@@ -1,7 +1,0 @@
----
-title: "xyce"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 1, "num_specs_by_stack": {"e4s": 1, "root": 1}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "root"], "targets": ["x86_64_v3"], "versions": ["7.8.0"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "2ytc6ylu5x5xjqvxtlpnozwn4rqdwda2", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/xyce-7.8.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-xyce-7.8.0-2ytc6ylu5x5xjqvxtlpnozwn4rqdwda2.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "cxxstd=11", "generator=make", "~ipo", "+mpi", "patches=4d47cd1", "~plugin", "+pymi", "+pymi_static_tpls", "+shared"], "versions": ["7.8.0"]}]
----

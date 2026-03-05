@@ -1,7 +1,0 @@
----
-title: "py-pyproj"
-layout: cache
-categories: [package, develop-2025-01-26]
-meta: {"versions": ["3.7.0"], "compilers": ["gcc@=13.2.0"], "oss": ["ubuntu24.04"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "root": 2, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "fcr4bsfo4pvym5wepump7sbcnq5epxyo", "compiler": "gcc@=13.2.0", "versions": ["3.7.0"], "os": "ubuntu24.04", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-aarch64-cpu", "root", "ml-linux-aarch64-cuda"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/py-pyproj-3.7.0/linux-ubuntu24.04-aarch64-gcc-13.2.0-py-pyproj-3.7.0-fcr4bsfo4pvym5wepump7sbcnq5epxyo.spack"}, {"hash": "tjep5kysil66t5nrp457ibbmfunbpb5v", "compiler": "gcc@=13.2.0", "versions": ["3.7.0"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-pyproj-3.7.0/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-pyproj-3.7.0-tjep5kysil66t5nrp457ibbmfunbpb5v.spack"}]
----

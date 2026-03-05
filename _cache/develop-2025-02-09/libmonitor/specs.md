@@ -1,7 +1,0 @@
----
-title: "libmonitor"
-layout: cache
-categories: [package, develop-2025-02-09]
-meta: {"versions": ["2023.03.15"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["neoverse_v2", "x86_64_v3"], "stacks": ["e4s", "e4s-neoverse-v2", "e4s-rocm-external", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s-neoverse-v2": 1, "e4s-rocm-external": 1, "e4s": 1}}
-spec_details: [{"hash": "jj4xi7omhckf4cq7brgc6fznubfexkof", "compiler": "gcc@=11.4.0", "versions": ["2023.03.15"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v2", "variants": ["build_system=autotools", "~commrank", "~dlopen", "+hpctoolkit"], "stacks": ["root", "e4s-neoverse-v2"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu22.04-neoverse_v2/gcc-11.4.0/libmonitor-2023.03.15/linux-ubuntu22.04-neoverse_v2-gcc-11.4.0-libmonitor-2023.03.15-jj4xi7omhckf4cq7brgc6fznubfexkof.spack"}, {"hash": "f7rzq6v4s6kpqbt7b5nufelj4ch5ftol", "compiler": "gcc@=11.4.0", "versions": ["2023.03.15"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "~commrank", "~dlopen", "+hpctoolkit"], "stacks": ["e4s-rocm-external", "root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/libmonitor-2023.03.15/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-libmonitor-2023.03.15-f7rzq6v4s6kpqbt7b5nufelj4ch5ftol.spack"}]
----

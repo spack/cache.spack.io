@@ -1,7 +1,0 @@
----
-title: "py-tifffile"
-layout: cache
-categories: [package, develop-2025-03-30]
-meta: {"compilers": ["none"], "num_specs": 4, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "e4s-oneapi": 2, "root": 4}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["2024.8.30"]}
-spec_details: [{"compiler": "none", "hash": "3lcdr74rjrjosxx2346gwze77la7twkx", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2024.8.30"]}, {"compiler": "none", "hash": "dclmwaeatg6rm4dlp5y5umk3d5v3vipb", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2024.8.30"]}, {"compiler": "none", "hash": "luvtimxzmaew7kx5yin45ko3mqkboifh", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2024.8.30"]}, {"compiler": "none", "hash": "prkfbijcvi5eetuv25jh6o2d5hsj5thv", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2024.8.30"]}]
----

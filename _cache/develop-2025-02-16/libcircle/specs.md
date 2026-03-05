@@ -1,7 +1,0 @@
----
-title: "libcircle"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["cce@=18.0.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-cray-rhel": 1, "root": 2}, "oss": ["rhel8", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-cray-rhel", "root"], "targets": ["x86_64_v3"], "versions": ["0.3.0"]}
-spec_details: [{"compiler": "cce@=18.0.0", "hash": "bpv2u5yqibh4yaf3h5yb5yjaqnsanisw", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["e4s-cray-rhel", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-rhel8-x86_64_v3/cce-18.0.0/libcircle-0.3.0/linux-rhel8-x86_64_v3-cce-18.0.0-libcircle-0.3.0-bpv2u5yqibh4yaf3h5yb5yjaqnsanisw.spack", "target": "x86_64_v3", "variants": ["build_system=autotools", "patches=fd725f5"], "versions": ["0.3.0"]}, {"compiler": "gcc@=11.4.0", "hash": "2u6pcnapqqwcrwasbqsumquxtajsmo2m", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/libcircle-0.3.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-libcircle-0.3.0-2u6pcnapqqwcrwasbqsumquxtajsmo2m.spack", "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["0.3.0"]}]
----

@@ -1,7 +1,0 @@
----
-title: "libbsd"
-layout: cache
-categories: [package, develop-2024-04-14]
-meta: {"versions": ["0.12.1"], "compilers": ["oneapi@=2023.2.0"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3", "x86_64_v4"], "stacks": ["aws-pcluster-x86_64_v4", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "aws-pcluster-x86_64_v4": 2}}
-spec_details: [{"hash": "dimykuqpaol2dfc3kofzqely34ycphov", "compiler": "oneapi@=2023.2.0", "versions": ["0.12.1"], "os": "amzn2", "platform": "linux", "target": "x86_64_v4", "variants": ["build_system=autotools"], "stacks": ["root", "aws-pcluster-x86_64_v4"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-x86_64_v4/oneapi-2023.2.0/libbsd-0.12.1/linux-amzn2-x86_64_v4-oneapi-2023.2.0-libbsd-0.12.1-dimykuqpaol2dfc3kofzqely34ycphov.spack"}, {"hash": "bf62iyuvrrdixxc5tmwwhuavkqwbwe47", "compiler": "oneapi@=2023.2.0", "versions": ["0.12.1"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["root", "aws-pcluster-x86_64_v4"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-x86_64_v3/oneapi-2023.2.0/libbsd-0.12.1/linux-amzn2-x86_64_v3-oneapi-2023.2.0-libbsd-0.12.1-bf62iyuvrrdixxc5tmwwhuavkqwbwe47.spack"}]
----

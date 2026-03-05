@@ -1,7 +1,0 @@
----
-title: "lua-mpack"
-layout: cache
-categories: [package, develop-2025-01-12]
-meta: {"versions": ["1.0.12"], "compilers": ["gcc@=10.5.0", "gcc@=13.3.0"], "oss": ["centos7", "rhel8"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-x86_64_v3-linux-gnu": 1, "root": 2, "developer-tools-aarch64-linux-gnu": 1}}
-spec_details: [{"hash": "apgl52tny4iifm5w346feu7te75olc26", "compiler": "gcc@=10.5.0", "versions": ["1.0.12"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=lua"], "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-centos7-x86_64_v3/gcc-10.5.0/lua-mpack-1.0.12/linux-centos7-x86_64_v3-gcc-10.5.0-lua-mpack-1.0.12-apgl52tny4iifm5w346feu7te75olc26.spack"}, {"hash": "q7q2dujqeaskcnnchy4tgfbxwnmtxsw6", "compiler": "gcc@=13.3.0", "versions": ["1.0.12"], "os": "rhel8", "platform": "linux", "target": "aarch64", "variants": ["build_system=lua"], "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-rhel8-aarch64/gcc-13.3.0/lua-mpack-1.0.12/linux-rhel8-aarch64-gcc-13.3.0-lua-mpack-1.0.12-q7q2dujqeaskcnnchy4tgfbxwnmtxsw6.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "variorum"
-layout: cache
-categories: [package, develop-2023-12-24]
-meta: {"versions": ["0.7.0"], "compilers": ["gcc@=11.4.0", "oneapi@=2023.2.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "x72fdexmmbm4obrl5oeuo7sgbz3m5sov", "compiler": "gcc@=11.4.0", "versions": ["0.7.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~docs", "generator=make", "~ipo", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-12-24/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/variorum-0.7.0/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-variorum-0.7.0-x72fdexmmbm4obrl5oeuo7sgbz3m5sov.spack"}, {"hash": "6wemhqjn2lgkyyywvmofqjqsbe3u2pag", "compiler": "oneapi@=2023.2.0", "versions": ["0.7.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~docs", "generator=make", "~ipo", "+shared"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-12-24/build_cache/linux-ubuntu20.04-x86_64_v3/oneapi-2023.2.0/variorum-0.7.0/linux-ubuntu20.04-x86_64_v3-oneapi-2023.2.0-variorum-0.7.0-6wemhqjn2lgkyyywvmofqjqsbe3u2pag.spack"}]
----

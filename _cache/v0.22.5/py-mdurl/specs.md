@@ -1,7 +1,0 @@
----
-title: "py-mdurl"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=11.4.0", "gcc@=7.5.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "radiuss": 1, "root": 2}, "oss": ["ubuntu18.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "radiuss", "root"], "targets": ["x86_64_v3"], "versions": ["0.1.2"]}
-spec_details: [{"compiler": "gcc@=7.5.0", "hash": "em3xkwb3s23thlsx3kyeynlxbnufaijh", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["radiuss", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-mdurl-0.1.2/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-mdurl-0.1.2-em3xkwb3s23thlsx3kyeynlxbnufaijh.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.1.2"]}, {"compiler": "gcc@=11.4.0", "hash": "z55swqzj35bggptrxbtgrclup2kxiww4", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-mdurl-0.1.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-mdurl-0.1.2-z55swqzj35bggptrxbtgrclup2kxiww4.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.1.2"]}]
----

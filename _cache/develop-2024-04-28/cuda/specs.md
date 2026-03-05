@@ -1,7 +1,0 @@
----
-title: "cuda"
-layout: cache
-categories: [package, develop-2024-04-28]
-meta: {"versions": ["11.8.0", "12.4.0"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cuda": 2, "root": 2}}
-spec_details: [{"hash": "bhbxfrcswhypymqu5esguewh5vpugrdq", "compiler": "gcc@=11.4.0", "versions": ["11.8.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~allow-unsupported-compilers", "build_system=generic", "~dev"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/cuda-11.8.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-cuda-11.8.0-bhbxfrcswhypymqu5esguewh5vpugrdq.spack"}, {"hash": "6qosliq26ms3vfdcwjqvdlbehtbuez2x", "compiler": "gcc@=11.4.0", "versions": ["12.4.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~allow-unsupported-compilers", "build_system=generic", "~dev"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/cuda-12.4.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-cuda-12.4.0-6qosliq26ms3vfdcwjqvdlbehtbuez2x.spack"}]
----

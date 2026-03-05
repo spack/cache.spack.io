@@ -1,7 +1,0 @@
----
-title: "py-python-json-logger"
-layout: cache
-categories: [package, develop-2023-08-27]
-meta: {"versions": ["2.0.7"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "nrxsvb3jtfn5ivrnaf7uhc67f4na5u5n", "compiler": "gcc@=11.1.0", "versions": ["2.0.7"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=python_pip"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-08-27/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/py-python-json-logger-2.0.7/linux-ubuntu20.04-ppc64le-gcc-11.1.0-py-python-json-logger-2.0.7-nrxsvb3jtfn5ivrnaf7uhc67f4na5u5n.spack"}, {"hash": "kxjwr45nviy7jekp2s27ce4iccz33o5o", "compiler": "gcc@=11.1.0", "versions": ["2.0.7"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-08-27/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-python-json-logger-2.0.7/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-python-json-logger-2.0.7-kxjwr45nviy7jekp2s27ce4iccz33o5o.spack"}]
----

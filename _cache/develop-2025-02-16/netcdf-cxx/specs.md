@@ -1,7 +1,0 @@
----
-title: "netcdf-cxx"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 2, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "root"], "targets": ["x86_64_v3"], "versions": ["4.2"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "v2iqrwxgw3kz7dkyty2wtuyw4ik5eawp", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/netcdf-cxx-4.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-netcdf-cxx-4.2-v2iqrwxgw3kz7dkyty2wtuyw4ik5eawp.spack", "target": "x86_64_v3", "variants": ["build_system=autotools", "+netcdf4", "patches=8892291"], "versions": ["4.2"]}, {"compiler": "gcc@=11.4.0", "hash": "wbp5yf72hdrtyrxrqkfgmae3ometsiig", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/netcdf-cxx-4.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-netcdf-cxx-4.2-wbp5yf72hdrtyrxrqkfgmae3ometsiig.spack", "target": "x86_64_v3", "variants": ["build_system=autotools", "+netcdf4", "patches=8892291"], "versions": ["4.2"]}]
----

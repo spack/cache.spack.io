@@ -1,7 +1,0 @@
----
-title: "hsakmt-roct"
-layout: cache
-categories: [package, v2025.07.0]
-meta: {"compilers": ["gcc@11.4.0", "gcc@13.2.0"], "num_specs": 3, "num_specs_by_stack": {"hep": 1, "ml-linux-x86_64-rocm": 2, "root": 3}, "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["hep", "ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["5.7.1", "6.2.4"]}
-spec_details: [{"compiler": "gcc@13.2.0", "hash": "4qc3rfq3daoircxjysrkndu2evzcn7tt", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["~asan", "build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["6.2.4"]}, {"compiler": "gcc@11.4.0", "hash": "hzcfwpfk4zadbszwjmccqbak6muqolwu", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["~asan", "build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["5.7.1"]}, {"compiler": "gcc@13.2.0", "hash": "q56sg6ayp7ut7snzksqhr3wbu42z7iyd", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["~asan", "build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["6.2.4"]}]
----

@@ -1,7 +1,0 @@
----
-title: "gnuconfig"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["2022-09-17"], "compilers": ["apple-clang@=15.0.0", "gcc@=11.4.0"], "oss": ["ubuntu22.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "neoverse_v1"], "stacks": ["e4s-neoverse_v1", "ml-darwin-aarch64-mps", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-neoverse_v1": 1, "root": 2, "ml-darwin-aarch64-mps": 1}}
-spec_details: [{"hash": "44c65bj664hmrgue52eujp5jtumuf62h", "compiler": "gcc@=11.4.0", "versions": ["2022-09-17"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=generic"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-neoverse_v1/gcc-11.4.0/gnuconfig-2022-09-17/linux-ubuntu22.04-neoverse_v1-gcc-11.4.0-gnuconfig-2022-09-17-44c65bj664hmrgue52eujp5jtumuf62h.spack"}, {"hash": "q4jkyjbnmakcww365ua75wiemnsta6zf", "compiler": "apple-clang@=15.0.0", "versions": ["2022-09-17"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=generic"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/gnuconfig-2022-09-17/darwin-ventura-aarch64-apple-clang-15.0.0-gnuconfig-2022-09-17-q4jkyjbnmakcww365ua75wiemnsta6zf.spack"}]
----

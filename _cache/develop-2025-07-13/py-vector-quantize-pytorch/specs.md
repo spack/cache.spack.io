@@ -1,7 +1,0 @@
----
-title: "py-vector-quantize-pytorch"
-layout: cache
-categories: [package, develop-2025-07-13]
-meta: {"compilers": ["none"], "num_specs": 4, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 4}, "oss": ["ubuntu24.04"], "platforms": ["linux"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["0.3.9"]}
-spec_details: [{"compiler": "none", "hash": "5ii3osdltunvgpqgs5liosaqonciwmyq", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.3.9"]}, {"compiler": "none", "hash": "gega33hrtyjxe55windyytvmvuo7g4xu", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["0.3.9"]}, {"compiler": "none", "hash": "t6rd6ttcwn6wnpqzdp476aidf34mgd4w", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.3.9"]}, {"compiler": "none", "hash": "uxmgs5n26js7rwnxbxyqbya2fbayxcn2", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["0.3.9"]}]
----

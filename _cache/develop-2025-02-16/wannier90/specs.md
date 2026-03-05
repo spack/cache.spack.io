@@ -1,7 +1,0 @@
----
-title: "wannier90"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["cce@=18.0.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-cray-rhel": 1, "root": 2}, "oss": ["rhel8", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-cray-rhel", "root"], "targets": ["x86_64_v3"], "versions": ["3.1.0"]}
-spec_details: [{"compiler": "cce@=18.0.0", "hash": "5luvlwyp5wslmzexcc5ojlavrkvqr5ar", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["e4s-cray-rhel", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-rhel8-x86_64_v3/cce-18.0.0/wannier90-3.1.0/linux-rhel8-x86_64_v3-cce-18.0.0-wannier90-3.1.0-5luvlwyp5wslmzexcc5ojlavrkvqr5ar.spack", "target": "x86_64_v3", "variants": ["build_system=makefile", "+shared"], "versions": ["3.1.0"]}, {"compiler": "gcc@=11.4.0", "hash": "kxzwmbbag4xw25koekj33sjvpaczbdwp", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/wannier90-3.1.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-wannier90-3.1.0-kxzwmbbag4xw25koekj33sjvpaczbdwp.spack", "target": "x86_64_v3", "variants": ["build_system=makefile", "+shared"], "versions": ["3.1.0"]}]
----

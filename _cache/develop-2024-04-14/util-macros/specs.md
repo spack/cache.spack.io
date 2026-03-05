@@ -1,7 +1,0 @@
----
-title: "util-macros"
-layout: cache
-categories: [package, develop-2024-04-14]
-meta: {"versions": ["1.19.3"], "compilers": ["gcc@=12.3.0"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["neoverse_n1", "neoverse_v1"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-pcluster-neoverse_v1": 2, "root": 2}}
-spec_details: [{"hash": "ec6de6ew6k2ksvcdjesz4p7sza2ulykl", "compiler": "gcc@=12.3.0", "versions": ["1.19.3"], "os": "amzn2", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=autotools"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-neoverse_v1/gcc-12.3.0/util-macros-1.19.3/linux-amzn2-neoverse_v1-gcc-12.3.0-util-macros-1.19.3-ec6de6ew6k2ksvcdjesz4p7sza2ulykl.spack"}, {"hash": "imvfuylik5jx5hvc63i7egddgubses44", "compiler": "gcc@=12.3.0", "versions": ["1.19.3"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=autotools"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-neoverse_n1/gcc-12.3.0/util-macros-1.19.3/linux-amzn2-neoverse_n1-gcc-12.3.0-util-macros-1.19.3-imvfuylik5jx5hvc63i7egddgubses44.spack"}]
----

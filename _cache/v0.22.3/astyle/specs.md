@@ -1,7 +1,0 @@
----
-title: "astyle"
-layout: cache
-categories: [package, v0.22.3]
-meta: {"versions": ["3.4.11"], "compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-manylinux2014": 1, "root": 2, "developer-tools": 1}}
-spec_details: [{"hash": "atuaxtibf3cj6pleorvxjxmjkabjzozc", "compiler": "gcc@=10.2.1", "versions": ["3.4.11"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.3/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/astyle-3.4.11/linux-centos7-x86_64_v3-gcc-10.2.1-astyle-3.4.11-atuaxtibf3cj6pleorvxjxmjkabjzozc.spack"}, {"hash": "dlokrpfyhjdw5hgooll5cnb76o4ca6eu", "compiler": "gcc@=7.5.0", "versions": ["3.4.11"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["developer-tools", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.3/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/astyle-3.4.11/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-astyle-3.4.11-dlokrpfyhjdw5hgooll5cnb76o4ca6eu.spack"}]
----

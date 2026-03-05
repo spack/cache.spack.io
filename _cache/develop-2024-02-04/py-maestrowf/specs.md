@@ -1,7 +1,0 @@
----
-title: "py-maestrowf"
-layout: cache
-categories: [package, develop-2024-02-04]
-meta: {"versions": ["1.1.9"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["radiuss", "root"], "num_specs": 2, "num_specs_by_stack": {"radiuss": 2, "root": 2}}
-spec_details: [{"hash": "2ufj2h4n2ikvm4izou5fxrid46ropjxz", "compiler": "gcc@=7.5.0", "versions": ["1.1.9"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["radiuss", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-02-04/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-maestrowf-1.1.9/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-maestrowf-1.1.9-2ufj2h4n2ikvm4izou5fxrid46ropjxz.spack"}, {"hash": "elc3xgfpko7awc6zyqttfyefjvofmtbu", "compiler": "gcc@=7.5.0", "versions": ["1.1.9"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["radiuss", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-02-04/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-maestrowf-1.1.9/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-maestrowf-1.1.9-elc3xgfpko7awc6zyqttfyefjvofmtbu.spack"}]
----

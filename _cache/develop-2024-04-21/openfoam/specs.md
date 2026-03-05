@@ -1,7 +1,0 @@
----
-title: "openfoam"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["2312"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "jgmqmjtc4l74vfbumhg5hsptovcxembz", "compiler": "gcc@=7.3.1", "versions": ["2312"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=generic", "~int64", "~kahip", "~knl", "~metis", "~mgridgen", "~paraview", "precision=dp", "+scotch", "+source", "~vtk", "~zoltan"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/openfoam-2312/linux-amzn2-aarch64-gcc-7.3.1-openfoam-2312-jgmqmjtc4l74vfbumhg5hsptovcxembz.spack"}, {"hash": "2gd7leherovph2owpagghjeowl6n46nd", "compiler": "gcc@=7.3.1", "versions": ["2312"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=generic", "~int64", "~kahip", "~knl", "~metis", "~mgridgen", "~paraview", "precision=dp", "+scotch", "+source", "~vtk", "~zoltan"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/openfoam-2312/linux-amzn2-neoverse_n1-gcc-7.3.1-openfoam-2312-2gd7leherovph2owpagghjeowl6n46nd.spack"}]
----

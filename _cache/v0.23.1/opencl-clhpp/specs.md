@@ -1,7 +1,0 @@
----
-title: "opencl-clhpp"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=11.4.0", "gcc@=9.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-power": 1, "root": 2}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-power", "root"], "targets": ["ppc64le", "x86_64_v3"], "versions": ["2.0.16"]}
-spec_details: [{"compiler": "gcc@=9.4.0", "hash": "3o7d52fpx6xtar57azekmeff5v6ev6dd", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["e4s-power", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu20.04-ppc64le/gcc-9.4.0/opencl-clhpp-2.0.16/linux-ubuntu20.04-ppc64le-gcc-9.4.0-opencl-clhpp-2.0.16-3o7d52fpx6xtar57azekmeff5v6ev6dd.spack", "target": "ppc64le", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["2.0.16"]}, {"compiler": "gcc@=11.4.0", "hash": "wuejhmky7znwyhuwmxqjz4ptpvefggie", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/opencl-clhpp-2.0.16/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-opencl-clhpp-2.0.16-wuejhmky7znwyhuwmxqjz4ptpvefggie.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["2.0.16"]}]
----

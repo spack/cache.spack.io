@@ -1,7 +1,0 @@
----
-title: "node-js"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "num_specs": 2, "num_specs_by_stack": {"developer-tools": 1, "developer-tools-manylinux2014": 1, "root": 2}, "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "targets": ["x86_64_v3"], "versions": ["19.2.0"]}
-spec_details: [{"compiler": "gcc@=7.5.0", "hash": "6epbmsmjqcml3ixj5aisgeub3v2jynny", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["developer-tools", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/node-js-19.2.0/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-node-js-19.2.0-6epbmsmjqcml3ixj5aisgeub3v2jynny.spack", "target": "x86_64_v3", "variants": ["build_system=generic", "~debug", "~doc", "~icu4c", "+openssl", "+zlib"], "versions": ["19.2.0"]}, {"compiler": "gcc@=10.2.1", "hash": "aosqtjsi2442jmxz2j4ydvnioigcknrz", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-manylinux2014", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/node-js-19.2.0/linux-centos7-x86_64_v3-gcc-10.2.1-node-js-19.2.0-aosqtjsi2442jmxz2j4ydvnioigcknrz.spack", "target": "x86_64_v3", "variants": ["build_system=generic", "~debug", "~doc", "~icu4c", "+openssl", "+zlib"], "versions": ["19.2.0"]}]
----

@@ -1,7 +1,0 @@
----
-title: "cudnn"
-layout: cache
-categories: [package, develop-2023-12-10]
-meta: {"versions": ["8.7.0.84-11.8"], "compilers": ["gcc@=11.3.0", "gcc@=11.4.0"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "kz7m6dmgylcp54rxnhsefjfsub7kvtm7", "compiler": "gcc@=11.4.0", "versions": ["8.7.0.84-11.8"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-12-10/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/cudnn-8.7.0.84-11.8/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-cudnn-8.7.0.84-11.8-kz7m6dmgylcp54rxnhsefjfsub7kvtm7.spack"}, {"hash": "46dm76wolm6thpo3noflq4sdfmgxb3bn", "compiler": "gcc@=11.3.0", "versions": ["8.7.0.84-11.8"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-12-10/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/cudnn-8.7.0.84-11.8/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-cudnn-8.7.0.84-11.8-46dm76wolm6thpo3noflq4sdfmgxb3bn.spack"}]
----

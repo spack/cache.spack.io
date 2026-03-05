@@ -1,7 +1,0 @@
----
-title: "h5bench"
-layout: cache
-categories: [package, develop-2023-05-14]
-meta: {"versions": ["1.3"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "ibt6l5duy5j3wqruzx6mjehxc56dp4iu", "compiler": "gcc@=11.1.0", "versions": ["1.3"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["~all", "~amrex", "~async", "build_system=cmake", "build_type=Release", "~e3sm", "~exerciser", "generator=make", "~ipo", "~metadata", "~openpmd"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-05-14/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/h5bench-1.3/linux-ubuntu20.04-ppc64le-gcc-11.1.0-h5bench-1.3-ibt6l5duy5j3wqruzx6mjehxc56dp4iu.spack"}, {"hash": "qbduxpwzxhigpv2fxwbtptna7of4fxea", "compiler": "gcc@=11.1.0", "versions": ["1.3"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~all", "~amrex", "~async", "build_system=cmake", "build_type=Release", "~e3sm", "~exerciser", "generator=make", "~ipo", "~metadata", "~openpmd"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-05-14/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/h5bench-1.3/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-h5bench-1.3-qbduxpwzxhigpv2fxwbtptna7of4fxea.spack"}]
----

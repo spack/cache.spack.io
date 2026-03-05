@@ -1,7 +1,0 @@
----
-title: "pixman"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "root": 2}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "root"], "targets": ["x86_64_v3"], "versions": ["0.44.0"]}
-spec_details: [{"compiler": "gcc@=11.1.0", "hash": "xqdxkzpoqzk6lglzdpmdn56jkynwpv53", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/pixman-0.44.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-pixman-0.44.0-xqdxkzpoqzk6lglzdpmdn56jkynwpv53.spack", "target": "x86_64_v3", "variants": ["build_system=meson", "+shared"], "versions": ["0.44.0"]}, {"compiler": "gcc@=11.4.0", "hash": "bloeycdgedmswso6l2kksyqyafcf562k", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/pixman-0.44.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-pixman-0.44.0-bloeycdgedmswso6l2kksyqyafcf562k.spack", "target": "x86_64_v3", "variants": ["build_system=meson", "+shared"], "versions": ["0.44.0"]}]
----

@@ -1,7 +1,0 @@
----
-title: "py-patsy"
-layout: cache
-categories: [package, develop-2025-02-02]
-meta: {"versions": ["0.5.3"], "compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "sucxgdry34l5evutuhwyyevssqgefvr5", "compiler": "gcc@=11.4.0", "versions": ["0.5.3"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~splines"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-patsy-0.5.3/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-patsy-0.5.3-sucxgdry34l5evutuhwyyevssqgefvr5.spack"}, {"hash": "enxdxurkvhflzyyx2uz5u4vw4ds7slvd", "compiler": "oneapi@=2024.2.1", "versions": ["0.5.3"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~splines"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/py-patsy-0.5.3/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-py-patsy-0.5.3-enxdxurkvhflzyyx2uz5u4vw4ds7slvd.spack"}]
----

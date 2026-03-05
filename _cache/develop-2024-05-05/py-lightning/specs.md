@@ -1,7 +1,0 @@
----
-title: "py-lightning"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["2.2.3"], "compilers": ["apple-clang@=15.0.0"], "oss": ["ventura"], "platforms": ["darwin"], "targets": ["aarch64"], "stacks": ["ml-darwin-aarch64-mps", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 2, "root": 2}}
-spec_details: [{"hash": "lcnficzlha3upig32c3dm3clefsitwux", "compiler": "apple-clang@=15.0.0", "versions": ["2.2.3"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-lightning-2.2.3/darwin-ventura-aarch64-apple-clang-15.0.0-py-lightning-2.2.3-lcnficzlha3upig32c3dm3clefsitwux.spack"}, {"hash": "ab44xyueiqdb35grmdonx2ezciubgvzh", "compiler": "apple-clang@=15.0.0", "versions": ["2.2.3"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-lightning-2.2.3/darwin-ventura-aarch64-apple-clang-15.0.0-py-lightning-2.2.3-ab44xyueiqdb35grmdonx2ezciubgvzh.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "py-trove-classifiers"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["2023.8.7"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "35f3lo476rzt4n5vww7g6c5in3bp3xrf", "compiler": "gcc@=7.3.1", "versions": ["2023.8.7"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/py-trove-classifiers-2023.8.7/linux-amzn2-aarch64-gcc-7.3.1-py-trove-classifiers-2023.8.7-35f3lo476rzt4n5vww7g6c5in3bp3xrf.spack"}, {"hash": "hpsyduxsv4ibvxiw6xm23wvdephggc65", "compiler": "gcc@=7.3.1", "versions": ["2023.8.7"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=python_pip"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/py-trove-classifiers-2023.8.7/linux-amzn2-neoverse_n1-gcc-7.3.1-py-trove-classifiers-2023.8.7-hpsyduxsv4ibvxiw6xm23wvdephggc65.spack"}]
----

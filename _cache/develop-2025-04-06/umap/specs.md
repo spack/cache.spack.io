@@ -1,7 +1,0 @@
----
-title: "umap"
-layout: cache
-categories: [package, develop-2025-04-06]
-meta: {"compilers": ["cce@18.0.0", "gcc@11.4.0", "intel-oneapi-compilers@2025.1.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "e4s-cray-rhel": 1, "e4s-oneapi": 1, "root": 3}, "oss": ["rhel8", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-cray-rhel", "e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["2.1.1"]}
-spec_details: [{"compiler": "intel-oneapi-compilers@2025.1.0", "hash": "e2zzsmb2vwm6jugpyv6su5lsq5lwosdy", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~logging", "~tests"], "versions": ["2.1.1"]}, {"compiler": "cce@18.0.0", "hash": "hkcr7krgqpc36u3cgp7dc6hj5dfhvcpm", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["e4s-cray-rhel", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~logging", "~tests"], "versions": ["2.1.1"]}, {"compiler": "gcc@11.4.0", "hash": "nxjfkb6s4ivgzeudnw222qtz3ouag4eo", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~logging", "~tests"], "versions": ["2.1.1"]}]
----

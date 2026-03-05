@@ -1,7 +1,0 @@
----
-title: "libxslt"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "hep": 1, "root": 2}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "hep", "root"], "targets": ["x86_64_v3"], "versions": ["1.1.42"]}
-spec_details: [{"compiler": "gcc@=11.1.0", "hash": "dgohawck34w6w4yj3e2xpdi5rs5p7sgv", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/libxslt-1.1.42/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-libxslt-1.1.42-dgohawck34w6w4yj3e2xpdi5rs5p7sgv.spack", "target": "x86_64_v3", "variants": ["build_system=autotools", "+crypto", "~python"], "versions": ["1.1.42"]}, {"compiler": "gcc@=11.4.0", "hash": "zykmjsidk4rbpu6mxp6hyps5qgjdstdr", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "hep", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/libxslt-1.1.42/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-libxslt-1.1.42-zykmjsidk4rbpu6mxp6hyps5qgjdstdr.spack", "target": "x86_64_v3", "variants": ["build_system=autotools", "+crypto", "~python"], "versions": ["1.1.42"]}]
----

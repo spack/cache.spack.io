@@ -1,7 +1,0 @@
----
-title: "fontsproto"
-layout: cache
-categories: [package, develop-2025-04-27]
-meta: {"compilers": ["none"], "num_specs": 4, "num_specs_by_stack": {"data-vis-sdk": 1, "developer-tools-aarch64-linux-gnu": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "e4s": 1, "hep": 1, "root": 4}, "oss": ["centos7", "rhel8", "ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "e4s", "hep", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["2.1.3"]}
-spec_details: [{"compiler": "none", "hash": "gofl5so4bhozyfwpxflmg6lqzlnjoxe3", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["2.1.3"]}, {"compiler": "none", "hash": "ilbw4pwnt5vsqfxihuwkwf2bkwrp4cpa", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "hep", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["2.1.3"]}, {"compiler": "none", "hash": "symkxcyecizosdjwq2age6r3ltcd57nt", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "target": "aarch64", "variants": ["build_system=autotools"], "versions": ["2.1.3"]}, {"compiler": "none", "hash": "txkx46owo735vx4fw7hyzgpd5hlhmvj2", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["2.1.3"]}]
----

@@ -1,7 +1,0 @@
----
-title: "py-snuggs"
-layout: cache
-categories: [package, develop-2024-12-29]
-meta: {"versions": ["1.4.1"], "compilers": ["gcc@=13.2.0"], "oss": ["ubuntu24.04"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "root": 2, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "oefdg3o4scjftc7lhaw3qutqtt4l5bbu", "compiler": "gcc@=13.2.0", "versions": ["1.4.1"], "os": "ubuntu24.04", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-aarch64-cpu", "root", "ml-linux-aarch64-cuda"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-12-29/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/py-snuggs-1.4.1/linux-ubuntu24.04-aarch64-gcc-13.2.0-py-snuggs-1.4.1-oefdg3o4scjftc7lhaw3qutqtt4l5bbu.spack"}, {"hash": "wf425mayqu4i5w52v2264fbthfqwtz2o", "compiler": "gcc@=13.2.0", "versions": ["1.4.1"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-12-29/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-snuggs-1.4.1/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-snuggs-1.4.1-wf425mayqu4i5w52v2264fbthfqwtz2o.spack"}]
----

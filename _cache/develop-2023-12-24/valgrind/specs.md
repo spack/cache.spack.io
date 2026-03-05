@@ -1,7 +1,0 @@
----
-title: "valgrind"
-layout: cache
-categories: [package, develop-2023-12-24]
-meta: {"versions": ["3.20.0"], "compilers": ["gcc@=11.3.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cuda": 1, "root": 2, "ml-linux-x86_64-cpu": 1}}
-spec_details: [{"hash": "bs6ghfnqxq7o7z6iurwvbnjayi5dqg2n", "compiler": "gcc@=11.3.0", "versions": ["3.20.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["+boost", "build_system=autotools", "libs=shared,static", "+mpi", "+only64bit", "~ubsan"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-12-24/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/valgrind-3.20.0/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-valgrind-3.20.0-bs6ghfnqxq7o7z6iurwvbnjayi5dqg2n.spack"}, {"hash": "yfs6z47xzodpcczysexcppmox7dpyhdy", "compiler": "gcc@=11.3.0", "versions": ["3.20.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["+boost", "build_system=autotools", "libs=shared,static", "+mpi", "+only64bit", "~ubsan"], "stacks": ["ml-linux-x86_64-cpu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-12-24/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/valgrind-3.20.0/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-valgrind-3.20.0-yfs6z47xzodpcczysexcppmox7dpyhdy.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "libevent"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["2.1.12"], "compilers": ["gcc@=7.5.0", "gcc@=8.4.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "e4s", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s": 1, "tutorial": 2}}
-spec_details: [{"hash": "hlnkgmrdcycqf65n6vrvoraq4dhddagv", "compiler": "gcc@=7.5.0", "versions": ["2.1.12"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["+openssl"], "stacks": ["data-vis-sdk", "root", "e4s", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/libevent-2.1.12/linux-ubuntu18.04-x86_64-gcc-7.5.0-libevent-2.1.12-hlnkgmrdcycqf65n6vrvoraq4dhddagv.spack"}, {"hash": "vhrgro6boywxpnm6qsmf75n7bcvq6y26", "compiler": "gcc@=8.4.0", "versions": ["2.1.12"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["+openssl"], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-8.4.0/libevent-2.1.12/linux-ubuntu18.04-x86_64-gcc-8.4.0-libevent-2.1.12-vhrgro6boywxpnm6qsmf75n7bcvq6y26.spack"}]
----

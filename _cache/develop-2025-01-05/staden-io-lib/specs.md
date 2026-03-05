@@ -1,7 +1,0 @@
----
-title: "staden-io-lib"
-layout: cache
-categories: [package, develop-2025-01-05]
-meta: {"versions": ["1.15.0"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["aws-isc", "aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 1, "root": 2, "aws-isc": 1}}
-spec_details: [{"hash": "izruvj4q3mam3hhvhptrt7hqcqgsla3x", "compiler": "gcc@=7.3.1", "versions": ["1.15.0"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools", "~curl", "+libdeflate", "~shared"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-05/build_cache/linux-amzn2-aarch64/gcc-7.3.1/staden-io-lib-1.15.0/linux-amzn2-aarch64-gcc-7.3.1-staden-io-lib-1.15.0-izruvj4q3mam3hhvhptrt7hqcqgsla3x.spack"}, {"hash": "argqx2kj472wjcbsxiekqjmllocfqyjv", "compiler": "gcc@=7.3.1", "versions": ["1.15.0"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "~curl", "+libdeflate", "~shared"], "stacks": ["aws-isc", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-05/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/staden-io-lib-1.15.0/linux-amzn2-x86_64_v3-gcc-7.3.1-staden-io-lib-1.15.0-argqx2kj472wjcbsxiekqjmllocfqyjv.spack"}]
----

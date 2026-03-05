@@ -1,7 +1,0 @@
----
-title: "parallel-netcdf"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["1.12.2"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "fsxztorjx2cxe6axbkvzmebag5a344m4", "compiler": "gcc@=7.5.0", "versions": ["1.12.2"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~burstbuffer", "+cxx", "+fortran", "+pic", "+shared"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/parallel-netcdf-1.12.2/linux-ubuntu18.04-x86_64-gcc-7.5.0-parallel-netcdf-1.12.2-fsxztorjx2cxe6axbkvzmebag5a344m4.spack"}, {"hash": "cf2hvkqfzlgjbkvq2czadeehjei6huvr", "compiler": "gcc@=7.5.0", "versions": ["1.12.2"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~burstbuffer", "+cxx", "+fortran", "+pic", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/parallel-netcdf-1.12.2/linux-ubuntu18.04-x86_64-gcc-7.5.0-parallel-netcdf-1.12.2-cf2hvkqfzlgjbkvq2czadeehjei6huvr.spack"}]
----

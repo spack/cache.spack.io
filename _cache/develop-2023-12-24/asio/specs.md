@@ -1,7 +1,0 @@
----
-title: "asio"
-layout: cache
-categories: [package, develop-2023-12-24]
-meta: {"versions": ["1.16.1", "1.28.0"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-rocm-external", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-rocm-external": 1, "root": 2, "e4s": 2}}
-spec_details: [{"hash": "zqszekapmy7tw3i5tybvqnjyixafvu2j", "compiler": "gcc@=11.4.0", "versions": ["1.16.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~boost_coroutine", "~boost_regex", "build_system=autotools", "cxxstd=17", "~separate_compilation"], "stacks": ["e4s-rocm-external", "root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-12-24/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/asio-1.16.1/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-asio-1.16.1-zqszekapmy7tw3i5tybvqnjyixafvu2j.spack"}, {"hash": "g2twhswlolr2ghaqwonhwltepshxrvk6", "compiler": "gcc@=11.4.0", "versions": ["1.28.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~boost_coroutine", "~boost_regex", "build_system=autotools", "cxxstd=17", "~separate_compilation"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-12-24/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/asio-1.28.0/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-asio-1.28.0-g2twhswlolr2ghaqwonhwltepshxrvk6.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "yaksa"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["0.3"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "jfbdwantqqreg3vfnognr6tr5upizwbl", "compiler": "gcc@=7.3.1", "versions": ["0.3"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools", "~cuda", "~rocm"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/yaksa-0.3/linux-amzn2-aarch64-gcc-7.3.1-yaksa-0.3-jfbdwantqqreg3vfnognr6tr5upizwbl.spack"}, {"hash": "ugk2jmqaiaqfucnwrskfn2g45yctmdlu", "compiler": "gcc@=7.3.1", "versions": ["0.3"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=autotools", "~cuda", "~rocm"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/yaksa-0.3/linux-amzn2-neoverse_n1-gcc-7.3.1-yaksa-0.3-ugk2jmqaiaqfucnwrskfn2g45yctmdlu.spack"}]
----

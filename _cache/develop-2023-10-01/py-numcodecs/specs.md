@@ -1,7 +1,0 @@
----
-title: "py-numcodecs"
-layout: cache
-categories: [package, develop-2023-10-01]
-meta: {"versions": ["0.7.3"], "compilers": ["cce@=15.0.1", "gcc@=11.1.0"], "oss": ["rhel8", "ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3", "zen4"], "stacks": ["e4s", "e4s-cray-rhel", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-cray-rhel": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "ulhu7cduv24prinnnr3ozkjbr5stxws5", "compiler": "cce@=15.0.1", "versions": ["0.7.3"], "os": "rhel8", "platform": "linux", "target": "zen4", "variants": ["build_system=python_pip", "~msgpack"], "stacks": ["e4s-cray-rhel", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-10-01/build_cache/linux-rhel8-zen4/cce-15.0.1/py-numcodecs-0.7.3/linux-rhel8-zen4-cce-15.0.1-py-numcodecs-0.7.3-ulhu7cduv24prinnnr3ozkjbr5stxws5.spack"}, {"hash": "fq5elnzpcbddyn3n4paysydfrkody4vi", "compiler": "gcc@=11.1.0", "versions": ["0.7.3"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~msgpack"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-10-01/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-numcodecs-0.7.3/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-numcodecs-0.7.3-fq5elnzpcbddyn3n4paysydfrkody4vi.spack"}]
----

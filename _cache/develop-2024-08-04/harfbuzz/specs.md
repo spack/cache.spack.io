@@ -1,7 +1,0 @@
----
-title: "harfbuzz"
-layout: cache
-categories: [package, develop-2024-08-04]
-meta: {"versions": ["9.0.0"], "compilers": ["gcc@=11.1.0", "oneapi@=2024.2.0"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s-oneapi": 1}}
-spec_details: [{"hash": "uapmd6d4fjk2welgtok2lnjwhzq6fvur", "compiler": "gcc@=11.1.0", "versions": ["9.0.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library=shared", "~graphite2", "~strip"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-08-04/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/harfbuzz-9.0.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-harfbuzz-9.0.0-uapmd6d4fjk2welgtok2lnjwhzq6fvur.spack"}, {"hash": "kjlcgugr4e3r4ck3nlq56asbhu67z5er", "compiler": "oneapi@=2024.2.0", "versions": ["9.0.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library=shared", "~graphite2", "~strip"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-08-04/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.0/harfbuzz-9.0.0/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.0-harfbuzz-9.0.0-kjlcgugr4e3r4ck3nlq56asbhu67z5er.spack"}]
----

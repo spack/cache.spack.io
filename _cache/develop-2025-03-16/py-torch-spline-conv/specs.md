@@ -1,7 +1,0 @@
----
-title: "py-torch-spline-conv"
-layout: cache
-categories: [package, develop-2025-03-16]
-meta: {"compilers": ["gcc@=13.2.0"], "num_specs": 4, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 4}, "oss": ["ubuntu24.04"], "platforms": ["linux"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["1.2.2"]}
-spec_details: [{"compiler": "gcc@=13.2.0", "hash": "b22sdnc724an77b6qj4aof7tlg7gfv4b", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.2.2"]}, {"compiler": "gcc@=13.2.0", "hash": "h3j63uydjrfad2qx6lzmo6l7s7c2f3km", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["1.2.2"]}, {"compiler": "gcc@=13.2.0", "hash": "pgc4tiisibalbpcxjioc7qnmnudcfux4", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["1.2.2"]}, {"compiler": "gcc@=13.2.0", "hash": "s2rlyqe3e265ylgi4jbs64lkjldvo5my", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.2.2"]}]
----

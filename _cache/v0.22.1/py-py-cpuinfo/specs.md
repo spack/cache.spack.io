@@ -1,7 +1,0 @@
----
-title: "py-py-cpuinfo"
-layout: cache
-categories: [package, v0.22.1]
-meta: {"versions": ["9.0.0"], "compilers": ["gcc@=11.4.0", "oneapi@=2024.0.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "bh4htmilssjgkftttnllhlnm6xedt4ee", "compiler": "gcc@=11.4.0", "versions": ["9.0.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.1/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-py-cpuinfo-9.0.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-py-cpuinfo-9.0.0-bh4htmilssjgkftttnllhlnm6xedt4ee.spack"}, {"hash": "bqts3xam4zixznlnxztacak3aqaomg3v", "compiler": "oneapi@=2024.0.0", "versions": ["9.0.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.1/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.0.0/py-py-cpuinfo-9.0.0/linux-ubuntu22.04-x86_64_v3-oneapi-2024.0.0-py-py-cpuinfo-9.0.0-bqts3xam4zixznlnxztacak3aqaomg3v.spack"}]
----

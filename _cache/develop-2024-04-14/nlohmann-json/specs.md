@@ -1,7 +1,0 @@
----
-title: "nlohmann-json"
-layout: cache
-categories: [package, develop-2024-04-14]
-meta: {"versions": ["3.11.2"], "compilers": ["oneapi@=2023.2.0"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3", "x86_64_v4"], "stacks": ["aws-pcluster-x86_64_v4", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "aws-pcluster-x86_64_v4": 2}}
-spec_details: [{"hash": "6ctl5zbyfpuvrusma2vfddz3pkg5o5le", "compiler": "oneapi@=2023.2.0", "versions": ["3.11.2"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+multiple_headers"], "stacks": ["root", "aws-pcluster-x86_64_v4"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-x86_64_v3/oneapi-2023.2.0/nlohmann-json-3.11.2/linux-amzn2-x86_64_v3-oneapi-2023.2.0-nlohmann-json-3.11.2-6ctl5zbyfpuvrusma2vfddz3pkg5o5le.spack"}, {"hash": "f6gg6fjcj2767lkcusty2lfdtzcdwgcz", "compiler": "oneapi@=2023.2.0", "versions": ["3.11.2"], "os": "amzn2", "platform": "linux", "target": "x86_64_v4", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+multiple_headers"], "stacks": ["root", "aws-pcluster-x86_64_v4"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-x86_64_v4/oneapi-2023.2.0/nlohmann-json-3.11.2/linux-amzn2-x86_64_v4-oneapi-2023.2.0-nlohmann-json-3.11.2-f6gg6fjcj2767lkcusty2lfdtzcdwgcz.spack"}]
----

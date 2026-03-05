@@ -1,7 +1,0 @@
----
-title: "fixesproto"
-layout: cache
-categories: [package, develop-2025-01-19]
-meta: {"versions": ["5.0"], "compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "biyj64dg2dszngxzrhyi2gwk5ix3n4sm", "compiler": "gcc@=11.4.0", "versions": ["5.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-19/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/fixesproto-5.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-fixesproto-5.0-biyj64dg2dszngxzrhyi2gwk5ix3n4sm.spack"}, {"hash": "n2mqwdgz2azntbgevwhcsfk3dduk3vkg", "compiler": "oneapi@=2024.2.1", "versions": ["5.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-19/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/fixesproto-5.0/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-fixesproto-5.0-n2mqwdgz2azntbgevwhcsfk3dduk3vkg.spack"}]
----

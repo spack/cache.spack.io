@@ -1,7 +1,0 @@
----
-title: "fd"
-layout: cache
-categories: [package, develop-2025-01-05]
-meta: {"versions": ["10.2.0"], "compilers": ["gcc@=10.5.0", "gcc@=13.3.0"], "oss": ["centos7", "rhel8"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-x86_64_v3-linux-gnu": 1, "root": 2, "developer-tools-aarch64-linux-gnu": 1}}
-spec_details: [{"hash": "fxb2bql7gky3oqacntvxjwxq6bi2oerk", "compiler": "gcc@=10.5.0", "versions": ["10.2.0"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cargo"], "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-05/build_cache/linux-centos7-x86_64_v3/gcc-10.5.0/fd-10.2.0/linux-centos7-x86_64_v3-gcc-10.5.0-fd-10.2.0-fxb2bql7gky3oqacntvxjwxq6bi2oerk.spack"}, {"hash": "qglomxbm46qrjh2oofdl6xb354gvzb3d", "compiler": "gcc@=13.3.0", "versions": ["10.2.0"], "os": "rhel8", "platform": "linux", "target": "aarch64", "variants": ["build_system=cargo"], "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-05/build_cache/linux-rhel8-aarch64/gcc-13.3.0/fd-10.2.0/linux-rhel8-aarch64-gcc-13.3.0-fd-10.2.0-qglomxbm46qrjh2oofdl6xb354gvzb3d.spack"}]
----

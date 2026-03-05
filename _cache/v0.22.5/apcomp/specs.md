@@ -1,7 +1,0 @@
----
-title: "apcomp"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=11.1.0"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 2, "root": 2}, "oss": ["ubuntu20.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "root"], "targets": ["x86_64_v3"], "versions": ["0.0.4"]}
-spec_details: [{"compiler": "gcc@=11.1.0", "hash": "pzjiktto23kbbe2nzwb4f4nlden7363k", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/apcomp-0.0.4/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-apcomp-0.0.4-pzjiktto23kbbe2nzwb4f4nlden7363k.spack", "target": "x86_64_v3", "variants": ["+blt_find_mpi", "build_system=generic", "+mpi", "+openmp", "+shared"], "versions": ["0.0.4"]}, {"compiler": "gcc@=11.1.0", "hash": "pzvsjn6scc36xyvkhxjh4p6zesszeibv", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/apcomp-0.0.4/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-apcomp-0.0.4-pzvsjn6scc36xyvkhxjh4p6zesszeibv.spack", "target": "x86_64_v3", "variants": ["+blt_find_mpi", "build_system=generic", "+mpi", "+openmp", "+shared"], "versions": ["0.0.4"]}]
----

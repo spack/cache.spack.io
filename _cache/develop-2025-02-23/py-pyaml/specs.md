@@ -1,7 +1,0 @@
----
-title: "py-pyaml"
-layout: cache
-categories: [package, develop-2025-02-23]
-meta: {"compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["21.8.3"]}
-spec_details: [{"compiler": "oneapi@=2024.2.1", "hash": "3qqgpzb73am3ky3ii4ljh72gdjxv7xls", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-23/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/py-pyaml-21.8.3/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-py-pyaml-21.8.3-3qqgpzb73am3ky3ii4ljh72gdjxv7xls.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["21.8.3"]}, {"compiler": "gcc@=11.4.0", "hash": "egyidbrpdvl25oycoo72b4pmiyzzoyvg", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-23/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-pyaml-21.8.3/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-pyaml-21.8.3-egyidbrpdvl25oycoo72b4pmiyzzoyvg.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["21.8.3"]}]
----

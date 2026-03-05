@@ -1,7 +1,0 @@
----
-title: "py-numcodecs"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=11.4.0", "oneapi@=2024.0.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["0.11.0"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "juk25vvkw3fqve6h64l5i2h3p7upzjie", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-numcodecs-0.11.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-numcodecs-0.11.0-juk25vvkw3fqve6h64l5i2h3p7upzjie.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~msgpack"], "versions": ["0.11.0"]}, {"compiler": "oneapi@=2024.0.0", "hash": "jumdutxrmvvvpm27zqmbom2zdradkasc", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.0.0/py-numcodecs-0.11.0/linux-ubuntu22.04-x86_64_v3-oneapi-2024.0.0-py-numcodecs-0.11.0-jumdutxrmvvvpm27zqmbom2zdradkasc.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~msgpack"], "versions": ["0.11.0"]}]
----

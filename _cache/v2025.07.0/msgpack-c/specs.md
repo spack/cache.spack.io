@@ -1,7 +1,0 @@
----
-title: "msgpack-c"
-layout: cache
-categories: [package, v2025.07.0]
-meta: {"compilers": ["gcc@10.5.0", "gcc@13.2.0", "gcc@13.3.0"], "num_specs": 3, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "ml-linux-x86_64-rocm": 1, "root": 3}, "oss": ["centos7", "rhel8", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "ml-linux-x86_64-rocm", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["3.1.1"]}
-spec_details: [{"compiler": "gcc@10.5.0", "hash": "2ctlevpluar7mmdthac26ynbtonh42lv", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["3.1.1"]}, {"compiler": "gcc@13.3.0", "hash": "3ar4ffnyia7gdlcpgowfmc3rwq4uym5p", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "target": "aarch64", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["3.1.1"]}, {"compiler": "gcc@13.2.0", "hash": "ttinghk2i2ul6qtuz5sq3kzu264bvu2n", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["3.1.1"]}]
----

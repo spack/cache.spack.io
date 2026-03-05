@@ -1,7 +1,0 @@
----
-title: "py-py-cpuinfo"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 2, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "root"], "targets": ["x86_64_v3"], "versions": ["9.0.0"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "dx5k77bluief5qyukmnvanvhkvwvyf2c", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-py-cpuinfo-9.0.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-py-cpuinfo-9.0.0-dx5k77bluief5qyukmnvanvhkvwvyf2c.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["9.0.0"]}, {"compiler": "gcc@=11.4.0", "hash": "wec2bwf2yfuxqirja37w4jvl6levcqmi", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-py-cpuinfo-9.0.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-py-cpuinfo-9.0.0-wec2bwf2yfuxqirja37w4jvl6levcqmi.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["9.0.0"]}]
----

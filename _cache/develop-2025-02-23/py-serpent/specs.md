@@ -1,7 +1,0 @@
----
-title: "py-serpent"
-layout: cache
-categories: [package, develop-2025-02-23]
-meta: {"compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["1.40"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "cjyuttsiboferb3pvbmm5i56wjnj2cbx", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-23/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-serpent-1.40/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-serpent-1.40-cjyuttsiboferb3pvbmm5i56wjnj2cbx.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.40"]}, {"compiler": "oneapi@=2024.2.1", "hash": "wl4hbgezmwdgly3umlw6edyrf255nsnf", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-23/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/py-serpent-1.40/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-py-serpent-1.40-wl4hbgezmwdgly3umlw6edyrf255nsnf.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.40"]}]
----

@@ -1,7 +1,0 @@
----
-title: "py-poetry-core"
-layout: cache
-categories: [package, v0.18.1]
-meta: {"versions": ["1.0.8"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "x5epc47iaeznwny2q6mmy2bvlqpbsxyc", "compiler": "gcc@=7.5.0", "versions": ["1.0.8"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.1/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-poetry-core-1.0.8/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-poetry-core-1.0.8-x5epc47iaeznwny2q6mmy2bvlqpbsxyc.spack"}, {"hash": "hjgpewgenyyrjeaaniyzaw2j5kzshijd", "compiler": "gcc@=7.5.0", "versions": ["1.0.8"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.1/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-poetry-core-1.0.8/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-poetry-core-1.0.8-hjgpewgenyyrjeaaniyzaw2j5kzshijd.spack"}]
----

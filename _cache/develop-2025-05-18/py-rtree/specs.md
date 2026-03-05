@@ -1,7 +1,0 @@
----
-title: "py-rtree"
-layout: cache
-categories: [package, develop-2025-05-18]
-meta: {"compilers": ["none"], "num_specs": 3, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 3}, "oss": ["sequoia", "ubuntu24.04"], "platforms": ["darwin", "linux"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["1.4.0"]}
-spec_details: [{"compiler": "none", "hash": "ccwdybl3v5mh7ne56nxndkww6r27gg7u", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["ml-darwin-aarch64-mps", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["1.4.0"]}, {"compiler": "none", "hash": "gnpe4q5p5iya4inw4fkooo3egy46xk6j", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["1.4.0"]}, {"compiler": "none", "hash": "yuyvegm4yhj2uqqn44ly4m2nr5h7lu35", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.4.0"]}]
----

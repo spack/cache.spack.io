@@ -1,7 +1,0 @@
----
-title: "ncurses"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["6.2"], "compilers": ["gcc@=7.5.0", "gcc@=8.4.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["build_systems", "data-vis-sdk", "e4s", "radiuss", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"build_systems": 1, "root": 2, "tutorial": 2, "data-vis-sdk": 1, "e4s": 1, "radiuss": 1}}
-spec_details: [{"hash": "frwzsc4jrou7efe7huyzeownqfjvsrfd", "compiler": "gcc@=7.5.0", "versions": ["6.2"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["abi=none", "~symlinks", "+termlib"], "stacks": ["build_systems", "root", "tutorial", "data-vis-sdk", "e4s", "radiuss"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/ncurses-6.2/linux-ubuntu18.04-x86_64-gcc-7.5.0-ncurses-6.2-frwzsc4jrou7efe7huyzeownqfjvsrfd.spack"}, {"hash": "o3zj6m3lqwcctkkns4buq4comkqcxnty", "compiler": "gcc@=8.4.0", "versions": ["6.2"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["abi=none", "~symlinks", "+termlib"], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-8.4.0/ncurses-6.2/linux-ubuntu18.04-x86_64-gcc-8.4.0-ncurses-6.2-o3zj6m3lqwcctkkns4buq4comkqcxnty.spack"}]
----

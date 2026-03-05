@@ -1,7 +1,0 @@
----
-title: "hwloc"
-layout: cache
-categories: [package, develop-2024-04-14]
-meta: {"versions": ["2.9.1"], "compilers": ["gcc@=12.3.0"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["neoverse_n1", "neoverse_v1"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-pcluster-neoverse_v1": 2, "root": 2}}
-spec_details: [{"hash": "u3loafom4siyzhqgvaihsuhvgkn67cmb", "compiler": "gcc@=12.3.0", "versions": ["2.9.1"], "os": "amzn2", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=autotools", "~cairo", "~cuda", "~gl", "libs=shared,static", "~libudev", "+libxml2", "~netloc", "~nvml", "~oneapi-level-zero", "~opencl", "+pci", "~rocm"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-neoverse_v1/gcc-12.3.0/hwloc-2.9.1/linux-amzn2-neoverse_v1-gcc-12.3.0-hwloc-2.9.1-u3loafom4siyzhqgvaihsuhvgkn67cmb.spack"}, {"hash": "pm7vtpuekncikuhqygteoikiaomow42t", "compiler": "gcc@=12.3.0", "versions": ["2.9.1"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=autotools", "~cairo", "~cuda", "~gl", "libs=shared,static", "~libudev", "+libxml2", "~netloc", "~nvml", "~oneapi-level-zero", "~opencl", "+pci", "~rocm"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-neoverse_n1/gcc-12.3.0/hwloc-2.9.1/linux-amzn2-neoverse_n1-gcc-12.3.0-hwloc-2.9.1-pm7vtpuekncikuhqygteoikiaomow42t.spack"}]
----

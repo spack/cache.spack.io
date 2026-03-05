@@ -1,7 +1,0 @@
----
-title: "pumi"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["cce@=18.0.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-cray-rhel": 1, "root": 2}, "oss": ["rhel8", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-cray-rhel", "root"], "targets": ["x86_64_v3"], "versions": ["2.2.9"]}
-spec_details: [{"compiler": "cce@=18.0.0", "hash": "wc6iblqv37w53ka3q6yvfmj4ml6a2zkc", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["e4s-cray-rhel", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-rhel8-x86_64_v3/cce-18.0.0/pumi-2.2.9/linux-rhel8-x86_64_v3-cce-18.0.0-pumi-2.2.9-wc6iblqv37w53ka3q6yvfmj4ml6a2zkc.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~fortran", "generator=make", "~int64", "~ipo", "~shared", "simmodsuite=none", "+simmodsuite_version_check", "~testing", "~zoltan"], "versions": ["2.2.9"]}, {"compiler": "gcc@=11.4.0", "hash": "hwtz6s2g6a6ccawf77z45n5e7hoevkh4", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/pumi-2.2.9/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-pumi-2.2.9-hwtz6s2g6a6ccawf77z45n5e7hoevkh4.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~fortran", "generator=make", "~int64", "~ipo", "~shared", "simmodsuite=none", "+simmodsuite_version_check", "~testing", "~zoltan"], "versions": ["2.2.9"]}]
----

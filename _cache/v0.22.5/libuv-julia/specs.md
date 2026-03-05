@@ -1,7 +1,0 @@
----
-title: "libuv-julia"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "root": 2, "tutorial": 1}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "root", "tutorial"], "targets": ["x86_64_v3"], "versions": ["1.44.2", "1.44.3"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "fbdoa5lw4jgumtjvwabnxc64f6wejd4g", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["root", "tutorial"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/libuv-julia-1.44.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-libuv-julia-1.44.2-fbdoa5lw4jgumtjvwabnxc64f6wejd4g.spack", "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.44.2"]}, {"compiler": "gcc@=11.4.0", "hash": "qxup4a5ylluivdk2bri26kvdcxsf6w26", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/libuv-julia-1.44.3/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-libuv-julia-1.44.3-qxup4a5ylluivdk2bri26kvdcxsf6w26.spack", "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.44.3"]}]
----

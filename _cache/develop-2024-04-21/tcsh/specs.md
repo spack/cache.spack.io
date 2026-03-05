@@ -1,7 +1,0 @@
----
-title: "tcsh"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["6.24.00"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "neonhcemm5dqkgpexrkzvyd3s4opifd2", "compiler": "gcc@=7.3.1", "versions": ["6.24.00"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=autotools", "patches=3a4e60f"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/tcsh-6.24.00/linux-amzn2-neoverse_n1-gcc-7.3.1-tcsh-6.24.00-neonhcemm5dqkgpexrkzvyd3s4opifd2.spack"}, {"hash": "46h5gfr5osjglgplawsxosqaqnc55v2v", "compiler": "gcc@=7.3.1", "versions": ["6.24.00"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools", "patches=3a4e60f"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/tcsh-6.24.00/linux-amzn2-aarch64-gcc-7.3.1-tcsh-6.24.00-46h5gfr5osjglgplawsxosqaqnc55v2v.spack"}]
----

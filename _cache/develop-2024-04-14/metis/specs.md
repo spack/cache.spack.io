@@ -1,7 +1,0 @@
----
-title: "metis"
-layout: cache
-categories: [package, develop-2024-04-14]
-meta: {"versions": ["5.1.0"], "compilers": ["oneapi@=2023.2.0"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3", "x86_64_v4"], "stacks": ["aws-pcluster-x86_64_v4", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "aws-pcluster-x86_64_v4": 2}}
-spec_details: [{"hash": "7k2keuag7m6wcfp57omubdtqeetctynl", "compiler": "oneapi@=2023.2.0", "versions": ["5.1.0"], "os": "amzn2", "platform": "linux", "target": "x86_64_v4", "variants": ["build_system=cmake", "build_type=Release", "~gdb", "generator=make", "~int64", "~ipo", "patches=4991da9,93a7903", "~real64", "+shared"], "stacks": ["root", "aws-pcluster-x86_64_v4"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-x86_64_v4/oneapi-2023.2.0/metis-5.1.0/linux-amzn2-x86_64_v4-oneapi-2023.2.0-metis-5.1.0-7k2keuag7m6wcfp57omubdtqeetctynl.spack"}, {"hash": "ayhs2o2vn4lgxtlxwmaurkh7uxwwmbk6", "compiler": "oneapi@=2023.2.0", "versions": ["5.1.0"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~gdb", "generator=make", "~int64", "~ipo", "patches=4991da9,93a7903", "~real64", "+shared"], "stacks": ["root", "aws-pcluster-x86_64_v4"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-x86_64_v3/oneapi-2023.2.0/metis-5.1.0/linux-amzn2-x86_64_v3-oneapi-2023.2.0-metis-5.1.0-ayhs2o2vn4lgxtlxwmaurkh7uxwwmbk6.spack"}]
----

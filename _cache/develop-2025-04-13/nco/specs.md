@@ -1,7 +1,0 @@
----
-title: "nco"
-layout: cache
-categories: [package, develop-2025-04-13]
-meta: {"compilers": ["cce@18.0.0", "gcc@11.4.0", "intel-oneapi-compilers@2025.1.0"], "num_specs": 4, "num_specs_by_stack": {"e4s": 1, "e4s-cray-rhel": 1, "e4s-neoverse-v2": 1, "e4s-oneapi": 1, "root": 4}, "oss": ["rhel8", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-cray-rhel", "e4s-neoverse-v2", "e4s-oneapi", "root"], "targets": ["neoverse_v2", "x86_64_v3"], "versions": ["5.3.3"]}
-spec_details: [{"compiler": "intel-oneapi-compilers@2025.1.0", "hash": "fijqu67bif4jhzn4hi7tvwkzgoq4lilg", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "~doc", "+openmp"], "versions": ["5.3.3"]}, {"compiler": "gcc@11.4.0", "hash": "gb6mrc7lrmb6e4spzrrsw45tns4hevx3", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "~doc", "+openmp"], "versions": ["5.3.3"]}, {"compiler": "cce@18.0.0", "hash": "gibssm2eyan5nwhdtppruxbutdit4ujn", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["e4s-cray-rhel", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "~doc", "+openmp"], "versions": ["5.3.3"]}, {"compiler": "gcc@11.4.0", "hash": "qt3r5mn2o3rm4avnwepq3hlrmnfw3ysn", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-neoverse-v2", "root"], "target": "neoverse_v2", "variants": ["build_system=autotools", "~doc", "+openmp"], "versions": ["5.3.3"]}]
----

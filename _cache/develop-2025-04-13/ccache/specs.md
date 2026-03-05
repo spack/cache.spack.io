@@ -1,7 +1,0 @@
----
-title: "ccache"
-layout: cache
-categories: [package, develop-2025-04-13]
-meta: {"compilers": ["apple-clang@16.0.0", "gcc@10.5.0", "gcc@13.3.0"], "num_specs": 3, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-darwin": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "root": 3}, "oss": ["centos7", "rhel8", "sequoia"], "platforms": ["darwin", "linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-darwin", "developer-tools-x86_64_v3-linux-gnu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["4.10.2"]}
-spec_details: [{"compiler": "gcc@10.5.0", "hash": "eqrqpvpt42nlufyknf6lvgpws74e3a4n", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+redis"], "versions": ["4.10.2"]}, {"compiler": "gcc@13.3.0", "hash": "y35r52xl2xeguv3axogrjx363j22y52u", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "target": "aarch64", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+redis"], "versions": ["4.10.2"]}, {"compiler": "apple-clang@16.0.0", "hash": "z2opm2tzocsd3y7bvlsgjqlf5zofhq4t", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["developer-tools-darwin", "root"], "target": "aarch64", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+redis"], "versions": ["4.10.2"]}]
----

@@ -1,7 +1,0 @@
----
-title: "lhapdf"
-layout: cache
-categories: [package, develop-2025-01-26]
-meta: {"versions": ["6.5.5"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["hep", "root"], "num_specs": 2, "num_specs_by_stack": {"hep": 2, "root": 2}}
-spec_details: [{"hash": "37mpzgxep5ffjqtvnaj2mhdjnr3satzk", "compiler": "gcc@=11.4.0", "versions": ["6.5.5"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "+python"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/lhapdf-6.5.5/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-lhapdf-6.5.5-37mpzgxep5ffjqtvnaj2mhdjnr3satzk.spack"}, {"hash": "mz3lfcjhly4zivdly54es3e3eyldhsnb", "compiler": "gcc@=11.4.0", "versions": ["6.5.5"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "+python"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/lhapdf-6.5.5/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-lhapdf-6.5.5-mz3lfcjhly4zivdly54es3e3eyldhsnb.spack"}]
----

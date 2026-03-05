@@ -1,7 +1,0 @@
----
-title: "msgpack-c"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "num_specs": 2, "num_specs_by_stack": {"developer-tools": 1, "developer-tools-manylinux2014": 1, "root": 2}, "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "targets": ["x86_64_v3"], "versions": ["3.1.1"]}
-spec_details: [{"compiler": "gcc@=7.5.0", "hash": "jwsbmiumiamwik3fq4gnb2p3wxtzquf5", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["developer-tools", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/msgpack-c-3.1.1/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-msgpack-c-3.1.1-jwsbmiumiamwik3fq4gnb2p3wxtzquf5.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["3.1.1"]}, {"compiler": "gcc@=10.2.1", "hash": "p7vzvwbkn3nxhijgr3c5vvyxkqq35azg", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-manylinux2014", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/msgpack-c-3.1.1/linux-centos7-x86_64_v3-gcc-10.2.1-msgpack-c-3.1.1-p7vzvwbkn3nxhijgr3c5vvyxkqq35azg.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["3.1.1"]}]
----

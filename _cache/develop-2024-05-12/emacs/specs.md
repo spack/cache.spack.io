@@ -1,7 +1,0 @@
----
-title: "emacs"
-layout: cache
-categories: [package, develop-2024-05-12]
-meta: {"versions": ["29.1"], "compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-manylinux2014": 1, "root": 2, "developer-tools": 1}}
-spec_details: [{"hash": "7mpf6ej6x6mlex5yt6pc7t6da663mqq4", "compiler": "gcc@=10.2.1", "versions": ["29.1"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["~X", "build_system=autotools", "+json", "+native", "+tls", "toolkit=gtk", "+treesitter"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-12/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/emacs-29.1/linux-centos7-x86_64_v3-gcc-10.2.1-emacs-29.1-7mpf6ej6x6mlex5yt6pc7t6da663mqq4.spack"}, {"hash": "pkjh4dmvfxyis5kbs2vjbrckljbtbkt3", "compiler": "gcc@=7.5.0", "versions": ["29.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~X", "build_system=autotools", "+json", "+native", "+tls", "toolkit=gtk", "+treesitter"], "stacks": ["developer-tools", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-12/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/emacs-29.1/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-emacs-29.1-pkjh4dmvfxyis5kbs2vjbrckljbtbkt3.spack"}]
----

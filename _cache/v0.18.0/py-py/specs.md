@@ -1,7 +1,0 @@
----
-title: "py-py"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["1.11.0"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 3, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 3, "e4s": 2}}
-spec_details: [{"hash": "leulfvrj5qm4qsveebectjkhw7t4kfnx", "compiler": "gcc@=7.5.0", "versions": ["1.11.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-py-1.11.0/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-py-1.11.0-leulfvrj5qm4qsveebectjkhw7t4kfnx.spack"}, {"hash": "grxrr3sp3palqo25ooxeb6t76kqzqpfe", "compiler": "gcc@=7.5.0", "versions": ["1.11.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-py-1.11.0/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-py-1.11.0-grxrr3sp3palqo25ooxeb6t76kqzqpfe.spack"}, {"hash": "qqxrj4xk6txicjdtcb7cpbdp6vkas56f", "compiler": "gcc@=7.5.0", "versions": ["1.11.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-py-1.11.0/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-py-1.11.0-qqxrj4xk6txicjdtcb7cpbdp6vkas56f.spack"}]
----

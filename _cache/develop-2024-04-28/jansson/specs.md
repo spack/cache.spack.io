@@ -1,7 +1,0 @@
----
-title: "jansson"
-layout: cache
-categories: [package, develop-2024-04-28]
-meta: {"versions": ["2.14"], "compilers": ["cce@=15.0.1", "gcc@=7.5.0"], "oss": ["rhel8", "ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64_v3", "zen4"], "stacks": ["e4s-cray-rhel", "radiuss", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-cray-rhel": 1, "root": 2, "radiuss": 1}}
-spec_details: [{"hash": "u5k6t436vywnsi5ghkdqtckcdppfsh22", "compiler": "cce@=15.0.1", "versions": ["2.14"], "os": "rhel8", "platform": "linux", "target": "zen4", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+shared"], "stacks": ["e4s-cray-rhel", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-rhel8-zen4/cce-15.0.1/jansson-2.14/linux-rhel8-zen4-cce-15.0.1-jansson-2.14-u5k6t436vywnsi5ghkdqtckcdppfsh22.spack"}, {"hash": "blofdz2lh4cmfdwqiawplzmaeft72sge", "compiler": "gcc@=7.5.0", "versions": ["2.14"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+shared"], "stacks": ["radiuss", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/jansson-2.14/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-jansson-2.14-blofdz2lh4cmfdwqiawplzmaeft72sge.spack"}]
----

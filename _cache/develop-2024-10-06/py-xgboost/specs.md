@@ -1,7 +1,0 @@
----
-title: "py-xgboost"
-layout: cache
-categories: [package, develop-2024-10-06]
-meta: {"versions": ["2.1.1"], "compilers": ["apple-clang@=15.0.0", "gcc@=13.2.0"], "oss": ["ubuntu24.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-x86_64-cpu", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "root": 2, "ml-linux-x86_64-cpu": 1}}
-spec_details: [{"hash": "i4mp5m7tr7xfuio4zrmhv2uirgw7er5b", "compiler": "apple-clang@=15.0.0", "versions": ["2.1.1"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip", "~dask", "~pandas", "~plotting", "~scikit-learn"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-06/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-xgboost-2.1.1/darwin-ventura-aarch64-apple-clang-15.0.0-py-xgboost-2.1.1-i4mp5m7tr7xfuio4zrmhv2uirgw7er5b.spack"}, {"hash": "llny5zpufzpfgq2cf67ydciigjd5z7ab", "compiler": "gcc@=13.2.0", "versions": ["2.1.1"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~dask", "~pandas", "~plotting", "~scikit-learn"], "stacks": ["ml-linux-x86_64-cpu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-06/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-xgboost-2.1.1/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-xgboost-2.1.1-llny5zpufzpfgq2cf67ydciigjd5z7ab.spack"}]
----

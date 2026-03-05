@@ -1,7 +1,0 @@
----
-title: "palace"
-layout: cache
-categories: [package, develop-2025-03-30]
-meta: {"compilers": ["intel-oneapi-compilers@2024.1.0"], "num_specs": 2, "num_specs_by_stack": {"aws-pcluster-x86_64_v4": 2, "root": 2}, "oss": ["amzn2"], "platforms": ["linux"], "stacks": ["aws-pcluster-x86_64_v4", "root"], "targets": ["x86_64_v3", "x86_64_v4"], "versions": ["0.12.0"]}
-spec_details: [{"compiler": "intel-oneapi-compilers@2024.1.0", "hash": "45wnc7snnlotys4nzwgos7mrg6ejo2un", "os": "amzn2", "platform": "linux", "size": "-", "stacks": ["aws-pcluster-x86_64_v4", "root"], "target": "x86_64_v3", "variants": ["~arpack", "build_system=cmake", "build_type=Release", "generator=make", "+gslib", "~int64", "~ipo", "+libxsmm", "~magma", "~mumps", "~openmp", "+shared", "+slepc", "~strumpack", "+superlu-dist"], "versions": ["0.12.0"]}, {"compiler": "intel-oneapi-compilers@2024.1.0", "hash": "vcn7u63ybflzudqx4lyx22jmow3h7l6t", "os": "amzn2", "platform": "linux", "size": "-", "stacks": ["aws-pcluster-x86_64_v4", "root"], "target": "x86_64_v4", "variants": ["~arpack", "build_system=cmake", "build_type=Release", "generator=make", "+gslib", "~int64", "~ipo", "+libxsmm", "~magma", "~mumps", "~openmp", "+shared", "+slepc", "~strumpack", "+superlu-dist"], "versions": ["0.12.0"]}]
----

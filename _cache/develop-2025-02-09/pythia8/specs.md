@@ -1,7 +1,0 @@
----
-title: "pythia8"
-layout: cache
-categories: [package, develop-2025-02-09]
-meta: {"versions": ["8.312"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["hep", "root"], "num_specs": 2, "num_specs_by_stack": {"hep": 2, "root": 2}}
-spec_details: [{"hash": "dzcoaqvrrtulvyyzrm6fe2mp2b3rdea3", "compiler": "gcc@=11.4.0", "versions": ["8.312"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "cxxstd=11", "~evtgen", "~fastjet", "~gzip", "~hdf5", "+hepmc", "~hepmc3", "~lhapdf", "~madgraph5amc", "~mpich", "~openmpi", "~python", "~rivet", "~root", "+shared"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/pythia8-8.312/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-pythia8-8.312-dzcoaqvrrtulvyyzrm6fe2mp2b3rdea3.spack"}, {"hash": "utw2oykusykrd6ret2d3i62dnmolxkqo", "compiler": "gcc@=11.4.0", "versions": ["8.312"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "cxxstd=11", "+evtgen", "+fastjet", "~gzip", "+hdf5", "+hepmc", "+hepmc3", "+lhapdf", "~madgraph5amc", "+mpich", "~openmpi", "+python", "+rivet", "~root", "+shared"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/pythia8-8.312/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-pythia8-8.312-utw2oykusykrd6ret2d3i62dnmolxkqo.spack"}]
----

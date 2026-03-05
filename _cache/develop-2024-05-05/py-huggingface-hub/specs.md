@@ -1,7 +1,0 @@
----
-title: "py-huggingface-hub"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["0.19.4"], "compilers": ["apple-clang@=15.0.0"], "oss": ["ventura"], "platforms": ["darwin"], "targets": ["aarch64"], "stacks": ["ml-darwin-aarch64-mps", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 2, "root": 2}}
-spec_details: [{"hash": "ppv6huurigxoomg74d6w3hdyxewqina5", "compiler": "apple-clang@=15.0.0", "versions": ["0.19.4"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip", "~cli"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-huggingface-hub-0.19.4/darwin-ventura-aarch64-apple-clang-15.0.0-py-huggingface-hub-0.19.4-ppv6huurigxoomg74d6w3hdyxewqina5.spack"}, {"hash": "fk3hedipnjoi5zzhrkslukbm4ifnf3ag", "compiler": "apple-clang@=15.0.0", "versions": ["0.19.4"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip", "~cli"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-huggingface-hub-0.19.4/darwin-ventura-aarch64-apple-clang-15.0.0-py-huggingface-hub-0.19.4-fk3hedipnjoi5zzhrkslukbm4ifnf3ag.spack"}]
----

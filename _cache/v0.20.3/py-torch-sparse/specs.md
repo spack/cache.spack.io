@@ -1,7 +1,0 @@
----
-title: "py-torch-sparse"
-layout: cache
-categories: [package, v0.20.3]
-meta: {"versions": ["0.6.8"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cuda": 1, "root": 2, "ml-linux-x86_64-cpu": 1}}
-spec_details: [{"hash": "of7rdyqjtcfqvvirbcibn2r2m3zq25qf", "compiler": "gcc@=11.4.0", "versions": ["0.6.8"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "+cuda"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.3/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-torch-sparse-0.6.8/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-torch-sparse-0.6.8-of7rdyqjtcfqvvirbcibn2r2m3zq25qf.spack"}, {"hash": "rahqxwdnudiu3om6b5vxpccytofob7r5", "compiler": "gcc@=11.4.0", "versions": ["0.6.8"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~cuda"], "stacks": ["ml-linux-x86_64-cpu", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.3/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-torch-sparse-0.6.8/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-torch-sparse-0.6.8-rahqxwdnudiu3om6b5vxpccytofob7r5.spack"}]
----

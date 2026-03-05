@@ -1,7 +1,0 @@
----
-title: "sherpa"
-layout: cache
-categories: [package, develop-2025-05-25]
-meta: {"compilers": ["gcc@11.4.0"], "num_specs": 2, "num_specs_by_stack": {"hep": 2, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["hep", "root"], "targets": ["x86_64_v3"], "versions": ["2.2.15", "3.0.1"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "re23u4rlcyxc4v6fajehyq3zfaqyr7it", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["+analysis", "~blackhat", "build_system=autotools", "~cms", "cxxstd=11", "+fastjet", "~gzip", "+hepmc2", "+hepmc3", "~hztool", "+lhapdf", "~lhole", "libs:=shared,static", "+mpi", "~openloops", "+pythia", "~python", "~recola", "~rivet", "~root", "~ufo"], "versions": ["2.2.15"]}, {"compiler": "gcc@11.4.0", "hash": "wixefrcjmxi54gf73n7e2o6pz4wl3zjm", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["+analysis", "~blackhat", "build_system=cmake", "build_type=Release", "~cms", "cxxstd=20", "generator=make", "+gzip", "+hepmc3", "+hepmc3root", "+internal_pdfs", "~ipo", "+lhapdf", "+lhole", "libs:=shared,static", "+mpi", "+openloops", "+pythia", "~python", "~recola", "~rivet", "+root", "+ufo"], "versions": ["3.0.1"]}]
----

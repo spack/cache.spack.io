@@ -1,7 +1,0 @@
----
-title: "py-shapely"
-layout: cache
-categories: [package, develop-2024-12-15]
-meta: {"versions": ["2.0.6"], "compilers": ["gcc@=13.2.0"], "oss": ["ubuntu24.04"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "root": 2, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "7jj32z5lhjhwbjzhgyug4cuknp4ersdu", "compiler": "gcc@=13.2.0", "versions": ["2.0.6"], "os": "ubuntu24.04", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-aarch64-cpu", "root", "ml-linux-aarch64-cuda"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-12-15/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/py-shapely-2.0.6/linux-ubuntu24.04-aarch64-gcc-13.2.0-py-shapely-2.0.6-7jj32z5lhjhwbjzhgyug4cuknp4ersdu.spack"}, {"hash": "yyrbvr7nwvkh4gh3rz373x4d63ihxwj5", "compiler": "gcc@=13.2.0", "versions": ["2.0.6"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-12-15/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-shapely-2.0.6/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-shapely-2.0.6-yyrbvr7nwvkh4gh3rz373x4d63ihxwj5.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "warpx"
-layout: cache
-categories: [package, v2025.07.0]
-meta: {"compilers": ["gcc@11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-neoverse-v2": 1, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-neoverse-v2", "root"], "targets": ["neoverse_v2", "x86_64_v3"], "versions": ["25.04"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "7eziteq5pa3msznoll76ehm6sysjzh7t", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["+app", "~ascent", "build_system=cmake", "build_type=Release", "~catalyst", "compute=omp", "dims:=1,2,3,rz", "+eb", "+fft", "generator=make", "~ipo", "+lib", "+mpi", "+mpithreadmultiple", "+openpmd", "precision=double", "+python", "+python_ipo", "+qed", "~qedtablegen", "~sensei", "+shared", "+tprof"], "versions": ["25.04"]}, {"compiler": "gcc@11.4.0", "hash": "tfrwz7c4aep2vscstl5a4r2wn76rqk7m", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-neoverse-v2", "root"], "target": "neoverse_v2", "variants": ["+app", "~ascent", "build_system=cmake", "build_type=Release", "~catalyst", "compute=omp", "dims:=1,2,3,rz", "+eb", "+fft", "generator=make", "~ipo", "+lib", "+mpi", "+mpithreadmultiple", "+openpmd", "precision=double", "+python", "+python_ipo", "+qed", "~qedtablegen", "~sensei", "+shared", "+tprof"], "versions": ["25.04"]}]
----

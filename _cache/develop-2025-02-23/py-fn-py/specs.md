@@ -1,7 +1,0 @@
----
-title: "py-fn-py"
-layout: cache
-categories: [package, develop-2025-02-23]
-meta: {"compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["0.6.0"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "7zarcwrl3kcyskmkcbto5dozcli46yj5", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-23/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-fn-py-0.6.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-fn-py-0.6.0-7zarcwrl3kcyskmkcbto5dozcli46yj5.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.6.0"]}, {"compiler": "oneapi@=2024.2.1", "hash": "th7bljsjditynwavvbn3clzt32ihefw6", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-23/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/py-fn-py-0.6.0/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-py-fn-py-0.6.0-th7bljsjditynwavvbn3clzt32ihefw6.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.6.0"]}]
----

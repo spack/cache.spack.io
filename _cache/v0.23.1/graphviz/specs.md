@@ -1,7 +1,0 @@
----
-title: "graphviz"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-manylinux2014": 1, "radiuss": 1, "root": 2}, "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "stacks": ["developer-tools-manylinux2014", "radiuss", "root"], "targets": ["x86_64_v3"], "versions": ["12.1.0"]}
-spec_details: [{"compiler": "gcc@=10.2.1", "hash": "thkilrafi5vy2cym3x54uoeti2x5floe", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-manylinux2014", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/graphviz-12.1.0/linux-centos7-x86_64_v3-gcc-10.2.1-graphviz-12.1.0-thkilrafi5vy2cym3x54uoeti2x5floe.spack", "target": "x86_64_v3", "variants": ["build_system=autotools", "~doc", "~expat", "~ghostscript", "~gtkplus", "~gts", "~java", "~libgd", "~pangocairo", "~poppler", "~qt", "~quartz", "~x"], "versions": ["12.1.0"]}, {"compiler": "gcc@=7.5.0", "hash": "ameuy2dnephvopmqza4tjsv7yit3x3r3", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["radiuss", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/graphviz-12.1.0/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-graphviz-12.1.0-ameuy2dnephvopmqza4tjsv7yit3x3r3.spack", "target": "x86_64_v3", "variants": ["build_system=autotools", "~doc", "~expat", "~ghostscript", "~gtkplus", "~gts", "~java", "~libgd", "~pangocairo", "~poppler", "~qt", "~quartz", "~x"], "versions": ["12.1.0"]}]
----

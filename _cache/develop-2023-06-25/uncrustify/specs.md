@@ -1,7 +1,0 @@
----
-title: "uncrustify"
-layout: cache
-categories: [package, develop-2023-06-25]
-meta: {"versions": ["0.63", "0.74"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["build_systems", "root"], "num_specs": 2, "num_specs_by_stack": {"build_systems": 2, "root": 2}}
-spec_details: [{"hash": "zhjyyglfrho4cottjcjvihaobquwgalt", "compiler": "gcc@=7.5.0", "versions": ["0.63"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["build_systems", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-25/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/uncrustify-0.63/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-uncrustify-0.63-zhjyyglfrho4cottjcjvihaobquwgalt.spack"}, {"hash": "3ofztfgv6rpjt7padw6wss3qj7xnasl6", "compiler": "gcc@=7.5.0", "versions": ["0.74"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["build_systems", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-25/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/uncrustify-0.74/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-uncrustify-0.74-3ofztfgv6rpjt7padw6wss3qj7xnasl6.spack"}]
----

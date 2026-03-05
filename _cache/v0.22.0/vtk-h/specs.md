@@ -1,7 +1,0 @@
----
-title: "vtk-h"
-layout: cache
-categories: [package, v0.22.0]
-meta: {"versions": ["0.8.1"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 2, "root": 2}}
-spec_details: [{"hash": "qzzxajnvikk3uns6ukciecwypneib2gb", "compiler": "gcc@=11.1.0", "versions": ["0.8.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["+blt_find_mpi", "build_system=cmake", "build_type=Release", "~contourtree", "~cuda", "generator=make", "~ipo", "~logging", "+mpi", "+openmp", "patches=1039b1d", "+serial", "+shared"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.0/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/vtk-h-0.8.1/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-vtk-h-0.8.1-qzzxajnvikk3uns6ukciecwypneib2gb.spack"}, {"hash": "6wi7vwlabnrvf44ie2qlc25g6l44hdsw", "compiler": "gcc@=11.1.0", "versions": ["0.8.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["+blt_find_mpi", "build_system=cmake", "build_type=Release", "~contourtree", "~cuda", "generator=make", "~ipo", "~logging", "+mpi", "+openmp", "patches=1039b1d", "+serial", "+shared"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.0/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/vtk-h-0.8.1/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-vtk-h-0.8.1-6wi7vwlabnrvf44ie2qlc25g6l44hdsw.spack"}]
----

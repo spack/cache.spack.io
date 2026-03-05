@@ -1,7 +1,0 @@
----
-title: "py-gpytorch"
-layout: cache
-categories: [package, develop-2025-05-25]
-meta: {"compilers": ["none"], "num_specs": 4, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 4}, "oss": ["sequoia", "ubuntu24.04"], "platforms": ["darwin", "linux"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["1.13"]}
-spec_details: [{"compiler": "none", "hash": "biy4zvndug2az3c2riexb6b44h6scl7l", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["ml-darwin-aarch64-mps", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["1.13"]}, {"compiler": "none", "hash": "kwpm345tk6wlztvggacwjmtoslmaf3qp", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.13"]}, {"compiler": "none", "hash": "s2qst6bmj6xyzsrwac7gsabdm2ieb4ul", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["1.13"]}, {"compiler": "none", "hash": "zi3ximnxdtarry7mcqs47knpwh4yml6x", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.13"]}]
----

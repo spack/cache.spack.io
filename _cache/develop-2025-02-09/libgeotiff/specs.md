@@ -1,7 +1,0 @@
----
-title: "libgeotiff"
-layout: cache
-categories: [package, develop-2025-02-09]
-meta: {"versions": ["1.7.1"], "compilers": ["gcc@=13.2.0"], "oss": ["ubuntu24.04"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "root": 2, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "b3cjtlakfmqsvqtt3mibiscfyn5txooc", "compiler": "gcc@=13.2.0", "versions": ["1.7.1"], "os": "ubuntu24.04", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools", "+jpeg", "+proj", "+zlib"], "stacks": ["ml-linux-aarch64-cpu", "root", "ml-linux-aarch64-cuda"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/libgeotiff-1.7.1/linux-ubuntu24.04-aarch64-gcc-13.2.0-libgeotiff-1.7.1-b3cjtlakfmqsvqtt3mibiscfyn5txooc.spack"}, {"hash": "uyg7iyd57hyiueaemckjmdzui6eoghlj", "compiler": "gcc@=13.2.0", "versions": ["1.7.1"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "+jpeg", "+proj", "+zlib"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/libgeotiff-1.7.1/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-libgeotiff-1.7.1-uyg7iyd57hyiueaemckjmdzui6eoghlj.spack"}]
----

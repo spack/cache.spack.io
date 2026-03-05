@@ -1,7 +1,0 @@
----
-title: "py-ujson"
-layout: cache
-categories: [package, develop-2024-11-24]
-meta: {"versions": ["5.7.0"], "compilers": ["apple-clang@=15.0.0", "gcc@=10.2.1"], "oss": ["centos7", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-darwin", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "developer-tools-darwin": 1, "developer-tools-manylinux2014": 1}}
-spec_details: [{"hash": "6i747ggcxzr7woenyeujg2sj46vetuyg", "compiler": "apple-clang@=15.0.0", "versions": ["5.7.0"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["root", "developer-tools-darwin"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-24/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-ujson-5.7.0/darwin-ventura-aarch64-apple-clang-15.0.0-py-ujson-5.7.0-6i747ggcxzr7woenyeujg2sj46vetuyg.spack"}, {"hash": "zcus6ba2hdzup4pd4v4k5rgbtzkr7urv", "compiler": "gcc@=10.2.1", "versions": ["5.7.0"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-24/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/py-ujson-5.7.0/linux-centos7-x86_64_v3-gcc-10.2.1-py-ujson-5.7.0-zcus6ba2hdzup4pd4v4k5rgbtzkr7urv.spack"}]
----

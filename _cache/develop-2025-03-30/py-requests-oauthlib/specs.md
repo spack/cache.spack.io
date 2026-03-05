@@ -1,7 +1,0 @@
----
-title: "py-requests-oauthlib"
-layout: cache
-categories: [package, develop-2025-03-30]
-meta: {"compilers": ["none"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 3}, "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["e4s", "ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["1.3.1"]}
-spec_details: [{"compiler": "none", "hash": "4hlak3hsdlhnwdqcrhdduuz55imtdhys", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.3.1"]}, {"compiler": "none", "hash": "p7gkvas4hs4k2j2ztxcn7cowswqjkxwc", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["1.3.1"]}, {"compiler": "none", "hash": "x6rf2u6ahacncrz6ytohqnn7dehggbsp", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.3.1"]}]
----

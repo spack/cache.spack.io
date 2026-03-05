@@ -1,7 +1,0 @@
----
-title: "metall"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["cce@=18.0.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-cray-rhel": 1, "root": 2}, "oss": ["rhel8", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-cray-rhel", "root"], "targets": ["x86_64_v3"], "versions": ["0.30"]}
-spec_details: [{"compiler": "cce@=18.0.0", "hash": "xe5tgvlao2lqiy2jmnn7glv76zanitd6", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["e4s-cray-rhel", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-rhel8-x86_64_v3/cce-18.0.0/metall-0.30/linux-rhel8-x86_64_v3-cce-18.0.0-metall-0.30-xe5tgvlao2lqiy2jmnn7glv76zanitd6.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["0.30"]}, {"compiler": "gcc@=11.4.0", "hash": "hgtuaeaifjmpsik3gkuh5oygxxcqxg4u", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/metall-0.30/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-metall-0.30-hgtuaeaifjmpsik3gkuh5oygxxcqxg4u.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["0.30"]}]
----

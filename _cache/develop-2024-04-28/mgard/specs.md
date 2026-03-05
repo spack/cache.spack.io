@@ -1,7 +1,0 @@
----
-title: "mgard"
-layout: cache
-categories: [package, develop-2024-04-28]
-meta: {"versions": ["2023-12-09"], "compilers": ["gcc@=10.3.0"], "oss": ["sle_hpc15"], "platforms": ["linux"], "targets": ["x86_64_v4"], "stacks": ["e4s-cray-sles", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-cray-sles": 2, "root": 2}}
-spec_details: [{"hash": "za33ffl4x2lio7ugly5m6viz4uilosw3", "compiler": "gcc@=10.3.0", "versions": ["2023-12-09"], "os": "sle_hpc15", "platform": "linux", "target": "x86_64_v4", "variants": ["build_system=cmake", "build_type=Release", "~cuda", "generator=make", "~ipo", "+openmp", "+serial", "~timing", "~unstructured"], "stacks": ["e4s-cray-sles", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-sle_hpc15-x86_64_v4/gcc-10.3.0/mgard-2023-12-09/linux-sle_hpc15-x86_64_v4-gcc-10.3.0-mgard-2023-12-09-za33ffl4x2lio7ugly5m6viz4uilosw3.spack"}, {"hash": "7hmu2mwlmj7v4eeejbmyczijkaac462x", "compiler": "gcc@=10.3.0", "versions": ["2023-12-09"], "os": "sle_hpc15", "platform": "linux", "target": "x86_64_v4", "variants": ["build_system=cmake", "build_type=Release", "~cuda", "generator=make", "~ipo", "+openmp", "+serial", "+timing", "+unstructured"], "stacks": ["e4s-cray-sles", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-sle_hpc15-x86_64_v4/gcc-10.3.0/mgard-2023-12-09/linux-sle_hpc15-x86_64_v4-gcc-10.3.0-mgard-2023-12-09-7hmu2mwlmj7v4eeejbmyczijkaac462x.spack"}]
----

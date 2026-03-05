@@ -1,7 +1,0 @@
----
-title: "py-bcrypt"
-layout: cache
-categories: [package, v0.20.2]
-meta: {"versions": ["3.2.0"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "plexnljqjvmwkkbaewt4sfsh6gcl2cxc", "compiler": "gcc@=11.1.0", "versions": ["3.2.0"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=python_pip"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.2/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/py-bcrypt-3.2.0/linux-ubuntu20.04-ppc64le-gcc-11.1.0-py-bcrypt-3.2.0-plexnljqjvmwkkbaewt4sfsh6gcl2cxc.spack"}, {"hash": "hc63dhvnowhte7lgmqfogmpcrirr4ybr", "compiler": "gcc@=11.1.0", "versions": ["3.2.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.2/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-bcrypt-3.2.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-bcrypt-3.2.0-hc63dhvnowhte7lgmqfogmpcrirr4ybr.spack"}]
----

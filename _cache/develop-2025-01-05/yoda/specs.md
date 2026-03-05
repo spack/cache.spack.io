@@ -1,7 +1,0 @@
----
-title: "yoda"
-layout: cache
-categories: [package, develop-2025-01-05]
-meta: {"versions": ["1.9.10", "2.0.2"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["hep", "root"], "num_specs": 2, "num_specs_by_stack": {"hep": 2, "root": 2}}
-spec_details: [{"hash": "2ggwxbiw4eg5n6g3tm4ofxuakq7wg5nz", "compiler": "gcc@=11.4.0", "versions": ["1.9.10"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "~root"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/yoda-1.9.10/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-yoda-1.9.10-2ggwxbiw4eg5n6g3tm4ofxuakq7wg5nz.spack"}, {"hash": "pn2ilqloet3vsjo7dqtab6erkeo6x4c3", "compiler": "gcc@=11.4.0", "versions": ["2.0.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "~root"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/yoda-2.0.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-yoda-2.0.2-pn2ilqloet3vsjo7dqtab6erkeo6x4c3.spack"}]
----

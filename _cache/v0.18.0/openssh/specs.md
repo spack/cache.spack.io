@@ -1,7 +1,0 @@
----
-title: "openssh"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["9.0p1"], "compilers": ["gcc@=7.5.0", "gcc@=8.4.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "e4s", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s": 1, "tutorial": 2}}
-spec_details: [{"hash": "3ez3d3jtc4f7bph5suuzqebujp3gppwv", "compiler": "gcc@=7.5.0", "versions": ["9.0p1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["data-vis-sdk", "root", "e4s", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/openssh-9.0p1/linux-ubuntu18.04-x86_64-gcc-7.5.0-openssh-9.0p1-3ez3d3jtc4f7bph5suuzqebujp3gppwv.spack"}, {"hash": "2nsdyqmspd2uogwru7gnoepxvmhv22o4", "compiler": "gcc@=8.4.0", "versions": ["9.0p1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-8.4.0/openssh-9.0p1/linux-ubuntu18.04-x86_64-gcc-8.4.0-openssh-9.0p1-2nsdyqmspd2uogwru7gnoepxvmhv22o4.spack"}]
----

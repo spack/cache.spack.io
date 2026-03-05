@@ -1,7 +1,0 @@
----
-title: "py-torch-scatter"
-layout: cache
-categories: [package, develop-2025-03-16]
-meta: {"compilers": ["gcc@=13.2.0"], "num_specs": 4, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 4}, "oss": ["ubuntu24.04"], "platforms": ["linux"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["2.1.2"]}
-spec_details: [{"compiler": "gcc@=13.2.0", "hash": "3f3ymyjaggyob2dztgx2yi24sl74g3ti", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.1.2"]}, {"compiler": "gcc@=13.2.0", "hash": "i3c6wd7hjilb6pbcur5xqvwrhkafp4aw", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.1.2"]}, {"compiler": "gcc@=13.2.0", "hash": "kw5negz5ja6wrzs7lcw6imstfpfhqodp", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["2.1.2"]}, {"compiler": "gcc@=13.2.0", "hash": "ohenv3esdly6nvr23zqubninthxkz2xn", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["2.1.2"]}]
----

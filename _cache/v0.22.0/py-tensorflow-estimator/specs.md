@@ -1,7 +1,0 @@
----
-title: "py-tensorflow-estimator"
-layout: cache
-categories: [package, v0.22.0]
-meta: {"versions": ["2.14.0"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cuda": 1, "root": 2, "ml-linux-x86_64-cpu": 1}}
-spec_details: [{"hash": "p2rfafr6ekqeh3gekwme7jorxcdg7i26", "compiler": "gcc@=11.4.0", "versions": ["2.14.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.0/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-tensorflow-estimator-2.14.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-tensorflow-estimator-2.14.0-p2rfafr6ekqeh3gekwme7jorxcdg7i26.spack"}, {"hash": "org7ari4tzrl5pujgtgehu4u4zs5hi3a", "compiler": "gcc@=11.4.0", "versions": ["2.14.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["ml-linux-x86_64-cpu", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.0/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-tensorflow-estimator-2.14.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-tensorflow-estimator-2.14.0-org7ari4tzrl5pujgtgehu4u4zs5hi3a.spack"}]
----

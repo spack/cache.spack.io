@@ -1,7 +1,0 @@
----
-title: "nvhpc"
-layout: cache
-categories: [package, v0.20.2]
-meta: {"versions": ["23.3"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "sw625x4kv6ew7t4sir2fmz6d3rxuex46", "compiler": "gcc@=11.1.0", "versions": ["23.3"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["+blas", "build_system=generic", "install_type=single", "+lapack", "+mpi"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.2/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/nvhpc-23.3/linux-ubuntu20.04-ppc64le-gcc-11.1.0-nvhpc-23.3-sw625x4kv6ew7t4sir2fmz6d3rxuex46.spack"}, {"hash": "gkdo3ygiy7if6ceg4uolrt3ft7rpq4pt", "compiler": "gcc@=11.1.0", "versions": ["23.3"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["+blas", "build_system=generic", "install_type=single", "+lapack", "+mpi"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.2/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/nvhpc-23.3/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-nvhpc-23.3-gkdo3ygiy7if6ceg4uolrt3ft7rpq4pt.spack"}]
----

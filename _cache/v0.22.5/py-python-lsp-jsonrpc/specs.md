@@ -1,7 +1,0 @@
----
-title: "py-python-lsp-jsonrpc"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "num_specs": 2, "num_specs_by_stack": {"developer-tools": 1, "developer-tools-manylinux2014": 1, "root": 2}, "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "targets": ["x86_64_v3"], "versions": ["1.1.2"]}
-spec_details: [{"compiler": "gcc@=7.5.0", "hash": "54xfelkai7ergjnntmfzczci6rrw7xno", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["developer-tools", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-python-lsp-jsonrpc-1.1.2/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-python-lsp-jsonrpc-1.1.2-54xfelkai7ergjnntmfzczci6rrw7xno.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.1.2"]}, {"compiler": "gcc@=10.2.1", "hash": "6dnhei4n7e3zcfej4u7y56vyt26cmabs", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-manylinux2014", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/py-python-lsp-jsonrpc-1.1.2/linux-centos7-x86_64_v3-gcc-10.2.1-py-python-lsp-jsonrpc-1.1.2-6dnhei4n7e3zcfej4u7y56vyt26cmabs.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.1.2"]}]
----

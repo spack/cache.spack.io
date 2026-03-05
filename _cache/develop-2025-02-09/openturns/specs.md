@@ -1,7 +1,0 @@
----
-title: "openturns"
-layout: cache
-categories: [package, develop-2025-02-09]
-meta: {"versions": ["1.20"], "compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "plxoxnfg4z4jvlmyvmoke2vgpwuphp6w", "compiler": "gcc@=11.4.0", "versions": ["1.20"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~libxml2", "+python"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/openturns-1.20/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-openturns-1.20-plxoxnfg4z4jvlmyvmoke2vgpwuphp6w.spack"}, {"hash": "ualdjzdkflgt6w3odh6l6zbht33o2g7m", "compiler": "oneapi@=2024.2.1", "versions": ["1.20"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~libxml2", "+python"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/openturns-1.20/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-openturns-1.20-ualdjzdkflgt6w3odh6l6zbht33o2g7m.spack"}]
----

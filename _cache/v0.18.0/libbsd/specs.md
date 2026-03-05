@@ -1,7 +1,0 @@
----
-title: "libbsd"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["0.11.5"], "compilers": ["gcc@=7.5.0", "gcc@=8.4.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["build_systems", "data-vis-sdk", "e4s", "radiuss", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"build_systems": 1, "root": 2, "tutorial": 2, "data-vis-sdk": 1, "e4s": 1, "radiuss": 1}}
-spec_details: [{"hash": "zliunm4fyuu772mhwsxf46t7se5sssu5", "compiler": "gcc@=7.5.0", "versions": ["0.11.5"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["build_systems", "root", "tutorial", "data-vis-sdk", "e4s", "radiuss"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/libbsd-0.11.5/linux-ubuntu18.04-x86_64-gcc-7.5.0-libbsd-0.11.5-zliunm4fyuu772mhwsxf46t7se5sssu5.spack"}, {"hash": "v2foqu3chqoz7isqtv2m4kxddvk5oatw", "compiler": "gcc@=8.4.0", "versions": ["0.11.5"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-8.4.0/libbsd-0.11.5/linux-ubuntu18.04-x86_64-gcc-8.4.0-libbsd-0.11.5-v2foqu3chqoz7isqtv2m4kxddvk5oatw.spack"}]
----

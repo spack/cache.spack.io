@@ -1,7 +1,0 @@
----
-title: "unibilium"
-layout: cache
-categories: [package, v0.22.0]
-meta: {"versions": ["2.0.0"], "compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-manylinux2014": 1, "root": 2, "developer-tools": 1}}
-spec_details: [{"hash": "vdqyuml2y4od57som45iizchoafb5w3b", "compiler": "gcc@=10.2.1", "versions": ["2.0.0"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.0/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/unibilium-2.0.0/linux-centos7-x86_64_v3-gcc-10.2.1-unibilium-2.0.0-vdqyuml2y4od57som45iizchoafb5w3b.spack"}, {"hash": "cctm5ws6ugrnu5mouj46xtzeg4buaaey", "compiler": "gcc@=7.5.0", "versions": ["2.0.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["developer-tools", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.0/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/unibilium-2.0.0/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-unibilium-2.0.0-cctm5ws6ugrnu5mouj46xtzeg4buaaey.spack"}]
----

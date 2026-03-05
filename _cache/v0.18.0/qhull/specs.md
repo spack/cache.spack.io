@@ -1,7 +1,0 @@
----
-title: "qhull"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["2020.2"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "e4s", "radiuss", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "radiuss": 1, "e4s": 1}}
-spec_details: [{"hash": "e32nllyosn4lqwq45tqcvzurr77w7leh", "compiler": "gcc@=7.5.0", "versions": ["2020.2"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_type=RelWithDebInfo", "~ipo"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/qhull-2020.2/linux-ubuntu18.04-x86_64-gcc-7.5.0-qhull-2020.2-e32nllyosn4lqwq45tqcvzurr77w7leh.spack"}, {"hash": "zl4x7e67yuwhiz6r2hixx665ftlzi4ht", "compiler": "gcc@=7.5.0", "versions": ["2020.2"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_type=RelWithDebInfo", "~ipo"], "stacks": ["radiuss", "root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/qhull-2020.2/linux-ubuntu18.04-x86_64-gcc-7.5.0-qhull-2020.2-zl4x7e67yuwhiz6r2hixx665ftlzi4ht.spack"}]
----

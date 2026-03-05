@@ -1,7 +1,0 @@
----
-title: "lua-luajit-openresty"
-layout: cache
-categories: [package, v2025.07.0]
-meta: {"compilers": ["gcc@10.5.0", "gcc@13.3.0"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "root": 2}, "oss": ["centos7", "rhel8"], "platforms": ["linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["2.1-20250515"]}
-spec_details: [{"compiler": "gcc@13.3.0", "hash": "ebyaehw4f2mxo47amamasrcdzyvnbg6j", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "target": "aarch64", "variants": ["build_system=makefile", "commit=eec7a8016c3381b949b5d84583800d05897fa960", "fetcher=curl", "+lualinks"], "versions": ["2.1-20250515"]}, {"compiler": "gcc@10.5.0", "hash": "mjppholhhwylpso2z6ha3tiummlzgphr", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "target": "x86_64_v3", "variants": ["build_system=makefile", "commit=eec7a8016c3381b949b5d84583800d05897fa960", "fetcher=curl", "+lualinks"], "versions": ["2.1-20250515"]}]
----

@@ -1,7 +1,0 @@
----
-title: "fltk"
-layout: cache
-categories: [package, develop-2024-02-18]
-meta: {"versions": ["1.3.7"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 2}}
-spec_details: [{"hash": "mmw2qifd2uizlwku3pkydcfj3hizxxc6", "compiler": "gcc@=11.4.0", "versions": ["1.3.7"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic", "+gl", "+shared", "~xft"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-02-18/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/fltk-1.3.7/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-fltk-1.3.7-mmw2qifd2uizlwku3pkydcfj3hizxxc6.spack"}, {"hash": "4fzpleli23mdlfyf5pls3ruyw5m5iwv6", "compiler": "gcc@=11.4.0", "versions": ["1.3.7"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic", "+gl", "+shared", "~xft"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-02-18/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/fltk-1.3.7/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-fltk-1.3.7-4fzpleli23mdlfyf5pls3ruyw5m5iwv6.spack"}]
----

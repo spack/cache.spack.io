@@ -1,7 +1,0 @@
----
-title: "py-humanfriendly"
-layout: cache
-categories: [package, develop-2025-02-09]
-meta: {"versions": ["10.0"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["radiuss", "root"], "num_specs": 2, "num_specs_by_stack": {"radiuss": 2, "root": 2}}
-spec_details: [{"hash": "ljbhx6uw7wqfnvogj5par5mnn4xpcjel", "compiler": "gcc@=7.5.0", "versions": ["10.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["radiuss", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-humanfriendly-10.0/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-humanfriendly-10.0-ljbhx6uw7wqfnvogj5par5mnn4xpcjel.spack"}, {"hash": "jexoe35gvczdeia3pfo7w5ntdprtu2kv", "compiler": "gcc@=7.5.0", "versions": ["10.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["radiuss", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-humanfriendly-10.0/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-humanfriendly-10.0-jexoe35gvczdeia3pfo7w5ntdprtu2kv.spack"}]
----

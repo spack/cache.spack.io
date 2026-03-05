@@ -1,7 +1,0 @@
----
-title: "perl-module-build"
-layout: cache
-categories: [package, develop-2025-03-23]
-meta: {"compilers": ["gcc@=11.1.0", "gcc@=11.4.0", "gcc@=13.2.0"], "num_specs": 3, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "hep": 1, "ml-linux-x86_64-rocm": 1, "root": 3}, "oss": ["ubuntu20.04", "ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "hep", "ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["0.4234"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "cilyvf2e3qs2olnu2vgn2wqizdcx765l", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "hep", "root"], "target": "x86_64_v3", "variants": ["build_system=perl"], "versions": ["0.4234"]}, {"compiler": "gcc@=13.2.0", "hash": "ebpnl73bc3u23sqk7lybfwflulluacjx", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=perl"], "versions": ["0.4234"]}, {"compiler": "gcc@=11.1.0", "hash": "kjnehww4yeued4occrlujd53gt3uzijp", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=perl"], "versions": ["0.4234"]}]
----

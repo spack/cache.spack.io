@@ -1,7 +1,0 @@
----
-title: "roctracer-dev"
-layout: cache
-categories: [package, develop-2025-02-09]
-meta: {"versions": ["6.1.2", "6.3.1"], "compilers": ["gcc@=11.4.0", "gcc@=13.2.0"], "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "ml-linux-x86_64-rocm", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "ml-linux-x86_64-rocm": 1}}
-spec_details: [{"hash": "dry6oz23btvkspw6ya2yufoti7buykph", "compiler": "gcc@=11.4.0", "versions": ["6.3.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~asan", "build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~rocm"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/roctracer-dev-6.3.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-roctracer-dev-6.3.1-dry6oz23btvkspw6ya2yufoti7buykph.spack"}, {"hash": "l2sscxxtwkrcf4l2n6mh4d766lj2fjoa", "compiler": "gcc@=13.2.0", "versions": ["6.1.2"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["amdgpu_target=gfx90a", "~asan", "build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+rocm"], "stacks": ["ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/roctracer-dev-6.1.2/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-roctracer-dev-6.1.2-l2sscxxtwkrcf4l2n6mh4d766lj2fjoa.spack"}]
----

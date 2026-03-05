@@ -1,7 +1,0 @@
----
-title: "py-torchtext"
-layout: cache
-categories: [package, develop-2023-06-25]
-meta: {"versions": ["0.15.2"], "compilers": ["gcc@=11.3.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cpu": 1, "root": 2, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "jvvxkydamggbtv7oj7kguxd5sgseosd6", "compiler": "gcc@=11.3.0", "versions": ["0.15.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-25/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-torchtext-0.15.2/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-torchtext-0.15.2-jvvxkydamggbtv7oj7kguxd5sgseosd6.spack"}, {"hash": "uvr7h4dahfhjh4kusbi6ddhqzr2o4lp4", "compiler": "gcc@=11.3.0", "versions": ["0.15.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-25/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-torchtext-0.15.2/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-torchtext-0.15.2-uvr7h4dahfhjh4kusbi6ddhqzr2o4lp4.spack"}]
----

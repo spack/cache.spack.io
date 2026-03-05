@@ -1,7 +1,0 @@
----
-title: "py-zipp"
-layout: cache
-categories: [package, develop-2024-11-10]
-meta: {"versions": ["3.17.0"], "compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "lbvm4fwjdwkri4pflromdtrifnrcom4r", "compiler": "gcc@=11.1.0", "versions": ["3.17.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-10/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-zipp-3.17.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-zipp-3.17.0-lbvm4fwjdwkri4pflromdtrifnrcom4r.spack"}, {"hash": "widlvza2uwqm2wf2r4ddf7u4khlajyar", "compiler": "gcc@=11.4.0", "versions": ["3.17.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-10/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-zipp-3.17.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-zipp-3.17.0-widlvza2uwqm2wf2r4ddf7u4khlajyar.spack"}]
----

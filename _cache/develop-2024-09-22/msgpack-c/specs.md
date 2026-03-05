@@ -1,7 +1,0 @@
----
-title: "msgpack-c"
-layout: cache
-categories: [package, develop-2024-09-22]
-meta: {"versions": ["3.1.1"], "compilers": ["gcc@=10.2.1", "gcc@=11.4.0"], "oss": ["centos7", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["developer-tools-manylinux2014", "ml-linux-x86_64-rocm", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-manylinux2014": 1, "root": 2, "ml-linux-x86_64-rocm": 1}}
-spec_details: [{"hash": "fu4h3qbqaimdhhsjc2c3oplwgiy3ewrm", "compiler": "gcc@=10.2.1", "versions": ["3.1.1"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-09-22/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/msgpack-c-3.1.1/linux-centos7-x86_64_v3-gcc-10.2.1-msgpack-c-3.1.1-fu4h3qbqaimdhhsjc2c3oplwgiy3ewrm.spack"}, {"hash": "nmvpzcfodo4ssdcah54fdqe2nynkydbp", "compiler": "gcc@=11.4.0", "versions": ["3.1.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-09-22/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/msgpack-c-3.1.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-msgpack-c-3.1.1-nmvpzcfodo4ssdcah54fdqe2nynkydbp.spack"}]
----

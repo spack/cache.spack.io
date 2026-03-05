@@ -1,7 +1,0 @@
----
-title: "bitgroomingz"
-layout: cache
-categories: [package, develop-2024-08-04]
-meta: {"versions": ["2022-10-14"], "compilers": ["gcc@=11.4.0", "oneapi@=2024.2.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s-oneapi": 1}}
-spec_details: [{"hash": "gjdfbge4mivhrb6m5otenetxq6enhcwl", "compiler": "gcc@=11.4.0", "versions": ["2022-10-14"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+shared"], "stacks": ["root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-08-04/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/bitgroomingz-2022-10-14/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-bitgroomingz-2022-10-14-gjdfbge4mivhrb6m5otenetxq6enhcwl.spack"}, {"hash": "5ejd6lok3nqt3uhigalnr4y37wn2rcb4", "compiler": "oneapi@=2024.2.0", "versions": ["2022-10-14"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+shared"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-08-04/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.0/bitgroomingz-2022-10-14/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.0-bitgroomingz-2022-10-14-5ejd6lok3nqt3uhigalnr4y37wn2rcb4.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "py-pre-commit"
-layout: cache
-categories: [package, develop-2025-03-02]
-meta: {"compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "num_specs": 4, "num_specs_by_stack": {"e4s": 2, "e4s-oneapi": 2, "root": 4}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["4.0.1"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "atieevuycyd4gxx2m72ehnark5h2g5bs", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["4.0.1"]}, {"compiler": "gcc@=11.4.0", "hash": "gppxpyoaecwmcatwp5s6e35mcklj5lfg", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["4.0.1"]}, {"compiler": "oneapi@=2024.2.1", "hash": "wyc7kbbdiii77uibkqd277zqwecfbbfn", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["4.0.1"]}, {"compiler": "oneapi@=2024.2.1", "hash": "xk3zkl5b7stqcqlmgisx6p2heidqmtea", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["4.0.1"]}]
----

@@ -1,7 +1,0 @@
----
-title: "armpl-gcc"
-layout: cache
-categories: [package, develop-2025-01-26]
-meta: {"versions": ["24.10"], "compilers": ["gcc@=12.4.0"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["neoverse_v1"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-pcluster-neoverse_v1": 2, "root": 2}}
-spec_details: [{"hash": "cbokhl2anv2o2rv5cgbqrk3pahh76mel", "compiler": "gcc@=12.4.0", "versions": ["24.10"], "os": "amzn2", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=generic", "~ilp64", "+shared", "threads=openmp"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-amzn2-neoverse_v1/gcc-12.4.0/armpl-gcc-24.10/linux-amzn2-neoverse_v1-gcc-12.4.0-armpl-gcc-24.10-cbokhl2anv2o2rv5cgbqrk3pahh76mel.spack"}, {"hash": "onvehyclq4zeh3htzi3ndv2eyhnzpml7", "compiler": "gcc@=12.4.0", "versions": ["24.10"], "os": "amzn2", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=generic", "~ilp64", "+shared", "threads=none"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-amzn2-neoverse_v1/gcc-12.4.0/armpl-gcc-24.10/linux-amzn2-neoverse_v1-gcc-12.4.0-armpl-gcc-24.10-onvehyclq4zeh3htzi3ndv2eyhnzpml7.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "utf8cpp"
-layout: cache
-categories: [package, develop-2024-12-15]
-meta: {"versions": ["4.0.6"], "compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "vh2pg3twucmgmp43yjwponz57e2sksso", "compiler": "gcc@=11.1.0", "versions": ["4.0.6"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-12-15/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/utf8cpp-4.0.6/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-utf8cpp-4.0.6-vh2pg3twucmgmp43yjwponz57e2sksso.spack"}, {"hash": "j3mvqmumffiv5suswkyy3kxbc2tg5vbb", "compiler": "gcc@=11.4.0", "versions": ["4.0.6"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-12-15/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/utf8cpp-4.0.6/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-utf8cpp-4.0.6-j3mvqmumffiv5suswkyy3kxbc2tg5vbb.spack"}]
----

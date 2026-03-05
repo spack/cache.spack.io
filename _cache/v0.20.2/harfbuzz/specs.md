@@ -1,7 +1,0 @@
----
-title: "harfbuzz"
-layout: cache
-categories: [package, v0.20.2]
-meta: {"versions": ["5.3.1"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 2, "root": 2}}
-spec_details: [{"hash": "z5rhp57gw72huqrexx4k6ifzk5chcm4i", "compiler": "gcc@=11.1.0", "versions": ["5.3.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library=shared", "~graphite2", "~strip"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.2/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/harfbuzz-5.3.1/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-harfbuzz-5.3.1-z5rhp57gw72huqrexx4k6ifzk5chcm4i.spack"}, {"hash": "myzn5lr6iif7nry6kq2ekcbq654wdmlb", "compiler": "gcc@=11.1.0", "versions": ["5.3.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library=shared", "~graphite2", "~strip"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.2/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/harfbuzz-5.3.1/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-harfbuzz-5.3.1-myzn5lr6iif7nry6kq2ekcbq654wdmlb.spack"}]
----

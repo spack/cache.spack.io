@@ -1,7 +1,0 @@
----
-title: "py-dm-tree"
-layout: cache
-categories: [package, develop-2024-10-27]
-meta: {"versions": ["0.1.7", "0.1.8"], "compilers": ["gcc@=11.4.0", "gcc@=13.2.0"], "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "ml-linux-x86_64-rocm": 1}}
-spec_details: [{"hash": "5jtutbvudwh55c4xybadgdlymf4piazr", "compiler": "gcc@=11.4.0", "versions": ["0.1.7"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-27/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-dm-tree-0.1.7/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-dm-tree-0.1.7-5jtutbvudwh55c4xybadgdlymf4piazr.spack"}, {"hash": "6albv4wl5mrydxh2yr42dw3rnvxurstd", "compiler": "gcc@=13.2.0", "versions": ["0.1.8"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "patches=77dbd89"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-27/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-dm-tree-0.1.8/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-dm-tree-0.1.8-6albv4wl5mrydxh2yr42dw3rnvxurstd.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "fzf"
-layout: cache
-categories: [package, develop-2025-02-09]
-meta: {"versions": ["0.57.0"], "compilers": ["gcc@=10.5.0", "gcc@=13.3.0"], "oss": ["centos7", "rhel8"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-x86_64_v3-linux-gnu": 1, "root": 2, "developer-tools-aarch64-linux-gnu": 1}}
-spec_details: [{"hash": "czfto6aw7d4nm43zl47xlw24uan2k3yr", "compiler": "gcc@=10.5.0", "versions": ["0.57.0"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=makefile", "~vim"], "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-centos7-x86_64_v3/gcc-10.5.0/fzf-0.57.0/linux-centos7-x86_64_v3-gcc-10.5.0-fzf-0.57.0-czfto6aw7d4nm43zl47xlw24uan2k3yr.spack"}, {"hash": "zvw6mi2puisrpjudkgcolj34ffnkzmdy", "compiler": "gcc@=13.3.0", "versions": ["0.57.0"], "os": "rhel8", "platform": "linux", "target": "aarch64", "variants": ["build_system=makefile", "~vim"], "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-rhel8-aarch64/gcc-13.3.0/fzf-0.57.0/linux-rhel8-aarch64-gcc-13.3.0-fzf-0.57.0-zvw6mi2puisrpjudkgcolj34ffnkzmdy.spack"}]
----

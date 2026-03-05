@@ -1,7 +1,0 @@
----
-title: "nvhpc"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["24.3"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["neoverse_v1", "x86_64_v3"], "stacks": ["e4s", "e4s-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-neoverse_v1": 1}}
-spec_details: [{"hash": "t4d6qx2k7umltn5pbahkq5xflgt4x4vy", "compiler": "gcc@=11.4.0", "versions": ["24.3"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["+blas", "build_system=generic", "default_cuda=default", "install_type=single", "+lapack", "+mpi"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/nvhpc-24.3/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-nvhpc-24.3-t4d6qx2k7umltn5pbahkq5xflgt4x4vy.spack"}, {"hash": "sjoellxu26gj7f7immcavgf6afg5sck5", "compiler": "gcc@=11.4.0", "versions": ["24.3"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v1", "variants": ["+blas", "build_system=generic", "default_cuda=default", "install_type=single", "+lapack", "+mpi"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-neoverse_v1/gcc-11.4.0/nvhpc-24.3/linux-ubuntu22.04-neoverse_v1-gcc-11.4.0-nvhpc-24.3-sjoellxu26gj7f7immcavgf6afg5sck5.spack"}]
----

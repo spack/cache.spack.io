@@ -1,7 +1,0 @@
----
-title: "libpciaccess"
-layout: cache
-categories: [package, develop-2024-04-14]
-meta: {"versions": ["0.17"], "compilers": ["gcc@=12.3.0"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["neoverse_n1", "neoverse_v1"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-pcluster-neoverse_v1": 2, "root": 2}}
-spec_details: [{"hash": "4uz3l24vllkig23i3tzdujdvhf74wzmo", "compiler": "gcc@=12.3.0", "versions": ["0.17"], "os": "amzn2", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=autotools"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-neoverse_v1/gcc-12.3.0/libpciaccess-0.17/linux-amzn2-neoverse_v1-gcc-12.3.0-libpciaccess-0.17-4uz3l24vllkig23i3tzdujdvhf74wzmo.spack"}, {"hash": "eejqvkutsesctcdsmepqcgm2lyudo3sf", "compiler": "gcc@=12.3.0", "versions": ["0.17"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=autotools"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-neoverse_n1/gcc-12.3.0/libpciaccess-0.17/linux-amzn2-neoverse_n1-gcc-12.3.0-libpciaccess-0.17-eejqvkutsesctcdsmepqcgm2lyudo3sf.spack"}]
----

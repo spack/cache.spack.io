@@ -1,7 +1,0 @@
----
-title: "qt"
-layout: cache
-categories: [package, develop-2025-03-16]
-meta: {"compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "hep": 1, "root": 2}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "hep", "root"], "targets": ["x86_64_v3"], "versions": ["5.14.2", "5.15.16"]}
-spec_details: [{"compiler": "gcc@=11.1.0", "hash": "boradv4kmjimsudbssts3hv2cczqmnok", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=generic", "~dbus", "~debug", "~doc", "~examples", "~framework", "~gtk", "+gui", "~location", "+opengl", "patches=2081e9c,51aeba5,75bcb42,7f34d48,8449b9f,84b0991,9378afd,ea411b9", "~phonon", "+shared", "+sql", "+ssl", "+tools", "~webkit"], "versions": ["5.14.2"]}, {"compiler": "gcc@=11.4.0", "hash": "wytpc5lt62ytryhwkr24a45sfnytshqy", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=generic", "~dbus", "~debug", "~doc", "~examples", "~framework", "~gtk", "+gui", "~location", "+opengl", "patches=2081e9c,51aeba5,75bcb42,78c70fb,7f34d48,84b0991,8cd4be9,9378afd", "~phonon", "+shared", "+sql", "+ssl", "+tools", "~webkit"], "versions": ["5.15.16"]}]
----

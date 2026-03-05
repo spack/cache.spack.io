@@ -1,7 +1,0 @@
----
-title: "htslib"
-layout: cache
-categories: [package, develop-2025-01-12]
-meta: {"versions": ["1.19.1"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["aws-isc", "aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 1, "root": 2, "aws-isc": 1}}
-spec_details: [{"hash": "mxo3ofrv2i6ugn5vzjeral6gqnkjtce6", "compiler": "gcc@=7.3.1", "versions": ["1.19.1"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools", "+gcs", "+libcurl", "+libdeflate", "+pic", "~plugins", "+s3"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-amzn2-aarch64/gcc-7.3.1/htslib-1.19.1/linux-amzn2-aarch64-gcc-7.3.1-htslib-1.19.1-mxo3ofrv2i6ugn5vzjeral6gqnkjtce6.spack"}, {"hash": "yuh6c6tenp3kk5oktvjk52piw5v3ghlv", "compiler": "gcc@=7.3.1", "versions": ["1.19.1"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "+gcs", "+libcurl", "+libdeflate", "+pic", "~plugins", "+s3"], "stacks": ["aws-isc", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/htslib-1.19.1/linux-amzn2-x86_64_v3-gcc-7.3.1-htslib-1.19.1-yuh6c6tenp3kk5oktvjk52piw5v3ghlv.spack"}]
----

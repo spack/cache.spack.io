@@ -1,7 +1,0 @@
----
-title: "py-pyrsistent"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["oneapi@=2024.2.1"], "num_specs": 2, "num_specs_by_stack": {"e4s-oneapi": 2, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["0.19.3"]}
-spec_details: [{"compiler": "oneapi@=2024.2.1", "hash": "savd5ekrzsvau63xatq6ozpa65pxpoxc", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/py-pyrsistent-0.19.3/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-py-pyrsistent-0.19.3-savd5ekrzsvau63xatq6ozpa65pxpoxc.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.19.3"]}, {"compiler": "oneapi@=2024.2.1", "hash": "thmjsep2knyaw5eq7c4e4zspfc4npfvw", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/py-pyrsistent-0.19.3/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-py-pyrsistent-0.19.3-thmjsep2knyaw5eq7c4e4zspfc4npfvw.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.19.3"]}]
----

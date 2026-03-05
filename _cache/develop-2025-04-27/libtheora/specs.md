@@ -1,7 +1,0 @@
----
-title: "libtheora"
-layout: cache
-categories: [package, develop-2025-04-27]
-meta: {"compilers": ["gcc@11.1.0", "gcc@11.4.0"], "num_specs": 3, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 2, "e4s-rocm-external": 1, "root": 3}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "e4s-rocm-external", "root"], "targets": ["x86_64_v3"], "versions": ["1.1.1"]}
-spec_details: [{"compiler": "gcc@11.1.0", "hash": "rllfcacxtbn3adyeliocsqbqzycrpynh", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "~doc", "patches:=d9bb5a9,e01511a,e01ef71,ff8478d"], "versions": ["1.1.1"]}, {"compiler": "gcc@11.4.0", "hash": "ysoks2shdywjqyewaqeg53lj7f2e4srz", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "~doc", "patches:=d9bb5a9,e01511a,e01ef71,ff8478d"], "versions": ["1.1.1"]}, {"compiler": "gcc@11.4.0", "hash": "zyao6yrf4wx7hh4ogwvqoffzrir4rzsy", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "e4s-rocm-external", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "~doc", "patches:=d9bb5a9,e01511a,e01ef71,ff8478d"], "versions": ["1.1.1"]}]
----

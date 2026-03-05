@@ -1,7 +1,0 @@
----
-title: "alquimia"
-layout: cache
-categories: [package, develop-2025-02-02]
-meta: {"versions": ["1.1.0"], "compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "otm4ueytnrt36mh7t56hnn3xhb4shumq", "compiler": "gcc@=11.4.0", "versions": ["1.1.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/alquimia-1.1.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-alquimia-1.1.0-otm4ueytnrt36mh7t56hnn3xhb4shumq.spack"}, {"hash": "rptqwxhin7mcymh2rfekeueddwqf5fdx", "compiler": "oneapi@=2024.2.1", "versions": ["1.1.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+shared"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/alquimia-1.1.0/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-alquimia-1.1.0-rptqwxhin7mcymh2rfekeueddwqf5fdx.spack"}]
----

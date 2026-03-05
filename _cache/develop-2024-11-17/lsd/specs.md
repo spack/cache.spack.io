@@ -1,7 +1,0 @@
----
-title: "lsd"
-layout: cache
-categories: [package, develop-2024-11-17]
-meta: {"versions": ["1.0.0"], "compilers": ["apple-clang@=15.0.0", "gcc@=10.2.1"], "oss": ["centos7", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-darwin", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "developer-tools-darwin": 1, "developer-tools-manylinux2014": 1}}
-spec_details: [{"hash": "2lrpbexliiuquffcmadbm56cfwjb3x5j", "compiler": "apple-clang@=15.0.0", "versions": ["1.0.0"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=cargo"], "stacks": ["root", "developer-tools-darwin"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-17/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/lsd-1.0.0/darwin-ventura-aarch64-apple-clang-15.0.0-lsd-1.0.0-2lrpbexliiuquffcmadbm56cfwjb3x5j.spack"}, {"hash": "vhct2azxgbs2zp4yr2ci6qv3fqwhassr", "compiler": "gcc@=10.2.1", "versions": ["1.0.0"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cargo"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-17/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/lsd-1.0.0/linux-centos7-x86_64_v3-gcc-10.2.1-lsd-1.0.0-vhct2azxgbs2zp4yr2ci6qv3fqwhassr.spack"}]
----

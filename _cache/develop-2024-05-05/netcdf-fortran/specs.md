@@ -1,7 +1,0 @@
----
-title: "netcdf-fortran"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["4.6.1"], "compilers": ["gcc@=11.4.0", "gcc@=7.3.1"], "oss": ["amzn2", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["aws-isc", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "2dbgdnrn6thqyyvim3gsuponrs52jv4z", "compiler": "gcc@=7.3.1", "versions": ["4.6.1"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "~doc", "+pic", "+shared"], "stacks": ["aws-isc", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/netcdf-fortran-4.6.1/linux-amzn2-x86_64_v3-gcc-7.3.1-netcdf-fortran-4.6.1-2dbgdnrn6thqyyvim3gsuponrs52jv4z.spack"}, {"hash": "2pqzsrnhiu3s3weorcrhvky635xzfxeu", "compiler": "gcc@=11.4.0", "versions": ["4.6.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "~doc", "+pic", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/netcdf-fortran-4.6.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-netcdf-fortran-4.6.1-2pqzsrnhiu3s3weorcrhvky635xzfxeu.spack"}]
----

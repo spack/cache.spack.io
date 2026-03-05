@@ -1,7 +1,0 @@
----
-title: "libtheora"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["1.1.1"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "gqlvftkbmjnawtlyq5gtjcyafkp72mxs", "compiler": "gcc@=7.3.1", "versions": ["1.1.1"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools", "~doc", "patches=d9bb5a9,e01511a,e01ef71,ff8478d"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/libtheora-1.1.1/linux-amzn2-aarch64-gcc-7.3.1-libtheora-1.1.1-gqlvftkbmjnawtlyq5gtjcyafkp72mxs.spack"}, {"hash": "wic5xqpdgxmkb2f25e4c33u2h6fpncc4", "compiler": "gcc@=7.3.1", "versions": ["1.1.1"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=autotools", "~doc", "patches=d9bb5a9,e01511a,e01ef71,ff8478d"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/libtheora-1.1.1/linux-amzn2-neoverse_n1-gcc-7.3.1-libtheora-1.1.1-wic5xqpdgxmkb2f25e4c33u2h6fpncc4.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "mpc"
-layout: cache
-categories: [package, develop-2025-03-30]
-meta: {"compilers": ["gcc@11.4.0", "intel-oneapi-compilers@2024.2.1"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1, "root": 3, "tutorial": 1}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-oneapi", "root", "tutorial"], "targets": ["x86_64_v3"], "versions": ["1.3.1"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "64odvje6znixl6ecnmb2ztyqqcunbb2y", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["root", "tutorial"], "target": "x86_64_v3", "variants": ["build_system=autotools", "libs:=shared,static"], "versions": ["1.3.1"]}, {"compiler": "intel-oneapi-compilers@2024.2.1", "hash": "aqbdgd4un4x3ixoge534yjsnm7hpccbx", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "libs:=shared,static"], "versions": ["1.3.1"]}, {"compiler": "gcc@11.4.0", "hash": "xvv25blqhock3bw7drrvn24tyirt3kpo", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "libs:=shared,static"], "versions": ["1.3.1"]}]
----

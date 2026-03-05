@@ -1,7 +1,0 @@
----
-title: "assimp"
-layout: cache
-categories: [package, v2025.07.0]
-meta: {"compilers": ["gcc@11.1.0", "gcc@11.4.0"], "num_specs": 3, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "hep": 1, "root": 3}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "hep", "root"], "targets": ["x86_64_v3"], "versions": ["5.4.3"]}
-spec_details: [{"compiler": "gcc@11.1.0", "hash": "jdajke6i2fu7t5wubfu4lsbw4komy6hi", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+shared"], "versions": ["5.4.3"]}, {"compiler": "gcc@11.4.0", "hash": "lfvzqysoperloebba2wkn7f3uisxk3bp", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+shared"], "versions": ["5.4.3"]}, {"compiler": "gcc@11.4.0", "hash": "vlz4kyaoffwyca54wvwb2frhzia7fql4", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+shared"], "versions": ["5.4.3"]}]
----

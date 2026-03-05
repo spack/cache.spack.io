@@ -1,7 +1,0 @@
----
-title: "tree"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["gcc@=10.5.0", "gcc@=13.3.0"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "root": 2}, "oss": ["centos7", "rhel8"], "platforms": ["linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["2.1.0"]}
-spec_details: [{"compiler": "gcc@=10.5.0", "hash": "ltqnlyiodbrhmwwr5po4rejhs25csmw7", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-centos7-x86_64_v3/gcc-10.5.0/tree-2.1.0/linux-centos7-x86_64_v3-gcc-10.5.0-tree-2.1.0-ltqnlyiodbrhmwwr5po4rejhs25csmw7.spack", "target": "x86_64_v3", "variants": ["build_system=generic"], "versions": ["2.1.0"]}, {"compiler": "gcc@=13.3.0", "hash": "nzbi42n47vlzy4s5o4ajah5gi6wavqxg", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-rhel8-aarch64/gcc-13.3.0/tree-2.1.0/linux-rhel8-aarch64-gcc-13.3.0-tree-2.1.0-nzbi42n47vlzy4s5o4ajah5gi6wavqxg.spack", "target": "aarch64", "variants": ["build_system=generic"], "versions": ["2.1.0"]}]
----

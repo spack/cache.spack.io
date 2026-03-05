@@ -1,7 +1,0 @@
----
-title: "libevent"
-layout: cache
-categories: [package, develop-2024-04-14]
-meta: {"versions": ["2.1.12"], "compilers": ["gcc@=12.3.0"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["neoverse_n1", "neoverse_v1"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-pcluster-neoverse_v1": 2, "root": 2}}
-spec_details: [{"hash": "yccmxkmyt6bkea4hrpyi2wkday2tga2j", "compiler": "gcc@=12.3.0", "versions": ["2.1.12"], "os": "amzn2", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=autotools", "+openssl"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-neoverse_v1/gcc-12.3.0/libevent-2.1.12/linux-amzn2-neoverse_v1-gcc-12.3.0-libevent-2.1.12-yccmxkmyt6bkea4hrpyi2wkday2tga2j.spack"}, {"hash": "qp6bpt6y5dimqufbnwcj3zx4s7to4iks", "compiler": "gcc@=12.3.0", "versions": ["2.1.12"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=autotools", "+openssl"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-neoverse_n1/gcc-12.3.0/libevent-2.1.12/linux-amzn2-neoverse_n1-gcc-12.3.0-libevent-2.1.12-qp6bpt6y5dimqufbnwcj3zx4s7to4iks.spack"}]
----

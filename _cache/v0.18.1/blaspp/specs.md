@@ -1,7 +1,0 @@
----
-title: "blaspp"
-layout: cache
-categories: [package, v0.18.1]
-meta: {"versions": ["2021.04.01"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 2}}
-spec_details: [{"hash": "z3itapq5dkxhjzf5wgyobmvvw7sgn2v3", "compiler": "gcc@=7.5.0", "versions": ["2021.04.01"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_type=RelWithDebInfo", "+cuda", "cuda_arch=none", "~ipo", "+openmp", "~rocm", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.1/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/blaspp-2021.04.01/linux-ubuntu18.04-x86_64-gcc-7.5.0-blaspp-2021.04.01-z3itapq5dkxhjzf5wgyobmvvw7sgn2v3.spack"}, {"hash": "rlr7rbzu57rkcavqqpexu3a2mjs5c3an", "compiler": "gcc@=7.5.0", "versions": ["2021.04.01"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_type=RelWithDebInfo", "~cuda", "~ipo", "+openmp", "~rocm", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.1/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/blaspp-2021.04.01/linux-ubuntu18.04-x86_64-gcc-7.5.0-blaspp-2021.04.01-rlr7rbzu57rkcavqqpexu3a2mjs5c3an.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "variorum"
-layout: cache
-categories: [package, v0.22.3]
-meta: {"versions": ["0.8.0"], "compilers": ["gcc@=11.4.0", "oneapi@=2024.0.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "dzqrqjbkp7pwqyflu4afadl3dhkvkf3k", "compiler": "gcc@=11.4.0", "versions": ["0.8.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~docs", "generator=make", "~ipo", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.3/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/variorum-0.8.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-variorum-0.8.0-dzqrqjbkp7pwqyflu4afadl3dhkvkf3k.spack"}, {"hash": "gvoi656m7iefnjj7xg7b5ivyhbjxjl5i", "compiler": "oneapi@=2024.0.0", "versions": ["0.8.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~docs", "generator=make", "~ipo", "+shared"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.3/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.0.0/variorum-0.8.0/linux-ubuntu22.04-x86_64_v3-oneapi-2024.0.0-variorum-0.8.0-gvoi656m7iefnjj7xg7b5ivyhbjxjl5i.spack"}]
----

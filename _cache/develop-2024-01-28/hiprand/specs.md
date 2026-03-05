@@ -1,7 +1,0 @@
----
-title: "hiprand"
-layout: cache
-categories: [package, develop-2024-01-28]
-meta: {"versions": ["5.4.3", "6.0.0"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-rocm-external", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-rocm-external": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "q2qzt5if67u6vmm7ityc4aomfeihb7p6", "compiler": "gcc@=11.4.0", "versions": ["5.4.3"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["amdgpu_target=auto", "build_system=cmake", "build_type=Release", "~cuda", "generator=make", "~ipo", "+rocm"], "stacks": ["e4s-rocm-external", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-01-28/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/hiprand-5.4.3/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-hiprand-5.4.3-q2qzt5if67u6vmm7ityc4aomfeihb7p6.spack"}, {"hash": "7foii34leausyijdmytdhewwizzgsd6n", "compiler": "gcc@=11.4.0", "versions": ["6.0.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["amdgpu_target=auto", "build_system=cmake", "build_type=Release", "~cuda", "generator=make", "~ipo", "+rocm"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-01-28/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/hiprand-6.0.0/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-hiprand-6.0.0-7foii34leausyijdmytdhewwizzgsd6n.spack"}]
----

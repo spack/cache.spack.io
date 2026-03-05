@@ -1,7 +1,0 @@
----
-title: "libffi"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["3.4.2"], "compilers": ["gcc@=7.5.0", "gcc@=8.4.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["build_systems", "data-vis-sdk", "e4s", "radiuss", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"build_systems": 1, "root": 2, "tutorial": 2, "data-vis-sdk": 1, "e4s": 1, "radiuss": 1}}
-spec_details: [{"hash": "tkru6n3q7cytihfaayxe3r6zxjevfzvr", "compiler": "gcc@=7.5.0", "versions": ["3.4.2"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["build_systems", "root", "tutorial", "data-vis-sdk", "e4s", "radiuss"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/libffi-3.4.2/linux-ubuntu18.04-x86_64-gcc-7.5.0-libffi-3.4.2-tkru6n3q7cytihfaayxe3r6zxjevfzvr.spack"}, {"hash": "qqvp57poxld2yeyn3v4mb5cal22aiswn", "compiler": "gcc@=8.4.0", "versions": ["3.4.2"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-8.4.0/libffi-3.4.2/linux-ubuntu18.04-x86_64-gcc-8.4.0-libffi-3.4.2-qqvp57poxld2yeyn3v4mb5cal22aiswn.spack"}]
----

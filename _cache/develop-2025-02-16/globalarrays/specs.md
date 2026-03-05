@@ -1,7 +1,0 @@
----
-title: "globalarrays"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["cce@=18.0.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-cray-rhel": 1, "root": 2}, "oss": ["rhel8", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-cray-rhel", "root"], "targets": ["x86_64_v3"], "versions": ["5.8.2"]}
-spec_details: [{"compiler": "cce@=18.0.0", "hash": "asznz4cuzigtsj2bai3orgf6qlumaa2q", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["e4s-cray-rhel", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-rhel8-x86_64_v3/cce-18.0.0/globalarrays-5.8.2/linux-rhel8-x86_64_v3-cce-18.0.0-globalarrays-5.8.2-asznz4cuzigtsj2bai3orgf6qlumaa2q.spack", "target": "x86_64_v3", "variants": ["armci=mpi-ts", "build_system=autotools", "~scalapack"], "versions": ["5.8.2"]}, {"compiler": "gcc@=11.4.0", "hash": "fjflbudiuxncm5wxcwowxogh3pcieo7n", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/globalarrays-5.8.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-globalarrays-5.8.2-fjflbudiuxncm5wxcwowxogh3pcieo7n.spack", "target": "x86_64_v3", "variants": ["armci=mpi-ts", "build_system=autotools", "~scalapack"], "versions": ["5.8.2"]}]
----

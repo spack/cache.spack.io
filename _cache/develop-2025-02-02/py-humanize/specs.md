@@ -1,7 +1,0 @@
----
-title: "py-humanize"
-layout: cache
-categories: [package, develop-2025-02-02]
-meta: {"versions": ["4.9.0"], "compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "6tmfdm3jvhysae4frwndbo7dbeajhqtn", "compiler": "gcc@=11.4.0", "versions": ["4.9.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-humanize-4.9.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-humanize-4.9.0-6tmfdm3jvhysae4frwndbo7dbeajhqtn.spack"}, {"hash": "wm36sx5sy37xdnlacbyzrqt4q4b2art5", "compiler": "oneapi@=2024.2.1", "versions": ["4.9.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/py-humanize-4.9.0/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-py-humanize-4.9.0-wm36sx5sy37xdnlacbyzrqt4q4b2art5.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "kbproto"
-layout: cache
-categories: [package, develop-2025-03-30]
-meta: {"compilers": ["none"], "num_specs": 4, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "e4s-oneapi": 1, "e4s-rocm-external": 1, "hep": 1, "ml-linux-x86_64-rocm": 1, "root": 4}, "oss": ["ubuntu20.04", "ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "e4s-oneapi", "e4s-rocm-external", "hep", "ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["1.0.7"]}
-spec_details: [{"compiler": "none", "hash": "4zisrcur6zbeu52euqrfkktgsvdx72l7", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.0.7"]}, {"compiler": "none", "hash": "biypqm2ryp6aectm2fagnjvjevrncetg", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.0.7"]}, {"compiler": "none", "hash": "dfquwnbxmqnlgi7bgeyybvqjo5aaamwr", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.0.7"]}, {"compiler": "none", "hash": "qics3rd7rpe5t45feevcft7ybi7vbwfr", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "e4s-rocm-external", "hep", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.0.7"]}]
----

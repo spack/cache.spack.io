@@ -1,7 +1,0 @@
----
-title: "direnv"
-layout: cache
-categories: [package, develop-2024-11-17]
-meta: {"versions": ["2.35.0"], "compilers": ["apple-clang@=15.0.0", "gcc@=10.2.1"], "oss": ["centos7", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-darwin", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "developer-tools-darwin": 1, "developer-tools-manylinux2014": 1}}
-spec_details: [{"hash": "z4sivpjkhmeuacy7p2bts3qstg6b7kwm", "compiler": "apple-clang@=15.0.0", "versions": ["2.35.0"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=go"], "stacks": ["root", "developer-tools-darwin"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-17/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/direnv-2.35.0/darwin-ventura-aarch64-apple-clang-15.0.0-direnv-2.35.0-z4sivpjkhmeuacy7p2bts3qstg6b7kwm.spack"}, {"hash": "azac43sjgnwutbhufpu3spzoj2agjexr", "compiler": "gcc@=10.2.1", "versions": ["2.35.0"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=go"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-17/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/direnv-2.35.0/linux-centos7-x86_64_v3-gcc-10.2.1-direnv-2.35.0-azac43sjgnwutbhufpu3spzoj2agjexr.spack"}]
----

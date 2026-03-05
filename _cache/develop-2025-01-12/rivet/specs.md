@@ -1,7 +1,0 @@
----
-title: "rivet"
-layout: cache
-categories: [package, develop-2025-01-12]
-meta: {"versions": ["3.1.10", "4.0.2"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["hep", "root"], "num_specs": 2, "num_specs_by_stack": {"hep": 2, "root": 2}}
-spec_details: [{"hash": "yidyajoxfwu5lktq46yrmwwmk4a3n7ul", "compiler": "gcc@=11.4.0", "versions": ["3.1.10"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "hepmc=2"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/rivet-3.1.10/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-rivet-3.1.10-yidyajoxfwu5lktq46yrmwwmk4a3n7ul.spack"}, {"hash": "52eadn3ikwjeiqlyd3f5gscucry3jqbg", "compiler": "gcc@=11.4.0", "versions": ["4.0.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "hepmc=3", "patches=e1ff65c"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/rivet-4.0.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-rivet-4.0.2-52eadn3ikwjeiqlyd3f5gscucry3jqbg.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "nettle"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "num_specs": 2, "num_specs_by_stack": {"developer-tools": 1, "developer-tools-manylinux2014": 1, "root": 2}, "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "targets": ["x86_64_v3"], "versions": ["3.9.1"]}
-spec_details: [{"compiler": "gcc@=7.5.0", "hash": "ryomxciwruyr6iz7xsar5a4ephjcthlc", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["developer-tools", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/nettle-3.9.1/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-nettle-3.9.1-ryomxciwruyr6iz7xsar5a4ephjcthlc.spack", "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["3.9.1"]}, {"compiler": "gcc@=10.2.1", "hash": "vqgz4zxb6epfxkonejeczf336ooxvy4d", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-manylinux2014", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/nettle-3.9.1/linux-centos7-x86_64_v3-gcc-10.2.1-nettle-3.9.1-vqgz4zxb6epfxkonejeczf336ooxvy4d.spack", "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["3.9.1"]}]
----

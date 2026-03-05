@@ -1,7 +1,0 @@
----
-title: "py-pyelftools"
-layout: cache
-categories: [package, develop-2025-03-30]
-meta: {"compilers": ["cce@18.0.0", "gcc@11.4.0", "intel-oneapi-compilers@2024.2.1"], "num_specs": 4, "num_specs_by_stack": {"e4s": 2, "e4s-cray-rhel": 1, "e4s-oneapi": 1, "root": 4}, "oss": ["rhel8", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-cray-rhel", "e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["0.27", "0.29"]}
-spec_details: [{"compiler": "intel-oneapi-compilers@2024.2.1", "hash": "7bzuxa3xtl3wtyovpu6yspof7h7jumhi", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.29"]}, {"compiler": "gcc@11.4.0", "hash": "fnpk5f5dekdsal2ysu3pdr3vgi2zx2ij", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.27"]}, {"compiler": "cce@18.0.0", "hash": "qzgvgwykqo7acly23ts6j3atz7utwe2w", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["e4s-cray-rhel", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.29"]}, {"compiler": "gcc@11.4.0", "hash": "wsja7ell725a24li2taerpkrd3vqcfo7", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.29"]}]
----

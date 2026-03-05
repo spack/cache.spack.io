@@ -1,7 +1,0 @@
----
-title: "py-dm-tree"
-layout: cache
-categories: [package, develop-2025-03-23]
-meta: {"compilers": ["gcc@=11.4.0", "gcc@=13.2.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "ml-linux-x86_64-rocm": 1, "root": 3}, "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["e4s", "ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["0.1.8"]}
-spec_details: [{"compiler": "gcc@=13.2.0", "hash": "5w3n6mgvj2wzkha3nkb36iecwiew2tzf", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip", "patches=77dbd89"], "versions": ["0.1.8"]}, {"compiler": "gcc@=11.4.0", "hash": "pmar5expyeakoh6r4be7dyru35rcsxvc", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip", "patches=77dbd89"], "versions": ["0.1.8"]}, {"compiler": "gcc@=13.2.0", "hash": "z4jiqxu7plpe65d3xtqnx2ezyoy6tq5d", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=python_pip", "patches=77dbd89"], "versions": ["0.1.8"]}]
----

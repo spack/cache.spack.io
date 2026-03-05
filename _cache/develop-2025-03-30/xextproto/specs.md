@@ -1,7 +1,0 @@
----
-title: "xextproto"
-layout: cache
-categories: [package, develop-2025-03-30]
-meta: {"compilers": ["none"], "num_specs": 4, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "e4s-oneapi": 1, "e4s-rocm-external": 1, "hep": 1, "ml-linux-x86_64-rocm": 1, "root": 4}, "oss": ["ubuntu20.04", "ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "e4s-oneapi", "e4s-rocm-external", "hep", "ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["7.3.0"]}
-spec_details: [{"compiler": "none", "hash": "6v67axuob75tjtp4ljfod7x4fsio7qdc", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["7.3.0"]}, {"compiler": "none", "hash": "m5b4ifrxwdu2uspakieef2juokaibjwi", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["7.3.0"]}, {"compiler": "none", "hash": "qeaw5n5y3bwww2ye65f4zw62avwffqqu", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "e4s-rocm-external", "hep", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["7.3.0"]}, {"compiler": "none", "hash": "sgiyynfwrualokig2nh3hu6wscitsglp", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["7.3.0"]}]
----

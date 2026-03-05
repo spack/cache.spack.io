@@ -1,7 +1,0 @@
----
-title: "py-jsonschema"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["4.17.3"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "6ypg664skumu6zicusicobznb7robfta", "compiler": "gcc@=7.3.1", "versions": ["4.17.3"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip", "~format-nongpl"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/py-jsonschema-4.17.3/linux-amzn2-aarch64-gcc-7.3.1-py-jsonschema-4.17.3-6ypg664skumu6zicusicobznb7robfta.spack"}, {"hash": "tvi4tldgiz6diqr5ghrx7x2jbm47rdmo", "compiler": "gcc@=7.3.1", "versions": ["4.17.3"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=python_pip", "~format-nongpl"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/py-jsonschema-4.17.3/linux-amzn2-neoverse_n1-gcc-7.3.1-py-jsonschema-4.17.3-tvi4tldgiz6diqr5ghrx7x2jbm47rdmo.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "libpressio"
-layout: cache
-categories: [package, develop-2024-09-22]
-meta: {"versions": ["0.99.4"], "compilers": ["oneapi@=2024.2.1"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s-oneapi", "root"], "num_specs": 1, "num_specs_by_stack": {"e4s-oneapi": 1, "root": 1}}
-spec_details: [{"hash": "ziu2mkjd2beuf3o7emcgy7go6flmnfkj", "compiler": "oneapi@=2024.2.1", "versions": ["0.99.4"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~arc", "+bitgrooming", "~blosc", "~blosc2", "~boost", "build_system=cmake", "build_type=Release", "+bzip2", "~clang", "+core", "~cuda", "~cusz", "~digitrounding", "~docs", "+fpzip", "~ftk", "generator=make", "+hdf5", "~ipo", "~json", "+libdistributed", "+lua", "~magick", "~matio", "~mgard", "~mgardx", "+mpi", "~ndzip", "~netcdf", "+openmp", "~openssl", "~petsc", "~pybind", "+python", "~qoz", "~remote", "+sz", "+sz3", "~szauto", "~szx", "+unix", "+zfp"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-09-22/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/libpressio-0.99.4/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-libpressio-0.99.4-ziu2mkjd2beuf3o7emcgy7go6flmnfkj.spack"}]
----

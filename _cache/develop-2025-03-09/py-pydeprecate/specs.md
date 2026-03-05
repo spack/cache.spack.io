@@ -1,7 +1,0 @@
----
-title: "py-pydeprecate"
-layout: cache
-categories: [package, develop-2025-03-09]
-meta: {"compilers": ["gcc@=11.4.0", "gcc@=13.2.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 3}, "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["e4s", "ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["0.3.1"]}
-spec_details: [{"compiler": "gcc@=13.2.0", "hash": "itshxfuxrrh4jancql6pzfbrvxtr4yt5", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.3.1"]}, {"compiler": "gcc@=11.4.0", "hash": "o65nh73dnk3nzvzpvunb54m2vpfbaw4g", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.3.1"]}, {"compiler": "gcc@=13.2.0", "hash": "wf5uxk7pkro6di4pgzmsv2s4nwov5are", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["0.3.1"]}]
----

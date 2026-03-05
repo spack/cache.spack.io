@@ -1,7 +1,0 @@
----
-title: "py-cppheaderparser"
-layout: cache
-categories: [package, develop-2025-03-16]
-meta: {"compilers": ["gcc@=11.4.0", "gcc@=13.2.0"], "num_specs": 4, "num_specs_by_stack": {"e4s": 2, "hep": 1, "ml-linux-x86_64-rocm": 1, "root": 4}, "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["e4s", "hep", "ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["2.7.4"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "27oww5ko7wgtm46coq2gl4shkmszj4jx", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.7.4"]}, {"compiler": "gcc@=13.2.0", "hash": "m63x3by3ywmgemu3qikq2styb3nwuhlj", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.7.4"]}, {"compiler": "gcc@=11.4.0", "hash": "uijz4gsiw7jwyb4ye453xx3cvikg6ywu", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.7.4"]}, {"compiler": "gcc@=11.4.0", "hash": "yasqa3tzalky2uwgtp3l77ayiwl4lg25", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.7.4"]}]
----

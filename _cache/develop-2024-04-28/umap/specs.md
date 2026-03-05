@@ -1,7 +1,0 @@
----
-title: "umap"
-layout: cache
-categories: [package, develop-2024-04-28]
-meta: {"versions": ["2.1.0"], "compilers": ["cce@=15.0.1", "gcc@=10.3.0"], "oss": ["rhel8", "sle_hpc15"], "platforms": ["linux"], "targets": ["x86_64_v4", "zen4"], "stacks": ["e4s-cray-rhel", "e4s-cray-sles", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-cray-sles": 1, "root": 2, "e4s-cray-rhel": 1}}
-spec_details: [{"hash": "qx6sc2rf3xn5qpt4wzhb6ctkamflvgzr", "compiler": "gcc@=10.3.0", "versions": ["2.1.0"], "os": "sle_hpc15", "platform": "linux", "target": "x86_64_v4", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~logging", "~tests"], "stacks": ["e4s-cray-sles", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-sle_hpc15-x86_64_v4/gcc-10.3.0/umap-2.1.0/linux-sle_hpc15-x86_64_v4-gcc-10.3.0-umap-2.1.0-qx6sc2rf3xn5qpt4wzhb6ctkamflvgzr.spack"}, {"hash": "angg2jcnhz74wxuk35gdb7opjm4skgdg", "compiler": "cce@=15.0.1", "versions": ["2.1.0"], "os": "rhel8", "platform": "linux", "target": "zen4", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~logging", "~tests"], "stacks": ["e4s-cray-rhel", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-rhel8-zen4/cce-15.0.1/umap-2.1.0/linux-rhel8-zen4-cce-15.0.1-umap-2.1.0-angg2jcnhz74wxuk35gdb7opjm4skgdg.spack"}]
----

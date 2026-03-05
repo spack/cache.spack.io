@@ -1,7 +1,0 @@
----
-title: "adios2"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["2.8.0"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "data-vis-sdk": 1}}
-spec_details: [{"hash": "qjpje3vbwhljr5r6w77bn67dfz2abgks", "compiler": "gcc@=7.5.0", "versions": ["2.8.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["+blosc", "build_type=Release", "+bzip2", "~cuda", "~dataman", "~dataspaces", "+fortran", "~hdf5", "~ipo", "+mpi", "+pic", "+png", "~python", "+shared", "+ssc", "+sst", "+sz", "+zfp"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/adios2-2.8.0/linux-ubuntu18.04-x86_64-gcc-7.5.0-adios2-2.8.0-qjpje3vbwhljr5r6w77bn67dfz2abgks.spack"}, {"hash": "tw3jai3txhe2z7yvqlsgxfis7ygnyk4u", "compiler": "gcc@=7.5.0", "versions": ["2.8.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["+blosc", "build_type=Release", "+bzip2", "~cuda", "+dataman", "~dataspaces", "+fortran", "+hdf5", "~ipo", "+mpi", "+pic", "+png", "+python", "+shared", "+ssc", "+sst", "+sz", "+zfp"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/adios2-2.8.0/linux-ubuntu18.04-x86_64-gcc-7.5.0-adios2-2.8.0-tw3jai3txhe2z7yvqlsgxfis7ygnyk4u.spack"}]
----

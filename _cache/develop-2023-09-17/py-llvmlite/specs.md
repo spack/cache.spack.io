@@ -1,7 +1,0 @@
----
-title: "py-llvmlite"
-layout: cache
-categories: [package, develop-2023-09-17]
-meta: {"versions": ["0.40.0"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "ixv4e4wmfdetg6deb44zrd6wy72sqodi", "compiler": "gcc@=11.1.0", "versions": ["0.40.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-17/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-llvmlite-0.40.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-llvmlite-0.40.0-ixv4e4wmfdetg6deb44zrd6wy72sqodi.spack"}, {"hash": "fueaxzzklfofw3tblfenv3u2dzi4qljs", "compiler": "gcc@=11.1.0", "versions": ["0.40.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-17/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-llvmlite-0.40.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-llvmlite-0.40.0-fueaxzzklfofw3tblfenv3u2dzi4qljs.spack"}]
----

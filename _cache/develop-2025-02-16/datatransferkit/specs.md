@@ -1,7 +1,0 @@
----
-title: "datatransferkit"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["cce@=18.0.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-cray-rhel": 1, "root": 2}, "oss": ["rhel8", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-cray-rhel", "root"], "targets": ["x86_64_v3"], "versions": ["3.1.1"]}
-spec_details: [{"compiler": "cce@=18.0.0", "hash": "cwchboy5uryyulpygcke3m4zxxvirq2e", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["e4s-cray-rhel", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-rhel8-x86_64_v3/cce-18.0.0/datatransferkit-3.1.1/linux-rhel8-x86_64_v3-cce-18.0.0-datatransferkit-3.1.1-cwchboy5uryyulpygcke3m4zxxvirq2e.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~external-arborx", "generator=make", "~ipo", "~openmp", "+serial", "+shared"], "versions": ["3.1.1"]}, {"compiler": "gcc@=11.4.0", "hash": "aejdeuztw22p7okw4abz4qfvsgpsjyan", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/datatransferkit-3.1.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-datatransferkit-3.1.1-aejdeuztw22p7okw4abz4qfvsgpsjyan.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~external-arborx", "generator=make", "~ipo", "~openmp", "+serial", "+shared"], "versions": ["3.1.1"]}]
----

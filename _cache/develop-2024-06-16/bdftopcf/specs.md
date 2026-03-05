@@ -1,7 +1,0 @@
----
-title: "bdftopcf"
-layout: cache
-categories: [package, develop-2024-06-16]
-meta: {"versions": ["1.1"], "compilers": ["gcc@=10.2.1", "gcc@=11.1.0"], "oss": ["centos7", "ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-manylinux2014": 1, "root": 2, "data-vis-sdk": 1}}
-spec_details: [{"hash": "vce6v6qmdzlcugdx3lgzaspqnmm2lbw2", "compiler": "gcc@=10.2.1", "versions": ["1.1"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-06-16/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/bdftopcf-1.1/linux-centos7-x86_64_v3-gcc-10.2.1-bdftopcf-1.1-vce6v6qmdzlcugdx3lgzaspqnmm2lbw2.spack"}, {"hash": "fnlsa2p52xdpncgdvrkiutegoxowqgx6", "compiler": "gcc@=11.1.0", "versions": ["1.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-06-16/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/bdftopcf-1.1/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-bdftopcf-1.1-fnlsa2p52xdpncgdvrkiutegoxowqgx6.spack"}]
----

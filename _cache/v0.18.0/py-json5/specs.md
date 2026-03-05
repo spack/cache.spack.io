@@ -1,7 +1,0 @@
----
-title: "py-json5"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["0.9.6"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "sw74ueqnfctllah4t2x7d6kzwdmrryaq", "compiler": "gcc@=7.5.0", "versions": ["0.9.6"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-json5-0.9.6/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-json5-0.9.6-sw74ueqnfctllah4t2x7d6kzwdmrryaq.spack"}, {"hash": "rmefbxhye7nlqzx4eqefxzfsi7u5stpj", "compiler": "gcc@=7.5.0", "versions": ["0.9.6"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-json5-0.9.6/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-json5-0.9.6-rmefbxhye7nlqzx4eqefxzfsi7u5stpj.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "py-flatbuffers"
-layout: cache
-categories: [package, v0.21.2]
-meta: {"versions": ["23.5.26"], "compilers": ["gcc@=11.3.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cpu": 2, "ml-linux-x86_64-cuda": 2, "ml-linux-x86_64-rocm": 2, "root": 2}}
-spec_details: [{"hash": "y4xdt22ucndjc4d3x76lh66x4i5ipsv5", "compiler": "gcc@=11.3.0", "versions": ["23.5.26"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.21.2/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-flatbuffers-23.5.26/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-flatbuffers-23.5.26-y4xdt22ucndjc4d3x76lh66x4i5ipsv5.spack"}, {"hash": "54zkb23bczgso4wkqipmw4yr4jyofmse", "compiler": "gcc@=11.3.0", "versions": ["23.5.26"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.21.2/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-flatbuffers-23.5.26/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-flatbuffers-23.5.26-54zkb23bczgso4wkqipmw4yr4jyofmse.spack"}]
----

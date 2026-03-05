@@ -1,7 +1,0 @@
----
-title: "py-shapely"
-layout: cache
-categories: [package, develop-2025-03-23]
-meta: {"compilers": ["apple-clang@=16.0.0", "gcc@=13.2.0"], "num_specs": 3, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 3}, "oss": ["sequoia", "ubuntu24.04"], "platforms": ["darwin", "linux"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["2.0.7"]}
-spec_details: [{"compiler": "gcc@=13.2.0", "hash": "3uvmgypsaoxqm67b7qnpvn7ethiqigb3", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["2.0.7"]}, {"compiler": "apple-clang@=16.0.0", "hash": "amb3ljstd3ycx6rnux7jofgjt52elirt", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["ml-darwin-aarch64-mps", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["2.0.7"]}, {"compiler": "gcc@=13.2.0", "hash": "tphnaojowpqvuhrbxx3ukj3lp5e4x5ct", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.0.7"]}]
----

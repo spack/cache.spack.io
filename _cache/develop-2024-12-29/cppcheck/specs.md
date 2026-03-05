@@ -1,7 +1,0 @@
----
-title: "cppcheck"
-layout: cache
-categories: [package, develop-2024-12-29]
-meta: {"versions": ["2.9"], "compilers": ["gcc@=10.5.0", "gcc@=13.3.0"], "oss": ["centos7", "rhel8"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-x86_64_v3-linux-gnu": 1, "root": 2, "developer-tools-aarch64-linux-gnu": 1}}
-spec_details: [{"hash": "l7wcvncodlynogqp6k4vxvev7dl5rd5k", "compiler": "gcc@=10.5.0", "versions": ["2.9"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~htmlreport", "~ipo", "~rules"], "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-12-29/build_cache/linux-centos7-x86_64_v3/gcc-10.5.0/cppcheck-2.9/linux-centos7-x86_64_v3-gcc-10.5.0-cppcheck-2.9-l7wcvncodlynogqp6k4vxvev7dl5rd5k.spack"}, {"hash": "ds5w6vahbzelmg6rfpg47j364se3uxdr", "compiler": "gcc@=13.3.0", "versions": ["2.9"], "os": "rhel8", "platform": "linux", "target": "aarch64", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~htmlreport", "~ipo", "~rules"], "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-12-29/build_cache/linux-rhel8-aarch64/gcc-13.3.0/cppcheck-2.9/linux-rhel8-aarch64-gcc-13.3.0-cppcheck-2.9-ds5w6vahbzelmg6rfpg47j364se3uxdr.spack"}]
----

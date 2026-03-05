@@ -1,7 +1,0 @@
----
-title: "py-backcall"
-layout: cache
-categories: [package, develop-2024-09-22]
-meta: {"versions": ["0.2.0"], "compilers": ["gcc@=11.1.0", "oneapi@=2024.2.1"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s-oneapi": 1}}
-spec_details: [{"hash": "wl6xwdum2ntkfdi6b2l2nipmglcek7vn", "compiler": "gcc@=11.1.0", "versions": ["0.2.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-09-22/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-backcall-0.2.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-backcall-0.2.0-wl6xwdum2ntkfdi6b2l2nipmglcek7vn.spack"}, {"hash": "5ts4aonm6hwh2efmqo4lkwtfy7tsf2p3", "compiler": "oneapi@=2024.2.1", "versions": ["0.2.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-09-22/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/py-backcall-0.2.0/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-py-backcall-0.2.0-5ts4aonm6hwh2efmqo4lkwtfy7tsf2p3.spack"}]
----

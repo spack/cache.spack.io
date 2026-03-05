@@ -1,7 +1,0 @@
----
-title: "r"
-layout: cache
-categories: [package, develop-2025-05-18]
-meta: {"compilers": ["gcc@11.4.0", "gcc@7.5.0"], "num_specs": 3, "num_specs_by_stack": {"build_systems": 1, "e4s": 1, "hep": 1, "root": 3}, "oss": ["ubuntu18.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["build_systems", "e4s", "hep", "root"], "targets": ["x86_64_v3"], "versions": ["4.4.3"]}
-spec_details: [{"compiler": "gcc@7.5.0", "hash": "7qzbq6aowz5jktzruu425qwjwvajfiqy", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["build_systems", "root"], "target": "x86_64_v3", "variants": ["~X", "build_system=autotools", "~memory_profiling", "patches:=abc572d", "~rmath"], "versions": ["4.4.3"]}, {"compiler": "gcc@11.4.0", "hash": "xrou54radpklljpbs5gadtk6g65wocao", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["~X", "build_system=autotools", "~memory_profiling", "patches:=abc572d", "~rmath"], "versions": ["4.4.3"]}, {"compiler": "gcc@11.4.0", "hash": "zgc37uebmtgeti6frcqqjvudk6zblzyj", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["~X", "build_system=autotools", "~memory_profiling", "patches:=abc572d", "~rmath"], "versions": ["4.4.3"]}]
----

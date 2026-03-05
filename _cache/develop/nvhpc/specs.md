@@ -1,7 +1,0 @@
----
-title: "nvhpc"
-layout: cache
-categories: [package, develop]
-meta: {"compilers": ["none"], "num_specs": 3, "num_specs_by_stack": {"e4s": 3, "root": 3}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "root"], "targets": ["x86_64_v3"], "versions": ["25.7"]}
-spec_details: [{"compiler": "none", "hash": "5f6skmopisdu7hvifp7mcq57zibnzur5", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["+blas", "build_system=generic", "default_cuda=default", "install_type=single", "+lapack", "+mpi"], "versions": ["25.7"]}, {"compiler": "none", "hash": "cfvdjqmjhm4crgmmnjqsjobgdzamiqe3", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["+blas", "build_system=generic", "default_cuda=default", "install_type=single", "+lapack", "+mpi"], "versions": ["25.7"]}, {"compiler": "none", "hash": "xe66xgpptszemnpxps2k2gmoeppqfnuu", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["+blas", "build_system=generic", "default_cuda=default", "install_type=single", "+lapack", "+mpi"], "versions": ["25.7"]}]
----

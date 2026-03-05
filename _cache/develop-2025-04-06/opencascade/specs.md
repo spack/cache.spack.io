@@ -1,7 +1,0 @@
----
-title: "opencascade"
-layout: cache
-categories: [package, develop-2025-04-06]
-meta: {"compilers": ["gcc@11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 2, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "root"], "targets": ["x86_64_v3"], "versions": ["7.8.1"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "swpdj5yf7i5c4wuvbb6ni3xtee4rdjro", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["+application_framework", "build_system=cmake", "build_type=Release", "+data_exchange", "+draw", "~ffmpeg", "~freeimage", "~freetype", "generator=make", "~ipo", "+modeling_algorithms", "+modeling_data", "~rapidjson", "~tbb", "~tk", "+visualization", "~vtk"], "versions": ["7.8.1"]}, {"compiler": "gcc@11.4.0", "hash": "up4cgxw2cpq2wrp5qq7ksvpbauadfp4f", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["+application_framework", "build_system=cmake", "build_type=Release", "+data_exchange", "+draw", "~ffmpeg", "~freeimage", "~freetype", "generator=make", "~ipo", "+modeling_algorithms", "+modeling_data", "~rapidjson", "~tbb", "~tk", "+visualization", "~vtk"], "versions": ["7.8.1"]}]
----

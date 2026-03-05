@@ -1,7 +1,0 @@
----
-title: "py-notebook"
-layout: cache
-categories: [package, develop-2025-04-06]
-meta: {"compilers": ["none"], "num_specs": 4, "num_specs_by_stack": {"e4s": 3, "e4s-neoverse-v2": 1, "root": 4}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-neoverse-v2", "root"], "targets": ["neoverse_v2", "x86_64_v3"], "versions": ["6.5.7"]}
-spec_details: [{"compiler": "none", "hash": "gnkgvelja2tgohgnit5s2hcgmdflpksg", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["6.5.7"]}, {"compiler": "none", "hash": "oegznad5xz5hak5g7shudci3cd6ijvjb", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["6.5.7"]}, {"compiler": "none", "hash": "pfmdtpd2g46g2aqiguwulptutxk647g3", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["6.5.7"]}, {"compiler": "none", "hash": "sl6gkbq6ckuwdahgyo3dhbflqw7row4u", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-neoverse-v2", "root"], "target": "neoverse_v2", "variants": ["build_system=python_pip"], "versions": ["6.5.7"]}]
----

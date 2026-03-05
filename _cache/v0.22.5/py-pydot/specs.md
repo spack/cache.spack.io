@@ -1,7 +1,0 @@
----
-title: "py-pydot"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=11.4.0", "gcc@=7.5.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "radiuss": 1, "root": 2}, "oss": ["ubuntu18.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "radiuss", "root"], "targets": ["x86_64_v3"], "versions": ["1.4.2"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "3raz7ylg2qvlnf4b2pl55i6ft5bxkb37", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-pydot-1.4.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-pydot-1.4.2-3raz7ylg2qvlnf4b2pl55i6ft5bxkb37.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.4.2"]}, {"compiler": "gcc@=7.5.0", "hash": "lcpmdxgdpgzi37vtmteyvaqrnbu2wajx", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["radiuss", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-pydot-1.4.2/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-pydot-1.4.2-lcpmdxgdpgzi37vtmteyvaqrnbu2wajx.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.4.2"]}]
----

@@ -1,7 +1,0 @@
----
-title: "perl-file-listing"
-layout: cache
-categories: [package, develop-2025-01-26]
-meta: {"versions": ["6.16"], "compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "e4s", "hep", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "hep": 1, "e4s": 1}}
-spec_details: [{"hash": "vgmsde5ks7uumlla5lniuwodpepswk7k", "compiler": "gcc@=11.1.0", "versions": ["6.16"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=perl"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/perl-file-listing-6.16/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-perl-file-listing-6.16-vgmsde5ks7uumlla5lniuwodpepswk7k.spack"}, {"hash": "4zemyni5b663sdc4qjtfop5lpi76g5sa", "compiler": "gcc@=11.4.0", "versions": ["6.16"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=perl"], "stacks": ["hep", "root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/perl-file-listing-6.16/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-perl-file-listing-6.16-4zemyni5b663sdc4qjtfop5lpi76g5sa.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "py-hatch-nodejs-version"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["0.3.1"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "urux2dwfk76vemezz3vcgckv5576mnvr", "compiler": "gcc@=7.3.1", "versions": ["0.3.1"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=python_pip"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/py-hatch-nodejs-version-0.3.1/linux-amzn2-neoverse_n1-gcc-7.3.1-py-hatch-nodejs-version-0.3.1-urux2dwfk76vemezz3vcgckv5576mnvr.spack"}, {"hash": "mms7vlvvi2iuc353kgomvt3qgfzwlgl5", "compiler": "gcc@=7.3.1", "versions": ["0.3.1"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/py-hatch-nodejs-version-0.3.1/linux-amzn2-aarch64-gcc-7.3.1-py-hatch-nodejs-version-0.3.1-mms7vlvvi2iuc353kgomvt3qgfzwlgl5.spack"}]
----

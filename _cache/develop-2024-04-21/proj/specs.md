@@ -1,7 +1,0 @@
----
-title: "proj"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["8.1.0"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "sytyovsy27io3xdosrtfjbqxkeexp75j", "compiler": "gcc@=7.3.1", "versions": ["8.1.0"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=cmake", "build_type=Release", "+curl", "generator=make", "~ipo", "patches=dc620ff", "~pic", "+shared", "+tiff"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/proj-8.1.0/linux-amzn2-neoverse_n1-gcc-7.3.1-proj-8.1.0-sytyovsy27io3xdosrtfjbqxkeexp75j.spack"}, {"hash": "2btisq46chzfpco3ff3vcp4kubjqus2v", "compiler": "gcc@=7.3.1", "versions": ["8.1.0"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=cmake", "build_type=Release", "+curl", "generator=make", "~ipo", "patches=dc620ff", "~pic", "+shared", "+tiff"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/proj-8.1.0/linux-amzn2-aarch64-gcc-7.3.1-proj-8.1.0-2btisq46chzfpco3ff3vcp4kubjqus2v.spack"}]
----

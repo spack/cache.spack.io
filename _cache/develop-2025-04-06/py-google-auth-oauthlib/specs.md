@@ -1,7 +1,0 @@
----
-title: "py-google-auth-oauthlib"
-layout: cache
-categories: [package, develop-2025-04-06]
-meta: {"compilers": ["none"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 3}, "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["e4s", "ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["0.4.6"]}
-spec_details: [{"compiler": "none", "hash": "2yebxttbxrgurcryuad3po3kmzqsv4l7", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.4.6"]}, {"compiler": "none", "hash": "aypilpm7ixnlkmc6igddvsil3c3bhq74", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["0.4.6"]}, {"compiler": "none", "hash": "jqhad3ljsgnz65hxbpfu3afs6vp4w7tp", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.4.6"]}]
----

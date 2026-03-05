@@ -1,7 +1,0 @@
----
-title: "libelf"
-layout: cache
-categories: [package, develop-2024-11-24]
-meta: {"versions": ["0.8.13"], "compilers": ["apple-clang@=15.0.0", "gcc@=11.4.0"], "oss": ["ubuntu22.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-darwin", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "developer-tools-darwin": 1, "e4s": 1}}
-spec_details: [{"hash": "ggbjmw3qolghtmextep4ycr5w2njx7fq", "compiler": "apple-clang@=15.0.0", "versions": ["0.8.13"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=autotools"], "stacks": ["root", "developer-tools-darwin"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-24/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/libelf-0.8.13/darwin-ventura-aarch64-apple-clang-15.0.0-libelf-0.8.13-ggbjmw3qolghtmextep4ycr5w2njx7fq.spack"}, {"hash": "su7nlafglwnydvwhlaoufxyq25wx6hoj", "compiler": "gcc@=11.4.0", "versions": ["0.8.13"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-24/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/libelf-0.8.13/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-libelf-0.8.13-su7nlafglwnydvwhlaoufxyq25wx6hoj.spack"}]
----

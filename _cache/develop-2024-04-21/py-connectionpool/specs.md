@@ -1,7 +1,0 @@
----
-title: "py-connectionpool"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["0.0.3"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "psyq5vo4qmwq2svdlb64vt36wmfmv3a5", "compiler": "gcc@=7.3.1", "versions": ["0.0.3"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=python_pip"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/py-connectionpool-0.0.3/linux-amzn2-neoverse_n1-gcc-7.3.1-py-connectionpool-0.0.3-psyq5vo4qmwq2svdlb64vt36wmfmv3a5.spack"}, {"hash": "nvm5uax3ud3ihhcq25rwpa4nemncc6in", "compiler": "gcc@=7.3.1", "versions": ["0.0.3"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/py-connectionpool-0.0.3/linux-amzn2-aarch64-gcc-7.3.1-py-connectionpool-0.0.3-nvm5uax3ud3ihhcq25rwpa4nemncc6in.spack"}]
----

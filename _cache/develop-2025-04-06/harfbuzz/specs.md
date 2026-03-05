@@ -1,7 +1,0 @@
----
-title: "harfbuzz"
-layout: cache
-categories: [package, develop-2025-04-06]
-meta: {"compilers": ["gcc@11.1.0", "gcc@11.4.0"], "num_specs": 3, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "hep": 1, "root": 3}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "hep", "root"], "targets": ["x86_64_v3"], "versions": ["10.2.0"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "3g32nez4mo35vflpzfyeve4o7tywpekn", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library:=shared", "~graphite2", "~strip"], "versions": ["10.2.0"]}, {"compiler": "gcc@11.4.0", "hash": "kvbt5x6ni3zactghjd7hwzf3vrue2zyt", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library:=shared", "~graphite2", "~strip"], "versions": ["10.2.0"]}, {"compiler": "gcc@11.1.0", "hash": "o4doee4ped7tc2xhrf6hwg5bhefkex53", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library:=shared", "~graphite2", "~strip"], "versions": ["10.2.0"]}]
----

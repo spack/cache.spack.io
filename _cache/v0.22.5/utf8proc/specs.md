@@ -1,7 +1,0 @@
----
-title: "utf8proc"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "root": 2, "tutorial": 1}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "root", "tutorial"], "targets": ["x86_64_v3"], "versions": ["2.8.0"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "pxdvaijj3iuxgrugyaqiylhgd4lr5iq4", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["root", "tutorial"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/utf8proc-2.8.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-utf8proc-2.8.0-pxdvaijj3iuxgrugyaqiylhgd4lr5iq4.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~shared"], "versions": ["2.8.0"]}, {"compiler": "gcc@=11.4.0", "hash": "r37devthphznz2f5hqvxll3fddzdmi5x", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/utf8proc-2.8.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-utf8proc-2.8.0-r37devthphznz2f5hqvxll3fddzdmi5x.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~shared"], "versions": ["2.8.0"]}]
----

@@ -1,7 +1,0 @@
----
-title: "py-python-lsp-server"
-layout: cache
-categories: [package, develop-2025-04-13]
-meta: {"compilers": ["none"], "num_specs": 3, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-darwin": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "root": 3}, "oss": ["centos7", "rhel8", "sequoia"], "platforms": ["darwin", "linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-darwin", "developer-tools-x86_64_v3-linux-gnu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["1.11.0"]}
-spec_details: [{"compiler": "none", "hash": "55ayqnn3hjolkxeqykr6lmj56pfo57ta", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["developer-tools-darwin", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["1.11.0"]}, {"compiler": "none", "hash": "d2xnkendcdcxn4mozhr7qjd7qmwtgcy6", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.11.0"]}, {"compiler": "none", "hash": "kr64ex3s4zqcicswnart27w5atlkf243", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["1.11.0"]}]
----

@@ -1,7 +1,0 @@
----
-title: "perl"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["5.34.1"], "compilers": ["gcc@=7.5.0", "gcc@=8.4.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["build_systems", "data-vis-sdk", "e4s", "radiuss", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"build_systems": 1, "root": 2, "tutorial": 2, "data-vis-sdk": 1, "e4s": 1, "radiuss": 1}}
-spec_details: [{"hash": "pn5mteswujdkuong6mbqaush54rdas7c", "compiler": "gcc@=7.5.0", "versions": ["5.34.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["+cpanm", "+shared", "+threads"], "stacks": ["build_systems", "root", "tutorial", "data-vis-sdk", "e4s", "radiuss"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/perl-5.34.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-perl-5.34.1-pn5mteswujdkuong6mbqaush54rdas7c.spack"}, {"hash": "yycipnrjt7nlqchwy2uydmgiomjup424", "compiler": "gcc@=8.4.0", "versions": ["5.34.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["+cpanm", "+shared", "+threads"], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-8.4.0/perl-5.34.1/linux-ubuntu18.04-x86_64-gcc-8.4.0-perl-5.34.1-yycipnrjt7nlqchwy2uydmgiomjup424.spack"}]
----

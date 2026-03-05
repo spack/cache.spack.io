@@ -1,7 +1,0 @@
----
-title: "superlu"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["5.3.0"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["neoverse_v1", "x86_64_v3"], "stacks": ["e4s", "e4s-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-neoverse_v1": 1}}
-spec_details: [{"hash": "t24vywhjovc4v6erfkbrz4argbeyk753", "compiler": "gcc@=11.4.0", "versions": ["5.3.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+pic"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/superlu-5.3.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-superlu-5.3.0-t24vywhjovc4v6erfkbrz4argbeyk753.spack"}, {"hash": "3xikhbo2gndohafkiwsqoe6te7gaj3ro", "compiler": "gcc@=11.4.0", "versions": ["5.3.0"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+pic"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-neoverse_v1/gcc-11.4.0/superlu-5.3.0/linux-ubuntu22.04-neoverse_v1-gcc-11.4.0-superlu-5.3.0-3xikhbo2gndohafkiwsqoe6te7gaj3ro.spack"}]
----

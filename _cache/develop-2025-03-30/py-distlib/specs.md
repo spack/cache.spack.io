@@ -1,7 +1,0 @@
----
-title: "py-distlib"
-layout: cache
-categories: [package, develop-2025-03-30]
-meta: {"compilers": ["gcc@11.4.0", "gcc@13.2.0", "intel-oneapi-compilers@2024.2.1"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1, "ml-linux-x86_64-rocm": 1, "root": 3}, "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-oneapi", "ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["0.3.7"]}
-spec_details: [{"compiler": "gcc@13.2.0", "hash": "cssaze4xznrlabiccourpy2vt7gbbu2j", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.3.7"]}, {"compiler": "intel-oneapi-compilers@2024.2.1", "hash": "o2otqstyfmx5znc5d2hk3ceaglup3xiv", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.3.7"]}, {"compiler": "gcc@11.4.0", "hash": "z2f3qvotlz3lhxn53zifwzpnn54mrzj7", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.3.7"]}]
----

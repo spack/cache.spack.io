@@ -1,7 +1,0 @@
----
-title: "eza"
-layout: cache
-categories: [package, develop-2025-02-09]
-meta: {"versions": ["0.20.4"], "compilers": ["gcc@=10.5.0", "gcc@=13.3.0"], "oss": ["centos7", "rhel8"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-x86_64_v3-linux-gnu": 1, "root": 2, "developer-tools-aarch64-linux-gnu": 1}}
-spec_details: [{"hash": "p7yg3flvklqgccxi5r7bgnfeqss4jij4", "compiler": "gcc@=10.5.0", "versions": ["0.20.4"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cargo"], "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-centos7-x86_64_v3/gcc-10.5.0/eza-0.20.4/linux-centos7-x86_64_v3-gcc-10.5.0-eza-0.20.4-p7yg3flvklqgccxi5r7bgnfeqss4jij4.spack"}, {"hash": "l6zixdd6azgduxlfins3cldyc3alprv5", "compiler": "gcc@=13.3.0", "versions": ["0.20.4"], "os": "rhel8", "platform": "linux", "target": "aarch64", "variants": ["build_system=cargo"], "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-rhel8-aarch64/gcc-13.3.0/eza-0.20.4/linux-rhel8-aarch64-gcc-13.3.0-eza-0.20.4-l6zixdd6azgduxlfins3cldyc3alprv5.spack"}]
----

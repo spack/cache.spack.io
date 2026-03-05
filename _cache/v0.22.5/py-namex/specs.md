@@ -1,7 +1,0 @@
----
-title: "py-namex"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cpu": 2, "ml-linux-x86_64-cuda": 2, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["x86_64_v3"], "versions": ["0.0.8"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "4nbf4rw3vgef6g6ga2zmandh22iqbgdz", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-namex-0.0.8/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-namex-0.0.8-4nbf4rw3vgef6g6ga2zmandh22iqbgdz.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.0.8"]}, {"compiler": "gcc@=11.4.0", "hash": "gjljf37jpzin6lgywetxyhlhfeudsice", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-namex-0.0.8/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-namex-0.0.8-gjljf37jpzin6lgywetxyhlhfeudsice.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.0.8"]}]
----

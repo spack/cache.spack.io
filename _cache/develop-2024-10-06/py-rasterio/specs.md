@@ -1,7 +1,0 @@
----
-title: "py-rasterio"
-layout: cache
-categories: [package, develop-2024-10-06]
-meta: {"versions": ["1.4.1"], "compilers": ["apple-clang@=15.0.0", "gcc@=13.2.0"], "oss": ["ubuntu24.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "root": 2, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "tyvmz2h2ktu556u3abuh25cgi2ve6vhq", "compiler": "apple-clang@=15.0.0", "versions": ["1.4.1"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-06/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-rasterio-1.4.1/darwin-ventura-aarch64-apple-clang-15.0.0-py-rasterio-1.4.1-tyvmz2h2ktu556u3abuh25cgi2ve6vhq.spack"}, {"hash": "v3mbins6mo4uahf7mjoaxix6dflin5ko", "compiler": "gcc@=13.2.0", "versions": ["1.4.1"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-06/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-rasterio-1.4.1/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-rasterio-1.4.1-v3mbins6mo4uahf7mjoaxix6dflin5ko.spack"}]
----

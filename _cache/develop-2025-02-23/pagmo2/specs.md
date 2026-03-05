@@ -1,7 +1,0 @@
----
-title: "pagmo2"
-layout: cache
-categories: [package, develop-2025-02-23]
-meta: {"compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["2.18.0"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "74mz2ifpdhvx2irfpdqnfk6wmvhchl4j", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-23/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/pagmo2-2.18.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-pagmo2-2.18.0-74mz2ifpdhvx2irfpdqnfk6wmvhchl4j.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+shared"], "versions": ["2.18.0"]}, {"compiler": "oneapi@=2024.2.1", "hash": "m5fv36jqm4fmjfkrwodfozbao2qlmfat", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-23/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/pagmo2-2.18.0/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-pagmo2-2.18.0-m5fv36jqm4fmjfkrwodfozbao2qlmfat.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+shared"], "versions": ["2.18.0"]}]
----

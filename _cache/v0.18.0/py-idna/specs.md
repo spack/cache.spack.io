@@ -1,7 +1,0 @@
----
-title: "py-idna"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["3.3"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 3, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 3, "e4s": 2}}
-spec_details: [{"hash": "bhjrehwwfpzssdtotvy75jgsw4rtheee", "compiler": "gcc@=7.5.0", "versions": ["3.3"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-idna-3.3/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-idna-3.3-bhjrehwwfpzssdtotvy75jgsw4rtheee.spack"}, {"hash": "ypduacqlgo73z7mwk3ownrw3krj4i2xh", "compiler": "gcc@=7.5.0", "versions": ["3.3"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-idna-3.3/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-idna-3.3-ypduacqlgo73z7mwk3ownrw3krj4i2xh.spack"}, {"hash": "nb73cawgyrwa4cnw5z6cahwiyfay4cxo", "compiler": "gcc@=7.5.0", "versions": ["3.3"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-idna-3.3/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-idna-3.3-nb73cawgyrwa4cnw5z6cahwiyfay4cxo.spack"}]
----

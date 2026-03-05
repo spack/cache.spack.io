@@ -1,7 +1,0 @@
----
-title: "rocsparse"
-layout: cache
-categories: [package, develop-2024-10-27]
-meta: {"versions": ["6.1.2", "6.2.1"], "compilers": ["gcc@=11.4.0", "gcc@=13.2.0"], "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "ml-linux-x86_64-rocm", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "ml-linux-x86_64-rocm": 1}}
-spec_details: [{"hash": "h5ahwuz5s3td33mzpt3tfebro4t5mq2j", "compiler": "gcc@=11.4.0", "versions": ["6.2.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["amdgpu_target=auto", "~asan", "build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~test"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-27/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/rocsparse-6.2.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-rocsparse-6.2.1-h5ahwuz5s3td33mzpt3tfebro4t5mq2j.spack"}, {"hash": "5j66vvorpfhwkzhnhonb7ib35eonz3wa", "compiler": "gcc@=13.2.0", "versions": ["6.1.2"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["amdgpu_target=gfx90a", "~asan", "build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~test"], "stacks": ["ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-27/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/rocsparse-6.1.2/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-rocsparse-6.1.2-5j66vvorpfhwkzhnhonb7ib35eonz3wa.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "py-amrex"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 2, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "root"], "targets": ["x86_64_v3"], "versions": ["24.10"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "su25wvt2xokczopaip37ihvirr2lm556", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-amrex-24.10/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-amrex-24.10-su25wvt2xokczopaip37ihvirr2lm556.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~cuda", "dimensions=1,2,3", "generator=make", "+ipo", "+mpi", "~openmp", "precision=double", "~rocm", "~sycl", "~tiny_profile"], "versions": ["24.10"]}, {"compiler": "gcc@=11.4.0", "hash": "v54gplkqtmq6m7f7d7fcl5vo3ijvzz7e", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-amrex-24.10/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-amrex-24.10-v54gplkqtmq6m7f7d7fcl5vo3ijvzz7e.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~cuda", "dimensions=1,2,3", "generator=make", "+ipo", "+mpi", "+openmp", "precision=double", "~rocm", "~sycl", "~tiny_profile"], "versions": ["24.10"]}]
----

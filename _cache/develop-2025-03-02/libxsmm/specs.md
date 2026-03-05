@@ -1,7 +1,0 @@
----
-title: "libxsmm"
-layout: cache
-categories: [package, develop-2025-03-02]
-meta: {"compilers": ["gcc@=11.4.0", "oneapi@=2024.1.0"], "num_specs": 3, "num_specs_by_stack": {"aws-pcluster-x86_64_v4": 2, "e4s": 1, "root": 3}, "oss": ["amzn2", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["aws-pcluster-x86_64_v4", "e4s", "root"], "targets": ["x86_64_v3", "x86_64_v4"], "versions": ["1.17", "main-2023-11"]}
-spec_details: [{"compiler": "oneapi@=2024.1.0", "hash": "2jwlzwzf5e2gl36cbhz5l5ua5hwi7pjw", "os": "amzn2", "platform": "linux", "size": "-", "stacks": ["aws-pcluster-x86_64_v4", "root"], "target": "x86_64_v3", "variants": ["blas=default", "build_system=makefile", "~debug", "~generator", "~header-only", "~large_jit_buffer", "+shared"], "versions": ["main-2023-11"]}, {"compiler": "oneapi@=2024.1.0", "hash": "bbxo2mfuuquanoomy5ywak4tm7h3thd7", "os": "amzn2", "platform": "linux", "size": "-", "stacks": ["aws-pcluster-x86_64_v4", "root"], "target": "x86_64_v4", "variants": ["blas=default", "build_system=makefile", "~debug", "~generator", "~header-only", "~large_jit_buffer", "+shared"], "versions": ["main-2023-11"]}, {"compiler": "gcc@=11.4.0", "hash": "qnuyelgaj4jwhgr346mgdx3btbytxod5", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["blas=default", "build_system=makefile", "~debug", "~generator", "~header-only", "~large_jit_buffer", "~shared"], "versions": ["1.17"]}]
----

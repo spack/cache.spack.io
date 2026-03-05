@@ -1,7 +1,0 @@
----
-title: "py-pretrainedmodels"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["0.7.4"], "compilers": ["apple-clang@=15.0.0"], "oss": ["ventura"], "platforms": ["darwin"], "targets": ["aarch64"], "stacks": ["ml-darwin-aarch64-mps", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 2, "root": 2}}
-spec_details: [{"hash": "zr6f7j7jek6e6vluwo3fbaowof3blzyo", "compiler": "apple-clang@=15.0.0", "versions": ["0.7.4"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-pretrainedmodels-0.7.4/darwin-ventura-aarch64-apple-clang-15.0.0-py-pretrainedmodels-0.7.4-zr6f7j7jek6e6vluwo3fbaowof3blzyo.spack"}, {"hash": "dp3nxe7sak46zbj3j5wsftqpmjhzjzyv", "compiler": "apple-clang@=15.0.0", "versions": ["0.7.4"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-pretrainedmodels-0.7.4/darwin-ventura-aarch64-apple-clang-15.0.0-py-pretrainedmodels-0.7.4-dp3nxe7sak46zbj3j5wsftqpmjhzjzyv.spack"}]
----

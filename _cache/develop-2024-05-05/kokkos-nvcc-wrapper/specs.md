@@ -1,7 +1,0 @@
----
-title: "kokkos-nvcc-wrapper"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["4.1.00"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["neoverse_v1"], "stacks": ["e4s-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-neoverse_v1": 2, "root": 2}}
-spec_details: [{"hash": "q2a7qjvmfygbpc2c6foegfbj7gy6lg4t", "compiler": "gcc@=11.4.0", "versions": ["4.1.00"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=generic"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-neoverse_v1/gcc-11.4.0/kokkos-nvcc-wrapper-4.1.00/linux-ubuntu22.04-neoverse_v1-gcc-11.4.0-kokkos-nvcc-wrapper-4.1.00-q2a7qjvmfygbpc2c6foegfbj7gy6lg4t.spack"}, {"hash": "mwybrms65s4vmylewh5hn2oycko25pbf", "compiler": "gcc@=11.4.0", "versions": ["4.1.00"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=generic"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-neoverse_v1/gcc-11.4.0/kokkos-nvcc-wrapper-4.1.00/linux-ubuntu22.04-neoverse_v1-gcc-11.4.0-kokkos-nvcc-wrapper-4.1.00-mwybrms65s4vmylewh5hn2oycko25pbf.spack"}]
----

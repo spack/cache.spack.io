@@ -1,7 +1,0 @@
----
-title: "py-pynvim"
-layout: cache
-categories: [package, v0.22.0]
-meta: {"versions": ["0.4.3"], "compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-manylinux2014": 1, "root": 2, "developer-tools": 1}}
-spec_details: [{"hash": "g6v7jzssass3wijrohkyyztohtt3alut", "compiler": "gcc@=10.2.1", "versions": ["0.4.3"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.0/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/py-pynvim-0.4.3/linux-centos7-x86_64_v3-gcc-10.2.1-py-pynvim-0.4.3-g6v7jzssass3wijrohkyyztohtt3alut.spack"}, {"hash": "4cz3lqxv2n3qc5qah7aybxw34hglp7mq", "compiler": "gcc@=7.5.0", "versions": ["0.4.3"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["developer-tools", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.0/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-pynvim-0.4.3/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-pynvim-0.4.3-4cz3lqxv2n3qc5qah7aybxw34hglp7mq.spack"}]
----

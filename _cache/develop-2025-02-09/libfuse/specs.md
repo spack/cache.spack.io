@@ -1,7 +1,0 @@
----
-title: "libfuse"
-layout: cache
-categories: [package, develop-2025-02-09]
-meta: {"versions": ["3.16.2"], "compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "63556tudwjb7yo35v3ghn7656g3wjftv", "compiler": "gcc@=11.4.0", "versions": ["3.16.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library=shared", "patches=3ad6719", "~strip", "~system_install", "~useroot", "+utils"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/libfuse-3.16.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-libfuse-3.16.2-63556tudwjb7yo35v3ghn7656g3wjftv.spack"}, {"hash": "6fs5yk3df5nzsjyn7bzljfvbo5mowlgl", "compiler": "oneapi@=2024.2.1", "versions": ["3.16.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library=shared", "~strip", "~system_install", "~useroot", "+utils"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/libfuse-3.16.2/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-libfuse-3.16.2-6fs5yk3df5nzsjyn7bzljfvbo5mowlgl.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "ospray"
-layout: cache
-categories: [package, develop-2023-11-26]
-meta: {"versions": ["2.8.0"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 2, "root": 2}}
-spec_details: [{"hash": "b2hjv3nw5gocnv5gqvlseb634wajqi3z", "compiler": "gcc@=11.1.0", "versions": ["2.8.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~apps", "build_system=cmake", "build_type=Release", "+denoiser", "generator=make", "~glm", "~ipo", "+mpi", "+volumes"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-11-26/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/ospray-2.8.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-ospray-2.8.0-b2hjv3nw5gocnv5gqvlseb634wajqi3z.spack"}, {"hash": "ts2yowped2gvm7gddfi4o7rvr3ternnm", "compiler": "gcc@=11.1.0", "versions": ["2.8.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~apps", "build_system=cmake", "build_type=Release", "+denoiser", "generator=make", "~glm", "~ipo", "+mpi", "+volumes"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-11-26/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/ospray-2.8.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-ospray-2.8.0-ts2yowped2gvm7gddfi4o7rvr3ternnm.spack"}]
----

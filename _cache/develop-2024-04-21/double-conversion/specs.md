@@ -1,7 +1,0 @@
----
-title: "double-conversion"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["3.3.0"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "onnubmhi6pvw3xhinaxz7nefeakvxmte", "compiler": "gcc@=7.3.1", "versions": ["3.3.0"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/double-conversion-3.3.0/linux-amzn2-neoverse_n1-gcc-7.3.1-double-conversion-3.3.0-onnubmhi6pvw3xhinaxz7nefeakvxmte.spack"}, {"hash": "k5qvqxfi2rzwra4h47ciaxpylqy3rac4", "compiler": "gcc@=7.3.1", "versions": ["3.3.0"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/double-conversion-3.3.0/linux-amzn2-aarch64-gcc-7.3.1-double-conversion-3.3.0-k5qvqxfi2rzwra4h47ciaxpylqy3rac4.spack"}]
----

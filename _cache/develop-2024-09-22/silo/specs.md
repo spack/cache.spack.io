@@ -1,7 +1,0 @@
----
-title: "silo"
-layout: cache
-categories: [package, develop-2024-09-22]
-meta: {"versions": ["4.11.1"], "compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "tutorial": 1}}
-spec_details: [{"hash": "yinkrif63kldc5pdi4onnetunudy2yl4", "compiler": "gcc@=11.1.0", "versions": ["4.11.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "+fortran", "+fpzip", "+hdf5", "+hzip", "+mpi", "+pic", "+python", "+shared", "~silex"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-09-22/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/silo-4.11.1/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-silo-4.11.1-yinkrif63kldc5pdi4onnetunudy2yl4.spack"}, {"hash": "6itz4cxcusi5hkdg3opnxya66pkdvsai", "compiler": "gcc@=11.4.0", "versions": ["4.11.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "~fortran", "+fpzip", "+hdf5", "+hzip", "+mpi", "+pic", "+python", "+shared", "~silex"], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-09-22/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/silo-4.11.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-silo-4.11.1-6itz4cxcusi5hkdg3opnxya66pkdvsai.spack"}]
----

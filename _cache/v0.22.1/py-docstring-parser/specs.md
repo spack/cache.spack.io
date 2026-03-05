@@ -1,7 +1,0 @@
----
-title: "py-docstring-parser"
-layout: cache
-categories: [package, v0.22.1]
-meta: {"versions": ["0.15"], "compilers": ["apple-clang@=15.0.0", "gcc@=11.4.0"], "oss": ["ubuntu22.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "root": 2, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "lv7lhgmocz5emtm4yyx77rddfg3mdwus", "compiler": "apple-clang@=15.0.0", "versions": ["0.15"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.1/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-docstring-parser-0.15/darwin-ventura-aarch64-apple-clang-15.0.0-py-docstring-parser-0.15-lv7lhgmocz5emtm4yyx77rddfg3mdwus.spack"}, {"hash": "f5igjxq3z3yqbs4xn63lggmh4oj5i3un", "compiler": "gcc@=11.4.0", "versions": ["0.15"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.1/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-docstring-parser-0.15/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-docstring-parser-0.15-f5igjxq3z3yqbs4xn63lggmh4oj5i3un.spack"}]
----

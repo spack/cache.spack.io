@@ -1,7 +1,0 @@
----
-title: "py-importlib-metadata"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "root": 2}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "root"], "targets": ["x86_64_v3"], "versions": ["7.0.1"]}
-spec_details: [{"compiler": "gcc@=11.1.0", "hash": "pcccaj6xn5wndzcyfr5dmaojpmui73lk", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-importlib-metadata-7.0.1/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-importlib-metadata-7.0.1-pcccaj6xn5wndzcyfr5dmaojpmui73lk.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["7.0.1"]}, {"compiler": "gcc@=11.4.0", "hash": "6qx2ih6c5bpkkweslncbxzrse7etl5vv", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-importlib-metadata-7.0.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-importlib-metadata-7.0.1-6qx2ih6c5bpkkweslncbxzrse7etl5vv.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["7.0.1"]}]
----

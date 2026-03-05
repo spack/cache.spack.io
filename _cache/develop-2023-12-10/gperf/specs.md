@@ -1,7 +1,0 @@
----
-title: "gperf"
-layout: cache
-categories: [package, develop-2023-12-10]
-meta: {"versions": ["3.1"], "compilers": ["gcc@=11.1.0", "gcc@=7.5.0"], "oss": ["ubuntu18.04", "ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "developer-tools", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools": 1, "root": 2, "data-vis-sdk": 1}}
-spec_details: [{"hash": "24evvj5crsjpq2aa4jfz5wvyps4hy5a4", "compiler": "gcc@=7.5.0", "versions": ["3.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "patches=3dd36db"], "stacks": ["developer-tools", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-12-10/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/gperf-3.1/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-gperf-3.1-24evvj5crsjpq2aa4jfz5wvyps4hy5a4.spack"}, {"hash": "6byn5kqxsa6k5vgv5npmcwc6u4t3p5bo", "compiler": "gcc@=11.1.0", "versions": ["3.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "patches=3dd36db"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-12-10/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/gperf-3.1/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-gperf-3.1-6byn5kqxsa6k5vgv5npmcwc6u4t3p5bo.spack"}]
----

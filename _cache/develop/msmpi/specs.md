@@ -1,7 +1,0 @@
----
-title: "msmpi"
-layout: cache
-categories: [package, develop]
-meta: {"compilers": ["msvc@19.39.33523"], "num_specs": 4, "num_specs_by_stack": {"root": 4, "windows-vis": 4}, "oss": ["windows10.0.20348"], "platforms": ["windows"], "stacks": ["root", "windows-vis"], "targets": ["x86_64"], "versions": ["10.1.1"]}
-spec_details: [{"compiler": "msvc@19.39.33523", "hash": "7rowrspnst6oe46nrzaszox47wgvfvsc", "os": "windows10.0.20348", "platform": "windows", "size": "-", "stacks": ["root", "windows-vis"], "target": "x86_64", "variants": ["build_system=msbuild", "patches:=03c5221,62738ab,63378b1,addfaea"], "versions": ["10.1.1"]}, {"compiler": "msvc@19.39.33523", "hash": "pmq7d5jsry3kmnqjfxi6qsn66jgd3f3p", "os": "windows10.0.20348", "platform": "windows", "size": "-", "stacks": ["root", "windows-vis"], "target": "x86_64", "variants": ["build_system=msbuild", "patches:=03c5221,62738ab,63378b1,addfaea"], "versions": ["10.1.1"]}, {"compiler": "msvc@19.39.33523", "hash": "ruy6iatuiswdswa7lnruwcg542jy45df", "os": "windows10.0.20348", "platform": "windows", "size": "-", "stacks": ["root", "windows-vis"], "target": "x86_64", "variants": ["build_system=msbuild", "patches:=03c5221,62738ab,63378b1,addfaea"], "versions": ["10.1.1"]}, {"compiler": "msvc@19.39.33523", "hash": "unbsdinwnbcfvea6xhdu4py75icqhi2w", "os": "windows10.0.20348", "platform": "windows", "size": "-", "stacks": ["root", "windows-vis"], "target": "x86_64", "variants": ["build_system=msbuild", "patches:=03c5221,62738ab,63378b1,addfaea"], "versions": ["10.1.1"]}]
----

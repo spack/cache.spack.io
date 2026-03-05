@@ -1,7 +1,0 @@
----
-title: "h5bench"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["cce@=18.0.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-cray-rhel": 1, "root": 2}, "oss": ["rhel8", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-cray-rhel", "root"], "targets": ["x86_64_v3"], "versions": ["1.4"]}
-spec_details: [{"compiler": "cce@=18.0.0", "hash": "ovj4rixv3e322uv5cneh6tb4yqe5ih63", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["e4s-cray-rhel", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-rhel8-x86_64_v3/cce-18.0.0/h5bench-1.4/linux-rhel8-x86_64_v3-cce-18.0.0-h5bench-1.4-ovj4rixv3e322uv5cneh6tb4yqe5ih63.spack", "target": "x86_64_v3", "variants": ["~all", "~amrex", "~async", "build_system=cmake", "build_type=Release", "~e3sm", "~exerciser", "generator=make", "~ipo", "~metadata", "~openpmd"], "versions": ["1.4"]}, {"compiler": "gcc@=11.4.0", "hash": "o6vbq25rejytec6saz3a2ljydkuiwzhl", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/h5bench-1.4/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-h5bench-1.4-o6vbq25rejytec6saz3a2ljydkuiwzhl.spack", "target": "x86_64_v3", "variants": ["~all", "~amrex", "~async", "build_system=cmake", "build_type=Release", "~e3sm", "~exerciser", "generator=make", "~ipo", "~metadata", "~openpmd"], "versions": ["1.4"]}]
----

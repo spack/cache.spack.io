@@ -1,7 +1,0 @@
----
-title: "cairo"
-layout: cache
-categories: [package, develop-2025-07-13]
-meta: {"compilers": ["gcc@11.1.0", "gcc@11.4.0"], "num_specs": 3, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "hep": 1, "root": 3}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "hep", "root"], "targets": ["x86_64_v3"], "versions": ["1.17.4"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "gbzmyjzxojv375erpvyh4tbi3mqf5idm", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["~X", "build_system=autotools", "~fc", "+ft", "+gobject", "patches:=7097196", "+pdf", "+pic", "~png", "+shared", "~svg"], "versions": ["1.17.4"]}, {"compiler": "gcc@11.4.0", "hash": "qg6sdcmljmtnykhoxstvzgbnktx2ptid", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["+X", "build_system=autotools", "+fc", "+ft", "+gobject", "patches:=7097196", "+pdf", "+pic", "+png", "+shared", "~svg"], "versions": ["1.17.4"]}, {"compiler": "gcc@11.1.0", "hash": "zmdfwk7no3c36tblvbug2bhixpftkclq", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["~X", "build_system=autotools", "~fc", "+ft", "+gobject", "patches:=7097196", "+pdf", "+pic", "~png", "+shared", "~svg"], "versions": ["1.17.4"]}]
----

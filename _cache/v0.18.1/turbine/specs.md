@@ -1,7 +1,0 @@
----
-title: "turbine"
-layout: cache
-categories: [package, v0.18.1]
-meta: {"versions": ["1.3.0"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 2}}
-spec_details: [{"hash": "hjeuxnblafjdxykwu45n6p5wbsmae55e", "compiler": "gcc@=7.5.0", "versions": ["1.3.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~hdf5", "~python", "~r"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.1/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/turbine-1.3.0/linux-ubuntu18.04-x86_64-gcc-7.5.0-turbine-1.3.0-hjeuxnblafjdxykwu45n6p5wbsmae55e.spack"}, {"hash": "fqnzz2giq6fyv2n2j4uu57ph3hkopbu6", "compiler": "gcc@=7.5.0", "versions": ["1.3.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~hdf5", "~python", "~r"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.1/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/turbine-1.3.0/linux-ubuntu18.04-x86_64-gcc-7.5.0-turbine-1.3.0-fqnzz2giq6fyv2n2j4uu57ph3hkopbu6.spack"}]
----

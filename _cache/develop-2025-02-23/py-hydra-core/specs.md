@@ -1,7 +1,0 @@
----
-title: "py-hydra-core"
-layout: cache
-categories: [package, develop-2025-02-23]
-meta: {"compilers": ["gcc@=13.2.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 2}, "oss": ["ubuntu24.04"], "platforms": ["linux"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["1.3.2"]}
-spec_details: [{"compiler": "gcc@=13.2.0", "hash": "4wbyvubixxhggper4tnhe5tive3x2s3p", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-23/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/py-hydra-core-1.3.2/linux-ubuntu24.04-aarch64-gcc-13.2.0-py-hydra-core-1.3.2-4wbyvubixxhggper4tnhe5tive3x2s3p.spack", "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["1.3.2"]}, {"compiler": "gcc@=13.2.0", "hash": "7pbi4nmiuyjmssef4kovhtmzwz2hmtvn", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-23/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-hydra-core-1.3.2/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-hydra-core-1.3.2-7pbi4nmiuyjmssef4kovhtmzwz2hmtvn.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.3.2"]}]
----

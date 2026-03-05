@@ -1,7 +1,0 @@
----
-title: "py-deprecation"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["2.1.0"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "cj2q5xjtqmn2xz653dgfpbm5nsgyclv5", "compiler": "gcc@=7.5.0", "versions": ["2.1.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-deprecation-2.1.0/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-deprecation-2.1.0-cj2q5xjtqmn2xz653dgfpbm5nsgyclv5.spack"}, {"hash": "yczfaag7tw5qf44dsa77bktwvilchoij", "compiler": "gcc@=7.5.0", "versions": ["2.1.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-deprecation-2.1.0/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-deprecation-2.1.0-yczfaag7tw5qf44dsa77bktwvilchoij.spack"}]
----

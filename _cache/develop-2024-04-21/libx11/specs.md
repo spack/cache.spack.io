@@ -1,7 +1,0 @@
----
-title: "libx11"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["1.8.7"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "3qanv6jjsgnxntqfm6vigevab62hw6k5", "compiler": "gcc@=7.3.1", "versions": ["1.8.7"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=autotools"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/libx11-1.8.7/linux-amzn2-neoverse_n1-gcc-7.3.1-libx11-1.8.7-3qanv6jjsgnxntqfm6vigevab62hw6k5.spack"}, {"hash": "lu3iipvtxye4wklqttpv2qqp2cni43ev", "compiler": "gcc@=7.3.1", "versions": ["1.8.7"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/libx11-1.8.7/linux-amzn2-aarch64-gcc-7.3.1-libx11-1.8.7-lu3iipvtxye4wklqttpv2qqp2cni43ev.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "py-nbclassic"
-layout: cache
-categories: [package, develop-2025-07-13]
-meta: {"compilers": ["none"], "num_specs": 4, "num_specs_by_stack": {"e4s": 3, "e4s-neoverse-v2": 1, "root": 4}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-neoverse-v2", "root"], "targets": ["neoverse_v2", "x86_64_v3"], "versions": ["1.1.0"]}
-spec_details: [{"compiler": "none", "hash": "i3nreu343p6c7oioud6lfyeygesvbngp", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-neoverse-v2", "root"], "target": "neoverse_v2", "variants": ["build_system=python_pip"], "versions": ["1.1.0"]}, {"compiler": "none", "hash": "lk5gxxou34aynw26dkklxaqiaatd6cwr", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.1.0"]}, {"compiler": "none", "hash": "wfl6o7ouevjozq7bw7mqjjjflvd3ypmn", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.1.0"]}, {"compiler": "none", "hash": "zai7qne3m4gpqtrfsx2x7dqp2tfiqhqh", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.1.0"]}]
----

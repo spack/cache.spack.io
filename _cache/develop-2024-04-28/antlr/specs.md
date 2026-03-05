@@ -1,7 +1,0 @@
----
-title: "antlr"
-layout: cache
-categories: [package, develop-2024-04-28]
-meta: {"versions": ["2.7.7"], "compilers": ["cce@=15.0.1", "gcc@=10.3.0"], "oss": ["rhel8", "sle_hpc15"], "platforms": ["linux"], "targets": ["x86_64_v4", "zen4"], "stacks": ["e4s-cray-rhel", "e4s-cray-sles", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-cray-sles": 1, "root": 2, "e4s-cray-rhel": 1}}
-spec_details: [{"hash": "pavpi7bptr76zinw5jbtcggdg73jn5dy", "compiler": "gcc@=10.3.0", "versions": ["2.7.7"], "os": "sle_hpc15", "platform": "linux", "target": "x86_64_v4", "variants": ["build_system=autotools", "+cxx", "~java", "patches=33897ad", "~pic", "~python"], "stacks": ["e4s-cray-sles", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-sle_hpc15-x86_64_v4/gcc-10.3.0/antlr-2.7.7/linux-sle_hpc15-x86_64_v4-gcc-10.3.0-antlr-2.7.7-pavpi7bptr76zinw5jbtcggdg73jn5dy.spack"}, {"hash": "uvk5icudfahyqot7yfys5e5movhqgkr7", "compiler": "cce@=15.0.1", "versions": ["2.7.7"], "os": "rhel8", "platform": "linux", "target": "zen4", "variants": ["build_system=autotools", "+cxx", "~java", "patches=33897ad", "~pic", "~python"], "stacks": ["e4s-cray-rhel", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-rhel8-zen4/cce-15.0.1/antlr-2.7.7/linux-rhel8-zen4-cce-15.0.1-antlr-2.7.7-uvk5icudfahyqot7yfys5e5movhqgkr7.spack"}]
----

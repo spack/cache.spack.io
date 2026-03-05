@@ -1,7 +1,0 @@
----
-title: "libxfixes"
-layout: cache
-categories: [package, develop-2025-04-13]
-meta: {"compilers": ["gcc@11.4.0"], "num_specs": 4, "num_specs_by_stack": {"e4s": 2, "hep": 2, "root": 4}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "hep", "root"], "targets": ["x86_64_v3"], "versions": ["5.0.3"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "krqdczaiwpxrqxjolconzjo3noy5fy5u", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["5.0.3"]}, {"compiler": "gcc@11.4.0", "hash": "o7pql5rgymmhg7yn7mjsm2ngd3cwkfrm", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["5.0.3"]}, {"compiler": "gcc@11.4.0", "hash": "qlmcaa4hymukazzkt3hdjzvviwp4yl72", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["5.0.3"]}, {"compiler": "gcc@11.4.0", "hash": "zdjto57brpxywlvh3yjrt2slr6zm674o", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["5.0.3"]}]
----

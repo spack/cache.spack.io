@@ -1,7 +1,0 @@
----
-title: "rocsolver"
-layout: cache
-categories: [package, develop-2023-10-15]
-meta: {"versions": ["5.5.1", "5.6.1"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 2}}
-spec_details: [{"hash": "gs7pmubt2iumzn7jiyyzztu7tb2xjlur", "compiler": "gcc@=11.4.0", "versions": ["5.6.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["amdgpu_target=auto", "build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+optimal"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-10-15/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/rocsolver-5.6.1/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-rocsolver-5.6.1-gs7pmubt2iumzn7jiyyzztu7tb2xjlur.spack"}, {"hash": "bunywgytgqoezkkbvvebs3kkonvflu5q", "compiler": "gcc@=11.4.0", "versions": ["5.5.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["amdgpu_target=auto", "build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+optimal", "patches=8067bfb"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-10-15/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/rocsolver-5.5.1/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-rocsolver-5.5.1-bunywgytgqoezkkbvvebs3kkonvflu5q.spack"}]
----

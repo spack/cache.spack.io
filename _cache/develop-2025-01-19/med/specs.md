@@ -1,7 +1,0 @@
----
-title: "med"
-layout: cache
-categories: [package, develop-2025-01-19]
-meta: {"versions": ["5.0.0"], "compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "5nhj3pwwvkbrim4yfx5gb5q2mcojfxun", "compiler": "gcc@=11.4.0", "versions": ["5.0.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["+api23", "build_system=cmake", "build_type=Release", "~doc", "~fortran", "generator=make", "~ipo", "+mpi", "~python", "~shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-19/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/med-5.0.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-med-5.0.0-5nhj3pwwvkbrim4yfx5gb5q2mcojfxun.spack"}, {"hash": "yi3vrh724mqsj3fdm73aqektfqsmm25d", "compiler": "oneapi@=2024.2.1", "versions": ["5.0.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["+api23", "build_system=cmake", "build_type=Release", "~doc", "~fortran", "generator=make", "~ipo", "+mpi", "~python", "~shared"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-19/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/med-5.0.0/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-med-5.0.0-yi3vrh724mqsj3fdm73aqektfqsmm25d.spack"}]
----

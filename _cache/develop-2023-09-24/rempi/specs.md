@@ -1,7 +1,0 @@
----
-title: "rempi"
-layout: cache
-categories: [package, develop-2023-09-24]
-meta: {"versions": ["1.1.0"], "compilers": ["gcc@=11.1.0", "oneapi@=2023.2.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64"], "stacks": ["e4s-oneapi", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s-oneapi": 1}}
-spec_details: [{"hash": "niewyekabgccjnk7kjuv6fa66jnlpoye", "compiler": "gcc@=11.1.0", "versions": ["1.1.0"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=autotools", "patches=2296f83"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-24/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/rempi-1.1.0/linux-ubuntu20.04-ppc64le-gcc-11.1.0-rempi-1.1.0-niewyekabgccjnk7kjuv6fa66jnlpoye.spack"}, {"hash": "xzzjhrezpmajaki4ht5ihejlut4wqcho", "compiler": "oneapi@=2023.2.0", "versions": ["1.1.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=autotools", "patches=2296f83"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-24/build_cache/linux-ubuntu20.04-x86_64/oneapi-2023.2.0/rempi-1.1.0/linux-ubuntu20.04-x86_64-oneapi-2023.2.0-rempi-1.1.0-xzzjhrezpmajaki4ht5ihejlut4wqcho.spack"}]
----

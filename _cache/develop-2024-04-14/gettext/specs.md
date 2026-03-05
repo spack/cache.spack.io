@@ -1,7 +1,0 @@
----
-title: "gettext"
-layout: cache
-categories: [package, develop-2024-04-14]
-meta: {"versions": ["0.22.4"], "compilers": ["oneapi@=2023.2.0"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3", "x86_64_v4"], "stacks": ["aws-pcluster-x86_64_v4", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "aws-pcluster-x86_64_v4": 2}}
-spec_details: [{"hash": "lcg7pxidkreqm3cgswlqpqunn53mol4q", "compiler": "oneapi@=2023.2.0", "versions": ["0.22.4"], "os": "amzn2", "platform": "linux", "target": "x86_64_v4", "variants": ["build_system=autotools", "+bzip2", "+curses", "+git", "~libunistring", "+libxml2", "+pic", "+shared", "+tar", "+xz"], "stacks": ["root", "aws-pcluster-x86_64_v4"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-x86_64_v4/oneapi-2023.2.0/gettext-0.22.4/linux-amzn2-x86_64_v4-oneapi-2023.2.0-gettext-0.22.4-lcg7pxidkreqm3cgswlqpqunn53mol4q.spack"}, {"hash": "qxlpn3eljcmrzcpgd2lth2kgnmzmgwji", "compiler": "oneapi@=2023.2.0", "versions": ["0.22.4"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "+bzip2", "+curses", "+git", "~libunistring", "+libxml2", "+pic", "+shared", "+tar", "+xz"], "stacks": ["root", "aws-pcluster-x86_64_v4"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-x86_64_v3/oneapi-2023.2.0/gettext-0.22.4/linux-amzn2-x86_64_v3-oneapi-2023.2.0-gettext-0.22.4-qxlpn3eljcmrzcpgd2lth2kgnmzmgwji.spack"}]
----

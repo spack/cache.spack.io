@@ -1,7 +1,0 @@
----
-title: "libstdcompat"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["0.0.21"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "qit5cm2r6k7epcnu5dxaebrenz3kgzdu", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/libstdcompat-0.0.21/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-libstdcompat-0.0.21-qit5cm2r6k7epcnu5dxaebrenz3kgzdu.spack", "target": "x86_64_v3", "variants": ["~boost", "build_system=cmake", "build_type=Release", "cpp_compat=auto", "+cpp_unstable", "generator=make", "~ipo"], "versions": ["0.0.21"]}, {"compiler": "oneapi@=2024.2.1", "hash": "pm3edil6nmju7jsul4hl65cyzfnz7bte", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/libstdcompat-0.0.21/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-libstdcompat-0.0.21-pm3edil6nmju7jsul4hl65cyzfnz7bte.spack", "target": "x86_64_v3", "variants": ["~boost", "build_system=cmake", "build_type=Release", "cpp_compat=auto", "+cpp_unstable", "generator=make", "~ipo"], "versions": ["0.0.21"]}]
----

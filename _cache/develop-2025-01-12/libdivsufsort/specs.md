@@ -1,7 +1,0 @@
----
-title: "libdivsufsort"
-layout: cache
-categories: [package, develop-2025-01-12]
-meta: {"versions": ["2.0.1"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["aws-isc", "aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 1, "root": 2, "aws-isc": 1}}
-spec_details: [{"hash": "tu27txwo66gihxtkk7r26xqptzxf4xqz", "compiler": "gcc@=7.3.1", "versions": ["2.0.1"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-amzn2-aarch64/gcc-7.3.1/libdivsufsort-2.0.1/linux-amzn2-aarch64-gcc-7.3.1-libdivsufsort-2.0.1-tu27txwo66gihxtkk7r26xqptzxf4xqz.spack"}, {"hash": "vouycpgd3gkvptpodibjhh55feswld6h", "compiler": "gcc@=7.3.1", "versions": ["2.0.1"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["aws-isc", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/libdivsufsort-2.0.1/linux-amzn2-x86_64_v3-gcc-7.3.1-libdivsufsort-2.0.1-vouycpgd3gkvptpodibjhh55feswld6h.spack"}]
----

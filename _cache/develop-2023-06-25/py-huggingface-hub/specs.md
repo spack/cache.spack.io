@@ -1,7 +1,0 @@
----
-title: "py-huggingface-hub"
-layout: cache
-categories: [package, develop-2023-06-25]
-meta: {"versions": ["0.14.1"], "compilers": ["gcc@=11.3.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cpu": 2, "ml-linux-x86_64-cuda": 2, "root": 2, "ml-linux-x86_64-rocm": 1}}
-spec_details: [{"hash": "nt35jzohjjeuvqkmi5lzcqrvpjl4rxom", "compiler": "gcc@=11.3.0", "versions": ["0.14.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~cli"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-25/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-huggingface-hub-0.14.1/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-huggingface-hub-0.14.1-nt35jzohjjeuvqkmi5lzcqrvpjl4rxom.spack"}, {"hash": "7m2gaamvua4ahxrivosvzsl6utrrbbmz", "compiler": "gcc@=11.3.0", "versions": ["0.14.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~cli"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-25/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-huggingface-hub-0.14.1/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-huggingface-hub-0.14.1-7m2gaamvua4ahxrivosvzsl6utrrbbmz.spack"}]
----

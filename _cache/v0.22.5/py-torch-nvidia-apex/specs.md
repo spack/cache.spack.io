@@ -1,7 +1,0 @@
----
-title: "py-torch-nvidia-apex"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["x86_64_v3"], "versions": ["2020-10-19"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "vmpjhi7u2vsuux7oqoe67tftbqyogv3v", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cuda", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-torch-nvidia-apex-2020-10-19/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-torch-nvidia-apex-2020-10-19-vmpjhi7u2vsuux7oqoe67tftbqyogv3v.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip", "+cuda", "cuda_arch=80", "patches=da5e883"], "versions": ["2020-10-19"]}, {"compiler": "gcc@=11.4.0", "hash": "yaiprrvg3g7wxkge4gfn2w4sxql7c7ye", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-torch-nvidia-apex-2020-10-19/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-torch-nvidia-apex-2020-10-19-yaiprrvg3g7wxkge4gfn2w4sxql7c7ye.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~cuda", "patches=da5e883"], "versions": ["2020-10-19"]}]
----

@@ -1,7 +1,0 @@
----
-title: "dray"
-layout: cache
-categories: [package, v0.22.3]
-meta: {"versions": ["0.1.8"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 2, "root": 2}}
-spec_details: [{"hash": "ajunsj7v37k4txf65pz264yrxkr4m5fk", "compiler": "gcc@=11.1.0", "versions": ["0.1.8"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["+blt_find_mpi", "build_system=generic", "~cuda", "~logging", "+mpi", "+openmp", "+shared", "~stats", "~test", "~utils"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.3/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/dray-0.1.8/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-dray-0.1.8-ajunsj7v37k4txf65pz264yrxkr4m5fk.spack"}, {"hash": "eu3njo5vsajxyz3tycjcn2re2vj5wugk", "compiler": "gcc@=11.1.0", "versions": ["0.1.8"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["+blt_find_mpi", "build_system=generic", "~cuda", "~logging", "+mpi", "+openmp", "+shared", "~stats", "~test", "~utils"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.3/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/dray-0.1.8/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-dray-0.1.8-eu3njo5vsajxyz3tycjcn2re2vj5wugk.spack"}]
----

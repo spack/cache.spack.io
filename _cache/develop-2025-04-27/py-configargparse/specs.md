@@ -1,7 +1,0 @@
----
-title: "py-configargparse"
-layout: cache
-categories: [package, develop-2025-04-27]
-meta: {"compilers": ["none"], "num_specs": 3, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-darwin": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "root": 3}, "oss": ["centos7", "rhel8", "sequoia"], "platforms": ["darwin", "linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-darwin", "developer-tools-x86_64_v3-linux-gnu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["1.7"]}
-spec_details: [{"compiler": "none", "hash": "32cdyf2ulhep3pywwxkd6t6mb5s5xl7m", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["developer-tools-darwin", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["1.7"]}, {"compiler": "none", "hash": "pey3ksbgg2uo3cat3fec7g56bmru6agj", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.7"]}, {"compiler": "none", "hash": "y447kqpbn2mmvdcfhxcb7gtgxhsvg4rb", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["1.7"]}]
----

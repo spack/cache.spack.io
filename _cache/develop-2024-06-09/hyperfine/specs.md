@@ -1,7 +1,0 @@
----
-title: "hyperfine"
-layout: cache
-categories: [package, develop-2024-06-09]
-meta: {"versions": ["1.17.0"], "compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools": 1, "root": 2, "developer-tools-manylinux2014": 1}}
-spec_details: [{"hash": "5t67u5awewkhl7g2uyuf7hjh3e3pzjqi", "compiler": "gcc@=7.5.0", "versions": ["1.17.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["developer-tools", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-06-09/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/hyperfine-1.17.0/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-hyperfine-1.17.0-5t67u5awewkhl7g2uyuf7hjh3e3pzjqi.spack"}, {"hash": "bcnk3glycjngz2ddo7i4quajh5lsqvlj", "compiler": "gcc@=10.2.1", "versions": ["1.17.0"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-06-09/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/hyperfine-1.17.0/linux-centos7-x86_64_v3-gcc-10.2.1-hyperfine-1.17.0-bcnk3glycjngz2ddo7i4quajh5lsqvlj.spack"}]
----

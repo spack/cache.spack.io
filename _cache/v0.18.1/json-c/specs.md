@@ -1,7 +1,0 @@
----
-title: "json-c"
-layout: cache
-categories: [package, v0.18.1]
-meta: {"versions": ["0.15"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "e4s", "radiuss", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"radiuss": 1, "root": 2, "e4s": 1, "tutorial": 1, "data-vis-sdk": 1}}
-spec_details: [{"hash": "kesugzv6loc4pjqagdsk7y3hkwrdussi", "compiler": "gcc@=7.5.0", "versions": ["0.15"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_type=RelWithDebInfo", "~ipo"], "stacks": ["radiuss", "root", "e4s", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.1/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/json-c-0.15/linux-ubuntu18.04-x86_64-gcc-7.5.0-json-c-0.15-kesugzv6loc4pjqagdsk7y3hkwrdussi.spack"}, {"hash": "74tqwxmir2lj4i7ojfyhtw7mpgh7jnqw", "compiler": "gcc@=7.5.0", "versions": ["0.15"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_type=RelWithDebInfo", "~ipo"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.1/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/json-c-0.15/linux-ubuntu18.04-x86_64-gcc-7.5.0-json-c-0.15-74tqwxmir2lj4i7ojfyhtw7mpgh7jnqw.spack"}]
----

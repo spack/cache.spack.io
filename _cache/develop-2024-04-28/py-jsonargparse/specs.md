@@ -1,7 +1,0 @@
----
-title: "py-jsonargparse"
-layout: cache
-categories: [package, develop-2024-04-28]
-meta: {"versions": ["4.27.5"], "compilers": ["apple-clang@=15.0.0", "gcc@=11.4.0"], "oss": ["ubuntu22.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cuda": 1, "root": 2, "ml-darwin-aarch64-mps": 1}}
-spec_details: [{"hash": "axcs5xk57774jnsfyukuert2bgymrl77", "compiler": "gcc@=11.4.0", "versions": ["4.27.5"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "+signatures"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-jsonargparse-4.27.5/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-jsonargparse-4.27.5-axcs5xk57774jnsfyukuert2bgymrl77.spack"}, {"hash": "uchpsvevzgz77fynurioyw4h77xvioiy", "compiler": "apple-clang@=15.0.0", "versions": ["4.27.5"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip", "+signatures"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-jsonargparse-4.27.5/darwin-ventura-aarch64-apple-clang-15.0.0-py-jsonargparse-4.27.5-uchpsvevzgz77fynurioyw4h77xvioiy.spack"}]
----

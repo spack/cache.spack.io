@@ -1,7 +1,0 @@
----
-title: "valgrind"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["3.20.0"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["neoverse_v1", "x86_64_v3"], "stacks": ["e4s", "e4s-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-neoverse_v1": 1}}
-spec_details: [{"hash": "bie4hbwtqhgn3kjgclx3lg3ywoyokav3", "compiler": "gcc@=11.4.0", "versions": ["3.20.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["+boost", "build_system=autotools", "libs=shared,static", "+mpi", "+only64bit", "~ubsan"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/valgrind-3.20.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-valgrind-3.20.0-bie4hbwtqhgn3kjgclx3lg3ywoyokav3.spack"}, {"hash": "x5rkv4477ketxljvuz23j5nizqyqgy5e", "compiler": "gcc@=11.4.0", "versions": ["3.20.0"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v1", "variants": ["+boost", "build_system=autotools", "libs=shared,static", "+mpi", "+only64bit", "~ubsan"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-neoverse_v1/gcc-11.4.0/valgrind-3.20.0/linux-ubuntu22.04-neoverse_v1-gcc-11.4.0-valgrind-3.20.0-x5rkv4477ketxljvuz23j5nizqyqgy5e.spack"}]
----

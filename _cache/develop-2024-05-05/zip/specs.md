@@ -1,7 +1,0 @@
----
-title: "zip"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["3.0"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["neoverse_v1", "x86_64_v3"], "stacks": ["e4s", "e4s-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-neoverse_v1": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "a32nput3vuxigii4oxsyfbdkou3fy3gv", "compiler": "gcc@=11.4.0", "versions": ["3.0"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=makefile", "patches=14dc880,3bc30ba,5068e7c,51f48db,66ab4ce,a92fc4e,a95ed93,eb83fc8,f7d0bc4,fa8312c"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-neoverse_v1/gcc-11.4.0/zip-3.0/linux-ubuntu22.04-neoverse_v1-gcc-11.4.0-zip-3.0-a32nput3vuxigii4oxsyfbdkou3fy3gv.spack"}, {"hash": "22merhsyo7yvandbaohnl7cwhkj6l7uz", "compiler": "gcc@=11.4.0", "versions": ["3.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=makefile", "patches=14dc880,3bc30ba,5068e7c,51f48db,66ab4ce,a92fc4e,a95ed93,eb83fc8,f7d0bc4,fa8312c"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/zip-3.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-zip-3.0-22merhsyo7yvandbaohnl7cwhkj6l7uz.spack"}]
----

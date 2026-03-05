@@ -1,7 +1,0 @@
----
-title: "py-virtualenv"
-layout: cache
-categories: [package, develop-2025-04-20]
-meta: {"compilers": ["gcc@11.4.0", "gcc@13.2.0"], "num_specs": 4, "num_specs_by_stack": {"e4s": 2, "ml-linux-x86_64-rocm": 2, "root": 4}, "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["e4s", "ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["20.26.5"]}
-spec_details: [{"compiler": "gcc@13.2.0", "hash": "472xbdkqxs6iw7cm2njbcpe7o6sd5tqf", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["20.26.5"]}, {"compiler": "gcc@11.4.0", "hash": "4u4dd37n4qocz6evpwg7y2xtw4kpuovz", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["20.26.5"]}, {"compiler": "gcc@11.4.0", "hash": "dk7xazvan64csihhqpfhg7g6kr6nxkzh", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["20.26.5"]}, {"compiler": "gcc@13.2.0", "hash": "m6sjxko77u7wnuzqezj6hkex5wnft35x", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["20.26.5"]}]
----

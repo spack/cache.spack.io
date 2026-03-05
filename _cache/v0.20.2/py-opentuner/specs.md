@@ -1,7 +1,0 @@
----
-title: "py-opentuner"
-layout: cache
-categories: [package, v0.20.2]
-meta: {"versions": ["0.8.7"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "7rc6wmnzosorklkixb36xetkajg3fe4v", "compiler": "gcc@=11.1.0", "versions": ["0.8.7"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=python_pip"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.2/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/py-opentuner-0.8.7/linux-ubuntu20.04-ppc64le-gcc-11.1.0-py-opentuner-0.8.7-7rc6wmnzosorklkixb36xetkajg3fe4v.spack"}, {"hash": "vuke25k7uey7ytdjiu46fxgbcrbb7axr", "compiler": "gcc@=11.1.0", "versions": ["0.8.7"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.2/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-opentuner-0.8.7/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-opentuner-0.8.7-vuke25k7uey7ytdjiu46fxgbcrbb7axr.spack"}]
----

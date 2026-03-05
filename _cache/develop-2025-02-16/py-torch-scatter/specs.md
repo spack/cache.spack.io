@@ -1,7 +1,0 @@
----
-title: "py-torch-scatter"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["gcc@=13.2.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "ml-linux-x86_64-cpu": 1, "root": 2}, "oss": ["ubuntu24.04"], "platforms": ["linux"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-x86_64-cpu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["2.1.2"]}
-spec_details: [{"compiler": "gcc@=13.2.0", "hash": "pgv4gmzijpi3oett7dkadmdr6v5kwsey", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/py-torch-scatter-2.1.2/linux-ubuntu24.04-aarch64-gcc-13.2.0-py-torch-scatter-2.1.2-pgv4gmzijpi3oett7dkadmdr6v5kwsey.spack", "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["2.1.2"]}, {"compiler": "gcc@=13.2.0", "hash": "vertu323xfaxwtbrhw4ev3j3fe74zumq", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-torch-scatter-2.1.2/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-torch-scatter-2.1.2-vertu323xfaxwtbrhw4ev3j3fe74zumq.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.1.2"]}]
----

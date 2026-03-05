@@ -1,7 +1,0 @@
----
-title: "laghos"
-layout: cache
-categories: [package, develop-2025-04-06]
-meta: {"compilers": ["gcc@11.4.0", "intel-oneapi-compilers@2025.1.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "e4s-neoverse-v2": 1, "e4s-oneapi": 1, "root": 3}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-neoverse-v2", "e4s-oneapi", "root"], "targets": ["neoverse_v2", "x86_64_v3"], "versions": ["3.1"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "2s4lej2xqbj3uob4gdy3perxwcgefalu", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-neoverse-v2", "root"], "target": "neoverse_v2", "variants": ["build_system=makefile", "+metis", "~ofast", "patches:=e783a71"], "versions": ["3.1"]}, {"compiler": "gcc@11.4.0", "hash": "6k4ha64p3vrdwkw44m3rrtph4c3gvtde", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=makefile", "+metis", "~ofast", "patches:=e783a71"], "versions": ["3.1"]}, {"compiler": "intel-oneapi-compilers@2025.1.0", "hash": "un2ydbaazluyqpmqb74ms5st5aovlsf2", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=makefile", "+metis", "~ofast", "patches:=e783a71"], "versions": ["3.1"]}]
----

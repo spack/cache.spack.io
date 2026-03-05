@@ -1,7 +1,0 @@
----
-title: "perl-extutils-helpers"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "hep": 1, "root": 2}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "hep", "root"], "targets": ["x86_64_v3"], "versions": ["0.026"]}
-spec_details: [{"compiler": "gcc@=11.1.0", "hash": "mtd7bcbfdx7alvafmd54ybjnv5ulww7n", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/perl-extutils-helpers-0.026/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-perl-extutils-helpers-0.026-mtd7bcbfdx7alvafmd54ybjnv5ulww7n.spack", "target": "x86_64_v3", "variants": ["build_system=perl"], "versions": ["0.026"]}, {"compiler": "gcc@=11.4.0", "hash": "nuvz4ksntq4sethxa2v7d5itcqztagx4", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "hep", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/perl-extutils-helpers-0.026/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-perl-extutils-helpers-0.026-nuvz4ksntq4sethxa2v7d5itcqztagx4.spack", "target": "x86_64_v3", "variants": ["build_system=perl"], "versions": ["0.026"]}]
----

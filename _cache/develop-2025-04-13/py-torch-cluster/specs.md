@@ -1,7 +1,0 @@
----
-title: "py-torch-cluster"
-layout: cache
-categories: [package, develop-2025-04-13]
-meta: {"compilers": ["gcc@13.2.0"], "num_specs": 4, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 4}, "oss": ["ubuntu24.04"], "platforms": ["linux"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["1.6.3"]}
-spec_details: [{"compiler": "gcc@13.2.0", "hash": "7g5zgc6b7gxp2md622t2t7oupjeg7do3", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.6.3"]}, {"compiler": "gcc@13.2.0", "hash": "k23ykmhkussifokfggtgcpxutsf4vdvd", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.6.3"]}, {"compiler": "gcc@13.2.0", "hash": "uuhjq4o4tfbaz6qcjjm3b2a7pstcj7ab", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["1.6.3"]}, {"compiler": "gcc@13.2.0", "hash": "xfcd3ihthrbcneti5czpm6jnieypx3mx", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["1.6.3"]}]
----

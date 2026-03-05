@@ -1,7 +1,0 @@
----
-title: "py-tensorflow-probability"
-layout: cache
-categories: [package, develop-2023-06-11]
-meta: {"versions": ["0.18.0"], "compilers": ["gcc@=11.3.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-rocm": 1, "root": 2, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "g7dbvpqpfgb42q5r5dh37wc6e5zaujcw", "compiler": "gcc@=11.3.0", "versions": ["0.18.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-11/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-tensorflow-probability-0.18.0/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-tensorflow-probability-0.18.0-g7dbvpqpfgb42q5r5dh37wc6e5zaujcw.spack"}, {"hash": "2slmd3or76vf7knqjocrwyaodiq7c2wn", "compiler": "gcc@=11.3.0", "versions": ["0.18.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-11/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-tensorflow-probability-0.18.0/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-tensorflow-probability-0.18.0-2slmd3or76vf7knqjocrwyaodiq7c2wn.spack"}]
----

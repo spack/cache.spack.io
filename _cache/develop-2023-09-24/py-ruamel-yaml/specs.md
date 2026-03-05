@@ -1,7 +1,0 @@
----
-title: "py-ruamel-yaml"
-layout: cache
-categories: [package, develop-2023-09-24]
-meta: {"versions": ["0.17.32"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "2daq5oe2skx4dnl3aqhit5nhzqjntkuy", "compiler": "gcc@=11.1.0", "versions": ["0.17.32"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=python_pip"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-24/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/py-ruamel-yaml-0.17.32/linux-ubuntu20.04-ppc64le-gcc-11.1.0-py-ruamel-yaml-0.17.32-2daq5oe2skx4dnl3aqhit5nhzqjntkuy.spack"}, {"hash": "vqqqjdv2qpti7v3vbvtl26qzvjzygjlf", "compiler": "gcc@=11.1.0", "versions": ["0.17.32"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-24/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-ruamel-yaml-0.17.32/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-ruamel-yaml-0.17.32-vqqqjdv2qpti7v3vbvtl26qzvjzygjlf.spack"}]
----

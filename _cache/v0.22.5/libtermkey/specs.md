@@ -1,7 +1,0 @@
----
-title: "libtermkey"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "num_specs": 2, "num_specs_by_stack": {"developer-tools": 1, "developer-tools-manylinux2014": 1, "root": 2}, "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "targets": ["x86_64_v3"], "versions": ["0.22"]}
-spec_details: [{"compiler": "gcc@=10.2.1", "hash": "lbk5xgitupg3unf267yjwwbj4jwfajbf", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-manylinux2014", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/libtermkey-0.22/linux-centos7-x86_64_v3-gcc-10.2.1-libtermkey-0.22-lbk5xgitupg3unf267yjwwbj4jwfajbf.spack", "target": "x86_64_v3", "variants": ["build_system=makefile"], "versions": ["0.22"]}, {"compiler": "gcc@=7.5.0", "hash": "thw5cjg4vfjzzz7cpssczwk46gvr2nbt", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["developer-tools", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/libtermkey-0.22/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-libtermkey-0.22-thw5cjg4vfjzzz7cpssczwk46gvr2nbt.spack", "target": "x86_64_v3", "variants": ["build_system=makefile"], "versions": ["0.22"]}]
----

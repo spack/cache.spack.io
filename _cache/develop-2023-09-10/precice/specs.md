@@ -1,7 +1,0 @@
----
-title: "precice"
-layout: cache
-categories: [package, develop-2023-09-10]
-meta: {"versions": ["2.5.0"], "compilers": ["gcc@=11.1.0", "oneapi@=2023.2.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64", "x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-oneapi": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "2lhpgzcx6pj2dwkynlem42bxkjgrp4sr", "compiler": "oneapi@=2023.2.0", "versions": ["2.5.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=cmake", "build_type=Release", "~checked", "~debug_log", "generator=make", "~ipo", "+mpi", "+petsc", "~python", "+shared"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-10/build_cache/linux-ubuntu20.04-x86_64/oneapi-2023.2.0/precice-2.5.0/linux-ubuntu20.04-x86_64-oneapi-2023.2.0-precice-2.5.0-2lhpgzcx6pj2dwkynlem42bxkjgrp4sr.spack"}, {"hash": "4gxnqj2kmq6kqg7bta3p2usfiykpxmuz", "compiler": "gcc@=11.1.0", "versions": ["2.5.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~checked", "~debug_log", "generator=make", "~ipo", "+mpi", "+petsc", "~python", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-10/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/precice-2.5.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-precice-2.5.0-4gxnqj2kmq6kqg7bta3p2usfiykpxmuz.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "rocfft"
-layout: cache
-categories: [package, develop-2025-07-13]
-meta: {"compilers": ["gcc@11.4.0", "gcc@13.2.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "ml-linux-x86_64-rocm": 2, "root": 3}, "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["e4s", "ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["6.2.4", "6.4.1"]}
-spec_details: [{"compiler": "gcc@13.2.0", "hash": "4elfcjt6rkbzv4bpoeameux6inet25dl", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["amdgpu_target:=gfx90a", "amdgpu_target_sram_ecc:=auto", "~asan", "build_system=cmake", "build_type=Release", "generator=make", "~ipo", "patches:=0f79d30"], "versions": ["6.2.4"]}, {"compiler": "gcc@13.2.0", "hash": "gmcoi72gg2vknvslazpqvoyy2s5fivto", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["amdgpu_target:=gfx90a", "amdgpu_target_sram_ecc:=auto", "~asan", "build_system=cmake", "build_type=Release", "generator=make", "~ipo", "patches:=0f79d30"], "versions": ["6.2.4"]}, {"compiler": "gcc@11.4.0", "hash": "vp3ynd33zsxmzadwgx3fmvsthv5yfkan", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["amdgpu_target:=auto", "amdgpu_target_sram_ecc:=auto", "~asan", "build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["6.4.1"]}]
----

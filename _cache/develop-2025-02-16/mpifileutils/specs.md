@@ -1,7 +1,0 @@
----
-title: "mpifileutils"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["cce@=18.0.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-cray-rhel": 1, "root": 2}, "oss": ["rhel8", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-cray-rhel", "root"], "targets": ["x86_64_v3"], "versions": ["0.11.1"]}
-spec_details: [{"compiler": "cce@=18.0.0", "hash": "7dbc2maczybwxqzvfs46zjdfub3k45xb", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["e4s-cray-rhel", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-rhel8-x86_64_v3/cce-18.0.0/mpifileutils-0.11.1/linux-rhel8-x86_64_v3-cce-18.0.0-mpifileutils-0.11.1-7dbc2maczybwxqzvfs46zjdfub3k45xb.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~daos", "~experimental", "generator=make", "~gpfs", "~ipo", "~lustre", "~xattr"], "versions": ["0.11.1"]}, {"compiler": "gcc@=11.4.0", "hash": "6hvvayyuaoc7tfciebicryzqw7rh5n3f", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/mpifileutils-0.11.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-mpifileutils-0.11.1-6hvvayyuaoc7tfciebicryzqw7rh5n3f.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~daos", "~experimental", "generator=make", "~gpfs", "~ipo", "~lustre", "~xattr"], "versions": ["0.11.1"]}]
----

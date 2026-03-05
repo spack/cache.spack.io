@@ -1,7 +1,0 @@
----
-title: "gh"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "num_specs": 2, "num_specs_by_stack": {"developer-tools": 1, "developer-tools-manylinux2014": 1, "root": 2}, "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "targets": ["x86_64_v3"], "versions": ["2.43.1"]}
-spec_details: [{"compiler": "gcc@=7.5.0", "hash": "arfnccezk4zg5ls44uafimcstghqfkvl", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["developer-tools", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/gh-2.43.1/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-gh-2.43.1-arfnccezk4zg5ls44uafimcstghqfkvl.spack", "target": "x86_64_v3", "variants": ["build_system=generic"], "versions": ["2.43.1"]}, {"compiler": "gcc@=10.2.1", "hash": "ogh4bltdgme24sdiz62i5uw6v7ci6jhc", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-manylinux2014", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/gh-2.43.1/linux-centos7-x86_64_v3-gcc-10.2.1-gh-2.43.1-ogh4bltdgme24sdiz62i5uw6v7ci6jhc.spack", "target": "x86_64_v3", "variants": ["build_system=generic"], "versions": ["2.43.1"]}]
----

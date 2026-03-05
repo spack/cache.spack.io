@@ -1,7 +1,0 @@
----
-title: "jsoncpp"
-layout: cache
-categories: [package, develop-2025-04-20]
-meta: {"compilers": ["gcc@11.1.0", "gcc@11.4.0"], "num_specs": 3, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 2, "e4s-rocm-external": 1, "root": 3}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "e4s-rocm-external", "root"], "targets": ["x86_64_v3"], "versions": ["1.9.6"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "bpv2gvcekxikqab4jwov7jftsots6mcl", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["1.9.6"]}, {"compiler": "gcc@11.1.0", "hash": "kkdigyo7tpgs4ht3kb2r4qdv42ki4vrg", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library:=shared", "~strip"], "versions": ["1.9.6"]}, {"compiler": "gcc@11.4.0", "hash": "tlzjg6puxldjwgodk3y4uk5hoeneji2s", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "e4s-rocm-external", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["1.9.6"]}]
----

@@ -1,7 +1,0 @@
----
-title: "libdistributed"
-layout: cache
-categories: [package, develop-2024-06-09]
-meta: {"versions": ["0.4.3"], "compilers": ["gcc@=11.4.0", "oneapi@=2024.0.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-oneapi": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "shyakjkd7fq2jjfv6bjzi5lbkbufu7uw", "compiler": "oneapi@=2024.0.0", "versions": ["0.4.3"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-06-09/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.0.0/libdistributed-0.4.3/linux-ubuntu22.04-x86_64_v3-oneapi-2024.0.0-libdistributed-0.4.3-shyakjkd7fq2jjfv6bjzi5lbkbufu7uw.spack"}, {"hash": "uwma5c66lbf5nw6rrmlqd6zrc3wfezf7", "compiler": "gcc@=11.4.0", "versions": ["0.4.3"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-06-09/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/libdistributed-0.4.3/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-libdistributed-0.4.3-uwma5c66lbf5nw6rrmlqd6zrc3wfezf7.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "py-yq"
-layout: cache
-categories: [package, v0.22.3]
-meta: {"versions": ["2.12.2"], "compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-manylinux2014": 1, "root": 2, "developer-tools": 1}}
-spec_details: [{"hash": "2y3ptien75sjzvbo7sx6vbcssspxsgbv", "compiler": "gcc@=10.2.1", "versions": ["2.12.2"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.3/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/py-yq-2.12.2/linux-centos7-x86_64_v3-gcc-10.2.1-py-yq-2.12.2-2y3ptien75sjzvbo7sx6vbcssspxsgbv.spack"}, {"hash": "s6bxmv347p7yfxesbprmohw5hwlyvaso", "compiler": "gcc@=7.5.0", "versions": ["2.12.2"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["developer-tools", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.3/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-yq-2.12.2/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-yq-2.12.2-s6bxmv347p7yfxesbprmohw5hwlyvaso.spack"}]
----

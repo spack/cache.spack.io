@@ -1,7 +1,0 @@
----
-title: "py-configargparse"
-layout: cache
-categories: [package, develop-2025-02-09]
-meta: {"versions": ["1.7"], "compilers": ["gcc@=10.5.0", "gcc@=13.3.0"], "oss": ["centos7", "rhel8"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-x86_64_v3-linux-gnu": 1, "root": 2, "developer-tools-aarch64-linux-gnu": 1}}
-spec_details: [{"hash": "elcsl3ymxdg7jmia6div5wbeb3q6yr3r", "compiler": "gcc@=10.5.0", "versions": ["1.7"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-centos7-x86_64_v3/gcc-10.5.0/py-configargparse-1.7/linux-centos7-x86_64_v3-gcc-10.5.0-py-configargparse-1.7-elcsl3ymxdg7jmia6div5wbeb3q6yr3r.spack"}, {"hash": "47egjmwvfnzyqt22d5nsbywnxesglekp", "compiler": "gcc@=13.3.0", "versions": ["1.7"], "os": "rhel8", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-rhel8-aarch64/gcc-13.3.0/py-configargparse-1.7/linux-rhel8-aarch64-gcc-13.3.0-py-configargparse-1.7-47egjmwvfnzyqt22d5nsbywnxesglekp.spack"}]
----

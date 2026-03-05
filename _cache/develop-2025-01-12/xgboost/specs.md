@@ -1,7 +1,0 @@
----
-title: "xgboost"
-layout: cache
-categories: [package, develop-2025-01-12]
-meta: {"versions": ["2.1.1"], "compilers": ["gcc@=13.2.0"], "oss": ["ubuntu24.04"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-x86_64-cpu", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "root": 2, "ml-linux-x86_64-cpu": 1}}
-spec_details: [{"hash": "zjbikioz7s7zfopaeysazxdocp3emcxg", "compiler": "gcc@=13.2.0", "versions": ["2.1.1"], "os": "ubuntu24.04", "platform": "linux", "target": "aarch64", "variants": ["build_system=cmake", "build_type=Release", "~cuda", "generator=ninja", "~ipo", "~nccl", "+openmp"], "stacks": ["ml-linux-aarch64-cpu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/xgboost-2.1.1/linux-ubuntu24.04-aarch64-gcc-13.2.0-xgboost-2.1.1-zjbikioz7s7zfopaeysazxdocp3emcxg.spack"}, {"hash": "rbg5jjqnxac7unh2kiymlupcpj6w6fof", "compiler": "gcc@=13.2.0", "versions": ["2.1.1"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~cuda", "generator=ninja", "~ipo", "~nccl", "+openmp"], "stacks": ["ml-linux-x86_64-cpu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/xgboost-2.1.1/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-xgboost-2.1.1-rbg5jjqnxac7unh2kiymlupcpj6w6fof.spack"}]
----

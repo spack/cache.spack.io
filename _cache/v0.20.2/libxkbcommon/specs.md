@@ -1,7 +1,0 @@
----
-title: "libxkbcommon"
-layout: cache
-categories: [package, v0.20.2]
-meta: {"versions": ["1.4.0"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 2, "root": 2}}
-spec_details: [{"hash": "semb7qxul4qsd4vawdpleknk2w6mze7j", "compiler": "gcc@=11.1.0", "versions": ["1.4.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library=shared", "~strip", "~wayland"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.2/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/libxkbcommon-1.4.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-libxkbcommon-1.4.0-semb7qxul4qsd4vawdpleknk2w6mze7j.spack"}, {"hash": "jgggze77sz6wiuarvwsxkpqj5z33th3o", "compiler": "gcc@=11.1.0", "versions": ["1.4.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library=shared", "~strip", "~wayland"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.2/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/libxkbcommon-1.4.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-libxkbcommon-1.4.0-jgggze77sz6wiuarvwsxkpqj5z33th3o.spack"}]
----

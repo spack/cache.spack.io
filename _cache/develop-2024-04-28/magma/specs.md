@@ -1,7 +1,0 @@
----
-title: "magma"
-layout: cache
-categories: [package, develop-2024-04-28]
-meta: {"versions": ["2.8.0"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cuda": 2, "root": 2}}
-spec_details: [{"hash": "ffu5it4y7g4pnj6lckyokrcgyfo2a3xx", "compiler": "gcc@=11.4.0", "versions": ["2.8.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "+cuda", "cuda_arch=80", "+fortran", "generator=make", "~ipo", "~rocm", "+shared"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/magma-2.8.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-magma-2.8.0-ffu5it4y7g4pnj6lckyokrcgyfo2a3xx.spack"}, {"hash": "ocbvry4h3utigyp643vyafdyoyymqbw6", "compiler": "gcc@=11.4.0", "versions": ["2.8.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "+cuda", "cuda_arch=80", "+fortran", "generator=make", "~ipo", "~rocm", "+shared"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/magma-2.8.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-magma-2.8.0-ocbvry4h3utigyp643vyafdyoyymqbw6.spack"}]
----

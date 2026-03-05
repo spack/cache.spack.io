@@ -1,7 +1,0 @@
----
-title: "libfms"
-layout: cache
-categories: [package, develop-2023-12-17]
-meta: {"versions": ["0.2.0"], "compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "icepd4edvu5tbzifmg2652iv7as7z3e3", "compiler": "gcc@=11.1.0", "versions": ["0.2.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "+conduit", "generator=make", "~ipo", "+shared"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-12-17/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/libfms-0.2.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-libfms-0.2.0-icepd4edvu5tbzifmg2652iv7as7z3e3.spack"}, {"hash": "ma2cbwrunsd3mzovsjgi7tgc7kffov4u", "compiler": "gcc@=11.4.0", "versions": ["0.2.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "+conduit", "generator=make", "~ipo", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-12-17/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/libfms-0.2.0/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-libfms-0.2.0-ma2cbwrunsd3mzovsjgi7tgc7kffov4u.spack"}]
----

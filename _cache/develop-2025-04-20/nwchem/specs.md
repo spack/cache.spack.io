@@ -1,7 +1,0 @@
----
-title: "nwchem"
-layout: cache
-categories: [package, develop-2025-04-20]
-meta: {"compilers": ["gcc@11.4.0", "intel-oneapi-compilers@2025.1.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "e4s-neoverse-v2": 1, "e4s-oneapi": 1, "root": 3}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-neoverse-v2", "e4s-oneapi", "root"], "targets": ["neoverse_v2", "x86_64_v3"], "versions": ["7.2.3"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "4xnomh6lxmy7c2sgbnw6k2ygnngw7bcs", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-neoverse-v2", "root"], "target": "neoverse_v2", "variants": ["armci=mpi-ts", "build_system=generic", "~elpa", "~extratce", "~f90allocatable", "~fftw3", "~libxc", "~openmp", "~tcecuda"], "versions": ["7.2.3"]}, {"compiler": "gcc@11.4.0", "hash": "fbp4qx7jl6e4dythuobhjqbsrsikf325", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["armci=mpi-ts", "build_system=generic", "~elpa", "~extratce", "~f90allocatable", "~fftw3", "~libxc", "~openmp", "~tcecuda"], "versions": ["7.2.3"]}, {"compiler": "intel-oneapi-compilers@2025.1.0", "hash": "w7g7t5zqeruksqb2gphaxrkww5ru7str", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["armci=mpi-ts", "build_system=generic", "~elpa", "~extratce", "~f90allocatable", "~fftw3", "~libxc", "~openmp", "patches:=f8e2f42", "~tcecuda"], "versions": ["7.2.3"]}]
----

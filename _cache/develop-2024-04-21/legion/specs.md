@@ -1,7 +1,0 @@
----
-title: "legion"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["24.03.0"], "compilers": ["gcc@=10.3.0"], "oss": ["sle_hpc15"], "platforms": ["linux"], "targets": ["x86_64_v4"], "stacks": ["e4s-cray-sles", "root"], "num_specs": 1, "num_specs_by_stack": {"e4s-cray-sles": 1, "root": 1}}
-spec_details: [{"hash": "7ywerzb7mlccihof3or2ck3owulew4ld", "compiler": "gcc@=10.3.0", "versions": ["24.03.0"], "os": "sle_hpc15", "platform": "linux", "target": "x86_64_v4", "variants": ["~bindings", "~bounds_checks", "build_system=cmake", "build_type=Release", "~cuda", "cuda_arch=70", "~cuda_hijack", "~cuda_unsupported_compiler", "cxxstd=11", "~fortran", "generator=make", "~hdf5", "~hwloc", "~ipo", "~kokkos", "+libdl", "max_dims=3", "max_fields=512", "max_num_nodes=1024", "network=none", "~openmp", "output_level=warning", "~papi", "~privilege_checks", "~prof", "~python", "~redop_complex", "~rocm", "~shared", "~spy", "+zlib"], "stacks": ["e4s-cray-sles", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-sle_hpc15-x86_64_v4/gcc-10.3.0/legion-24.03.0/linux-sle_hpc15-x86_64_v4-gcc-10.3.0-legion-24.03.0-7ywerzb7mlccihof3or2ck3owulew4ld.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "py-mpmath"
-layout: cache
-categories: [package, develop-2023-05-18]
-meta: {"versions": ["1.2.1"], "compilers": ["gcc@=11.1.0", "gcc@=11.3.0"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "ml-linux-x86_64-rocm": 1}}
-spec_details: [{"hash": "hk2ozkflhnyde4qnehib3zjvrtvg2g22", "compiler": "gcc@=11.1.0", "versions": ["1.2.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-05-18/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-mpmath-1.2.1/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-mpmath-1.2.1-hk2ozkflhnyde4qnehib3zjvrtvg2g22.spack"}, {"hash": "o26vuv6esmlvgkgey5nib54skpm56ej4", "compiler": "gcc@=11.3.0", "versions": ["1.2.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-05-18/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-mpmath-1.2.1/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-mpmath-1.2.1-o26vuv6esmlvgkgey5nib54skpm56ej4.spack"}]
----

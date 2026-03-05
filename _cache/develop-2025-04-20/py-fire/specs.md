@@ -1,7 +1,0 @@
----
-title: "py-fire"
-layout: cache
-categories: [package, develop-2025-04-20]
-meta: {"compilers": ["none"], "num_specs": 3, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "ml-linux-x86_64-rocm": 1, "root": 3}, "oss": ["sequoia", "ubuntu24.04"], "platforms": ["darwin", "linux"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["0.4.0"]}
-spec_details: [{"compiler": "none", "hash": "3x4eno7xk4frtineej4xlsaehixhdomj", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["ml-darwin-aarch64-mps", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["0.4.0"]}, {"compiler": "none", "hash": "ac7y4cxlwo2wcwpq3mretstnsfyc7ums", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["0.4.0"]}, {"compiler": "none", "hash": "yxp5ryrkees25t2ytu3mwaakvli7yggr", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.4.0"]}]
----

@@ -1,7 +1,0 @@
----
-title: "py-botorch"
-layout: cache
-categories: [package, develop-2025-05-25]
-meta: {"compilers": ["none"], "num_specs": 4, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 4}, "oss": ["sequoia", "ubuntu24.04"], "platforms": ["darwin", "linux"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["0.8.4"]}
-spec_details: [{"compiler": "none", "hash": "6aqs5fffnf5yycismefnjmuw2aullfz2", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["0.8.4"]}, {"compiler": "none", "hash": "bjw6c3727kuz7unwr4xwmlv52dmwwcoi", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.8.4"]}, {"compiler": "none", "hash": "hk7llpuzumqg4tmb2ogoyyi26tkw4om5", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.8.4"]}, {"compiler": "none", "hash": "n7ftcfrukwlqj7ykdgqr26it234th2uh", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["ml-darwin-aarch64-mps", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["0.8.4"]}]
----

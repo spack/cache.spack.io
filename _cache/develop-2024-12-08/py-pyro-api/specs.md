@@ -1,7 +1,0 @@
----
-title: "py-pyro-api"
-layout: cache
-categories: [package, develop-2024-12-08]
-meta: {"versions": ["0.1.2"], "compilers": ["gcc@=13.2.0"], "oss": ["ubuntu24.04"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "root": 2, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "k77cjfpvixrxi546ndbb3cwtdseyt4c5", "compiler": "gcc@=13.2.0", "versions": ["0.1.2"], "os": "ubuntu24.04", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-aarch64-cpu", "root", "ml-linux-aarch64-cuda"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-12-08/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/py-pyro-api-0.1.2/linux-ubuntu24.04-aarch64-gcc-13.2.0-py-pyro-api-0.1.2-k77cjfpvixrxi546ndbb3cwtdseyt4c5.spack"}, {"hash": "heogpnfn4r73rrdrjnaraqnfryv6slta", "compiler": "gcc@=13.2.0", "versions": ["0.1.2"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-12-08/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-pyro-api-0.1.2/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-pyro-api-0.1.2-heogpnfn4r73rrdrjnaraqnfryv6slta.spack"}]
----

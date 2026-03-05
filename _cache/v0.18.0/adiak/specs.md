@@ -1,7 +1,0 @@
----
-title: "adiak"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["0.2.1"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "radiuss", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "radiuss": 1}}
-spec_details: [{"hash": "smczgrzi47zhcgc7lqtkmeyyrtdrw5zo", "compiler": "gcc@=7.5.0", "versions": ["0.2.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_type=RelWithDebInfo", "~ipo", "+mpi", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/adiak-0.2.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-adiak-0.2.1-smczgrzi47zhcgc7lqtkmeyyrtdrw5zo.spack"}, {"hash": "xauvwzeiviqeo2s5y5jmpp2ek3yi6oc6", "compiler": "gcc@=7.5.0", "versions": ["0.2.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_type=RelWithDebInfo", "~ipo", "+mpi", "+shared"], "stacks": ["radiuss", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/adiak-0.2.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-adiak-0.2.1-xauvwzeiviqeo2s5y5jmpp2ek3yi6oc6.spack"}]
----

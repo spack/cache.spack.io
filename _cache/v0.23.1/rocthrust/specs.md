@@ -1,7 +1,0 @@
----
-title: "rocthrust"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 2, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "root"], "targets": ["x86_64_v3"], "versions": ["6.2.1"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "el6ownespdwhaqtjagqn2bms2tvosfvp", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/rocthrust-6.2.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-rocthrust-6.2.1-el6ownespdwhaqtjagqn2bms2tvosfvp.spack", "target": "x86_64_v3", "variants": ["amdgpu_target=auto", "build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["6.2.1"]}, {"compiler": "gcc@=11.4.0", "hash": "r754qwsah2gdylk6pxceiyfi6g4miczx", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/rocthrust-6.2.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-rocthrust-6.2.1-r754qwsah2gdylk6pxceiyfi6g4miczx.spack", "target": "x86_64_v3", "variants": ["amdgpu_target=auto", "build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["6.2.1"]}]
----

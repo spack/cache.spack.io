@@ -1,7 +1,0 @@
----
-title: "netcdf-c"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["4.8.1"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "bnfgc5r233gdqoqdm6biqaj5yyktyu3y", "compiler": "gcc@=7.5.0", "versions": ["4.8.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~dap", "~fsync", "~hdf4", "~jna", "+mpi", "~parallel-netcdf", "patches=de556da", "+pic", "+shared"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/netcdf-c-4.8.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-netcdf-c-4.8.1-bnfgc5r233gdqoqdm6biqaj5yyktyu3y.spack"}, {"hash": "wgvygtc5ttx3vx72zk5cdlbxuytggb4f", "compiler": "gcc@=7.5.0", "versions": ["4.8.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~dap", "~fsync", "~hdf4", "~jna", "+mpi", "~parallel-netcdf", "patches=de556da", "+pic", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/netcdf-c-4.8.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-netcdf-c-4.8.1-wgvygtc5ttx3vx72zk5cdlbxuytggb4f.spack"}]
----

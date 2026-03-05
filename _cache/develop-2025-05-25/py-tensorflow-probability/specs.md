@@ -1,7 +1,0 @@
----
-title: "py-tensorflow-probability"
-layout: cache
-categories: [package, develop-2025-05-25]
-meta: {"compilers": ["none"], "num_specs": 3, "num_specs_by_stack": {"hep": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "ml-linux-x86_64-rocm": 1, "root": 3}, "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["hep", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["0.24.0", "0.25.0"]}
-spec_details: [{"compiler": "none", "hash": "d6pyc4ac5ugywu3ysqug72xepabinqxn", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=generic", "~jax", "~tf"], "versions": ["0.24.0"]}, {"compiler": "none", "hash": "n33uum64vc7jpryqjeb2srvkn5pz7vkf", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=generic", "~jax", "~tf"], "versions": ["0.25.0"]}, {"compiler": "none", "hash": "v7d73j3owdfonkgau2vlrppg6paqotwk", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=generic", "~jax", "~tf"], "versions": ["0.25.0"]}]
----

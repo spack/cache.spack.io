@@ -1,7 +1,0 @@
----
-title: "py-autograd"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["1.6.2"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["neoverse_v1", "x86_64_v3"], "stacks": ["e4s", "e4s-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-neoverse_v1": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "s44tpncfuny5dm55mevdyyapunmuzv3y", "compiler": "gcc@=11.4.0", "versions": ["1.6.2"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=python_pip"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-neoverse_v1/gcc-11.4.0/py-autograd-1.6.2/linux-ubuntu22.04-neoverse_v1-gcc-11.4.0-py-autograd-1.6.2-s44tpncfuny5dm55mevdyyapunmuzv3y.spack"}, {"hash": "6f35b7ediq4pymo7ahizqzui2camhk4m", "compiler": "gcc@=11.4.0", "versions": ["1.6.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-autograd-1.6.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-autograd-1.6.2-6f35b7ediq4pymo7ahizqzui2camhk4m.spack"}]
----

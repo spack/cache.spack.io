@@ -1,7 +1,0 @@
----
-title: "py-torch-geometric"
-layout: cache
-categories: [package, v0.20.2]
-meta: {"versions": ["2.1.0.post1"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cuda": 1, "root": 2, "ml-linux-x86_64-cpu": 1}}
-spec_details: [{"hash": "wdfecs2uz6sy4zphjpjtkxzwfuzj5woa", "compiler": "gcc@=11.4.0", "versions": ["2.1.0.post1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "+cuda"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.2/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-torch-geometric-2.1.0.post1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-torch-geometric-2.1.0.post1-wdfecs2uz6sy4zphjpjtkxzwfuzj5woa.spack"}, {"hash": "4rr5ehq5dwpokd7udidrnf2cl6izwto2", "compiler": "gcc@=11.4.0", "versions": ["2.1.0.post1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~cuda"], "stacks": ["ml-linux-x86_64-cpu", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.2/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-torch-geometric-2.1.0.post1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-torch-geometric-2.1.0.post1-4rr5ehq5dwpokd7udidrnf2cl6izwto2.spack"}]
----

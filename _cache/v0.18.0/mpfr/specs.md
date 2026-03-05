@@ -1,7 +1,0 @@
----
-title: "mpfr"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["3.1.6", "4.1.0"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "radiuss", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"radiuss": 1, "root": 2, "e4s": 1, "tutorial": 2}}
-spec_details: [{"hash": "3txoqc5ghe6wlh4l3nyqkt6re4didzd4", "compiler": "gcc@=7.5.0", "versions": ["4.1.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["libs=shared,static"], "stacks": ["radiuss", "root", "e4s", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/mpfr-4.1.0/linux-ubuntu18.04-x86_64-gcc-7.5.0-mpfr-4.1.0-3txoqc5ghe6wlh4l3nyqkt6re4didzd4.spack"}, {"hash": "vmql5cb4vcdkgkonkqgzdkryyb5dy7jl", "compiler": "gcc@=7.5.0", "versions": ["3.1.6"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["libs=shared,static", "patches=7a6dd71"], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/mpfr-3.1.6/linux-ubuntu18.04-x86_64-gcc-7.5.0-mpfr-3.1.6-vmql5cb4vcdkgkonkqgzdkryyb5dy7jl.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "composable-kernel"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=13.2.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-rocm": 2, "root": 2}, "oss": ["ubuntu24.04"], "platforms": ["linux"], "stacks": ["ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["6.1.2"]}
-spec_details: [{"compiler": "gcc@=13.2.0", "hash": "37u6y7vxd2vqcw5ntxfxyqgomueo5bgj", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/composable-kernel-6.1.2/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-composable-kernel-6.1.2-37u6y7vxd2vqcw5ntxfxyqgomueo5bgj.spack", "target": "x86_64_v3", "variants": ["amdgpu_target=gfx90a", "build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["6.1.2"]}, {"compiler": "gcc@=13.2.0", "hash": "fm2zey2g6dydfys73wuf62aa7gwn3p3t", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/composable-kernel-6.1.2/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-composable-kernel-6.1.2-fm2zey2g6dydfys73wuf62aa7gwn3p3t.spack", "target": "x86_64_v3", "variants": ["amdgpu_target=gfx90a", "build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["6.1.2"]}]
----

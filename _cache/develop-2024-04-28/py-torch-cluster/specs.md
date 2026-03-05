@@ -1,7 +1,0 @@
----
-title: "py-torch-cluster"
-layout: cache
-categories: [package, develop-2024-04-28]
-meta: {"versions": ["1.6.3"], "compilers": ["apple-clang@=15.0.0", "gcc@=11.4.0"], "oss": ["ubuntu22.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cuda": 1, "root": 2, "ml-darwin-aarch64-mps": 1}}
-spec_details: [{"hash": "xppeyobjt4d2jhhutrg2nkqvk5yvzhr3", "compiler": "gcc@=11.4.0", "versions": ["1.6.3"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "+cuda"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-torch-cluster-1.6.3/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-torch-cluster-1.6.3-xppeyobjt4d2jhhutrg2nkqvk5yvzhr3.spack"}, {"hash": "bgkldemzjdxjxagwn5hik5le3unn7sot", "compiler": "apple-clang@=15.0.0", "versions": ["1.6.3"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip", "~cuda"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-torch-cluster-1.6.3/darwin-ventura-aarch64-apple-clang-15.0.0-py-torch-cluster-1.6.3-bgkldemzjdxjxagwn5hik5le3unn7sot.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "openturns"
-layout: cache
-categories: [package, v0.20.3]
-meta: {"versions": ["1.18"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "lcuhefmye35a2yphrp25vkr6crmzxbz6", "compiler": "gcc@=11.1.0", "versions": ["1.18"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+python"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.3/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/openturns-1.18/linux-ubuntu20.04-ppc64le-gcc-11.1.0-openturns-1.18-lcuhefmye35a2yphrp25vkr6crmzxbz6.spack"}, {"hash": "3roroilgaykptxaghlvhurwb2zmclp2l", "compiler": "gcc@=11.1.0", "versions": ["1.18"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+python"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.3/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/openturns-1.18/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-openturns-1.18-3roroilgaykptxaghlvhurwb2zmclp2l.spack"}]
----

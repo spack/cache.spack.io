@@ -1,7 +1,0 @@
----
-title: "nextflow"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["23.10.1"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "mwznnd35lnff4zhnasmly7xxc5w65g2g", "compiler": "gcc@=7.3.1", "versions": ["23.10.1"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=generic"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/nextflow-23.10.1/linux-amzn2-neoverse_n1-gcc-7.3.1-nextflow-23.10.1-mwznnd35lnff4zhnasmly7xxc5w65g2g.spack"}, {"hash": "fhxkawytkzszdj5vpcsqj5pfxx6cimjd", "compiler": "gcc@=7.3.1", "versions": ["23.10.1"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=generic"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/nextflow-23.10.1/linux-amzn2-aarch64-gcc-7.3.1-nextflow-23.10.1-fhxkawytkzszdj5vpcsqj5pfxx6cimjd.spack"}]
----

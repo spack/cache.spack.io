@@ -1,7 +1,0 @@
----
-title: "tree-sitter"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "num_specs": 2, "num_specs_by_stack": {"developer-tools": 1, "developer-tools-manylinux2014": 1, "root": 2}, "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "targets": ["x86_64_v3"], "versions": ["0.22.2"]}
-spec_details: [{"compiler": "gcc@=7.5.0", "hash": "7adq63pcbhdard4pzln45lsznzut54od", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["developer-tools", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/tree-sitter-0.22.2/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-tree-sitter-0.22.2-7adq63pcbhdard4pzln45lsznzut54od.spack", "target": "x86_64_v3", "variants": ["build_system=makefile"], "versions": ["0.22.2"]}, {"compiler": "gcc@=10.2.1", "hash": "iqucusaw2ot4r54e6qfsqnzpesuzpr2o", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-manylinux2014", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/tree-sitter-0.22.2/linux-centos7-x86_64_v3-gcc-10.2.1-tree-sitter-0.22.2-iqucusaw2ot4r54e6qfsqnzpesuzpr2o.spack", "target": "x86_64_v3", "variants": ["build_system=makefile"], "versions": ["0.22.2"]}]
----

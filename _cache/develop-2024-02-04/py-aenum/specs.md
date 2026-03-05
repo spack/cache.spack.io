@@ -1,7 +1,0 @@
----
-title: "py-aenum"
-layout: cache
-categories: [package, develop-2024-02-04]
-meta: {"versions": ["3.1.12"], "compilers": ["apple-clang@=15.0.0", "gcc@=11.4.0"], "oss": ["ubuntu22.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "root": 2, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "vojo7pp67wzfd4nk4ivipgkiqfbyhu6v", "compiler": "apple-clang@=15.0.0", "versions": ["3.1.12"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-02-04/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-aenum-3.1.12/darwin-ventura-aarch64-apple-clang-15.0.0-py-aenum-3.1.12-vojo7pp67wzfd4nk4ivipgkiqfbyhu6v.spack"}, {"hash": "jzp4p53aptjruzncnvwmjo6vyxgyvkgi", "compiler": "gcc@=11.4.0", "versions": ["3.1.12"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-02-04/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-aenum-3.1.12/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-aenum-3.1.12-jzp4p53aptjruzncnvwmjo6vyxgyvkgi.spack"}]
----

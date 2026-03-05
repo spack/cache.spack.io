@@ -1,7 +1,0 @@
----
-title: "rocsparse"
-layout: cache
-categories: [package, develop-2023-10-08]
-meta: {"versions": ["5.5.1", "5.6.1"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 2}}
-spec_details: [{"hash": "3qids7u6vcrd65rw4dha3l33je4swtm5", "compiler": "gcc@=11.4.0", "versions": ["5.6.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["amdgpu_target=auto", "build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~test"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-10-08/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/rocsparse-5.6.1/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-rocsparse-5.6.1-3qids7u6vcrd65rw4dha3l33je4swtm5.spack"}, {"hash": "uk3qjieqv4fzejk5ur4b2zhypguzljgv", "compiler": "gcc@=11.4.0", "versions": ["5.5.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["amdgpu_target=auto", "build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~test"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-10-08/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/rocsparse-5.5.1/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-rocsparse-5.5.1-uk3qjieqv4fzejk5ur4b2zhypguzljgv.spack"}]
----

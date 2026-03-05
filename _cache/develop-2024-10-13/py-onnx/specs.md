@@ -1,7 +1,0 @@
----
-title: "py-onnx"
-layout: cache
-categories: [package, develop-2024-10-13]
-meta: {"versions": ["1.16.2"], "compilers": ["apple-clang@=15.0.0", "gcc@=13.2.0"], "oss": ["ubuntu24.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "root": 2, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "ml-linux-x86_64-rocm": 1}}
-spec_details: [{"hash": "yjb53wcbox4aji3vwfazd3p5g2zpvmfp", "compiler": "apple-clang@=15.0.0", "versions": ["1.16.2"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-13/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-onnx-1.16.2/darwin-ventura-aarch64-apple-clang-15.0.0-py-onnx-1.16.2-yjb53wcbox4aji3vwfazd3p5g2zpvmfp.spack"}, {"hash": "gxouo5r3mb3y2s2tf5dqqkysu5xen7ww", "compiler": "gcc@=13.2.0", "versions": ["1.16.2"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-13/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-onnx-1.16.2/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-onnx-1.16.2-gxouo5r3mb3y2s2tf5dqqkysu5xen7ww.spack"}]
----

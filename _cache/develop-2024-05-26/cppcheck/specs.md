@@ -1,7 +1,0 @@
----
-title: "cppcheck"
-layout: cache
-categories: [package, develop-2024-05-26]
-meta: {"versions": ["2.9"], "compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-manylinux2014": 1, "root": 2, "developer-tools": 1}}
-spec_details: [{"hash": "atzps4sc5u7uvsqw7gmdd2xo2cops4cx", "compiler": "gcc@=10.2.1", "versions": ["2.9"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~htmlreport", "~ipo", "~rules"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-26/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/cppcheck-2.9/linux-centos7-x86_64_v3-gcc-10.2.1-cppcheck-2.9-atzps4sc5u7uvsqw7gmdd2xo2cops4cx.spack"}, {"hash": "kmo5oecdxyso567eheomcyutwo4if6cd", "compiler": "gcc@=7.5.0", "versions": ["2.9"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~htmlreport", "~ipo", "~rules"], "stacks": ["developer-tools", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-26/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/cppcheck-2.9/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-cppcheck-2.9-kmo5oecdxyso567eheomcyutwo4if6cd.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "py-annotated-types"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=13.2.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 2}, "oss": ["ubuntu24.04"], "platforms": ["linux"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["0.7.0"]}
-spec_details: [{"compiler": "gcc@=13.2.0", "hash": "kdsdlmtt2u6m5vnabhvjc3lu33syplyt", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/py-annotated-types-0.7.0/linux-ubuntu24.04-aarch64-gcc-13.2.0-py-annotated-types-0.7.0-kdsdlmtt2u6m5vnabhvjc3lu33syplyt.spack", "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["0.7.0"]}, {"compiler": "gcc@=13.2.0", "hash": "bbtwkexoom7o3wd6plm3zbxkq6bw2a4u", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-annotated-types-0.7.0/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-annotated-types-0.7.0-bbtwkexoom7o3wd6plm3zbxkq6bw2a4u.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.7.0"]}]
----

@@ -1,7 +1,0 @@
----
-title: "nlopt"
-layout: cache
-categories: [package, develop-2023-05-21]
-meta: {"versions": ["2.7.0"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "35lsind575savsyhu7o2nj2tsfgmpryk", "compiler": "gcc@=11.1.0", "versions": ["2.7.0"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=cmake", "build_type=Release", "~cxx", "generator=make", "~guile", "~ipo", "~matlab", "~octave", "+python", "+shared"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-05-21/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/nlopt-2.7.0/linux-ubuntu20.04-ppc64le-gcc-11.1.0-nlopt-2.7.0-35lsind575savsyhu7o2nj2tsfgmpryk.spack"}, {"hash": "nemqbzvadnvb7sj27ew2aej3s7xtrkkh", "compiler": "gcc@=11.1.0", "versions": ["2.7.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~cxx", "generator=make", "~guile", "~ipo", "~matlab", "~octave", "+python", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-05-21/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/nlopt-2.7.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-nlopt-2.7.0-nemqbzvadnvb7sj27ew2aej3s7xtrkkh.spack"}]
----

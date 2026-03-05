@@ -1,7 +1,0 @@
----
-title: "papyrus"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["cce@=18.0.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-cray-rhel": 1, "root": 2}, "oss": ["rhel8", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-cray-rhel", "root"], "targets": ["x86_64_v3"], "versions": ["1.0.2"]}
-spec_details: [{"compiler": "cce@=18.0.0", "hash": "qu2n534a4q2xncbo4uqz6yg2e6ddz5ao", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["e4s-cray-rhel", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-rhel8-x86_64_v3/cce-18.0.0/papyrus-1.0.2/linux-rhel8-x86_64_v3-cce-18.0.0-papyrus-1.0.2-qu2n534a4q2xncbo4uqz6yg2e6ddz5ao.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["1.0.2"]}, {"compiler": "gcc@=11.4.0", "hash": "7zbtar4v4kibo45wnjahu7ubpbmzhncf", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/papyrus-1.0.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-papyrus-1.0.2-7zbtar4v4kibo45wnjahu7ubpbmzhncf.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["1.0.2"]}]
----

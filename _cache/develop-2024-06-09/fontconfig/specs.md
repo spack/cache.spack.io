@@ -1,7 +1,0 @@
----
-title: "fontconfig"
-layout: cache
-categories: [package, develop-2024-06-09]
-meta: {"versions": ["2.15.0"], "compilers": ["gcc@=10.2.1", "gcc@=11.1.0"], "oss": ["centos7", "ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "developer-tools-manylinux2014": 1}}
-spec_details: [{"hash": "npum63gtc5wyl7kgwqo44w6piqs4cbqf", "compiler": "gcc@=11.1.0", "versions": ["2.15.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-06-09/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/fontconfig-2.15.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-fontconfig-2.15.0-npum63gtc5wyl7kgwqo44w6piqs4cbqf.spack"}, {"hash": "jcumoiv4fpkvsyvneg4qtwetzufhk2pm", "compiler": "gcc@=10.2.1", "versions": ["2.15.0"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-06-09/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/fontconfig-2.15.0/linux-centos7-x86_64_v3-gcc-10.2.1-fontconfig-2.15.0-jcumoiv4fpkvsyvneg4qtwetzufhk2pm.spack"}]
----

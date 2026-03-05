@@ -1,7 +1,0 @@
----
-title: "py-patsy"
-layout: cache
-categories: [package, v0.20.3]
-meta: {"versions": ["0.5.2"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "i2xmwguz5wn2jxkrtt2i37hj37jwoyox", "compiler": "gcc@=11.1.0", "versions": ["0.5.2"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=python_pip", "~splines"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.3/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/py-patsy-0.5.2/linux-ubuntu20.04-ppc64le-gcc-11.1.0-py-patsy-0.5.2-i2xmwguz5wn2jxkrtt2i37hj37jwoyox.spack"}, {"hash": "fq4hszikwbycogkg7cmbkq2cclqkdvp6", "compiler": "gcc@=11.1.0", "versions": ["0.5.2"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~splines"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.3/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-patsy-0.5.2/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-patsy-0.5.2-fq4hszikwbycogkg7cmbkq2cclqkdvp6.spack"}]
----

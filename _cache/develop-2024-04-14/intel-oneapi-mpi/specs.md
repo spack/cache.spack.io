@@ -1,7 +1,0 @@
----
-title: "intel-oneapi-mpi"
-layout: cache
-categories: [package, develop-2024-04-14]
-meta: {"versions": ["2021.12.0"], "compilers": ["oneapi@=2023.2.0"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3", "x86_64_v4"], "stacks": ["aws-pcluster-x86_64_v4", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "aws-pcluster-x86_64_v4": 2}}
-spec_details: [{"hash": "b3gw3pxzn2brzcg5xp7auwait2nmdcyb", "compiler": "oneapi@=2023.2.0", "versions": ["2021.12.0"], "os": "amzn2", "platform": "linux", "target": "x86_64_v4", "variants": ["build_system=generic", "+envmods", "+external-libfabric", "+generic-names", "~ilp64"], "stacks": ["root", "aws-pcluster-x86_64_v4"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-x86_64_v4/oneapi-2023.2.0/intel-oneapi-mpi-2021.12.0/linux-amzn2-x86_64_v4-oneapi-2023.2.0-intel-oneapi-mpi-2021.12.0-b3gw3pxzn2brzcg5xp7auwait2nmdcyb.spack"}, {"hash": "j66zo3u42pwllaot6pjlcz7qqungrzhw", "compiler": "oneapi@=2023.2.0", "versions": ["2021.12.0"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic", "+envmods", "+external-libfabric", "+generic-names", "~ilp64"], "stacks": ["root", "aws-pcluster-x86_64_v4"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-x86_64_v3/oneapi-2023.2.0/intel-oneapi-mpi-2021.12.0/linux-amzn2-x86_64_v3-oneapi-2023.2.0-intel-oneapi-mpi-2021.12.0-j66zo3u42pwllaot6pjlcz7qqungrzhw.spack"}]
----

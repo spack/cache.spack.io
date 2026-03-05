@@ -1,7 +1,0 @@
----
-title: "py-maturin"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cpu": 2, "ml-linux-x86_64-cuda": 2, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["x86_64_v3"], "versions": ["1.5.1"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "cj4gashp2thxvhry25rcovascee56apo", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-maturin-1.5.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-maturin-1.5.1-cj4gashp2thxvhry25rcovascee56apo.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.5.1"]}, {"compiler": "gcc@=11.4.0", "hash": "gt7e7fivf7ufmq4mgjz7kertim5pggar", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-maturin-1.5.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-maturin-1.5.1-gt7e7fivf7ufmq4mgjz7kertim5pggar.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.5.1"]}]
----

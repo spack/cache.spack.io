@@ -1,7 +1,0 @@
----
-title: "py-smart-open"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["5.2.1"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "a4jnez6ma4jalmuiwu2eh5d6hphrt4mf", "compiler": "gcc@=7.3.1", "versions": ["5.2.1"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["~azure", "build_system=python_pip", "~gcs", "+http", "~s3"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/py-smart-open-5.2.1/linux-amzn2-neoverse_n1-gcc-7.3.1-py-smart-open-5.2.1-a4jnez6ma4jalmuiwu2eh5d6hphrt4mf.spack"}, {"hash": "rhsbejenwnh2o5kbdqtadh4hkzzk5k2n", "compiler": "gcc@=7.3.1", "versions": ["5.2.1"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["~azure", "build_system=python_pip", "~gcs", "+http", "~s3"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/py-smart-open-5.2.1/linux-amzn2-aarch64-gcc-7.3.1-py-smart-open-5.2.1-rhsbejenwnh2o5kbdqtadh4hkzzk5k2n.spack"}]
----

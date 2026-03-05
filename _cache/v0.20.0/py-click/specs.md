@@ -1,7 +1,0 @@
----
-title: "py-click"
-layout: cache
-categories: [package, v0.20.0]
-meta: {"versions": ["7.1.2", "8.1.3"], "compilers": ["gcc@=11.3.0", "gcc@=7.5.0"], "oss": ["ubuntu18.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "radiuss", "root"], "num_specs": 2, "num_specs_by_stack": {"radiuss": 1, "root": 2, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "3nsjxfuuvderryjco2pwz7ai6fvh7ar7", "compiler": "gcc@=7.5.0", "versions": ["7.1.2"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["radiuss", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.0/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-click-7.1.2/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-click-7.1.2-3nsjxfuuvderryjco2pwz7ai6fvh7ar7.spack"}, {"hash": "j4ugdeqzpugjhmkb3uycfof73rzdbvk5", "compiler": "gcc@=11.3.0", "versions": ["8.1.3"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.0/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-click-8.1.3/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-click-8.1.3-j4ugdeqzpugjhmkb3uycfof73rzdbvk5.spack"}]
----

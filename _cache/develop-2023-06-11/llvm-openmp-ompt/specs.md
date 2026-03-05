@@ -1,7 +1,0 @@
----
-title: "llvm-openmp-ompt"
-layout: cache
-categories: [package, develop-2023-06-11]
-meta: {"versions": ["tr6_forwards"], "compilers": ["gcc@=11.1.0", "oneapi@=2023.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64", "x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "cdvrpdshtkp3vaztbfhiatfwikaje3to", "compiler": "gcc@=11.1.0", "versions": ["tr6_forwards"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=ninja", "~ipo", "+libomptarget", "~standalone"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-11/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/llvm-openmp-ompt-tr6_forwards/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-llvm-openmp-ompt-tr6_forwards-cdvrpdshtkp3vaztbfhiatfwikaje3to.spack"}, {"hash": "f3wtolilrul5ekbwxlrh3gkjrzgmaqlq", "compiler": "oneapi@=2023.1.0", "versions": ["tr6_forwards"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=cmake", "build_type=Release", "generator=ninja", "~ipo", "+libomptarget", "~standalone"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-11/build_cache/linux-ubuntu20.04-x86_64/oneapi-2023.1.0/llvm-openmp-ompt-tr6_forwards/linux-ubuntu20.04-x86_64-oneapi-2023.1.0-llvm-openmp-ompt-tr6_forwards-f3wtolilrul5ekbwxlrh3gkjrzgmaqlq.spack"}]
----

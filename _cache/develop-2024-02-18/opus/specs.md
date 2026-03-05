@@ -1,7 +1,0 @@
----
-title: "opus"
-layout: cache
-categories: [package, develop-2024-02-18]
-meta: {"versions": ["1.3.1"], "compilers": ["apple-clang@=15.0.0", "gcc@=11.4.0"], "oss": ["ubuntu22.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "root": 2, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "x7r24fubvw636lrq5fikx2udve7brzq5", "compiler": "apple-clang@=15.0.0", "versions": ["1.3.1"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=autotools"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-02-18/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/opus-1.3.1/darwin-ventura-aarch64-apple-clang-15.0.0-opus-1.3.1-x7r24fubvw636lrq5fikx2udve7brzq5.spack"}, {"hash": "5erllxiy6ykg5rz6yyw2wdb3hetzijao", "compiler": "gcc@=11.4.0", "versions": ["1.3.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-02-18/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/opus-1.3.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-opus-1.3.1-5erllxiy6ykg5rz6yyw2wdb3hetzijao.spack"}]
----

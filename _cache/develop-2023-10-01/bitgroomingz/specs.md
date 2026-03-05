@@ -1,7 +1,0 @@
----
-title: "bitgroomingz"
-layout: cache
-categories: [package, develop-2023-10-01]
-meta: {"versions": ["2022-10-14"], "compilers": ["cce@=15.0.1", "gcc@=11.1.0"], "oss": ["rhel8", "ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3", "zen4"], "stacks": ["e4s", "e4s-cray-rhel", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-cray-rhel": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "wuwdlercrzldemuss7uyjxhgbfgqdfe3", "compiler": "cce@=15.0.1", "versions": ["2022-10-14"], "os": "rhel8", "platform": "linux", "target": "zen4", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+shared"], "stacks": ["e4s-cray-rhel", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-10-01/build_cache/linux-rhel8-zen4/cce-15.0.1/bitgroomingz-2022-10-14/linux-rhel8-zen4-cce-15.0.1-bitgroomingz-2022-10-14-wuwdlercrzldemuss7uyjxhgbfgqdfe3.spack"}, {"hash": "amurtxjuyil3dkgwd6ugo6bqnbhxdsy4", "compiler": "gcc@=11.1.0", "versions": ["2022-10-14"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-10-01/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/bitgroomingz-2022-10-14/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-bitgroomingz-2022-10-14-amurtxjuyil3dkgwd6ugo6bqnbhxdsy4.spack"}]
----

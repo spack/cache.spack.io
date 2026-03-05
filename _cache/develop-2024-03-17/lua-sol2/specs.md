@@ -1,7 +1,0 @@
----
-title: "lua-sol2"
-layout: cache
-categories: [package, develop-2024-03-17]
-meta: {"versions": ["3.2.3"], "compilers": ["gcc@=11.4.0", "oneapi@=2024.0.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "2utqip5pk2pvokymve4n5uqukzf6p3s7", "compiler": "gcc@=11.4.0", "versions": ["3.2.3"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-03-17/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/lua-sol2-3.2.3/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-lua-sol2-3.2.3-2utqip5pk2pvokymve4n5uqukzf6p3s7.spack"}, {"hash": "tflq5hfu7sppzgzrxhn5wi3tfpbdrwiu", "compiler": "oneapi@=2024.0.0", "versions": ["3.2.3"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-03-17/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.0.0/lua-sol2-3.2.3/linux-ubuntu22.04-x86_64_v3-oneapi-2024.0.0-lua-sol2-3.2.3-tflq5hfu7sppzgzrxhn5wi3tfpbdrwiu.spack"}]
----

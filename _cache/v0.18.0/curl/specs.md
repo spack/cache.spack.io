@@ -1,7 +1,0 @@
----
-title: "curl"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["7.83.0"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["build_systems", "data-vis-sdk", "e4s", "radiuss", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "tutorial": 1, "data-vis-sdk": 1, "e4s": 1, "radiuss": 1, "build_systems": 1}}
-spec_details: [{"hash": "7fafhivu3l77xdzqfd3phns7imcogwtn", "compiler": "gcc@=7.5.0", "versions": ["7.83.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~gssapi", "~ldap", "~libidn2", "~librtmp", "libs=shared,static", "~libssh", "~libssh2", "~nghttp2", "tls=openssl"], "stacks": ["root", "tutorial", "data-vis-sdk", "e4s", "radiuss"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/curl-7.83.0/linux-ubuntu18.04-x86_64-gcc-7.5.0-curl-7.83.0-7fafhivu3l77xdzqfd3phns7imcogwtn.spack"}, {"hash": "lp5kweq537ntscc3pvus2i7zw4vp2atr", "compiler": "gcc@=7.5.0", "versions": ["7.83.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~gssapi", "~ldap", "+libidn2", "~librtmp", "libs=shared,static", "~libssh", "~libssh2", "~nghttp2", "tls=openssl"], "stacks": ["build_systems", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/curl-7.83.0/linux-ubuntu18.04-x86_64-gcc-7.5.0-curl-7.83.0-lp5kweq537ntscc3pvus2i7zw4vp2atr.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "freetype"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["2.13.2"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "q6pr3aztubgzal4mf5emxapmv6blx7dh", "compiler": "gcc@=7.3.1", "versions": ["2.13.2"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools", "+pic", "+shared"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/freetype-2.13.2/linux-amzn2-aarch64-gcc-7.3.1-freetype-2.13.2-q6pr3aztubgzal4mf5emxapmv6blx7dh.spack"}, {"hash": "4pay7k5vviraqqtv5mv5h7ulxy33u22l", "compiler": "gcc@=7.3.1", "versions": ["2.13.2"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=autotools", "+pic", "+shared"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/freetype-2.13.2/linux-amzn2-neoverse_n1-gcc-7.3.1-freetype-2.13.2-4pay7k5vviraqqtv5mv5h7ulxy33u22l.spack"}]
----

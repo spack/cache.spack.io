@@ -1,7 +1,0 @@
----
-title: "py-torch-scatter"
-layout: cache
-categories: [package, v0.20.0]
-meta: {"versions": ["2.0.5"], "compilers": ["gcc@=11.3.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cuda": 1, "root": 2, "ml-linux-x86_64-cpu": 1}}
-spec_details: [{"hash": "sxzhr5bnlrks44mpx7s4yol4kfcmo4jh", "compiler": "gcc@=11.3.0", "versions": ["2.0.5"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "+cuda"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.0/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-torch-scatter-2.0.5/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-torch-scatter-2.0.5-sxzhr5bnlrks44mpx7s4yol4kfcmo4jh.spack"}, {"hash": "nzlqnt35ar4qo4vm5pwbe67s4fddmbew", "compiler": "gcc@=11.3.0", "versions": ["2.0.5"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~cuda"], "stacks": ["ml-linux-x86_64-cpu", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.0/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-torch-scatter-2.0.5/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-torch-scatter-2.0.5-nzlqnt35ar4qo4vm5pwbe67s4fddmbew.spack"}]
----

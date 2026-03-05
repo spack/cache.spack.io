@@ -1,7 +1,0 @@
----
-title: "hipify-clang"
-layout: cache
-categories: [package, develop-2023-05-14]
-meta: {"versions": ["5.4.3"], "compilers": ["gcc@=11.1.0", "gcc@=11.3.0"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "gpu-tests", "ml-linux-x86_64-rocm", "root"], "num_specs": 2, "num_specs_by_stack": {"gpu-tests": 1, "root": 2, "e4s": 1, "ml-linux-x86_64-rocm": 1}}
-spec_details: [{"hash": "h5rh4255lmb5zcz7ke7j24gh2whv5nxu", "compiler": "gcc@=11.1.0", "versions": ["5.4.3"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "patches=fafe6a5"], "stacks": ["gpu-tests", "root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-05-14/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/hipify-clang-5.4.3/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-hipify-clang-5.4.3-h5rh4255lmb5zcz7ke7j24gh2whv5nxu.spack"}, {"hash": "ljcr2o24j5umo5e5oiuaoxwemykdk6e3", "compiler": "gcc@=11.3.0", "versions": ["5.4.3"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "patches=fafe6a5"], "stacks": ["ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-05-14/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/hipify-clang-5.4.3/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-hipify-clang-5.4.3-ljcr2o24j5umo5e5oiuaoxwemykdk6e3.spack"}]
----

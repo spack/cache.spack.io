@@ -1,7 +1,0 @@
----
-title: "arrow"
-layout: cache
-categories: [package, develop-2025-04-13]
-meta: {"compilers": ["gcc@11.4.0"], "num_specs": 2, "num_specs_by_stack": {"hep": 2, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["hep", "root"], "targets": ["x86_64_v3"], "versions": ["19.0.1"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "and5qokuws47mcwbvngocupkfvf4wgry", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["~brotli", "build_system=cmake", "build_type=Release", "~bz2", "~compute", "~cuda", "~dataset", "~gandiva", "generator=make", "~glog", "~hdfs", "+ipc", "~ipo", "~jemalloc", "~lz4", "~orc", "~parquet", "~python", "+shared", "~snappy", "~tensorflow", "~zlib", "~zstd"], "versions": ["19.0.1"]}, {"compiler": "gcc@11.4.0", "hash": "j257aanfadyes6cgyahcltfq5sjowy4u", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["~brotli", "build_system=cmake", "build_type=Release", "~bz2", "~compute", "~cuda", "~dataset", "~gandiva", "generator=make", "~glog", "~hdfs", "+ipc", "~ipo", "~jemalloc", "~lz4", "~orc", "~parquet", "~python", "+shared", "~snappy", "~tensorflow", "~zlib", "~zstd"], "versions": ["19.0.1"]}]
----

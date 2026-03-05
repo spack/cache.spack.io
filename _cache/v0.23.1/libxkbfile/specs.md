@@ -1,7 +1,0 @@
----
-title: "libxkbfile"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "root": 2}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "root"], "targets": ["x86_64_v3"], "versions": ["1.1.3"]}
-spec_details: [{"compiler": "gcc@=11.1.0", "hash": "yf6zr7dat7nfv257h54qg5tvddxjzb3r", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/libxkbfile-1.1.3/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-libxkbfile-1.1.3-yf6zr7dat7nfv257h54qg5tvddxjzb3r.spack", "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.1.3"]}, {"compiler": "gcc@=11.4.0", "hash": "g2gplnhsidawymvvpx57lcwoo6lnc4w7", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/libxkbfile-1.1.3/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-libxkbfile-1.1.3-g2gplnhsidawymvvpx57lcwoo6lnc4w7.spack", "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.1.3"]}]
----

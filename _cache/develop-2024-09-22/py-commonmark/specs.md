@@ -1,7 +1,0 @@
----
-title: "py-commonmark"
-layout: cache
-categories: [package, develop-2024-09-22]
-meta: {"versions": ["0.9.1"], "compilers": ["gcc@=9.4.0", "oneapi@=2024.2.1"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s-oneapi", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s-oneapi": 1}}
-spec_details: [{"hash": "rxwtnfrdhq6g42get2hh2v25scldbpdm", "compiler": "gcc@=9.4.0", "versions": ["0.9.1"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=python_pip"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-09-22/build_cache/linux-ubuntu20.04-ppc64le/gcc-9.4.0/py-commonmark-0.9.1/linux-ubuntu20.04-ppc64le-gcc-9.4.0-py-commonmark-0.9.1-rxwtnfrdhq6g42get2hh2v25scldbpdm.spack"}, {"hash": "sx7g67ymklvu5bggzudfqlvrdkqppl2n", "compiler": "oneapi@=2024.2.1", "versions": ["0.9.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-09-22/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/py-commonmark-0.9.1/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-py-commonmark-0.9.1-sx7g67ymklvu5bggzudfqlvrdkqppl2n.spack"}]
----

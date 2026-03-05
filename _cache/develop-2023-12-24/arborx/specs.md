@@ -1,7 +1,0 @@
----
-title: "arborx"
-layout: cache
-categories: [package, develop-2023-12-24]
-meta: {"versions": ["1.4.1"], "compilers": ["cce@=15.0.1", "gcc@=10.3.0"], "oss": ["rhel8", "sle_hpc15"], "platforms": ["linux"], "targets": ["x86_64_v4", "zen4"], "stacks": ["e4s-cray-rhel", "e4s-cray-sles", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-cray-rhel": 1, "root": 2, "e4s-cray-sles": 1}}
-spec_details: [{"hash": "s4sbg3pql5ntzvfxtb3fnryluq7gpocv", "compiler": "cce@=15.0.1", "versions": ["1.4.1"], "os": "rhel8", "platform": "linux", "target": "zen4", "variants": ["build_system=cmake", "build_type=Release", "~cuda", "cxxstd=17", "generator=make", "~ipo", "+mpi", "~openmp", "~rocm", "+serial", "~sycl", "~trilinos"], "stacks": ["e4s-cray-rhel", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-12-24/build_cache/linux-rhel8-zen4/cce-15.0.1/arborx-1.4.1/linux-rhel8-zen4-cce-15.0.1-arborx-1.4.1-s4sbg3pql5ntzvfxtb3fnryluq7gpocv.spack"}, {"hash": "2yc6qv562ubfgfbrsicbwbqc45sznrkk", "compiler": "gcc@=10.3.0", "versions": ["1.4.1"], "os": "sle_hpc15", "platform": "linux", "target": "x86_64_v4", "variants": ["build_system=cmake", "build_type=Release", "~cuda", "cxxstd=17", "generator=make", "~ipo", "+mpi", "~openmp", "~rocm", "+serial", "~sycl", "~trilinos"], "stacks": ["e4s-cray-sles", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-12-24/build_cache/linux-sle_hpc15-x86_64_v4/gcc-10.3.0/arborx-1.4.1/linux-sle_hpc15-x86_64_v4-gcc-10.3.0-arborx-1.4.1-2yc6qv562ubfgfbrsicbwbqc45sznrkk.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "py-xgboost"
-layout: cache
-categories: [package, develop-2025-04-27]
-meta: {"compilers": ["none"], "num_specs": 3, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "ml-linux-aarch64-cpu": 1, "ml-linux-x86_64-cpu": 1, "root": 3}, "oss": ["sequoia", "ubuntu24.04"], "platforms": ["darwin", "linux"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-aarch64-cpu", "ml-linux-x86_64-cpu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["2.1.1"]}
-spec_details: [{"compiler": "none", "hash": "bia2sarjpf2lq2w72dqyf5tp7sthj3wv", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["ml-darwin-aarch64-mps", "root"], "target": "aarch64", "variants": ["build_system=python_pip", "~dask", "~pandas", "patches:=118db5a", "~plotting", "~scikit-learn"], "versions": ["2.1.1"]}, {"compiler": "none", "hash": "ly3n2d7iqrj4hewlsca7cgyjez5tpf3v", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip", "~dask", "~pandas", "patches:=118db5a", "~plotting", "~scikit-learn"], "versions": ["2.1.1"]}, {"compiler": "none", "hash": "ubkqrwm5keqm5poeioyu3o4lodlqgiu3", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "root"], "target": "aarch64", "variants": ["build_system=python_pip", "~dask", "~pandas", "patches:=118db5a", "~plotting", "~scikit-learn"], "versions": ["2.1.1"]}]
----

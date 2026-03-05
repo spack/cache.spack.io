@@ -1,7 +1,0 @@
----
-title: "gl2ps"
-layout: cache
-categories: [package, develop-2025-03-23]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 4, "num_specs_by_stack": {"e4s": 3, "hep": 1, "root": 4}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "hep", "root"], "targets": ["x86_64_v3"], "versions": ["1.4.2"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "4esamnfagebxmnldygdppayasnguocrj", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~doc", "generator=make", "~ipo", "+png", "+zlib"], "versions": ["1.4.2"]}, {"compiler": "gcc@=11.4.0", "hash": "dc4s7cwcdxwusj5awtqc4pfdrcgr66br", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~doc", "generator=make", "~ipo", "+png", "+zlib"], "versions": ["1.4.2"]}, {"compiler": "gcc@=11.4.0", "hash": "rymqwxa3zlbnfjs5o4daxqodvremlxun", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~doc", "generator=make", "~ipo", "+png", "+zlib"], "versions": ["1.4.2"]}, {"compiler": "gcc@=11.4.0", "hash": "tpyljlivpaparpegtcbjxuf4rbncre7l", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~doc", "generator=make", "~ipo", "+png", "+zlib"], "versions": ["1.4.2"]}]
----

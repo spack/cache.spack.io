@@ -1,7 +1,0 @@
----
-title: "datatransferkit"
-layout: cache
-categories: [package, develop-2024-04-28]
-meta: {"versions": ["3.1.1"], "compilers": ["cce@=15.0.1", "gcc@=10.3.0"], "oss": ["rhel8", "sle_hpc15"], "platforms": ["linux"], "targets": ["x86_64_v4", "zen4"], "stacks": ["e4s-cray-rhel", "e4s-cray-sles", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-cray-rhel": 1, "root": 2, "e4s-cray-sles": 1}}
-spec_details: [{"hash": "jvw6gxa6sd3nj7mew2qvpwcnpksjy7lh", "compiler": "cce@=15.0.1", "versions": ["3.1.1"], "os": "rhel8", "platform": "linux", "target": "zen4", "variants": ["build_system=cmake", "build_type=Release", "~external-arborx", "generator=make", "~ipo", "~openmp", "+serial", "+shared"], "stacks": ["e4s-cray-rhel", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-rhel8-zen4/cce-15.0.1/datatransferkit-3.1.1/linux-rhel8-zen4-cce-15.0.1-datatransferkit-3.1.1-jvw6gxa6sd3nj7mew2qvpwcnpksjy7lh.spack"}, {"hash": "yqrcfljxktgmohgh2n2t4f3klvntaq7g", "compiler": "gcc@=10.3.0", "versions": ["3.1.1"], "os": "sle_hpc15", "platform": "linux", "target": "x86_64_v4", "variants": ["build_system=cmake", "build_type=Release", "~external-arborx", "generator=make", "~ipo", "~openmp", "+serial", "+shared"], "stacks": ["e4s-cray-sles", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-sle_hpc15-x86_64_v4/gcc-10.3.0/datatransferkit-3.1.1/linux-sle_hpc15-x86_64_v4-gcc-10.3.0-datatransferkit-3.1.1-yqrcfljxktgmohgh2n2t4f3klvntaq7g.spack"}]
----

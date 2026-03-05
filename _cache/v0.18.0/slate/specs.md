@@ -1,7 +1,0 @@
----
-title: "slate"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["2021.05.02"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 2}}
-spec_details: [{"hash": "pl4ch65rmg2yhz4tai35rrahfsvo57xa", "compiler": "gcc@=7.5.0", "versions": ["2021.05.02"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_type=RelWithDebInfo", "+cuda", "cuda_arch=70", "~ipo", "+mpi", "+openmp", "~rocm", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/slate-2021.05.02/linux-ubuntu18.04-x86_64-gcc-7.5.0-slate-2021.05.02-pl4ch65rmg2yhz4tai35rrahfsvo57xa.spack"}, {"hash": "w6xgjwv5brxwkow3tmcc5ucmtzwvmxzh", "compiler": "gcc@=7.5.0", "versions": ["2021.05.02"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_type=RelWithDebInfo", "~cuda", "~ipo", "+mpi", "+openmp", "~rocm", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/slate-2021.05.02/linux-ubuntu18.04-x86_64-gcc-7.5.0-slate-2021.05.02-w6xgjwv5brxwkow3tmcc5ucmtzwvmxzh.spack"}]
----

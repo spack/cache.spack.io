@@ -1,7 +1,0 @@
----
-title: "numactl"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["2.0.14"], "compilers": ["gcc@=7.5.0", "gcc@=8.4.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "e4s", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s": 1, "tutorial": 2}}
-spec_details: [{"hash": "wfnw532l74emh6rwx4mrvot3huyiq53t", "compiler": "gcc@=7.5.0", "versions": ["2.0.14"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["patches=4e1d78c,62fc8a8,ff37630"], "stacks": ["data-vis-sdk", "root", "e4s", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/numactl-2.0.14/linux-ubuntu18.04-x86_64-gcc-7.5.0-numactl-2.0.14-wfnw532l74emh6rwx4mrvot3huyiq53t.spack"}, {"hash": "a3lmunkxwpt5xmkgg2m677igdkvmyzvk", "compiler": "gcc@=8.4.0", "versions": ["2.0.14"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["patches=4e1d78c,62fc8a8,ff37630"], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-8.4.0/numactl-2.0.14/linux-ubuntu18.04-x86_64-gcc-8.4.0-numactl-2.0.14-a3lmunkxwpt5xmkgg2m677igdkvmyzvk.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "py-jaxtyping"
-layout: cache
-categories: [package, develop-2025-02-02]
-meta: {"versions": ["0.2.19"], "compilers": ["gcc@=13.2.0"], "oss": ["ubuntu24.04"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "root": 2, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "3xusoafinlcw2muzaa5t3cr3dgpuptl6", "compiler": "gcc@=13.2.0", "versions": ["0.2.19"], "os": "ubuntu24.04", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-aarch64-cpu", "root", "ml-linux-aarch64-cuda"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/py-jaxtyping-0.2.19/linux-ubuntu24.04-aarch64-gcc-13.2.0-py-jaxtyping-0.2.19-3xusoafinlcw2muzaa5t3cr3dgpuptl6.spack"}, {"hash": "kjnzcvtp7lmxaubur7mhdlm6px24sude", "compiler": "gcc@=13.2.0", "versions": ["0.2.19"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-jaxtyping-0.2.19/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-jaxtyping-0.2.19-kjnzcvtp7lmxaubur7mhdlm6px24sude.spack"}]
----

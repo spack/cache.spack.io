@@ -1,7 +1,0 @@
----
-title: "py-pynvim"
-layout: cache
-categories: [package, v2025.07.0]
-meta: {"compilers": ["none"], "num_specs": 3, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-darwin": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "root": 3}, "oss": ["centos7", "rhel8", "sequoia"], "platforms": ["darwin", "linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-darwin", "developer-tools-x86_64_v3-linux-gnu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["0.4.3"]}
-spec_details: [{"compiler": "none", "hash": "ar7msjagbpqvwb7ujdfgqkuxmrvolmg2", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["0.4.3"]}, {"compiler": "none", "hash": "b7dxfg3cw4mxmacgxchicwk2roc2hzzs", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.4.3"]}, {"compiler": "none", "hash": "m53x2n4434v6ycrf6kqi3itrvqaunirz", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["developer-tools-darwin", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["0.4.3"]}]
----

@@ -1,7 +1,0 @@
----
-title: "py-pkgutil-resolve-name"
-layout: cache
-categories: [package, v0.23.0]
-meta: {"versions": ["1.3.10"], "compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "dzgpk5n7je477pqv6fxup236e4whad2i", "compiler": "gcc@=11.1.0", "versions": ["1.3.10"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.23.0/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-pkgutil-resolve-name-1.3.10/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-pkgutil-resolve-name-1.3.10-dzgpk5n7je477pqv6fxup236e4whad2i.spack"}, {"hash": "2k7kqmxpdmptpgngvrodpss7leqyypyf", "compiler": "gcc@=11.4.0", "versions": ["1.3.10"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.23.0/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-pkgutil-resolve-name-1.3.10/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-pkgutil-resolve-name-1.3.10-2k7kqmxpdmptpgngvrodpss7leqyypyf.spack"}]
----

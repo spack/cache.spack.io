@@ -1,7 +1,0 @@
----
-title: "gnuconfig"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["2022-09-17"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "ng47ux5tvpyqftvirc5nvwwk4vsec3sd", "compiler": "gcc@=7.3.1", "versions": ["2022-09-17"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=generic"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/gnuconfig-2022-09-17/linux-amzn2-neoverse_n1-gcc-7.3.1-gnuconfig-2022-09-17-ng47ux5tvpyqftvirc5nvwwk4vsec3sd.spack"}, {"hash": "epottlqlc6pc6coxbzkukxskv44ru7qv", "compiler": "gcc@=7.3.1", "versions": ["2022-09-17"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=generic"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/gnuconfig-2022-09-17/linux-amzn2-aarch64-gcc-7.3.1-gnuconfig-2022-09-17-epottlqlc6pc6coxbzkukxskv44ru7qv.spack"}]
----

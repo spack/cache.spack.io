@@ -1,7 +1,0 @@
----
-title: "libspatialindex"
-layout: cache
-categories: [package, develop-2025-04-06]
-meta: {"compilers": ["apple-clang@16.0.0", "gcc@13.2.0"], "num_specs": 3, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 3}, "oss": ["sequoia", "ubuntu24.04"], "platforms": ["darwin", "linux"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["2.1.0"]}
-spec_details: [{"compiler": "gcc@13.2.0", "hash": "6p4fbl6ul2d4kmowleahvwt7ujdhcdlz", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["2.1.0"]}, {"compiler": "gcc@13.2.0", "hash": "s4fjh3inobttxhot3sy7plcmuexturyw", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["2.1.0"]}, {"compiler": "apple-clang@16.0.0", "hash": "snag4viosuokn33v2sgksglbazluuali", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["ml-darwin-aarch64-mps", "root"], "target": "aarch64", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["2.1.0"]}]
----

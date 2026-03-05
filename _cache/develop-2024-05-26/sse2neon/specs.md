@@ -1,7 +1,0 @@
----
-title: "sse2neon"
-layout: cache
-categories: [package, develop-2024-05-26]
-meta: {"versions": ["1.7.0"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "wwasrxinxmtbrqzn5j3ecwqzaredfmhb", "compiler": "gcc@=7.3.1", "versions": ["1.7.0"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=generic"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-26/build_cache/linux-amzn2-aarch64/gcc-7.3.1/sse2neon-1.7.0/linux-amzn2-aarch64-gcc-7.3.1-sse2neon-1.7.0-wwasrxinxmtbrqzn5j3ecwqzaredfmhb.spack"}, {"hash": "ahj5sph6o5bs7gd5swnwbhps2y7z46pm", "compiler": "gcc@=7.3.1", "versions": ["1.7.0"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=generic"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-26/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/sse2neon-1.7.0/linux-amzn2-neoverse_n1-gcc-7.3.1-sse2neon-1.7.0-ahj5sph6o5bs7gd5swnwbhps2y7z46pm.spack"}]
----

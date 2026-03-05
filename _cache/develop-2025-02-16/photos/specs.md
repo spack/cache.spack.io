@@ -1,7 +1,0 @@
----
-title: "photos"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"hep": 2, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["hep", "root"], "targets": ["x86_64_v3"], "versions": ["3.64"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "tmij43kgetbwbth7zvmdfwafgfyjdm5m", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/photos-3.64/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-photos-3.64-tmij43kgetbwbth7zvmdfwafgfyjdm5m.spack", "target": "x86_64_v3", "variants": ["build_system=autotools", "+hepmc", "+hepmc3"], "versions": ["3.64"]}, {"compiler": "gcc@=11.4.0", "hash": "ixor5yvjshedscfuzubbts26zd7v3mkz", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/photos-3.64/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-photos-3.64-ixor5yvjshedscfuzubbts26zd7v3mkz.spack", "target": "x86_64_v3", "variants": ["build_system=autotools", "+hepmc", "+hepmc3"], "versions": ["3.64"]}]
----

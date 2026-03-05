@@ -1,7 +1,0 @@
----
-title: "m4"
-layout: cache
-categories: [package, develop-2024-04-14]
-meta: {"versions": ["1.4.19"], "compilers": ["gcc@=12.3.0"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["neoverse_n1", "neoverse_v1"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-pcluster-neoverse_v1": 2, "root": 2}}
-spec_details: [{"hash": "eyoy4wk42m6jyrwolrunozowpyrxd2gh", "compiler": "gcc@=12.3.0", "versions": ["1.4.19"], "os": "amzn2", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=autotools", "patches=9dc5fbd,bfdffa7", "+sigsegv"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-neoverse_v1/gcc-12.3.0/m4-1.4.19/linux-amzn2-neoverse_v1-gcc-12.3.0-m4-1.4.19-eyoy4wk42m6jyrwolrunozowpyrxd2gh.spack"}, {"hash": "i42h5y2lo22z5tfzxbfkke7hnguq3nmx", "compiler": "gcc@=12.3.0", "versions": ["1.4.19"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=autotools", "patches=9dc5fbd,bfdffa7", "+sigsegv"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-neoverse_n1/gcc-12.3.0/m4-1.4.19/linux-amzn2-neoverse_n1-gcc-12.3.0-m4-1.4.19-i42h5y2lo22z5tfzxbfkke7hnguq3nmx.spack"}]
----

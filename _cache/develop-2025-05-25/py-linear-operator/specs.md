@@ -1,7 +1,0 @@
----
-title: "py-linear-operator"
-layout: cache
-categories: [package, develop-2025-05-25]
-meta: {"compilers": ["none"], "num_specs": 4, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 4}, "oss": ["sequoia", "ubuntu24.04"], "platforms": ["darwin", "linux"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["0.5.3"]}
-spec_details: [{"compiler": "none", "hash": "4nbiljnbvf7tskpg3qkhv5jxjow2q2lo", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.5.3"]}, {"compiler": "none", "hash": "4rfvidupdaeasg34ch5556lhvfvgjv4i", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["ml-darwin-aarch64-mps", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["0.5.3"]}, {"compiler": "none", "hash": "io2voggg7mdhev4gdfanyj224rvbyfud", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["0.5.3"]}, {"compiler": "none", "hash": "xvqmryuo74gemacsp3f3w6rnq7h3mbun", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.5.3"]}]
----

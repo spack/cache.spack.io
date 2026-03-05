@@ -1,7 +1,0 @@
----
-title: "pflotran"
-layout: cache
-categories: [package, develop-2023-08-13]
-meta: {"versions": ["4.0.1"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "vpqhy2drkpe3d2k3v755bqwegd4iazmv", "compiler": "gcc@=11.1.0", "versions": ["4.0.1"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=autotools", "~rxn"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-08-13/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/pflotran-4.0.1/linux-ubuntu20.04-ppc64le-gcc-11.1.0-pflotran-4.0.1-vpqhy2drkpe3d2k3v755bqwegd4iazmv.spack"}, {"hash": "zvnkkkgjlrldl6ajep2v4vwath5qgz4h", "compiler": "gcc@=11.1.0", "versions": ["4.0.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "~rxn"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-08-13/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/pflotran-4.0.1/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-pflotran-4.0.1-zvnkkkgjlrldl6ajep2v4vwath5qgz4h.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "sensei"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=11.1.0"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 2, "root": 2}, "oss": ["ubuntu20.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "root"], "targets": ["x86_64_v3"], "versions": ["5.0.0"]}
-spec_details: [{"compiler": "gcc@=11.1.0", "hash": "6wmxlndlkjlhy2rsjl6hxu5gttd6kpoa", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/sensei-5.0.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-sensei-5.0.0-6wmxlndlkjlhy2rsjl6hxu5gttd6kpoa.spack", "target": "x86_64_v3", "variants": ["+adios2", "~ascent", "build_system=cmake", "build_type=Release", "~catalyst", "generator=make", "+hdf5", "~ipo", "~libsim", "~miniapps", "+python", "+shared", "~vtkio"], "versions": ["5.0.0"]}, {"compiler": "gcc@=11.1.0", "hash": "qvj3dmll3suvins65gn3d2bjvrzptd4f", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/sensei-5.0.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-sensei-5.0.0-qvj3dmll3suvins65gn3d2bjvrzptd4f.spack", "target": "x86_64_v3", "variants": ["+adios2", "~ascent", "build_system=cmake", "build_type=Release", "~catalyst", "generator=make", "+hdf5", "~ipo", "~libsim", "~miniapps", "+python", "+shared", "~vtkio"], "versions": ["5.0.0"]}]
----

@@ -1,7 +1,0 @@
----
-title: "py-opentuner"
-layout: cache
-categories: [package, develop-2025-02-09]
-meta: {"versions": ["0.8.7"], "compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "753usgqxtinyl3jqequnq2b67fc7y3jn", "compiler": "gcc@=11.4.0", "versions": ["0.8.7"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-opentuner-0.8.7/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-opentuner-0.8.7-753usgqxtinyl3jqequnq2b67fc7y3jn.spack"}, {"hash": "vp4btgilkbeaodoajazeaiumrjfcmwat", "compiler": "oneapi@=2024.2.1", "versions": ["0.8.7"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/py-opentuner-0.8.7/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-py-opentuner-0.8.7-vp4btgilkbeaodoajazeaiumrjfcmwat.spack"}]
----

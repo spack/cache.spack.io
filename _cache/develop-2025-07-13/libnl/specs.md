@@ -1,7 +1,0 @@
----
-title: "libnl"
-layout: cache
-categories: [package, develop-2025-07-13]
-meta: {"compilers": ["gcc@13.2.0", "gcc@7.5.0"], "num_specs": 4, "num_specs_by_stack": {"ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cuda": 1, "radiuss": 2, "root": 4}, "oss": ["ubuntu18.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["ml-linux-aarch64-cuda", "ml-linux-x86_64-cuda", "radiuss", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["3.3.0"]}
-spec_details: [{"compiler": "gcc@7.5.0", "hash": "g3fsxdqnxsyxlxwltcmz3qatic6eho2z", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["radiuss", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["3.3.0"]}, {"compiler": "gcc@13.2.0", "hash": "iozen4tupxfkapzgc77kgn6ndylwgzza", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=autotools"], "versions": ["3.3.0"]}, {"compiler": "gcc@13.2.0", "hash": "m5bwjysbnoul2ewtxxpkd3gwvyf7y255", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["3.3.0"]}, {"compiler": "gcc@7.5.0", "hash": "pttiwsopdjwiyq6isqgscls57rh2mow7", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["radiuss", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["3.3.0"]}]
----

@@ -1,7 +1,0 @@
----
-title: "exmcutils"
-layout: cache
-categories: [package, develop-2025-04-27]
-meta: {"compilers": ["cce@18.0.0", "gcc@11.4.0", "intel-oneapi-compilers@2025.1.0"], "num_specs": 4, "num_specs_by_stack": {"e4s": 1, "e4s-cray-rhel": 1, "e4s-neoverse-v2": 1, "e4s-oneapi": 1, "root": 4}, "oss": ["rhel8", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-cray-rhel", "e4s-neoverse-v2", "e4s-oneapi", "root"], "targets": ["neoverse_v2", "x86_64_v3"], "versions": ["0.6.0"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "bdl4r2juso42hnoibcau6j6sdqer5cpa", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-neoverse-v2", "root"], "target": "neoverse_v2", "variants": ["build_system=autotools"], "versions": ["0.6.0"]}, {"compiler": "cce@18.0.0", "hash": "ftdeag3bmrm7ugoksszfvbd7xotaqw6p", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["e4s-cray-rhel", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["0.6.0"]}, {"compiler": "gcc@11.4.0", "hash": "jkcneg7uqsepfusaw6vi2af4vr44um6e", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["0.6.0"]}, {"compiler": "intel-oneapi-compilers@2025.1.0", "hash": "rzuvlvteozon4dbmgr6auj5aa2atkmda", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["0.6.0"]}]
----

@@ -1,7 +1,0 @@
----
-title: "zlib"
-layout: cache
-categories: [package, develop-2025-04-06]
-meta: {"compilers": ["apple-clang@16.0.0", "gcc@11.4.0", "gcc@13.2.0"], "num_specs": 3, "num_specs_by_stack": {"developer-tools-darwin": 1, "e4s": 1, "ml-linux-x86_64-rocm": 1, "root": 3}, "oss": ["sequoia", "ubuntu22.04", "ubuntu24.04"], "platforms": ["darwin", "linux"], "stacks": ["developer-tools-darwin", "e4s", "ml-linux-x86_64-rocm", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["1.3.1"]}
-spec_details: [{"compiler": "apple-clang@16.0.0", "hash": "ond7f4eo2eiga5qnm3yuwxu5ynerhruv", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["developer-tools-darwin", "root"], "target": "aarch64", "variants": ["build_system=makefile", "+optimize", "+pic", "+shared"], "versions": ["1.3.1"]}, {"compiler": "gcc@13.2.0", "hash": "v67onyo4qddfxcwpfzq6zpqo46fgxaru", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=makefile", "+optimize", "+pic", "+shared"], "versions": ["1.3.1"]}, {"compiler": "gcc@11.4.0", "hash": "z4qjif7tz6nbvd5qm2jjrbbwr2k4j5tx", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=makefile", "+optimize", "+pic", "+shared"], "versions": ["1.3.1"]}]
----

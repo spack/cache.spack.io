@@ -1,7 +1,0 @@
----
-title: "hpcviewer"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["2024.02"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["neoverse_v1", "x86_64_v3"], "stacks": ["e4s", "e4s-neoverse_v1", "e4s-rocm-external", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-rocm-external": 1, "root": 2, "e4s": 1, "e4s-neoverse_v1": 1}}
-spec_details: [{"hash": "6lfl3n6k6n42c7gy46owyc6xwpd232ia", "compiler": "gcc@=11.4.0", "versions": ["2024.02"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["e4s-rocm-external", "root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/hpcviewer-2024.02/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-hpcviewer-2024.02-6lfl3n6k6n42c7gy46owyc6xwpd232ia.spack"}, {"hash": "m6coiaqxnvwfobxjrikrjpjonn5fp77j", "compiler": "gcc@=11.4.0", "versions": ["2024.02"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=generic"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-neoverse_v1/gcc-11.4.0/hpcviewer-2024.02/linux-ubuntu22.04-neoverse_v1-gcc-11.4.0-hpcviewer-2024.02-m6coiaqxnvwfobxjrikrjpjonn5fp77j.spack"}]
----

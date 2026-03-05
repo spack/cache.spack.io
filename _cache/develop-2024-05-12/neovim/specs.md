@@ -1,7 +1,0 @@
----
-title: "neovim"
-layout: cache
-categories: [package, develop-2024-05-12]
-meta: {"versions": ["0.9.4"], "compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-manylinux2014": 1, "root": 2, "developer-tools": 1}}
-spec_details: [{"hash": "wlktvqfq5hbgnhc2l4vxi4nomlk6pp6k", "compiler": "gcc@=10.2.1", "versions": ["0.9.4"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~no_luajit"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-12/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/neovim-0.9.4/linux-centos7-x86_64_v3-gcc-10.2.1-neovim-0.9.4-wlktvqfq5hbgnhc2l4vxi4nomlk6pp6k.spack"}, {"hash": "7ytocbiftiwbeumciz6uwcxka7u3waod", "compiler": "gcc@=7.5.0", "versions": ["0.9.4"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~no_luajit"], "stacks": ["developer-tools", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-12/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/neovim-0.9.4/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-neovim-0.9.4-7ytocbiftiwbeumciz6uwcxka7u3waod.spack"}]
----

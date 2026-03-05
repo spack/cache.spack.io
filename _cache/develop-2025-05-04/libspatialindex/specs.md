@@ -1,7 +1,0 @@
----
-title: "libspatialindex"
-layout: cache
-categories: [package, develop-2025-05-04]
-meta: {"compilers": ["apple-clang@16.0.0", "gcc@13.2.0"], "num_specs": 3, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 3}, "oss": ["sequoia", "ubuntu24.04"], "platforms": ["darwin", "linux"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["2.1.0"]}
-spec_details: [{"compiler": "apple-clang@16.0.0", "hash": "52ugnned7ax2xxndeejrvgs3itssa6n2", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["ml-darwin-aarch64-mps", "root"], "target": "aarch64", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["2.1.0"]}, {"compiler": "gcc@13.2.0", "hash": "ha2csqwk3e5xnnyktvzql5m4jxg4txim", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["2.1.0"]}, {"compiler": "gcc@13.2.0", "hash": "ynhfgiqvteyr6fvbjtdszyhed2ql7mom", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["2.1.0"]}]
----

@@ -1,7 +1,0 @@
----
-title: "vtk"
-layout: cache
-categories: [package, develop-2025-03-23]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 3, "root": 3}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "root"], "targets": ["x86_64_v3"], "versions": ["9.2.6", "9.4.1"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "2gdt24fflwxpwtdlqdd2y4t2ki7ualvo", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~examples", "~ffmpeg", "generator=make", "~ipo", "+mpi", "+opengl2", "patches=2d38712,ff9dce4", "+python", "~qt", "~xdmf"], "versions": ["9.2.6"]}, {"compiler": "gcc@=11.4.0", "hash": "aivaqyfic4iupdzupudktbjnwvqigaql", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~examples", "~ffmpeg", "generator=make", "~ipo", "+mpi", "+opengl2", "patches=2d38712,ff9dce4", "+python", "~qt", "~xdmf"], "versions": ["9.2.6"]}, {"compiler": "gcc@=11.4.0", "hash": "lmuhgswzl5pq74ty5lofuvzww6tkuqct", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~examples", "~ffmpeg", "generator=make", "~ipo", "+mpi", "+opengl2", "patches=174930d,1e5fb55,2d38712,ff9dce4", "~python", "~qt", "~xdmf"], "versions": ["9.4.1"]}]
----

@@ -1,7 +1,0 @@
----
-title: "rocprofiler-register"
-layout: cache
-categories: [package, develop-2025-01-05]
-meta: {"versions": ["6.3.0"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 2}}
-spec_details: [{"hash": "oj6pxemtrzek65fd2j3ntjouky5ft6dz", "compiler": "gcc@=11.4.0", "versions": ["6.3.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "patches=fc2f3cd"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/rocprofiler-register-6.3.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-rocprofiler-register-6.3.0-oj6pxemtrzek65fd2j3ntjouky5ft6dz.spack"}, {"hash": "6q2noepz6j2ys5u53qrjtr3kgrujtubb", "compiler": "gcc@=11.4.0", "versions": ["6.3.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "patches=fc2f3cd"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/rocprofiler-register-6.3.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-rocprofiler-register-6.3.0-6q2noepz6j2ys5u53qrjtr3kgrujtubb.spack"}]
----

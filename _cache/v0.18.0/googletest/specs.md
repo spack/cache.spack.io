@@ -1,7 +1,0 @@
----
-title: "googletest"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["1.10.0", "1.8.1"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 2}}
-spec_details: [{"hash": "v6nh2rpe4dd2eq22jr5kl77vnl4udvoh", "compiler": "gcc@=7.5.0", "versions": ["1.8.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_type=RelWithDebInfo", "+gmock", "~ipo", "+pthreads", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/googletest-1.8.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-googletest-1.8.1-v6nh2rpe4dd2eq22jr5kl77vnl4udvoh.spack"}, {"hash": "3qgtjm3fqx44yckjd65fbqy4rxnbxmpb", "compiler": "gcc@=7.5.0", "versions": ["1.10.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_type=RelWithDebInfo", "~gmock", "~ipo", "+pthreads", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/googletest-1.10.0/linux-ubuntu18.04-x86_64-gcc-7.5.0-googletest-1.10.0-3qgtjm3fqx44yckjd65fbqy4rxnbxmpb.spack"}]
----

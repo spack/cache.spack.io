@@ -1,7 +1,0 @@
----
-title: "fortrilinos"
-layout: cache
-categories: [package, develop-2025-04-13]
-meta: {"compilers": ["gcc@11.4.0", "intel-oneapi-compilers@2025.1.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "e4s-neoverse-v2": 1, "e4s-oneapi": 1, "root": 3}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-neoverse-v2", "e4s-oneapi", "root"], "targets": ["neoverse_v2", "x86_64_v3"], "versions": ["2.3.0"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "axuuttw64sm7di3wwocxh4jrtbp5xddv", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-neoverse-v2", "root"], "target": "neoverse_v2", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "+hl", "~ipo", "+shared"], "versions": ["2.3.0"]}, {"compiler": "gcc@11.4.0", "hash": "tl7rrgb2panavg2pm3orkuk7zzv2nn2s", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "+hl", "~ipo", "+shared"], "versions": ["2.3.0"]}, {"compiler": "intel-oneapi-compilers@2025.1.0", "hash": "wh2hbdpgkazarxhtwmun2t5tqsjnewdu", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "+hl", "~ipo", "+shared"], "versions": ["2.3.0"]}]
----

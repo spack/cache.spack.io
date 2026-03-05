@@ -1,7 +1,0 @@
----
-title: "util-linux"
-layout: cache
-categories: [package, develop-2024-11-17]
-meta: {"versions": ["2.40.2"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "tutorial": 1, "e4s": 1}}
-spec_details: [{"hash": "7g2gpvghr47753kb5db7vakplbw7r6vb", "compiler": "gcc@=11.4.0", "versions": ["2.40.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~bash", "build_system=autotools"], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-17/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/util-linux-2.40.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-util-linux-2.40.2-7g2gpvghr47753kb5db7vakplbw7r6vb.spack"}, {"hash": "qaqflgp4tckxywe74k2zwwwwo6ngh6vj", "compiler": "gcc@=11.4.0", "versions": ["2.40.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~bash", "build_system=autotools"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-17/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/util-linux-2.40.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-util-linux-2.40.2-qaqflgp4tckxywe74k2zwwwwo6ngh6vj.spack"}]
----

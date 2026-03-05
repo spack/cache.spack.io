@@ -1,7 +1,0 @@
----
-title: "libcap"
-layout: cache
-categories: [package, develop-2024-04-28]
-meta: {"versions": ["2.68"], "compilers": ["cce@=15.0.1", "gcc@=10.3.0"], "oss": ["rhel8", "sle_hpc15"], "platforms": ["linux"], "targets": ["x86_64_v4", "zen4"], "stacks": ["e4s-cray-rhel", "e4s-cray-sles", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-cray-sles": 1, "root": 2, "e4s-cray-rhel": 1}}
-spec_details: [{"hash": "jrgaiqdn3e2qdw46x3xt7furddjjvlxd", "compiler": "gcc@=10.3.0", "versions": ["2.68"], "os": "sle_hpc15", "platform": "linux", "target": "x86_64_v4", "variants": ["build_system=makefile"], "stacks": ["e4s-cray-sles", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-sle_hpc15-x86_64_v4/gcc-10.3.0/libcap-2.68/linux-sle_hpc15-x86_64_v4-gcc-10.3.0-libcap-2.68-jrgaiqdn3e2qdw46x3xt7furddjjvlxd.spack"}, {"hash": "k3mat2ctew5jziblb4cldlczcy76k5du", "compiler": "cce@=15.0.1", "versions": ["2.68"], "os": "rhel8", "platform": "linux", "target": "zen4", "variants": ["build_system=makefile"], "stacks": ["e4s-cray-rhel", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-rhel8-zen4/cce-15.0.1/libcap-2.68/linux-rhel8-zen4-cce-15.0.1-libcap-2.68-k3mat2ctew5jziblb4cldlczcy76k5du.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "ripgrep"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "num_specs": 2, "num_specs_by_stack": {"developer-tools": 1, "developer-tools-manylinux2014": 1, "root": 2}, "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "targets": ["x86_64_v3"], "versions": ["14.1.0"]}
-spec_details: [{"compiler": "gcc@=10.2.1", "hash": "5zysi66y47imuobnb7bhxyiexfsluosr", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-manylinux2014", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/ripgrep-14.1.0/linux-centos7-x86_64_v3-gcc-10.2.1-ripgrep-14.1.0-5zysi66y47imuobnb7bhxyiexfsluosr.spack", "target": "x86_64_v3", "variants": ["build_system=cargo"], "versions": ["14.1.0"]}, {"compiler": "gcc@=7.5.0", "hash": "gwsrvgvccycxcrtceoteouh7qtshtihg", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["developer-tools", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/ripgrep-14.1.0/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-ripgrep-14.1.0-gwsrvgvccycxcrtceoteouh7qtshtihg.spack", "target": "x86_64_v3", "variants": ["build_system=cargo"], "versions": ["14.1.0"]}]
----

@@ -1,7 +1,0 @@
----
-title: "py-imageio"
-layout: cache
-categories: [package, develop-2025-03-30]
-meta: {"compilers": ["none"], "num_specs": 4, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "e4s-oneapi": 2, "root": 4}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["2.35.1"]}
-spec_details: [{"compiler": "none", "hash": "b62n55jhbuy22kmnznagfab63rluvxeq", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.35.1"]}, {"compiler": "none", "hash": "ga4wzt6oqe6jak6pfkhlryjhprk4q5df", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.35.1"]}, {"compiler": "none", "hash": "pfxciirlhyvjwlri7kjjuolp7m2snu6z", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.35.1"]}, {"compiler": "none", "hash": "vpuu2xzoil4vswoqevvv33ifxidtaxib", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.35.1"]}]
----

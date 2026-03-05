@@ -1,7 +1,0 @@
----
-title: "perl-module-build"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=11.4.0", "gcc@=13.2.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "ml-linux-x86_64-rocm": 1, "root": 2}, "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["e4s", "ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["0.4234"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "2pf3gby22fz3bvxpevrviu7c4szugmkm", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/perl-module-build-0.4234/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-perl-module-build-0.4234-2pf3gby22fz3bvxpevrviu7c4szugmkm.spack", "target": "x86_64_v3", "variants": ["build_system=perl"], "versions": ["0.4234"]}, {"compiler": "gcc@=13.2.0", "hash": "yzev6ra3ya37qlwmts6k4hmzebzssl2k", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/perl-module-build-0.4234/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-perl-module-build-0.4234-yzev6ra3ya37qlwmts6k4hmzebzssl2k.spack", "target": "x86_64_v3", "variants": ["build_system=perl"], "versions": ["0.4234"]}]
----

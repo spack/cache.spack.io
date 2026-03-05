@@ -1,7 +1,0 @@
----
-title: "py-parsl"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["2023.08.21"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["neoverse_v1", "x86_64_v3"], "stacks": ["e4s", "e4s-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-neoverse_v1": 1}}
-spec_details: [{"hash": "or7fgnwbt6jg6r6nauxfxbeb6vfko4ga", "compiler": "gcc@=11.4.0", "versions": ["2023.08.21"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~monitoring"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-parsl-2023.08.21/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-parsl-2023.08.21-or7fgnwbt6jg6r6nauxfxbeb6vfko4ga.spack"}, {"hash": "jalgw6pebwycpmijqy2tjulqsgnkewwa", "compiler": "gcc@=11.4.0", "versions": ["2023.08.21"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=python_pip", "~monitoring"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-neoverse_v1/gcc-11.4.0/py-parsl-2023.08.21/linux-ubuntu22.04-neoverse_v1-gcc-11.4.0-py-parsl-2023.08.21-jalgw6pebwycpmijqy2tjulqsgnkewwa.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "sox"
-layout: cache
-categories: [package, develop-2025-01-26]
-meta: {"versions": ["14.4.2"], "compilers": ["gcc@=13.2.0"], "oss": ["ubuntu24.04"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "root": 2, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "25ufhfpgy6o7u5shtau2f5raigihndfw", "compiler": "gcc@=13.2.0", "versions": ["14.4.2"], "os": "ubuntu24.04", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools", "~mp3"], "stacks": ["ml-linux-aarch64-cpu", "root", "ml-linux-aarch64-cuda"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/sox-14.4.2/linux-ubuntu24.04-aarch64-gcc-13.2.0-sox-14.4.2-25ufhfpgy6o7u5shtau2f5raigihndfw.spack"}, {"hash": "vkpsbth4tyh3hphgte3hz5ibxn2xnqqn", "compiler": "gcc@=13.2.0", "versions": ["14.4.2"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "~mp3"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/sox-14.4.2/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-sox-14.4.2-vkpsbth4tyh3hphgte3hz5ibxn2xnqqn.spack"}]
----

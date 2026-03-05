@@ -1,7 +1,0 @@
----
-title: "lua-lpeg"
-layout: cache
-categories: [package, develop-2024-05-26]
-meta: {"versions": ["1.0.2-1"], "compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-manylinux2014": 1, "root": 2, "developer-tools": 1}}
-spec_details: [{"hash": "7zry7vsvdn5q6mltcqm5sa7gttqga6v3", "compiler": "gcc@=10.2.1", "versions": ["1.0.2-1"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=lua"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-26/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/lua-lpeg-1.0.2-1/linux-centos7-x86_64_v3-gcc-10.2.1-lua-lpeg-1.0.2-1-7zry7vsvdn5q6mltcqm5sa7gttqga6v3.spack"}, {"hash": "6wya2hrryfkr7ynr3doxmuzbj7ee25gy", "compiler": "gcc@=7.5.0", "versions": ["1.0.2-1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=lua"], "stacks": ["developer-tools", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-26/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/lua-lpeg-1.0.2-1/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-lua-lpeg-1.0.2-1-6wya2hrryfkr7ynr3doxmuzbj7ee25gy.spack"}]
----

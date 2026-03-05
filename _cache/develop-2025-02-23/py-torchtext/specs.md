@@ -1,7 +1,0 @@
----
-title: "py-torchtext"
-layout: cache
-categories: [package, develop-2025-02-23]
-meta: {"compilers": ["gcc@=13.2.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "ml-linux-x86_64-cpu": 1, "root": 2}, "oss": ["ubuntu24.04"], "platforms": ["linux"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-x86_64-cpu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["0.18.0"]}
-spec_details: [{"compiler": "gcc@=13.2.0", "hash": "jbgonwlj6jm7dccbyseggdf7goi3li7l", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-23/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/py-torchtext-0.18.0/linux-ubuntu24.04-aarch64-gcc-13.2.0-py-torchtext-0.18.0-jbgonwlj6jm7dccbyseggdf7goi3li7l.spack", "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["0.18.0"]}, {"compiler": "gcc@=13.2.0", "hash": "pbbrucmayrr6bwnlecw5gdnhtw2xp2m2", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-23/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-torchtext-0.18.0/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-torchtext-0.18.0-pbbrucmayrr6bwnlecw5gdnhtw2xp2m2.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.18.0"]}]
----

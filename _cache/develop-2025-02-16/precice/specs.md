@@ -1,7 +1,0 @@
----
-title: "precice"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["cce@=18.0.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-cray-rhel": 1, "root": 2}, "oss": ["rhel8", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-cray-rhel", "root"], "targets": ["x86_64_v3"], "versions": ["3.1.2"]}
-spec_details: [{"compiler": "cce@=18.0.0", "hash": "4idrybevdca3p7vxxgi7exdohufxer3n", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["e4s-cray-rhel", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-rhel8-x86_64_v3/cce-18.0.0/precice-3.1.2/linux-rhel8-x86_64_v3-cce-18.0.0-precice-3.1.2-4idrybevdca3p7vxxgi7exdohufxer3n.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+mpi", "+petsc", "~python", "+shared"], "versions": ["3.1.2"]}, {"compiler": "gcc@=11.4.0", "hash": "hu24zm7g4btmlt22gcz6sjvc2pdu3n4e", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/precice-3.1.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-precice-3.1.2-hu24zm7g4btmlt22gcz6sjvc2pdu3n4e.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+mpi", "+petsc", "~python", "+shared"], "versions": ["3.1.2"]}]
----

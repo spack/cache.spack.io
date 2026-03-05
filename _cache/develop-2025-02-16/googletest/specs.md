@@ -1,7 +1,0 @@
----
-title: "googletest"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["gcc@=11.4.0", "gcc@=13.2.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "ml-linux-x86_64-rocm": 1, "root": 2}, "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["e4s", "ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["1.15.2"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "l2r2ltwh5sy4itkzmtpvnrdfrjyekadi", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/googletest-1.15.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-googletest-1.15.2-l2r2ltwh5sy4itkzmtpvnrdfrjyekadi.spack", "target": "x86_64_v3", "variants": ["~absl", "build_system=cmake", "build_type=Release", "cxxstd=14", "generator=make", "+gmock", "~ipo", "+pthreads", "+shared"], "versions": ["1.15.2"]}, {"compiler": "gcc@=13.2.0", "hash": "wto2fordurhxjiakx7gl6oho2lskoidy", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/googletest-1.15.2/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-googletest-1.15.2-wto2fordurhxjiakx7gl6oho2lskoidy.spack", "target": "x86_64_v3", "variants": ["~absl", "build_system=cmake", "build_type=Release", "cxxstd=14", "generator=make", "+gmock", "~ipo", "+pthreads", "+shared"], "versions": ["1.15.2"]}]
----

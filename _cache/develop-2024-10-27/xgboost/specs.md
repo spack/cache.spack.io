@@ -1,7 +1,0 @@
----
-title: "xgboost"
-layout: cache
-categories: [package, develop-2024-10-27]
-meta: {"versions": ["2.1.1"], "compilers": ["apple-clang@=15.0.0", "gcc@=13.2.0"], "oss": ["ubuntu24.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-x86_64-cpu", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "root": 2, "ml-linux-x86_64-cpu": 1}}
-spec_details: [{"hash": "acralgeqvsvyo37s2mqckt6cjndakd4h", "compiler": "apple-clang@=15.0.0", "versions": ["2.1.1"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=cmake", "build_type=Release", "~cuda", "generator=ninja", "~ipo", "~nccl", "+openmp"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-27/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/xgboost-2.1.1/darwin-ventura-aarch64-apple-clang-15.0.0-xgboost-2.1.1-acralgeqvsvyo37s2mqckt6cjndakd4h.spack"}, {"hash": "gc3es72cop5fju2r24q2iwzi7ka3o4zk", "compiler": "gcc@=13.2.0", "versions": ["2.1.1"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~cuda", "generator=ninja", "~ipo", "~nccl", "+openmp"], "stacks": ["ml-linux-x86_64-cpu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-27/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/xgboost-2.1.1/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-xgboost-2.1.1-gc3es72cop5fju2r24q2iwzi7ka3o4zk.spack"}]
----

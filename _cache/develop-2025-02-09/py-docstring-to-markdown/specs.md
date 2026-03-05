@@ -1,7 +1,0 @@
----
-title: "py-docstring-to-markdown"
-layout: cache
-categories: [package, develop-2025-02-09]
-meta: {"versions": ["0.11"], "compilers": ["gcc@=10.5.0", "gcc@=13.3.0"], "oss": ["centos7", "rhel8"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-x86_64_v3-linux-gnu": 1, "root": 2, "developer-tools-aarch64-linux-gnu": 1}}
-spec_details: [{"hash": "po5lv2zksmdwv6sl2drcf7mndl5sdtzs", "compiler": "gcc@=10.5.0", "versions": ["0.11"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-centos7-x86_64_v3/gcc-10.5.0/py-docstring-to-markdown-0.11/linux-centos7-x86_64_v3-gcc-10.5.0-py-docstring-to-markdown-0.11-po5lv2zksmdwv6sl2drcf7mndl5sdtzs.spack"}, {"hash": "rsco6pe5zmftqn56c6kxbi5hp57tke2c", "compiler": "gcc@=13.3.0", "versions": ["0.11"], "os": "rhel8", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-rhel8-aarch64/gcc-13.3.0/py-docstring-to-markdown-0.11/linux-rhel8-aarch64-gcc-13.3.0-py-docstring-to-markdown-0.11-rsco6pe5zmftqn56c6kxbi5hp57tke2c.spack"}]
----

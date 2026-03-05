@@ -1,7 +1,0 @@
----
-title: "libquo"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["cce@=18.0.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-cray-rhel": 1, "root": 2}, "oss": ["rhel8", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-cray-rhel", "root"], "targets": ["x86_64_v3"], "versions": ["1.4"]}
-spec_details: [{"compiler": "cce@=18.0.0", "hash": "dnjtl7qullrdhypfllex765saxpgd4in", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["e4s-cray-rhel", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-rhel8-x86_64_v3/cce-18.0.0/libquo-1.4/linux-rhel8-x86_64_v3-cce-18.0.0-libquo-1.4-dnjtl7qullrdhypfllex765saxpgd4in.spack", "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.4"]}, {"compiler": "gcc@=11.4.0", "hash": "aou74jlwzgoxhpc6thxxwzckmn6vkpz4", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/libquo-1.4/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-libquo-1.4-aou74jlwzgoxhpc6thxxwzckmn6vkpz4.spack", "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.4"]}]
----

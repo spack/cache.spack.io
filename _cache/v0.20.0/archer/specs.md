@@ -1,7 +1,0 @@
----
-title: "archer"
-layout: cache
-categories: [package, v0.20.0]
-meta: {"versions": ["2.0.0"], "compilers": ["gcc@=11.1.0", "oneapi@=2023.0.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64", "x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-oneapi": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "oelpa77cbdwjoegjk6qnug6a2edpdm6j", "compiler": "oneapi@=2023.0.0", "versions": ["2.0.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=cmake", "build_type=Release", "generator=ninja", "~ipo"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.0/build_cache/linux-ubuntu20.04-x86_64/oneapi-2023.0.0/archer-2.0.0/linux-ubuntu20.04-x86_64-oneapi-2023.0.0-archer-2.0.0-oelpa77cbdwjoegjk6qnug6a2edpdm6j.spack"}, {"hash": "xh7336rkk5gzwyxwg27kbojrnlpqyiw4", "compiler": "gcc@=11.1.0", "versions": ["2.0.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=ninja", "~ipo"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.0/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/archer-2.0.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-archer-2.0.0-xh7336rkk5gzwyxwg27kbojrnlpqyiw4.spack"}]
----

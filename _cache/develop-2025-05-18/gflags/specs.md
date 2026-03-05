@@ -1,7 +1,0 @@
----
-title: "gflags"
-layout: cache
-categories: [package, develop-2025-05-18]
-meta: {"compilers": ["gcc@11.4.0", "gcc@13.2.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 2, "ml-linux-x86_64-rocm": 1, "root": 3}, "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["e4s", "ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["2.2.2"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "34fid7c64v744n7s7hxy6xz5clvxk3dv", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["2.2.2"]}, {"compiler": "gcc@13.2.0", "hash": "3j5tomqe45sq3kcsvo4xunztdcmn5pbc", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["2.2.2"]}, {"compiler": "gcc@11.4.0", "hash": "r2mlwygr2zgenp6t6g5conutxf2mallw", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["2.2.2"]}]
----

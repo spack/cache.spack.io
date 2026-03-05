@@ -1,7 +1,0 @@
----
-title: "gotcha"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["1.0.6"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["neoverse_v1", "x86_64_v3"], "stacks": ["e4s", "e4s-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-neoverse_v1": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "fot3nh3a6hvz7dt4xlyiebjq4vstmiwg", "compiler": "gcc@=11.4.0", "versions": ["1.0.6"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~test"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-neoverse_v1/gcc-11.4.0/gotcha-1.0.6/linux-ubuntu22.04-neoverse_v1-gcc-11.4.0-gotcha-1.0.6-fot3nh3a6hvz7dt4xlyiebjq4vstmiwg.spack"}, {"hash": "6jtgqacgkuukqaoqxoah3fbhsoutfuhz", "compiler": "gcc@=11.4.0", "versions": ["1.0.6"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "~test"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/gotcha-1.0.6/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-gotcha-1.0.6-6jtgqacgkuukqaoqxoah3fbhsoutfuhz.spack"}]
----

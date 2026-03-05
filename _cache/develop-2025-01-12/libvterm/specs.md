@@ -1,7 +1,0 @@
----
-title: "libvterm"
-layout: cache
-categories: [package, develop-2025-01-12]
-meta: {"versions": ["0.3.3"], "compilers": ["gcc@=10.5.0", "gcc@=13.3.0"], "oss": ["centos7", "rhel8"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-x86_64_v3-linux-gnu": 1, "root": 2, "developer-tools-aarch64-linux-gnu": 1}}
-spec_details: [{"hash": "ksf6uo6qiuyhsem3js2jknniyqsarkw3", "compiler": "gcc@=10.5.0", "versions": ["0.3.3"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=makefile"], "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-centos7-x86_64_v3/gcc-10.5.0/libvterm-0.3.3/linux-centos7-x86_64_v3-gcc-10.5.0-libvterm-0.3.3-ksf6uo6qiuyhsem3js2jknniyqsarkw3.spack"}, {"hash": "kj6c5lj4dhpez25htublmamd7wu4ri2b", "compiler": "gcc@=13.3.0", "versions": ["0.3.3"], "os": "rhel8", "platform": "linux", "target": "aarch64", "variants": ["build_system=makefile"], "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-rhel8-aarch64/gcc-13.3.0/libvterm-0.3.3/linux-rhel8-aarch64-gcc-13.3.0-libvterm-0.3.3-kj6c5lj4dhpez25htublmamd7wu4ri2b.spack"}]
----

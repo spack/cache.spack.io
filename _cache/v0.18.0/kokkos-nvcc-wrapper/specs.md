@@ -1,7 +1,0 @@
----
-title: "kokkos-nvcc-wrapper"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["3.2.00"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 2}}
-spec_details: [{"hash": "2ebkhwgxsjsd4dsap3i4yf7rjy5f7m6p", "compiler": "gcc@=7.5.0", "versions": ["3.2.00"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["+mpi"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/kokkos-nvcc-wrapper-3.2.00/linux-ubuntu18.04-x86_64-gcc-7.5.0-kokkos-nvcc-wrapper-3.2.00-2ebkhwgxsjsd4dsap3i4yf7rjy5f7m6p.spack"}, {"hash": "h6vanvgama5vhjmmlpdlgz3etxniil6e", "compiler": "gcc@=7.5.0", "versions": ["3.2.00"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["+mpi"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/kokkos-nvcc-wrapper-3.2.00/linux-ubuntu18.04-x86_64-gcc-7.5.0-kokkos-nvcc-wrapper-3.2.00-h6vanvgama5vhjmmlpdlgz3etxniil6e.spack"}]
----

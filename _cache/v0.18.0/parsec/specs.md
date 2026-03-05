@@ -1,7 +1,0 @@
----
-title: "parsec"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["3.0.2012"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 2}}
-spec_details: [{"hash": "jrhmqm3d5qosgustl2bfq4fk27higkz3", "compiler": "gcc@=7.5.0", "versions": ["3.0.2012"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_type=RelWithDebInfo", "~cuda", "~debug_verbose", "~ipo", "~profile", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/parsec-3.0.2012/linux-ubuntu18.04-x86_64-gcc-7.5.0-parsec-3.0.2012-jrhmqm3d5qosgustl2bfq4fk27higkz3.spack"}, {"hash": "ocxkoyvgdlli2vlk2aspohxowq4hgmtc", "compiler": "gcc@=7.5.0", "versions": ["3.0.2012"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["build_type=RelWithDebInfo", "+cuda", "cuda_arch=70", "~debug_verbose", "~ipo", "~profile", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/parsec-3.0.2012/linux-ubuntu18.04-x86_64-gcc-7.5.0-parsec-3.0.2012-ocxkoyvgdlli2vlk2aspohxowq4hgmtc.spack"}]
----

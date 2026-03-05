@@ -1,7 +1,0 @@
----
-title: "sdl2"
-layout: cache
-categories: [package, develop-2024-12-01]
-meta: {"versions": ["2.30.3"], "compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "tm2eguefvc7wbudyhasyga4bdszfyg5j", "compiler": "gcc@=11.4.0", "versions": ["2.30.3"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-12-01/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/sdl2-2.30.3/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-sdl2-2.30.3-tm2eguefvc7wbudyhasyga4bdszfyg5j.spack"}, {"hash": "flpkrybrid3an7upsyzba32wm4vkwmjk", "compiler": "oneapi@=2024.2.1", "versions": ["2.30.3"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-12-01/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/sdl2-2.30.3/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-sdl2-2.30.3-flpkrybrid3an7upsyzba32wm4vkwmjk.spack"}]
----

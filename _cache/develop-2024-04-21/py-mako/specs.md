@@ -1,7 +1,0 @@
----
-title: "py-mako"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["1.2.4"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "km7lcv5pwvfcyuzcgjrhrzuxnx62evmw", "compiler": "gcc@=7.3.1", "versions": ["1.2.4"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=python_pip"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/py-mako-1.2.4/linux-amzn2-neoverse_n1-gcc-7.3.1-py-mako-1.2.4-km7lcv5pwvfcyuzcgjrhrzuxnx62evmw.spack"}, {"hash": "y2txkwerw624lst62cfqn3c4fs6mf76m", "compiler": "gcc@=7.3.1", "versions": ["1.2.4"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/py-mako-1.2.4/linux-amzn2-aarch64-gcc-7.3.1-py-mako-1.2.4-y2txkwerw624lst62cfqn3c4fs6mf76m.spack"}]
----

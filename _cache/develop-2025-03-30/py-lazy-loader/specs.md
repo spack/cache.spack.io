@@ -1,7 +1,0 @@
----
-title: "py-lazy-loader"
-layout: cache
-categories: [package, develop-2025-03-30]
-meta: {"compilers": ["none"], "num_specs": 4, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "e4s-oneapi": 2, "root": 4}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["0.4"]}
-spec_details: [{"compiler": "none", "hash": "c65j6jqvtepp7h6y5q3ulyhozocbx73u", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.4"]}, {"compiler": "none", "hash": "d2u3a4q5uefftwrvckq6hpaazzco6h47", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.4"]}, {"compiler": "none", "hash": "n3bo3swxmxdjpq2kwwn4ppu4y5dul7ii", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.4"]}, {"compiler": "none", "hash": "wgoyb4rz3kti65fzc6lkiljahd544vm5", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.4"]}]
----

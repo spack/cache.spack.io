@@ -1,7 +1,0 @@
----
-title: "miopen-hip"
-layout: cache
-categories: [package, v0.23.0]
-meta: {"versions": ["6.1.2"], "compilers": ["gcc@=13.2.0"], "oss": ["ubuntu24.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-rocm", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-rocm": 2, "root": 2}}
-spec_details: [{"hash": "7afb5vmcjoy27sxv55qk3ozvvd7zslqb", "compiler": "gcc@=13.2.0", "versions": ["6.1.2"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~asan", "build_system=cmake", "build_type=Release", "generator=make", "~ipo", "patches=81138b3"], "stacks": ["ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.23.0/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/miopen-hip-6.1.2/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-miopen-hip-6.1.2-7afb5vmcjoy27sxv55qk3ozvvd7zslqb.spack"}, {"hash": "kpk6n6m2lhaaybqykri235prbgvly7ys", "compiler": "gcc@=13.2.0", "versions": ["6.1.2"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~asan", "build_system=cmake", "build_type=Release", "generator=make", "~ipo", "patches=81138b3"], "stacks": ["ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.23.0/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/miopen-hip-6.1.2/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-miopen-hip-6.1.2-kpk6n6m2lhaaybqykri235prbgvly7ys.spack"}]
----

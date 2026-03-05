@@ -1,7 +1,0 @@
----
-title: "dla-future-fortran"
-layout: cache
-categories: [package, develop-2024-12-29]
-meta: {"versions": ["0.2.0"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["neoverse_v2", "x86_64_v3"], "stacks": ["e4s", "e4s-neoverse-v2", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s-neoverse-v2": 1, "e4s": 1}}
-spec_details: [{"hash": "ljlvsvf76oytz5srywraqk4y6ehpl5tq", "compiler": "gcc@=11.4.0", "versions": ["0.2.0"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v2", "variants": ["build_system=cmake", "build_type=Release", "generator=ninja", "~ipo", "+shared", "~test"], "stacks": ["root", "e4s-neoverse-v2"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-12-29/build_cache/linux-ubuntu22.04-neoverse_v2/gcc-11.4.0/dla-future-fortran-0.2.0/linux-ubuntu22.04-neoverse_v2-gcc-11.4.0-dla-future-fortran-0.2.0-ljlvsvf76oytz5srywraqk4y6ehpl5tq.spack"}, {"hash": "n6jayz4gqa3uslzv5q2mjav3wjtkymv2", "compiler": "gcc@=11.4.0", "versions": ["0.2.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=ninja", "~ipo", "+shared", "~test"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-12-29/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/dla-future-fortran-0.2.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-dla-future-fortran-0.2.0-n6jayz4gqa3uslzv5q2mjav3wjtkymv2.spack"}]
----

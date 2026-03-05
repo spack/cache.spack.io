@@ -1,7 +1,0 @@
----
-title: "nano"
-layout: cache
-categories: [package, develop-2025-06-01]
-meta: {"compilers": ["apple-clang@16.0.0", "gcc@10.5.0", "gcc@13.3.0"], "num_specs": 3, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-darwin": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "root": 3}, "oss": ["centos7", "rhel8", "sequoia"], "platforms": ["darwin", "linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-darwin", "developer-tools-x86_64_v3-linux-gnu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["8.2"]}
-spec_details: [{"compiler": "apple-clang@16.0.0", "hash": "adtpxdlh4c6a2eliuyyjlcnyxfzw7yr5", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["developer-tools-darwin", "root"], "target": "aarch64", "variants": ["build_system=autotools"], "versions": ["8.2"]}, {"compiler": "gcc@10.5.0", "hash": "ixx4umd2qqgpkjyvjcle6vzg7kekxrsq", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["8.2"]}, {"compiler": "gcc@13.3.0", "hash": "ojaeo3uyriqo3u5kjrd2t7xnireuflok", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "target": "aarch64", "variants": ["build_system=autotools"], "versions": ["8.2"]}]
----

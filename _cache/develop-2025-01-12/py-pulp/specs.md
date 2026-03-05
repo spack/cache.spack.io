@@ -1,7 +1,0 @@
----
-title: "py-pulp"
-layout: cache
-categories: [package, develop-2025-01-12]
-meta: {"versions": ["2.6.0"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["aws-isc", "aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 1, "root": 2, "aws-isc": 1}}
-spec_details: [{"hash": "r22s72erqxhxqd3krg43q4zdulvwffff", "compiler": "gcc@=7.3.1", "versions": ["2.6.0"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-amzn2-aarch64/gcc-7.3.1/py-pulp-2.6.0/linux-amzn2-aarch64-gcc-7.3.1-py-pulp-2.6.0-r22s72erqxhxqd3krg43q4zdulvwffff.spack"}, {"hash": "ziv36p44co2c4joynoia5tcjobsu7tvg", "compiler": "gcc@=7.3.1", "versions": ["2.6.0"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["aws-isc", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/py-pulp-2.6.0/linux-amzn2-x86_64_v3-gcc-7.3.1-py-pulp-2.6.0-ziv36p44co2c4joynoia5tcjobsu7tvg.spack"}]
----

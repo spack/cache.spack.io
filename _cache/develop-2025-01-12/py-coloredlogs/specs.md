@@ -1,7 +1,0 @@
----
-title: "py-coloredlogs"
-layout: cache
-categories: [package, develop-2025-01-12]
-meta: {"versions": ["15.0.1"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["radiuss", "root"], "num_specs": 2, "num_specs_by_stack": {"radiuss": 2, "root": 2}}
-spec_details: [{"hash": "lixotqx6nm5gnt4irhm4ta7e54zwzvwa", "compiler": "gcc@=7.5.0", "versions": ["15.0.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["radiuss", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-coloredlogs-15.0.1/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-coloredlogs-15.0.1-lixotqx6nm5gnt4irhm4ta7e54zwzvwa.spack"}, {"hash": "sl2daoyf7qayrilreuzpe7rl2djsd4sc", "compiler": "gcc@=7.5.0", "versions": ["15.0.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["radiuss", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-12/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-coloredlogs-15.0.1/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-coloredlogs-15.0.1-sl2daoyf7qayrilreuzpe7rl2djsd4sc.spack"}]
----

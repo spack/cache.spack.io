@@ -1,7 +1,0 @@
----
-title: "py-warpx"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["22.05"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "root"], "num_specs": 3, "num_specs_by_stack": {"root": 3, "e4s": 3}}
-spec_details: [{"hash": "toi4jguytzkgjqilp43fcacdfphofggm", "compiler": "gcc@=7.5.0", "versions": ["22.05"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["+mpi"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-warpx-22.05/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-warpx-22.05-toi4jguytzkgjqilp43fcacdfphofggm.spack"}, {"hash": "shfwgzfc7e3lr64ih5r6w2z5l7nssjut", "compiler": "gcc@=7.5.0", "versions": ["22.05"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["+mpi"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-warpx-22.05/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-warpx-22.05-shfwgzfc7e3lr64ih5r6w2z5l7nssjut.spack"}, {"hash": "vskwkvqosihotswdvjhzjrhgaz6nhdzp", "compiler": "gcc@=7.5.0", "versions": ["22.05"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["+mpi"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/py-warpx-22.05/linux-ubuntu18.04-x86_64-gcc-7.5.0-py-warpx-22.05-vskwkvqosihotswdvjhzjrhgaz6nhdzp.spack"}]
----

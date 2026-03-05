@@ -1,7 +1,0 @@
----
-title: "hpcviewer"
-layout: cache
-categories: [package, v0.20.2]
-meta: {"versions": ["2023.04"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "hxp5gbnexvf6uqu5e3vhhcadugxxeehq", "compiler": "gcc@=11.1.0", "versions": ["2023.04"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=generic"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.2/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/hpcviewer-2023.04/linux-ubuntu20.04-ppc64le-gcc-11.1.0-hpcviewer-2023.04-hxp5gbnexvf6uqu5e3vhhcadugxxeehq.spack"}, {"hash": "hcqb5pilf3e55md5nu2yf4knigc6pxsu", "compiler": "gcc@=11.1.0", "versions": ["2023.04"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.2/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/hpcviewer-2023.04/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-hpcviewer-2023.04-hcqb5pilf3e55md5nu2yf4knigc6pxsu.spack"}]
----

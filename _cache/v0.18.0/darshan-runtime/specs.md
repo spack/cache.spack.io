@@ -1,7 +1,0 @@
----
-title: "darshan-runtime"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["3.3.1"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "data-vis-sdk": 1}}
-spec_details: [{"hash": "fut4iynwqdpek7hep7xynozwsx3tpyhj", "compiler": "gcc@=7.5.0", "versions": ["3.3.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~apmpi", "~apmpi_sync", "~apxc", "~hdf5", "+mpi", "scheduler=NONE"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/darshan-runtime-3.3.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-darshan-runtime-3.3.1-fut4iynwqdpek7hep7xynozwsx3tpyhj.spack"}, {"hash": "nz2l34f3k7qqqor3ovukeinpuktklqyv", "compiler": "gcc@=7.5.0", "versions": ["3.3.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~apmpi", "~apmpi_sync", "~apxc", "+hdf5", "+mpi", "scheduler=NONE"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/darshan-runtime-3.3.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-darshan-runtime-3.3.1-nz2l34f3k7qqqor3ovukeinpuktklqyv.spack"}]
----

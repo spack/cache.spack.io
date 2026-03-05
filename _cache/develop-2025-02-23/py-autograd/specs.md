@@ -1,7 +1,0 @@
----
-title: "py-autograd"
-layout: cache
-categories: [package, develop-2025-02-23]
-meta: {"compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["1.6.2"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "ps3okf7o4h3gv32ibpyqvjgnxd5t4rv6", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-23/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-autograd-1.6.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-autograd-1.6.2-ps3okf7o4h3gv32ibpyqvjgnxd5t4rv6.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.6.2"]}, {"compiler": "oneapi@=2024.2.1", "hash": "z23vcdcmjqdv27zm7noluvrgolnw6r2d", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-23/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/py-autograd-1.6.2/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-py-autograd-1.6.2-z23vcdcmjqdv27zm7noluvrgolnw6r2d.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.6.2"]}]
----

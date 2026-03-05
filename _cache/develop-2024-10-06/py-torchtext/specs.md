@@ -1,7 +1,0 @@
----
-title: "py-torchtext"
-layout: cache
-categories: [package, develop-2024-10-06]
-meta: {"versions": ["0.18.0"], "compilers": ["apple-clang@=15.0.0", "gcc@=13.2.0"], "oss": ["ubuntu24.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-x86_64-cpu", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "root": 2, "ml-linux-x86_64-cpu": 1}}
-spec_details: [{"hash": "246tso3s54jh5r6nsgufn4ny4btpfgia", "compiler": "apple-clang@=15.0.0", "versions": ["0.18.0"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-06/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-torchtext-0.18.0/darwin-ventura-aarch64-apple-clang-15.0.0-py-torchtext-0.18.0-246tso3s54jh5r6nsgufn4ny4btpfgia.spack"}, {"hash": "giiwt37qprkmitcrsx4btwsxl7qwnm7n", "compiler": "gcc@=13.2.0", "versions": ["0.18.0"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-06/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-torchtext-0.18.0/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-torchtext-0.18.0-giiwt37qprkmitcrsx4btwsxl7qwnm7n.spack"}]
----

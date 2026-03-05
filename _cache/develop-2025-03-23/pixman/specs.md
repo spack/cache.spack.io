@@ -1,7 +1,0 @@
----
-title: "pixman"
-layout: cache
-categories: [package, develop-2025-03-23]
-meta: {"compilers": ["apple-clang@=16.0.0", "gcc@=11.4.0"], "num_specs": 3, "num_specs_by_stack": {"developer-tools-darwin": 1, "e4s": 1, "hep": 1, "root": 3}, "oss": ["sequoia", "ubuntu22.04"], "platforms": ["darwin", "linux"], "stacks": ["developer-tools-darwin", "e4s", "hep", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["0.44.0"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "5mb4u6ibw7lwqpfid6ce2mxrtcwlbgrq", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library=shared", "+shared", "~strip"], "versions": ["0.44.0"]}, {"compiler": "apple-clang@=16.0.0", "hash": "nyg5bcmvvndsfjsv4u5fishhctlaqmlr", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["developer-tools-darwin", "root"], "target": "aarch64", "variants": ["build_system=meson", "buildtype=release", "default_library=shared", "+shared", "~strip"], "versions": ["0.44.0"]}, {"compiler": "gcc@=11.4.0", "hash": "wrk76jfp7jrc6zx4mhkoa7dpqfv67h6e", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library=shared", "+shared", "~strip"], "versions": ["0.44.0"]}]
----

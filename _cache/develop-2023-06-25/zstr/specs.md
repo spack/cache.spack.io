@@ -1,7 +1,0 @@
----
-title: "zstr"
-layout: cache
-categories: [package, develop-2023-06-25]
-meta: {"versions": ["1.0.7"], "compilers": ["gcc@=7.5.0", "oneapi@=2023.1.0"], "oss": ["ubuntu18.04", "ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64", "x86_64_v3"], "stacks": ["e4s-oneapi", "radiuss", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-oneapi": 1, "root": 2, "radiuss": 1}}
-spec_details: [{"hash": "7hznqbqnf5mrco6smy5wiupxd62umpz3", "compiler": "oneapi@=2023.1.0", "versions": ["1.0.7"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=generic"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-25/build_cache/linux-ubuntu20.04-x86_64/oneapi-2023.1.0/zstr-1.0.7/linux-ubuntu20.04-x86_64-oneapi-2023.1.0-zstr-1.0.7-7hznqbqnf5mrco6smy5wiupxd62umpz3.spack"}, {"hash": "aetiutsb4gi42htxtyqlg4e2x53txrwb", "compiler": "gcc@=7.5.0", "versions": ["1.0.7"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["radiuss", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-25/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/zstr-1.0.7/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-zstr-1.0.7-aetiutsb4gi42htxtyqlg4e2x53txrwb.spack"}]
----

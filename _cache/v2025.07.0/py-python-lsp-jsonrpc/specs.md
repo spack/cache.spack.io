@@ -1,7 +1,0 @@
----
-title: "py-python-lsp-jsonrpc"
-layout: cache
-categories: [package, v2025.07.0]
-meta: {"compilers": ["none"], "num_specs": 3, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-darwin": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "root": 3}, "oss": ["centos7", "rhel8", "sequoia"], "platforms": ["darwin", "linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-darwin", "developer-tools-x86_64_v3-linux-gnu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["1.1.2"]}
-spec_details: [{"compiler": "none", "hash": "3fnr4helavk4mppcbyp25qizfr66xm4f", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["1.1.2"]}, {"compiler": "none", "hash": "e4fvz3bg7cjcrlyos2epj6vvbcfgyuyh", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["developer-tools-darwin", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["1.1.2"]}, {"compiler": "none", "hash": "oelirun36vga2h3mb2so3hb3pledg5yz", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.1.2"]}]
----

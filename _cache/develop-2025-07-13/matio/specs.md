@@ -1,7 +1,0 @@
----
-title: "matio"
-layout: cache
-categories: [package, develop-2025-07-13]
-meta: {"compilers": ["gcc@11.1.0", "gcc@11.4.0"], "num_specs": 4, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 3, "root": 4}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "root"], "targets": ["x86_64_v3"], "versions": ["1.5.26"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "57yzzx3hiuyyoztfskodgay4d5yzq357", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "+hdf5", "+shared", "+zlib"], "versions": ["1.5.26"]}, {"compiler": "gcc@11.1.0", "hash": "bi63cx5o77jx2vpy2isv3gzcpvv2o2pn", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "+hdf5", "+shared", "+zlib"], "versions": ["1.5.26"]}, {"compiler": "gcc@11.4.0", "hash": "glhdbcddddm3cofo7ir4c33imeqxmpvg", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "+hdf5", "+shared", "+zlib"], "versions": ["1.5.26"]}, {"compiler": "gcc@11.4.0", "hash": "mf4p5zs7qfspllg3amvdqonlvuunhnp2", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "+hdf5", "+shared", "+zlib"], "versions": ["1.5.26"]}]
----

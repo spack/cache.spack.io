@@ -1,7 +1,0 @@
----
-title: "libdeflate"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["1.18"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "rffzoteba6jqtdh6vo3wvrfhv3ksl7ob", "compiler": "gcc@=7.3.1", "versions": ["1.18"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/libdeflate-1.18/linux-amzn2-aarch64-gcc-7.3.1-libdeflate-1.18-rffzoteba6jqtdh6vo3wvrfhv3ksl7ob.spack"}, {"hash": "gakxwdvwxqbn2c7shb62ges66mkm43rl", "compiler": "gcc@=7.3.1", "versions": ["1.18"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/libdeflate-1.18/linux-amzn2-neoverse_n1-gcc-7.3.1-libdeflate-1.18-gakxwdvwxqbn2c7shb62ges66mkm43rl.spack"}]
----

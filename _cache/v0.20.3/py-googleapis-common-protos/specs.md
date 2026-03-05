@@ -1,7 +1,0 @@
----
-title: "py-googleapis-common-protos"
-layout: cache
-categories: [package, v0.20.3]
-meta: {"versions": ["1.58.0"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cpu": 2, "ml-linux-x86_64-cuda": 2, "ml-linux-x86_64-rocm": 2, "root": 2}}
-spec_details: [{"hash": "fnui67fbleeobb7ir6fiong64hompiir", "compiler": "gcc@=11.4.0", "versions": ["1.58.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.3/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-googleapis-common-protos-1.58.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-googleapis-common-protos-1.58.0-fnui67fbleeobb7ir6fiong64hompiir.spack"}, {"hash": "otlkywmmyipjzgfjcqyz4mq3wwma46da", "compiler": "gcc@=11.4.0", "versions": ["1.58.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.3/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-googleapis-common-protos-1.58.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-googleapis-common-protos-1.58.0-otlkywmmyipjzgfjcqyz4mq3wwma46da.spack"}]
----

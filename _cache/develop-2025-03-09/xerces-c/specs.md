@@ -1,7 +1,0 @@
----
-title: "xerces-c"
-layout: cache
-categories: [package, develop-2025-03-09]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "e4s-neoverse-v2": 1, "e4s-rocm-external": 1, "hep": 1, "root": 3}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-neoverse-v2", "e4s-rocm-external", "hep", "root"], "targets": ["neoverse_v2", "x86_64_v3"], "versions": ["3.3.0"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "4nsnemkfiedzbevq76fwwrre7bdfydln", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "e4s-rocm-external", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "cxxstd=default", "netaccessor=curl", "transcoder=iconv"], "versions": ["3.3.0"]}, {"compiler": "gcc@=11.4.0", "hash": "msopno4bc745iypfvhlapncubf5bk42f", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-neoverse-v2", "root"], "target": "neoverse_v2", "variants": ["build_system=autotools", "cxxstd=default", "netaccessor=curl", "transcoder=iconv"], "versions": ["3.3.0"]}, {"compiler": "gcc@=11.4.0", "hash": "wgh6hoswrcnrc5fzqz2czeqy4nq2vkgs", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "cxxstd=20", "netaccessor=curl", "transcoder=gnuiconv"], "versions": ["3.3.0"]}]
----

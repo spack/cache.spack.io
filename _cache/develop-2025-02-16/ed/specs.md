@@ -1,7 +1,0 @@
----
-title: "ed"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-neoverse-v2": 1, "root": 2, "tutorial": 1}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-neoverse-v2", "root", "tutorial"], "targets": ["neoverse_v2", "x86_64_v3"], "versions": ["1.4"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "nj3nqmrbr3yeoceao6levfry2lt5kqhl", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-neoverse-v2", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-neoverse_v2/gcc-11.4.0/ed-1.4/linux-ubuntu22.04-neoverse_v2-gcc-11.4.0-ed-1.4-nj3nqmrbr3yeoceao6levfry2lt5kqhl.spack", "target": "neoverse_v2", "variants": ["build_system=autotools"], "versions": ["1.4"]}, {"compiler": "gcc@=11.4.0", "hash": "yjvr5fv5hb2wkrg2q3gq5lsbdgzjygz5", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root", "tutorial"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/ed-1.4/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-ed-1.4-yjvr5fv5hb2wkrg2q3gq5lsbdgzjygz5.spack", "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.4"]}]
----

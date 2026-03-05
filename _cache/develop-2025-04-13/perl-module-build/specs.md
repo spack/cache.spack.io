@@ -1,7 +1,0 @@
----
-title: "perl-module-build"
-layout: cache
-categories: [package, develop-2025-04-13]
-meta: {"compilers": ["none"], "num_specs": 4, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "hep": 2, "ml-linux-x86_64-rocm": 1, "root": 4}, "oss": ["ubuntu20.04", "ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "hep", "ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["0.4234"]}
-spec_details: [{"compiler": "none", "hash": "5ffs4qbvl47suzsgbtepyd6qk4cueb3j", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=perl"], "versions": ["0.4234"]}, {"compiler": "none", "hash": "etftnxrlqbi6bqglwwh2dh6hekh4ikfo", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=perl"], "versions": ["0.4234"]}, {"compiler": "none", "hash": "gpwa24bbsmu7knxbnu74nfgb2x67zkei", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=perl"], "versions": ["0.4234"]}, {"compiler": "none", "hash": "rdl6xltydacrs2xspeunzuy2zcjrquyz", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "hep", "root"], "target": "x86_64_v3", "variants": ["build_system=perl"], "versions": ["0.4234"]}]
----

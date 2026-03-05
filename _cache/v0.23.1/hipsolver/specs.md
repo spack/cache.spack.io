@@ -1,7 +1,0 @@
----
-title: "hipsolver"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=13.2.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-rocm": 2, "root": 2}, "oss": ["ubuntu24.04"], "platforms": ["linux"], "stacks": ["ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["6.1.2"]}
-spec_details: [{"compiler": "gcc@=13.2.0", "hash": "fkyudkegi6i744r2z7otz44rdywgw7h5", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/hipsolver-6.1.2/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-hipsolver-6.1.2-fkyudkegi6i744r2z7otz44rdywgw7h5.spack", "target": "x86_64_v3", "variants": ["amdgpu_target=gfx90a", "~asan", "build_system=cmake", "build_type=Release", "~cuda", "generator=make", "~ipo", "patches=d9ef5be", "+rocm"], "versions": ["6.1.2"]}, {"compiler": "gcc@=13.2.0", "hash": "l35ffc3cjm63n5h5h2kyghyu5zfapf4n", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/hipsolver-6.1.2/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-hipsolver-6.1.2-l35ffc3cjm63n5h5h2kyghyu5zfapf4n.spack", "target": "x86_64_v3", "variants": ["amdgpu_target=gfx90a", "~asan", "build_system=cmake", "build_type=Release", "~cuda", "generator=make", "~ipo", "patches=d9ef5be", "+rocm"], "versions": ["6.1.2"]}]
----

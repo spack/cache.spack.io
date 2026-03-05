@@ -1,7 +1,0 @@
----
-title: "py-parse"
-layout: cache
-categories: [package, develop-2025-03-23]
-meta: {"compilers": ["gcc@=11.4.0", "gcc@=7.5.0", "oneapi@=2024.2.1"], "num_specs": 4, "num_specs_by_stack": {"e4s": 1, "e4s-neoverse-v2": 1, "e4s-oneapi": 1, "radiuss": 1, "root": 4}, "oss": ["ubuntu18.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-neoverse-v2", "e4s-oneapi", "radiuss", "root"], "targets": ["neoverse_v2", "x86_64_v3"], "versions": ["1.18.0"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "22bdr2wxl2vg7j7kmagiquof6irknapr", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.18.0"]}, {"compiler": "oneapi@=2024.2.1", "hash": "6obulhcx2aoq4wgji7ar5nbbclmv25og", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.18.0"]}, {"compiler": "gcc@=11.4.0", "hash": "i73coeoqys5yrix3majr6shv3gxfcme7", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-neoverse-v2", "root"], "target": "neoverse_v2", "variants": ["build_system=python_pip"], "versions": ["1.18.0"]}, {"compiler": "gcc@=7.5.0", "hash": "sbe5pctddqsexhajxypg6c2jfx622spd", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["radiuss", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.18.0"]}]
----

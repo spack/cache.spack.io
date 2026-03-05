@@ -1,7 +1,0 @@
----
-title: "py-pickleshare"
-layout: cache
-categories: [package, develop-2024-09-22]
-meta: {"versions": ["0.7.5"], "compilers": ["gcc@=11.1.0", "oneapi@=2024.2.1"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s-oneapi": 1}}
-spec_details: [{"hash": "cxlmnn7ezpqhpl3f4x3uwsiyyp5eiana", "compiler": "gcc@=11.1.0", "versions": ["0.7.5"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-09-22/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-pickleshare-0.7.5/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-pickleshare-0.7.5-cxlmnn7ezpqhpl3f4x3uwsiyyp5eiana.spack"}, {"hash": "mkdn3i2bnoczboignum6rrie34qmko5d", "compiler": "oneapi@=2024.2.1", "versions": ["0.7.5"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-09-22/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/py-pickleshare-0.7.5/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-py-pickleshare-0.7.5-mkdn3i2bnoczboignum6rrie34qmko5d.spack"}]
----

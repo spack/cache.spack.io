@@ -1,7 +1,0 @@
----
-title: "py-segmentation-models-pytorch"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["0.3.3"], "compilers": ["apple-clang@=15.0.0"], "oss": ["ventura"], "platforms": ["darwin"], "targets": ["aarch64"], "stacks": ["ml-darwin-aarch64-mps", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 2, "root": 2}}
-spec_details: [{"hash": "yvk7xncubdno3x66oqat3ejccepcqy5c", "compiler": "apple-clang@=15.0.0", "versions": ["0.3.3"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-segmentation-models-pytorch-0.3.3/darwin-ventura-aarch64-apple-clang-15.0.0-py-segmentation-models-pytorch-0.3.3-yvk7xncubdno3x66oqat3ejccepcqy5c.spack"}, {"hash": "cvrllsrn4zguyqcu4g4u34h7fe2sotz4", "compiler": "apple-clang@=15.0.0", "versions": ["0.3.3"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-segmentation-models-pytorch-0.3.3/darwin-ventura-aarch64-apple-clang-15.0.0-py-segmentation-models-pytorch-0.3.3-cvrllsrn4zguyqcu4g4u34h7fe2sotz4.spack"}]
----

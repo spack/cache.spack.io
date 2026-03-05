@@ -1,7 +1,0 @@
----
-title: "emacs"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "num_specs": 2, "num_specs_by_stack": {"developer-tools": 1, "developer-tools-manylinux2014": 1, "root": 2}, "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "targets": ["x86_64_v3"], "versions": ["29.1"]}
-spec_details: [{"compiler": "gcc@=7.5.0", "hash": "7zj3kw3mjwt2kr5wbb5h6v2civtanonp", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["developer-tools", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/emacs-29.1/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-emacs-29.1-7zj3kw3mjwt2kr5wbb5h6v2civtanonp.spack", "target": "x86_64_v3", "variants": ["~X", "build_system=autotools", "+json", "+native", "+tls", "toolkit=gtk", "+treesitter"], "versions": ["29.1"]}, {"compiler": "gcc@=10.2.1", "hash": "t3f73czea5beyrdcgcujtmy2hb6s7xiz", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-manylinux2014", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/emacs-29.1/linux-centos7-x86_64_v3-gcc-10.2.1-emacs-29.1-t3f73czea5beyrdcgcujtmy2hb6s7xiz.spack", "target": "x86_64_v3", "variants": ["~X", "build_system=autotools", "+json", "+native", "+tls", "toolkit=gtk", "+treesitter"], "versions": ["29.1"]}]
----

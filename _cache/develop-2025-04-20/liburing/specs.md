@@ -1,7 +1,0 @@
----
-title: "liburing"
-layout: cache
-categories: [package, develop-2025-04-20]
-meta: {"compilers": ["gcc@10.5.0", "gcc@11.4.0", "gcc@13.3.0"], "num_specs": 3, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "e4s": 1, "root": 3}, "oss": ["centos7", "rhel8", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "e4s", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["2.9"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "fcstmsjnz6ydrvrpposznfz6lxrlcdpx", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["2.9"]}, {"compiler": "gcc@13.3.0", "hash": "owvjzzkcj6p5qer2oirpbzu53mbzvcde", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "target": "aarch64", "variants": ["build_system=autotools"], "versions": ["2.9"]}, {"compiler": "gcc@10.5.0", "hash": "qrggn4wuc3rbtnx7dpo4pe44h2o6vzpc", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["2.9"]}]
----

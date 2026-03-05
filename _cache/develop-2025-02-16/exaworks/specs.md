@@ -1,7 +1,0 @@
----
-title: "exaworks"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["0.1.0"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "fymcc5oxlr3n4ny7tzp73d3umvanj57x", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/exaworks-0.1.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-exaworks-0.1.0-fymcc5oxlr3n4ny7tzp73d3umvanj57x.spack", "target": "x86_64_v3", "variants": ["build_system=bundle"], "versions": ["0.1.0"]}, {"compiler": "oneapi@=2024.2.1", "hash": "ycng2ea4xvs7vcxiufoisrsx4m6yv5v6", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/exaworks-0.1.0/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-exaworks-0.1.0-ycng2ea4xvs7vcxiufoisrsx4m6yv5v6.spack", "target": "x86_64_v3", "variants": ["build_system=bundle"], "versions": ["0.1.0"]}]
----

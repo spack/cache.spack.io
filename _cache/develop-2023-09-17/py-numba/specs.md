@@ -1,7 +1,0 @@
----
-title: "py-numba"
-layout: cache
-categories: [package, develop-2023-09-17]
-meta: {"versions": ["0.57.0"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "5eisohtaq47ygvtgjh2ojcypz4qolwpo", "compiler": "gcc@=11.1.0", "versions": ["0.57.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-17/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-numba-0.57.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-numba-0.57.0-5eisohtaq47ygvtgjh2ojcypz4qolwpo.spack"}, {"hash": "ylbuz7b4svlc2wcirwhere3jylbht77v", "compiler": "gcc@=11.1.0", "versions": ["0.57.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-17/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-numba-0.57.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-numba-0.57.0-ylbuz7b4svlc2wcirwhere3jylbht77v.spack"}]
----

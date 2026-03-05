@@ -1,7 +1,0 @@
----
-title: "darshan-util"
-layout: cache
-categories: [package, develop-2023-06-25]
-meta: {"versions": ["3.4.3"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["data-vis-sdk", "e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s": 1, "e4s-power": 1}}
-spec_details: [{"hash": "ag4m3pl3hygzhr3ck4yknxusn6tzdtv3", "compiler": "gcc@=11.1.0", "versions": ["3.4.3"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~apmpi", "~apxc", "build_system=autotools", "~bzip2"], "stacks": ["data-vis-sdk", "root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-25/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/darshan-util-3.4.3/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-darshan-util-3.4.3-ag4m3pl3hygzhr3ck4yknxusn6tzdtv3.spack"}, {"hash": "gzk4yby6cvdkohj2pvybvph2gp4povvv", "compiler": "gcc@=11.1.0", "versions": ["3.4.3"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["~apmpi", "~apxc", "build_system=autotools", "~bzip2"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-25/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/darshan-util-3.4.3/linux-ubuntu20.04-ppc64le-gcc-11.1.0-darshan-util-3.4.3-gzk4yby6cvdkohj2pvybvph2gp4povvv.spack"}]
----

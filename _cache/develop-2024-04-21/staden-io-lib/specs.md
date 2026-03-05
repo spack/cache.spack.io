@@ -1,7 +1,0 @@
----
-title: "staden-io-lib"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["1.14.8"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "kcsf2ftv5gknxkk6kgkgdb2oxa2vui4u", "compiler": "gcc@=7.3.1", "versions": ["1.14.8"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools", "~curl"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/staden-io-lib-1.14.8/linux-amzn2-aarch64-gcc-7.3.1-staden-io-lib-1.14.8-kcsf2ftv5gknxkk6kgkgdb2oxa2vui4u.spack"}, {"hash": "abh347vteaodss3pkaiphepcefo5wu2c", "compiler": "gcc@=7.3.1", "versions": ["1.14.8"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=autotools", "~curl"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/staden-io-lib-1.14.8/linux-amzn2-neoverse_n1-gcc-7.3.1-staden-io-lib-1.14.8-abh347vteaodss3pkaiphepcefo5wu2c.spack"}]
----

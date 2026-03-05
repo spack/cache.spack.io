@@ -1,7 +1,0 @@
----
-title: "gl2ps"
-layout: cache
-categories: [package, develop-2023-06-11]
-meta: {"versions": ["1.4.2"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 2, "root": 2}}
-spec_details: [{"hash": "w2f4l52kdkznew2pmobggmwzbowqymbo", "compiler": "gcc@=11.1.0", "versions": ["1.4.2"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~doc", "generator=make", "~ipo", "+png", "+zlib"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-11/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/gl2ps-1.4.2/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-gl2ps-1.4.2-w2f4l52kdkznew2pmobggmwzbowqymbo.spack"}, {"hash": "dy5qna2mh3wnctzzbh5uwegtqi7fbwa7", "compiler": "gcc@=11.1.0", "versions": ["1.4.2"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~doc", "generator=make", "~ipo", "+png", "+zlib"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-11/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/gl2ps-1.4.2/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-gl2ps-1.4.2-dy5qna2mh3wnctzzbh5uwegtqi7fbwa7.spack"}]
----

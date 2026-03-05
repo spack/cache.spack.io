@@ -1,7 +1,0 @@
----
-title: "rocprofiler-register"
-layout: cache
-categories: [package, develop-2025-05-04]
-meta: {"compilers": ["gcc@11.4.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 3, "root": 3}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "root"], "targets": ["x86_64_v3"], "versions": ["6.3.3"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "lpcucgq33ciqy7co4tyv5o5fixnanr44", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "patches:=fc2f3cd"], "versions": ["6.3.3"]}, {"compiler": "gcc@11.4.0", "hash": "qq5lz44ffugunms4hsvwvpvugjp3rmbv", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "patches:=fc2f3cd"], "versions": ["6.3.3"]}, {"compiler": "gcc@11.4.0", "hash": "zaoginve33mbzflkmsxphngw337nuz7r", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "patches:=fc2f3cd"], "versions": ["6.3.3"]}]
----

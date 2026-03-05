@@ -1,7 +1,0 @@
----
-title: "py-scikit-image"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["0.23.2"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["neoverse_v1", "x86_64_v3"], "stacks": ["e4s", "e4s-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-neoverse_v1": 1}}
-spec_details: [{"hash": "xnseq3cq7aj4lxnhwc4dzcl4gmzriwwu", "compiler": "gcc@=11.4.0", "versions": ["0.23.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-scikit-image-0.23.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-scikit-image-0.23.2-xnseq3cq7aj4lxnhwc4dzcl4gmzriwwu.spack"}, {"hash": "w5is7ynhphyqygdvdm2aqeykjuurrc7q", "compiler": "gcc@=11.4.0", "versions": ["0.23.2"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=python_pip"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-neoverse_v1/gcc-11.4.0/py-scikit-image-0.23.2/linux-ubuntu22.04-neoverse_v1-gcc-11.4.0-py-scikit-image-0.23.2-w5is7ynhphyqygdvdm2aqeykjuurrc7q.spack"}]
----

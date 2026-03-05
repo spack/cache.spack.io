@@ -1,7 +1,0 @@
----
-title: "rccl"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=13.2.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-rocm": 2, "root": 2}, "oss": ["ubuntu24.04"], "platforms": ["linux"], "stacks": ["ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["6.1.2"]}
-spec_details: [{"compiler": "gcc@=13.2.0", "hash": "s5ryhhh7d5duq4ntqcbgir5ltrm7h3re", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/rccl-6.1.2/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-rccl-6.1.2-s5ryhhh7d5duq4ntqcbgir5ltrm7h3re.spack", "target": "x86_64_v3", "variants": ["amdgpu_target=gfx90a", "build_system=cmake", "build_type=Release", "generator=make", "~ipo", "patches=68a55d8"], "versions": ["6.1.2"]}, {"compiler": "gcc@=13.2.0", "hash": "tjvpfh2qceuhvrrwdvsetrv5vtz54deu", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/rccl-6.1.2/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-rccl-6.1.2-tjvpfh2qceuhvrrwdvsetrv5vtz54deu.spack", "target": "x86_64_v3", "variants": ["amdgpu_target=gfx90a", "build_system=cmake", "build_type=Release", "generator=make", "~ipo", "patches=68a55d8"], "versions": ["6.1.2"]}]
----

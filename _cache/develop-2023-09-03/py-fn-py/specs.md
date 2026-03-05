@@ -1,7 +1,0 @@
----
-title: "py-fn-py"
-layout: cache
-categories: [package, develop-2023-09-03]
-meta: {"versions": ["0.5.2"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "j4f6vzsnug4e7xgl4t63rcwh67g45n5z", "compiler": "gcc@=11.1.0", "versions": ["0.5.2"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=python_pip"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-03/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/py-fn-py-0.5.2/linux-ubuntu20.04-ppc64le-gcc-11.1.0-py-fn-py-0.5.2-j4f6vzsnug4e7xgl4t63rcwh67g45n5z.spack"}, {"hash": "zxfvb4lxhflczzhbxd52zlionoxznr65", "compiler": "gcc@=11.1.0", "versions": ["0.5.2"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-03/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-fn-py-0.5.2/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-fn-py-0.5.2-zxfvb4lxhflczzhbxd52zlionoxznr65.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "fd"
-layout: cache
-categories: [package, v0.22.2]
-meta: {"versions": ["9.0.0"], "compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-manylinux2014": 1, "root": 2, "developer-tools": 1}}
-spec_details: [{"hash": "cvjekgt4tgfrjfkzhayhywl3v3m3xfhv", "compiler": "gcc@=10.2.1", "versions": ["9.0.0"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cargo"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.2/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/fd-9.0.0/linux-centos7-x86_64_v3-gcc-10.2.1-fd-9.0.0-cvjekgt4tgfrjfkzhayhywl3v3m3xfhv.spack"}, {"hash": "xrmrgsblavglfw66vvbn2tucritusehq", "compiler": "gcc@=7.5.0", "versions": ["9.0.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cargo"], "stacks": ["developer-tools", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.2/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/fd-9.0.0/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-fd-9.0.0-xrmrgsblavglfw66vvbn2tucritusehq.spack"}]
----

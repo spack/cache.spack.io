@@ -1,7 +1,0 @@
----
-title: "intel-xed"
-layout: cache
-categories: [package, develop-2024-06-16]
-meta: {"versions": ["2023.10.11"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-rocm-external", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-rocm-external": 1}}
-spec_details: [{"hash": "gyzsmuytkklesnmfwcbjwvtuqbdivo6l", "compiler": "gcc@=11.4.0", "versions": ["2023.10.11"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic", "~debug", "+pic"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-06-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/intel-xed-2023.10.11/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-intel-xed-2023.10.11-gyzsmuytkklesnmfwcbjwvtuqbdivo6l.spack"}, {"hash": "4fprg3tto7wtr2dc6z3jtclpbgbdqdol", "compiler": "gcc@=11.4.0", "versions": ["2023.10.11"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic", "~debug", "+pic"], "stacks": ["e4s-rocm-external", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-06-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/intel-xed-2023.10.11/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-intel-xed-2023.10.11-4fprg3tto7wtr2dc6z3jtclpbgbdqdol.spack"}]
----

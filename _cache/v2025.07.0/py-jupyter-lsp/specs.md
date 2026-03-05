@@ -1,7 +1,0 @@
----
-title: "py-jupyter-lsp"
-layout: cache
-categories: [package, v2025.07.0]
-meta: {"compilers": ["none"], "num_specs": 4, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 2, "e4s-neoverse-v2": 1, "root": 4}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "e4s-neoverse-v2", "root"], "targets": ["neoverse_v2", "x86_64_v3"], "versions": ["2.2.0"]}
-spec_details: [{"compiler": "none", "hash": "3yai6yazavlj4ldbextlruojxn43ckcm", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.2.0"]}, {"compiler": "none", "hash": "7jelm5adudpv22mp66tvgk2ivlsp7q47", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.2.0"]}, {"compiler": "none", "hash": "ogx7dlltzbgrt2pjerlb5jqxerar5cxw", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-neoverse-v2", "root"], "target": "neoverse_v2", "variants": ["build_system=python_pip"], "versions": ["2.2.0"]}, {"compiler": "none", "hash": "skpimgo247wp64ims74ha5rivujyhblv", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.2.0"]}]
----

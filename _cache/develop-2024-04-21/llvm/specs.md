@@ -1,7 +1,0 @@
----
-title: "llvm"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["18.1.3"], "compilers": ["gcc@=10.2.1"], "oss": ["centos7"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["developer-tools-manylinux2014", "root"], "num_specs": 1, "num_specs_by_stack": {"developer-tools-manylinux2014": 1, "root": 1}}
-spec_details: [{"hash": "ygts57emzzknri4euqfize643bryywxx", "compiler": "gcc@=10.2.1", "versions": ["18.1.3"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=MinSizeRel", "+clang", "compiler-rt=runtime", "~cuda", "~flang", "generator=ninja", "+gold", "~ipo", "libcxx=runtime", "~libomptarget", "~libomptarget_debug", "libunwind=runtime", "+link_llvm_dylib", "~lld", "~lldb", "+llvm_dylib", "~lua", "~mlir", "openmp=runtime", "~polly", "+python", "shlib_symbol_version=none", "~split_dwarf", "targets=all", "version_suffix=none", "~z3", "~zstd"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/llvm-18.1.3/linux-centos7-x86_64_v3-gcc-10.2.1-llvm-18.1.3-ygts57emzzknri4euqfize643bryywxx.spack"}]
----

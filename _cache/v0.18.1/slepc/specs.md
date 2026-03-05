@@ -1,7 +1,0 @@
----
-title: "slepc"
-layout: cache
-categories: [package, v0.18.1]
-meta: {"versions": ["3.17.1"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 2}}
-spec_details: [{"hash": "dxyl7m65h2yseks6gmaqskwrf2adeykw", "compiler": "gcc@=7.5.0", "versions": ["3.17.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["+arpack", "~blopex", "~cuda", "~rocm"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.1/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/slepc-3.17.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-slepc-3.17.1-dxyl7m65h2yseks6gmaqskwrf2adeykw.spack"}, {"hash": "24mwm6uep3k5ikhmo66ewav7qgj4brfg", "compiler": "gcc@=7.5.0", "versions": ["3.17.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["+arpack", "~blopex", "+cuda", "cuda_arch=70", "~rocm"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.1/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/slepc-3.17.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-slepc-3.17.1-24mwm6uep3k5ikhmo66ewav7qgj4brfg.spack"}]
----

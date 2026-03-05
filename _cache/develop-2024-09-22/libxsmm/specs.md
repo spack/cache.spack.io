@@ -1,7 +1,0 @@
----
-title: "libxsmm"
-layout: cache
-categories: [package, develop-2024-09-22]
-meta: {"versions": ["main-2023-11"], "compilers": ["oneapi@=2023.2.0"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3", "x86_64_v4"], "stacks": ["aws-pcluster-x86_64_v4", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "aws-pcluster-x86_64_v4": 2}}
-spec_details: [{"hash": "yr5i26vm4yubrxanvhslqbyjk2zrwd7g", "compiler": "oneapi@=2023.2.0", "versions": ["main-2023-11"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["blas=default", "build_system=makefile", "~debug", "~generator", "~header-only", "~large_jit_buffer", "+shared"], "stacks": ["root", "aws-pcluster-x86_64_v4"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-09-22/build_cache/linux-amzn2-x86_64_v3/oneapi-2023.2.0/libxsmm-main-2023-11/linux-amzn2-x86_64_v3-oneapi-2023.2.0-libxsmm-main-2023-11-yr5i26vm4yubrxanvhslqbyjk2zrwd7g.spack"}, {"hash": "yrbrvhij3rn7gwy5jtp6s3362cxmdpbl", "compiler": "oneapi@=2023.2.0", "versions": ["main-2023-11"], "os": "amzn2", "platform": "linux", "target": "x86_64_v4", "variants": ["blas=default", "build_system=makefile", "~debug", "~generator", "~header-only", "~large_jit_buffer", "+shared"], "stacks": ["root", "aws-pcluster-x86_64_v4"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-09-22/build_cache/linux-amzn2-x86_64_v4/oneapi-2023.2.0/libxsmm-main-2023-11/linux-amzn2-x86_64_v4-oneapi-2023.2.0-libxsmm-main-2023-11-yrbrvhij3rn7gwy5jtp6s3362cxmdpbl.spack"}]
----

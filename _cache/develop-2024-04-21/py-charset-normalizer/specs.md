@@ -1,7 +1,0 @@
----
-title: "py-charset-normalizer"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["3.3.0"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "rbnkj76fxa6sgcuz6u7oewxmqyrdg3md", "compiler": "gcc@=7.3.1", "versions": ["3.3.0"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=python_pip"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/py-charset-normalizer-3.3.0/linux-amzn2-neoverse_n1-gcc-7.3.1-py-charset-normalizer-3.3.0-rbnkj76fxa6sgcuz6u7oewxmqyrdg3md.spack"}, {"hash": "jffjmfzafqrjz5ip365a7kmflr72qyvs", "compiler": "gcc@=7.3.1", "versions": ["3.3.0"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/py-charset-normalizer-3.3.0/linux-amzn2-aarch64-gcc-7.3.1-py-charset-normalizer-3.3.0-jffjmfzafqrjz5ip365a7kmflr72qyvs.spack"}]
----

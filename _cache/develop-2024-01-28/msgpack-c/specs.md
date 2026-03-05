@@ -1,7 +1,0 @@
----
-title: "msgpack-c"
-layout: cache
-categories: [package, develop-2024-01-28]
-meta: {"versions": ["3.1.1"], "compilers": ["gcc@=11.4.0", "gcc@=7.5.0"], "oss": ["ubuntu18.04", "ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["developer-tools", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "uyyulg3hecjt427hciup226r6rbzezei", "compiler": "gcc@=7.5.0", "versions": ["3.1.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["developer-tools", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-01-28/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/msgpack-c-3.1.1/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-msgpack-c-3.1.1-uyyulg3hecjt427hciup226r6rbzezei.spack"}, {"hash": "zgwqp4k4znubvnaxszfo3fhvhemyen5w", "compiler": "gcc@=11.4.0", "versions": ["3.1.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-01-28/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/msgpack-c-3.1.1/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-msgpack-c-3.1.1-zgwqp4k4znubvnaxszfo3fhvhemyen5w.spack"}]
----

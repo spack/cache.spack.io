@@ -1,7 +1,0 @@
----
-title: "py-tzdata"
-layout: cache
-categories: [package, develop-2025-03-09]
-meta: {"compilers": ["gcc@=11.1.0", "gcc@=11.4.0", "oneapi@=2024.2.1"], "num_specs": 4, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 2, "e4s-oneapi": 1, "e4s-rocm-external": 1, "root": 4}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "e4s-oneapi", "e4s-rocm-external", "root"], "targets": ["x86_64_v3"], "versions": ["2023.3"]}
-spec_details: [{"compiler": "oneapi@=2024.2.1", "hash": "6zwfo2g4kah75vcysadsne3zyw7lq6cb", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2023.3"]}, {"compiler": "gcc@=11.4.0", "hash": "bid6jy3crmm3ru63xk32wvunuhvgwjmm", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2023.3"]}, {"compiler": "gcc@=11.1.0", "hash": "q2iy5hhohmktnzdbkhjnu3hkh3wzy4mp", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2023.3"]}, {"compiler": "gcc@=11.4.0", "hash": "umqpcvxjjmbzfvomm3ibjiqykrfhtff7", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "e4s-rocm-external", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2023.3"]}]
----

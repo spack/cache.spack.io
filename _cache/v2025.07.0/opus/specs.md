@@ -1,7 +1,0 @@
----
-title: "opus"
-layout: cache
-categories: [package, v2025.07.0]
-meta: {"compilers": ["apple-clang@17.0.0", "gcc@13.2.0"], "num_specs": 3, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 3}, "oss": ["sequoia", "ubuntu24.04"], "platforms": ["darwin", "linux"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["1.5.2"]}
-spec_details: [{"compiler": "apple-clang@17.0.0", "hash": "tu5v3fdequapf73jz7ojywciupdj25st", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["ml-darwin-aarch64-mps", "root"], "target": "aarch64", "variants": ["build_system=autotools"], "versions": ["1.5.2"]}, {"compiler": "gcc@13.2.0", "hash": "v7rcydk4j37fi5v4lisqcgu4or4yhbii", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.5.2"]}, {"compiler": "gcc@13.2.0", "hash": "zp7xdhmmbvk475k6s5xde6xoputc67a5", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=autotools"], "versions": ["1.5.2"]}]
----

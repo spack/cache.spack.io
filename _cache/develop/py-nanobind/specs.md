@@ -1,7 +1,0 @@
----
-title: "py-nanobind"
-layout: cache
-categories: [package, develop]
-meta: {"compilers": ["gcc@13.2.0"], "num_specs": 3, "num_specs_by_stack": {"ml-linux-x86_64-rocm": 3, "root": 3}, "oss": ["ubuntu24.04"], "platforms": ["linux"], "stacks": ["ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["2.8.0"]}
-spec_details: [{"compiler": "gcc@13.2.0", "hash": "66zzeqf4cekfyw4nmzakmt3525gm2mrr", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip", "commit=0e7aa61a75052034453cd2b906a79fe222792697"], "versions": ["2.8.0"]}, {"compiler": "gcc@13.2.0", "hash": "6z2uu6akcrtjv7zbzy2f7ripbgv2nwje", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip", "commit=0e7aa61a75052034453cd2b906a79fe222792697"], "versions": ["2.8.0"]}, {"compiler": "gcc@13.2.0", "hash": "s2rnsxitrljdti2q2265gt6bvhnfljo5", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip", "commit=0e7aa61a75052034453cd2b906a79fe222792697"], "versions": ["2.8.0"]}]
----

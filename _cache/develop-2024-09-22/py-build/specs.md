@@ -1,7 +1,0 @@
----
-title: "py-build"
-layout: cache
-categories: [package, develop-2024-09-22]
-meta: {"versions": ["1.2.1"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["neoverse_v1", "x86_64_v3"], "stacks": ["e4s-neoverse_v1", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-neoverse_v1": 1, "root": 2, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "vk5rixwpdfey3sl52idgrmj2vmbiwffo", "compiler": "gcc@=11.4.0", "versions": ["1.2.1"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=python_pip", "~virtualenv"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-09-22/build_cache/linux-ubuntu22.04-neoverse_v1/gcc-11.4.0/py-build-1.2.1/linux-ubuntu22.04-neoverse_v1-gcc-11.4.0-py-build-1.2.1-vk5rixwpdfey3sl52idgrmj2vmbiwffo.spack"}, {"hash": "rsrsovc2acylvkzhp3paa3axl3tblwyc", "compiler": "gcc@=11.4.0", "versions": ["1.2.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~virtualenv"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-09-22/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-build-1.2.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-build-1.2.1-rsrsovc2acylvkzhp3paa3axl3tblwyc.spack"}]
----

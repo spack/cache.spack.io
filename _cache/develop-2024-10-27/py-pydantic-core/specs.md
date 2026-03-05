@@ -1,7 +1,0 @@
----
-title: "py-pydantic-core"
-layout: cache
-categories: [package, develop-2024-10-27]
-meta: {"versions": ["2.18.4"], "compilers": ["apple-clang@=15.0.0", "gcc@=13.2.0"], "oss": ["ubuntu24.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "root": 2, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "no3ld3qvqf4e3iytm3yuwav6h5dttm6f", "compiler": "apple-clang@=15.0.0", "versions": ["2.18.4"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-27/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-pydantic-core-2.18.4/darwin-ventura-aarch64-apple-clang-15.0.0-py-pydantic-core-2.18.4-no3ld3qvqf4e3iytm3yuwav6h5dttm6f.spack"}, {"hash": "nrtgvks2lihn4exzyjnu2vcliobxl443", "compiler": "gcc@=13.2.0", "versions": ["2.18.4"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-27/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-pydantic-core-2.18.4/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-pydantic-core-2.18.4-nrtgvks2lihn4exzyjnu2vcliobxl443.spack"}]
----

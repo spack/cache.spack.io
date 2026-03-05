@@ -1,7 +1,0 @@
----
-title: "py-torch-geometric"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["gcc@=13.2.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "ml-linux-x86_64-cpu": 1, "root": 2}, "oss": ["ubuntu24.04"], "platforms": ["linux"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-x86_64-cpu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["2.5.3"]}
-spec_details: [{"compiler": "gcc@=13.2.0", "hash": "xj427mu7stj6idzvnypfjf2tq3m5kfae", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/py-torch-geometric-2.5.3/linux-ubuntu24.04-aarch64-gcc-13.2.0-py-torch-geometric-2.5.3-xj427mu7stj6idzvnypfjf2tq3m5kfae.spack", "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["2.5.3"]}, {"compiler": "gcc@=13.2.0", "hash": "vxoz7bqpy77ikbeole3cfgdqmse3m4g2", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-torch-geometric-2.5.3/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-torch-geometric-2.5.3-vxoz7bqpy77ikbeole3cfgdqmse3m4g2.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2.5.3"]}]
----

@@ -1,7 +1,0 @@
----
-title: "py-aenum"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=13.2.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 2}, "oss": ["ubuntu24.04"], "platforms": ["linux"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["3.1.12"]}
-spec_details: [{"compiler": "gcc@=13.2.0", "hash": "izxi52gdrk46r6htflmwhkdnwkrqckrv", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/py-aenum-3.1.12/linux-ubuntu24.04-aarch64-gcc-13.2.0-py-aenum-3.1.12-izxi52gdrk46r6htflmwhkdnwkrqckrv.spack", "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["3.1.12"]}, {"compiler": "gcc@=13.2.0", "hash": "fuwnyhtlwcjxichyodt4gfgvjhoefhjn", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-aenum-3.1.12/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-aenum-3.1.12-fuwnyhtlwcjxichyodt4gfgvjhoefhjn.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["3.1.12"]}]
----

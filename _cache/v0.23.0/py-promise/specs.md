@@ -1,7 +1,0 @@
----
-title: "py-promise"
-layout: cache
-categories: [package, v0.23.0]
-meta: {"versions": ["2.3"], "compilers": ["gcc@=13.2.0"], "oss": ["ubuntu24.04"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "root": 2, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "ml-linux-x86_64-rocm": 1}}
-spec_details: [{"hash": "ktmjppcd4dw56y5aiwd6vnwm7fudodiu", "compiler": "gcc@=13.2.0", "versions": ["2.3"], "os": "ubuntu24.04", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-aarch64-cpu", "root", "ml-linux-aarch64-cuda"], "size": "-", "tarball": "https://binaries.spack.io/v0.23.0/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/py-promise-2.3/linux-ubuntu24.04-aarch64-gcc-13.2.0-py-promise-2.3-ktmjppcd4dw56y5aiwd6vnwm7fudodiu.spack"}, {"hash": "l26iebp6uzqkafbnhkx35i32we2uzuxp", "compiler": "gcc@=13.2.0", "versions": ["2.3"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.23.0/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-promise-2.3/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-promise-2.3-l26iebp6uzqkafbnhkx35i32we2uzuxp.spack"}]
----

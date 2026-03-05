@@ -1,7 +1,0 @@
----
-title: "py-tzdata"
-layout: cache
-categories: [package, develop-2023-09-17]
-meta: {"versions": ["2023.3"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "5lwu6luvmwstpvhg2unrpq3oa2uqs4bp", "compiler": "gcc@=11.1.0", "versions": ["2023.3"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-17/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-tzdata-2023.3/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-tzdata-2023.3-5lwu6luvmwstpvhg2unrpq3oa2uqs4bp.spack"}, {"hash": "whya5oot3omyupp5xqkl7fvpb4tnczrw", "compiler": "gcc@=11.1.0", "versions": ["2023.3"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-17/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-tzdata-2023.3/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-tzdata-2023.3-whya5oot3omyupp5xqkl7fvpb4tnczrw.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "care"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=7.5.0"], "num_specs": 1, "num_specs_by_stack": {"radiuss": 1, "root": 1}, "oss": ["ubuntu18.04"], "platforms": ["linux"], "stacks": ["radiuss", "root"], "targets": ["x86_64_v3"], "versions": ["0.13.3"]}
-spec_details: [{"compiler": "gcc@=7.5.0", "hash": "6clg3l7x6inrkvxim7yyrq6pcduyvily", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["radiuss", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/care-0.13.3/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-care-0.13.3-6clg3l7x6inrkvxim7yyrq6pcduyvily.spack", "target": "x86_64_v3", "variants": ["~benchmarks", "build_system=cmake", "build_type=Release", "~cuda", "~docs", "~examples", "generator=make", "~implicit_conversions", "~ipo", "~loop_fuser", "~mpi", "~openmp", "~rocm", "~tests"], "versions": ["0.13.3"]}]
----

@@ -1,7 +1,0 @@
----
-title: "fzf"
-layout: cache
-categories: [package, v2025.07.0]
-meta: {"compilers": ["none"], "num_specs": 3, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-darwin": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "root": 3}, "oss": ["centos7", "rhel8", "sequoia"], "platforms": ["darwin", "linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-darwin", "developer-tools-x86_64_v3-linux-gnu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["0.62.0"]}
-spec_details: [{"compiler": "none", "hash": "djerovmy2tsiyjhhrlbtqx5g5fskapsz", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "target": "x86_64_v3", "variants": ["build_system=go", "~vim"], "versions": ["0.62.0"]}, {"compiler": "none", "hash": "gtckeqhqlk3k7zze4fauyo5adardgiw6", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["developer-tools-darwin", "root"], "target": "aarch64", "variants": ["build_system=go", "~vim"], "versions": ["0.62.0"]}, {"compiler": "none", "hash": "psbxfe3wzbezzanb3latd6x4gnxi2nt2", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "target": "aarch64", "variants": ["build_system=go", "~vim"], "versions": ["0.62.0"]}]
----

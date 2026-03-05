@@ -1,7 +1,0 @@
----
-title: "libtermkey"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["gcc@=10.5.0", "gcc@=13.3.0"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "root": 2}, "oss": ["centos7", "rhel8"], "platforms": ["linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["0.22"]}
-spec_details: [{"compiler": "gcc@=10.5.0", "hash": "gmbt3bzebhljas4pu35j6roaxyc7z667", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-centos7-x86_64_v3/gcc-10.5.0/libtermkey-0.22/linux-centos7-x86_64_v3-gcc-10.5.0-libtermkey-0.22-gmbt3bzebhljas4pu35j6roaxyc7z667.spack", "target": "x86_64_v3", "variants": ["build_system=makefile"], "versions": ["0.22"]}, {"compiler": "gcc@=13.3.0", "hash": "stis6css46ze5odnw26zbl2zafw3xvzk", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-rhel8-aarch64/gcc-13.3.0/libtermkey-0.22/linux-rhel8-aarch64-gcc-13.3.0-libtermkey-0.22-stis6css46ze5odnw26zbl2zafw3xvzk.spack", "target": "aarch64", "variants": ["build_system=makefile"], "versions": ["0.22"]}]
----

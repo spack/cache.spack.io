@@ -1,7 +1,0 @@
----
-title: "ccache"
-layout: cache
-categories: [package, develop-2024-10-27]
-meta: {"versions": ["4.10.2"], "compilers": ["apple-clang@=15.0.0", "gcc@=10.2.1"], "oss": ["centos7", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-darwin", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "developer-tools-darwin": 1, "developer-tools-manylinux2014": 1}}
-spec_details: [{"hash": "o4kfvnqq5hduxwb53tu4wr663cih7wzc", "compiler": "apple-clang@=15.0.0", "versions": ["4.10.2"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+redis"], "stacks": ["root", "developer-tools-darwin"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-27/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/ccache-4.10.2/darwin-ventura-aarch64-apple-clang-15.0.0-ccache-4.10.2-o4kfvnqq5hduxwb53tu4wr663cih7wzc.spack"}, {"hash": "jsggxheexy5sggxozyvh4mrdc5o3ksqt", "compiler": "gcc@=10.2.1", "versions": ["4.10.2"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+redis"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-27/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/ccache-4.10.2/linux-centos7-x86_64_v3-gcc-10.2.1-ccache-4.10.2-jsggxheexy5sggxozyvh4mrdc5o3ksqt.spack"}]
----

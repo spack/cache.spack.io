@@ -1,7 +1,0 @@
----
-title: "picard"
-layout: cache
-categories: [package, develop-2025-01-19]
-meta: {"versions": ["3.1.1"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["aws-isc", "aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 1, "root": 2, "aws-isc": 1}}
-spec_details: [{"hash": "enm335ouej7ejqwpzcazshnw4vktrin7", "compiler": "gcc@=7.3.1", "versions": ["3.1.1"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=generic", "~parameters"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/picard-3.1.1/linux-amzn2-aarch64-gcc-7.3.1-picard-3.1.1-enm335ouej7ejqwpzcazshnw4vktrin7.spack"}, {"hash": "onsic5akqkxv3n4eq4alffcja72z66et", "compiler": "gcc@=7.3.1", "versions": ["3.1.1"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic", "~parameters"], "stacks": ["aws-isc", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/picard-3.1.1/linux-amzn2-x86_64_v3-gcc-7.3.1-picard-3.1.1-onsic5akqkxv3n4eq4alffcja72z66et.spack"}]
----

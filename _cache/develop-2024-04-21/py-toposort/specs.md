@@ -1,7 +1,0 @@
----
-title: "py-toposort"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["1.10"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "onqnxgr3nngwlzborevmhaqtlyq2picy", "compiler": "gcc@=7.3.1", "versions": ["1.10"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=python_pip"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/py-toposort-1.10/linux-amzn2-neoverse_n1-gcc-7.3.1-py-toposort-1.10-onqnxgr3nngwlzborevmhaqtlyq2picy.spack"}, {"hash": "zly42fvcmggzln4g2s5a272jaorp3cch", "compiler": "gcc@=7.3.1", "versions": ["1.10"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/py-toposort-1.10/linux-amzn2-aarch64-gcc-7.3.1-py-toposort-1.10-zly42fvcmggzln4g2s5a272jaorp3cch.spack"}]
----

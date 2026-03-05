@@ -1,7 +1,0 @@
----
-title: "perl-file-which"
-layout: cache
-categories: [package, develop-2025-02-09]
-meta: {"versions": ["1.27"], "compilers": ["gcc@=11.4.0", "gcc@=13.2.0"], "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "hep", "ml-linux-x86_64-rocm", "root"], "num_specs": 2, "num_specs_by_stack": {"hep": 1, "root": 2, "e4s": 1, "ml-linux-x86_64-rocm": 1}}
-spec_details: [{"hash": "ipbdyer2tznlth2dcjcooskjhnnwkeii", "compiler": "gcc@=11.4.0", "versions": ["1.27"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=perl"], "stacks": ["hep", "root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/perl-file-which-1.27/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-perl-file-which-1.27-ipbdyer2tznlth2dcjcooskjhnnwkeii.spack"}, {"hash": "iwprdtta4cbcwqzbos7mq7h5b3qz56ph", "compiler": "gcc@=13.2.0", "versions": ["1.27"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=perl"], "stacks": ["ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/perl-file-which-1.27/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-perl-file-which-1.27-iwprdtta4cbcwqzbos7mq7h5b3qz56ph.spack"}]
----

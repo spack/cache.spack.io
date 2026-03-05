@@ -1,7 +1,0 @@
----
-title: "py-botorch"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["x86_64_v3"], "versions": ["0.8.4"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "idnrcudoxfrofhk2o3for4dpv4xro36j", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cuda", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-botorch-0.8.4/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-botorch-0.8.4-idnrcudoxfrofhk2o3for4dpv4xro36j.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.8.4"]}, {"compiler": "gcc@=11.4.0", "hash": "jazbainymzcxzb4qwebyuvmbvquygn3t", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-botorch-0.8.4/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-botorch-0.8.4-jazbainymzcxzb4qwebyuvmbvquygn3t.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.8.4"]}]
----

@@ -1,7 +1,0 @@
----
-title: "hub"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["gcc@=10.5.0", "gcc@=13.3.0"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "root": 2}, "oss": ["centos7", "rhel8"], "platforms": ["linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["2.14.2"]}
-spec_details: [{"compiler": "gcc@=10.5.0", "hash": "azvcdvlr22gr3q2fhxou6zrcc26detcs", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-centos7-x86_64_v3/gcc-10.5.0/hub-2.14.2/linux-centos7-x86_64_v3-gcc-10.5.0-hub-2.14.2-azvcdvlr22gr3q2fhxou6zrcc26detcs.spack", "target": "x86_64_v3", "variants": ["build_system=generic"], "versions": ["2.14.2"]}, {"compiler": "gcc@=13.3.0", "hash": "77h5je5ksktdapk3vm4iw4h3j6ozjecz", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-rhel8-aarch64/gcc-13.3.0/hub-2.14.2/linux-rhel8-aarch64-gcc-13.3.0-hub-2.14.2-77h5je5ksktdapk3vm4iw4h3j6ozjecz.spack", "target": "aarch64", "variants": ["build_system=generic"], "versions": ["2.14.2"]}]
----

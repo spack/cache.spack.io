@@ -1,7 +1,0 @@
----
-title: "py-distlib"
-layout: cache
-categories: [package, develop-2025-05-25]
-meta: {"compilers": ["gcc@11.4.0", "gcc@13.2.0"], "num_specs": 4, "num_specs_by_stack": {"e4s": 2, "ml-linux-x86_64-rocm": 2, "root": 4}, "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["e4s", "ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["0.3.9"]}
-spec_details: [{"compiler": "gcc@13.2.0", "hash": "67htawmz3cxu3nskujugiuw2glcpw3wg", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.3.9"]}, {"compiler": "gcc@11.4.0", "hash": "ihpqhcze6gl6p2usrhaa7lqqf7qstv6t", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.3.9"]}, {"compiler": "gcc@11.4.0", "hash": "je3aiu7kxlki6nh5ojox34bz6coelb2v", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.3.9"]}, {"compiler": "gcc@13.2.0", "hash": "viuiv4zixb7amyeybojj24ffcqpwxbhj", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.3.9"]}]
----

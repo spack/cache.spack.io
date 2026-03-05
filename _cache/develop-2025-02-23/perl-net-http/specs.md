@@ -1,7 +1,0 @@
----
-title: "perl-net-http"
-layout: cache
-categories: [package, develop-2025-02-23]
-meta: {"compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "hep": 1, "root": 2}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "hep", "root"], "targets": ["x86_64_v3"], "versions": ["6.23"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "vqrmsttrt2lo5wx6bybxt4x2oca5r76m", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "hep", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-23/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/perl-net-http-6.23/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-perl-net-http-6.23-vqrmsttrt2lo5wx6bybxt4x2oca5r76m.spack", "target": "x86_64_v3", "variants": ["build_system=perl"], "versions": ["6.23"]}, {"compiler": "gcc@=11.1.0", "hash": "ysl47lxvxcn7wkoq7ci7k4kbt46sulpb", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-23/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/perl-net-http-6.23/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-perl-net-http-6.23-ysl47lxvxcn7wkoq7ci7k4kbt46sulpb.spack", "target": "x86_64_v3", "variants": ["build_system=perl"], "versions": ["6.23"]}]
----

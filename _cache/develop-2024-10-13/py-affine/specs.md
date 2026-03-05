@@ -1,7 +1,0 @@
----
-title: "py-affine"
-layout: cache
-categories: [package, develop-2024-10-13]
-meta: {"versions": ["2.1.0"], "compilers": ["apple-clang@=15.0.0", "gcc@=13.2.0"], "oss": ["ubuntu24.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "root": 2, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "bsyelopicufnpg4ijihbjhstc6zb6qo6", "compiler": "apple-clang@=15.0.0", "versions": ["2.1.0"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-13/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-affine-2.1.0/darwin-ventura-aarch64-apple-clang-15.0.0-py-affine-2.1.0-bsyelopicufnpg4ijihbjhstc6zb6qo6.spack"}, {"hash": "5ynqcudjl6or7xmcozarqwra6eb2d7fk", "compiler": "gcc@=13.2.0", "versions": ["2.1.0"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-13/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-affine-2.1.0/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-affine-2.1.0-5ynqcudjl6or7xmcozarqwra6eb2d7fk.spack"}]
----

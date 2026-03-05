@@ -1,7 +1,0 @@
----
-title: "py-markdown-it-py"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=11.4.0", "gcc@=7.5.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "radiuss": 1, "root": 2}, "oss": ["ubuntu18.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "radiuss", "root"], "targets": ["x86_64_v3"], "versions": ["3.0.0"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "nn5y2h7bmwoys2jeutsa4h464ahvmqtw", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-markdown-it-py-3.0.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-markdown-it-py-3.0.0-nn5y2h7bmwoys2jeutsa4h464ahvmqtw.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~linkify"], "versions": ["3.0.0"]}, {"compiler": "gcc@=7.5.0", "hash": "xfrvexgvko2gued3v4jglle7qsoex6aa", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["radiuss", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-markdown-it-py-3.0.0/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-markdown-it-py-3.0.0-xfrvexgvko2gued3v4jglle7qsoex6aa.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~linkify"], "versions": ["3.0.0"]}]
----

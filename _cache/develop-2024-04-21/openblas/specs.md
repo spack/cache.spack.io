@@ -1,7 +1,0 @@
----
-title: "openblas"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["0.3.26"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "7kjd3wqsdafimb7rd3jysscu6eswqjfk", "compiler": "gcc@=7.3.1", "versions": ["0.3.26"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["~bignuma", "build_system=makefile", "~consistent_fpcsr", "+dynamic_dispatch", "+fortran", "~ilp64", "+locking", "+pic", "+shared", "symbol_suffix=none", "threads=openmp"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/openblas-0.3.26/linux-amzn2-neoverse_n1-gcc-7.3.1-openblas-0.3.26-7kjd3wqsdafimb7rd3jysscu6eswqjfk.spack"}, {"hash": "4wl4g3t5dkhqh7ong6iqevuxswtfwri6", "compiler": "gcc@=7.3.1", "versions": ["0.3.26"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["~bignuma", "build_system=makefile", "~consistent_fpcsr", "+dynamic_dispatch", "+fortran", "~ilp64", "+locking", "+pic", "+shared", "symbol_suffix=none", "threads=openmp"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/openblas-0.3.26/linux-amzn2-aarch64-gcc-7.3.1-openblas-0.3.26-4wl4g3t5dkhqh7ong6iqevuxswtfwri6.spack"}]
----

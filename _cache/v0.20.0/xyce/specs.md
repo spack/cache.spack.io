@@ -1,7 +1,0 @@
----
-title: "xyce"
-layout: cache
-categories: [package, v0.20.0]
-meta: {"versions": ["7.6.0"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "hlfts57s7qm3piatkfhqla3pd2ssb7ev", "compiler": "gcc@=11.1.0", "versions": ["7.6.0"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=cmake", "build_type=Release", "cxxstd=11", "generator=make", "~ipo", "+mpi", "patches=077f91d,e91063d", "~plugin", "+pymi", "+pymi_static_tpls", "+shared"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.0/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/xyce-7.6.0/linux-ubuntu20.04-ppc64le-gcc-11.1.0-xyce-7.6.0-hlfts57s7qm3piatkfhqla3pd2ssb7ev.spack"}, {"hash": "qoc6zjpqbqvrq3hm5egmr35waqc4ofei", "compiler": "gcc@=11.1.0", "versions": ["7.6.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "cxxstd=11", "generator=make", "~ipo", "+mpi", "patches=077f91d,e91063d", "~plugin", "+pymi", "+pymi_static_tpls", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.0/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/xyce-7.6.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-xyce-7.6.0-qoc6zjpqbqvrq3hm5egmr35waqc4ofei.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "libfms"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "root": 2}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "root"], "targets": ["x86_64_v3"], "versions": ["0.2.0"]}
-spec_details: [{"compiler": "gcc@=11.1.0", "hash": "bhk5nitc5b4covvyhldi7resndkkamdq", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/libfms-0.2.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-libfms-0.2.0-bhk5nitc5b4covvyhldi7resndkkamdq.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "+conduit", "generator=make", "~ipo", "+shared"], "versions": ["0.2.0"]}, {"compiler": "gcc@=11.4.0", "hash": "p6sowonxvok7bkevtd2xt2tubmgbnamo", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/libfms-0.2.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-libfms-0.2.0-p6sowonxvok7bkevtd2xt2tubmgbnamo.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "+conduit", "generator=make", "~ipo", "+shared"], "versions": ["0.2.0"]}]
----

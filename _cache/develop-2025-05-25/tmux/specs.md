@@ -1,7 +1,0 @@
----
-title: "tmux"
-layout: cache
-categories: [package, develop-2025-05-25]
-meta: {"compilers": ["apple-clang@16.0.0", "gcc@10.5.0", "gcc@13.3.0"], "num_specs": 3, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-darwin": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "root": 3}, "oss": ["centos7", "rhel8", "sequoia"], "platforms": ["darwin", "linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-darwin", "developer-tools-x86_64_v3-linux-gnu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["3.5a"]}
-spec_details: [{"compiler": "apple-clang@16.0.0", "hash": "jpe2dmgqxh3zdxwh42cjzgxs5twn3frw", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["developer-tools-darwin", "root"], "target": "aarch64", "variants": ["build_system=autotools", "~jemalloc", "~static", "~utf8proc"], "versions": ["3.5a"]}, {"compiler": "gcc@13.3.0", "hash": "u3tcg4fe3vana6h64lqbkgvtkgovbtgx", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "target": "aarch64", "variants": ["build_system=autotools", "~jemalloc", "~static", "~utf8proc"], "versions": ["3.5a"]}, {"compiler": "gcc@10.5.0", "hash": "ujpzuwy2u7ypfms2qsc42knsioyiogo5", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "~jemalloc", "~static", "~utf8proc"], "versions": ["3.5a"]}]
----

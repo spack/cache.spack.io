@@ -1,7 +1,0 @@
----
-title: "photos"
-layout: cache
-categories: [package, develop-2025-02-09]
-meta: {"versions": ["3.64"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["hep", "root"], "num_specs": 2, "num_specs_by_stack": {"hep": 2, "root": 2}}
-spec_details: [{"hash": "tmij43kgetbwbth7zvmdfwafgfyjdm5m", "compiler": "gcc@=11.4.0", "versions": ["3.64"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "+hepmc", "+hepmc3"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/photos-3.64/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-photos-3.64-tmij43kgetbwbth7zvmdfwafgfyjdm5m.spack"}, {"hash": "px4v343s7oxswrupdnhpgglxch5sgsqq", "compiler": "gcc@=11.4.0", "versions": ["3.64"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "+hepmc", "+hepmc3"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/photos-3.64/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-photos-3.64-px4v343s7oxswrupdnhpgglxch5sgsqq.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "universal-ctags"
-layout: cache
-categories: [package, develop-2024-06-09]
-meta: {"versions": ["6.1.20240505.0"], "compilers": ["gcc@=10.2.1", "gcc@=7.5.0"], "oss": ["centos7", "ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["developer-tools", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools": 1, "root": 2, "developer-tools-manylinux2014": 1}}
-spec_details: [{"hash": "h7svhkhsprnq6dq2j67zzph4i3atjc7i", "compiler": "gcc@=7.5.0", "versions": ["6.1.20240505.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["developer-tools", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-06-09/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/universal-ctags-6.1.20240505.0/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-universal-ctags-6.1.20240505.0-h7svhkhsprnq6dq2j67zzph4i3atjc7i.spack"}, {"hash": "uxh74o4fxyg6syenhuphi7aj766sbtny", "compiler": "gcc@=10.2.1", "versions": ["6.1.20240505.0"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-06-09/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/universal-ctags-6.1.20240505.0/linux-centos7-x86_64_v3-gcc-10.2.1-universal-ctags-6.1.20240505.0-uxh74o4fxyg6syenhuphi7aj766sbtny.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "zsh"
-layout: cache
-categories: [package, develop-2024-04-28]
-meta: {"versions": ["5.8"], "compilers": ["cce@=15.0.1", "gcc@=10.3.0"], "oss": ["rhel8", "sle_hpc15"], "platforms": ["linux"], "targets": ["x86_64_v4", "zen4"], "stacks": ["e4s-cray-rhel", "e4s-cray-sles", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-cray-rhel": 1, "root": 2, "e4s-cray-sles": 1}}
-spec_details: [{"hash": "mpas6pjy4vhyzyrsyyxh2qfyplyhjsvv", "compiler": "cce@=15.0.1", "versions": ["5.8"], "os": "rhel8", "platform": "linux", "target": "zen4", "variants": ["build_system=autotools", "~etcdir", "~lmod", "+skip-tcsetpgrp-test"], "stacks": ["e4s-cray-rhel", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-rhel8-zen4/cce-15.0.1/zsh-5.8/linux-rhel8-zen4-cce-15.0.1-zsh-5.8-mpas6pjy4vhyzyrsyyxh2qfyplyhjsvv.spack"}, {"hash": "ei34meg6sv5sv7yubm7wp7ychcvuhx6b", "compiler": "gcc@=10.3.0", "versions": ["5.8"], "os": "sle_hpc15", "platform": "linux", "target": "x86_64_v4", "variants": ["build_system=autotools", "~etcdir", "~lmod", "+skip-tcsetpgrp-test"], "stacks": ["e4s-cray-sles", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-sle_hpc15-x86_64_v4/gcc-10.3.0/zsh-5.8/linux-sle_hpc15-x86_64_v4-gcc-10.3.0-zsh-5.8-ei34meg6sv5sv7yubm7wp7ychcvuhx6b.spack"}]
----

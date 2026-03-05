@@ -1,7 +1,0 @@
----
-title: "libnrm"
-layout: cache
-categories: [package, develop-2024-04-28]
-meta: {"versions": ["0.1.0"], "compilers": ["cce@=15.0.1", "gcc@=10.3.0"], "oss": ["rhel8", "sle_hpc15"], "platforms": ["linux"], "targets": ["x86_64_v4", "zen4"], "stacks": ["e4s-cray-rhel", "e4s-cray-sles", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-cray-sles": 1, "root": 2, "e4s-cray-rhel": 1}}
-spec_details: [{"hash": "jh6u66h7spmghbcf5mdyueif5f7w7unm", "compiler": "gcc@=10.3.0", "versions": ["0.1.0"], "os": "sle_hpc15", "platform": "linux", "target": "x86_64_v4", "variants": ["build_system=autotools"], "stacks": ["e4s-cray-sles", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-sle_hpc15-x86_64_v4/gcc-10.3.0/libnrm-0.1.0/linux-sle_hpc15-x86_64_v4-gcc-10.3.0-libnrm-0.1.0-jh6u66h7spmghbcf5mdyueif5f7w7unm.spack"}, {"hash": "km72xigtpqbbycluqzdopegk43qvfi5c", "compiler": "cce@=15.0.1", "versions": ["0.1.0"], "os": "rhel8", "platform": "linux", "target": "zen4", "variants": ["build_system=autotools"], "stacks": ["e4s-cray-rhel", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-rhel8-zen4/cce-15.0.1/libnrm-0.1.0/linux-rhel8-zen4-cce-15.0.1-libnrm-0.1.0-km72xigtpqbbycluqzdopegk43qvfi5c.spack"}]
----

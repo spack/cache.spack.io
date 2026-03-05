@@ -1,7 +1,0 @@
----
-title: "universal-ctags"
-layout: cache
-categories: [package, develop-2024-11-10]
-meta: {"versions": ["6.1.20240505.0"], "compilers": ["apple-clang@=15.0.0", "gcc@=10.2.1"], "oss": ["centos7", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-darwin", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "developer-tools-darwin": 1, "developer-tools-manylinux2014": 1}}
-spec_details: [{"hash": "ms7j3evmcmnlhvjolasgs42ofiqttnsf", "compiler": "apple-clang@=15.0.0", "versions": ["6.1.20240505.0"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=autotools"], "stacks": ["root", "developer-tools-darwin"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-10/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/universal-ctags-6.1.20240505.0/darwin-ventura-aarch64-apple-clang-15.0.0-universal-ctags-6.1.20240505.0-ms7j3evmcmnlhvjolasgs42ofiqttnsf.spack"}, {"hash": "gxazaapt67l5c42334s2bym7j6wiavm3", "compiler": "gcc@=10.2.1", "versions": ["6.1.20240505.0"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-10/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/universal-ctags-6.1.20240505.0/linux-centos7-x86_64_v3-gcc-10.2.1-universal-ctags-6.1.20240505.0-gxazaapt67l5c42334s2bym7j6wiavm3.spack"}]
----

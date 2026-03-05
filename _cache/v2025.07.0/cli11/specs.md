@@ -1,7 +1,0 @@
----
-title: "cli11"
-layout: cache
-categories: [package, v2025.07.0]
-meta: {"compilers": ["gcc@11.1.0", "gcc@11.4.0"], "num_specs": 3, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "e4s-rocm-external": 1, "hep": 1, "root": 3}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "e4s-rocm-external", "hep", "root"], "targets": ["x86_64_v3"], "versions": ["1.9.1", "2.5.0"]}
-spec_details: [{"compiler": "gcc@11.1.0", "hash": "5fgadxlsxeocs54hqwqvjffxrfvpjscv", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+pic"], "versions": ["1.9.1"]}, {"compiler": "gcc@11.4.0", "hash": "e5v4bnfi6jyczhuepn7no6dakcpylbul", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "e4s-rocm-external", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+pic"], "versions": ["1.9.1"]}, {"compiler": "gcc@11.4.0", "hash": "twyztun7344hbdeidwd2szzcmajfzryq", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+pic"], "versions": ["2.5.0"]}]
----

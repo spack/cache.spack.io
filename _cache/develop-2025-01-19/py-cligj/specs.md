@@ -1,7 +1,0 @@
----
-title: "py-cligj"
-layout: cache
-categories: [package, develop-2025-01-19]
-meta: {"versions": ["0.7.2"], "compilers": ["gcc@=13.2.0"], "oss": ["ubuntu24.04"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "root": 2, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "vbndwpfe6zpo5cjnedn63yk4vx4s6geo", "compiler": "gcc@=13.2.0", "versions": ["0.7.2"], "os": "ubuntu24.04", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-aarch64-cpu", "root", "ml-linux-aarch64-cuda"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-19/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/py-cligj-0.7.2/linux-ubuntu24.04-aarch64-gcc-13.2.0-py-cligj-0.7.2-vbndwpfe6zpo5cjnedn63yk4vx4s6geo.spack"}, {"hash": "hr5hlrw365fxhmb2cejzunsqdysspfdr", "compiler": "gcc@=13.2.0", "versions": ["0.7.2"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-19/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-cligj-0.7.2/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-cligj-0.7.2-hr5hlrw365fxhmb2cejzunsqdysspfdr.spack"}]
----

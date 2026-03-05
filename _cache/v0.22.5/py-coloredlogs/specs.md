@@ -1,7 +1,0 @@
----
-title: "py-coloredlogs"
-layout: cache
-categories: [package, v0.22.5]
-meta: {"compilers": ["gcc@=7.5.0"], "num_specs": 2, "num_specs_by_stack": {"radiuss": 2, "root": 2}, "oss": ["ubuntu18.04"], "platforms": ["linux"], "stacks": ["radiuss", "root"], "targets": ["x86_64_v3"], "versions": ["15.0.1"]}
-spec_details: [{"compiler": "gcc@=7.5.0", "hash": "257ngl5d6ts2myodwxzhgdhbvtgghmev", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["radiuss", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-coloredlogs-15.0.1/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-coloredlogs-15.0.1-257ngl5d6ts2myodwxzhgdhbvtgghmev.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["15.0.1"]}, {"compiler": "gcc@=7.5.0", "hash": "cah6wzp4dnebps74zeqoemquu5ety6g7", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["radiuss", "root"], "tarball": "https://binaries.spack.io/v0.22.5/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-coloredlogs-15.0.1/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-coloredlogs-15.0.1-cah6wzp4dnebps74zeqoemquu5ety6g7.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["15.0.1"]}]
----

@@ -1,7 +1,0 @@
----
-title: "py-async-timeout"
-layout: cache
-categories: [package, develop-2023-06-25]
-meta: {"versions": ["4.0.2"], "compilers": ["gcc@=11.3.0", "gcc@=7.5.0"], "oss": ["ubuntu18.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "radiuss", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "ml-linux-x86_64-rocm": 1, "root": 2, "radiuss": 1}}
-spec_details: [{"hash": "5ez4ugyoyyzvl5hpkkekxew73bacqzr3", "compiler": "gcc@=11.3.0", "versions": ["4.0.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-25/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-async-timeout-4.0.2/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-async-timeout-4.0.2-5ez4ugyoyyzvl5hpkkekxew73bacqzr3.spack"}, {"hash": "cw5lki5jvta372j342kcjqpidchzq5wr", "compiler": "gcc@=7.5.0", "versions": ["4.0.2"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["radiuss", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-25/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-async-timeout-4.0.2/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-async-timeout-4.0.2-cw5lki5jvta372j342kcjqpidchzq5wr.spack"}]
----

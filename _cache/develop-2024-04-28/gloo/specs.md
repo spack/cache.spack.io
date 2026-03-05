@@ -1,7 +1,0 @@
----
-title: "gloo"
-layout: cache
-categories: [package, develop-2024-04-28]
-meta: {"versions": ["2023-01-17", "2023-05-19"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cuda": 2, "root": 2}}
-spec_details: [{"hash": "zdz2nl47paqhu6im53morf2yogypcsl3", "compiler": "gcc@=11.4.0", "versions": ["2023-05-19"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "+cuda", "cuda_arch=80", "generator=ninja", "~ipo"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/gloo-2023-05-19/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-gloo-2023-05-19-zdz2nl47paqhu6im53morf2yogypcsl3.spack"}, {"hash": "tjj3bpjazdek365wk4wgikwww46p3smy", "compiler": "gcc@=11.4.0", "versions": ["2023-01-17"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "+cuda", "cuda_arch=80", "generator=ninja", "~ipo"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/gloo-2023-01-17/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-gloo-2023-01-17-tjj3bpjazdek365wk4wgikwww46p3smy.spack"}]
----

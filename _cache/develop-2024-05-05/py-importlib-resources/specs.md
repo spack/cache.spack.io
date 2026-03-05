@@ -1,7 +1,0 @@
----
-title: "py-importlib-resources"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["5.12.0"], "compilers": ["apple-clang@=15.0.0", "gcc@=11.4.0"], "oss": ["ubuntu22.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["e4s", "ml-darwin-aarch64-mps", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "ml-darwin-aarch64-mps": 1}}
-spec_details: [{"hash": "u3byg46nvvg6iwuqtulasvoxm2vu7ng6", "compiler": "gcc@=11.4.0", "versions": ["5.12.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-importlib-resources-5.12.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-importlib-resources-5.12.0-u3byg46nvvg6iwuqtulasvoxm2vu7ng6.spack"}, {"hash": "u2txzckgpeercpyt6cbjkepdjh7asaoa", "compiler": "apple-clang@=15.0.0", "versions": ["5.12.0"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-importlib-resources-5.12.0/darwin-ventura-aarch64-apple-clang-15.0.0-py-importlib-resources-5.12.0-u2txzckgpeercpyt6cbjkepdjh7asaoa.spack"}]
----

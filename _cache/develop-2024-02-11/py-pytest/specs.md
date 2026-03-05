@@ -1,7 +1,0 @@
----
-title: "py-pytest"
-layout: cache
-categories: [package, develop-2024-02-11]
-meta: {"versions": ["8.0.0"], "compilers": ["gcc@=11.4.0", "gcc@=9.4.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "e4s-rocm-external", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s-rocm-external": 1, "e4s": 1}}
-spec_details: [{"hash": "c2ypulvdwgai3lgqxo6opbqtgopqkgzp", "compiler": "gcc@=9.4.0", "versions": ["8.0.0"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=python_pip"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-02-11/build_cache/linux-ubuntu20.04-ppc64le/gcc-9.4.0/py-pytest-8.0.0/linux-ubuntu20.04-ppc64le-gcc-9.4.0-py-pytest-8.0.0-c2ypulvdwgai3lgqxo6opbqtgopqkgzp.spack"}, {"hash": "taertagob7ehpuuaseopqdk2hlvbhibl", "compiler": "gcc@=11.4.0", "versions": ["8.0.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["e4s-rocm-external", "root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-02-11/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/py-pytest-8.0.0/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-py-pytest-8.0.0-taertagob7ehpuuaseopqdk2hlvbhibl.spack"}]
----

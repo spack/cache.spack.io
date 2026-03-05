@@ -1,7 +1,0 @@
----
-title: "binutils"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["2.36.1", "2.38"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "kiexepgh23yx5oerq2j3rixujetfxx3y", "compiler": "gcc@=7.5.0", "versions": ["2.38"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~gas", "+gold", "~headers", "~interwork", "+ld", "~libiberty", "libs=shared,static", "~lto", "+nls", "+plugins"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/binutils-2.38/linux-ubuntu18.04-x86_64-gcc-7.5.0-binutils-2.38-kiexepgh23yx5oerq2j3rixujetfxx3y.spack"}, {"hash": "qb6yv7xzksbj2q6crz7px2fbfrjy6sly", "compiler": "gcc@=7.5.0", "versions": ["2.36.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~gas", "+gold", "+headers", "~interwork", "+ld", "+libiberty", "libs=shared,static", "~lto", "~nls", "patches=a51b7bf", "+plugins"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/binutils-2.36.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-binutils-2.36.1-qb6yv7xzksbj2q6crz7px2fbfrjy6sly.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "flux-pmix"
-layout: cache
-categories: [package, develop-2025-01-05]
-meta: {"versions": ["0.5.0"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["aws-isc", "aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 1, "root": 2, "aws-isc": 1}}
-spec_details: [{"hash": "bjdxzbjtof3wk5xq343kg4e6w7atbfc3", "compiler": "gcc@=7.3.1", "versions": ["0.5.0"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-05/build_cache/linux-amzn2-aarch64/gcc-7.3.1/flux-pmix-0.5.0/linux-amzn2-aarch64-gcc-7.3.1-flux-pmix-0.5.0-bjdxzbjtof3wk5xq343kg4e6w7atbfc3.spack"}, {"hash": "ovbvyh5fcbas6de27he3yybxpk3g25fl", "compiler": "gcc@=7.3.1", "versions": ["0.5.0"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["aws-isc", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-05/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/flux-pmix-0.5.0/linux-amzn2-x86_64_v3-gcc-7.3.1-flux-pmix-0.5.0-ovbvyh5fcbas6de27he3yybxpk3g25fl.spack"}]
----

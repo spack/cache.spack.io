@@ -1,7 +1,0 @@
----
-title: "py-parsl"
-layout: cache
-categories: [package, v0.20.2]
-meta: {"versions": ["1.2.0"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "rpfjevvajklux4ciptrrpk3m4gniacrn", "compiler": "gcc@=11.1.0", "versions": ["1.2.0"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=python_pip", "~monitoring"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.2/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/py-parsl-1.2.0/linux-ubuntu20.04-ppc64le-gcc-11.1.0-py-parsl-1.2.0-rpfjevvajklux4ciptrrpk3m4gniacrn.spack"}, {"hash": "sl22bmay2wrmtemr2znuxscz35djaszm", "compiler": "gcc@=11.1.0", "versions": ["1.2.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~monitoring"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.2/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-parsl-1.2.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-parsl-1.2.0-sl22bmay2wrmtemr2znuxscz35djaszm.spack"}]
----

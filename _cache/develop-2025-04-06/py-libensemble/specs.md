@@ -1,7 +1,0 @@
----
-title: "py-libensemble"
-layout: cache
-categories: [package, develop-2025-04-06]
-meta: {"compilers": ["gcc@11.4.0", "intel-oneapi-compilers@2025.1.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "e4s-neoverse-v2": 1, "e4s-oneapi": 1, "root": 3}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-neoverse-v2", "e4s-oneapi", "root"], "targets": ["neoverse_v2", "x86_64_v3"], "versions": ["1.4.3"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "e4rieagm6fsashqv357awlf453zk73pz", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip", "~deap", "+mpi", "~mpmath", "~nlopt", "~petsc4py", "~scipy", "~tasmanian"], "versions": ["1.4.3"]}, {"compiler": "gcc@11.4.0", "hash": "hic4ux5b5oxjfatpocutzqaomok5zn5u", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-neoverse-v2", "root"], "target": "neoverse_v2", "variants": ["build_system=python_pip", "~deap", "+mpi", "~mpmath", "~nlopt", "~petsc4py", "~scipy", "~tasmanian"], "versions": ["1.4.3"]}, {"compiler": "intel-oneapi-compilers@2025.1.0", "hash": "igt7hupwrut7tuvgm6555lbqjvijbor3", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip", "~deap", "+mpi", "~mpmath", "~nlopt", "~petsc4py", "~scipy", "~tasmanian"], "versions": ["1.4.3"]}]
----

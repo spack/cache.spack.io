@@ -1,7 +1,0 @@
----
-title: "pagmo2"
-layout: cache
-categories: [package, develop-2023-10-01]
-meta: {"versions": ["2.18.0"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-power": 1}}
-spec_details: [{"hash": "5jp5ze4z2idywrlgdvyegaztp3rguasa", "compiler": "gcc@=11.1.0", "versions": ["2.18.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-10-01/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/pagmo2-2.18.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-pagmo2-2.18.0-5jp5ze4z2idywrlgdvyegaztp3rguasa.spack"}, {"hash": "wotcyhqmn53wrqu42ba3h4pq5hnu3zys", "compiler": "gcc@=11.1.0", "versions": ["2.18.0"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+shared"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-10-01/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/pagmo2-2.18.0/linux-ubuntu20.04-ppc64le-gcc-11.1.0-pagmo2-2.18.0-wotcyhqmn53wrqu42ba3h4pq5hnu3zys.spack"}]
----

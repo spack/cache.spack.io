@@ -1,7 +1,0 @@
----
-title: "intel-xed"
-layout: cache
-categories: [package, v2025.07.0]
-meta: {"compilers": ["gcc@11.4.0", "intel-oneapi-compilers@2025.1.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 2, "e4s-oneapi": 1, "e4s-rocm-external": 1, "root": 3}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-oneapi", "e4s-rocm-external", "root"], "targets": ["x86_64_v3"], "versions": ["2024.05.20"]}
-spec_details: [{"compiler": "intel-oneapi-compilers@2025.1.0", "hash": "ixf2zaqhdjoshcyeauntrm4apaoqecax", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=generic", "commit=7e88c3e00274a10daa6b9d053decc057f65aa0ec", "~debug", "+deprecated-includes", "~examples", "+optimize", "+pic"], "versions": ["2024.05.20"]}, {"compiler": "gcc@11.4.0", "hash": "nwup3v6c3ynhwlazzjicslyc6os55z53", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "e4s-rocm-external", "root"], "target": "x86_64_v3", "variants": ["build_system=generic", "commit=7e88c3e00274a10daa6b9d053decc057f65aa0ec", "~debug", "+deprecated-includes", "~examples", "+optimize", "+pic"], "versions": ["2024.05.20"]}, {"compiler": "gcc@11.4.0", "hash": "xfumpw4pguq7cih5qu76j6htreb3cksl", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=generic", "commit=7e88c3e00274a10daa6b9d053decc057f65aa0ec", "~debug", "+deprecated-includes", "~examples", "+optimize", "+pic"], "versions": ["2024.05.20"]}]
----

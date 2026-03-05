@@ -1,7 +1,0 @@
----
-title: "silo"
-layout: cache
-categories: [package, develop-2025-03-23]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 2, "root": 3, "tutorial": 1}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "root", "tutorial"], "targets": ["x86_64_v3"], "versions": ["4.11.1"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "fvkoc36jung3k3gztmqgv4v27dbdvzdl", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "+fortran", "+fpzip", "+hdf5", "+hzip", "+mpi", "+pic", "+python", "+shared", "~silex"], "versions": ["4.11.1"]}, {"compiler": "gcc@=11.4.0", "hash": "g6wrcanomaye3dhavgfqmnempydw6n2j", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["root", "tutorial"], "target": "x86_64_v3", "variants": ["build_system=autotools", "~fortran", "+fpzip", "+hdf5", "+hzip", "+mpi", "+pic", "+python", "+shared", "~silex"], "versions": ["4.11.1"]}, {"compiler": "gcc@=11.4.0", "hash": "kbtckhomjupuxma4dsuteubi67taar3o", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "+fortran", "+fpzip", "+hdf5", "+hzip", "+mpi", "+pic", "+python", "+shared", "~silex"], "versions": ["4.11.1"]}]
----

@@ -1,7 +1,0 @@
----
-title: "bricks"
-layout: cache
-categories: [package, develop-2025-04-13]
-meta: {"compilers": ["gcc@11.4.0", "intel-oneapi-compilers@2025.1.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 2, "e4s-oneapi": 1, "root": 3}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["2023.08.25"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "qxicobopt6kknkjqvq6ofnhqd2rpkpjd", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "+cuda", "generator=make", "~ipo", "patches:=7fe8d1d"], "versions": ["2023.08.25"]}, {"compiler": "gcc@11.4.0", "hash": "skeqoevk6sfffvxjdjipwd4voez6jbxs", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~cuda", "generator=make", "~ipo", "patches:=7fe8d1d"], "versions": ["2023.08.25"]}, {"compiler": "intel-oneapi-compilers@2025.1.0", "hash": "svc4suhlz5ezrbwicrfzwlorhyfap7nx", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~cuda", "generator=make", "~ipo", "patches:=7fe8d1d"], "versions": ["2023.08.25"]}]
----

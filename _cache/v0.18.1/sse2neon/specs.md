@@ -1,7 +1,0 @@
----
-title: "sse2neon"
-layout: cache
-categories: [package, v0.18.1]
-meta: {"versions": ["master"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "graviton2"], "stacks": ["aws-ahug-aarch64", "aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-ahug-aarch64": 2, "root": 2, "aws-isc-aarch64": 2}}
-spec_details: [{"hash": "sfbgvcemdmq7x7xuxnpazfurk2jeqdmx", "compiler": "gcc@=7.3.1", "versions": ["master"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": [], "stacks": ["aws-ahug-aarch64", "root", "aws-isc-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.1/build_cache/linux-amzn2-aarch64/gcc-7.3.1/sse2neon-master/linux-amzn2-aarch64-gcc-7.3.1-sse2neon-master-sfbgvcemdmq7x7xuxnpazfurk2jeqdmx.spack"}, {"hash": "6tnmzuubl2w4ozaresvfzkt2lzs46xdt", "compiler": "gcc@=7.3.1", "versions": ["master"], "os": "amzn2", "platform": "linux", "target": "graviton2", "variants": [], "stacks": ["aws-ahug-aarch64", "root", "aws-isc-aarch64"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.1/build_cache/linux-amzn2-graviton2/gcc-7.3.1/sse2neon-master/linux-amzn2-graviton2-gcc-7.3.1-sse2neon-master-6tnmzuubl2w4ozaresvfzkt2lzs46xdt.spack"}]
----

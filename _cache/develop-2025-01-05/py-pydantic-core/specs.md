@@ -1,7 +1,0 @@
----
-title: "py-pydantic-core"
-layout: cache
-categories: [package, develop-2025-01-05]
-meta: {"versions": ["2.27.1"], "compilers": ["gcc@=13.2.0"], "oss": ["ubuntu24.04"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "root": 2, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "sz2hyz6io6wpke5icrdpfzxgzdravlk2", "compiler": "gcc@=13.2.0", "versions": ["2.27.1"], "os": "ubuntu24.04", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-aarch64-cpu", "root", "ml-linux-aarch64-cuda"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-05/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/py-pydantic-core-2.27.1/linux-ubuntu24.04-aarch64-gcc-13.2.0-py-pydantic-core-2.27.1-sz2hyz6io6wpke5icrdpfzxgzdravlk2.spack"}, {"hash": "w7p4cdrvoszanc2gmwozur44av4hposx", "compiler": "gcc@=13.2.0", "versions": ["2.27.1"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-05/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-pydantic-core-2.27.1/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-pydantic-core-2.27.1-w7p4cdrvoszanc2gmwozur44av4hposx.spack"}]
----

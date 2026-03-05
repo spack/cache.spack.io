@@ -1,7 +1,0 @@
----
-title: "py-async-generator"
-layout: cache
-categories: [package, develop-2023-06-25]
-meta: {"versions": ["1.10"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-power": 1}}
-spec_details: [{"hash": "fih6s4prvd4dyfnm4sssy5yvp3v6qqtl", "compiler": "gcc@=11.1.0", "versions": ["1.10"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-25/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-async-generator-1.10/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-async-generator-1.10-fih6s4prvd4dyfnm4sssy5yvp3v6qqtl.spack"}, {"hash": "h4pgu4h3q5b2cerffwbhlu5e5i7g4xzp", "compiler": "gcc@=11.1.0", "versions": ["1.10"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=python_pip"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-25/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/py-async-generator-1.10/linux-ubuntu20.04-ppc64le-gcc-11.1.0-py-async-generator-1.10-h4pgu4h3q5b2cerffwbhlu5e5i7g4xzp.spack"}]
----

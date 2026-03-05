@@ -1,7 +1,0 @@
----
-title: "harfbuzz"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "root": 2}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "root"], "targets": ["x86_64_v3"], "versions": ["10.0.1"]}
-spec_details: [{"compiler": "gcc@=11.1.0", "hash": "5dt5ty3mgcopmpbnduniqi5mtj62n6er", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/harfbuzz-10.0.1/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-harfbuzz-10.0.1-5dt5ty3mgcopmpbnduniqi5mtj62n6er.spack", "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library=shared", "~graphite2", "~strip"], "versions": ["10.0.1"]}, {"compiler": "gcc@=11.4.0", "hash": "daa25ihy2eg3nxcy7ztxru3c5fs4tvx3", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/harfbuzz-10.0.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-harfbuzz-10.0.1-daa25ihy2eg3nxcy7ztxru3c5fs4tvx3.spack", "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library=shared", "~graphite2", "~strip"], "versions": ["10.0.1"]}]
----

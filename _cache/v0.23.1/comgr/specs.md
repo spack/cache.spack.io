@@ -1,7 +1,0 @@
----
-title: "comgr"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=11.4.0", "gcc@=13.2.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "ml-linux-x86_64-rocm": 1, "root": 2}, "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["e4s", "ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["6.1.2", "6.2.1"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "nb5bifxn3w5fv24v7ldbapfv2hewwtfl", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/comgr-6.2.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-comgr-6.2.1-nb5bifxn3w5fv24v7ldbapfv2hewwtfl.spack", "target": "x86_64_v3", "variants": ["~asan", "build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["6.2.1"]}, {"compiler": "gcc@=13.2.0", "hash": "5uys54njrownmu6ck2uuvtyenl7bxecd", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/comgr-6.1.2/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-comgr-6.1.2-5uys54njrownmu6ck2uuvtyenl7bxecd.spack", "target": "x86_64_v3", "variants": ["~asan", "build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["6.1.2"]}]
----

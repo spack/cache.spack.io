@@ -1,7 +1,0 @@
----
-title: "pixman"
-layout: cache
-categories: [package, develop-2024-08-04]
-meta: {"versions": ["0.42.2"], "compilers": ["gcc@=11.1.0", "oneapi@=2024.2.0"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s-oneapi": 1}}
-spec_details: [{"hash": "azbwinsokmkt4l7c6jsmy3famhrxi4xq", "compiler": "gcc@=11.1.0", "versions": ["0.42.2"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "+shared"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-08-04/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/pixman-0.42.2/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-pixman-0.42.2-azbwinsokmkt4l7c6jsmy3famhrxi4xq.spack"}, {"hash": "ycbgiawmlfef7g74zyu5u6jhpps2pcwk", "compiler": "oneapi@=2024.2.0", "versions": ["0.42.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "+shared"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-08-04/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.0/pixman-0.42.2/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.0-pixman-0.42.2-ycbgiawmlfef7g74zyu5u6jhpps2pcwk.spack"}]
----

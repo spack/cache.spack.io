@@ -1,7 +1,0 @@
----
-title: "py-jaxlib"
-layout: cache
-categories: [package, develop-2024-04-28]
-meta: {"versions": ["0.4.23", "0.4.26"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cuda": 2, "root": 2}}
-spec_details: [{"hash": "4kgpy23te37rhap4w6por6fnipzchrz2", "compiler": "gcc@=11.4.0", "versions": ["0.4.23"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "+cuda", "cuda_arch=80"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-jaxlib-0.4.23/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-jaxlib-0.4.23-4kgpy23te37rhap4w6por6fnipzchrz2.spack"}, {"hash": "wa73zg2sdszsyv76qoa3w7a2rgemelpb", "compiler": "gcc@=11.4.0", "versions": ["0.4.26"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "+cuda", "cuda_arch=80"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-jaxlib-0.4.26/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-jaxlib-0.4.26-wa73zg2sdszsyv76qoa3w7a2rgemelpb.spack"}]
----

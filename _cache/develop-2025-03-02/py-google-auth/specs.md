@@ -1,7 +1,0 @@
----
-title: "py-google-auth"
-layout: cache
-categories: [package, develop-2025-03-02]
-meta: {"compilers": ["gcc@=11.4.0", "gcc@=13.2.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 3}, "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["e4s", "ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["2.27.0"]}
-spec_details: [{"compiler": "gcc@=13.2.0", "hash": "ftf45v5v2optx6zhbnmggjefojp3qn3p", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["~aiohttp", "build_system=python_pip"], "versions": ["2.27.0"]}, {"compiler": "gcc@=13.2.0", "hash": "nor3zdeo424rnrsjs27zlitswlovsv5q", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["~aiohttp", "build_system=python_pip"], "versions": ["2.27.0"]}, {"compiler": "gcc@=11.4.0", "hash": "vlepojk3oh2ek2tuucrdtcvxcb6fpjdu", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["~aiohttp", "build_system=python_pip"], "versions": ["2.27.0"]}]
----

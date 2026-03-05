@@ -1,7 +1,0 @@
----
-title: "ncdu"
-layout: cache
-categories: [package, develop-2025-04-20]
-meta: {"compilers": ["apple-clang@16.0.0", "gcc@10.5.0", "gcc@13.3.0"], "num_specs": 3, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-darwin": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "root": 3}, "oss": ["centos7", "rhel8", "sequoia"], "platforms": ["darwin", "linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-darwin", "developer-tools-x86_64_v3-linux-gnu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["1.19"]}
-spec_details: [{"compiler": "gcc@10.5.0", "hash": "auqbdx64xwjax6bfvm7bchb4c6ova4zp", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "target": "x86_64_v3", "variants": ["build_system=generic"], "versions": ["1.19"]}, {"compiler": "apple-clang@16.0.0", "hash": "d5nm73gkon65fmv77234j423dybp6wj6", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["developer-tools-darwin", "root"], "target": "aarch64", "variants": ["build_system=generic"], "versions": ["1.19"]}, {"compiler": "gcc@13.3.0", "hash": "qlpssaqvuanpvcqve45cwyti75qjs46u", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "target": "aarch64", "variants": ["build_system=generic"], "versions": ["1.19"]}]
----

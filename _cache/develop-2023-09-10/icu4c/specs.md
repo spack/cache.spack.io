@@ -1,7 +1,0 @@
----
-title: "icu4c"
-layout: cache
-categories: [package, develop-2023-09-10]
-meta: {"versions": ["67.1"], "compilers": ["gcc@=11.1.0", "gcc@=7.5.0"], "oss": ["ubuntu18.04", "ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["build_systems", "data-vis-sdk", "root"], "num_specs": 2, "num_specs_by_stack": {"build_systems": 1, "root": 2, "data-vis-sdk": 1}}
-spec_details: [{"hash": "p3oedcvzm3puvkqlc3uxm4rqejplzmk6", "compiler": "gcc@=7.5.0", "versions": ["67.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "cxxstd=11"], "stacks": ["build_systems", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-10/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/icu4c-67.1/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-icu4c-67.1-p3oedcvzm3puvkqlc3uxm4rqejplzmk6.spack"}, {"hash": "ajkhzgsqmepj44l6n6ieebl7ltzhpaxr", "compiler": "gcc@=11.1.0", "versions": ["67.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "cxxstd=11"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-10/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/icu4c-67.1/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-icu4c-67.1-ajkhzgsqmepj44l6n6ieebl7ltzhpaxr.spack"}]
----

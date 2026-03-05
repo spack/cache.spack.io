@@ -1,7 +1,0 @@
----
-title: "fpzip"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-oneapi": 1, "root": 2}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["1.3.0"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "zaczye5up6zkklk4bitmb2jmo63htvgn", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/fpzip-1.3.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-fpzip-1.3.0-zaczye5up6zkklk4bitmb2jmo63htvgn.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["1.3.0"]}, {"compiler": "oneapi@=2024.2.1", "hash": "oqe32vs7ekvowwos3nzcnifrnfjxq2ja", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/fpzip-1.3.0/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-fpzip-1.3.0-oqe32vs7ekvowwos3nzcnifrnfjxq2ja.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["1.3.0"]}]
----

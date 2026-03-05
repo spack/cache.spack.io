@@ -1,7 +1,0 @@
----
-title: "libxft"
-layout: cache
-categories: [package, develop-2025-01-19]
-meta: {"versions": ["2.3.8"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "hep", "root"], "num_specs": 2, "num_specs_by_stack": {"hep": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "bmb6osiyyzg6prul622zxqbetoi2hv47", "compiler": "gcc@=11.4.0", "versions": ["2.3.8"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["hep", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-19/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/libxft-2.3.8/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-libxft-2.3.8-bmb6osiyyzg6prul622zxqbetoi2hv47.spack"}, {"hash": "jlwb7p372yvjqyam5fb3vkpeu3277hss", "compiler": "gcc@=11.4.0", "versions": ["2.3.8"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-19/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/libxft-2.3.8/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-libxft-2.3.8-jlwb7p372yvjqyam5fb3vkpeu3277hss.spack"}]
----

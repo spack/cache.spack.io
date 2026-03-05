@@ -1,7 +1,0 @@
----
-title: "py-wcwidth"
-layout: cache
-categories: [package, develop-2025-07-13]
-meta: {"compilers": ["none"], "num_specs": 4, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "e4s-neoverse-v2": 1, "radiuss": 1, "root": 4}, "oss": ["ubuntu18.04", "ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "e4s-neoverse-v2", "radiuss", "root"], "targets": ["neoverse_v2", "x86_64_v3"], "versions": ["0.2.7"]}
-spec_details: [{"compiler": "none", "hash": "cd7bp6jdsbkogjta37sgqc3kfytntxkl", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.2.7"]}, {"compiler": "none", "hash": "l7ica3t4kjhaqm2vp3zrfoi4taqavvwy", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["radiuss", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.2.7"]}, {"compiler": "none", "hash": "mvl2mjsfve25yxz4whqbbylaz5de3nbb", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.2.7"]}, {"compiler": "none", "hash": "rsqi4uadevrwwte2us5wpkkmvplav3de", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-neoverse-v2", "root"], "target": "neoverse_v2", "variants": ["build_system=python_pip"], "versions": ["0.2.7"]}]
----

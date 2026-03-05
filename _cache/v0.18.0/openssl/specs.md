@@ -1,7 +1,0 @@
----
-title: "openssl"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["1.1.1o"], "compilers": ["gcc@=7.5.0", "gcc@=8.4.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["build_systems", "data-vis-sdk", "e4s", "radiuss", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"build_systems": 1, "root": 2, "tutorial": 2, "data-vis-sdk": 1, "e4s": 1, "radiuss": 1}}
-spec_details: [{"hash": "hqlqpsnqoifap6mlkbr5fyxoaq3gynbk", "compiler": "gcc@=7.5.0", "versions": ["1.1.1o"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["certs=system", "~docs", "~shared"], "stacks": ["build_systems", "root", "tutorial", "data-vis-sdk", "e4s", "radiuss"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/openssl-1.1.1o/linux-ubuntu18.04-x86_64-gcc-7.5.0-openssl-1.1.1o-hqlqpsnqoifap6mlkbr5fyxoaq3gynbk.spack"}, {"hash": "bj2jnt77kpvmffbl6k7lnz4y6z45mab5", "compiler": "gcc@=8.4.0", "versions": ["1.1.1o"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["certs=system", "~docs", "~shared"], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-8.4.0/openssl-1.1.1o/linux-ubuntu18.04-x86_64-gcc-8.4.0-openssl-1.1.1o-bj2jnt77kpvmffbl6k7lnz4y6z45mab5.spack"}]
----

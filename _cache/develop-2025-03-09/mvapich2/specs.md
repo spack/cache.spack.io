@@ -1,7 +1,0 @@
----
-title: "mvapich2"
-layout: cache
-categories: [package, develop-2025-03-09]
-meta: {"compilers": ["gcc@=7.5.0"], "num_specs": 2, "num_specs_by_stack": {"radiuss": 2, "root": 2}, "oss": ["ubuntu18.04"], "platforms": ["linux"], "stacks": ["radiuss", "root"], "targets": ["x86_64_v3"], "versions": ["2.3.7-1"]}
-spec_details: [{"compiler": "gcc@=7.5.0", "hash": "eaddt2j66b7ue7s57oh4vsinybmgalhk", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["radiuss", "root"], "target": "x86_64_v3", "variants": ["~alloca", "build_system=autotools", "ch3_rank_bits=32", "~cuda", "~debug", "fabrics=mrail", "file_systems=auto", "~hwloc_graphics", "~hwlocv2", "patches=750f9f2,d98d8e7", "process_managers=auto", "+regcache", "threads=multiple", "+wrapperrpath"], "versions": ["2.3.7-1"]}, {"compiler": "gcc@=7.5.0", "hash": "yl257ubuxhwo56u6citn5dh2oaermztl", "os": "ubuntu18.04", "platform": "linux", "size": "-", "stacks": ["radiuss", "root"], "target": "x86_64_v3", "variants": ["~alloca", "build_system=autotools", "ch3_rank_bits=32", "~cuda", "~debug", "fabrics=mrail", "file_systems=auto", "~hwloc_graphics", "~hwlocv2", "patches=750f9f2,d98d8e7", "process_managers=auto", "+regcache", "threads=multiple", "+wrapperrpath"], "versions": ["2.3.7-1"]}]
----

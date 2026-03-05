@@ -1,7 +1,0 @@
----
-title: "py-petsc4py"
-layout: cache
-categories: [package, develop-2025-04-06]
-meta: {"compilers": ["gcc@11.4.0", "intel-oneapi-compilers@2025.1.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "e4s-neoverse-v2": 1, "e4s-oneapi": 1, "root": 3}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-neoverse-v2", "e4s-oneapi", "root"], "targets": ["neoverse_v2", "x86_64_v3"], "versions": ["3.23.0"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "75q24y66nwa42f6opgnuzxtq7wzjqo5c", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip", "+mpi", "patches:=edc2f91"], "versions": ["3.23.0"]}, {"compiler": "intel-oneapi-compilers@2025.1.0", "hash": "euccepgp2gdnnayta4y6s4xqgtvzgvde", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip", "+mpi", "patches:=edc2f91"], "versions": ["3.23.0"]}, {"compiler": "gcc@11.4.0", "hash": "kqikt6oofw5d7i6rwfddtzmbvds335kl", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-neoverse-v2", "root"], "target": "neoverse_v2", "variants": ["build_system=python_pip", "+mpi", "patches:=edc2f91"], "versions": ["3.23.0"]}]
----

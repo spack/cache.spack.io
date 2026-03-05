@@ -1,7 +1,0 @@
----
-title: "docbook-xsl"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["1.79.2"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "radiuss", "root"], "num_specs": 2, "num_specs_by_stack": {"radiuss": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "bqsmbmqvpi7pagpllexjj3bkfsckfh5v", "compiler": "gcc@=7.5.0", "versions": ["1.79.2"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["patches=a92c397"], "stacks": ["radiuss", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/docbook-xsl-1.79.2/linux-ubuntu18.04-x86_64-gcc-7.5.0-docbook-xsl-1.79.2-bqsmbmqvpi7pagpllexjj3bkfsckfh5v.spack"}, {"hash": "sf5rnmoaudkkmm7hrdz53lle4tyrnba4", "compiler": "gcc@=7.5.0", "versions": ["1.79.2"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["patches=a92c397"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/docbook-xsl-1.79.2/linux-ubuntu18.04-x86_64-gcc-7.5.0-docbook-xsl-1.79.2-sf5rnmoaudkkmm7hrdz53lle4tyrnba4.spack"}]
----

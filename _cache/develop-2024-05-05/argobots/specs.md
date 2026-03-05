@@ -1,7 +1,0 @@
----
-title: "argobots"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["1.2"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["neoverse_v1", "x86_64_v3"], "stacks": ["e4s", "e4s-neoverse_v1", "e4s-rocm-external", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-rocm-external": 1, "root": 2, "e4s": 1, "e4s-neoverse_v1": 1}}
-spec_details: [{"hash": "cqvp763srtli4jnczafmb7lghkcyhkzj", "compiler": "gcc@=11.4.0", "versions": ["1.2"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~affinity", "build_system=autotools", "~debug", "+perf", "stackguard=none", "~stackunwind", "~tool", "~valgrind"], "stacks": ["e4s-rocm-external", "root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/argobots-1.2/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-argobots-1.2-cqvp763srtli4jnczafmb7lghkcyhkzj.spack"}, {"hash": "clqntoggzxsgta57v4etz25ex4ga6ew7", "compiler": "gcc@=11.4.0", "versions": ["1.2"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v1", "variants": ["~affinity", "build_system=autotools", "~debug", "+perf", "stackguard=none", "~stackunwind", "~tool", "~valgrind"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-neoverse_v1/gcc-11.4.0/argobots-1.2/linux-ubuntu22.04-neoverse_v1-gcc-11.4.0-argobots-1.2-clqntoggzxsgta57v4etz25ex4ga6ew7.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "adiak"
-layout: cache
-categories: [package, develop-2024-04-28]
-meta: {"versions": ["0.4.0"], "compilers": ["cce@=15.0.1", "gcc@=7.5.0"], "oss": ["rhel8", "ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64_v3", "zen4"], "stacks": ["e4s-cray-rhel", "radiuss", "root"], "num_specs": 2, "num_specs_by_stack": {"radiuss": 1, "root": 2, "e4s-cray-rhel": 1}}
-spec_details: [{"hash": "jxl42gmvwhjtf2cchneflhanszaxndzk", "compiler": "gcc@=7.5.0", "versions": ["0.4.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+mpi", "+shared"], "stacks": ["radiuss", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/adiak-0.4.0/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-adiak-0.4.0-jxl42gmvwhjtf2cchneflhanszaxndzk.spack"}, {"hash": "hwxmrg6i6h7sq4v4njqx6n5da3kh6azd", "compiler": "cce@=15.0.1", "versions": ["0.4.0"], "os": "rhel8", "platform": "linux", "target": "zen4", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+mpi", "+shared"], "stacks": ["e4s-cray-rhel", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-rhel8-zen4/cce-15.0.1/adiak-0.4.0/linux-rhel8-zen4-cce-15.0.1-adiak-0.4.0-hwxmrg6i6h7sq4v4njqx6n5da3kh6azd.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "py-argcomplete"
-layout: cache
-categories: [package, develop-2024-10-27]
-meta: {"versions": ["3.5.0"], "compilers": ["apple-clang@=15.0.0", "gcc@=10.2.1"], "oss": ["centos7", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-darwin", "developer-tools-manylinux2014", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "developer-tools-darwin": 1, "developer-tools-manylinux2014": 1}}
-spec_details: [{"hash": "h5cn7dd5g2nca45rpyvgethfo4xk6m45", "compiler": "apple-clang@=15.0.0", "versions": ["3.5.0"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["root", "developer-tools-darwin"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-27/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-argcomplete-3.5.0/darwin-ventura-aarch64-apple-clang-15.0.0-py-argcomplete-3.5.0-h5cn7dd5g2nca45rpyvgethfo4xk6m45.spack"}, {"hash": "v6mdru366o2ot6rs3ea2lbbe2d3ajdgf", "compiler": "gcc@=10.2.1", "versions": ["3.5.0"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["developer-tools-manylinux2014", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-10-27/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/py-argcomplete-3.5.0/linux-centos7-x86_64_v3-gcc-10.2.1-py-argcomplete-3.5.0-v6mdru366o2ot6rs3ea2lbbe2d3ajdgf.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "bolt"
-layout: cache
-categories: [package, develop-2024-04-28]
-meta: {"versions": ["2.0"], "compilers": ["cce@=15.0.1", "gcc@=10.3.0"], "oss": ["rhel8", "sle_hpc15"], "platforms": ["linux"], "targets": ["x86_64_v4", "zen4"], "stacks": ["e4s-cray-rhel", "e4s-cray-sles", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-cray-sles": 1, "root": 2, "e4s-cray-rhel": 1}}
-spec_details: [{"hash": "mi3g3xqyu7uiitipdpg3asrmlcpogkgm", "compiler": "gcc@=10.3.0", "versions": ["2.0"], "os": "sle_hpc15", "platform": "linux", "target": "x86_64_v4", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["e4s-cray-sles", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-sle_hpc15-x86_64_v4/gcc-10.3.0/bolt-2.0/linux-sle_hpc15-x86_64_v4-gcc-10.3.0-bolt-2.0-mi3g3xqyu7uiitipdpg3asrmlcpogkgm.spack"}, {"hash": "s5esyxro4pvn55ipc2gfljl2iizptxia", "compiler": "cce@=15.0.1", "versions": ["2.0"], "os": "rhel8", "platform": "linux", "target": "zen4", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["e4s-cray-rhel", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-28/build_cache/linux-rhel8-zen4/cce-15.0.1/bolt-2.0/linux-rhel8-zen4-cce-15.0.1-bolt-2.0-s5esyxro4pvn55ipc2gfljl2iizptxia.spack"}]
----

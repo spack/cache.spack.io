@@ -1,7 +1,0 @@
----
-title: "utf8cpp"
-layout: cache
-categories: [package, develop-2025-04-13]
-meta: {"compilers": ["gcc@11.1.0", "gcc@11.4.0"], "num_specs": 3, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 2, "root": 3}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "root"], "targets": ["x86_64_v3"], "versions": ["4.0.6"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "c3rr43y3clgxdev3tbdtt5izpeumkf6v", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["4.0.6"]}, {"compiler": "gcc@11.4.0", "hash": "fzltrfc7qs34noeokk55sej5ldz3ovsl", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["4.0.6"]}, {"compiler": "gcc@11.1.0", "hash": "i4emfjezmbqslcpeazu6ecm6gc2pk5no", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["4.0.6"]}]
----

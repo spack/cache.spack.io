@@ -1,7 +1,0 @@
----
-title: "libmicrohttpd"
-layout: cache
-categories: [package, develop-2025-04-20]
-meta: {"compilers": ["gcc@10.5.0", "gcc@11.4.0", "gcc@13.3.0"], "num_specs": 3, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "hep": 1, "root": 3}, "oss": ["centos7", "rhel8", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "hep", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["1.0.1"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "7y4fifggiwi6phmwelp6p2sgfrvwdodm", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "~https"], "versions": ["1.0.1"]}, {"compiler": "gcc@10.5.0", "hash": "bbeztokjcox6g2dytnmj6wvreyyitijm", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "~https"], "versions": ["1.0.1"]}, {"compiler": "gcc@13.3.0", "hash": "jigfsnhv5ohfg4ndxo4er7pxtuwczclc", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "target": "aarch64", "variants": ["build_system=autotools", "~https"], "versions": ["1.0.1"]}]
----

@@ -1,7 +1,0 @@
----
-title: "autoconf"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["2.69"], "compilers": ["gcc@=7.5.0", "gcc@=8.4.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["build_systems", "data-vis-sdk", "e4s", "radiuss", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"build_systems": 1, "root": 2, "tutorial": 2, "data-vis-sdk": 1, "e4s": 1, "radiuss": 1}}
-spec_details: [{"hash": "hlj3ujmrsu5gs7uhfdotozzg6ipys45b", "compiler": "gcc@=7.5.0", "versions": ["2.69"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["patches=35c4492,7793209,a49dd5b"], "stacks": ["build_systems", "root", "tutorial", "data-vis-sdk", "e4s", "radiuss"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/autoconf-2.69/linux-ubuntu18.04-x86_64-gcc-7.5.0-autoconf-2.69-hlj3ujmrsu5gs7uhfdotozzg6ipys45b.spack"}, {"hash": "vtvkpesgwphtaypnqf22mvedsacvju7y", "compiler": "gcc@=8.4.0", "versions": ["2.69"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["patches=35c4492,7793209,a49dd5b"], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-8.4.0/autoconf-2.69/linux-ubuntu18.04-x86_64-gcc-8.4.0-autoconf-2.69-vtvkpesgwphtaypnqf22mvedsacvju7y.spack"}]
----

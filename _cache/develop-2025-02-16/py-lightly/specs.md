@@ -1,7 +1,0 @@
----
-title: "py-lightly"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["gcc@=13.2.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "ml-linux-x86_64-cpu": 1, "root": 2}, "oss": ["ubuntu24.04"], "platforms": ["linux"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-x86_64-cpu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["1.5.11"]}
-spec_details: [{"compiler": "gcc@=13.2.0", "hash": "bmz63zi23qor3adl4nrn2wzhuy6hufwh", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/py-lightly-1.5.11/linux-ubuntu24.04-aarch64-gcc-13.2.0-py-lightly-1.5.11-bmz63zi23qor3adl4nrn2wzhuy6hufwh.spack", "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["1.5.11"]}, {"compiler": "gcc@=13.2.0", "hash": "5oz5pmpfsv6bjmcmdv4uatbr6fxzjvn6", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-lightly-1.5.11/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-lightly-1.5.11-5oz5pmpfsv6bjmcmdv4uatbr6fxzjvn6.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.5.11"]}]
----

@@ -1,7 +1,0 @@
----
-title: "py-torchdata"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["gcc@=13.2.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "ml-linux-x86_64-cpu": 1, "root": 2}, "oss": ["ubuntu24.04"], "platforms": ["linux"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-x86_64-cpu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["0.10.1"]}
-spec_details: [{"compiler": "gcc@=13.2.0", "hash": "w4h42n6ny24mllolyktvuaubbo2wcsff", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/py-torchdata-0.10.1/linux-ubuntu24.04-aarch64-gcc-13.2.0-py-torchdata-0.10.1-w4h42n6ny24mllolyktvuaubbo2wcsff.spack", "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["0.10.1"]}, {"compiler": "gcc@=13.2.0", "hash": "jee46eiqgltqk4yboq6nfxuh6stjjnvd", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-torchdata-0.10.1/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-torchdata-0.10.1-jee46eiqgltqk4yboq6nfxuh6stjjnvd.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["0.10.1"]}]
----

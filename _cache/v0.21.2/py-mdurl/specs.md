@@ -1,7 +1,0 @@
----
-title: "py-mdurl"
-layout: cache
-categories: [package, v0.21.2]
-meta: {"versions": ["0.1.2"], "compilers": ["apple-clang@=15.0.0", "gcc@=7.5.0"], "oss": ["ubuntu18.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-darwin-aarch64-mps", "radiuss", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "root": 2, "radiuss": 1}}
-spec_details: [{"hash": "2e7oil4wongkdyrxe3sypjezykuknst2", "compiler": "apple-clang@=15.0.0", "versions": ["0.1.2"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.21.2/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-mdurl-0.1.2/darwin-ventura-aarch64-apple-clang-15.0.0-py-mdurl-0.1.2-2e7oil4wongkdyrxe3sypjezykuknst2.spack"}, {"hash": "bpy73jqsl64dl2hjl47qj4xtgroeelwy", "compiler": "gcc@=7.5.0", "versions": ["0.1.2"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["radiuss", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.21.2/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-mdurl-0.1.2/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-mdurl-0.1.2-bpy73jqsl64dl2hjl47qj4xtgroeelwy.spack"}]
----

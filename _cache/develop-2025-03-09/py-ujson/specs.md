@@ -1,7 +1,0 @@
----
-title: "py-ujson"
-layout: cache
-categories: [package, develop-2025-03-09]
-meta: {"compilers": ["apple-clang@=16.0.0", "gcc@=10.5.0", "gcc@=13.3.0"], "num_specs": 3, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-darwin": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "root": 3}, "oss": ["centos7", "rhel8", "sequoia"], "platforms": ["darwin", "linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-darwin", "developer-tools-x86_64_v3-linux-gnu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["5.7.0"]}
-spec_details: [{"compiler": "gcc@=10.5.0", "hash": "hyij6fxo3diunlveh6f422txydnfbz3m", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["5.7.0"]}, {"compiler": "apple-clang@=16.0.0", "hash": "wyvdbr7bujxfagefeui7lfhw2mm4hvso", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["developer-tools-darwin", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["5.7.0"]}, {"compiler": "gcc@=13.3.0", "hash": "xcdwxj44rjqt3vb4dv6tvt2qq7llwxfy", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["5.7.0"]}]
----

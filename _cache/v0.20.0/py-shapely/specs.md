@@ -1,7 +1,0 @@
----
-title: "py-shapely"
-layout: cache
-categories: [package, v0.20.0]
-meta: {"versions": ["2.0.1"], "compilers": ["gcc@=11.3.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-x86_64-cuda": 1, "root": 2, "ml-linux-x86_64-cpu": 1}}
-spec_details: [{"hash": "j2kxa5px4al5q5ecgslxf3kjsmlv2hgl", "compiler": "gcc@=11.3.0", "versions": ["2.0.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.0/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-shapely-2.0.1/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-shapely-2.0.1-j2kxa5px4al5q5ecgslxf3kjsmlv2hgl.spack"}, {"hash": "z2mhjldu5w34iiojf6uqhvnux5tgstlh", "compiler": "gcc@=11.3.0", "versions": ["2.0.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["ml-linux-x86_64-cpu", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.0/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/py-shapely-2.0.1/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-py-shapely-2.0.1-z2mhjldu5w34iiojf6uqhvnux5tgstlh.spack"}]
----

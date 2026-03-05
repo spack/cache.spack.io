@@ -1,7 +1,0 @@
----
-title: "h5bench"
-layout: cache
-categories: [package, develop-2023-12-24]
-meta: {"versions": ["1.4"], "compilers": ["cce@=15.0.1", "gcc@=10.3.0"], "oss": ["rhel8", "sle_hpc15"], "platforms": ["linux"], "targets": ["x86_64_v4", "zen4"], "stacks": ["e4s-cray-rhel", "e4s-cray-sles", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-cray-rhel": 1, "root": 2, "e4s-cray-sles": 1}}
-spec_details: [{"hash": "ottrqkp366fybnl6sv2ndij4w3rsbr5t", "compiler": "cce@=15.0.1", "versions": ["1.4"], "os": "rhel8", "platform": "linux", "target": "zen4", "variants": ["~all", "~amrex", "~async", "build_system=cmake", "build_type=Release", "~e3sm", "~exerciser", "generator=make", "~ipo", "~metadata", "~openpmd"], "stacks": ["e4s-cray-rhel", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-12-24/build_cache/linux-rhel8-zen4/cce-15.0.1/h5bench-1.4/linux-rhel8-zen4-cce-15.0.1-h5bench-1.4-ottrqkp366fybnl6sv2ndij4w3rsbr5t.spack"}, {"hash": "oi6ehex6byxsmipimcmwrqjcx2mh4tuz", "compiler": "gcc@=10.3.0", "versions": ["1.4"], "os": "sle_hpc15", "platform": "linux", "target": "x86_64_v4", "variants": ["~all", "~amrex", "~async", "build_system=cmake", "build_type=Release", "~e3sm", "~exerciser", "generator=make", "~ipo", "~metadata", "~openpmd"], "stacks": ["e4s-cray-sles", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-12-24/build_cache/linux-sle_hpc15-x86_64_v4/gcc-10.3.0/h5bench-1.4/linux-sle_hpc15-x86_64_v4-gcc-10.3.0-h5bench-1.4-oi6ehex6byxsmipimcmwrqjcx2mh4tuz.spack"}]
----

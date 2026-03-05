@@ -1,7 +1,0 @@
----
-title: "py-poetry-core"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["1.8.1"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "gxs65f65duama2ha2kxq2udrkfwk2qfw", "compiler": "gcc@=7.3.1", "versions": ["1.8.1"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=python_pip"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/py-poetry-core-1.8.1/linux-amzn2-neoverse_n1-gcc-7.3.1-py-poetry-core-1.8.1-gxs65f65duama2ha2kxq2udrkfwk2qfw.spack"}, {"hash": "rqdd2xrncgpeaqnkx3dhfdi6b7uhntg4", "compiler": "gcc@=7.3.1", "versions": ["1.8.1"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/py-poetry-core-1.8.1/linux-amzn2-aarch64-gcc-7.3.1-py-poetry-core-1.8.1-rqdd2xrncgpeaqnkx3dhfdi6b7uhntg4.spack"}]
----

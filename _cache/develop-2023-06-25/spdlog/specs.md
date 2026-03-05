@@ -1,7 +1,0 @@
----
-title: "spdlog"
-layout: cache
-categories: [package, develop-2023-06-25]
-meta: {"versions": ["1.11.0"], "compilers": ["gcc@=7.5.0", "oneapi@=2023.1.0"], "oss": ["ubuntu18.04", "ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64", "x86_64_v3"], "stacks": ["e4s-oneapi", "radiuss", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-oneapi": 1, "root": 2, "radiuss": 1}}
-spec_details: [{"hash": "7urca2dwpdvn6dsbwilscgwmwhaqhq2l", "compiler": "oneapi@=2023.1.0", "versions": ["1.11.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64", "variants": ["build_system=cmake", "build_type=Release", "~fmt_external", "generator=make", "~ipo", "+shared"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-25/build_cache/linux-ubuntu20.04-x86_64/oneapi-2023.1.0/spdlog-1.11.0/linux-ubuntu20.04-x86_64-oneapi-2023.1.0-spdlog-1.11.0-7urca2dwpdvn6dsbwilscgwmwhaqhq2l.spack"}, {"hash": "zbixxf7fxl5j46zvjvr7ukyru3hcapg3", "compiler": "gcc@=7.5.0", "versions": ["1.11.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~fmt_external", "generator=make", "~ipo", "+shared"], "stacks": ["radiuss", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-06-25/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/spdlog-1.11.0/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-spdlog-1.11.0-zbixxf7fxl5j46zvjvr7ukyru3hcapg3.spack"}]
----

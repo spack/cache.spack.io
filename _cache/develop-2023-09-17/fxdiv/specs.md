@@ -1,7 +1,0 @@
----
-title: "fxdiv"
-layout: cache
-categories: [package, develop-2023-09-17]
-meta: {"versions": ["2020-04-17"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "bdjfzllc6v3xfxqihykpe7bm7sfnxyhu", "compiler": "gcc@=11.1.0", "versions": ["2020-04-17"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=cmake", "build_type=Release", "generator=ninja", "~ipo"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-17/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/fxdiv-2020-04-17/linux-ubuntu20.04-ppc64le-gcc-11.1.0-fxdiv-2020-04-17-bdjfzllc6v3xfxqihykpe7bm7sfnxyhu.spack"}, {"hash": "etypnq4xvooqdy3maccvp2rk3dmx7ctv", "compiler": "gcc@=11.1.0", "versions": ["2020-04-17"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=ninja", "~ipo"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-17/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/fxdiv-2020-04-17/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-fxdiv-2020-04-17-etypnq4xvooqdy3maccvp2rk3dmx7ctv.spack"}]
----

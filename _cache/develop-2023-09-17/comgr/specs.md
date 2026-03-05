@@ -1,7 +1,0 @@
----
-title: "comgr"
-layout: cache
-categories: [package, develop-2023-09-17]
-meta: {"versions": ["5.4.3", "5.5.1"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "gpu-tests", "root"], "num_specs": 2, "num_specs_by_stack": {"gpu-tests": 1, "root": 2, "e4s": 2}}
-spec_details: [{"hash": "clz3iwebvoikrmtjrjmc6vmm6vdlzz5g", "compiler": "gcc@=11.1.0", "versions": ["5.5.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["gpu-tests", "root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-17/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/comgr-5.5.1/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-comgr-5.5.1-clz3iwebvoikrmtjrjmc6vmm6vdlzz5g.spack"}, {"hash": "nalflpv63oxt2kt3ojv46zgu26keafj7", "compiler": "gcc@=11.1.0", "versions": ["5.4.3"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-17/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/comgr-5.4.3/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-comgr-5.4.3-nalflpv63oxt2kt3ojv46zgu26keafj7.spack"}]
----

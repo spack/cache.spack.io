@@ -1,7 +1,0 @@
----
-title: "py-cachetools"
-layout: cache
-categories: [package, develop-2025-04-20]
-meta: {"compilers": ["none"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 3}, "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["e4s", "ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["5.2.0"]}
-spec_details: [{"compiler": "none", "hash": "brirzv5m5njkcnfezxxgz62d32tn45yg", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["5.2.0"]}, {"compiler": "none", "hash": "oxdjjr2kd2bcooplvnq7o2bng4z3mvce", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["5.2.0"]}, {"compiler": "none", "hash": "t6glvhztmxw53nf5fh74qehvict3wxih", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["5.2.0"]}]
----

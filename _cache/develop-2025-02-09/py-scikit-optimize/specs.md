@@ -1,7 +1,0 @@
----
-title: "py-scikit-optimize"
-layout: cache
-categories: [package, develop-2025-02-09]
-meta: {"versions": ["0.9.0"], "compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "qegicg6d27e6qrz7dy2kcncvj7hzza66", "compiler": "gcc@=11.4.0", "versions": ["0.9.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "patches=21f43c9", "+plots"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-scikit-optimize-0.9.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-scikit-optimize-0.9.0-qegicg6d27e6qrz7dy2kcncvj7hzza66.spack"}, {"hash": "2droew7ptxtmbo2eam2zsk2iv2pgsd6c", "compiler": "oneapi@=2024.2.1", "versions": ["0.9.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "patches=21f43c9", "+plots"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-09/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/py-scikit-optimize-0.9.0/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-py-scikit-optimize-0.9.0-2droew7ptxtmbo2eam2zsk2iv2pgsd6c.spack"}]
----

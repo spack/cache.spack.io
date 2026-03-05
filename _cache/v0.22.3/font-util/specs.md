@@ -1,7 +1,0 @@
----
-title: "font-util"
-layout: cache
-categories: [package, v0.22.3]
-meta: {"versions": ["1.4.0"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "root"], "num_specs": 1, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 1}}
-spec_details: [{"hash": "qvstcwv7bwp44qw3mejlwurtra53uevj", "compiler": "gcc@=11.1.0", "versions": ["1.4.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools", "fonts=encodings,font-adobe-100dpi,font-adobe-75dpi,font-adobe-utopia-100dpi,font-adobe-utopia-75dpi,font-adobe-utopia-type1,font-alias,font-arabic-misc,font-bh-100dpi,font-bh-75dpi,font-bh-lucidatypewriter-100dpi,font-bh-lucidatypewriter-75dpi,font-bh-type1,font-bitstream-100dpi,font-bitstream-75dpi,font-bitstream-speedo,font-bitstream-type1,font-cronyx-cyrillic,font-cursor-misc,font-daewoo-misc,font-dec-misc,font-ibm-type1,font-isas-misc,font-jis-misc,font-micro-misc,font-misc-cyrillic,font-misc-ethiopic,font-misc-meltho,font-misc-misc,font-mutt-misc,font-schumacher-misc,font-screen-cyrillic,font-sun-misc,font-winitzki-cyrillic,font-xfree86-type1"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.22.3/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/font-util-1.4.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-font-util-1.4.0-qvstcwv7bwp44qw3mejlwurtra53uevj.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "intel-xed"
-layout: cache
-categories: [package, develop-2025-01-05]
-meta: {"versions": ["2024.05.20"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-rocm-external", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-rocm-external": 1, "root": 2, "e4s": 2}}
-spec_details: [{"hash": "wjhqk23tckj4q5naa27i3k4l3ddvpncl", "compiler": "gcc@=11.4.0", "versions": ["2024.05.20"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic", "~debug", "+deprecated-includes", "~examples", "+optimize", "+pic"], "stacks": ["e4s-rocm-external", "root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/intel-xed-2024.05.20/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-intel-xed-2024.05.20-wjhqk23tckj4q5naa27i3k4l3ddvpncl.spack"}, {"hash": "ahvxcuycdsn2rjukhrwfp6x4jro4w5a4", "compiler": "gcc@=11.4.0", "versions": ["2024.05.20"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic", "~debug", "+deprecated-includes", "~examples", "+optimize", "+pic"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/intel-xed-2024.05.20/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-intel-xed-2024.05.20-ahvxcuycdsn2rjukhrwfp6x4jro4w5a4.spack"}]
----

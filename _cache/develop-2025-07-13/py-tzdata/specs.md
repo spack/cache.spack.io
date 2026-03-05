@@ -1,7 +1,0 @@
----
-title: "py-tzdata"
-layout: cache
-categories: [package, develop-2025-07-13]
-meta: {"compilers": ["none"], "num_specs": 4, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 2, "e4s-oneapi": 1, "root": 4}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["2025.2"]}
-spec_details: [{"compiler": "none", "hash": "kyxtj255o6wj33kcuansd57re723r67a", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2025.2"]}, {"compiler": "none", "hash": "opbfp2pjb4t5dmqocfjexxmodewjh3pu", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2025.2"]}, {"compiler": "none", "hash": "ox233n2midmyo664ktvdtikv3am6hcsq", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2025.2"]}, {"compiler": "none", "hash": "wgtqkwqrya2j2wgcj35r6im4kkcilalg", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["2025.2"]}]
----

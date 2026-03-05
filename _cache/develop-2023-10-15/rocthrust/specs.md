@@ -1,7 +1,0 @@
----
-title: "rocthrust"
-layout: cache
-categories: [package, develop-2023-10-15]
-meta: {"versions": ["5.5.1", "5.6.1"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 2}}
-spec_details: [{"hash": "wvyyl6hid6ahe4imzbefwav34kbxsipv", "compiler": "gcc@=11.4.0", "versions": ["5.6.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["amdgpu_target=auto", "build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-10-15/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/rocthrust-5.6.1/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-rocthrust-5.6.1-wvyyl6hid6ahe4imzbefwav34kbxsipv.spack"}, {"hash": "m35kj7bjsapgfd5wx32xcpyvdmye6kbi", "compiler": "gcc@=11.4.0", "versions": ["5.5.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["amdgpu_target=auto", "build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-10-15/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/rocthrust-5.5.1/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-rocthrust-5.5.1-m35kj7bjsapgfd5wx32xcpyvdmye6kbi.spack"}]
----

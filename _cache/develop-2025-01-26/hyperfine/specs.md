@@ -1,7 +1,0 @@
----
-title: "hyperfine"
-layout: cache
-categories: [package, develop-2025-01-26]
-meta: {"versions": ["1.18.0"], "compilers": ["gcc@=10.5.0", "gcc@=13.3.0"], "oss": ["centos7", "rhel8"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-x86_64_v3-linux-gnu", "root"], "num_specs": 2, "num_specs_by_stack": {"developer-tools-x86_64_v3-linux-gnu": 1, "root": 2, "developer-tools-aarch64-linux-gnu": 1}}
-spec_details: [{"hash": "3lbeia5esgyeokozpeikge4ah6kkrl7i", "compiler": "gcc@=10.5.0", "versions": ["1.18.0"], "os": "centos7", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cargo"], "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-centos7-x86_64_v3/gcc-10.5.0/hyperfine-1.18.0/linux-centos7-x86_64_v3-gcc-10.5.0-hyperfine-1.18.0-3lbeia5esgyeokozpeikge4ah6kkrl7i.spack"}, {"hash": "arjufao64hsnczmgcbyxn6fgu25ip2jc", "compiler": "gcc@=13.3.0", "versions": ["1.18.0"], "os": "rhel8", "platform": "linux", "target": "aarch64", "variants": ["build_system=cargo"], "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-rhel8-aarch64/gcc-13.3.0/hyperfine-1.18.0/linux-rhel8-aarch64-gcc-13.3.0-hyperfine-1.18.0-arjufao64hsnczmgcbyxn6fgu25ip2jc.spack"}]
----

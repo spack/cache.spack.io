@@ -1,7 +1,0 @@
----
-title: "hipify-clang"
-layout: cache
-categories: [package, develop-2024-11-03]
-meta: {"versions": ["6.1.2", "6.2.1"], "compilers": ["gcc@=11.4.0", "gcc@=13.2.0"], "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "ml-linux-x86_64-rocm", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "ml-linux-x86_64-rocm": 1}}
-spec_details: [{"hash": "sag6z6szyj6vd4auwwppelz7dkwuauss", "compiler": "gcc@=11.4.0", "versions": ["6.2.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~asan", "build_system=cmake", "build_type=Release", "generator=make", "~ipo", "patches=16e0e2b"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-03/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/hipify-clang-6.2.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-hipify-clang-6.2.1-sag6z6szyj6vd4auwwppelz7dkwuauss.spack"}, {"hash": "6j6y75pg2bblgd4j4kliprbvrwdpytev", "compiler": "gcc@=13.2.0", "versions": ["6.1.2"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~asan", "build_system=cmake", "build_type=Release", "generator=make", "~ipo", "patches=3ad49b7"], "stacks": ["ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-03/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/hipify-clang-6.1.2/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-hipify-clang-6.1.2-6j6y75pg2bblgd4j4kliprbvrwdpytev.spack"}]
----

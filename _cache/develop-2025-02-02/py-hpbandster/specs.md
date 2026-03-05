@@ -1,7 +1,0 @@
----
-title: "py-hpbandster"
-layout: cache
-categories: [package, develop-2025-02-02]
-meta: {"versions": ["0.7.4"], "compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "452w7vi3s2fhnpjscdscqpbmiaw7poky", "compiler": "gcc@=11.4.0", "versions": ["0.7.4"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-hpbandster-0.7.4/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-hpbandster-0.7.4-452w7vi3s2fhnpjscdscqpbmiaw7poky.spack"}, {"hash": "2fgkb2y6gib2yhf4o3fu6rntmge2tree", "compiler": "oneapi@=2024.2.1", "versions": ["0.7.4"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/py-hpbandster-0.7.4/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-py-hpbandster-0.7.4-2fgkb2y6gib2yhf4o3fu6rntmge2tree.spack"}]
----

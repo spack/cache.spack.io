@@ -1,7 +1,0 @@
----
-title: "slurm"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["21-08-8-2"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "radiuss", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"radiuss": 1, "root": 2, "tutorial": 1, "e4s": 1}}
-spec_details: [{"hash": "w7ebjng6zcnkiofevxcfmmugdrelkjwg", "compiler": "gcc@=7.5.0", "versions": ["21-08-8-2"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~gtk", "~hdf5", "~hwloc", "~mariadb", "~pmix", "+readline", "~restd", "sysconfdir=PREFIX/etc"], "stacks": ["radiuss", "root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/slurm-21-08-8-2/linux-ubuntu18.04-x86_64-gcc-7.5.0-slurm-21-08-8-2-w7ebjng6zcnkiofevxcfmmugdrelkjwg.spack"}, {"hash": "wuomssuw76i7oqp2ytsdutzw36anzag5", "compiler": "gcc@=7.5.0", "versions": ["21-08-8-2"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~gtk", "~hdf5", "~hwloc", "~mariadb", "~pmix", "+readline", "~restd", "sysconfdir=PREFIX/etc"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/slurm-21-08-8-2/linux-ubuntu18.04-x86_64-gcc-7.5.0-slurm-21-08-8-2-wuomssuw76i7oqp2ytsdutzw36anzag5.spack"}]
----

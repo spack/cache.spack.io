@@ -1,7 +1,0 @@
----
-title: "libxmu"
-layout: cache
-categories: [package, develop-2024-11-17]
-meta: {"versions": ["1.2.1"], "compilers": ["gcc@=11.4.0", "oneapi@=2024.2.1"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "e4s-oneapi", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "e4s-oneapi": 1}}
-spec_details: [{"hash": "jz4jaqhahvjqiqhokh2dkytahscnws4y", "compiler": "gcc@=11.4.0", "versions": ["1.2.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-17/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/libxmu-1.2.1/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-libxmu-1.2.1-jz4jaqhahvjqiqhokh2dkytahscnws4y.spack"}, {"hash": "hfpkrb4m5ztgzetgt2yv5od3aotlyjyn", "compiler": "oneapi@=2024.2.1", "versions": ["1.2.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["e4s-oneapi", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-11-17/build_cache/linux-ubuntu22.04-x86_64_v3/oneapi-2024.2.1/libxmu-1.2.1/linux-ubuntu22.04-x86_64_v3-oneapi-2024.2.1-libxmu-1.2.1-hfpkrb4m5ztgzetgt2yv5od3aotlyjyn.spack"}]
----

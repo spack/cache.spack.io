@@ -1,7 +1,0 @@
----
-title: "py-argcomplete"
-layout: cache
-categories: [package, develop-2025-04-20]
-meta: {"compilers": ["none"], "num_specs": 3, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-darwin": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "root": 3}, "oss": ["centos7", "rhel8", "sequoia"], "platforms": ["darwin", "linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-darwin", "developer-tools-x86_64_v3-linux-gnu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["3.0.8", "3.5.0"]}
-spec_details: [{"compiler": "none", "hash": "5eqajdchdm4fw4xj6i4pgudwn6w5sbon", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["3.0.8"]}, {"compiler": "none", "hash": "t367memeqk3kwd52z7suqx3wmgln4zpv", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["3.0.8"]}, {"compiler": "none", "hash": "zgfmu5n7wl52pbou633eobmw3l3kuuxl", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["developer-tools-darwin", "root"], "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["3.5.0"]}]
----

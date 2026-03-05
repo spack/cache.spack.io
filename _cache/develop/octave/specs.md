@@ -1,7 +1,0 @@
----
-title: "octave"
-layout: cache
-categories: [package, develop]
-meta: {"compilers": ["gcc@7.3.1"], "num_specs": 2, "num_specs_by_stack": {"aws-isc": 1, "aws-isc-aarch64": 1, "root": 2}, "oss": ["amzn2"], "platforms": ["linux"], "stacks": ["aws-isc", "aws-isc-aarch64", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["9.3.0"]}
-spec_details: [{"compiler": "gcc@7.3.1", "hash": "bo74ssx6cnyujrj2hl6lzoooaxmyeene", "os": "amzn2", "platform": "linux", "size": "-", "stacks": ["aws-isc-aarch64", "root"], "target": "aarch64", "variants": ["~arpack", "build_system=autotools", "+bz2", "~curl", "~fftw", "~fltk", "~fontconfig", "~freetype", "~gl2ps", "~glpk", "~gnuplot", "~hdf5", "~jdk", "~llvm", "~magick", "~opengl", "+pcre2", "~qhull", "~qrupdate", "~qscintilla", "~qt", "+readline", "~suitesparse", "~zlib"], "versions": ["9.3.0"]}, {"compiler": "gcc@7.3.1", "hash": "gwnn6gqkpr62exfavcxr6yfabyce62o5", "os": "amzn2", "platform": "linux", "size": "-", "stacks": ["aws-isc", "root"], "target": "x86_64_v3", "variants": ["~arpack", "build_system=autotools", "+bz2", "~curl", "~fftw", "~fltk", "~fontconfig", "~freetype", "~gl2ps", "~glpk", "~gnuplot", "~hdf5", "~jdk", "~llvm", "~magick", "~opengl", "+pcre2", "~qhull", "~qrupdate", "~qscintilla", "~qt", "+readline", "~suitesparse", "~zlib"], "versions": ["9.3.0"]}]
----

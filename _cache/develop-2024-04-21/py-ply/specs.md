@@ -1,7 +1,0 @@
----
-title: "py-ply"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["3.11"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "jiny3pmulopzttdd266yvplnle3sionb", "compiler": "gcc@=7.3.1", "versions": ["3.11"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=python_pip"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/py-ply-3.11/linux-amzn2-neoverse_n1-gcc-7.3.1-py-ply-3.11-jiny3pmulopzttdd266yvplnle3sionb.spack"}, {"hash": "kd7ks7yu6kuojromtuperlhzwquclmcq", "compiler": "gcc@=7.3.1", "versions": ["3.11"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/py-ply-3.11/linux-amzn2-aarch64-gcc-7.3.1-py-ply-3.11-kd7ks7yu6kuojromtuperlhzwquclmcq.spack"}]
----

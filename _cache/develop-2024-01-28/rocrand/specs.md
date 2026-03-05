@@ -1,7 +1,0 @@
----
-title: "rocrand"
-layout: cache
-categories: [package, develop-2024-01-28]
-meta: {"versions": ["6.0.0"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 2}}
-spec_details: [{"hash": "oh2f5sljvhjzlte6tcxwpndlykaudcft", "compiler": "gcc@=11.4.0", "versions": ["6.0.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["amdgpu_target=auto", "build_system=cmake", "build_type=Release", "generator=make", "~hiprand", "~ipo"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-01-28/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/rocrand-6.0.0/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-rocrand-6.0.0-oh2f5sljvhjzlte6tcxwpndlykaudcft.spack"}, {"hash": "2l72yrt2rn5fb6bvszyj26vxefsuagdb", "compiler": "gcc@=11.4.0", "versions": ["6.0.0"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["amdgpu_target=auto", "build_system=cmake", "build_type=Release", "generator=make", "+hiprand", "~ipo"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-01-28/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/rocrand-6.0.0/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-rocrand-6.0.0-2l72yrt2rn5fb6bvszyj26vxefsuagdb.spack"}]
----

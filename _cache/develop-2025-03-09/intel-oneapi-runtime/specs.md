@@ -1,7 +1,0 @@
----
-title: "intel-oneapi-runtime"
-layout: cache
-categories: [package, develop-2025-03-09]
-meta: {"compilers": ["oneapi@=2024.1.0", "oneapi@=2024.2.1"], "num_specs": 3, "num_specs_by_stack": {"aws-pcluster-x86_64_v4": 2, "e4s-oneapi": 1, "root": 3}, "oss": ["amzn2", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["aws-pcluster-x86_64_v4", "e4s-oneapi", "root"], "targets": ["x86_64_v3", "x86_64_v4"], "versions": ["2024.1.0", "2024.2.1"]}
-spec_details: [{"compiler": "oneapi@=2024.2.1", "hash": "jbkoecfmyjhilbwj6elbo2vxgza7vhl4", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=generic"], "versions": ["2024.2.1"]}, {"compiler": "oneapi@=2024.1.0", "hash": "nl6sax475nqvvb6we6d3x5wnibyduwfe", "os": "amzn2", "platform": "linux", "size": "-", "stacks": ["aws-pcluster-x86_64_v4", "root"], "target": "x86_64_v4", "variants": ["build_system=generic"], "versions": ["2024.1.0"]}, {"compiler": "oneapi@=2024.1.0", "hash": "uxld6brem7uoh4haypfoepzuv5557nbs", "os": "amzn2", "platform": "linux", "size": "-", "stacks": ["aws-pcluster-x86_64_v4", "root"], "target": "x86_64_v3", "variants": ["build_system=generic"], "versions": ["2024.1.0"]}]
----

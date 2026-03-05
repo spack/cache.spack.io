@@ -1,7 +1,0 @@
----
-title: "geos"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=13.2.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 2}, "oss": ["ubuntu24.04"], "platforms": ["linux"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["3.13.0"]}
-spec_details: [{"compiler": "gcc@=13.2.0", "hash": "sgqpyiuvnzz4rwz5iq3cuknyr5hkubj6", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/geos-3.13.0/linux-ubuntu24.04-aarch64-gcc-13.2.0-geos-3.13.0-sgqpyiuvnzz4rwz5iq3cuknyr5hkubj6.spack", "target": "aarch64", "variants": ["build_system=cmake", "build_type=Release", "generator=ninja", "~ipo", "+shared"], "versions": ["3.13.0"]}, {"compiler": "gcc@=13.2.0", "hash": "42pwzki6zitc66yvom4yvvr5xxbv4jkr", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/geos-3.13.0/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-geos-3.13.0-42pwzki6zitc66yvom4yvvr5xxbv4jkr.spack", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=ninja", "~ipo", "+shared"], "versions": ["3.13.0"]}]
----

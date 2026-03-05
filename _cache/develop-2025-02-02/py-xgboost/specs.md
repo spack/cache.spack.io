@@ -1,7 +1,0 @@
----
-title: "py-xgboost"
-layout: cache
-categories: [package, develop-2025-02-02]
-meta: {"versions": ["2.1.1"], "compilers": ["gcc@=13.2.0"], "oss": ["ubuntu24.04"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-x86_64-cpu", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "root": 2, "ml-linux-x86_64-cpu": 1}}
-spec_details: [{"hash": "33kukijsseau7irrjxbdyguk3ektgb2z", "compiler": "gcc@=13.2.0", "versions": ["2.1.1"], "os": "ubuntu24.04", "platform": "linux", "target": "aarch64", "variants": ["build_system=python_pip", "~dask", "~pandas", "patches=118db5a", "~plotting", "~scikit-learn"], "stacks": ["ml-linux-aarch64-cpu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/py-xgboost-2.1.1/linux-ubuntu24.04-aarch64-gcc-13.2.0-py-xgboost-2.1.1-33kukijsseau7irrjxbdyguk3ektgb2z.spack"}, {"hash": "ezk2q3buab2b4adocok5sdozmahrpoza", "compiler": "gcc@=13.2.0", "versions": ["2.1.1"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~dask", "~pandas", "patches=118db5a", "~plotting", "~scikit-learn"], "stacks": ["ml-linux-x86_64-cpu", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-xgboost-2.1.1/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-xgboost-2.1.1-ezk2q3buab2b4adocok5sdozmahrpoza.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "cusz"
-layout: cache
-categories: [package, develop-2024-02-04]
-meta: {"versions": ["0.3.1"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 2}}
-spec_details: [{"hash": "pacjxhed3u4iupohnmwzy2yjddec626r", "compiler": "gcc@=11.4.0", "versions": ["0.3.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "+cuda", "cuda_arch=80", "generator=make", "~ipo"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-02-04/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/cusz-0.3.1/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-cusz-0.3.1-pacjxhed3u4iupohnmwzy2yjddec626r.spack"}, {"hash": "cnk3xnkz6hnnebam356vbgxmt7tu36j7", "compiler": "gcc@=11.4.0", "versions": ["0.3.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "+cuda", "cuda_arch=90", "generator=make", "~ipo"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-02-04/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/cusz-0.3.1/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-cusz-0.3.1-cnk3xnkz6hnnebam356vbgxmt7tu36j7.spack"}]
----

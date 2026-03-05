@@ -1,7 +1,0 @@
----
-title: "flac"
-layout: cache
-categories: [package, develop-2025-01-26]
-meta: {"versions": ["1.4.3"], "compilers": ["gcc@=13.2.0"], "oss": ["ubuntu24.04"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "root": 2, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "jf5jayrqv2kdfg4rdybaz7j34lp5bwox", "compiler": "gcc@=13.2.0", "versions": ["1.4.3"], "os": "ubuntu24.04", "platform": "linux", "target": "aarch64", "variants": ["build_system=autotools"], "stacks": ["ml-linux-aarch64-cpu", "root", "ml-linux-aarch64-cuda"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/flac-1.4.3/linux-ubuntu24.04-aarch64-gcc-13.2.0-flac-1.4.3-jf5jayrqv2kdfg4rdybaz7j34lp5bwox.spack"}, {"hash": "hjhqlotznbb3u2sbezu2f6lqaofzsxhw", "compiler": "gcc@=13.2.0", "versions": ["1.4.3"], "os": "ubuntu24.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-26/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/flac-1.4.3/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-flac-1.4.3-hjhqlotznbb3u2sbezu2f6lqaofzsxhw.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "py-jsonargparse"
-layout: cache
-categories: [package, develop-2024-05-26]
-meta: {"versions": ["4.28.0"], "compilers": ["apple-clang@=15.0.0", "gcc@=11.4.0"], "oss": ["ubuntu22.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-darwin-aarch64-mps", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "root": 2, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1}}
-spec_details: [{"hash": "ovdsx2bxixv6llycrwnu2x4cfliv7bud", "compiler": "apple-clang@=15.0.0", "versions": ["4.28.0"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip", "+signatures"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-26/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-jsonargparse-4.28.0/darwin-ventura-aarch64-apple-clang-15.0.0-py-jsonargparse-4.28.0-ovdsx2bxixv6llycrwnu2x4cfliv7bud.spack"}, {"hash": "la74zdln2l6qhtox4vk2yqml2xvro5zz", "compiler": "gcc@=11.4.0", "versions": ["4.28.0"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "+signatures"], "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-26/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/py-jsonargparse-4.28.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-py-jsonargparse-4.28.0-la74zdln2l6qhtox4vk2yqml2xvro5zz.spack"}]
----

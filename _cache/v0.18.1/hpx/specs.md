@@ -1,7 +1,0 @@
----
-title: "hpx"
-layout: cache
-categories: [package, v0.18.1]
-meta: {"versions": ["1.7.1"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 2}}
-spec_details: [{"hash": "xkxb6iehirbgr3gqnmjqtpcpkannbb62", "compiler": "gcc@=7.5.0", "versions": ["1.7.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~async_cuda", "~async_mpi", "build_type=RelWithDebInfo", "~cuda", "cxxstd=17", "~examples", "~generic_coroutines", "instrumentation=none", "~ipo", "malloc=tcmalloc", "max_cpu_count=64", "networking=tcp", "~rocm", "~tools"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.1/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/hpx-1.7.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-hpx-1.7.1-xkxb6iehirbgr3gqnmjqtpcpkannbb62.spack"}, {"hash": "jbyosreb4vnymkxrseguvaxmegqbdm2u", "compiler": "gcc@=7.5.0", "versions": ["1.7.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~async_cuda", "~async_mpi", "build_type=RelWithDebInfo", "+cuda", "cuda_arch=70", "cxxstd=17", "~examples", "~generic_coroutines", "instrumentation=none", "~ipo", "malloc=tcmalloc", "max_cpu_count=64", "networking=tcp", "~rocm", "~tools"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.1/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/hpx-1.7.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-hpx-1.7.1-jbyosreb4vnymkxrseguvaxmegqbdm2u.spack"}]
----

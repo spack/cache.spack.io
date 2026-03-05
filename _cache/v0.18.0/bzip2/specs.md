@@ -1,7 +1,0 @@
----
-title: "bzip2"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["1.0.8"], "compilers": ["gcc@=7.5.0", "gcc@=8.4.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["build_systems", "data-vis-sdk", "e4s", "radiuss", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"build_systems": 1, "root": 2, "tutorial": 2, "data-vis-sdk": 1, "e4s": 1, "radiuss": 1}}
-spec_details: [{"hash": "cyn2yamiu26ofxwgxzxbioreuwigzl6f", "compiler": "gcc@=7.5.0", "versions": ["1.0.8"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~debug", "~pic", "+shared"], "stacks": ["build_systems", "root", "tutorial", "data-vis-sdk", "e4s", "radiuss"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/bzip2-1.0.8/linux-ubuntu18.04-x86_64-gcc-7.5.0-bzip2-1.0.8-cyn2yamiu26ofxwgxzxbioreuwigzl6f.spack"}, {"hash": "jd4qgnljzebyehmjtg2v5vqkcsghbsbf", "compiler": "gcc@=8.4.0", "versions": ["1.0.8"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["~debug", "~pic", "+shared"], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-8.4.0/bzip2-1.0.8/linux-ubuntu18.04-x86_64-gcc-8.4.0-bzip2-1.0.8-jd4qgnljzebyehmjtg2v5vqkcsghbsbf.spack"}]
----

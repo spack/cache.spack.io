@@ -1,7 +1,0 @@
----
-title: "py-markdown-it-py"
-layout: cache
-categories: [package, v0.21.2]
-meta: {"versions": ["3.0.0"], "compilers": ["apple-clang@=15.0.0", "gcc@=7.5.0"], "oss": ["ubuntu18.04", "ventura"], "platforms": ["darwin", "linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["ml-darwin-aarch64-mps", "radiuss", "root"], "num_specs": 2, "num_specs_by_stack": {"ml-darwin-aarch64-mps": 1, "root": 2, "radiuss": 1}}
-spec_details: [{"hash": "mtuln6hd3jxzkbxflydzd27hnlv25wru", "compiler": "apple-clang@=15.0.0", "versions": ["3.0.0"], "os": "ventura", "platform": "darwin", "target": "aarch64", "variants": ["build_system=python_pip", "~linkify"], "stacks": ["ml-darwin-aarch64-mps", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.21.2/build_cache/darwin-ventura-aarch64/apple-clang-15.0.0/py-markdown-it-py-3.0.0/darwin-ventura-aarch64-apple-clang-15.0.0-py-markdown-it-py-3.0.0-mtuln6hd3jxzkbxflydzd27hnlv25wru.spack"}, {"hash": "7sb2lz7ajsfbax7qdqj2kax6vqpn6i72", "compiler": "gcc@=7.5.0", "versions": ["3.0.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "~linkify"], "stacks": ["radiuss", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.21.2/build_cache/linux-ubuntu18.04-x86_64_v3/gcc-7.5.0/py-markdown-it-py-3.0.0/linux-ubuntu18.04-x86_64_v3-gcc-7.5.0-py-markdown-it-py-3.0.0-7sb2lz7ajsfbax7qdqj2kax6vqpn6i72.spack"}]
----

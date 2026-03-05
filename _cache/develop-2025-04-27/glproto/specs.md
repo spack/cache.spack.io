@@ -1,7 +1,0 @@
----
-title: "glproto"
-layout: cache
-categories: [package, develop-2025-04-27]
-meta: {"compilers": ["gcc@11.1.0", "gcc@11.4.0", "gcc@13.2.0"], "num_specs": 3, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "e4s-rocm-external": 1, "hep": 1, "ml-linux-x86_64-rocm": 1, "root": 3}, "oss": ["ubuntu20.04", "ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "e4s-rocm-external", "hep", "ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["1.4.17"]}
-spec_details: [{"compiler": "gcc@13.2.0", "hash": "3y24pth3s73gjo4ilvw5pnrnm7yj7kvo", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.4.17"]}, {"compiler": "gcc@11.4.0", "hash": "a2fnyghfo4bffvqamzzmbdk3bijkf5a4", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "e4s-rocm-external", "hep", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.4.17"]}, {"compiler": "gcc@11.1.0", "hash": "b3dohgsuye2lf2dxhyatxed3urn6dobt", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.4.17"]}]
----

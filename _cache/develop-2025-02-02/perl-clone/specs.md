@@ -1,7 +1,0 @@
----
-title: "perl-clone"
-layout: cache
-categories: [package, develop-2025-02-02]
-meta: {"versions": ["0.46"], "compilers": ["gcc@=11.1.0", "gcc@=11.4.0"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "e4s", "hep", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "hep": 1, "e4s": 1}}
-spec_details: [{"hash": "4kpuvkd7lp6yurq4kdf7dbawewxeaq6s", "compiler": "gcc@=11.1.0", "versions": ["0.46"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=perl"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/perl-clone-0.46/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-perl-clone-0.46-4kpuvkd7lp6yurq4kdf7dbawewxeaq6s.spack"}, {"hash": "xpj3yb2xzyphohnlmfvlrdqehv7x6sha", "compiler": "gcc@=11.4.0", "versions": ["0.46"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=perl"], "stacks": ["hep", "root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-02-02/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/perl-clone-0.46/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-perl-clone-0.46-xpj3yb2xzyphohnlmfvlrdqehv7x6sha.spack"}]
----

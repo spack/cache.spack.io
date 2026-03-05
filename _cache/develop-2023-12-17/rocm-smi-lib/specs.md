@@ -1,7 +1,0 @@
----
-title: "rocm-smi-lib"
-layout: cache
-categories: [package, develop-2023-12-17]
-meta: {"versions": ["5.7.1"], "compilers": ["gcc@=11.3.0", "gcc@=11.4.0"], "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "ml-linux-x86_64-rocm", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "ml-linux-x86_64-rocm": 1}}
-spec_details: [{"hash": "uywiegt6kwzsd5ugb5qlbrkqaqkz5i27", "compiler": "gcc@=11.4.0", "versions": ["5.7.1"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-12-17/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.4.0/rocm-smi-lib-5.7.1/linux-ubuntu20.04-x86_64_v3-gcc-11.4.0-rocm-smi-lib-5.7.1-uywiegt6kwzsd5ugb5qlbrkqaqkz5i27.spack"}, {"hash": "7deqd2n73azdc4ukfvirk3f35vfwu56p", "compiler": "gcc@=11.3.0", "versions": ["5.7.1"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+shared"], "stacks": ["ml-linux-x86_64-rocm", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-12-17/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.3.0/rocm-smi-lib-5.7.1/linux-ubuntu22.04-x86_64_v3-gcc-11.3.0-rocm-smi-lib-5.7.1-7deqd2n73azdc4ukfvirk3f35vfwu56p.spack"}]
----

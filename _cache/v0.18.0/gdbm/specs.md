@@ -1,7 +1,0 @@
----
-title: "gdbm"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["1.19"], "compilers": ["gcc@=7.5.0", "gcc@=8.4.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["build_systems", "data-vis-sdk", "e4s", "radiuss", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"build_systems": 1, "root": 2, "tutorial": 2, "data-vis-sdk": 1, "e4s": 1, "radiuss": 1}}
-spec_details: [{"hash": "xub4jsy5pz5qjf6vooropf2shkigy5pm", "compiler": "gcc@=7.5.0", "versions": ["1.19"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["build_systems", "root", "tutorial", "data-vis-sdk", "e4s", "radiuss"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/gdbm-1.19/linux-ubuntu18.04-x86_64-gcc-7.5.0-gdbm-1.19-xub4jsy5pz5qjf6vooropf2shkigy5pm.spack"}, {"hash": "eyzftkvpm4clqknwn5vkvnogvekkwa6v", "compiler": "gcc@=8.4.0", "versions": ["1.19"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-8.4.0/gdbm-1.19/linux-ubuntu18.04-x86_64-gcc-8.4.0-gdbm-1.19-eyzftkvpm4clqknwn5vkvnogvekkwa6v.spack"}]
----

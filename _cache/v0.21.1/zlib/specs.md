@@ -1,7 +1,0 @@
----
-title: "zlib"
-layout: cache
-categories: [package, v0.21.1]
-meta: {"versions": ["1.3"], "compilers": ["cce@=15.0.1", "gcc@=11.4.0"], "oss": ["rhel8", "ubuntu20.04"], "platforms": ["linux"], "targets": ["neoverse_v1", "zen4"], "stacks": ["e4s-cray-rhel", "e4s-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-cray-rhel": 1, "root": 2, "e4s-neoverse_v1": 1}}
-spec_details: [{"hash": "wb3vqgcpcml5kybhgphskcdoobhp7sfp", "compiler": "cce@=15.0.1", "versions": ["1.3"], "os": "rhel8", "platform": "linux", "target": "zen4", "variants": ["build_system=makefile", "+optimize", "+pic", "+shared"], "stacks": ["e4s-cray-rhel", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.21.1/build_cache/linux-rhel8-zen4/cce-15.0.1/zlib-1.3/linux-rhel8-zen4-cce-15.0.1-zlib-1.3-wb3vqgcpcml5kybhgphskcdoobhp7sfp.spack"}, {"hash": "crcq3p2rshgslfenkjmpsdycpygzrsoz", "compiler": "gcc@=11.4.0", "versions": ["1.3"], "os": "ubuntu20.04", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=makefile", "+optimize", "+pic", "+shared"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.21.1/build_cache/linux-ubuntu20.04-neoverse_v1/gcc-11.4.0/zlib-1.3/linux-ubuntu20.04-neoverse_v1-gcc-11.4.0-zlib-1.3-crcq3p2rshgslfenkjmpsdycpygzrsoz.spack"}]
----

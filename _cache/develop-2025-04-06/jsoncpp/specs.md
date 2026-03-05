@@ -1,7 +1,0 @@
----
-title: "jsoncpp"
-layout: cache
-categories: [package, develop-2025-04-06]
-meta: {"compilers": ["gcc@11.1.0", "gcc@11.4.0"], "num_specs": 3, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 2, "e4s-rocm-external": 1, "root": 3}, "oss": ["ubuntu20.04", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "e4s-rocm-external", "root"], "targets": ["x86_64_v3"], "versions": ["1.9.6"]}
-spec_details: [{"compiler": "gcc@11.1.0", "hash": "nshxolqgr6lndqx57e3vth6pt5gj57ww", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=meson", "buildtype=release", "default_library:=shared", "~strip"], "versions": ["1.9.6"]}, {"compiler": "gcc@11.4.0", "hash": "v7ep7sgcd56cg7auemvmr5nedbi6gkfu", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "e4s-rocm-external", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["1.9.6"]}, {"compiler": "gcc@11.4.0", "hash": "z5tlyj5pjfgdta7wxum6dw4s3462gh6a", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["1.9.6"]}]
----

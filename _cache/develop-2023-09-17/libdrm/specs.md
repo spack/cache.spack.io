@@ -1,7 +1,0 @@
----
-title: "libdrm"
-layout: cache
-categories: [package, develop-2023-09-17]
-meta: {"versions": ["2.4.115"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["e4s", "gpu-tests", "root"], "num_specs": 2, "num_specs_by_stack": {"gpu-tests": 1, "root": 2, "e4s": 2}}
-spec_details: [{"hash": "kcevsvfax4xcbvqedw5wkwzwceylmzff", "compiler": "gcc@=11.1.0", "versions": ["2.4.115"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic", "~docs"], "stacks": ["gpu-tests", "root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-17/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/libdrm-2.4.115/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-libdrm-2.4.115-kcevsvfax4xcbvqedw5wkwzwceylmzff.spack"}, {"hash": "ip4f4upconbgufrynaca7mmt5obkbsja", "compiler": "gcc@=11.1.0", "versions": ["2.4.115"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic", "~docs"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-17/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/libdrm-2.4.115/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-libdrm-2.4.115-ip4f4upconbgufrynaca7mmt5obkbsja.spack"}]
----

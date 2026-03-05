@@ -1,7 +1,0 @@
----
-title: "cusz"
-layout: cache
-categories: [package, develop-2024-09-22]
-meta: {"versions": ["0.6.0"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["neoverse_v1"], "stacks": ["e4s-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-neoverse_v1": 2, "root": 2}}
-spec_details: [{"hash": "hfksdzbq2bukqq5klhtvxmyybr2kvmh4", "compiler": "gcc@=11.4.0", "versions": ["0.6.0"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=cmake", "build_type=Release", "+cuda", "cuda_arch=80", "generator=make", "~ipo"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-09-22/build_cache/linux-ubuntu22.04-neoverse_v1/gcc-11.4.0/cusz-0.6.0/linux-ubuntu22.04-neoverse_v1-gcc-11.4.0-cusz-0.6.0-hfksdzbq2bukqq5klhtvxmyybr2kvmh4.spack"}, {"hash": "dhf6bbsfroo566lylw36rqqefzlj5jrx", "compiler": "gcc@=11.4.0", "versions": ["0.6.0"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=cmake", "build_type=Release", "+cuda", "cuda_arch=75", "generator=make", "~ipo"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-09-22/build_cache/linux-ubuntu22.04-neoverse_v1/gcc-11.4.0/cusz-0.6.0/linux-ubuntu22.04-neoverse_v1-gcc-11.4.0-cusz-0.6.0-dhf6bbsfroo566lylw36rqqefzlj5jrx.spack"}]
----

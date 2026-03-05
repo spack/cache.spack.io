@@ -1,7 +1,0 @@
----
-title: "py-pre-commit"
-layout: cache
-categories: [package, develop-2025-03-30]
-meta: {"compilers": ["none"], "num_specs": 4, "num_specs_by_stack": {"e4s": 2, "e4s-oneapi": 2, "root": 4}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-oneapi", "root"], "targets": ["x86_64_v3"], "versions": ["4.0.1"]}
-spec_details: [{"compiler": "none", "hash": "5lee62guv4xo74m4jqyz6iwoakj6t7d5", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["4.0.1"]}, {"compiler": "none", "hash": "maeroaudoc52iikjrnrvbn4o7rugzpb6", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["4.0.1"]}, {"compiler": "none", "hash": "thml6pfsr7267ybf62vbk673knorkiaw", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["4.0.1"]}, {"compiler": "none", "hash": "u5sgvsoxl7hglmxm24mgmbgokpn57txn", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["4.0.1"]}]
----

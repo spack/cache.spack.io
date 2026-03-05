@@ -1,7 +1,0 @@
----
-title: "libstdcompat"
-layout: cache
-categories: [package, develop-2023-09-24]
-meta: {"versions": ["0.0.17"], "compilers": ["cce@=15.0.1", "gcc@=11.1.0"], "oss": ["rhel8", "ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3", "zen4"], "stacks": ["e4s", "e4s-cray-rhel", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-cray-rhel": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "ej4fav5fsrnxxdpnpocdzgkujxs7nf2s", "compiler": "cce@=15.0.1", "versions": ["0.0.17"], "os": "rhel8", "platform": "linux", "target": "zen4", "variants": ["~boost", "build_system=cmake", "build_type=Release", "cpp_compat=auto", "+cpp_unstable", "generator=make", "~ipo"], "stacks": ["e4s-cray-rhel", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-24/build_cache/linux-rhel8-zen4/cce-15.0.1/libstdcompat-0.0.17/linux-rhel8-zen4-cce-15.0.1-libstdcompat-0.0.17-ej4fav5fsrnxxdpnpocdzgkujxs7nf2s.spack"}, {"hash": "fougfko22sm4lfs6xuh4tf3izuwicjhn", "compiler": "gcc@=11.1.0", "versions": ["0.0.17"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~boost", "build_system=cmake", "build_type=Release", "cpp_compat=auto", "+cpp_unstable", "generator=make", "~ipo"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-09-24/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/libstdcompat-0.0.17/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-libstdcompat-0.0.17-fougfko22sm4lfs6xuh4tf3izuwicjhn.spack"}]
----

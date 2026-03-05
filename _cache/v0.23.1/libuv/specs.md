@@ -1,7 +1,0 @@
----
-title: "libuv"
-layout: cache
-categories: [package, v0.23.1]
-meta: {"compilers": ["gcc@=10.2.1", "gcc@=11.1.0"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "developer-tools-manylinux2014": 1, "root": 2}, "oss": ["centos7", "ubuntu20.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "developer-tools-manylinux2014", "root"], "targets": ["x86_64_v3"], "versions": ["1.48.0"]}
-spec_details: [{"compiler": "gcc@=10.2.1", "hash": "iar4ywzeyzmhd67inbgnwtjmf2qukt3a", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-manylinux2014", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-centos7-x86_64_v3/gcc-10.2.1/libuv-1.48.0/linux-centos7-x86_64_v3-gcc-10.2.1-libuv-1.48.0-iar4ywzeyzmhd67inbgnwtjmf2qukt3a.spack", "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.48.0"]}, {"compiler": "gcc@=11.1.0", "hash": "q263bmbpdmq3f4qm2uosncowqxbjfkvf", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "tarball": "https://binaries.spack.io/v0.23.1/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/libuv-1.48.0/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-libuv-1.48.0-q263bmbpdmq3f4qm2uosncowqxbjfkvf.spack", "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.48.0"]}]
----

@@ -1,7 +1,0 @@
----
-title: "julia"
-layout: cache
-categories: [package, develop-2024-08-04]
-meta: {"versions": ["1.10.4", "1.9.3"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "tutorial": 1}}
-spec_details: [{"hash": "qlfdtqzhkzikt244wuntqswoljrv4kwc", "compiler": "gcc@=11.4.0", "versions": ["1.9.3"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=makefile", "+openlibm", "patches=00569f4", "+precompile"], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-08-04/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/julia-1.9.3/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-julia-1.9.3-qlfdtqzhkzikt244wuntqswoljrv4kwc.spack"}, {"hash": "reh4hsqa3wclpjkaio5ddpz3tekccyde", "compiler": "gcc@=11.4.0", "versions": ["1.10.4"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=makefile", "+openlibm", "patches=00569f4,7f0388b", "+precompile"], "stacks": ["root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-08-04/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/julia-1.10.4/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-julia-1.10.4-reh4hsqa3wclpjkaio5ddpz3tekccyde.spack"}]
----

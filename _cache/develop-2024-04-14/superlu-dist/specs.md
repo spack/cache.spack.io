@@ -1,7 +1,0 @@
----
-title: "superlu-dist"
-layout: cache
-categories: [package, develop-2024-04-14]
-meta: {"versions": ["8.2.1"], "compilers": ["oneapi@=2023.2.0"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["x86_64_v3", "x86_64_v4"], "stacks": ["aws-pcluster-x86_64_v4", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "aws-pcluster-x86_64_v4": 2}}
-spec_details: [{"hash": "blhzimjmfbsniq4priwy2lnh2x4l47i5", "compiler": "oneapi@=2023.2.0", "versions": ["8.2.1"], "os": "amzn2", "platform": "linux", "target": "x86_64_v4", "variants": ["build_system=cmake", "build_type=Release", "~cuda", "generator=make", "~int64", "~ipo", "~openmp", "+parmetis", "~rocm", "+shared"], "stacks": ["root", "aws-pcluster-x86_64_v4"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-x86_64_v4/oneapi-2023.2.0/superlu-dist-8.2.1/linux-amzn2-x86_64_v4-oneapi-2023.2.0-superlu-dist-8.2.1-blhzimjmfbsniq4priwy2lnh2x4l47i5.spack"}, {"hash": "4echtvpi27s6hpuh2tsru265c7tcttq3", "compiler": "oneapi@=2023.2.0", "versions": ["8.2.1"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "~cuda", "generator=make", "~int64", "~ipo", "~openmp", "+parmetis", "~rocm", "+shared"], "stacks": ["root", "aws-pcluster-x86_64_v4"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-x86_64_v3/oneapi-2023.2.0/superlu-dist-8.2.1/linux-amzn2-x86_64_v3-oneapi-2023.2.0-superlu-dist-8.2.1-4echtvpi27s6hpuh2tsru265c7tcttq3.spack"}]
----

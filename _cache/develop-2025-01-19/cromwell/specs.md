@@ -1,7 +1,0 @@
----
-title: "cromwell"
-layout: cache
-categories: [package, develop-2025-01-19]
-meta: {"versions": ["85"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "x86_64_v3"], "stacks": ["aws-isc", "aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 1, "root": 2, "aws-isc": 1}}
-spec_details: [{"hash": "ijxhz4npgsi35vtfyxounkswdmmmz3jv", "compiler": "gcc@=7.3.1", "versions": ["85"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=generic"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-19/build_cache/linux-amzn2-aarch64/gcc-7.3.1/cromwell-85/linux-amzn2-aarch64-gcc-7.3.1-cromwell-85-ijxhz4npgsi35vtfyxounkswdmmmz3jv.spack"}, {"hash": "nti3ka3lxtmgi55eghoatpf7bkw6gi5n", "compiler": "gcc@=7.3.1", "versions": ["85"], "os": "amzn2", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=generic"], "stacks": ["aws-isc", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2025-01-19/build_cache/linux-amzn2-x86_64_v3/gcc-7.3.1/cromwell-85/linux-amzn2-x86_64_v3-gcc-7.3.1-cromwell-85-nti3ka3lxtmgi55eghoatpf7bkw6gi5n.spack"}]
----

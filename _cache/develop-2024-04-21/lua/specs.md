@@ -1,7 +1,0 @@
----
-title: "lua"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["5.3.6"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "ejghxzh6b5ripsrnnnix2ldzppbty4an", "compiler": "gcc@=7.3.1", "versions": ["5.3.6"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=makefile", "fetcher=curl", "~pcfile", "+shared"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/lua-5.3.6/linux-amzn2-neoverse_n1-gcc-7.3.1-lua-5.3.6-ejghxzh6b5ripsrnnnix2ldzppbty4an.spack"}, {"hash": "nrylcknsgusiq7qsywvun5zp4s4gwqve", "compiler": "gcc@=7.3.1", "versions": ["5.3.6"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=makefile", "fetcher=curl", "~pcfile", "+shared"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/lua-5.3.6/linux-amzn2-aarch64-gcc-7.3.1-lua-5.3.6-nrylcknsgusiq7qsywvun5zp4s4gwqve.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "c-blosc"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["1.21.1"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 1, "data-vis-sdk": 1}}
-spec_details: [{"hash": "pt66zrrszxvzkg3p6tf5rkk4sfcrgisz", "compiler": "gcc@=7.5.0", "versions": ["1.21.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["+avx2", "build_type=RelWithDebInfo", "~ipo"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/c-blosc-1.21.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-c-blosc-1.21.1-pt66zrrszxvzkg3p6tf5rkk4sfcrgisz.spack"}, {"hash": "sv3upeqsgcjw4ads7i23giwgop3tfvop", "compiler": "gcc@=7.5.0", "versions": ["1.21.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["+avx2", "build_type=RelWithDebInfo", "~ipo"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/c-blosc-1.21.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-c-blosc-1.21.1-sv3upeqsgcjw4ads7i23giwgop3tfvop.spack"}]
----

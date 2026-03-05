@@ -1,7 +1,0 @@
----
-title: "assimp"
-layout: cache
-categories: [package, v0.20.1]
-meta: {"versions": ["5.2.5"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "k7chnea7m5hcwek5ypixtsv37yiusd77", "compiler": "gcc@=11.1.0", "versions": ["5.2.5"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+shared"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.1/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/assimp-5.2.5/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-assimp-5.2.5-k7chnea7m5hcwek5ypixtsv37yiusd77.spack"}, {"hash": "lnff5ug5q4y5ymt5zv3wojjmlo5xtgq4", "compiler": "gcc@=11.1.0", "versions": ["5.2.5"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=cmake", "build_type=Release", "generator=make", "~ipo", "+shared"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.20.1/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/assimp-5.2.5/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-assimp-5.2.5-lnff5ug5q4y5ymt5zv3wojjmlo5xtgq4.spack"}]
----

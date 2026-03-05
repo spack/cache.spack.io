@@ -1,7 +1,0 @@
----
-title: "libtool"
-layout: cache
-categories: [package, develop-2024-04-14]
-meta: {"versions": ["2.4.7"], "compilers": ["gcc@=12.3.0"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["neoverse_n1", "neoverse_v1"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-pcluster-neoverse_v1": 2, "root": 2}}
-spec_details: [{"hash": "mk4xubzjbplugr73jafai5alaqigf7yz", "compiler": "gcc@=12.3.0", "versions": ["2.4.7"], "os": "amzn2", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=autotools"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-neoverse_v1/gcc-12.3.0/libtool-2.4.7/linux-amzn2-neoverse_v1-gcc-12.3.0-libtool-2.4.7-mk4xubzjbplugr73jafai5alaqigf7yz.spack"}, {"hash": "pwicqitpd3nclxrzrz2p7rrva727ln3i", "compiler": "gcc@=12.3.0", "versions": ["2.4.7"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=autotools"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-neoverse_n1/gcc-12.3.0/libtool-2.4.7/linux-amzn2-neoverse_n1-gcc-12.3.0-libtool-2.4.7-pwicqitpd3nclxrzrz2p7rrva727ln3i.spack"}]
----

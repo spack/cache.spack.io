@@ -1,7 +1,0 @@
----
-title: "flit"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["cce@=18.0.0", "gcc@=11.4.0"], "num_specs": 2, "num_specs_by_stack": {"e4s": 1, "e4s-cray-rhel": 1, "root": 2}, "oss": ["rhel8", "ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-cray-rhel", "root"], "targets": ["x86_64_v3"], "versions": ["2.1.0"]}
-spec_details: [{"compiler": "cce@=18.0.0", "hash": "bxmqinrtu64kbc65fhpmjzx5vlb5amjh", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["e4s-cray-rhel", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-rhel8-x86_64_v3/cce-18.0.0/flit-2.1.0/linux-rhel8-x86_64_v3-cce-18.0.0-flit-2.1.0-bxmqinrtu64kbc65fhpmjzx5vlb5amjh.spack", "target": "x86_64_v3", "variants": ["build_system=makefile"], "versions": ["2.1.0"]}, {"compiler": "gcc@=11.4.0", "hash": "mqrpgyfmwaib6rb5aowj4nppv6kfusr2", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/flit-2.1.0/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-flit-2.1.0-mqrpgyfmwaib6rb5aowj4nppv6kfusr2.spack", "target": "x86_64_v3", "variants": ["build_system=makefile"], "versions": ["2.1.0"]}]
----

@@ -1,7 +1,0 @@
----
-title: "libsigsegv"
-layout: cache
-categories: [package, develop-2024-04-14]
-meta: {"versions": ["2.14"], "compilers": ["gcc@=12.3.0"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["neoverse_n1", "neoverse_v1"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-pcluster-neoverse_v1": 2, "root": 2}}
-spec_details: [{"hash": "etm3ir6qkrehkgjbyqimrp6m4pepgep5", "compiler": "gcc@=12.3.0", "versions": ["2.14"], "os": "amzn2", "platform": "linux", "target": "neoverse_v1", "variants": ["build_system=autotools"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-neoverse_v1/gcc-12.3.0/libsigsegv-2.14/linux-amzn2-neoverse_v1-gcc-12.3.0-libsigsegv-2.14-etm3ir6qkrehkgjbyqimrp6m4pepgep5.spack"}, {"hash": "mgocgt32fdjsat4ey2uhu6zn5b64qo6h", "compiler": "gcc@=12.3.0", "versions": ["2.14"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=autotools"], "stacks": ["aws-pcluster-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-14/build_cache/linux-amzn2-neoverse_n1/gcc-12.3.0/libsigsegv-2.14/linux-amzn2-neoverse_n1-gcc-12.3.0-libsigsegv-2.14-mgocgt32fdjsat4ey2uhu6zn5b64qo6h.spack"}]
----

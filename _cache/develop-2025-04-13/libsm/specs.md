@@ -1,7 +1,0 @@
----
-title: "libsm"
-layout: cache
-categories: [package, develop-2025-04-13]
-meta: {"compilers": ["gcc@11.1.0", "gcc@11.4.0", "gcc@13.2.0"], "num_specs": 3, "num_specs_by_stack": {"data-vis-sdk": 1, "e4s": 1, "e4s-rocm-external": 1, "hep": 1, "ml-linux-x86_64-rocm": 1, "root": 3}, "oss": ["ubuntu20.04", "ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["data-vis-sdk", "e4s", "e4s-rocm-external", "hep", "ml-linux-x86_64-rocm", "root"], "targets": ["x86_64_v3"], "versions": ["1.2.6"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "nuobdlqapn4nkvwxp3q4zmrxnjzm43cm", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "e4s-rocm-external", "hep", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.2.6"]}, {"compiler": "gcc@13.2.0", "hash": "wb3ps6gosa4nweo3zty2fwffvwog4g66", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-rocm", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.2.6"]}, {"compiler": "gcc@11.1.0", "hash": "yj2sm2ywruozj4ryclbijuxu3n4r7ni3", "os": "ubuntu20.04", "platform": "linux", "size": "-", "stacks": ["data-vis-sdk", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools"], "versions": ["1.2.6"]}]
----

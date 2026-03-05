@@ -1,7 +1,0 @@
----
-title: "eigen"
-layout: cache
-categories: [package, develop-2024-04-21]
-meta: {"versions": ["3.4.0"], "compilers": ["gcc@=7.3.1"], "oss": ["amzn2"], "platforms": ["linux"], "targets": ["aarch64", "neoverse_n1"], "stacks": ["aws-isc-aarch64", "root"], "num_specs": 2, "num_specs_by_stack": {"aws-isc-aarch64": 2, "root": 2}}
-spec_details: [{"hash": "3mrvc2fi4vzp27dvujcz7jwe556zulw7", "compiler": "gcc@=7.3.1", "versions": ["3.4.0"], "os": "amzn2", "platform": "linux", "target": "neoverse_n1", "variants": ["build_system=cmake", "build_type=RelWithDebInfo", "generator=make", "~ipo"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-neoverse_n1/gcc-7.3.1/eigen-3.4.0/linux-amzn2-neoverse_n1-gcc-7.3.1-eigen-3.4.0-3mrvc2fi4vzp27dvujcz7jwe556zulw7.spack"}, {"hash": "bvwzfg2flzzqvy3bztcsocki7v37vxzg", "compiler": "gcc@=7.3.1", "versions": ["3.4.0"], "os": "amzn2", "platform": "linux", "target": "aarch64", "variants": ["build_system=cmake", "build_type=RelWithDebInfo", "generator=make", "~ipo"], "stacks": ["aws-isc-aarch64", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-04-21/build_cache/linux-amzn2-aarch64/gcc-7.3.1/eigen-3.4.0/linux-amzn2-aarch64-gcc-7.3.1-eigen-3.4.0-bvwzfg2flzzqvy3bztcsocki7v37vxzg.spack"}]
----

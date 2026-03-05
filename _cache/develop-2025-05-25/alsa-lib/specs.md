@@ -1,7 +1,0 @@
----
-title: "alsa-lib"
-layout: cache
-categories: [package, develop-2025-05-25]
-meta: {"compilers": ["gcc@11.4.0", "gcc@13.2.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "ml-linux-aarch64-cuda": 1, "ml-linux-x86_64-cpu": 1, "ml-linux-x86_64-cuda": 1, "root": 3}, "oss": ["ubuntu22.04", "ubuntu24.04"], "platforms": ["linux"], "stacks": ["e4s", "ml-linux-aarch64-cuda", "ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["1.2.3.2"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "u7ydi2ubidx5sbk5k3mavr2zg57b5tar", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "~python"], "versions": ["1.2.3.2"]}, {"compiler": "gcc@13.2.0", "hash": "v6riuxqtllft4gksrepjrfoclee5wnwi", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cuda", "root"], "target": "aarch64", "variants": ["build_system=autotools", "~python"], "versions": ["1.2.3.2"]}, {"compiler": "gcc@13.2.0", "hash": "vhe4c2gnmsnihwvfgvdz6vyxcxwkusjm", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "ml-linux-x86_64-cuda", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "~python"], "versions": ["1.2.3.2"]}]
----

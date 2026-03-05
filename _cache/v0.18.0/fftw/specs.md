@@ -1,7 +1,0 @@
----
-title: "fftw"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["3.3.10"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["e4s", "root"], "num_specs": 2, "num_specs_by_stack": {"root": 2, "e4s": 2}}
-spec_details: [{"hash": "4ye32tadsglbuzetexmza7bjsdqqn4rn", "compiler": "gcc@=7.5.0", "versions": ["3.3.10"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["+mpi", "~openmp", "~pfft_patches", "precision=double,float"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/fftw-3.3.10/linux-ubuntu18.04-x86_64-gcc-7.5.0-fftw-3.3.10-4ye32tadsglbuzetexmza7bjsdqqn4rn.spack"}, {"hash": "jujzcrlrccp4jsxchdvxi3pjjifyyj6o", "compiler": "gcc@=7.5.0", "versions": ["3.3.10"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": ["+mpi", "+openmp", "~pfft_patches", "precision=double,float"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/fftw-3.3.10/linux-ubuntu18.04-x86_64-gcc-7.5.0-fftw-3.3.10-jujzcrlrccp4jsxchdvxi3pjjifyyj6o.spack"}]
----

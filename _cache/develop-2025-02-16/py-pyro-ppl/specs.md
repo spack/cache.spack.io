@@ -1,7 +1,0 @@
----
-title: "py-pyro-ppl"
-layout: cache
-categories: [package, develop-2025-02-16]
-meta: {"compilers": ["gcc@=13.2.0"], "num_specs": 2, "num_specs_by_stack": {"ml-linux-aarch64-cpu": 1, "ml-linux-x86_64-cpu": 1, "root": 2}, "oss": ["ubuntu24.04"], "platforms": ["linux"], "stacks": ["ml-linux-aarch64-cpu", "ml-linux-x86_64-cpu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["1.8.4"]}
-spec_details: [{"compiler": "gcc@=13.2.0", "hash": "goyahu2t24cevasieoob7mzsagzulfla", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-aarch64-cpu", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu24.04-aarch64/gcc-13.2.0/py-pyro-ppl-1.8.4/linux-ubuntu24.04-aarch64-gcc-13.2.0-py-pyro-ppl-1.8.4-goyahu2t24cevasieoob7mzsagzulfla.spack", "target": "aarch64", "variants": ["build_system=python_pip"], "versions": ["1.8.4"]}, {"compiler": "gcc@=13.2.0", "hash": "32pb7qbljnnwdj7f7rgkjc4fu4tzxkb6", "os": "ubuntu24.04", "platform": "linux", "size": "-", "stacks": ["ml-linux-x86_64-cpu", "root"], "tarball": "https://binaries.spack.io/develop-2025-02-16/build_cache/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/py-pyro-ppl-1.8.4/linux-ubuntu24.04-x86_64_v3-gcc-13.2.0-py-pyro-ppl-1.8.4-32pb7qbljnnwdj7f7rgkjc4fu4tzxkb6.spack", "target": "x86_64_v3", "variants": ["build_system=python_pip"], "versions": ["1.8.4"]}]
----

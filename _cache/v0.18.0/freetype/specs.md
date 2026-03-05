@@ -1,7 +1,0 @@
----
-title: "freetype"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["2.10.2", "2.11.1"], "compilers": ["gcc@=7.5.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["data-vis-sdk", "e4s", "radiuss", "root"], "num_specs": 2, "num_specs_by_stack": {"radiuss": 1, "root": 2, "e4s": 1, "data-vis-sdk": 1}}
-spec_details: [{"hash": "ddr53rw5s6z7edhwzn3zi52kx5npaaz7", "compiler": "gcc@=7.5.0", "versions": ["2.11.1"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["radiuss", "root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/freetype-2.11.1/linux-ubuntu18.04-x86_64-gcc-7.5.0-freetype-2.11.1-ddr53rw5s6z7edhwzn3zi52kx5npaaz7.spack"}, {"hash": "2z32njiv7k4rlodkpyequ2qt7tlhxkxh", "compiler": "gcc@=7.5.0", "versions": ["2.10.2"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/freetype-2.10.2/linux-ubuntu18.04-x86_64-gcc-7.5.0-freetype-2.10.2-2z32njiv7k4rlodkpyequ2qt7tlhxkxh.spack"}]
----

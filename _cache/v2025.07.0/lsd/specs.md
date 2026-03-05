@@ -1,7 +1,0 @@
----
-title: "lsd"
-layout: cache
-categories: [package, v2025.07.0]
-meta: {"compilers": ["apple-clang@17.0.0", "gcc@10.5.0", "gcc@13.3.0"], "num_specs": 3, "num_specs_by_stack": {"developer-tools-aarch64-linux-gnu": 1, "developer-tools-darwin": 1, "developer-tools-x86_64_v3-linux-gnu": 1, "root": 3}, "oss": ["centos7", "rhel8", "sequoia"], "platforms": ["darwin", "linux"], "stacks": ["developer-tools-aarch64-linux-gnu", "developer-tools-darwin", "developer-tools-x86_64_v3-linux-gnu", "root"], "targets": ["aarch64", "x86_64_v3"], "versions": ["1.0.0"]}
-spec_details: [{"compiler": "gcc@13.3.0", "hash": "7ghdfkq2kl6dkq5ldqftsgbren5gmwo3", "os": "rhel8", "platform": "linux", "size": "-", "stacks": ["developer-tools-aarch64-linux-gnu", "root"], "target": "aarch64", "variants": ["build_system=cargo"], "versions": ["1.0.0"]}, {"compiler": "gcc@10.5.0", "hash": "o6hrskju5kk2kbpitdxprevuz3dp2n3k", "os": "centos7", "platform": "linux", "size": "-", "stacks": ["developer-tools-x86_64_v3-linux-gnu", "root"], "target": "x86_64_v3", "variants": ["build_system=cargo"], "versions": ["1.0.0"]}, {"compiler": "apple-clang@17.0.0", "hash": "s6sofviymbhpghltr5zs7q6jfazc66pj", "os": "sequoia", "platform": "darwin", "size": "-", "stacks": ["developer-tools-darwin", "root"], "target": "aarch64", "variants": ["build_system=cargo"], "versions": ["1.0.0"]}]
----

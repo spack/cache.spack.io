@@ -1,7 +1,0 @@
----
-title: "libmonitor"
-layout: cache
-categories: [package, v2025.07.0]
-meta: {"compilers": ["gcc@11.4.0", "intel-oneapi-compilers@2025.1.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 1, "e4s-neoverse-v2": 1, "e4s-oneapi": 1, "e4s-rocm-external": 1, "root": 3}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "e4s-neoverse-v2", "e4s-oneapi", "e4s-rocm-external", "root"], "targets": ["neoverse_v2", "x86_64_v3"], "versions": ["2023.03.15"]}
-spec_details: [{"compiler": "gcc@11.4.0", "hash": "6vu5uh3cc7byp2rbin5rn32qzyxbxpao", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "e4s-rocm-external", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "commit=48520940b915352748950ea718fadc82f87f659d", "~commrank", "~dlopen", "+hpctoolkit"], "versions": ["2023.03.15"]}, {"compiler": "intel-oneapi-compilers@2025.1.0", "hash": "seg2ntbt4ax7lrgozk2syhke5jmdbdaz", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-oneapi", "root"], "target": "x86_64_v3", "variants": ["build_system=autotools", "commit=48520940b915352748950ea718fadc82f87f659d", "~commrank", "~dlopen", "+hpctoolkit"], "versions": ["2023.03.15"]}, {"compiler": "gcc@11.4.0", "hash": "tt2ggh7tzqqbznlwfyybse7en22ldjtj", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s-neoverse-v2", "root"], "target": "neoverse_v2", "variants": ["build_system=autotools", "commit=48520940b915352748950ea718fadc82f87f659d", "~commrank", "~dlopen", "+hpctoolkit"], "versions": ["2023.03.15"]}]
----

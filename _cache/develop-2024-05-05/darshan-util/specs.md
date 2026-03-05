@@ -1,7 +1,0 @@
----
-title: "darshan-util"
-layout: cache
-categories: [package, develop-2024-05-05]
-meta: {"versions": ["3.4.4"], "compilers": ["gcc@=11.4.0"], "oss": ["ubuntu22.04"], "platforms": ["linux"], "targets": ["neoverse_v1", "x86_64_v3"], "stacks": ["e4s", "e4s-neoverse_v1", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-neoverse_v1": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "img526dj5rl3uljqmcpkssintub64766", "compiler": "gcc@=11.4.0", "versions": ["3.4.4"], "os": "ubuntu22.04", "platform": "linux", "target": "neoverse_v1", "variants": ["~apmpi", "~apxc", "build_system=autotools", "~bzip2"], "stacks": ["e4s-neoverse_v1", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-neoverse_v1/gcc-11.4.0/darshan-util-3.4.4/linux-ubuntu22.04-neoverse_v1-gcc-11.4.0-darshan-util-3.4.4-img526dj5rl3uljqmcpkssintub64766.spack"}, {"hash": "yyvqtmf3ol7cl3r6wxmykzl7kicl445g", "compiler": "gcc@=11.4.0", "versions": ["3.4.4"], "os": "ubuntu22.04", "platform": "linux", "target": "x86_64_v3", "variants": ["~apmpi", "~apxc", "build_system=autotools", "~bzip2"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2024-05-05/build_cache/linux-ubuntu22.04-x86_64_v3/gcc-11.4.0/darshan-util-3.4.4/linux-ubuntu22.04-x86_64_v3-gcc-11.4.0-darshan-util-3.4.4-yyvqtmf3ol7cl3r6wxmykzl7kicl445g.spack"}]
----

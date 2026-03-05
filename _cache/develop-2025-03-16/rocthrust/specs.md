@@ -1,7 +1,0 @@
----
-title: "rocthrust"
-layout: cache
-categories: [package, develop-2025-03-16]
-meta: {"compilers": ["gcc@=11.4.0"], "num_specs": 3, "num_specs_by_stack": {"e4s": 2, "hep": 1, "root": 3}, "oss": ["ubuntu22.04"], "platforms": ["linux"], "stacks": ["e4s", "hep", "root"], "targets": ["x86_64_v3"], "versions": ["5.7.1", "6.3.2"]}
-spec_details: [{"compiler": "gcc@=11.4.0", "hash": "bj7zxbih3kmqolypgp7r4izmophaqrub", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["amdgpu_target=auto", "build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["6.3.2"]}, {"compiler": "gcc@=11.4.0", "hash": "tgjhafw2elyk2qusltsm6qv7mh3oxclr", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["hep", "root"], "target": "x86_64_v3", "variants": ["amdgpu_target=auto", "build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["5.7.1"]}, {"compiler": "gcc@=11.4.0", "hash": "tk7hu4kphb7jlq4xfey453lhrjdan55l", "os": "ubuntu22.04", "platform": "linux", "size": "-", "stacks": ["e4s", "root"], "target": "x86_64_v3", "variants": ["amdgpu_target=auto", "build_system=cmake", "build_type=Release", "generator=make", "~ipo"], "versions": ["6.3.2"]}]
----

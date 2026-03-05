@@ -1,7 +1,0 @@
----
-title: "py-warpx"
-layout: cache
-categories: [package, develop-2023-08-13]
-meta: {"versions": ["23.07"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["ppc64le", "x86_64_v3"], "stacks": ["e4s", "e4s-power", "root"], "num_specs": 2, "num_specs_by_stack": {"e4s-power": 1, "root": 2, "e4s": 1}}
-spec_details: [{"hash": "x26bemviluosd7emn6zarozs54qfoqje", "compiler": "gcc@=11.1.0", "versions": ["23.07"], "os": "ubuntu20.04", "platform": "linux", "target": "ppc64le", "variants": ["build_system=python_pip", "+mpi"], "stacks": ["e4s-power", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-08-13/build_cache/linux-ubuntu20.04-ppc64le/gcc-11.1.0/py-warpx-23.07/linux-ubuntu20.04-ppc64le-gcc-11.1.0-py-warpx-23.07-x26bemviluosd7emn6zarozs54qfoqje.spack"}, {"hash": "v53xmwqlvjiz7aq5thw5jxwxe3axuj74", "compiler": "gcc@=11.1.0", "versions": ["23.07"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=python_pip", "+mpi"], "stacks": ["root", "e4s"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-08-13/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/py-warpx-23.07/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-py-warpx-23.07-v53xmwqlvjiz7aq5thw5jxwxe3axuj74.spack"}]
----

@@ -1,7 +1,0 @@
----
-title: "pkgconf"
-layout: cache
-categories: [package, v0.18.0]
-meta: {"versions": ["1.8.0"], "compilers": ["gcc@=7.5.0", "gcc@=8.4.0"], "oss": ["ubuntu18.04"], "platforms": ["linux"], "targets": ["x86_64"], "stacks": ["build_systems", "data-vis-sdk", "e4s", "radiuss", "root", "tutorial"], "num_specs": 2, "num_specs_by_stack": {"build_systems": 1, "root": 2, "tutorial": 2, "data-vis-sdk": 1, "e4s": 1, "radiuss": 1}}
-spec_details: [{"hash": "i5po27g2n6zrzxnhxdy2fnpaai7xsdaw", "compiler": "gcc@=7.5.0", "versions": ["1.8.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["build_systems", "root", "tutorial", "data-vis-sdk", "e4s", "radiuss"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-7.5.0/pkgconf-1.8.0/linux-ubuntu18.04-x86_64-gcc-7.5.0-pkgconf-1.8.0-i5po27g2n6zrzxnhxdy2fnpaai7xsdaw.spack"}, {"hash": "ymaijtnq27oqnqjlynr7z56jxr76kzsa", "compiler": "gcc@=8.4.0", "versions": ["1.8.0"], "os": "ubuntu18.04", "platform": "linux", "target": "x86_64", "variants": [], "stacks": ["root", "tutorial"], "size": "-", "tarball": "https://binaries.spack.io/v0.18.0/build_cache/linux-ubuntu18.04-x86_64/gcc-8.4.0/pkgconf-1.8.0/linux-ubuntu18.04-x86_64-gcc-8.4.0-pkgconf-1.8.0-ymaijtnq27oqnqjlynr7z56jxr76kzsa.spack"}]
----

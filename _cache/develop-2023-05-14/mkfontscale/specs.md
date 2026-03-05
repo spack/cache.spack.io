@@ -1,7 +1,0 @@
----
-title: "mkfontscale"
-layout: cache
-categories: [package, develop-2023-05-14]
-meta: {"versions": ["1.2.2"], "compilers": ["gcc@=11.1.0"], "oss": ["ubuntu20.04"], "platforms": ["linux"], "targets": ["x86_64_v3"], "stacks": ["data-vis-sdk", "root"], "num_specs": 2, "num_specs_by_stack": {"data-vis-sdk": 2, "root": 2}}
-spec_details: [{"hash": "6c336ioxz7rsi642q6ovkwqlr4nfo6nx", "compiler": "gcc@=11.1.0", "versions": ["1.2.2"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-05-14/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/mkfontscale-1.2.2/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-mkfontscale-1.2.2-6c336ioxz7rsi642q6ovkwqlr4nfo6nx.spack"}, {"hash": "zktkzlok4gnmxjbpneildrnsh5yiitvk", "compiler": "gcc@=11.1.0", "versions": ["1.2.2"], "os": "ubuntu20.04", "platform": "linux", "target": "x86_64_v3", "variants": ["build_system=autotools"], "stacks": ["data-vis-sdk", "root"], "size": "-", "tarball": "https://binaries.spack.io/develop-2023-05-14/build_cache/linux-ubuntu20.04-x86_64_v3/gcc-11.1.0/mkfontscale-1.2.2/linux-ubuntu20.04-x86_64_v3-gcc-11.1.0-mkfontscale-1.2.2-zktkzlok4gnmxjbpneildrnsh5yiitvk.spack"}]
----
